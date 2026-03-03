@@ -708,3 +708,140 @@
         },
         {
           "type": "single",
+          "question": "Which of the following is not one of the characteristics of a firm's resources?",
+          "options": [
+            "A. Market exists for them.",
+            "B. They have value.",
+            "C. They cannot be consumed.",
+            "D. They can only be used once."
+          ],
+          "correctAnswer": "C",
+          "explanation": "Resources are consumed, can only be used once, have a value, and markets exist for them.",
+          "reference": "Unit 4, Session 1, 1.2 - Characteristics of Resources"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following 4p's of marketing involves all aspects of getting the products to the consumer in the right location at the right time?",
+          "options": [
+            "A. Promotion",
+            "B. Price",
+            "C. Place",
+            "D. Product"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Place (or distribution) is an element of the marketing mix involving all aspects of getting products to the consumer in the right location at the right time.",
+          "reference": "Unit 5, Session 1, 1.3.3 - Place"
+        },
+        {
+          "type": "single",
+          "question": "The medium for gathering information that serves as the foundation for the marketing plan is referred to as ______.",
+          "options": [
+            "A. Marketing strategy",
+            "B. Marketing concepts",
+            "C. Marketing research",
+            "D. Target marketing"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Marketing research is a medium for gathering the information that serves as the foundation for the marketing plan.",
+          "reference": "Unit 5, Session 2, 2.1 - The Nature of Marketing Research"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a marketing strategy to increase firm's sales?",
+          "options": [
+            "A. Market segmentation",
+            "B. Market penetration",
+            "C. Market development",
+            "D. Product development"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Market segmentation is a strategy to subdivide the market, while market penetration, development, and development are strategies to increase sales.",
+          "reference": "Unit 5, Session 3, 3.2 & 3.3 - Choosing a Marketing Strategy & Market Segmentation"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not one of the factors to be considered when assessing the credit worthiness of a firm?",
+          "options": [
+            "A. Capacity",
+            "B. Guarantee",
+            "C. Factoring",
+            "D. Circumstance"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Factoring is a source of short-term finance, not a factor for assessing creditworthiness. The factors are Character, Capacity, Circumstances, Insurance Cover, and Guarantees.",
+          "reference": "Unit 6, Session 3, 3.1 - Sources of Short Term Finance"
+        },
+        {
+          "type": "case-group",
+          "caseStudy": {
+            "title": "Mini Case: Rex Athletes Shop",
+            "fullText": "Rex wants to open a store that caters to athletes, but, due to space and budgetary constraints, he recognizes that he will not be able to offer the same variety and selection of products as the local athletic mega-store. So, he has decided to focus specifically on runners. He stocks shoes and related gear for runners, and maintains a staff that is knowledgeable and enthusiastic about running. Rex's advertising campaign emphasizes his store's high standard of customer service and selection of products specifically tailored to meet the needs of runners."
+          },
+          "questions": [
+            {
+              "question": "In the mini case, the process of dividing the athletic market into different subsets of shoe consumers, such as runners, basketball players, and golfers, is known as ______.",
+              "options": [
+                "A. Market segmentation",
+                "B. Market targeting",
+                "C. Product placement",
+                "D. Product positioning"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Market segmentation involves dividing a market into smaller, more homogeneous segments based on characteristics.",
+              "reference": "Unit 5, Session 3, 3.3 - Market Segmentation"
+            },
+            {
+              "question": "In the case, Rex decides to focus his attention on that segment of the market that is interested in running. This selection of a specific market segment is known as ______.",
+              "options": [
+                "A. Market segmentation",
+                "B. Market targeting",
+                "C. Product placement",
+                "D. Social marketing"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Market targeting involves selecting which segments in a market are appropriate to focus on and designing the means of reaching them.",
+              "reference": "Unit 5, Session 4, 4.2.2 - Market Targeting"
+            },
+            {
+              "question": "By portraying his store as a one-stop-shop for all your running needs, Rex has developed a distinct image for his store. This is an example of ______.",
+              "options": [
+                "A. placement",
+                "B. positioning",
+                "C. segmentation",
+                "D. targeting"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Positioning involves using a carefully selected marketing mix to make a target market see a product as meeting important wants and needs.",
+              "reference": "Unit 5, Session 4, 4.2.3 - Market Positioning"
+            },
+            {
+              "question": "Which of the four elements of the marketing mix does Rex emphasize in positioning his store in the marketplace?",
+              "options": [
+                "A. Place",
+                "B. positioning",
+                "C. product/service",
+                "D. promotion"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Rex emphasizes his store's selection of products specifically tailored to meet the needs of runners.",
+              "reference": "Unit 5, Session 1, 1.3.1 - Product"
+            }
+          ]
+        },
+        {
+          "type": "single",
+          "question": "An instrument issued by a company to acknowledge the loan taken by the company under its common seal is referred to as Shares.",
+          "options": ["A. True", "B. False"],
+          "correctAnswer": "B",
+          "explanation": "A debenture is an instrument issued by a company to acknowledge the loan taken by the company under its common seal.",
+          "reference": "Unit 6, Session 2, 2.1.b - Debentures"
+        },
+        {
+          "type": "single",
+          "question": "Current Ratio is one of the profitability ratios.",
+          "options": ["A. True", "B. False"],
+          "correctAnswer": "B",
+          "explanation": "The current ratio is a liquidity ratio, which measures a firm's ability to meet its short-term obligations.",
+          "reference": "Unit 6, Session 5, 5.2.b - Liquidity Ratios"
+        }
+      ],
