@@ -1,1 +1,631 @@
-
+{
+  "subject": "Sustainable Procurement",
+  "subjectCode": "PCM 401D",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Modern concept of sustainable development focuses more on ______.",
+          "options": [
+            "A. economic development",
+            "B. environmental protection",
+            "C. social development",
+            "D. All of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Sustainable development is defined by the triple-bottom-line, which equally emphasises economic, environmental, and social goals.",
+          "reference": "Unit 1, Session 1, 1.2 - What is sustainable development then?"
+        },
+        {
+          "type": "single",
+          "question": "A promising direction towards sustainable development is to design systems that are ______.",
+          "options": [
+            "A. flexible and irreversible",
+            "B. flexible and reversible",
+            "C. inflexible and irreversible",
+            "D. inflexible and reversible"
+          ],
+          "correctAnswer": "B",
+          "explanation": "To sustain future generations, systems must be adaptable (flexible) and able to be returned to a previous state (reversible), ensuring resources are not permanently depleted.",
+          "reference": "Unit 1, Session 1, 1.1 - Meaning of Sustainability"
+        },
+        {
+          "type": "single",
+          "question": "Mapping the supply chain will improve transparency of sustainable and ethical practice compliance. Is this true?",
+          "options": [
+            "A. No, it will not be possible to identify these",
+            "B. No, supply chain mapping will only identify costs",
+            "C. Yes, but only downstream activities need to be included",
+            "D. Yes, it will help to identify areas of good and poor practice"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Supply chain mapping documents the exact source and flow of materials, which helps to spot potential threats, minimize risk exposure, and demonstrate corporate social responsibility by identifying good and poor practices.",
+          "reference": "Unit 6, Session 1, 1.4 - Supply Chain Mapping"
+        },
+        {
+          "type": "single",
+          "question": "A large electronics manufacturer that uses rare metals in its products has just announced it is to shift its focus more on sustainability in order to safeguard its supply chain. In this context, which of the following could be seen as the main driver for this?",
+          "options": [
+            "A. Financial pressures",
+            "B. Government policy",
+            "C. Increased accountability",
+            "D. Resource scarcity"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The company uses rare metals, which are finite resources. The need to ensure the long-term availability of these scarce resources is a key driver for adopting sustainable practices to secure the supply chain.",
+          "reference": "Unit 1, Session 3, 3.1 - Meaning of Sustainability Risk"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following options is correct when an organisation only accomplish two out of three pillars of sustainable development?",
+          "options": [
+            "A. Economic + Environmental sustainability = Viable",
+            "B. Social + Economic sustainability = Equitable",
+            "C. Social + Environmental sustainability = Bearable",
+            "D. All of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The intersection of any two pillars creates a specific state: Economic + Environmental = Viable, Social + Economic = Equitable, and Social + Environmental = Bearable.",
+          "reference": "Unit 1, Session 1, 1.2.2 - What are the Primary Goals of Sustainability?"
+        },
+        {
+          "type": "single",
+          "question": "ABC is a market leading consumer products manufacturer. It has invested heavily in promoting sustainability throughout its practices and marketing communications. Which of the following is most likely to be the reward for ABC of such an investment?",
+          "options": [
+            "A. Improved brand reputation",
+            "B. Increased number of competitors",
+            "C. Integrated supplier base",
+            "D. Reduced indirect costs"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Promoting sustainability enhances corporate image and public perception, leading to an improved brand reputation and a competitive advantage.",
+          "reference": "Unit 1, Session 4, 4.4 - Benefits of Sustainable Procurement"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following themes cover (s) the environmental focus of sustainability?",
+          "options": [
+            "A. A means to minimize waste",
+            "B. A tool to address climate change",
+            "C. A way to help mitigate overexploitation of scarce resources",
+            "D. All the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The environmental focus of sustainable procurement includes minimizing waste, addressing climate change by reducing carbon, and helping mitigate the overexploitation of scarce resources.",
+          "reference": "Unit 1, Session 4, 4.2 - A. The Environmental Context"
+        },
+        {
+          "type": "single",
+          "question": "Which aspect of sustainable procurement focuses on inclusiveness, equality, diversity, poverty, unemployment, skills development, regeneration, health and well-being?",
+          "options": [
+            "A. Economic",
+            "B. Environmental",
+            "C. Social",
+            "D. All the above"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The social context of sustainable procurement is used as a means to tackle issues such as inclusiveness, equality, diversity, poverty, unemployment, and skills development.",
+          "reference": "Unit 1, Session 4, 4.2 - C. The Social Context"
+        },
+        {
+          "type": "single",
+          "question": "Advancements in technology have supported the drive for globalisation. Is this correct?",
+          "options": [
+            "A. No, increased use of technology has made global trading much more expensive",
+            "B. No, technology has created significantly increased demand for shorter supply chains",
+            "C. Yes, emerging technologies have forced some companies overseas to retain staff",
+            "D. Yes, many barriers to communication have now been removed through technology"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Technological advancements in communication and transportation have removed barriers of space and time, improving global connectivity and mobility, which are key drivers of globalisation.",
+          "reference": "Unit 1, Session 6, 6.3 - Drivers of Globalization"
+        },
+        {
+          "type": "single",
+          "question": "An organisation can manage its reputational risk in relation to its ethical and sustainable procurement practices through which of the following?",
+          "options": [
+            "A. Ensuring equipment is replaced regularly",
+            "B. Implementing responsible procurement policies",
+            "C. Meeting suppliers at third party locations",
+            "D. Reducing supplier profitability"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Implementing responsible procurement policies, which include codes of conduct and sustainability standards, helps to protect the organisation's reputation by ensuring ethical practices throughout the supply chain.",
+          "reference": "Unit 3, Session 5, 3.5 - Reputational Risk"
+        },
+        {
+          "type": "single",
+          "question": "The probability of an unwanted event occurring is best described as ______.",
+          "options": [
+            "A. Insurance",
+            "B. Likelihood",
+            "C. Risk",
+            "D. Uncertainty"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Risk is formally defined as the probability or threat of damage, injury, or any other negative occurrence that may be caused by vulnerabilities.",
+          "reference": "Unit 3, Session 5, 3.1 - Risk and Vulnerability"
+        },
+        {
+          "type": "single",
+          "question": "______ is the net affective or emotional reaction, good or bad, weak or strong, of customers, investors, employees and the general public to the company's name.",
+          "options": [
+            "A. Advertisement",
+            "B. Brand image",
+            "C. Corporate reputation",
+            "D. None of the above"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Corporate reputation is defined as the overall estimation in which a company is held, representing the net affective or emotional reaction of its constituents.",
+          "reference": "Unit 3, Session 5, 3.5 - Reputational Risk"
+        },
+        {
+          "type": "single",
+          "question": "The process of notifying a tenderer that they have been selected as the supplier for a particular contract is known as ______.",
+          "options": [
+            "A. Contact signing",
+            "B. Contract award",
+            "C. Contract execution",
+            "D. Contract initiation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Contract award refers specifically to the process of notifying a tenderer that they have been selected as the supplier for a particular contract.",
+          "reference": "Unit 5, Session 3, 3.1 - Contract Award"
+        },
+        {
+          "type": "single",
+          "question": "It advisable to consider tenders with ______.",
+          "options": [
+            "A. high prices",
+            "B. high supply risk",
+            "C. lower supply risk",
+            "D. lowest prices only"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Tenders can be risk-evaluated, and points awarded to those bids with lower risk supply, as this helps minimize potential negative impacts on the environment, economy, and ecology.",
+          "reference": "Unit 5, Session 3, 3.2 - Capturing sustainable elements in objective and transparent tender evaluation for contract award"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a key principle of sustainability?",
+          "options": [
+            "A. Satisfying the interest of stakeholders",
+            "B. Satisfying the needs of the organisation",
+            "C. The need to control organisational performance",
+            "D. All the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A key principle of sustainability is the need to satisfy the needs and interests of an extended group of stakeholders, which implies the need to control organisational performance by setting clear goals and monitoring progress.",
+          "reference": "Unit 5, Session 4, 4.2 - Objectives of Measuring Performance"
+        },
+        {
+          "type": "single",
+          "question": "The triple bottom line recognises the need for businesses to measure their performance by how well they further only the interests of their primary stakeholders.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The triple bottom line (TBL) recognises the need for businesses to measure performance not just by how well they further the interests of primary stakeholders (profit), but also how well they further or protect the interests of secondary stakeholders regarding social and environmental sustainability.",
+          "reference": "Unit 5, Session 5, 5.8 - The Triple Bottom Line theory"
+        },
+        {
+          "type": "single",
+          "question": "Continuous improvement can be achieved through early supplier involvement.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Early Supplier Involvement (ESI) enables pre-qualified suppliers to contribute expertise, which can lead to improved product or service design and reduced process costs or wastes, thereby supporting continuous improvement.",
+          "reference": "Unit 4, Session 3, 4.5 - Early Supplier Involvement"
+        },
+        {
+          "type": "single",
+          "question": "Contract management is the same as relationship management.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "While related, they are not the same. Contract management focuses on the performance of specific contracts, whereas relationship management is often used to describe the management of an ongoing relationship with a supplier beyond individual transactions.",
+          "reference": "Unit 5, Session 6, 6.5 - Contract and Supplier Management"
+        },
+        {
+          "type": "single",
+          "question": "Supply chain mapping refers to documenting the exact sources and flow of materials, activities and processes within the value chain.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Supply chain mapping is precisely the process of documenting the exact source and flow of materials, activities, and processes within the value chain.",
+          "reference": "Unit 6, Session 1, 1.4 - Supply Chain Mapping"
+        },
+        {
+          "type": "single",
+          "question": "A source of potential damage, harm, accident or anything adverse either to persons, properties or events is known as a hazard.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A hazard is defined as a source of potential damage, harm, accident, or anything adverse either to persons, properties, or events.",
+          "reference": "Unit 6, Session 2, 2.2.1 - A hazard"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain three factors considered by firms when they engage in sustainable procurement.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "When engaging in sustainable procurement, firms consider a range of factors that go beyond traditional economic parameters to include social and environmental impacts.",
+                  "mainPoints": [
+                    {
+                      "heading": "Value for Money and Whole Life Costing",
+                      "detail": "Firms look beyond the initial purchase price to consider the total cost of ownership over the product's lifetime, including operation, maintenance, and disposal costs."
+                    },
+                    {
+                      "heading": "Environmental Impact",
+                      "detail": "Firms assess the effects of a product or service on the environment throughout its whole life cycle (\"from cradle to grave\"), such as carbon emissions, waste, and resource depletion."
+                    },
+                    {
+                      "heading": "Social and Ethical Considerations",
+                      "detail": "Firms evaluate the social consequences of their purchasing decisions, including labour conditions, human rights, fair trade practices, and the impact on local communities."
+                    }
+                  ],
+                  "conclusion": "These three core factors—economic, environmental, and social—form the foundation of sustainable procurement, ensuring decisions create long-term value for the organisation, society, and the planet.",
+                  "otherPossibleAnswers": "Risk Management: Assessing and mitigating risks related to supply chain security, price volatility, and reputational damage from unethical practices. Stakeholder Expectations: Responding to the demands of customers, investors, employees, and regulators for more responsible business conduct.",
+                  "reference": "Unit 1, Session 4, 4.1 - Definition and nature of sustainable procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain three factors that need to be considered during requirement definition with regards to the social aspect of sustainability.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Defining requirements for a purchase must incorporate social sustainability to ensure ethical practices and positive community impact throughout the supply chain.",
+                  "mainPoints": [
+                    {
+                      "heading": "Health and Safety Standards",
+                      "detail": "Specifications should ensure products and services meet high health and safety standards to protect users and workers, such as requiring electrical equipment to be certified safe."
+                    },
+                    {
+                      "heading": "Local Production",
+                      "detail": "Sourcing from local suppliers can be a requirement to ensure that economic benefits, such as job creation and inward investment, are felt within the local community."
+                    },
+                    {
+                      "heading": "Ethically Sourced Goods",
+                      "detail": "Requirements should specify that products are sourced ethically, ensuring they are not produced using child labour or exploitative practices, and meet recognised fair-trade standards."
+                    }
+                  ],
+                  "conclusion": "By embedding these social factors into requirement definitions, organisations can use their purchasing power to promote human rights, support local economies, and foster fair labour conditions.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.6.3 - Requirement definition (Table)"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain joint performance appraisal and assess three objectives.",
+                "marks": 8,
+                "commandWord": "Explain and Assess",
+                "answer": {
+                  "introduction": "Joint Performance Appraisal (JPA) is a collaborative approach where both the buyer and the supplier assess each other's performance to foster a mutually beneficial and sustainable relationship.",
+                  "mainPoints": [
+                    {
+                      "heading": "Recognise Buyer Impact on Supply Chain",
+                      "detail": "One key objective is to identify how the buyer's own processes and behaviours (e.g., late payments, adversarial negotiations) negatively affect the supplier's performance, efficiency, and sustainability."
+                    },
+                    {
+                      "heading": "Identify and Resolve Relationship Problems",
+                      "detail": "JPA aims to pinpoint problems within the buyer-supplier relationship that may hinder the performance of either party, with the goal of collaborative problem resolution."
+                    },
+                    {
+                      "heading": "Support Long-Term Value Creation",
+                      "detail": "The process seeks to support long-term, value-adding relationships by ensuring that both parties share risks and rewards equitably, creating a stable and trusting partnership."
+                    }
+                  ],
+                  "conclusion": "JPA moves beyond traditional one-sided performance management to create a transparent dialogue that drives mutual improvement and strengthens the entire supply chain.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 6, 6.4 - Joint Performance Appraisal (JPA)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain sustainability reporting and assess three internal benefits of sustainability reporting for organisations.",
+                "marks": 8,
+                "commandWord": "Explain and Assess",
+                "answer": {
+                  "introduction": "A sustainability report is a publication by an organisation about the economic, environmental, and social impacts of its everyday activities, demonstrating its commitment to sustainable development.",
+                  "mainPoints": [
+                    {
+                      "heading": "Increased Understanding of Risks and Opportunities",
+                      "detail": "Internally, the reporting process forces a company to analyse its operations, leading to a better understanding of potential sustainability-related risks and opportunities for innovation."
+                    },
+                    {
+                      "heading": "Streamlining Processes and Improving Efficiency",
+                      "detail": "To report accurately, organisations often review their processes, which can help identify inefficiencies, reduce costs, and streamline operations for better environmental and economic performance."
+                    },
+                    {
+                      "heading": "Influencing Long-Term Strategy and Policy",
+                      "detail": "The insights gained from sustainability reporting can directly inform and influence the company's long-term management strategy, policy, and business plans, embedding sustainability into core decision-making."
+                    }
+                  ],
+                  "conclusion": "Sustainability reporting provides significant internal benefits by enhancing strategic awareness, operational efficiency, and long-term planning.",
+                  "otherPossibleAnswers": "Benchmarking Performance: It allows a company to benchmark its sustainability performance against laws, norms, and industry standards. Comparing Performance Internally: It facilitates the comparison of performance between different departments or over time within the organisation.",
+                  "reference": "Unit 6, Session 6, 6.5 - Sustainability reporting"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain three challenges that may be faced by an organisation that does not adopt the sustainability mantra.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "An organisation that fails to adopt sustainable practices exposes itself to significant challenges that can undermine its financial stability, operations, and reputation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Financial Risks",
+                      "detail": "The organisation may face higher costs due to poor supply chain management, fines for non-compliance with environmental regulations, and potential liability from lawsuits."
+                    },
+                    {
+                      "heading": "Operational Risks",
+                      "detail": "Unsustainable practices can lead to supply chain disruptions, such as quality issues from suppliers, unmanaged health and safety hazards, and supply shortages, impacting production and service delivery."
+                    },
+                    {
+                      "heading": "Reputational Risks",
+                      "detail": "The exposure of unethical, socially irresponsible, or environmentally damaging activities can severely damage the company's brand image, erode customer trust, and make it less attractive to investors and employees."
+                    }
+                  ],
+                  "conclusion": "Ignoring sustainability creates a deficit that leads to tangible risks, making the organisation less competitive, more vulnerable to disruptions, and prone to damaging its most valuable intangible asset: its reputation.",
+                  "otherPossibleAnswers": "Compliance and Liability Risk: Exposure to legal action and penalties for illegal or irresponsible activity, including workplace health and safety failures.",
+                  "reference": "Unit 3, Session 5, 3.3 - Effects of Sustainability Deficit"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State three advantages of using sustainability Key Performance Indicators.",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Using Key Performance Indicators (KPIs) for sustainability provides a structured way to measure, manage, and improve a company's environmental, social, and economic performance.",
+                  "mainPoints": [
+                    {
+                      "heading": "Supports Collaborative Relations",
+                      "detail": "They enable integrated or two-way performance measurement, fostering better collaboration between buyers and suppliers."
+                    },
+                    {
+                      "heading": "Facilitates Performance Comparison",
+                      "detail": "KPIs allow for a direct comparison of year-on-year performance, making it easy to identify improvement or deterioration trends over time."
+                    },
+                    {
+                      "heading": "Focuses on Key Results Areas",
+                      "detail": "They concentrate effort on critical success factors such as cost management, reputational protection, and environmental compliance."
+                    }
+                  ],
+                  "conclusion": "By providing clear, measurable targets, sustainability KPIs drive performance, enhance transparency, and support strategic objectives.",
+                  "otherPossibleAnswers": "Motivation: Clear targets can motivate employees and suppliers to achieve or surpass specified performance levels, especially when linked to incentives. Defines Shared Goals: Clearly defined goals facilitate cross-functional and cross-organisational teamwork towards common sustainability objectives.",
+                  "reference": "Unit 5, Session 5, 5.5 - Advantages and disadvantages of using sustainability KPIS"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Examine four drivers of globalisation in supply chains using an environmental analysis tool of your choice.",
+                "marks": 8,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Globalisation in supply chains is driven by interconnected factors that can be examined using a PESTLE analysis (Political, Economic, Social, Technological, Legal, Environmental).",
+                  "mainPoints": [
+                    {
+                      "heading": "Political Driver (Trade Liberalisation)",
+                      "detail": "The lowering of trade barriers (tariffs and quotas) through political agreements and policies, such as those within the European Union, encourages the freer cross-border movement of goods and services."
+                    },
+                    {
+                      "heading": "Economic Driver (Cost Differences)",
+                      "detail": "Significant differences in the costs of labour, land, and capital between countries drive companies to outsource and invest globally to reduce production costs and remain competitive."
+                    },
+                    {
+                      "heading": "Technological Driver (Rapid Change in Technology)",
+                      "detail": "Advancements in information technology (e.g., the internet, video conferencing) and transportation (e.g., efficient air freight) have drastically reduced communication and logistics costs, enabling complex global networks."
+                    },
+                    {
+                      "heading": "Social Driver (Converging Consumer Tastes)",
+                      "detail": "The spread of information and cultural exchange through media has led to more homogenised global consumer tastes, creating larger markets for standardised products and enabling economies of scale."
+                    }
+                  ],
+                  "conclusion": "The interplay of political, economic, technological, and social factors, as highlighted by a PESTLE analysis, has created a powerful force driving the expansion and complexity of global supply chains.",
+                  "otherPossibleAnswers": "Legal Driver: The spread of international trade and investment laws that provide a more stable and predictable framework for cross-border business. Environmental Driver: While complex, global awareness of shared environmental challenges can lead to international environmental standards and agreements that shape global supply chain practices.",
+                  "reference": "Unit 1, Session 6, 6.3 - Drivers of Globalization"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State four benefits of sustainable procurement.",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Sustainable procurement offers a range of benefits that contribute to an organisation's efficiency, resilience, and reputation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Minimise business risk",
+                      "detail": "It helps identify and manage supply chain risks related to ethics, environment, and security of supply."
+                    },
+                    {
+                      "heading": "Provide cost savings",
+                      "detail": "By focusing on whole-life costing and resource efficiency, it can lead to long-term savings through reduced use, reuse, and recycling."
+                    },
+                    {
+                      "heading": "Enhance corporate image",
+                      "detail": "It demonstrates the organisation's value and commitment to responsibility, building trust with customers and stakeholders."
+                    },
+                    {
+                      "heading": "Secure the supply of goods and services",
+                      "detail": "It helps ensure long-term availability of resources by proactively managing environmental and social issues that could disrupt supply."
+                    }
+                  ],
+                  "conclusion": "These benefits show that sustainable procurement is not just an ethical choice but a strategic one that improves business performance and resilience.",
+                  "otherPossibleAnswers": "Create markets for new products and services: It can drive innovation and create demand for new, more sustainable technologies and products. Reduce waste and improve resource efficiency: It encourages practices that minimise waste and make more efficient use of materials.",
+                  "reference": "Unit 1, Session 4, 4.4 - Benefits of Sustainable Procurement"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain the risk management cycle using relevant examples.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The risk management cycle is a systematic process for identifying, assessing, and controlling threats to an organisation's capital and earnings.",
+                  "mainPoints": [
+                    {
+                      "heading": "Risk Identification",
+                      "detail": "The first step is to find potential problems. Example: A clothing retailer mapping its supply chain to identify all its Tier 1, 2, and 3 suppliers and the countries they operate in to pinpoint areas with poor labour records."
+                    },
+                    {
+                      "heading": "Risk Assessment/Evaluation",
+                      "detail": "Once identified, risks are analysed to understand their probability and potential impact. Example: The retailer assesses the probability of a supplier using child labour as high in a particular region and determines the potential impact as severe reputational damage and financial loss."
+                    },
+                    {
+                      "heading": "Risk Mitigation (The 4 Ts)",
+                      "detail": "Strategies are developed to manage the risk, such as Tolerating, Transferring, Terminating, or Treating it. Example: The retailer decides to Treat the risk by developing a supplier code of conduct and conducting regular audits (Treat), while also transferring some financial risk through insurance (Transfer)."
+                    },
+                    {
+                      "heading": "Monitoring, Reporting and Review",
+                      "detail": "The risk situation is continuously monitored, and the plan is reviewed and updated. Example: The retailer establishes a system for ongoing supplier monitoring, reviews audit reports quarterly, and updates its risk assessment if new issues are found in a region."
+                    }
+                  ],
+                  "conclusion": "The risk management cycle is a continuous, iterative loop that helps organisations proactively manage uncertainty and build a more resilient and sustainable supply chain.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 5, 3.6 - Risk Management Cycle; Unit 6, Session 2, 2.4 - Managing Risk"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Analyse three potential advantages and disadvantages each of the use of sustainability standards within the sourcing process.",
+                "marks": 8,
+                "commandWord": "Analyse",
+                "answer": {
+                  "introduction": "Using established sustainability standards in sourcing provides a clear framework for compliance but also introduces specific challenges for both buyers and suppliers.",
+                  "mainPoints": [
+                    {
+                      "heading": "Advantage 1: Clear Specifications and Reduced Ambiguity",
+                      "detail": "Standards provide clear, unambiguous requirements, reducing the potential for errors, misunderstandings, and conflicts with suppliers about what is required."
+                    },
+                    {
+                      "heading": "Advantage 2: Accurate Comparison of Bids",
+                      "detail": "Because all suppliers quote against the same specifications, the buyer can make accurate, like-for-like comparisons, ensuring a fair and objective evaluation process."
+                    },
+                    {
+                      "heading": "Advantage 3: Wider Range of Potential Suppliers",
+                      "detail": "The use of widely recognised standards opens up the competition to a larger pool of suppliers who are already familiar with and certified to those standards, reducing reliance on niche providers."
+                    },
+                    {
+                      "heading": "Disadvantage 1: Potential to Disadvantage Small/Diverse Suppliers",
+                      "detail": "Strict, prescriptive standards (like requiring ISO 14001 certification) may be too costly or resource-intensive for small or developing-country suppliers to obtain, potentially excluding them from the process."
+                    },
+                    {
+                      "heading": "Disadvantage 2: Can Be Inflexible",
+                      "detail": "Standards may not allow for innovative or context-specific solutions that could be more sustainable than the standard prescribes, potentially stifling creativity."
+                    },
+                    {
+                      "heading": "Disadvantage 3: Focus on \"Inputs\" Not Always \"Outcomes\"",
+                      "detail": "A standard certifies a process or system, not necessarily the final outcome. A supplier with a certified management system might still have poor environmental or social performance in practice."
+                    }
+                  ],
+                  "conclusion": "While sustainability standards bring clarity and comparability to sourcing, they must be applied thoughtfully to avoid excluding innovative or smaller suppliers and ensure they lead to genuine performance improvements.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 4.5 & 4.6 - The use of standards in specifications; Unit 4, Session 3, 4.3 - Responsible Purchasing Initiative; Unit 5, Session 2, 2.3 - Sustainable Process for Pre-Qualification"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four factors that needs to be considered by firms during the requirement definition stage with regards to the Environmental aspect of sustainability.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "When defining requirements for a purchase, firms must consider the product's environmental impact across its entire life cycle, from design to disposal.",
+                  "mainPoints": [
+                    {
+                      "heading": "Resource, Energy and Water Efficiency",
+                      "detail": "Consider the running costs and environmental footprint by specifying energy-efficient equipment (e.g., Energy Star rated) and products that minimise resource consumption during use."
+                    },
+                    {
+                      "heading": "Maximum Durability, Repairability, and Recyclability",
+                      "detail": "Specify long-life products that are designed to be repaired, reused, or easily recycled at the end of their life, rather than single-use or disposable items."
+                    },
+                    {
+                      "heading": "Minimum Packaging",
+                      "detail": "Requirements should call for the minimum amount of packaging necessary for protection, reducing waste that the firm will have to pay to dispose of later."
+                    },
+                    {
+                      "heading": "Use of Recycled or Non-Toxic Materials",
+                      "detail": "Where possible, specify products made from post-consumer recycled materials and those that avoid toxic chemicals, which reduces pollution and health risks for users."
+                    }
+                  ],
+                  "conclusion": "By integrating these environmental criteria into the requirement definition, firms can significantly reduce the ecological footprint of their purchases and promote more sustainable production methods.",
+                  "otherPossibleAnswers": "Fit for Purpose: Ensure the product is suitable for all potential users, preventing waste from unsuitable purchases. Design for Disassembly: Specify products designed so materials (especially plastics and metals) can be easily separated for recycling at end-of-life.",
+                  "reference": "Unit 1, Session 5, 5.6.3 - Requirement definition (Table)"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State three disadvantages of using sustainability Key Performance Indicators.",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "While useful, sustainability KPIs can have negative consequences if they are poorly designed or implemented.",
+                  "mainPoints": [
+                    {
+                      "heading": "Dysfunctional Behaviour",
+                      "detail": "The pursuit of a specific KPI can lead to dysfunctional or sub-optimal behaviour, such as cutting corners on quality or service to hit an efficiency target."
+                    },
+                    {
+                      "heading": "Sub-Optimisation",
+                      "detail": "Achieving one KPI might come at the expense of another important business area. For example, cost reduction KPIs could be met by sourcing from low-cost suppliers, which might damage quality or sustainability objectives."
+                    },
+                    {
+                      "heading": "Limited Focus",
+                      "detail": "To be effective, KPIs must be limited in number and focused only on critical success factors. This can mean they ignore other equally important areas of performance, creating a narrow view."
+                    }
+                  ],
+                  "conclusion": "To be effective, sustainability KPIs must be carefully designed, balanced, and monitored to prevent unintended negative consequences and ensure they support, rather than undermine, overall business goals.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.6 - Conversely, it is worth nothing that KPIS can have some disadvantages as well."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
