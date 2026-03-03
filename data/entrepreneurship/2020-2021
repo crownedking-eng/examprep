@@ -377,4 +377,334 @@
                   "mainPoints": [
                     {
                       "heading": "Introductory Stage",
-                      "detail": "The product
+                      "detail": "The product is presented to consumers. Activities: High marketing costs, low or negative profits, advertising to gain recognition."
+                    },
+                    {
+                      "heading": "Growth Stage",
+                      "detail": "Consumers begin to accept the product, and sales rise. Activities: Sales and profit margins rise, competitors may enter the market."
+                    },
+                    {
+                      "heading": "Maturity Stage",
+                      "detail": "Sales volume continues to rise but profit margins peak and begin to fall. Activities: Increased competition, price reductions to hold market share."
+                    },
+                    {
+                      "heading": "Decline Stage",
+                      "detail": "Sales continue to drop, and profit margins fall drastically. Activities: Decisions to continue selling, discontinue, or introduce new products."
+                    }
+                  ],
+                  "conclusion": "Understanding the PLC enables management to make informed decisions about a product's future and the need for innovation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.2.2 - The Product Life Cycle"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Explain the two main pricing approaches available to small business owners.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Small business owners commonly adopt two main approaches to pricing their products or services.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market pricing",
+                      "detail": "Pricing according to what the market will bear, considering the maximum price a customer is prepared to pay and competitors' prices."
+                    },
+                    {
+                      "heading": "Cost-plus pricing",
+                      "detail": "Deciding prices by calculating total costs and adding what is judged to be an adequate element of profit."
+                    }
+                  ],
+                  "conclusion": "In practice, pricing is often a compromise between covering costs and meeting customer and competitive expectations.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.3.1 - Approaches to pricing"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Finance plays a vital role in business activities. Discuss four major roles of finance in small enterprise development.",
+                "marks": 8,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Finance, often described as the lifeblood of a business, is essential at every stage of a small enterprise's development.",
+                  "mainPoints": [
+                    {
+                      "heading": "Start-ups",
+                      "detail": "Finance is needed as initial or seed capital to purchase assets, materials, employ people, and cover running costs."
+                    },
+                    {
+                      "heading": "Expansion",
+                      "detail": "As a business grows, finance is needed for higher capacity and new technology to cut costs and keep up with competitors."
+                    },
+                    {
+                      "heading": "Develop and market new products",
+                      "detail": "Funds are required to research, develop, and market new products to survive in a competitive market."
+                    },
+                    {
+                      "heading": "To enter new markets",
+                      "detail": "Finance supports activities like research and advertising campaigns needed to sell products in new geographical areas or to new customer types."
+                    }
+                  ],
+                  "conclusion": "Without adequate finance at the appropriate time, a small business may struggle to survive or fulfill its potential.",
+                  "otherPossibleAnswers": "Take-over or acquisition, Moving to new premises, Operating expenses.",
+                  "reference": "Unit 6, Session 1, 1.1 - The Importance of Finance in Business"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Examine four factors that may influence the choice of finance for small and medium enterprises.",
+                "marks": 8,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "A business needs to assess different types of finance based on several key criteria to choose the most appropriate source.",
+                  "mainPoints": [
+                    {
+                      "heading": "Amount of money required",
+                      "detail": "Large amounts may not be available through some sources, while others may not offer flexibility for smaller amounts."
+                    },
+                    {
+                      "heading": "How quickly the money is needed",
+                      "detail": "The longer a business spends trying to raise money, the cheaper the source is likely to be."
+                    },
+                    {
+                      "heading": "The cheapest option available",
+                      "detail": "The cost of finance is measured by the extra money paid, such as interest, with trading profits being the cheapest form."
+                    },
+                    {
+                      "heading": "The amount of risk involved",
+                      "detail": "Lenders may not lend to higher-risk ventures without guarantees, as risk affects the likelihood of repayment."
+                    }
+                  ],
+                  "conclusion": "The final choice will balance these factors against the firm's assets and its willingness to accept risk.",
+                  "otherPossibleAnswers": "The length of time the finance is needed.",
+                  "reference": "Unit 6, Session 1, 1.2 - Factors that Influence the Choice of Finance"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Differentiate between preference share and a debenture.",
+                "marks": 4,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "Preference shares and debentures are both sources of long-term finance but have different characteristics.",
+                  "mainPoints": [
+                    {
+                      "heading": "Preference Share",
+                      "detail": "Represents a hybrid form of financing. Dividend is payable only out of profits and is not an obligatory payment."
+                    },
+                    {
+                      "heading": "Debenture",
+                      "detail": "Represents a loan taken by the company. Interest is an obligatory payment that must be paid even if the company makes a loss."
+                    }
+                  ],
+                  "conclusion": "Preference shares are ownership capital with discretionary returns, while debentures are debt capital with mandatory interest payments.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 2, 2.1.a & 2.1.b - Preference Shares & Debentures"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Starting a new business and buying an existing business which one do you prefer given the opportunity with all the available resources? Give four reasons to support your answer.",
+                "marks": 8,
+                "commandWord": "Which one do you prefer and give reasons",
+                "answer": {
+                  "introduction": "Given the opportunity with all available resources, I would prefer starting a new business.",
+                  "mainPoints": [
+                    {
+                      "heading": "Clean Sheet",
+                      "detail": "The business starts with no backlog of problems, creating new challenges rather than inheriting old ones."
+                    },
+                    {
+                      "heading": "Match between founder and enterprise",
+                      "detail": "I can ensure my individual strengths are well used by choosing a business that matches my qualities and experiences."
+                    },
+                    {
+                      "heading": "Less funds required",
+                      "detail": "A new business start-up that works would cost less than buying a similar existing business."
+                    },
+                    {
+                      "heading": "Creation and Control",
+                      "detail": "As the owner, I have freedom of choice and maximum control over what the business does and how it operates."
+                    }
+                  ],
+                  "conclusion": "Starting a new business allows for a clean slate, personal control, and a venture perfectly aligned with one's own vision and strengths.",
+                  "otherPossibleAnswers": "Satisfaction of success due to one's own effort; Help from various government agencies.",
+                  "reference": "Unit 2, Session 1, 1.2.1 - Advantages of Starting Your Own Small Business"
+                }
+              },
+              {
+                "label": "b",
+                "question": "The franchisee normally enters in a business that has an accepted name, product or services. Identify and explain three merits and three demerits of franchising to the franchisee.",
+                "marks": 12,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Franchising offers individuals the opportunity to own a business with a higher probability of success, but it also has specific drawbacks for the franchisee.",
+                  "mainPoints": [
+                    {
+                      "heading": "Merit: Product acceptance",
+                      "detail": "The franchisee enters a business with an accepted name and product, eliminating the need to build credibility from scratch."
+                    },
+                    {
+                      "heading": "Merit: Management training and support",
+                      "detail": "Franchisors offer managerial training programs and follow-up counselling services to educate new owners."
+                    },
+                    {
+                      "heading": "Merit: Knowledge of the market",
+                      "detail": "Established franchisors offer years of market experience, providing a detailed profile of the target customer."
+                    },
+                    {
+                      "heading": "Demerit: Franchise fees and profit sharing",
+                      "detail": "The financial costs are considerable, with large upfront fees and high royalties paid from sales revenues."
+                    },
+                    {
+                      "heading": "Demerit: Lack of independence",
+                      "detail": "The franchisee must adhere to the franchisor's operating standards to protect the public image, limiting autonomy."
+                    },
+                    {
+                      "heading": "Demerit: Limited product line",
+                      "detail": "The franchise agreement typically states that the franchisee can sell only those products approved by the franchisor."
+                    }
+                  ],
+                  "conclusion": "A potential franchisee must carefully weigh the benefits of an established system and support against the costs, loss of freedom, and operational restrictions.",
+                  "otherPossibleAnswers": "Merits: Standardized quality goods/services. Demerits: Less freedom, Unsatisfactory training programmes.",
+                  "reference": "Unit 2, Session 6, 6.3.1 & 6.3.2 - Advantages and Disadvantages for Franchisees"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "semester": "Semester II",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Kwesi pursued carpentry and joining program at the Kumasi Technical Institute. After a successful completion of his program, he started his own carpentry shop and now has two apprentices working with him.\n   Kwesi can be classified as ______ entrepreneur.",
+          "options": [
+            "A. Craft",
+            "B. Nascent",
+            "C. Novice",
+            "D. Opportunist"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Craft entrepreneurs participate directly in the work of the enterprise, including participating manually, and are responsible for the training of apprentices.",
+          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
+        },
+        {
+          "type": "single",
+          "question": "An original, functional model of a product that potential customers can see, test and use is called ______.",
+          "options": [
+            "A. Business model",
+            "B. Usable product",
+            "C. Prototype",
+            "D. Concept"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The text mentions that a prototype should be tested by independent testers to check for weak points, implying it is a functional model.",
+          "reference": "Unit 2, Session 3, 3.3.1 - Evaluation-Related Questions"
+        },
+        {
+          "type": "single",
+          "question": "Mr. Agyeman Badu a tutor at Abura R/C primary school was elected as the parliamentary candidate for Cape Coast constituency and failed to retain his seat after 8 years in parliament. Having no political appointment and also not considering to go back to the classroom, started his own private business. Mr. Agyeman Badu can be classified under which of the sociological approaches to entrepreneurship?",
+          "options": [
+            "A. Positive Push",
+            "B. Negative Displacement",
+            "C. Between Things",
+            "D. Positive Pull"
+          ],
+          "correctAnswer": "C",
+          "explanation": "People who are \"between things,\" such as politicians no longer in politics looking for something else to do, are more likely to seek entrepreneurial outlets.",
+          "reference": "Unit 1, Session 3, 3.2.2 - Between Things"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following methods of generating business idea appoints a moderator to lead a group of people through an open, in death discussion rather than simply asking questions to solicit response?",
+          "options": [
+            "A. Brainstorming",
+            "B. Research and development",
+            "C. Focus group",
+            "D. Problem inventory analysis"
+          ],
+          "correctAnswer": "C",
+          "explanation": "In focus groups, a moderator leads a group through an open, in-depth discussion rather than simply asking questions to solicit a response.",
+          "reference": "Unit 2, Session 2, 2.2.1 - Focus Groups"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following government agencies is not responsible for the development of small and medium enterprises in Ghana?",
+          "options": [
+            "A. National Board for Small Scale Industry (NBSSI)",
+            "B. Business Assistance Fund (BAF)",
+            "C. Venture Capital Trust Fund (VCTF)",
+            "D. National Disaster Management Organization (NADMO)"
+          ],
+          "correctAnswer": "D",
+          "explanation": "NADMO is responsible for disaster management, while NBSSI, BAF, and VCTF are institutions established to support small-scale enterprises.",
+          "reference": "Unit 6, Session 4 - Government and Institutional Support to Small Scale Enterprises"
+        },
+        {
+          "type": "single",
+          "question": "According to Hisrich and Peters which of the following is the largest source of new business idea?",
+          "options": [
+            "A. Customer",
+            "B. Existing companies",
+            "C. Research and development",
+            "D. Distribution channel"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Hisrich and Peters point out that the largest source for new ideas is the entrepreneur's own \"research and development.\"",
+          "reference": "Unit 2, Session 2, 2.1.5 - Research and Development"
+        },
+        {
+          "type": "single",
+          "question": "Stephen, the general manager of PKB Ltd negotiated with the current owners of the same business and bought 80% shares to become a part-owner. Which option of small business purchase is this?",
+          "options": [
+            "A. Outright purchase",
+            "B. Buy-in management buy-out (BIMBO)",
+            "C. Buy-in",
+            "D. Buy-out"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Buy-outs commonly refer to the purchase of a business, or a significant part of it, by its current management.",
+          "reference": "Unit 2, Session 4, 4.1.3 - Buy-out"
+        },
+        {
+          "type": "single",
+          "question": "The name and address of the company, the name of the entrepreneur and his contact numbers can be found at which section of the business plan?",
+          "options": [
+            "A. Executive Summary",
+            "B. Introductory Page",
+            "C. Industry analysis",
+            "D. Organizational plan"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The introductory page is the title or cover page and should contain the name and address of the company and the name of the entrepreneur(s).",
+          "reference": "Unit 3, Session 4, 4.1 - Introductory Page"
+        },
+        {
+          "type": "single",
+          "question": "New venture goes through phases, which of the following is not part of the phases.",
+          "options": [
+            "A. Mid start – up",
+            "B. Pre start – up",
+            "C. Start – up",
+            "D. Post start – up"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A new venture goes through three phases: pre-start-up, start-up, and post-start-up. \"Mid start-up\" is not a defined phase.",
+          "reference": "Unit 2, Session 3, 3.1.1 - The Phases of a New Venture"
+        },
+        {
+          "type": "single",
