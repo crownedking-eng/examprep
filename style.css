@@ -471,6 +471,113 @@ details[open] .case-summary::after { transform: rotate(180deg); }
   color: var(--wrong);
 }
 
+/* ─── LOADING SCREEN ─────────────────────────────────────────────────────── */
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 16px;
+  padding: 32px;
+  text-align: center;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.75s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading-msg {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  color: var(--ink-3);
+  line-height: 1.5;
+}
+
+.loading-msg code {
+  background: var(--surface-2);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.85em;
+}
+
+.error-icon {
+  font-size: 2.5rem;
+}
+
+/* ─── STATIC CASE BLOCK (Section A grouped MCQ) ─────────────────────────── */
+/* Not collapsible — stays visible while cycling through grouped questions.   */
+.case-static {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 14px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.case-static-title {
+  padding: 12px 18px;
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent);
+  border-bottom: 1px solid var(--border);
+  background: var(--accent-light);
+}
+
+.case-static-body {
+  padding: 14px 18px;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--ink-2);
+}
+.case-static-body p { margin-bottom: 8px; }
+.case-static-body p:last-child { margin-bottom: 0; }
+
+/* ─── KEY FACTS DROPDOWN (Section B only) ────────────────────────────────── */
+.keyfacts-details { margin-top: -6px; } /* tuck neatly below full case */
+
+.keyfacts-summary {
+  color: var(--accent-2);           /* amber to visually distinguish from case */
+}
+
+.keyfacts-list {
+  list-style: none;
+  padding: 4px 18px 14px;
+  margin: 0;
+  border-top: 1px solid var(--border);
+}
+
+.keyfacts-list li {
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  color: var(--ink-2);
+  line-height: 1.5;
+  padding: 7px 0 7px 20px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+.keyfacts-list li:last-child { border-bottom: none; }
+
+.keyfacts-list li::before {
+  content: "•";
+  position: absolute;
+  left: 4px;
+  color: var(--accent-2);
+  font-weight: 700;
+}
+
 /* ─── RESPONSIVE ─────────────────────────────────────────────────────────── */
 @media (min-width: 480px) {
   .screen { padding: 32px 24px 60px; }
@@ -481,4 +588,100 @@ details[open] .case-summary::after { transform: rotate(180deg); }
 
 @media (min-width: 640px) {
   .screen { padding: 40px 32px 80px; }
+}
+
+/* ─── SECTION B ENHANCEMENTS ─────────────────────────────────────────────── */
+.command-word-label {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  padding: 4px 10px;
+  background: var(--surface-2);
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.other-answers {
+  border-top: 1px dashed var(--border);
+  padding-top: 12px;
+  margin-top: 4px;
+}
+
+.other-answers h4 {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.other-answers p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* ─── WRITTEN QUESTION SELECTOR ──────────────────────────────────────────── */
+.screen-sub {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--ink-3);
+  margin-top: -16px;
+  margin-bottom: 20px;
+}
+
+.written-q-card {
+  border-left: 4px solid var(--accent);
+}
+
+.section-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.section-label {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ink);
+  display: block;
+}
+
+.section-sub {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  color: var(--ink-3);
+  display: block;
+}
+
+/* ─── SUB-QUESTION TABS ───────────────────────────────────────────────────── */
+.sub-q-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.sub-q-tab {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.sub-q-tab:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.sub-q-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
 }

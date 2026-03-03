@@ -18,12 +18,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Initial loading state — replaced immediately by app.js on DOMContentLoaded -->
   <div id="app">
-    <!-- Rendered by app.js -->
-    <div style="display:flex;align-items:center;justify-content:center;height:100vh;font-family:sans-serif;color:#888;">
-      Loading…
+    <div class="loading-screen">
+      <div class="loading-spinner"></div>
+      <p class="loading-msg">Starting up…</p>
     </div>
   </div>
+
+  <noscript>
+    <div class="loading-screen">
+      <p class="error-icon">⚠️</p>
+      <p class="loading-msg">JavaScript is required to run ExamPrep.</p>
+    </div>
+  </noscript>
 
   <script src="app.js"></script>
 </body>
