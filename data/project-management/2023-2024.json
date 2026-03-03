@@ -1,6 +1,6 @@
 {
-  "subject": "Entrepreneurship and Small Enterprise Management",
-  "subjectCode": "SBU 408D",
+  "subject": "Project Management",
+  "subjectCode": "SBU 405D",
   "academicYear": "2023/2024",
   "semesters": [
     {
@@ -8,263 +8,259 @@
       "sectionA": [
         {
           "type": "single",
-          "question": "When was the connection between risk and entrepreneurship established?",
+          "question": "The process of developing a document that formally authorizes the existence of a project and provides the project manager with the authority to apply organisational resources to project activities is referred to as ______.",
           "options": [
-            "A. Before the Middle Ages",
-            "B. In the 17th century",
-            "C. In the 18th century",
-            "D. During the 19th century"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The connection between risk and entrepreneurship was established in the 17th century with the entrepreneur entering into a contract with the government to manage large projects for a fixed price.",
-          "reference": "Unit 1, Session 1, 1.1 - The Evolution of Entrepreneur and Entrepreneurship"
-        },
-        {
-          "type": "single",
-          "question": "What distinguishes novice entrepreneurs from the others? They ______.",
-          "options": [
-            "A. have vocational qualifications",
-            "B. have prior experience as business founders",
-            "C. currently own minority or majority equity in a business",
-            "D. only own businesses that are new"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Novice entrepreneurs are individuals with no prior business ownership experience but who currently own a minority or majority equity stake in a business that is either new, purchased or inherited.",
-          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following examples best describe a positive pull influence?",
-          "options": [
-            "A. Individuals with a desire for isolation and self-reliance.",
-            "B. Politicians seeking a return to active politics.",
-            "C. Potential partners offering to share experience and help with work.",
-            "D. People facing negative displacement in society."
-          ],
-          "correctAnswer": "C",
-          "explanation": "Positive pull influences can come from a potential partner, mentor, parent, customer or investor who encourages the individual.",
-          "reference": "Unit 1, Session 3, 3.2.2 - Positive Pull"
-        },
-        {
-          "type": "single",
-          "question": "When does the pre-start-up phase of a new venture end? When the ______.",
-          "options": [
-            "A. business reaches maturity",
-            "B. entrepreneur gets the idea for the venture",
-            "C. doors are opened for the business",
-            "D. first product is sold"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The prestart-up phase begins with an idea for the venture and ends when the doors are opened for the business.",
-          "reference": "Unit 2, Session 3, 3.1.1 - The Phases of a New Venture"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not considered as one of the critical factors during the pre-start-up and start-up phases?",
-          "options": [
-            "A. Availability of customers",
-            "B. Expected growth of sales and profits",
-            "C. Competitive pricing strategy",
-            "D. Availability of products"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The critical factors are uniqueness, investment size, sales growth, product availability, and customer availability. Competitive pricing strategy is not listed as one of these specific factors.",
-          "reference": "Unit 2, Session 3, 3.1.2 - Critical Factors of Pre-Start-Up and Start-Up Phases"
-        },
-        {
-          "type": "single",
-          "question": "Which type of venture focuses primarily on providing a comfortable living for the entrepreneur without a strong emphasis on large sales or profits?",
-          "options": [
-            "A. High-growth ventures",
-            "B. Small profitable ventures",
-            "C. Lifestyle ventures",
-            "D. None of the above"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Lifestyle ventures appear to have independent, autonomy, and control as their primary driving forces. Neither large sales nor profits are deemed important beyond providing a sufficient and comfortable living for the entrepreneur.",
-          "reference": "Unit 2, Session 3, 3.1.2.3 - Sales Growth"
-        },
-        {
-          "type": "single",
-          "question": "When is it advisable for a small enterprise owner to review and update a business plan?",
-          "options": [
-            "A. Only after the business has been established for several years",
-            "B. When there is a need for major new investment in equipment",
-            "C. When the business faces no changes in its environment",
-            "D. Once every five years to maintain consistency"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Planning is usually instigated at a time of major change, such as a need for major new investment in equipment.",
-          "reference": "Unit 3, Session 1, 1.2 - When to Plan?"
-        },
-        {
-          "type": "single",
-          "question": "Why is a statement of confidentiality included in the introductory page of a business plan?",
-          "options": [
-            "A. To protect the entrepreneur's personal information",
-            "B. To prevent competitors from reading the plan",
-            "C. For security purposes and to safeguard the report",
-            "D. To outline the company's legal structure."
-          ],
-          "correctAnswer": "C",
-          "explanation": "A statement of the confidentiality of the report is included for security purposes and is important for the entrepreneur.",
-          "reference": "Unit 3, Session 4, 4.1 - Introductory Page"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not a characteristic of resources? They ______.",
-          "options": [
-            "A. are consumed.",
-            "B. can only be used once.",
-            "C. are always readily available.",
-            "D. have a value – a price tag."
-          ],
-          "correctAnswer": "C",
-          "explanation": "Resources are consumed, can only be used once, are in demand and are competed for, and have a value. They are not always readily available.",
-          "reference": "Unit 4, Session 1, 1.2 - Characteristics of Resources"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following attributes is not a component of the competitive advantage, as per the resource-based perspective?",
-          "options": [
-            "A. Valuable",
-            "B. Scarce",
-            "C. Imitable",
-            "D. Substitutable"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Strategic resources must be valuable, rare, imperfectly imitable, and non-substitutable. \"Imitable\" is the opposite of what is required.",
-          "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not included in the requisition when initiating a request for goods or services?",
-          "options": [
-            "A. Description of the item desired",
-            "B. Quantity and quality requirements",
-            "C. Vendor selection criteria",
-            "D. Desired delivery dates"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The requisition includes a description of the item, the quantity and quality necessary, and desired delivery dates. Vendor selection is done later by purchasing staff.",
-          "reference": "Unit 4, Session 2, 2.3.1.a - Steps in the Purchasing Process"
-        },
-        {
-          "type": "single",
-          "question": "In the recruitment process, what is the term used for the statement describing the content and location of a specific job at the managerial level?",
-          "options": [
-            "A. Job analysis",
-            "B. Job specification",
-            "C. Position description",
-            "D. Job posting"
-          ],
-          "correctAnswer": "C",
-          "explanation": "At the operative level, the statement is called the job description; at the managerial level, it is called a position description.",
-          "reference": "Unit 4, Session 4, 4.2.b - Recruitment"
-        },
-        {
-          "type": "single",
-          "question": "Which step in the organization's selection process involves evaluating the applicant's technical, conceptual, and diagnostic skills?",
-          "options": [
-            "A. Initial screening interview",
-            "B. Background investigation",
-            "C. Physical examination",
-            "D. Testing"
-          ],
-          "correctAnswer": "D",
-          "explanation": "Testing measures the applicant's job skills and ability to learn on the job, involving the applicant's technical, conceptual, and diagnostic skills.",
-          "reference": "Unit 4, Session 4, 4.2.c.iii - Selection"
-        },
-        {
-          "type": "single",
-          "question": "What is the term used to describe the tendency to rate employees based on a single characteristic?",
-          "options": [
-            "A. Bias",
-            "B. Uniform rating",
-            "C. The halo effect",
-            "D. Different rater patterns"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The halo effect is the common tendency to rate subordinates high or low on all performance measures based on one of their characteristics.",
-          "reference": "Unit 4, Session 4, 4.2.g.iv - The halo effect"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not one of the four C's in the Harvard model for evaluating HRM outcomes?",
-          "options": [
-            "A. Culture",
-            "B. Commitment",
-            "C. Congruence",
-            "D. Competence"
+            "A. Project charter",
+            "B. Project management plan",
+            "C. Directing and controlling projects",
+            "D. Project integrated change"
           ],
           "correctAnswer": "A",
-          "explanation": "The four C's model for human resources outcomes consists of commitment, competence, congruence, and cost effectiveness. Culture is not part of this model.",
-          "reference": "Unit 4, Session 4, 4.3 - The Four C's Model for Evaluating Human Resources"
+          "explanation": "The project charter is the document that formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources.",
+          "reference": "Unit 5, Session 2, 2.1 - Develop Project Charter"
         },
         {
           "type": "single",
-          "question": "What is the central idea of the marketing concept?",
+          "question": "Any unique and verifiable product, the result of the capability to perform a service that is required to be produced to complete a process, phase or project is called project ______.",
           "options": [
-            "A. Maximizing short-term profits",
-            "B. Focusing on satisfying consumer wants and needs",
-            "C. Ignoring product development",
-            "D. Isolating marketing from other corporate functions"
+            "A. outcome",
+            "B. deliverables",
+            "C. service delivery",
+            "D. execution"
           ],
           "correctAnswer": "B",
-          "explanation": "The marketing concept is the idea that organizations should focus on satisfying consumers' wants and needs.",
-          "reference": "Unit 5, Session 1, 1.4 - The Marketing Concept"
+          "explanation": "A deliverable is defined as any unique and verifiable product, result, or capability to perform a service that is required to be produced to complete a process, phase, or project.",
+          "reference": "Unit 5, Session 2, 2.3.1 - Deliverables"
         },
         {
           "type": "single",
-          "question": "What are the two main sources of external data?",
+          "question": "The power, urgency and legitimacy grid are also referred to as ______.",
           "options": [
-            "A. Tertiary and quaternary data",
-            "B. Secondary and primary data",
-            "C. Public and private data",
-            "D. Confidential and classified data"
+            "A. Influence and impact grid",
+            "B. Salience model",
+            "C. Stakeholder management grid",
+            "D. Stakeholder model"
           ],
           "correctAnswer": "B",
-          "explanation": "The two sources of external data are secondary (information that already exists) and primary (information collected for the specific purpose at hand).",
-          "reference": "Unit 5, Session 2, 2.3.2.ii - External data"
+          "explanation": "The model that uses power, urgency, and legitimacy to classify stakeholders is known as the Salience model.",
+          "reference": "Unit 5, Session 5, 5.1.1 - Power, Urgency, and Legitimacy Grid"
         },
         {
           "type": "single",
-          "question": "Which data collection method is ideal for gathering complex information?",
+          "question": "Which of the following environmental factors impact project management and outcomes?\nI. Operational\nII. Cultural\nIII. Ecological\nIV. Psychological",
           "options": [
-            "A. Telephone interviews",
-            "B. Mail surveys",
-            "C. Focus groups",
-            "D. Personal interviews"
+            "A. I only",
+            "B. I and II only",
+            "C. II, III and IV only",
+            "D. I, II, III and IV"
           ],
           "correctAnswer": "D",
-          "explanation": "Personal interviews are ideal for collecting complex information and can be longer than telephone or mail questionnaires.",
-          "reference": "Unit 5, Session 2, 2.3.2.ii - Primary data"
+          "explanation": "The project environment encompasses numerous dynamic factors, including Operational, Physical, Ecological, Social, Cultural, Economical, Psychological, Financial, and Organizational.",
+          "reference": "Unit 6, Session 1, 1.1 - Project Environment"
         },
         {
           "type": "single",
-          "question": "What is the focus of a market development strategy?",
+          "question": "Which of the following is not considered an internal source of risk?",
           "options": [
-            "A. Reducing sales in existing markets",
-            "B. Introducing existing products in new markets",
-            "C. Creating entirely new markets",
-            "D. Enhancing advertising efforts"
+            "A. Market or operational risk",
+            "B. Poor understanding of the project manager's job",
+            "C. Poorly organized project office",
+            "D. Unrealistic planning and scheduling"
           ],
-          "correctAnswer": "B",
-          "explanation": "A market development strategy attempts to increase sales by introducing existing products or services into new markets.",
-          "reference": "Unit 5, Session 3, 3.2.2 - Market development"
+          "correctAnswer": "A",
+          "explanation": "Market or operational risk is listed as an external risk. The other options are all listed as examples of internal risks.",
+          "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk"
         },
         {
           "type": "single",
-          "question": "What are the three main steps in target marketing?",
+          "question": "The project risk management framework consists of six phases, which of the following best arranges the phases in chronological order?\nI. Establish the context\nII. Risk identification\nIII. Risk analysis\nIV. Risk response planning\nV. Risk monitoring and control",
           "options": [
-            "A. Market promotion, market analysis, market expansion",
-            "B. Market segmentation, market targeting, market positioning",
-            "C. Product development, advertising, distribution",
-            "D. Market penetration, market saturation, market diversification"
+            "A. I, II, III, IV and V",
+            "B. II, I, III, V and IV",
+            "C. V, IV, III, II and I",
+            "D. III, II, IV, V and I"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The six major phases of project risk management are: establish the context, risk identification, risk analysis, risk evaluation, risk response planning, and risk monitoring and control.",
+          "reference": "Unit 6, Session 1, 1.3 - Project risk management framework"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not true about the project communication plan?",
+          "options": [
+            "A. It allows the project manager to maintain control of the project and ensure all stakeholders receive the necessary information",
+            "B. Enables the project leader to lead the team to the desired project outcome",
+            "C. It increases the inconsistencies of how the project is handled",
+            "D. Ensures that all stakeholders have the same information on the project requirements and changes"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A solid communication plan increases the consistency of how the project is handled, not the inconsistencies.",
+          "reference": "Unit 4, Session 5, (Importance of project communication plan)"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an item included in the risk register?",
+          "options": [
+            "A. Assessment of the likelihood of occurrence",
+            "B. Data of identifications",
+            "C. Historical data",
+            "D. Section of project"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The risk register includes items like a unique identifier, date of identification, project section, risk description, likelihood assessment, and severity assessment. Historical data is an input to risk identification, not a standard element of the risk register itself.",
+          "reference": "Unit 6, Session 2, 2.4 - Developing Risk Registrar"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best explains the processes involved in the risk scoring matrix?",
+          "options": [
+            "A. Identify all the risks, assign severity/impact if they should occur and assign a probability of occurrence rates",
+            "B. Identify the impact/severity if they occur, assign a probability of likelihood of occurrence, assess all risk",
+            "C. Identify all risks, assign a probability of occurrence rates/values and assign severity/impact if they should occur",
+            "D. Establish the organizational and project environment, assign severity/impact if they occur and specify objectives"
+          ],
+          "correctAnswer": "C",
+          "explanation": "To analyze risk using a risk scoring matrix, you first identify all risks, then assign probability of occurrence, and then assign severity/impact if they should occur.",
+          "reference": "Unit 6, Session 3, 4.1 - Risk Scoring Matrix"
+        },
+        {
+          "type": "single",
+          "question": "Managing human resources of a project helps in the following ways except ______.",
+          "options": [
+            "A. creates teams that are unsupportive of each other",
+            "B. it gives the ability to resolve employee complaints",
+            "C. helps in knowing when and how team members should be added",
+            "D. identifies and engages employees with a variety of skill levels"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Managing human resources helps construct a team that supports and complements each other, not one that is unsupportive. The other options are listed as benefits.",
+          "reference": "Unit 4, Session 1, 6.3 - Importance of Project Human Resource Management"
+        },
+        {
+          "type": "single",
+          "question": "An approach to conflict that involves a party either physically or psychologically removing himself/herself from the conflict is referred to as ______.",
+          "options": [
+            "A. accommodation",
+            "B. avoidance",
+            "C. collaboration",
+            "D. compromise"
           ],
           "correctAnswer": "B",
-          "explanation": "The three main steps in target marketing are market segmentation, market targeting, and market positioning.",
-          "reference": "Unit 5, Session 4, 4.2 - Steps in Target Marketing"
+          "explanation": "Avoidance is defined as physically or psychologically removing oneself from the conflict, as the parties feel it is hopeless to try and resolve it.",
+          "reference": "Unit 1, Session 4, 4.3.1 - Avoidance"
+        },
+        {
+          "type": "single",
+          "question": "When parties to a conflict come to an agreement through yielding or conforming to the positions of others, cooperation in an effort to create harmony, even at the expense of their own ideas and values. Which of the following best describes the conflict resolution approach adopted?",
+          "options": [
+            "A. Accommodation",
+            "B. Competition",
+            "C. Compromise",
+            "D. Collaboration"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Accommodation is the conflict resolution approach that focuses on coming to an agreement through yielding or conforming to the positions of others to create harmony.",
+          "reference": "Unit 1, Session 4, 4.3.2 - Accommodation"
+        },
+        {
+          "type": "single",
+          "question": "The phase of the project life cycle which involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase is referred to as ______.",
+          "options": [
+            "A. execution",
+            "B. initiation",
+            "C. planning",
+            "D. closure"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The project planning phase involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Planning"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following types of project termination occurs when the needed resources to execute the project by the project organization is lacking or inadequate?",
+          "options": [
+            "A. Addition",
+            "B. Extinction",
+            "C. integration",
+            "D. Starvation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Project starvation occurs when the needed resources needed by the project organization to execute the project is lacking or inadequate or unavailable.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not considered as a cause of project delays?",
+          "options": [
+            "A. Closure",
+            "B. Scope change",
+            "C. Design errors",
+            "D. Deliberate action"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Deliberate action is described as a type of delay, not a cause. Scope change, design errors, and issues with closure are all listed as causes of delays.",
+          "reference": "Unit 1, Session 6, 6.1 - Project Delays; 6.3 - Causes of Project Delays"
+        },
+        {
+          "type": "single",
+          "question": "Project cost associated with hiring and paying the various classification of workers involved in developing the project is classified as service cost.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Labour costs are costs associated with hiring and paying workers. Service costs are associated with the work done by consultants, experts, and subcontractors.",
+          "reference": "Unit 2, Session 1, 1.2.1 - Labour Cost; 1.2.3 - Service Cost"
+        },
+        {
+          "type": "single",
+          "question": "Indirect costs associated with a project include the following except ______.",
+          "options": [
+            "A. advertising",
+            "B. depreciation of equipment",
+            "C. insurance",
+            "D. materials"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Indirect costs include overheads (like insurance, depreciation) and selling/administration costs (like advertising). Materials cost is a direct cost.",
+          "reference": "Unit 2, Session 2, 2.1.1 - Direct costs; 2.1.2 - Indirect costs"
+        },
+        {
+          "type": "single",
+          "question": "Unplanned costs incurred when steps are taken to speed up the project's completion are referred to as ______ costs.",
+          "options": [
+            "A. expedited",
+            "B. fixed",
+            "C. variable",
+            "D. normal"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Expedited costs are unplanned costs incurred when steps are taken to speed up the project's completion, such as overtime or hiring additional workers.",
+          "reference": "Unit 2, Session 2, 2.1.8 - Expedited costs"
+        },
+        {
+          "type": "single",
+          "question": "Business angels are examples of short-term project funding sources.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Business angels are private investors who invest directly in a company, typically for the long-term, and are classified as a source of long-term project funding.",
+          "reference": "Unit 2, Session 4, 4.3.3 - Business Angels"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an example of long-term sources of project funding?",
+          "options": [
+            "A. Venture Capital",
+            "B. Bank Overdraft",
+            "C. Retained Profits",
+            "D. Share Capital"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bank overdrafts are a source of short-term finance, as they are typically due for repayment in less than a year. The others are all long-term sources.",
+          "reference": "Unit 2, Session 4, 4.2.1 - Bank Overdrafts; 4.3 - Sources of Long-term Project Funding"
         }
       ],
       "sectionB": {
@@ -273,166 +269,91 @@
           {
             "label": "Question 1",
             "totalMarks": 20,
-            "caseStudy": {
-              "title": "Case Study: College, the ideal place to launch a business",
-              "fullText": "For growing numbers of students, college is not just a time of learning, partying and growing into young adulthood; it is fast becoming a place for building a business. More than 2,300 colleges and universities offer courses in entrepreneurship and small business management (an increase from just 200 schools in the 1970s) to more than 400,000 students, and many of them have trouble keeping up with demand for these classes. \"Students used to come to college and assume that five to ten years down the road, they'd start a business,\" says Gerry Hills, cofounder of the Collegiate Entrepreneurs Organization. \"[Today], they come in preparing to get ideas and launch.\"\n\nMany collegiate entrepreneurs realize that if they are going to have a job when they graduate, it is likely to be one they have created for themselves. According to a recent survey by Accenture, only 16 percent of college graduates who applied for a job had one waiting for them after graduation. For a growing number of college students, landing a job in corporate World, starting on the bottom rung of an uncertain career ladder, has lost much of its allure. While studying at University of Cape Coast (where she majored in Marketing), Ama Bediako worked in internships at \"Abrontentan Ltd,\" which offered her a marketing position when she graduated. Ama turned down the job offer, choosing instead to focus on the business, EagleEye Ltd an online magazine aimed at showcasing discoveries, inventions and new businesses, that she had started with classmates Araba Aikins and Konadu Yiadom. \"It's not a pure dichotomy anymore that entrepreneurship is risky and other jobs are safe, so why not do what I love?\" she says.\n\nFor their work at EagleEye Ltd, which is now profitable, Ama, Araba, and Konadu recently were named to Inc. magazine's \"30 Under 30 Coolest Young Entrepreneurs\" list. The business is more profitable than Ama and Her friends had expected, but numerous unanticipated problems cropped up as well, including sharing of profit and payments of active partners as one of them is a dormant partner. Moreover, Ama and Co. are searching for Ghc 100,000 from private investors to fuel EagleEye Ltd's growth so that the company can live up to its potential without giving up equity so early in their business.",
-              "keyFacts": [
-      "Over 2,300 colleges now offer entrepreneurship courses (up from 200 in the 1970s) to over 400,000 students",
-      "Only 16% of college graduates had a job waiting after graduation (Accenture survey)",
-      "Ama Bediako turned down a confirmed marketing job offer from Abrontentan Ltd to pursue EagleEye Ltd",
-      "Ama studied Marketing at University of Cape Coast",
-      "EagleEye Ltd is an online magazine showcasing discoveries, inventions, and new businesses",
-      "Co-founded with classmates Araba Aikins and Konadu Yiadom",
-      "The business is now profitable and founders were named to Inc. magazine's \"30 Under 30 Coolest Young Entrepreneurs\" list",
-      "Key problem: profit-sharing dispute involving a dormant partner (organizational planning failure)",
-      "Funding need: GHC 100,000 from private investors",
-      "Goal: Fuel growth without giving up equity too early",
-      "Demonstrates that students are increasingly starting businesses on campus rather than waiting until after graduation"
-    ]
-            },
             "subQuestions": [
               {
-                "label": "1",
-                "question": "Analyse two key success factors behind the entrepreneurial decisions taken by: Ama, Araba and Konadu.",
-                "marks": 2,
+                "label": "A",
+                "question": "Define a project.",
+                "marks": 4,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "A project is a fundamental concept in management, distinguished from routine operations by its unique and temporary nature.",
+                  "mainPoints": [
+                    {
+                      "heading": "Primary definition",
+                      "detail": "A project is defined as a temporary planned, complex, one-time, customer-focused endeavor undertaken to create a unique outcome with a limited budget, schedule, and resources."
+                    },
+                    {
+                      "heading": "Alternative definition",
+                      "detail": "It is a temporary planned endeavor undertaken to create a product, service, or result."
+                    }
+                  ],
+                  "conclusion": "In essence, a project is a temporary undertaking with a clear beginning and end, aimed at producing a unique deliverable.",
+                  "otherPossibleAnswers": "A project can also be an improvement in existing product or service lines, or a research project that develops knowledge.",
+                  "reference": "Unit 1, Session 1, 1.1 - What is Project"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Analyse the statement \"a project is temporary in nature\".",
+                "marks": 6,
                 "commandWord": "Analyse",
                 "answer": {
-                  "introduction": "The success of Ama, Araba, and Konadu can be attributed to several key entrepreneurial decisions.",
+                  "introduction": "The statement \"a project is temporary in nature\" is a fundamental and defining characteristic of a project, setting it apart from ongoing operations.",
                   "mainPoints": [
                     {
-                      "heading": "Pursuing their passion",
-                      "detail": "Ama turned down a safe job offer to focus on what she loves, showing passion for her business."
+                      "heading": "Definite Start and End",
+                      "detail": "The temporary nature means every project has a definite beginning and a definite end, with a specific period to commence and complete its activities."
                     },
                     {
-                      "heading": "Taking calculated risks",
-                      "detail": "They started the business while in school, recognizing that entrepreneurship is not riskier than uncertain corporate jobs."
+                      "heading": "Not Necessarily Short Duration",
+                      "detail": "This temporariness does not imply that the project's duration is short. Some projects can last for several years, like a four-year university degree program or a multi-year construction project."
+                    },
+                    {
+                      "heading": "Outcome Outlives the Project",
+                      "detail": "The temporary nature of the project does not mean the product, service, or result it creates is short-lived. For example, a project to build a bridge creates a structure that will last for decades."
+                    },
+                    {
+                      "heading": "Specified Longevity",
+                      "detail": "It signifies that the project's engagement and its longevity are specified and planned from the outset, unlike ongoing operational work."
                     }
                   ],
-                  "conclusion": "Their willingness to follow their passion and take risks contributed to their recognition as successful young entrepreneurs.",
-                  "otherPossibleAnswers": "Identifying a market opportunity (online magazine), Building a team with classmates.",
-                  "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
+                  "conclusion": "Therefore, the temporary nature is a defining feature that focuses on the project's unique, time-bound mission, not on the lifespan of its final outcome.",
+                  "otherPossibleAnswers": "The temporary nature indicates that the activities of every project must be commenced and completed within a specific period.",
+                  "reference": "Unit 1, Session 1, 1.1 - What is Project"
                 }
               },
               {
-                "label": "2",
-                "question": "What type of entrepreneurs are the management of EagleEye Ltd.",
-                "marks": 2,
-                "commandWord": "What",
+                "label": "C",
+                "question": "Examine five characteristics of a project.",
+                "marks": 10,
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "The management of EagleEye Ltd can be classified as portfolio entrepreneurs.",
+                  "introduction": "Projects are unique endeavors with distinct characteristics that set them apart from routine business operations.",
                   "mainPoints": [
                     {
-                      "heading": "Portfolio Entrepreneurs",
-                      "detail": "They are individuals who currently own a business (EagleEye Ltd) and are likely to be involved in multiple ventures simultaneously."
+                      "heading": "Objective to be achieved",
+                      "detail": "Every project is an ad hoc endeavor with a specific goal or objective that it is designed to accomplish."
+                    },
+                    {
+                      "heading": "Schedule to closure",
+                      "detail": "A project has a temporal life cycle with a specific time to accomplish each activity and an overall deadline for completion."
+                    },
+                    {
+                      "heading": "Complexity",
+                      "detail": "Every project has its own level of complexity, which may require specific technologies or approaches to achieve its objectives."
+                    },
+                    {
+                      "heading": "Resources needs",
+                      "detail": "A project requires specific resources to ensure successful closure, including labor, personnel, equipment, materials, and a dedicated budget."
+                    },
+                    {
+                      "heading": "Organizational Structure",
+                      "detail": "Every project has a management structure and project office that provides direction and makes decisions from planning to closure."
                     }
                   ],
-                  "conclusion": "As young entrepreneurs who have started and are running their own business, they fit this category.",
-                  "otherPossibleAnswers": "Novice entrepreneurs (as they are first-time business founders).",
-                  "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
-                }
-              },
-              {
-                "label": "3",
-                "question": "Identify the root cause of the problems of EagleEye Ltd and suggest solution to it.",
-                "marks": 4,
-                "commandWord": "Identify and suggest",
-                "answer": {
-                  "introduction": "The root cause of EagleEye Ltd's problems is poor organizational planning.",
-                  "mainPoints": [
-                    {
-                      "heading": "Root Cause",
-                      "detail": "Lack of clear agreement on profit sharing and payments, especially with one dormant partner, indicating failure to establish proper organizational structure and roles."
-                    },
-                    {
-                      "heading": "Solution 1",
-                      "detail": "Develop a formal partnership agreement clearly defining roles, responsibilities, and profit-sharing ratios for all partners, including dormant partners."
-                    },
-                    {
-                      "heading": "Solution 2",
-                      "detail": "Create distinct departments and avoid multitasking to ensure clarity in operations and financial management."
-                    }
-                  ],
-                  "conclusion": "Proper organizational planning and legal agreements would prevent such disputes and ensure smooth operations.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 3, Session 5, 5.3 - Organizational Plan"
-                }
-              },
-              {
-                "label": "4",
-                "question": "Analyse two reasons for which you will encourage University of Cape Coast (UCC) students to start businesses whilst on campus.",
-                "marks": 4,
-                "commandWord": "Analyse",
-                "answer": {
-                  "introduction": "Starting a business while on campus offers students unique advantages.",
-                  "mainPoints": [
-                    {
-                      "heading": "Access to resources",
-                      "detail": "Universities offer courses in entrepreneurship, providing knowledge and skills needed to start a business."
-                    },
-                    {
-                      "heading": "Job creation",
-                      "detail": "With only 16% of graduates having jobs waiting, creating their own business provides immediate employment after graduation."
-                    },
-                    {
-                      "heading": "Support network",
-                      "detail": "Students can collaborate with classmates (like Ama did) to build teams and share ideas."
-                    }
-                  ],
-                  "conclusion": "Campus provides an ideal environment with education, collaboration opportunities, and a safety net for experimentation.",
-                  "otherPossibleAnswers": "Low overhead costs, Access to mentors and professors.",
-                  "reference": "Unit 1, Session 1, 1.4 - Reasons Why People become Entrepreneurs"
-                }
-              },
-              {
-                "label": "5",
-                "question": "Explain two challenges that student entrepreneurs are likely to face whilst on campus.",
-                "marks": 4,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "Student entrepreneurs face unique challenges while balancing academics and business.",
-                  "mainPoints": [
-                    {
-                      "heading": "Time management",
-                      "detail": "Balancing coursework, exams, and business operations can be overwhelming and lead to stress."
-                    },
-                    {
-                      "heading": "Limited funding",
-                      "detail": "Students often lack capital and must seek external funding, as EagleEye Ltd is doing, which can be difficult without a track record."
-                    },
-                    {
-                      "heading": "Lack of experience",
-                      "detail": "Students may lack managerial and technical skills needed to handle problems like profit sharing and partnership disputes."
-                    }
-                  ],
-                  "conclusion": "These challenges require discipline, planning, and seeking mentorship to overcome.",
-                  "otherPossibleAnswers": "Work schedule unpredictability, Discouragement from obstacles.",
-                  "reference": "Unit 1, Session 5, 5.2 - Disadvantages of Entrepreneurship"
-                }
-              },
-              {
-                "label": "6",
-                "question": "State and explain to the management of EagleEye Ltd two sources of finance that could be appropriate for their financial situation.",
-                "marks": 4,
-                "commandWord": "State and explain",
-                "answer": {
-                  "introduction": "EagleEye Ltd needs GHC 100,000 for growth and should consider appropriate sources of finance.",
-                  "mainPoints": [
-                    {
-                      "heading": "Venture Capital",
-                      "detail": "This is private equity capital provided by outside investors to new and growing businesses in exchange for shares. However, they want to avoid giving up equity too early."
-                    },
-                    {
-                      "heading": "Bank Overdraft",
-                      "detail": "A short-term source where the bank allows them to overdraw up to a limit, useful for managing cash flow and working capital needs."
-                    },
-                    {
-                      "heading": "Business Assistance Fund (BAF)",
-                      "detail": "A government fund in Ghana providing loans to SSEs at subsidized interest rates for productive sectors."
-                    }
-                  ],
-                  "conclusion": "They should evaluate which source aligns with their goal of not giving up equity while securing needed funds.",
-                  "otherPossibleAnswers": "Factoring (if they have debtors), Trade credit from suppliers.",
-                  "reference": "Unit 6, Session 2, 3 & 4 - Long Term Finance, Short Term Finance, Institutional Support"
+                  "conclusion": "These characteristics collectively define a project and necessitate a structured approach to its management.",
+                  "otherPossibleAnswers": "Risk and Safety Controls. Outcomes are satisfaction of customer's requirements. Termination is done either upon success or failure.",
+                  "reference": "Unit 1, Session 1, 1.2 - Characteristic of a Project"
                 }
               }
             ]
@@ -443,58 +364,80 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Information plays an increasingly critical role in today businesses, both as a resource and a commodity. Discuss four types/categories of business information that a small enterprise should process to enhance the survival of their businesses.",
-                "marks": 16,
-                "commandWord": "Discuss",
+                "question": "Using relevant examples, distinguish between direct and indirect cost related to a project.",
+                "marks": 2,
+                "commandWord": "Distinguish",
                 "answer": {
-                  "introduction": "Small enterprises need various types of information to make informed decisions and ensure survival.",
+                  "introduction": "Direct and indirect costs are distinguished by how clearly they can be assigned to a specific project activity.",
                   "mainPoints": [
                     {
-                      "heading": "Market Information",
-                      "detail": "Data on market size, growth, consumer spending power, needs, and behavior. This helps in new product development, marketing planning, and identifying opportunities."
+                      "heading": "Direct costs",
+                      "detail": "These are costs clearly assigned to the specific aspect of the project that generated the cost. Example: All labor costs for carpenters directly building furniture for a project, or the cost of wood specifically purchased for that furniture."
                     },
                     {
-                      "heading": "Competitor Information",
-                      "detail": "Information about competitors' locations, activities, and performance. This is vital for strategic positioning and responding to competitive threats."
-                    },
-                    {
-                      "heading": "Supplier Information",
-                      "detail": "Information on supplier cost, reliability, quality, and speed of delivery. This ensures smooth production and helps plan effectively for raw material needs."
-                    },
-                    {
-                      "heading": "Production Information",
-                      "detail": "Internal data on production efficiency, cost, wastage, and quality. This helps ensure the business can deliver the volume and quality promised to customers."
+                      "heading": "Indirect costs",
+                      "detail": "These are costs generally linked to overhead and administration, which are not directly tied to one specific project activity. Example: The cost of utilities for the company's workshop, insurance for the workshop equipment, or the salary of a supervisor who oversees multiple projects."
                     }
                   ],
-                  "conclusion": "Processing these information types helps small enterprises reduce risk and make better strategic decisions.",
-                  "otherPossibleAnswers": "Macroeconomic information, External financial information, Information on regulations, Human resources information, Internal financial information.",
-                  "reference": "Unit 4, Session 3, 3.2 - Types of Business Information"
+                  "conclusion": "The key difference is traceability: direct costs are easily traced to a project activity, while indirect costs are shared across multiple projects or the entire organization.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 2, 2.1.1 - Direct costs; 2.1.2 - Indirect costs"
                 }
               },
               {
                 "label": "B",
-                "question": "Two importance of business information to the small enterprise owner managers.",
-                "marks": 4,
-                "commandWord": "Importance",
+                "question": "State and explain four sources of project cost.",
+                "marks": 6,
+                "commandWord": "State and explain",
                 "answer": {
-                  "introduction": "Business information is crucial for small enterprise owner managers to make effective decisions.",
+                  "introduction": "The sources of project cost can be broadly categorized into four main areas, each representing a different type of expense.",
                   "mainPoints": [
                     {
-                      "heading": "Reduces risk",
-                      "detail": "Information helps entrepreneurs make informed decisions, reducing uncertainty in business activities. It has a cost but is repaid through better outcomes."
+                      "heading": "Labour cost",
+                      "detail": "These are costs associated with hiring and paying all classifications of workers (skilled, semi-skilled, laborers) involved in the project. This includes salaries, hourly/daily rates, and benefits."
                     },
                     {
-                      "heading": "Preserves records",
-                      "detail": "Records are specialized information retained for business value, legal requirements, and accountability, ensuring integrity for as long as required."
+                      "heading": "Materials cost",
+                      "detail": "This refers to the cost of specific requirements and supplies the project team needs to complete project tasks, such as raw materials, components, and consumables."
                     },
                     {
-                      "heading": "Overcomes communication barriers",
-                      "detail": "Information helps overcome physical, perceptual, and cultural barriers, ensuring effective communication within the organization."
+                      "heading": "Service cost",
+                      "detail": "These are costs associated with the work done by external parties such as consultants, experts, designers, and subcontractors."
+                    },
+                    {
+                      "heading": "Equipment and facilities cost",
+                      "detail": "These are costs that emerge from the rental or purchase of any equipment, tools, or office facilities needed to facilitate the project's work."
                     }
                   ],
-                  "conclusion": "Gathering and managing information helps small businesses operate smoothly and make better strategic choices.",
-                  "otherPossibleAnswers": "Aids in strategy formulation, Helps in decision making.",
-                  "reference": "Unit 4, Session 3, 3.4 - Importance of Business Information"
+                  "conclusion": "A clear understanding of these cost categories is fundamental for accurate cost estimating, budgeting, and overall financial management of the project.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 1, 1.2 - Sources of Project Cost"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Examine the three main processes used to ensure effective project costs management.",
+                "marks": 12,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Effective project cost management relies on three key processes that build upon each other to plan, establish, and control the project's finances.",
+                  "mainPoints": [
+                    {
+                      "heading": "Project Cost Estimating",
+                      "detail": "This is the process of approximating the cost to complete all project activities. To ensure accuracy, it's best to break the project down by deliverable and work package, considering all resources like labor, materials, equipment, services, and contingency costs."
+                    },
+                    {
+                      "heading": "Project Cost Budgeting",
+                      "detail": "This involves aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline. This baseline is the official budget against which project expenditures will be measured and is used to determine and justify project funding."
+                    },
+                    {
+                      "heading": "Project Cost Control",
+                      "detail": "This is the process of monitoring the status of the project to update project costs and manage changes to the cost baseline. It requires checking the overall status of each activity against the plan to determine any cost variance and take corrective action."
+                    }
+                  ],
+                  "conclusion": "These three processes—estimating, budgeting, and controlling—work together to ensure the project is completed within its approved financial limits.",
+                  "otherPossibleAnswers": "Before these processes, one must plan for inflation, account for unexpected events, and track costs in real-time.",
+                  "reference": "Unit 2, Session 3, 3.1 - Project Cost Management Process"
                 }
               }
             ]
@@ -505,62 +448,84 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Outline and discuss with example the steps involved in conducting market research in the context of small enterprises that are increasingly diverging from conventional approaches?",
-                "marks": 12,
-                "commandWord": "Outline and discuss",
+                "question": "Define project stakeholders using relevant examples.",
+                "marks": 2,
+                "commandWord": "Define",
                 "answer": {
-                  "introduction": "Marketing research is a medium for gathering information that serves as the foundation for the marketing plan, helping small enterprises minimize risks.",
+                  "introduction": "Project stakeholders are individuals or organizations with an interest in a project's outcome.",
                   "mainPoints": [
                     {
-                      "heading": "Step 1: Define the problem",
-                      "detail": "Clearly and briefly define the specific nature of the problem to be investigated. Example: A small bakery wants to know why sales have declined in the past month."
+                      "heading": "Definition",
+                      "detail": "Stakeholders are individuals and organizations who may have an interest and may be actively involved in the project."
                     },
                     {
-                      "heading": "Step 2: Collect the data",
-                      "detail": "Gather information from internal records (sales data) and external sources. External sources include secondary data (census reports) and primary data (surveys)."
-                    },
-                    {
-                      "heading": "Step 3: Analyse and interpret the data",
-                      "detail": "Evaluate the results and attach meaning to them in response to the research objectives. Example: Analysis shows that a new competitor opened nearby."
-                    },
-                    {
-                      "heading": "Step 4: Draw conclusions",
-                      "detail": "Based on the analysis, decide how to use the information. Example: The bakery decides to introduce new products and a loyalty program."
+                      "heading": "Examples",
+                      "detail": "Examples include the project sponsor, project manager, project team, customers, end users, and suppliers."
                     }
                   ],
-                  "conclusion": "Following these steps helps small enterprises make data-driven decisions rather than relying on guesswork.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 2, 2.3 - Conducting Marketing Research"
+                  "conclusion": "They are central to a project's success, as their needs and expectations must be understood and managed.",
+                  "otherPossibleAnswers": "Other examples include contractors, society, citizens, and government agents.",
+                  "reference": "Unit 1, Session 3, 3.2 - Project Stakeholders"
                 }
               },
               {
                 "label": "B",
-                "question": "Explain clearly, the following terminologies under small enterprise marketing:\ni. Market Penetration\nii. Market Development\niii. Product Development\niv. Market Segmentation",
+                "question": "Examine four importance of stakeholder management in project management.",
                 "marks": 8,
-                "commandWord": "Explain",
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "These are key marketing strategies and concepts that small enterprises can use to grow their business.",
+                  "introduction": "Effective stakeholder management is crucial for project success as it helps build support, manage expectations, and mitigate risks.",
                   "mainPoints": [
                     {
-                      "heading": "i. Market Penetration",
-                      "detail": "A strategy that seeks to increase sales of existing products in current markets through greater selling and advertising efforts. Example: A local restaurant offers \"buy one get one free\" deals to attract more customers in its neighborhood."
+                      "heading": "Provides valuable support",
+                      "detail": "With strong stakeholder support, you gain a valuable sponsor who can help make your project a success. Properly managed stakeholders are a source of great moral and organizational support."
                     },
                     {
-                      "heading": "ii. Market Development",
-                      "detail": "A strategy that attempts to increase sales by introducing existing products or services into new markets. Example: A Ghanaian clothing brand starts selling its products online to customers in Europe."
+                      "heading": "Enables gathering of requirements",
+                      "detail": "The ability to gather all stakeholder requirements up front leads to a successful project because you deliver what your customer really needs."
                     },
                     {
-                      "heading": "iii. Product Development",
-                      "detail": "A strategy that tries to raise sales by adding new goods or services to existing markets. These new products may be modifications of existing items or entirely new ones. Example: A soap maker adds a new line of liquid soap to their existing bar soap products."
+                      "heading": "Keeps stakeholders informed and engaged",
+                      "detail": "By keeping your stakeholders well-informed of your progress, you keep them engaged throughout the entire project lifecycle, and they serve as a check to ensure you are on track."
                     },
                     {
-                      "heading": "iv. Market Segmentation",
-                      "detail": "A strategy that subdivides the mass market into smaller, more homogeneous segments to attack each with a specific marketing strategy. Example: A shoe company divides its market into runners, basketball players, and golfers."
+                      "heading": "Reduces and uncovers risk",
+                      "detail": "The more you engage stakeholders, the more you will reduce and uncover risks on your project. When discussing requirements, stakeholders may bring up issues or concerns that might otherwise be missed."
                     }
                   ],
-                  "conclusion": "Using these strategies helps small enterprises focus their limited resources effectively and maximize sales.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 3, 3.2 & 3.3 - Choosing a Marketing Strategy & Market Segmentation"
+                  "conclusion": "Ultimately, good stakeholder management increases the project's chance of success by ensuring alignment, support, and early identification of potential problems.",
+                  "otherPossibleAnswers": "Increasing Project Success: By gathering and reviewing project requirements with stakeholders, you get their \"buy-in,\" which helps increase project success.",
+                  "reference": "Unit 5, Session 4, 4.2 - Importance of Stakeholder Management"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Analyse four techniques involved in identifying project stakeholders.",
+                "marks": 10,
+                "commandWord": "Analyse",
+                "answer": {
+                  "introduction": "Identifying project stakeholders involves using various analytical techniques to understand who has an interest in or influence over the project. Stakeholder analysis is the primary method.",
+                  "mainPoints": [
+                    {
+                      "heading": "Power/Interest Grid",
+                      "detail": "This technique groups stakeholders based on their level of authority (power) and their level of concern (interest) in the project outcomes. This helps determine how to engage them (e.g., manage closely for high-power/high-interest, monitor for low-power/low-interest)."
+                    },
+                    {
+                      "heading": "Power/Influence Grid",
+                      "detail": "This groups stakeholders according to their power and their active involvement (influence) in the project. It helps identify who can actively shape the project's direction."
+                    },
+                    {
+                      "heading": "Influence/Impact Grid",
+                      "detail": "This classification is based on grouping stakeholders based on their active involvement (influence) in the project and their ability to effect changes to the project's planning or execution (impact)."
+                    },
+                    {
+                      "heading": "Salience Model (Power, Urgency, and Legitimacy)",
+                      "detail": "This model uses three parameters to classify stakeholders. It assesses their power to influence, the urgency of their claims on the project, and the legitimacy of their involvement."
+                    }
+                  ],
+                  "conclusion": "By applying these models, a project manager can systematically identify key stakeholders and develop targeted strategies to manage their expectations and engagement.",
+                  "otherPossibleAnswers": "Expert judgment, brainstorming, and reviewing historical data are other identification methods, but the question specifically asks for techniques involved in identification, where these classification models are key.",
+                  "reference": "Unit 5, Session 5, 5.1.1 - Techniques Involved In Identifying Project Stakeholders"
                 }
               }
             ]
@@ -571,88 +536,70 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "What are Financial Ratios.",
-                "marks": 2,
-                "commandWord": "What",
+                "question": "Examine five internal sources of project risk.",
+                "marks": 10,
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "Financial ratios are tools used to evaluate a company's financial condition and performance.",
+                  "introduction": "Internal sources of project risk originate from within the project or the performing organization and are often within the project team's control.",
                   "mainPoints": [
                     {
-                      "heading": "Definition",
-                      "detail": "A financial ratio is a relationship that indicates something about a company's activities, such as the ratio between current assets and current liabilities."
+                      "heading": "Top management not recognizing this activity as a project",
+                      "detail": "If senior management doesn't treat the initiative as a formal project, it may lack proper support, authority, and resources."
                     },
                     {
-                      "heading": "Purpose",
-                      "detail": "They enable an analyst to make a comparison of a company's financial condition over time or in relation to other firms."
+                      "heading": "Impossible schedule commitments",
+                      "detail": "Unrealistic deadlines set without proper planning create a high risk of delays, burnout, and poor quality."
+                    },
+                    {
+                      "heading": "No one person responsible for the total project",
+                      "detail": "A lack of a single point of accountability (a project manager) can lead to confusion, poor coordination, and tasks falling through the cracks."
+                    },
+                    {
+                      "heading": "Wrong person assigned as project manager",
+                      "detail": "Assigning someone without the necessary skills, experience, or authority creates a risk of poor leadership and project failure."
+                    },
+                    {
+                      "heading": "Conflicting project priorities",
+                      "detail": "If the project's goals are not aligned with other organizational priorities, the team may face resource conflicts and unclear direction."
                     }
                   ],
-                  "conclusion": "They serve as yardsticks for measuring various aspects of business performance.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 6, Session 5, 5.2 - Interpreting Financial Ratios"
+                  "conclusion": "Identifying and mitigating these internal risks early is essential for establishing a strong foundation for project success.",
+                  "otherPossibleAnswers": "Too many projects going on at one time. No functional input into the planning phase. Poor control of design or customer changes. Organization's resources are overcommitted. No integrated planning and control.",
+                  "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk"
                 }
               },
               {
                 "label": "B",
-                "question": "Outline five distinct stakeholders (users) who utilize financial statements and explain the rationale behind their reliance on these financial documents.",
+                "question": "Analyse five risk response strategies used by project managers in responding to risk related to projects they are managing.",
                 "marks": 10,
-                "commandWord": "Outline and explain",
+                "commandWord": "Analyse",
                 "answer": {
-                  "introduction": "Various interest groups use financial statements to make informed decisions about a company.",
+                  "introduction": "After analyzing risks, project managers develop response strategies to reduce threats and maximize opportunities. Common strategies include avoidance, transfer, mitigation, acceptance, and sharing.",
                   "mainPoints": [
                     {
-                      "heading": "Owner/Investor Group",
-                      "detail": "Existing and potential shareholders use them to evaluate performance and assess the entity's viability."
+                      "heading": "Avoidance/Prevention",
+                      "detail": "This strategy involves changing the project plan to eliminate the risk or protect the project objectives from its impact. For example, using a well-known, reliable technology instead of a new, untested one to avoid technical failure."
                     },
                     {
-                      "heading": "Employee Group",
-                      "detail": "Employees and trade unions use them to assess job security and the company's ability to meet wage demands."
+                      "heading": "Transfer",
+                      "detail": "This involves shifting the impact of a threat to a third party, along with ownership of the response. A common example is purchasing insurance to cover losses from specific events like fire or theft."
                     },
                     {
-                      "heading": "Loan Creditor Group",
-                      "detail": "Banks and debenture holders use them to assess the firm's ability to repay loans and interest."
+                      "heading": "Risk Reduction/Mitigation",
+                      "detail": "This strategy aims to reduce the probability and/or impact of a risk to an acceptable level. For example, hiring a risk expert to manage a complex aspect of the project or increasing the frequency of project inspections."
                     },
                     {
-                      "heading": "Business Contact Group",
-                      "detail": "Suppliers and customers use them to evaluate creditworthiness and reliability of supply."
+                      "heading": "Acceptance/Retention",
+                      "detail": "This strategy is adopted when it's not possible or cost-effective to deal with a risk in another way. The project team acknowledges the risk and decides to deal with it if it occurs, often by setting aside contingency reserves."
                     },
                     {
-                      "heading": "Government",
-                      "detail": "Tax authorities use them to ensure compliance with tax laws and regulations."
+                      "heading": "Risk Sharing",
+                      "detail": "This involves allocating risk ownership to other parties who are better able to handle it. For example, a joint venture where the risks and profits of a large project are shared between partner organizations."
                     }
                   ],
-                  "conclusion": "Each stakeholder relies on financial statements to make economic decisions related to their interest in the company.",
-                  "otherPossibleAnswers": "Advisor/Analyst Group, General Public.",
-                  "reference": "Unit 6, Session 5, 5.1 - Financial Statements"
-                }
-              },
-              {
-                "label": "C",
-                "question": "Explain four profitability ratios that might be available to small enterprise owners.",
-                "marks": 8,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "Profitability ratios measure how effectively a firm's management is generating profit on sales, assets, and stockholders' investment.",
-                  "mainPoints": [
-                    {
-                      "heading": "Gross Profit Ratio",
-                      "detail": "Indicates the average gross margin on sales, revealing how effectively management is making decisions regarding pricing and production cost control. Formula: Gross Profit / Sales."
-                    },
-                    {
-                      "heading": "Net Profit Margin",
-                      "detail": "Indicates the relative efficiency after taking into account all operating expenses, interest, and taxes. Formula: Net Profit (after interest & tax) / Sales."
-                    },
-                    {
-                      "heading": "Return on Assets (ROA)",
-                      "detail": "Measures how much net income was generated for each cedi of assets the company has. Formula: Net Profit after Interest & Tax / Total Assets."
-                    },
-                    {
-                      "heading": "Return on Equity (ROE)",
-                      "detail": "Measures the rate of return on stockholders' equity, influenced by the amount of debt used. Formula: Net Profit after Tax / Shareholders' Equity."
-                    }
-                  ],
-                  "conclusion": "These ratios help small enterprise owners assess their business's profitability and make improvements where needed.",
-                  "otherPossibleAnswers": "Return on Capital Employed (ROCE), Expenses to Sales Ratio.",
-                  "reference": "Unit 6, Session 5, 5.2.a - Profitability Ratios"
+                  "conclusion": "The choice of response strategy depends on the risk's priority and the cost and feasibility of the response, with the goal of enhancing opportunities and reducing threats.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 4, 4.3 - Risk Response"
                 }
               }
             ]

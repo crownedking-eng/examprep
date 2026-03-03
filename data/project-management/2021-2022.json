@@ -1,6 +1,6 @@
 {
-  "subject": "Entrepreneurship and Small Enterprise Management",
-  "subjectCode": "SBU 408D",
+  "subject": "Project Management",
+  "subjectCode": "SBU 405D",
   "academicYear": "2021/2022",
   "semesters": [
     {
@@ -8,263 +8,259 @@
       "sectionA": [
         {
           "type": "single",
-          "question": "Some factors affect your business activity as an entrepreneur who produces coconut juice. Which of these factors below covers issues relating to the taste and preference and the level of individuals in the area you operate in?",
+          "question": "The document that formally authorizes the existence of a project and provides the project manager with the authority to apply organisational resources to project activities is referred to as ______.",
           "options": [
-            "A. Economic Environment",
-            "B. Political Environment",
-            "C. Social-cultural Environment",
-            "D. Technological Environment"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The socio-cultural environment covers current social factors like the taste and preferences of consumers.",
-          "reference": "Unit 1, Session 4, 4.5 - Socio-cultural Environment"
-        },
-        {
-          "type": "single",
-          "question": "The following are the three main reasons that can cause a new venture to fail except ______.",
-          "options": [
-            "A. financial difficulties",
-            "B. managerial problems",
-            "C. product/market problems",
-            "D. open for collaborations"
-          ],
-          "correctAnswer": "D",
-          "explanation": "The three main classes of causes for new venture failure are product/market problems, financial difficulties, and managerial problems.",
-          "reference": "Unit 2, Session 3, 3.2 - Reasons For New Venture Failure"
-        },
-        {
-          "type": "single",
-          "question": "Which type of a firm's resource ordinary refers to its formal reporting systems, informal-generation, decision-making systems, and informal planning?",
-          "options": [
-            "A. Human resource",
-            "B. Technological resource",
-            "C. Organizational resource",
-            "D. Physical resource"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Organizational resources ordinarily refer to the firm's formal reporting systems, its information-generation and decision-making systems, and formal or informal planning.",
-          "reference": "Unit 4, Session 1, 1.4 - Organizational Resources"
-        },
-        {
-          "type": "single",
-          "question": "Which of the 4Ps of marketing involves all aspects of getting the products to the consumer in the right location at the right time?",
-          "options": [
-            "A. Place",
-            "B. Price",
-            "C. Product",
-            "D. Promotion"
+            "A. Project charter",
+            "B. Project management plan",
+            "C. Directing and controlling projects",
+            "D. Project integrated change"
           ],
           "correctAnswer": "A",
-          "explanation": "Place (or distribution) is an element of the marketing mix involving all aspects of getting products to the consumer in the right location at the right time.",
-          "reference": "Unit 5, Session 1, 1.3.3 - Place"
+          "explanation": "The project charter is defined as a document that formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources.",
+          "reference": "Unit 5, Session 2, 2.1 - Develop Project Charter"
         },
         {
           "type": "single",
-          "question": "The medium for gathering information that serves as the foundation for the marketing plan is referred to as ______.",
+          "question": "Any unique and verifiable product or the result of the capability to perform a service that is required to complete a process, phase or project is called ______.",
           "options": [
-            "A. Marketing concepts",
-            "B. Marketing research",
-            "C. Marketing strategy",
-            "D. Target marketing"
+            "A. Project outcome",
+            "B. Project Deliverables",
+            "C. Project service delivery",
+            "D. project execution"
           ],
           "correctAnswer": "B",
-          "explanation": "Marketing research is a medium for gathering the information that serves as the foundation for the marketing plan.",
-          "reference": "Unit 5, Session 2, 2.1 - The Nature of Marketing Research"
+          "explanation": "A deliverable is defined as any unique and verifiable product, result, or capability to perform a service that is required to be produced to complete a process, phase, or project.",
+          "reference": "Unit 5, Session 2, 2.3.1 - Deliverables"
         },
         {
           "type": "single",
-          "question": "Which of the following is not a marketing strategy to increase a firm's sales?",
+          "question": "The power, urgency and legitimacy grid are also referred to as ______.",
           "options": [
-            "A. Market development",
-            "B. Market penetration",
-            "C. Market segmentation",
-            "D. Product development"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Market segmentation is a strategy to subdivide the market, while market penetration, development, and development are strategies to increase sales.",
-          "reference": "Unit 5, Session 3, 3.2 & 3.3 - Choosing a Marketing Strategy & Market Segmentation"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not one of the factors to be considered when assessing the credit worthiness of a firm?",
-          "options": [
-            "A. Capacity",
-            "B. Circumstance",
-            "C. Factoring",
-            "D. Guarantee"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Factoring is a source of short-term finance, not a factor for assessing creditworthiness. The factors are Character, Capacity, Circumstances, Insurance Cover, and Guarantees.",
-          "reference": "Unit 6, Session 3, 3.1 - Sources of Short Term Finance"
-        },
-        {
-          "type": "single",
-          "question": "All the following are attributes of strategic resources except ______ resources.",
-          "options": [
-            "A. imperfectly imitable",
-            "B. measurable",
-            "C. non-substitutable",
-            "D. rare"
+            "A. Influence and impact grid",
+            "B. Salience model",
+            "C. Stakeholder management grid",
+            "D. Stakeholder model"
           ],
           "correctAnswer": "B",
-          "explanation": "The attributes of a strategic resource are that it must be valuable, rare, imperfectly imitable, and non-substitutable.",
-          "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
+          "explanation": "The model that uses power, urgency, and legitimacy to classify stakeholders is known as the Salience model.",
+          "reference": "Unit 5, Session 5, 5.1.1 - Power, Urgency, and Legitimacy Grid"
         },
         {
           "type": "single",
-          "question": "Mr Opoku, an entrepreneur who manufactures sachet water at Akura has expanded his business by opening a new branch at Kwapimba Cape Coast. Which fundamental factors must be considered improving his new facility?",
+          "question": "Which of the following environmental factors impacts project management and outcomes?\nI. Operational\nII. Cultural\nIII. Ecological\nIV. Psychological",
           "options": [
-            "A. Capacity",
-            "B. Human resources",
-            "C. Operations management",
-            "D. Signs"
+            "A. I only",
+            "B. I and II only",
+            "C. II, III and IV only",
+            "D. I, II, III and IV"
           ],
           "correctAnswer": "D",
-          "explanation": "Signs are a fundamental consideration in choosing and improving facilities, as they serve as a means of communication and tell the public about the firm.",
-          "reference": "Unit 4, Session 2, 2.2.iii - Signs"
+          "explanation": "The project environment encompasses numerous dynamic factors, including Operational, Physical, Ecological, Social, Cultural, Economical, Psychological, Financial, and Organizational.",
+          "reference": "Unit 6, Session 1, 1.1 - Project Environment"
         },
         {
           "type": "single",
-          "question": "Which of the following is not an essential requirement for accessing funds?",
+          "question": "Which of the following is not considered an internal source of risk?",
           "options": [
-            "A. A comprehensive business plan",
-            "B. A standard land size",
-            "C. Incorporated paper",
-            "D. Tax clearance certificate"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The basic requirements for accessing the Venture Capital Trust Fund are a comprehensive business plan, incorporation papers, audited financials, and a tax clearance certificate.",
-          "reference": "Unit 6, Session 4, 4.1 - How to Access Venture Capital Funds"
-        },
-        {
-          "type": "single",
-          "question": "Impersonal methods of promoting small firms include the following except ______.",
-          "options": [
-            "A. media advertisement",
-            "B. trade show",
-            "C. direct mail",
-            "D. press release"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Trade shows and exhibitions are considered personal methods of promotion. Impersonal methods include media ads, direct mail, and press releases.",
-          "reference": "Unit 5, Session 6, 6.2.1.4 & 6.2.2 - Exhibitions and trade shows & Impersonal methods of promotion"
-        },
-        {
-          "type": "single",
-          "question": "The choice of distribution channel for a small firm would be dependent on several factors, including the following except ______.",
-          "options": [
-            "A. customer",
-            "B. finance",
-            "C. product",
-            "D. promotion"
-          ],
-          "correctAnswer": "D",
-          "explanation": "The choice of distribution channel depends on the customer, the product, finance, and the firm's objectives, not promotion.",
-          "reference": "Unit 5, Session 6, 6.1.2 - Choice of Channel"
-        },
-        {
-          "type": "single",
-          "question": "The firm's financial leverage is used to judge a firm's long-term financial position. These ratios indicate the mix of funds provided by the owners and lenders, and they include the following except ______ ratio.",
-          "options": [
-            "A. coverage",
-            "B. debt",
-            "C. debt to equity",
-            "D. stock turnover"
-          ],
-          "correctAnswer": "D",
-          "explanation": "Stock turnover is an activity/efficiency ratio. Leverage ratios include debt ratio, debt to equity ratio, and coverage ratio.",
-          "reference": "Unit 6, Session 5 & 6 - Activity Ratios & Leverage/Gearing Ratios"
-        },
-        {
-          "type": "single",
-          "question": "Which ratio measures how effectively a firm's management generates profit on sales, total sales, and most importantly, stockholders' investment?",
-          "options": [
-            "A. Efficiency ratios",
-            "B. Investment ratios",
-            "C. Liquidity ratios",
-            "D. Profitability ratios"
-          ],
-          "correctAnswer": "D",
-          "explanation": "Profitability ratios measure how effectively a firm's management is generating profit on sales, total assets, and stockholders' investment.",
-          "reference": "Unit 6, Session 5, 5.2.a - Profitability Ratios"
-        },
-        {
-          "type": "single",
-          "question": "The aspect of Market Segmentation that divides buyers into different groups based on social class, lifestyle, or personality characteristics is known as ______ segmentation.",
-          "options": [
-            "A. behavioural",
-            "B. demographic",
-            "C. psychographics",
-            "D. psychological"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Psychographics segmentation divides buyers into different groups based on social class, life style or personality characteristics.",
-          "reference": "Unit 5, Session 4, 4.2.1 - Market Segmentation"
-        },
-        {
-          "type": "single",
-          "question": "Collection of data via personal interviews, telephone interviews, mail surveys, or focus group best fits ______ data.",
-          "options": [
-            "A. archival",
-            "B. organizational",
-            "C. primary",
-            "D. secondary"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Primary data involve information collected for the specific purpose at hand, using methods such as personal interviews, telephone interviews, mail surveys, or focus groups.",
-          "reference": "Unit 5, Session 2, 2.3.2.ii - Primary data"
-        },
-        {
-          "type": "single",
-          "question": "The specific combination of interrelated and interdependent marketing activities an organization adopts to meet its objective is called ______ mix.",
-          "options": [
-            "A. product",
-            "B. marketing",
-            "C. financial",
-            "D. promotion"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The marketing mix entails the specific combination of interrelated and interdependent marketing activities in which an organization engages to meet its objectives.",
-          "reference": "Unit 5, Session 1, 1.3 - The Marketing Mix"
-        },
-        {
-          "type": "single",
-          "question": "The four C's Model for evaluating human resources include the following except ______.",
-          "options": [
-            "A. commitment",
-            "B. competence",
-            "C. confectionary",
-            "D. congruence"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The four C's model for human resources outcomes consists of commitment, competence, congruence, and cost effectiveness.",
-          "reference": "Unit 4, Session 4, 4.3 - The Four C's Model for Evaluating Human Resources"
-        },
-        {
-          "type": "single",
-          "question": "The purchase of a business, or a significant part of it, by its current management is referred to as ______.",
-          "options": [
-            "A. buy – in",
-            "B. buy–in management buy–out",
-            "C. buy – out",
-            "D. outright purchase"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Buy-outs commonly refer to the purchase of a business, or a significant part of it, by its current management.",
-          "reference": "Unit 2, Session 4, 4.1.3 - Buy-out"
-        },
-        {
-          "type": "single",
-          "question": "Lydia Owusu is a tomato seller with a large tomato shop at Kotokoraba Market, Cape Coast. She believes that her shop positively influences the lives of the people in Kotokoraba and its surroundings. So, what characteristics of a successful entrepreneur Lydia Owusu exhibit?",
-          "options": [
-            "A. Passion for business",
-            "B. Head for Business",
-            "C. Honourable",
-            "D. Professional"
+            "A. Market or operational risk",
+            "B. Poor understanding of the project manager's job",
+            "C. Poorly organized project office",
+            "D. Unrealistic planning and scheduling"
           ],
           "correctAnswer": "A",
-          "explanation": "The first characteristic shared by successful entrepreneurs is a passion for their business, which stems from the belief that the business will positively influence people's lives.",
-          "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
+          "explanation": "Market or operational risk is listed as an external risk. The other options are all listed as examples of internal risks.",
+          "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk"
+        },
+        {
+          "type": "single",
+          "question": "The project risk management framework consists of six phases, which of the following best arranges the phases in chronological order?\nI. Establish the context\nII. Risk analysis\nIII. Risk identification\nIV. Risk monitoring and control\nV. Risk response planning",
+          "options": [
+            "A. I, III, II, V and IV",
+            "B. II, I, III, V and IV",
+            "C. V, IV, III, II and I",
+            "D. III, II, IV, V and I"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The six major phases of project risk management are: establish the context, risk identification, risk analysis, risk evaluation, risk response planning, and risk monitoring and control.",
+          "reference": "Unit 6, Session 1, 1.3 - Project risk management framework"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not true about the project communication plan?",
+          "options": [
+            "A. It allows the project manager to maintain control of the project and ensure all stakeholders receive the necessary information",
+            "B. Enables the project leader to lead the team to the desired project outcome",
+            "C. It increases the inconsistencies of how the project is handled",
+            "D. Ensures that all stakeholders have the same information on the project requirements and changes"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A solid communication plan increases the consistency of how the project is handled, not the inconsistencies.",
+          "reference": "Unit 4, Session 5, (Importance of project communication plan)"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an item included in the risk register?",
+          "options": [
+            "A. Assessment of the likelihood of occurrence",
+            "B. Data of identifications",
+            "C. Historical data",
+            "D. Section of project"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The risk register includes items like a unique identifier, date of identification, project section, risk description, likelihood assessment, and severity assessment. Historical data is an input to risk identification, not a standard element of the risk register itself.",
+          "reference": "Unit 6, Session 2, 2.4 - Developing Risk Registrar"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best explains the processes involved in the risk scoring matrix?",
+          "options": [
+            "A. Identify all the risks, assign severity/impact if they should occur and assign a probability of occurrence rates",
+            "B. Identify the impact/severity if they occur, assign a probability of likelihood of occurrence, assess all risk",
+            "C. Identify all risks, assign a probability of occurrence rates/values and assign severity/impact if they should occur",
+            "D. Establish the organizational and project environment, assign severity/impact if they occur and specify objectives"
+          ],
+          "correctAnswer": "C",
+          "explanation": "To analyze risk using a risk scoring matrix, you first identify all risks, then assign probability of occurrence, and then assign severity/impact if they occur.",
+          "reference": "Unit 6, Session 3, 4.1 - Risk Scoring Matrix"
+        },
+        {
+          "type": "single",
+          "question": "Managing human resources of a project helps in the following ways except ______.",
+          "options": [
+            "A. Create teams that are unsupportive of each other",
+            "B. It gives the ability to resolve employee complaints",
+            "C. Helps in knowing when and how team members should be added",
+            "D. Identify and engage employees with a variety of skills levels"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Managing human resources helps construct a team that supports and complements each other, not one that is unsupportive. The other options are listed as benefits.",
+          "reference": "Unit 4, Session 1, 6.3 - Importance of Project Human Resource Management"
+        },
+        {
+          "type": "single",
+          "question": "An approach to conflict that involves a party either physically or psychologically removing himself/herself from the conflict is referred to as ______.",
+          "options": [
+            "A. Accommodation",
+            "B. Avoidance",
+            "C. Collaboration",
+            "D. Compromise"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Avoidance is defined as physically or psychologically removing oneself from the conflict, as the parties feel it is hopeless to try and resolve it.",
+          "reference": "Unit 1, Session 4, 4.3.1 - Avoidance"
+        },
+        {
+          "type": "single",
+          "question": "When parties to a conflict come to an agreement through yielding or conforming to the positions of others, cooperation in an effort to create harmony, even at the expense of their own ideas and values, which of the following best describes the conflict resolution approach adopted?",
+          "options": [
+            "A. Accommodation",
+            "B. Competition",
+            "C. Compromise",
+            "D. Collaboration"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Accommodation is the conflict resolution approach that focuses on coming to an agreement through yielding or conforming to the positions of others to create harmony.",
+          "reference": "Unit 1, Session 4, 4.3.2 - Accommodation"
+        },
+        {
+          "type": "single",
+          "question": "The phase of the project life cycle which involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase is referred to as ______.",
+          "options": [
+            "A. Execution",
+            "B. Initiation",
+            "C. Planning",
+            "D. Closure"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The project planning phase involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Planning"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following types of project termination occurs when the needed resources are executed by the project organization and the project is lacking or inadequate?",
+          "options": [
+            "A. Addition",
+            "B. Extinction",
+            "C. Integration",
+            "D. Starvation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Project starvation occurs when the needed resources needed by the project organization to execute the project is lacking or inadequate or unavailable.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not considered as a cause of project delays?",
+          "options": [
+            "A. Closure",
+            "B. Scope change",
+            "C. Design errors",
+            "D. Deliberate action"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Deliberate action is described as a type of delay, not a cause. Scope change, design errors, and issues with closure are all listed as causes of delays.",
+          "reference": "Unit 1, Session 6, 6.1 - Project Delays; 6.3 - Causes of Project Delays"
+        },
+        {
+          "type": "single",
+          "question": "Project cost associated with hiring and paying the various classification of workers involved in developing the project is classified as service cost.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Labour costs are costs associated with hiring and paying workers. Service costs are associated with the work done by consultants, experts, and subcontractors.",
+          "reference": "Unit 2, Session 1, 1.2.1 - Labour Cost; 1.2.3 - Service Cost"
+        },
+        {
+          "type": "single",
+          "question": "Indirect costs associated with a project include the following except ______.",
+          "options": [
+            "A. Advertising",
+            "B. Depreciation of equipment",
+            "C. Insurance",
+            "D. Materials"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Indirect costs include overheads (like insurance, depreciation) and selling/administration costs (like advertising). Materials cost is a direct cost.",
+          "reference": "Unit 2, Session 2, 2.1.1 - Direct costs; 2.1.2 - Indirect costs"
+        },
+        {
+          "type": "single",
+          "question": "Unplanned costs incurred when steps are taken to speed up the project's completion are referred to as ______.",
+          "options": [
+            "A. Expedited Costs",
+            "B. Fixed Costs",
+            "C. Variable Costs",
+            "D. Normal Costs"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Expedited costs are unplanned costs incurred when steps are taken to speed up the project's completion, such as overtime or hiring additional workers.",
+          "reference": "Unit 2, Session 2, 2.1.8 - Expedited costs"
+        },
+        {
+          "type": "single",
+          "question": "Business angels are examples of short-term project funding sources.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Business angels are private investors who invest directly in a company, typically for the long-term, and are classified as a source of long-term project funding.",
+          "reference": "Unit 2, Session 4, 4.3.3 - Business Angels"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an example of long-term sources of project funding?",
+          "options": [
+            "A. Venture Capital",
+            "B. Bank overdraft",
+            "C. Retained Profits",
+            "D. Share Capital"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bank overdrafts are a source of short-term finance, as they are typically due for repayment in less than a year. The others are all long-term sources.",
+          "reference": "Unit 2, Session 4, 4.2.1 - Bank Overdrafts; 4.3 - Sources of Long-term Project Funding"
         }
       ],
       "sectionB": {
@@ -276,84 +272,88 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "With the aid of a diagram, explain the entrepreneurial process.",
-                "marks": 8,
+                "question": "Explain the activities in the project integration management process.",
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "The entrepreneurial process involves four key contingencies that come together to create new value.",
+                  "introduction": "Project integration management involves a series of interconnected activities that unify and coordinate all aspects of a project throughout its life cycle.",
                   "mainPoints": [
                     {
-                      "heading": "Entrepreneur",
-                      "detail": "The individual or team that leads and develops the venture, identifying opportunities and managing resources."
+                      "heading": "Develop Project Charter",
+                      "detail": "The process of creating a document that formally authorizes the project and gives the project manager authority to apply organizational resources to project activities."
                     },
                     {
-                      "heading": "Opportunity",
-                      "detail": "A gap in the market that presents the chance to do something new, different, and better to create new value."
+                      "heading": "Develop Project Management Plan",
+                      "detail": "The process of defining, preparing, and coordinating all subsidiary plans and baselines into a comprehensive project management plan that guides execution, monitoring, and closure."
                     },
                     {
-                      "heading": "Organization",
-                      "detail": "A system devised to coordinate the activities of people and the use of resources within the venture."
+                      "heading": "Direct and Manage Project Work",
+                      "detail": "The process of leading and performing the work defined in the project management plan and implementing approved changes to achieve the project's objectives."
                     },
                     {
-                      "heading": "Resources",
-                      "detail": "The various inputs (financial, human, physical) that the entrepreneur brings together to build the venture and pursue the opportunity."
+                      "heading": "Monitor and Control Project Work",
+                      "detail": "The process of tracking, reviewing, and reporting overall project progress to meet performance objectives defined in the project management plan."
+                    },
+                    {
+                      "heading": "Perform Integrated Change Control",
+                      "detail": "The process of reviewing all change requests, approving and managing changes to deliverables, project documents, and the project management plan, and communicating their disposition."
+                    },
+                    {
+                      "heading": "Close Project or Phase",
+                      "detail": "The process of finalizing all activities across all Project Management Process Groups to formally complete the project or phase."
                     }
                   ],
-                  "conclusion": "These four elements interact continuously, with the entrepreneur at the center, to generate new value.",
+                  "conclusion": "These integration activities ensure that all elements of the project are properly coordinated, from initial authorization to final closure.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 3, 3.1 - The Entrepreneurial Process"
+                  "reference": "Unit 5, Session 1, 1.1 - The Project Integration Management Process or Activities; Sessions 2 and 3"
                 }
               },
               {
                 "label": "B",
-                "question": "Mention and explain four components of the sociological approaches used to examine the entrepreneurial process.",
-                "marks": 8,
-                "commandWord": "Mention and explain",
+                "question": "State two importance of project integration management to the project team.",
+                "marks": 4,
+                "commandWord": "State",
                 "answer": {
-                  "introduction": "The sociological approach explains the social conditions and factors that influence the decision to become an entrepreneur.",
+                  "introduction": "Project integration management is crucial for the project team as it provides a framework for coordinated and focused effort.",
                   "mainPoints": [
                     {
-                      "heading": "Negative Displacement",
-                      "detail": "The marginalization of individuals or groups from the core of society, making them seek entrepreneurial outlets."
+                      "heading": "Helps initiate the project",
+                      "detail": "It allocates resources to commence work, and the project charter directs the project team to execute the project plan."
                     },
                     {
-                      "heading": "\"Between Things\"",
-                      "detail": "People who are in a transition phase, such as migrants or former politicians, are more likely to seek new entrepreneurial opportunities."
+                      "heading": "Ensures projects are not managed in isolation",
+                      "detail": "It takes into account how other parts of the organization relate to the project, helping the team see the bigger picture."
                     },
                     {
-                      "heading": "Positive Pull",
-                      "detail": "Positive influences from a partner, mentor, or investor that encourage an individual to pursue entrepreneurship."
-                    },
-                    {
-                      "heading": "Positive Push",
-                      "detail": "Factors like a career path offering entrepreneurial opportunities or education that provides the necessary knowledge and impetus."
+                      "heading": "Ensures the team works towards completing the project",
+                      "detail": "The integration process helps the team focus on meeting the project's scope, budget, and time."
                     }
                   ],
-                  "conclusion": "These social factors help explain why individuals from different backgrounds and situations choose to become entrepreneurs.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 3, 3.2.2 - Sociological Approach"
+                  "conclusion": "Ultimately, integration management provides the team with the structure and direction needed to work effectively towards a common goal.",
+                  "otherPossibleAnswers": "Helps generate a formal record of the project.",
+                  "reference": "Unit 5, Session 1, 1.2 - Importance of project integration Management"
                 }
               },
               {
                 "label": "C",
-                "question": "Differentiate between Internal and External locus of control.",
+                "question": "State two challenges or common problems associated with project integration management.",
                 "marks": 4,
-                "commandWord": "Differentiate",
+                "commandWord": "State",
                 "answer": {
-                  "introduction": "Locus of control is a personality trait that describes how people view the control they have over their own future.",
+                  "introduction": "Project integration management, while essential, comes with its own set of challenges that can hinder project success.",
                   "mainPoints": [
                     {
-                      "heading": "Internal Locus of Control",
-                      "detail": "Individuals believe that their own efforts and actions control their future and what happens to them."
+                      "heading": "Difficulty in tracking and understanding impacts",
+                      "detail": "Keeping track of all project elements and understanding how a change in one area impacts others is very challenging; if not done accurately, it can lead to project failure."
                     },
                     {
-                      "heading": "External Locus of Control",
-                      "detail": "Individuals believe that what happens to them is a result of fate, chance, luck, or forces beyond their control."
+                      "heading": "Inadequate expertise advice",
+                      "detail": "Integration management requires very specific skills and project intelligence. A lack of this expertise will result in a poor project plan and execution."
                     }
                   ],
-                  "conclusion": "Entrepreneurs typically have a strong internal locus of control, believing their efforts will influence their business's success.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 3, 3.2.1 - Locus of Control"
+                  "conclusion": "Overcoming these challenges requires a skilled project manager and a well-defined integration process.",
+                  "otherPossibleAnswers": "Difficulty in information dissemination for globally spread teams.",
+                  "reference": "Unit 5, Session 1, 2.4 - Challenges/ Common Problems of Project Integration Management"
                 }
               }
             ]
@@ -364,62 +364,70 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Products move through various stages of development. With a diagram, explain the stages in the Product Life Cycle model.",
+                "question": "Examine any five environmental factors that impact project outcomes.",
                 "marks": 10,
-                "commandWord": "Explain",
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "The Product Life Cycle (PLC) measures the stages of growth a product moves through from its introduction to its decline.",
+                  "introduction": "The project environment consists of numerous dynamic factors whose interactions can significantly impact project management processes and final outcomes.",
                   "mainPoints": [
                     {
-                      "heading": "Introductory Stage",
-                      "detail": "The product is presented to consumers. Marketing costs are high, and profits are low or negative as the product gains recognition."
+                      "heading": "Operational",
+                      "detail": "The internal processes, procedures, and capabilities of the organization performing the project can influence efficiency and execution."
                     },
                     {
-                      "heading": "Growth Stage",
-                      "detail": "Consumers accept the product, and sales rise rapidly. Profits increase, and competitors may begin to enter the market."
+                      "heading": "Physical",
+                      "detail": "The geographical location, infrastructure, and physical conditions where the project is executed can impact logistics and resource availability."
                     },
                     {
-                      "heading": "Maturity Stage",
-                      "detail": "Sales volume continues to rise, but profit margins peak and begin to fall due to increased competition and price reductions."
+                      "heading": "Ecological",
+                      "detail": "Environmental regulations, sustainability concerns, and the natural surroundings can affect project design and implementation."
                     },
                     {
-                      "heading": "Decline Stage",
-                      "detail": "Sales continue to drop, and profit margins fall drastically as the product becomes outdated or replaced by newer alternatives."
+                      "heading": "Cultural",
+                      "detail": "The beliefs, values, and customs of the community and workforce can influence communication, decision-making, and stakeholder relations."
+                    },
+                    {
+                      "heading": "Economical",
+                      "detail": "Economic conditions like inflation, interest rates, and market stability directly affect project funding, cost estimates, and overall viability."
                     }
                   ],
-                  "conclusion": "The PLC helps management make decisions about continuing a product or introducing new ones, highlighting the importance of innovation.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 5, 5.2.2 - The Product Life Cycle"
+                  "conclusion": "A thorough understanding of these environmental factors is essential for proactive planning and risk management to ensure project success.",
+                  "otherPossibleAnswers": "Social, Psychological, Financial, Organizational.",
+                  "reference": "Unit 6, Session 1, 1.1 - Project Environment"
                 }
               },
               {
                 "label": "B",
-                "question": "Highlight two marketing mix activities that are likely to occur at each level of the product life cycle.",
+                "question": "Explain any five external sources of project risk.",
                 "marks": 10,
-                "commandWord": "Highlight",
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "The marketing mix (product, price, place, promotion) is adjusted at each stage of the product life cycle to meet changing market conditions.",
+                  "introduction": "External sources of project risk originate from outside the project and organization, often beyond the direct control of the project team.",
                   "mainPoints": [
                     {
-                      "heading": "Introductory Stage",
-                      "detail": "Product: Offer a basic, core product to meet initial market needs. Promotion: Use heavy advertising and promotion to build product awareness."
+                      "heading": "Market or operational risk",
+                      "detail": "Risks related to changes in market conditions, customer demand, or the competitive landscape that can affect the project's relevance or profitability."
                     },
                     {
-                      "heading": "Growth Stage",
-                      "detail": "Product: Improve product quality and add new features to differentiate from competitors. Place: Increase distribution channels to reach a wider market."
+                      "heading": "Natural disasters",
+                      "detail": "Unpredictable events like earthquakes, floods, or storms that can physically damage project assets, disrupt schedules, and cause delays."
                     },
                     {
-                      "heading": "Maturity Stage",
-                      "detail": "Price: Reduce prices to defend market share against intense competition. Promotion: Increase sales promotion and reminders to encourage brand switching."
+                      "heading": "Currency rate fluctuations",
+                      "detail": "Changes in exchange rates that can significantly impact project costs, especially for projects that require importing materials or have international funding."
                     },
                     {
-                      "heading": "Decline Stage",
-                      "detail": "Product: Phase out weak items or reduce the product portfolio. Promotion: Reduce advertising and promotion to minimal levels."
+                      "heading": "Inflation",
+                      "detail": "The general increase in prices for goods and services can erode the project's budget, leading to cost overruns if not anticipated."
+                    },
+                    {
+                      "heading": "Technology changes",
+                      "detail": "Rapid advancements in technology can render a project's planned outputs or processes obsolete before the project is even completed."
                     }
                   ],
-                  "conclusion": "Adapting the marketing mix to each stage of the PLC helps a firm maximize a product's profitability and lifespan.",
-                  "otherPossibleAnswers": "Many combinations of the 4Ps are possible at each stage.",
-                  "reference": "Unit 5, Session 5, 5.2.2 - The Product Life Cycle"
+                  "conclusion": "Identifying and planning for these external risks is crucial for developing effective response strategies and contingency plans.",
+                  "otherPossibleAnswers": "Unforeseen regulatory requirements, Vandalism, Social instability, Changes in interest rates, Legislation.",
+                  "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk"
                 }
               }
             ]
@@ -430,70 +438,62 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Discuss five vital roles of business financing towards the growth of small businesses.",
-                "marks": 10,
-                "commandWord": "Discuss",
+                "question": "Examine any four project termination types.",
+                "marks": 8,
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "Finance, often called the lifeblood of a business, is essential at every stage for survival and growth.",
+                  "introduction": "A project can be concluded in several ways, not just upon successful completion. The four main types of project termination are as follows.",
                   "mainPoints": [
                     {
-                      "heading": "Start-ups",
-                      "detail": "Provides initial or seed capital to purchase assets, materials, employ people, and cover early running costs."
+                      "heading": "Termination by Starvation",
+                      "detail": "Occurs when the necessary resources for the project are lacking or are cut off, often due to budget cuts, with the possibility of reactivation later when economic situations improve."
                     },
                     {
-                      "heading": "Expansion",
-                      "detail": "Funds are needed for higher production capacity and new technology to cut costs and stay competitive."
+                      "heading": "Termination by Extinction",
+                      "detail": "The project is stopped, either successfully because it met its goals and delivered the final result, or unsuccessfully because it failed to accomplish its desired result."
                     },
                     {
-                      "heading": "Develop and market new products",
-                      "detail": "Money is required to research, develop, and market new products to meet changing customer needs."
+                      "heading": "Termination by Addition",
+                      "detail": "A very successful project is not disbanded; instead, it is transformed into a new, formal operating unit or division within the organization."
                     },
                     {
-                      "heading": "To enter new markets",
-                      "detail": "Finance supports activities like research and advertising to sell products in new geographical areas or to new customers."
-                    },
-                    {
-                      "heading": "Operating expenses",
-                      "detail": "Provides cash on a day-to-day basis to cover costs like paying suppliers, rent, and salaries."
+                      "heading": "Termination by Integration",
+                      "detail": "The project's resources, including the project team, are reabsorbed back into the organization's existing functional departments after the project's conclusion."
                     }
                   ],
-                  "conclusion": "Adequate and timely finance is crucial for a small business to start, operate, grow, and compete effectively.",
-                  "otherPossibleAnswers": "Take-over or acquisition, Moving to new premises.",
-                  "reference": "Unit 6, Session 1, 1.1 - The Importance of Finance in Business"
+                  "conclusion": "Understanding these termination types helps in planning for the project's end and the redeployment of its resources.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
                 }
               },
               {
                 "label": "B",
-                "question": "State and explain five factors that may influence the choice of finance for small businesses.",
-                "marks": 10,
-                "commandWord": "State and explain",
+                "question": "Define the project life cycle and explain the stages or phases involved.",
+                "marks": 12,
+                "commandWord": "Define and explain",
                 "answer": {
-                  "introduction": "A business must assess different types of finance based on several key criteria to choose the most suitable source.",
+                  "introduction": "A project life-cycle refers to all the phases or stages a project goes through from its initiation to its closeout.",
                   "mainPoints": [
                     {
-                      "heading": "Amount of money required",
-                      "detail": "Large amounts may not be available through some sources (like overdrafts), while others may not be flexible for small amounts."
+                      "heading": "Project Initiation",
+                      "detail": "During this phase, a business problem or opportunity is identified. A business case is defined, a feasibility study is conducted, and upon approval, a project is initiated, a project manager is appointed, and a project charter is created."
                     },
                     {
-                      "heading": "How quickly the money is needed",
-                      "detail": "The longer a business takes to raise money, the cheaper the source is generally expected to be."
+                      "heading": "Project Planning",
+                      "detail": "This second phase involves developing detailed plans to confirm the scope. It includes outlining activities, tasks, dependencies, and timeframes, as well as creating resource, financial, quality, risk, and procurement plans."
                     },
                     {
-                      "heading": "The cheapest option available",
-                      "detail": "The cost of finance is measured by the extra money paid (e.g., interest), with internal profits being the cheapest."
+                      "heading": "Project Execution and Controls",
+                      "detail": "This phase involves implementing the plans. While work is being done, management processes monitor and control deliverables, manage changes and risks, and review quality against the acceptance criteria."
                     },
                     {
-                      "heading": "The amount of risk involved",
-                      "detail": "Lenders may not fund high-risk ventures without strong guarantees, as risk affects the likelihood of repayment."
-                    },
-                    {
-                      "heading": "The length of time",
-                      "detail": "A good entrepreneur judges whether finance is needed for a long-term project or short-term need and chooses the source accordingly."
+                      "heading": "Project Termination/Closure",
+                      "detail": "The final phase involves releasing final deliverables, handing over documentation, terminating supplier contracts, releasing resources, and communicating closure. A post-implementation review is then conducted to document lessons learned."
                     }
                   ],
-                  "conclusion": "Balancing these factors helps a business select the most appropriate and cost-effective financing option.",
+                  "conclusion": "Following this structured lifecycle provides a clear roadmap for the project from its conception to its final handover and review.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 6, Session 1, 1.2 - Factors that Influence the Choice of Finance"
+                  "reference": "Unit 1, Session 5, 5.1 - Project life cycle defined; 5.1.1-5.1.2"
                 }
               }
             ]
@@ -501,699 +501,65 @@
           {
             "label": "Question 4",
             "totalMarks": 20,
-            "caseStudy": {
-              "title": "Case Study: Technology and Small Business",
-              "fullText": "Technology is becoming a significant factor in every startup-business. The last two decades have marked an enormous increase in technology use in industry. Through advancements in technology in computers and the internet, small businesses are contributing more to the economy than they did in the past. Technology has made it easy to process daily business activities and routine tasks. Technology has tangible and intangible benefits in a small business that affect the culture, relationships and efficiency of an enterprise."
-            },
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Identify two recent technological advances beneficial for small business growth.",
-                "marks": 2,
-                "commandWord": "Identify",
-                "answer": {
-                  "introduction": "Recent technological advances have greatly benefited small business growth.",
-                  "mainPoints": [
-                    {
-                      "heading": "The Internet",
-                      "detail": "Provides access to global markets, online marketing, and e-commerce platforms."
-                    },
-                    {
-                      "heading": "Computers",
-                      "detail": "Enable efficient processing of daily business activities, accounting, inventory control, and communication."
-                    }
-                  ],
-                  "conclusion": "These tools help small businesses compete more effectively and reach a wider audience.",
-                  "otherPossibleAnswers": "Smartphones, Cloud Computing, Social Media.",
-                  "reference": "Unit 4, Session 5, 5.3 - Importance of technological Resources"
-                }
-              },
-              {
-                "label": "B",
-                "question": "Mention and explain four types of technological resources.",
-                "marks": 8,
-                "commandWord": "Mention and explain",
-                "answer": {
-                  "introduction": "Technological resources are strengths a firm has in the areas of invention and process innovation.",
-                  "mainPoints": [
-                    {
-                      "heading": "People",
-                      "detail": "The most important resource; they have the ideas and skills to create products, provide services, and solve problems."
-                    },
-                    {
-                      "heading": "Information",
-                      "detail": "A commodity that is bought and sold, essential for problem-solving, ranging from books to the internet."
-                    },
-                    {
-                      "heading": "Knowledge",
-                      "detail": "Built by individuals through practical experience and training, encompassing technical know-how and skills."
-                    },
-                    {
-                      "heading": "Tools and Machines",
-                      "detail": "Physical devices used in production, including computers as machines and software as tools to perform tasks."
-                    }
-                  ],
-                  "conclusion": "These resources work together to help a firm innovate, operate efficiently, and maintain a competitive edge.",
-                  "otherPossibleAnswers": "Time, Materials, Money",
-                  "reference": "Unit 4, Session 5, 5.2 - Types of Technological Resources"
-                }
-              },
-              {
-                "label": "C",
-                "question": "Explain five importance of the technological resource.",
+                "question": "Explain the broad categorisation of the sources of project cost.",
                 "marks": 10,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Technological resources are vital tools that help run a business and create a competitive advantage.",
+                  "introduction": "The sources of project cost can be broadly categorized into four main areas, each representing a different type of expense required to complete the project.",
                   "mainPoints": [
                     {
-                      "heading": "Helps run the business",
-                      "detail": "Serves as a tool to process daily activities and routine tasks efficiently, like accounting and inventory control."
+                      "heading": "Labour cost",
+                      "detail": "These are costs associated with hiring and paying all classifications of workers (skilled, semi-skilled, laborers) involved in the project. This includes salaries, hourly/daily rates, and benefits like pensions or health insurance."
                     },
                     {
-                      "heading": "Enables adaptation",
-                      "detail": "Small firms can apply technological expertise to new industry segments, creating innovative products and services."
+                      "heading": "Materials cost",
+                      "detail": "This refers to the cost of specific requirements and supplies the project team needs to complete project tasks. These costs vary based on the project's scope, quality standards, and risk thresholds."
                     },
                     {
-                      "heading": "Sustains competitive advantage",
-                      "detail": "Resources covered by patents make it difficult for competitors to imitate a firm's products or processes."
+                      "heading": "Service cost",
+                      "detail": "These are costs associated with the work done by external parties such as consultants, experts, designers, and subcontractors, whose contributions are essential for successful project completion."
                     },
                     {
-                      "heading": "Improves communication",
-                      "detail": "Information and communications technology plays a central role in communication, replacing older, costly systems."
-                    },
-                    {
-                      "heading": "Provides sophisticated tools",
-                      "detail": "Standard software packages for accounting, budgeting, and spreadsheet analysis are now available to small firms at lower costs."
+                      "heading": "Equipment and facilities cost",
+                      "detail": "These are costs that emerge from the rental or purchase of any equipment, tools, or office facilities needed to facilitate the project's work."
                     }
                   ],
-                  "conclusion": "By leveraging technology, small firms can improve efficiency, innovate, and compete more effectively in the market.",
+                  "conclusion": "A clear understanding of these cost categories is fundamental for accurate cost estimating, budgeting, and overall financial management of the project.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 4, Session 5, 5.3 - Importance of technological Resources"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "semester": "Semester II",
-      "sectionA": [
-        {
-          "type": "single",
-          "question": "Creative behaviour includes all the following except ______",
-          "options": [
-            "A. Synthesis",
-            "B. Modification",
-            "C. Creation",
-            "D. Production"
-          ],
-          "correctAnswer": "D",
-          "explanation": "The material does not list \"Production\" as a component of creative behaviour, while synthesis, modification, and creation are key elements of innovation.",
-          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs (Innovation context)"
-        },
-        {
-          "type": "single",
-          "question": "Becoming a successful entrepreneur may not necessarily require ______",
-          "options": [
-            "A. Being a very persuasive person",
-            "B. Ability to work without a lot of help",
-            "C. Sensitivity to market opportunities",
-            "D. Very large amounts of capital"
-          ],
-          "correctAnswer": "D",
-          "explanation": "Entrepreneurs are known for starting ventures with limited resources and controlling rather than owning them, so very large amounts of capital are not a strict requirement.",
-          "reference": "Unit 4, Session 6, 6.3 - Resource Utilisation Strategy"
-        },
-        {
-          "type": "single",
-          "question": "The entrepreneurship process includes all the following except ______",
-          "options": [
-            "A. Entrepreneur",
-            "B. Opportunity",
-            "C. Planning",
-            "D. Organisation"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The entrepreneurial process involves four contingencies: entrepreneur, opportunity, organization, and resources. \"Planning\" is not listed as one of the four main components.",
-          "reference": "Unit 1, Session 3, 3.1 - The Entrepreneurial Process"
-        },
-        {
-          "type": "single",
-          "question": "The essential attributes of creative people include the following except ______.",
-          "options": [
-            "A. Curiosity",
-            "B. Hardworking",
-            "C. Tolerance for ambiguity",
-            "D. Independence of judgment"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The material does not specifically list \"hardworking\" as an essential creative attribute, though it is a general success factor. Curiosity, tolerance for ambiguity, and independence of judgment are traits associated with creative/entrepreneurial individuals.",
-          "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is a major purpose for writing a business plan?",
-          "options": [
-            "A. To develop a \"road map\" for an entrepreneurial venture to follow.",
-            "B. To introduce the business opportunity to potential investors and other stakeholders.",
-            "C. Both A and B are equally important.",
-            "D. Neither A nor B captures the true purpose of a business plan."
-          ],
-          "correctAnswer": "C",
-          "explanation": "The business plan serves to guide the entrepreneur (road map) and helps in obtaining financing (introducing to investors).",
-          "reference": "Unit 3, Session 1, 1.3 - The Importance of the Business Plan"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following statements is incorrect about a business plan?",
-          "options": [
-            "A. The plan is typically the first aspect of a proposed venture that will be seen by an investor.",
-            "B. To be impressive, the plan must follow an unconventional structure, so it will stand out.",
-            "C. It has both external and internal audience.",
-            "D. The plan is typically written by its founders."
-          ],
-          "correctAnswer": "B",
-          "explanation": "A business plan should follow a conventional structure; the precise format will depend on the business but must be professional, not merely unconventional to stand out.",
-          "reference": "Unit 3, Session 3, 3.2 - The Format of the Business Plan"
-        },
-        {
-          "type": "single",
-          "question": "Some factors affect your business activity as an entrepreneur who produces coconut juice. Which of these factors below covers issues relating to the taste and preference and the level of individuals in the area you operate in?",
-          "options": [
-            "A. Economic Environment",
-            "B. Political Environment",
-            "C. Social-cultural Environment",
-            "D. Technological Environment"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The socio-cultural environment covers current social factors like the taste and preferences of consumers.",
-          "reference": "Unit 1, Session 4, 4.5 - Socio-cultural Environment"
-        },
-        {
-          "type": "single",
-          "question": "The following are the three main reasons that can cause a new venture to fail except ______.",
-          "options": [
-            "A. financial difficulties",
-            "B. managerial problems",
-            "C. product/market problems",
-            "D. open for collaborations"
-          ],
-          "correctAnswer": "D",
-          "explanation": "The three main classes of causes for new venture failure are product/market problems, financial difficulties, and managerial problems.",
-          "reference": "Unit 2, Session 3, 3.2 - Reasons For New Venture Failure"
-        },
-        {
-          "type": "single",
-          "question": "Which type of a firm's resource ordinary refers to its formal reporting systems, informal-generation, decision-making systems, and informal planning?",
-          "options": [
-            "A. Human resource",
-            "B. Technological resource",
-            "C. Organizational resource",
-            "D. Physical resource"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Organizational resources ordinarily refer to the firm's formal reporting systems, its information-generation and decision-making systems, and formal or informal planning.",
-          "reference": "Unit 4, Session 1, 1.4 - Organizational Resources"
-        },
-        {
-          "type": "single",
-          "question": "Which of the 4Ps of marketing involves all aspects of getting the products to the consumer in the right location at the right time?",
-          "options": [
-            "A. Place",
-            "B. Price",
-            "C. Product",
-            "D. Promotion"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Place (or distribution) is an element of the marketing mix involving all aspects of getting products to the consumer in the right location at the right time.",
-          "reference": "Unit 5, Session 1, 1.3.3 - Place"
-        },
-        {
-          "type": "single",
-          "question": "The medium for gathering information that serves as the foundation for the marketing plan is referred to as ______.",
-          "options": [
-            "A. marketing concepts",
-            "B. marketing research",
-            "C. marketing strategy",
-            "D. target marketing"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Marketing research is a medium for gathering the information that serves as the foundation for the marketing plan.",
-          "reference": "Unit 5, Session 2, 2.1 - The Nature of Marketing Research"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not a marketing strategy to increase a firm's sales?",
-          "options": [
-            "A. Market development",
-            "B. Market penetration",
-            "C. Market segmentation",
-            "D. Product development"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Market segmentation is a strategy to subdivide the market, while market penetration, development, and product development are strategies to increase sales.",
-          "reference": "Unit 5, Session 3, 3.2 & 3.3 - Choosing a Marketing Strategy & Market Segmentation"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not one of the factors to be considered when assessing the credit worthiness of a firm?",
-          "options": [
-            "A. Capacity",
-            "B. Circumstance",
-            "C. Factoring",
-            "D. Guarantee"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Factoring is a source of short-term finance, not a factor for assessing creditworthiness. The factors are Character, Capacity, Circumstances, Insurance Cover, and Guarantees.",
-          "reference": "Unit 6, Session 3, 3.1 - Sources of Short Term Finance"
-        },
-        {
-          "type": "single",
-          "question": "All the following are attributes of strategic resources except ______ resources.",
-          "options": [
-            "A. Imperfectly imitable",
-            "B. Measurable",
-            "C. Non-substitutable",
-            "D. Rare"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The attributes of a strategic resource are that it must be valuable, rare, imperfectly imitable, and non-substitutable. \"Measurable\" is not one of these attributes.",
-          "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
-        },
-        {
-          "type": "single",
-          "question": "Mr Nsia Sarfo, an entrepreneur who manufactures sachet water at Jukwa, has expanded his business by opening a new branch at Kwaprow in Cape Coast. Which of the following management practices is not a key success factor in improving his new facility? ______ management.",
-          "options": [
-            "A. Marketing",
-            "B. Total quality",
-            "C. Operations",
-            "D. Self"
-          ],
-          "correctAnswer": "D",
-          "explanation": "\"Self management\" is not listed as a key success factor for improving facilities. Marketing, total quality, and operations management are all critical for business success.",
-          "reference": "Unit 4, Session 2, 2.2 - Fundamental Considerations in Choosing and Improving facilities"
-        },
-        {
-          "type": "single",
-          "question": "The aspect of Market Segmentation that divides buyers into different groups based on social class, lifestyle, or personality characteristics is known as ______ segmentation.",
-          "options": [
-            "A. Behavioural",
-            "B. Demographic",
-            "C. Psychographics",
-            "D. Psychological"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Psychographics segmentation divides buyers into different groups based on social class, life style or personality characteristics.",
-          "reference": "Unit 5, Session 4, 4.2.1 - Market Segmentation"
-        },
-        {
-          "type": "single",
-          "question": "Collection of data via personal interviews, telephone interviews, mail surveys, or focus group best fits ______ data.",
-          "options": [
-            "A. archival",
-            "B. organizational",
-            "C. primary",
-            "D. secondary"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Primary data involve information collected for the specific purpose at hand, using methods such as personal interviews, telephone interviews, mail surveys, or focus groups.",
-          "reference": "Unit 5, Session 2, 2.3.2.ii - Primary data"
-        },
-        {
-          "type": "single",
-          "question": "The specific combination of interrelated and interdependent marketing activities an organization adopts to meet its objective is called ______ mix.",
-          "options": [
-            "A. Product",
-            "B. Marketing",
-            "C. Financial",
-            "D. Promotion"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The marketing mix entails the specific combination of interrelated and interdependent marketing activities in which an organization engages to meet its objectives.",
-          "reference": "Unit 5, Session 1, 1.3 - The Marketing Mix"
-        },
-        {
-          "type": "single",
-          "question": "Lydia Owusu is a tomato seller with a large tomato shop at Kotok Market, Cape Coast. She believes that her shop positively influences the people in Kotokoraba and its surroundings. So characteristics of a successful entrepreneur Lydia Owusu exhibits:",
-          "options": [
-            "A. Passion for business",
-            "B. Head for Business",
-            "C. Honourable",
-            "D. Professional"
-          ],
-          "correctAnswer": "A",
-          "explanation": "The first characteristic shared by successful entrepreneurs is a passion for their business, which stems from the belief that the business will positively influence people's lives.",
-          "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
-        },
-        {
-          "type": "single",
-          "question": "Any product of human intellect that is intangible but has value in market place is termed ______.",
-          "options": [
-            "A. Intellectual property",
-            "B. Patent",
-            "C. Copyright",
-            "D. Brand"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Intellectual property refers to creations of the mind, such as inventions, literary and artistic works, designs, and symbols, which are intangible but have marketplace value.",
-          "reference": "Unit 4, Session 1, 1.4 - Technological Resources (knowledge protected by patents, copyrights)"
-        }
-      ],
-      "sectionB": {
-        "format": "grouped",
-        "questions": [
-          {
-            "label": "Question 1",
-            "totalMarks": 14,
-            "caseStudy": {
-              "title": "Case Study: Woarabeba Shito",
-              "fullText": "In 2016, the Chief Executive Officer of Woarabeba Shito lost her mom as a result of diabetes and stroke. When her mum was diagnosed, her family was instructed by the doctor not to serve her with meat and also help her reduce the intake of fish and high cholesterol oil. With this, serving her with a balanced meal was a bit difficult all the time. Her mother was also a great lover of the Ghanaian black pepper sauce (Shito) but she could not serve her with the sauce considering the hot pepper and the doctor's medical advice. Her mother's death spurred her interest to come up with a balanced diet for people like her mother who have a similar advice from a medical practitioner. During the time she (chief executive officer) spent at the Senior High School, she was diagnosed of stomach ulcer. She was asked not to take in pepper, exotic spices, too much salt and some other local dishes. Students in the High school mostly depended on pepper sauce popularly known as Shito for their upkeep in school. Without the sauce, one feels empty as a student. With the conditions she was diagnosed of, it was difficult getting pepper sauce to purchase because the sauces which were being sold where spicy and hot.\nFinally, during her final year at the undergraduate level, she went through an unpleasant stomach ache experience with her colleagues when they consumed a pepper sauce which was purchased from the market due to the short lifespan of the product. Considering all these experiences she thought of coming up with products that could help her address the issues she has talked about. In November 2019, she came up with nutritious and delicious long lasting homemade black pepper sauce for vegans, ulcer patients, meat lovers, seafood lovers, students, workers, households and the community at large. The product was named Woarabeba Shito which is in a local Ghanaian language with the meaning, you will definitely come or you won't be forced to make a purchasing decision considering the nutritional benefits, the taste of it, the long lasting nature, the diverse flavors available and the packaging of the products. She started the business in November 2019 but couldn't operate directly with customers due to the rise of covid 19 in the early 2020. She took advantage of the situation and made known the business through social media platforms. This made her record some sales and also give her the opportunity to reach out to more customers and prospects. She officially registered the business as a sole proprietorship on the 24th day of September 2020.\nWoarabeba Shito is guided by these:\nTo be the leading brand in nutritious and delicious healthy pepper sauce around the world. We prepare nutritious and delicious long lasting black pepper sauce, under strict hygienic condition for vegans, ulcer patients, students, and workers and households in Ghana to reduce malnutrition, heart diseases, stomach ulcer, and the risk of stroke.\nThe business hold in high esteem:\n- perseverance: to work harder to get the product on the shelves of every supermarket in the world.\n- Reliability: to be trusted and highly dependable\n- Consistency: to consistently maintain product quality\n- Integrity: to demonstrate professionalism in every undertaking\n- Growth: to promote business development\nCurrently the business has been able to employ ten (10) young people who are into production and distribution of the products in the various universities in Ghana and vantage points where the products are being sold. The business projects is looking forward to expand its operations and this would require more hands in order to make it successful. Plans are far advanced to diversify into closely related products such as dry stew, beef sauce, chicken sauce, chili sauce, red pepper sauce, green pepper sauce in cans and sachet form. This would help create a space (creating new jobs) for the youth in my community. Plans are also put in place to avoid multitasking by a single individual. The organization foresees creating distinct departments such as procurement and supply chain, production unit, finance and accounting, human resource, marketing and sales department. These departments clearly depict that more of the youth would be employed to work under the departmental heads.\nParts of the proceeds from the business would be used to take school dropouts back to school and also support single parents who are striving to take their wards to school. Currently part of the proceeds from the business is being used to cater for education of five school dropouts at the primary level and a needy but brilliant students at the Kwame Nkrumah University of Science and Technology in Kumasi (Ghana). Aside that, other students are also supported with school materials from the same proceeds. Single parents who face financial difficulties are being supported from the proceeds. Some basic needs of some female students in University Practice Senior High School in Cape Coast (Ghana) are also catered for from the proceeds. The business looks forward to supporting females further their education and also equip those who opt for technical skills to be enrolled on an apprenticeship in interested fields.\nIn recent times, due to the frequent increase in prices of raw materials, financial planning becomes very difficult. This gives rise to an increase in the prices of the product frequently. It has also been a major challenge in securing a production location in Cape Coast (Ghana) where most of the products is being sold. Social media advancement calls for highly competent personnel who can intensify advertisement in order to increase sales but the business lacks such personnel. Sometimes it is difficult to get some raw materials such as shrimp, mushroom and the glass bottles for packaging. Suppliers are sometimes not reliable when it comes to this. More so, raw materials purchased in bulk quantities are purchased at a lower cost but there are inadequate funds to purchase them in larger quantities. The business lacks equipments such as sterilizer, industrial blender, filling machine and packaging boxes. Finally due to the lack of motor bicycle and a personal transport vehicle for business, there are mostly delays in delivery services.\nWith the intention of providing customers with healthy sauces that would help improve on their health, the business intends to cover as many people as possible. Specifically, Woarabeba Shito hopes to target students at the various Senior High Schools and tertiary institutions in Ghana as well as workers and households. The business is also targeting the citizens of Ghana who find themselves abroad and those in the other countries as well. Following the marketing trend for sauces in the European countries, red pepper sauce has gained the preference of people in recent times so the business is to expand its markets to cover prospects in that jurisdiction. To the market segments, Woarabeba Shito, offer Fish Shito, Chevon Shito, Beef Shito, Mushroom Shito, Chicken Shito, Shito Mix and without shrimp Shito and these different type of products come in a form of hot, normal, mild and pepper free to serve the different market segments within the target groups.\nWith the plan of managing the competitions, Woarabeba Shito has put in intensive measures to make the product a unique one on its own thus adding meat, preparing that of vegetarians (using mushrooms to replace shrimp and fish), running door to door delivery services, embarking on promotional exercises, working on getting the sauce in a sachet form and taking it to the international markets. She has started taking advantage of the various social media platforms to make Woarabeba Shito a household name as a \"go-to\" brand. What would support her compete with others competitively is to invest much in the business in order to reach out to more customers. This could be done by running TV shows and YouTube videos such as Woarabeba Kitchen and that will host transformational agents specifically women, express their talents in cooking. This would serve as promotional advertisement. She would also require unique packaging containers to facilitate the distribution of the pepper sauce. Other secondary raw materials include glass bottles for packaging, labels and carrier bags.",
-              "keyFacts": [
-      "Founded in November 2019 by CEO whose mother died from diabetes/stroke, inspiring a healthy pepper sauce",
-      "CEO also had personal experience with stomach ulcer as a student, making her empathize with ulcer patients",
-      "Product name 'Woarabeba' means 'you will definitely come' in Ghanaian language",
-      "Mission: Prepare nutritious, long-lasting black pepper sauce under hygienic conditions for vegans, ulcer patients, students, workers, and households",
-      "Vision: To be the leading brand in nutritious healthy pepper sauce worldwide",
-      "Core values: Perseverance, Reliability, Consistency, Integrity, Growth",
-      "Officially registered as sole proprietorship on September 24, 2020",
-      "Currently employs ten (10) young people in production and distribution",
-      "Uses social media marketing (took advantage of COVID-19 to build brand awareness)",
-      "Plans to diversify into related products: dry stew, beef sauce, chicken sauce, chili sauce, red/green pepper sauce",
-      "Target market includes vegans, ulcer patients, students, workers, households, and Ghanaians abroad",
-      "Offers differentiated products: Fish Shito, Chevon Shito, Beef Shito, Mushroom Shito, Chicken Shito, with hot/normal/mild/pepper-free options",
-      "Competitive strategies: Product differentiation (vegetarian options), door-to-door delivery, promotional exercises, sachet packaging, international expansion",
-      "Social impact: Supports five school dropouts, a KNUST student, single parents, and female students with basic needs",
-      "Challenges: Rising raw material prices, difficulty securing production location, lack of social media personnel, unreliable suppliers, insufficient funds for bulk purchases, lack of equipment (sterilizer, industrial blender, filling machine), no delivery vehicle",
-      "Plans to create distinct departments: Procurement, Production, Finance, HR, Marketing"
-    ]
-            },
-            "subQuestions": [
-              {
-                "label": "A",
-                "question": "Quotes directly from the case:\ni. The mission statement of Woarabeba Shito. (1 mark)\nii. Vision statement of Woarabeba Shito. (1 mark)\niii. Four (4) core entrepreneurial attributes/values of Woarabeba Shito. (2 marks)",
-                "marks": 4,
-                "commandWord": "Quote directly",
-                "answer": {
-                  "introduction": "The mission, vision, and values are directly stated in the case study.",
-                  "mainPoints": [
-                    {
-                      "heading": "i. Mission Statement",
-                      "detail": "\"We prepare nutritious and delicious long lasting black pepper sauce, under strict hygienic condition for vegans, ulcer patients, students, and workers and households in Ghana to reduce malnutrition, heart diseases, stomach ulcer, and the risk of stroke.\""
-                    },
-                    {
-                      "heading": "ii. Vision Statement",
-                      "detail": "\"To be the leading brand in nutritious and delicious healthy pepper sauce around the world.\""
-                    },
-                    {
-                      "heading": "iii. Four Core Values",
-                      "detail": "Perseverance, Reliability, Consistency, Integrity."
-                    }
-                  ],
-                  "conclusion": "These statements guide the business's purpose, future direction, and operating principles.",
-                  "otherPossibleAnswers": "Growth.",
-                  "reference": "Case Study (Woarabeba Shito)"
+                  "reference": "Unit 2, Session 1, 1.2 - Sources of Project Cost"
                 }
               },
               {
                 "label": "B",
-                "question": "Outline:\ni. One economic impact of Woarabeba Shito. (1 mark)\nii. Three social impacts of Woarabeba Shito. (3 marks)",
-                "marks": 4,
-                "commandWord": "Outline",
-                "answer": {
-                  "introduction": "Woarabeba Shito has both economic and social impacts on its community.",
-                  "mainPoints": [
-                    {
-                      "heading": "i. Economic Impact",
-                      "detail": "The business has employed ten (10) young people in production and distribution, creating jobs and income."
-                    },
-                    {
-                      "heading": "ii. Social Impact 1",
-                      "detail": "Part of the proceeds is used to take school dropouts back to school and support their education."
-                    },
-                    {
-                      "heading": "ii. Social Impact 2",
-                      "detail": "Single parents facing financial difficulties are supported from the business proceeds."
-                    },
-                    {
-                      "heading": "ii. Social Impact 3",
-                      "detail": "Some basic needs of female students are catered for, and the business supports females to further their education."
-                    }
-                  ],
-                  "conclusion": "Through job creation and community support, the business contributes positively to both the economy and society.",
-                  "otherPossibleAnswers": "Supporting needy but brilliant students at KNUST.",
-                  "reference": "Case Study (Woarabeba Shito)"
-                }
-              },
-              {
-                "label": "C",
-                "question": "Identify:\ni. Four challenges facing Woarabeba Shito. (2 marks)\nii. Suggest one solution to each of the problem identified in question C(i) above. (4 marks)",
-                "marks": 6,
-                "commandWord": "Identify and Suggest",
-                "answer": {
-                  "introduction": "Woarabeba Shito faces several operational and financial challenges.",
-                  "mainPoints": [
-                    {
-                      "heading": "Challenge 1: Frequent increase in prices of raw materials",
-                      "detail": "Solution: Develop long-term contracts with suppliers to stabilize prices or explore alternative, cheaper raw material sources."
-                    },
-                    {
-                      "heading": "Challenge 2: Difficulty securing a production location in Cape Coast",
-                      "detail": "Solution: Seek partnership with local government or private landlords for a lease agreement or apply for support from NBSSI for business premises."
-                    },
-                    {
-                      "heading": "Challenge 3: Lack of competent personnel for social media advertisement",
-                      "detail": "Solution: Hire a skilled social media manager or train existing staff through online marketing courses."
-                    },
-                    {
-                      "heading": "Challenge 4: Unreliable supply of raw materials like shrimp, mushroom, and glass bottles",
-                      "detail": "Solution: Build relationships with multiple suppliers to ensure backup options or consider producing some materials in-house."
-                    }
-                  ],
-                  "conclusion": "Addressing these challenges with strategic solutions will help the business grow and operate more smoothly.",
-                  "otherPossibleAnswers": "Lack of equipment (sterilizer, industrial blender); lack of transport vehicle causing delivery delays.",
-                  "reference": "Case Study (Woarabeba Shito)"
-                }
-              },
-              {
-                "label": "D",
-                "question": "The owner of Woarabeba Shito can be classified under which type of entrepreneur?",
-                "marks": 1,
-                "commandWord": "Classify",
-                "answer": {
-                  "introduction": "The owner of Woarabeba Shito can be classified as a craft entrepreneur.",
-                  "mainPoints": [
-                    {
-                      "heading": "Craft Entrepreneur",
-                      "detail": "She participates directly in creating the product (shito), is involved in production, and is addressing a specific market need based on personal experience."
-                    }
-                  ],
-                  "conclusion": "Her hands-on approach and focus on product quality align with the characteristics of a craft entrepreneur.",
-                  "otherPossibleAnswers": "Novice entrepreneur (as she started her first business).",
-                  "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
-                }
-              },
-              {
-                "label": "E",
-                "question": "What market coverage strategy is Woarabeba Shito applying.",
-                "marks": 2,
-                "commandWord": "What",
-                "answer": {
-                  "introduction": "Woarabeba Shito is applying a differentiated marketing strategy.",
-                  "mainPoints": [
-                    {
-                      "heading": "Differentiated Marketing",
-                      "detail": "The company targets several market segments (vegans, ulcer patients, students, workers, households) and designs separate offers for each (Fish Shito, Mushroom Shito, etc., in hot, normal, mild, and pepper-free versions)."
-                    }
-                  ],
-                  "conclusion": "By tailoring products to different groups, they aim to maximize their reach and customer satisfaction.",
-                  "otherPossibleAnswers": "Concentrated marketing could also be argued as they focus on the \"healthy sauce\" niche.",
-                  "reference": "Unit 5, Session 4, 4.2.2 - Market Targeting"
-                }
-              },
-              {
-                "label": "F",
-                "question": "Outline three strategies adopted by Woarabeba Shito to stay competitive.",
-                "marks": 3,
-                "commandWord": "Outline",
-                "answer": {
-                  "introduction": "Woarabeba Shito has adopted several strategies to maintain a competitive edge.",
-                  "mainPoints": [
-                    {
-                      "heading": "Product Differentiation",
-                      "detail": "They offer unique products like vegetarian shito (using mushrooms) and various flavors (fish, beef, chicken) to cater to different tastes."
-                    },
-                    {
-                      "heading": "Door-to-Door Delivery",
-                      "detail": "They provide convenient delivery services to customers, enhancing customer satisfaction."
-                    },
-                    {
-                      "heading": "Social Media Marketing",
-                      "detail": "They use social media platforms to build brand awareness and reach more customers."
-                    }
-                  ],
-                  "conclusion": "These strategies help the business stand out from competitors and build a loyal customer base.",
-                  "otherPossibleAnswers": "Promotional exercises; plans for international market expansion.",
-                  "reference": "Case Study (Woarabeba Shito)"
-                }
-              }
-            ]
-          },
-          {
-            "label": "Question C1 (Choose One)",
-            "totalMarks": 20,
-            "subQuestions": [
-              {
-                "label": "A",
-                "question": "The business environment is very instrumental in creating business opportunities as well as presenting potential threats to business survival and growth.\nRequired:\nExamine five forces in the business environment and state how they present both threats and opportunities that affect entrepreneurship development.",
+                "question": "Using relevant examples, distinguish between the following types of cost.\ni. direct and indirect project costs\nii. Fixed and variable costs\niii. normal and expedited costs\niv. recurring and nonrecurring costs",
                 "marks": 10,
-                "commandWord": "Examine",
+                "commandWord": "Distinguish",
                 "answer": {
-                  "introduction": "The business environment consists of various forces that can both create opportunities for and pose threats to entrepreneurs.",
+                  "introduction": "Each pair of cost types is distinguished by how they behave and how they relate to the project's activities and timeline.",
                   "mainPoints": [
                     {
-                      "heading": "Economic Environment",
-                      "detail": "Opportunity: Low interest rates make borrowing cheaper, encouraging investment and expansion. Threat: High inflation increases production costs and reduces consumer purchasing power."
+                      "heading": "i. Direct vs. Indirect costs",
+                      "detail": "Direct costs are clearly assigned to the specific aspect of the project that generated them (e.g., wages of workers directly building a house). Indirect costs are linked to overhead and administration, not tied to one specific activity (e.g., utilities for the company office or advertising for the brand)."
                     },
                     {
-                      "heading": "Technological Environment",
-                      "detail": "Opportunity: New technologies like the internet allow businesses to reach global markets and improve efficiency. Threat: Rapid technological change can make a firm's products or processes obsolete quickly."
+                      "heading": "ii. Fixed vs. Variable costs",
+                      "detail": "Fixed costs do not vary with respect to their usage throughout the project life cycle (e.g., leasing equipment at a fixed monthly payment). Variable costs accelerate or vary throughout the project life cycle based on activity level (e.g., cost of cement or steel, which depends on how much of the building is constructed)."
                     },
                     {
-                      "heading": "Political Environment",
-                      "detail": "Opportunity: A stable, democratic government with free market policies encourages investment and entrepreneurship. Threat: Government instability or corruption can discourage business because rewards are uncertain."
+                      "heading": "iii. Normal vs. Expedited costs",
+                      "detail": "Normal costs are incurred in the routine process of completing the project according to the original, planned schedule (e.g., standard wages during regular working hours). Expedited costs are unplanned costs incurred when steps are taken to speed up the project (e.g., paying overtime wages or hiring additional temporary staff)."
                     },
                     {
-                      "heading": "Legal Environment",
-                      "detail": "Opportunity: Strong legal structures protect business owners and consumers, encouraging fair competition. Threat: A poor legal system breeds corruption and distorts the free market, making it hard for new firms to compete."
-                    },
-                    {
-                      "heading": "Socio-cultural Environment",
-                      "detail": "Opportunity: Changes in consumer tastes (e.g., demand for healthy food) create new markets for innovative products. Threat: In societies that emphasize collective rewards over individual achievement, risk-taking may be discouraged."
+                      "heading": "iv. Recurring vs. Nonrecurring costs",
+                      "detail": "Recurring costs are continuous throughout the project life cycle and happen repeatedly (e.g., weekly labor costs or monthly material supply costs). Nonrecurring costs are linked to one-time charges, typically at the beginning or closure of the project (e.g., the one-time purchase of equipment or a final audit fee)."
                     }
                   ],
-                  "conclusion": "Entrepreneurs must constantly scan these environmental forces to exploit opportunities and defend against threats.",
-                  "otherPossibleAnswers": "Competitive Environment (threat of new entrants, substitute products).",
-                  "reference": "Unit 1, Session 4, 4.1-4.6 - Entrepreneurship and the Environment"
-                }
-              },
-              {
-                "label": "B",
-                "question": "i. What is franchising? (2 marks)\nii. State and explain three types of franchising. (6 marks)\niii. Give any two examples of franchised businesses in Ghana. (2 marks)",
-                "marks": 10,
-                "commandWord": "What is / State and explain / Give examples",
-                "answer": {
-                  "introduction": "Franchising is a popular method for starting a business with a higher probability of success.",
-                  "mainPoints": [
-                    {
-                      "heading": "i. What is Franchising",
-                      "detail": "Franchising is a business agreement in which a company (the franchisor) grants others (the franchisees) the right and license to sell a product or service and possibly to use the business system developed by the company. It is a system where individually owned businesses operate as part of a large chain."
-                    },
-                    {
-                      "heading": "ii. Trade name franchising",
-                      "detail": "The franchisee buys the right to be identified with the franchisor's trade name without distributing particular products exclusively under that name (e.g., Budget Rent-a-Car)."
-                    },
-                    {
-                      "heading": "ii. Product distribution franchising",
-                      "detail": "The franchisee is licensed to sell specific products under the franchisor's brand name and trademark via a limited distribution network (e.g., Toyota, Coca-Cola)."
-                    },
-                    {
-                      "heading": "ii. Pure (Business format) franchising",
-                      "detail": "The franchisee gets a complete business format, including trade name, products, methods of operation, and marketing strategy (e.g., fast-food restaurants)."
-                    },
-                    {
-                      "heading": "iii. Examples in Ghana",
-                      "detail": "Example 1: Shell (product distribution franchising for gasoline). Example 2: Coca-Cola (product distribution franchising for soft drinks)."
-                    }
-                  ],
-                  "conclusion": "Each type of franchising offers a different level of involvement, with pure franchising being the most comprehensive.",
-                  "otherPossibleAnswers": "Examples: Total, Toyota, Datsun.",
-                  "reference": "Unit 2, Session 6, 6.1 & 6.2 - The Meaning and Types of Franchising"
-                }
-              }
-            ]
-          },
-          {
-            "label": "Question C2 (Choose One)",
-            "totalMarks": 20,
-            "subQuestions": [
-              {
-                "label": "A",
-                "question": "What is a business opportunity?",
-                "marks": 2,
-                "commandWord": "What is",
-                "answer": {
-                  "introduction": "A business opportunity is a gap in the market that an entrepreneur can exploit.",
-                  "mainPoints": [
-                    {
-                      "heading": "Definition",
-                      "detail": "A business opportunity is a gap in the market that presents the possibility of doing something new, different, and better from the perspective of buyers, creating a chance to generate new value."
-                    }
-                  ],
-                  "conclusion": "It is the foundation upon which a new venture is built.",
+                  "conclusion": "Understanding these distinctions allows project managers to categorize and manage all project expenditures more accurately and effectively.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 3, 3.1 - The Entrepreneurial Process"
-                }
-              },
-              {
-                "label": "B",
-                "question": "With the aid of a diagram, explain the entrepreneurial process.",
-                "marks": 8,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "The entrepreneurial process involves four key contingencies that come together to create new value.",
-                  "mainPoints": [
-                    {
-                      "heading": "Entrepreneur",
-                      "detail": "The individual or team that leads the venture, identifying opportunities, managing resources, and directing the organization."
-                    },
-                    {
-                      "heading": "Opportunity",
-                      "detail": "A gap in the market that presents a chance to do something new, different, and better to create new value."
-                    },
-                    {
-                      "heading": "Organization",
-                      "detail": "The system devised to coordinate the activities of people and the use of resources within the venture."
-                    },
-                    {
-                      "heading": "Resources",
-                      "detail": "The various inputs (financial, human, physical) that the entrepreneur brings together to build the venture and pursue the opportunity."
-                    }
-                  ],
-                  "conclusion": "These four elements interact continuously, with the entrepreneur at the center, to generate new value.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 3, 3.1 - The Entrepreneurial Process"
-                }
-              },
-              {
-                "label": "C",
-                "question": "Mention four feasibility criteria that can be used to assess the viability of a new business idea.",
-                "marks": 10,
-                "commandWord": "Mention",
-                "answer": {
-                  "introduction": "Feasibility criteria help an entrepreneur evaluate whether a new business idea is worth pursuing.",
-                  "mainPoints": [
-                    {
-                      "heading": "Is it proprietary?",
-                      "detail": "The product should be sufficiently unique to provide a long head start against competitors."
-                    },
-                    {
-                      "heading": "Are the initial production costs realistic?",
-                      "detail": "A careful analysis should be made so no large, unexpected expenses arise."
-                    },
-                    {
-                      "heading": "Does the approach have potential for very high margins?",
-                      "detail": "High gross margins are attractive to the financial community."
-                    },
-                    {
-                      "heading": "Is the potential market large?",
-                      "detail": "The entrepreneur must look three to five years into the future to determine market size."
-                    }
-                  ],
-                  "conclusion": "Using these criteria helps identify the internal strengths and weaknesses of a new venture.",
-                  "otherPossibleAnswers": "Is the time to reach breakeven realistic? Is this a growing industry? Can the need be understood by the financial community?",
-                  "reference": "Unit 2, Session 3, 3.3.3 - Feasibility Criteria Approach"
+                  "reference": "Unit 2, Session 2, 2.1.1 - 2.1.8 - Nature of Project Cost"
                 }
               }
             ]

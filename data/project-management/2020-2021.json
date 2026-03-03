@@ -1,6 +1,6 @@
 {
-  "subject": "Entrepreneurship and Small Enterprise Management",
-  "subjectCode": "SBU 408D",
+  "subject": "Project Management",
+  "subjectCode": "SBU 405D",
   "academicYear": "2020/2021",
   "semesters": [
     {
@@ -8,238 +8,253 @@
       "sectionA": [
         {
           "type": "single",
-          "question": "Which option of Small Business buying combines outside and inside management in the purchase of a firm?",
+          "question": "Advertising, shipping and utilities are examples of project overhead cost.",
           "options": [
-            "A. Buy-out",
-            "B. Buy-in",
-            "C. Outright purchase",
-            "D. Buy-in Management buy-out"
+            "A. False",
+            "B. True"
           ],
-          "correctAnswer": "D",
-          "explanation": "The Buy-in Management Buy-out (BIMBO) is a variation that combines outside and inside management in the purchase of a firm.",
-          "reference": "Unit 2, Session 4, 4.1.4 - Buy-in Management buy-out"
+          "correctAnswer": "B",
+          "explanation": "Advertising and shipping are examples of selling and administration costs, while utilities are an example of overhead cost, both of which are indirect costs or overheads.",
+          "reference": "Unit 2, Session 2, 2.1.2 - Indirect costs"
         },
         {
           "type": "single",
-          "question": "Business plans can be triggered by various events and reasons. Which of the following is not one of the various events and reasons?",
+          "question": "The process of tracking team member performance, providing feedback, resolving issues and managing team changes to optimize project performance is referred to as ______.",
           "options": [
-            "A. Ongoing review",
-            "B. Major Decision",
-            "C. Business sale",
-            "D. Start up"
+            "A. Human resource management",
+            "B. Project team management",
+            "C. Project team development",
+            "D. Project team acquisition"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Project team management is the process of tracking team member performance, providing feedback, resolving issues, and managing team changes to optimize project performance.",
+          "reference": "Unit 4, Session 1, (The Human resource management activities)"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following stages clearly explain the processes involved in developing the human resource plan for a project?\nI. Specify the skill requirement\nII. Identify and document project roles and responsibilities\nIII. Establish reporting relationships\nIV. Create staffing management plan",
+          "options": [
+            "A. I, III, IV and II",
+            "B. II, I, III and IV",
+            "C. III, IV, II and I",
+            "D. I, II, III and IV"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The human resource management plan is developed in a specific order: 1) Identify roles, 2) Specify skills, 3) Establish reporting relationships, and 4) Create a staffing management plan.",
+          "reference": "Unit 4, Session 2, 2.1 - Plan Human Resource Management"
+        },
+        {
+          "type": "single",
+          "question": "Managing human resource of a project helps in the following ways except ______.",
+          "options": [
+            "A. creating teams that are unsupportive of each other",
+            "B. it gives the ability to resolve employee complaints",
+            "C. it helps in knowing when and how team members should be added",
+            "D. identifying and engaging employees with a variety of skill levels"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Managing human resources helps construct a team that supports and complements each other, not one that is unsupportive. The other options are listed as benefits.",
+          "reference": "Unit 4, Session 1, 6.3 - Importance of Project Human Resource Management"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following skills of a manager allow him/her to visualize the entire organisation and work with ideas and the relationships between abstract concepts?",
+          "options": [
+            "A. Abstract skills",
+            "B. Conceptual skills",
+            "C. Human skills",
+            "D. Technical skills"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Conceptual skills allow a manager to visualize the entire organization and work with ideas and the relationships between abstract concepts.",
+          "reference": "Unit 4, Session 2, 2.1.2 - Specify skills requirement"
+        },
+        {
+          "type": "single",
+          "question": "Unplanned costs incurred when steps are taken to speed up the project's completion are referred to as ______.",
+          "options": [
+            "A. Expedited Costs",
+            "B. Fixed Costs",
+            "C. Variable Costs",
+            "D. Normal Costs"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Expedited costs are unplanned costs incurred when steps are taken to speed up the project's completion, such as overtime or hiring additional workers.",
+          "reference": "Unit 2, Session 2, 2.1.8 - Expedited costs"
+        },
+        {
+          "type": "single",
+          "question": "Business angels, are examples of short-term project funding sources.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Business angels are private investors who invest directly in a company, typically for the long-term, and are classified as a source of long-term project funding.",
+          "reference": "Unit 2, Session 4, 4.3.3 - Business Angels"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an example of long-term sources of project funding?",
+          "options": [
+            "A. Venture Capital",
+            "B. Bank overdraft",
+            "C. Retained Profits",
+            "D. Share Capital"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bank overdrafts are a source of short-term finance, as they are typically due for repayment in less than a year. The others are all long-term sources.",
+          "reference": "Unit 2, Session 4, 4.2.1 - Bank Overdrafts; 4.3 - Sources of Long-term Project Funding"
+        },
+        {
+          "type": "single",
+          "question": "Which of the classification of procurement risk management are influenced by factors such as seasonality, taxation, product availability and price?",
+          "options": [
+            "A. Disruption risks",
+            "B. Demand fluctuation",
+            "C. Uncertain lead time",
+            "D. Unreliable yield"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Demand fluctuation is highly probable due to factors that influence demand, including seasonality, taxation, product availability, and price.",
+          "reference": "Unit 2, Session 6, 6.2.1 - Demand fluctuation"
+        },
+        {
+          "type": "single",
+          "question": "Project termination type where the needed resources to execute the project are either lacking or inadequately available is referred to as ______.",
+          "options": [
+            "A. Project starvation",
+            "B. Termination by extinction",
+            "C. Termination by addition",
+            "D. Termination by integration"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Project starvation occurs when the needed resources needed by the project organization to execute the project is lacking or inadequate or unavailable.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
+        },
+        {
+          "type": "single",
+          "question": "Project vision conflicts arise due to the differences in stakeholders' opinion and understanding of the overall outcome of the project.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Project vision conflicts are specifically defined as arising from differences in stakeholders' opinion and understanding of the vision and overall outcome of the project.",
+          "reference": "Unit 1, Session 4, 4.2.1 - Project Vision"
+        },
+        {
+          "type": "single",
+          "question": "The conflict resolution approach where the person involved either physically or psychologically removes himself or herself from the conflict is referred to as ______.",
+          "options": [
+            "A. Accommodation",
+            "B. Avoidance",
+            "C. Compromise",
+            "D. Competition"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Avoidance is defined as physically or psychologically removing oneself from the conflict, as the parties feel it is hopeless to try and resolve it.",
+          "reference": "Unit 1, Session 4, 4.3.1 - Avoidance"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a key feature of the second phase of the project life cycle?",
+          "options": [
+            "A. A business case is made for the project",
+            "B. Activities are outlined",
+            "C. Opportunities are identified",
+            "D. Monitoring and controlling deliverables"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The second phase is project planning, which involves the outlining of the activities, tasks, dependencies and timeframes pertaining to the project.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Planning"
+        },
+        {
+          "type": "single",
+          "question": "Project cost associated with hiring and paying the various classification of workers involved in developing the project is classified as a service cost.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Labour costs are costs associated with hiring and paying workers. Service costs are associated with the work done by consultants, experts, and subcontractors.",
+          "reference": "Unit 2, Session 1, 1.2.1 - Labour Cost; 1.2.3 - Service Cost"
+        },
+        {
+          "type": "single",
+          "question": "Indirect cost associated with a project include the following except ______.",
+          "options": [
+            "A. advertising",
+            "B. depreciation of equipment",
+            "C. insurance",
+            "D. materials"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Indirect costs include overheads (like insurance, depreciation) and selling/administration costs (like advertising). Materials cost is a direct cost.",
+          "reference": "Unit 2, Session 2, 2.1.1 - Direct costs; 2.1.2 - Indirect costs"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is an example of an active stakeholder of a project?",
+          "options": [
+            "A. Competitors",
+            "B. Persons indirectly affected by the project",
+            "C. Project coordinators",
+            "D. Public authorities"
           ],
           "correctAnswer": "C",
-          "explanation": "Business plans can be triggered by start-up, business purchase, ongoing review, and major decisions, not by business sale.",
-          "reference": "Unit 3, Session 1, 1.2 - When to Plan?"
+          "explanation": "Active stakeholders are those directly involved in the project, such as the project team, project manager, and project coordinators. The other options are passive types.",
+          "reference": "Unit 1, Session 1, 1.4 - Starting and Ending a Project."
         },
         {
           "type": "single",
-          "question": "Resources are said to be ______ when competitors cannot meet copy them.",
+          "question": "Which of the following is generally considered as a project?",
           "options": [
-            "A. non-substitutable",
-            "B. substitutable",
-            "C. perfectly imitable",
-            "D. imperfectly imitable"
+            "A. An organisation that strives to stay afloat",
+            "B. Conducting research whose outcome is recorded",
+            "C. Managing a product",
+            "D. Protecting an organisations sales territory"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A project is a temporary endeavor to create a unique product, service, or result. Conducting research to produce a documented outcome (a result) fits this definition.",
+          "reference": "Unit 1, Session 1, 1.1 - What is Project"
+        },
+        {
+          "type": "single",
+          "question": "Scope, cost and risk are the most important traditional constraints of project management.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The three most important traditional constraints are time (schedule), cost (budget), and scope. Risk is an additional modern constraint, not one of the original three.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "The responsibilities of the project manager at the organisational level includes the following, except ______.",
+          "options": [
+            "A. controlling budgets",
+            "B. creating overall project plan and forms project team members",
+            "C. linking between the strategy and project team",
+            "D. sharing progress reports with the sponsors and all stakeholders"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Controlling budgets is a responsibility at the project level, not the organizational level. The other options are listed as organizational-level responsibilities.",
+          "reference": "Unit 1, Session 3, 3.4.1 - Responsibilities of the Project Manager"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best describe the interpersonal skills required by project managers?\nI. Leadership\nII. Team building\nIII. Communication\nIV. Building trust",
+          "options": [
+            "A. I only",
+            "B. I and II only",
+            "C. I, II, III only",
+            "D. I, II, III and IV"
           ],
           "correctAnswer": "D",
-          "explanation": "Resources are imperfectly imitable when competitors cannot merely copy them.",
-          "reference": "Unit 4, Session 1, 1.3 - Imperfectly Imitable Resources"
-        },
-        {
-          "type": "single",
-          "question": "The following are all secondary source of data except ______.",
-          "options": [
-            "A. census reports",
-            "B. personal interviews",
-            "C. magazines",
-            "D. trade association"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Personal interviews are a method for collecting primary data, not a secondary source. Secondary sources include census reports, magazines, and trade associations.",
-          "reference": "Unit 5, Session 2, 2.3.2 - Collecting the Data"
-        },
-        {
-          "type": "single",
-          "question": "Selecting which segments in a market are appropriate to focus on and designing the means of reaching them can be termed as ______.",
-          "options": [
-            "A. target marketing",
-            "B. market targeting",
-            "C. market positioning",
-            "D. market segmentation"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Market targeting involves selecting which segments in a market are appropriate to focus on and designing the means of reaching them.",
-          "reference": "Unit 5, Session 4, 4.2.2 - Market Targeting"
-        },
-        {
-          "type": "single",
-          "question": "The Executive summary of a business plan should be written by the entrepreneur before the total plan is prepared.",
-          "options": ["A. True", "B. False"],
-          "correctAnswer": "B",
-          "explanation": "The executive summary of the business plan should be written by the entrepreneur after the total plan is prepared.",
-          "reference": "Unit 3, Session 4, 4.2 - Executive Summary"
-        },
-        {
-          "type": "single",
-          "question": "One of the disadvantages of buying existing business is overcoming barriers to entry.",
-          "options": ["A. True", "B. False"],
-          "correctAnswer": "B",
-          "explanation": "Overcoming barriers to market entry is an advantage of buying an existing business, not a disadvantage.",
-          "reference": "Unit 2, Session 5, 5.1 - Advantages of Buying an Existing Business"
-        },
-        {
-          "type": "single",
-          "question": "Filing cabinet can be classified as commercial product.",
-          "options": ["A. True", "B. False"],
-          "correctAnswer": "A",
-          "explanation": "Office supplies, typewriters, and filing cabinets are examples of commercial goods because they are indirectly consumed in the production of other goods.",
-          "reference": "Unit 5, Session 5, 5.2.1 - Product Classification"
-        },
-        {
-          "type": "single",
-          "question": "Business format franchising is one of the major types of franchising.",
-          "options": ["A. True", "B. False"],
-          "correctAnswer": "A",
-          "explanation": "The three main types of franchising are trade name, product distribution, and pure (or comprehensive or business format) franchising.",
-          "reference": "Unit 2, Session 6, 6.2 - Types of Franchising"
-        },
-        {
-          "type": "single",
-          "question": "An instrument issued by a company to acknowledge the loan taken by the company under its common seal is referred to as venture capital.",
-          "options": ["A. True", "B. False"],
-          "correctAnswer": "B",
-          "explanation": "A debenture is an instrument issued by a company to acknowledge the loan taken by the company under its common seal.",
-          "reference": "Unit 6, Session 2, 2.1.b - Debentures"
-        },
-        {
-          "type": "single",
-          "question": "The word entrepreneur is derived from the French word 'entreprendre' which means, to ______.",
-          "options": [
-            "A. undertake",
-            "B. create",
-            "C. develop",
-            "D. innovate"
-          ],
-          "correctAnswer": "A",
-          "explanation": "The word entrepreneur is derived from the French word 'entrepreneur', which means, \"to undertake.\"",
-          "reference": "Unit 1, Session 1, 1.1 - The Evolution of Entrepreneur and Entrepreneurship"
-        },
-        {
-          "type": "single",
-          "question": "Entrepreneurs who tend to think not in terms of a grand vision, but in terms of what can be exploited in their environment is referred to as ______.",
-          "options": [
-            "A. Nascent",
-            "B. Novice",
-            "C. Opportunist",
-            "D. Craft"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Opportunists' entrepreneurs tend to think not in terms of a grand vision, but in terms of what can be exploited in their environment.",
-          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
-        },
-        {
-          "type": "single",
-          "question": "Entrepreneurial research has identified a number of personality characteristics that differentiate entrepreneurs from others. Which of the following is not a personality characteristics?",
-          "options": [
-            "A. Negative Displacement",
-            "B. Need for Achievement",
-            "C. Locust of Control",
-            "D. Risk taking"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Negative displacement is a factor in the sociological approach, not a personality characteristic. Personality traits include need for achievement, locus of control, and risk-taking propensity.",
-          "reference": "Unit 1, Session 3, 3.2.1 & 3.2.2 - Personality Characteristics & Sociological Approach"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not a method used by entrepreneurs to generate and test new ideas?",
-          "options": [
-            "A. Focus Group",
-            "B. Problem inventory analysis",
-            "C. Research and Development",
-            "D. Brainstorming"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Research and development is a source of new ideas, but the methods for generating and testing ideas are focus groups, brainstorming, and problem inventory analysis.",
-          "reference": "Unit 2, Session 2, 2.1.5 & 2.2 - Research and Development & Methods for Generating Ideas"
-        },
-        {
-          "type": "single",
-          "question": "The phases of a new venture include the following except ______.",
-          "options": [
-            "A. pre start up",
-            "B. mid start up",
-            "C. post start up",
-            "D. start up"
-          ],
-          "correctAnswer": "B",
-          "explanation": "A new venture goes through three phases: pre-start-up, start-up, and post-start-up. \"Mid start-up\" is not a defined phase.",
-          "reference": "Unit 2, Session 3, 3.1.1 - The Phases of a New Venture"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not a factor to be considered when assessing the credit worthiness of a venture/entrepreneur?",
-          "options": [
-            "A. Capability",
-            "B. Circumstances",
-            "C. Character",
-            "D. Guarantees"
-          ],
-          "correctAnswer": "A",
-          "explanation": "The factors for assessing creditworthiness are Character, Capacity, Circumstances, Insurance Cover, and Guarantees.",
-          "reference": "Unit 6, Session 3, 3.1 - Sources of Short Term Finance"
-        },
-        {
-          "type": "single",
-          "question": "Which type of ratios measure the firm's ability to meet its short-term obligations when they fall due?",
-          "options": [
-            "A. Liquidity Ratio",
-            "B. Leverage Ratio",
-            "C. Investment Ratio",
-            "D. Profitability Ratio"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Liquidity ratios provide a quick measure of a firm's ability to provide sufficient cash to conduct business and meet short-term obligations.",
-          "reference": "Unit 6, Session 5, 5.2.b - Liquidity Ratios"
-        },
-        {
-          "type": "single",
-          "question": "To evaluate the effectiveness of the HRM Process within an organization, the Harvard researchers have proposed a four C's model for human resources outcomes: Which of the following is not part of the four C's?",
-          "options": [
-            "A. Confidence",
-            "B. Congruence",
-            "C. Competence",
-            "D. Commitment"
-          ],
-          "correctAnswer": "A",
-          "explanation": "The four C's model for human resources outcomes consists of commitment, competence, congruence, and cost effectiveness.",
-          "reference": "Unit 4, Session 4, 4.3 - The Four C's Model for Evaluating Human Resources"
-        },
-        {
-          "type": "single",
-          "question": "The tendency of a manager rating subordinates high or low on all performance measures based on one of their characteristics is referred to as",
-          "options": [
-            "A. shifting standards",
-            "B. bias",
-            "C. different rating pattern",
-            "D. the Halo Effect"
-          ],
-          "correctAnswer": "D",
-          "explanation": "The halo effect is the common tendency to rate subordinates high or low on all performance measures based on one of their characteristics.",
-          "reference": "Unit 4, Session 4, 4.2.g.iv - The halo effect"
-        },
-        {
-          "type": "single",
-          "question": "The Ghanaian government in an attempt to strengthen the responsibility of private sector to economic reforms in 1992, proposed the establishment of the following institutions except",
-          "options": [
-            "A. National Board for Small Scale Industries (NBSSI).",
-            "B. Micro-Finance and Small Loan Centre (MASLOC).",
-            "C. The Venture Capital Trust Fund.",
-            "D. Ghana National Petroleum Company (GNPC)."
-          ],
-          "correctAnswer": "D",
-          "explanation": "The government proposed institutions like NBSSI, MASLOC, and VCTF to support small businesses. GNPC is a state-owned company in the oil and gas sector, not specifically for small business support.",
-          "reference": "Unit 6, Session 4 - Government and Institutional Support to Small Scale Enterprises"
+          "explanation": "The text lists leadership, team building, motivation, communication, influencing, decision making, political awareness, negotiation, trust building, conflict management, and coaching as interpersonal skills.",
+          "reference": "Unit 1, Session 3, 3.4.3 - Interpersonal Skills of a Project Manager"
         }
       ],
       "sectionB": {
@@ -247,92 +262,70 @@
         "questions": [
           {
             "label": "Question 1",
-            "totalMarks": 15,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "a",
-                "question": "Define a firm's resources",
-                "marks": 2,
-                "commandWord": "Define",
+                "question": "Using relevant examples, explain the four main classifications of project delay types.",
+                "marks": 10,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "A firm's resources are the tangible and intangible assets it owns and controls.",
+                  "introduction": "Project delays can be classified into four main types based on their impact, controllability, and compensability.",
                   "mainPoints": [
                     {
-                      "heading": "Definition of a Resource",
-                      "detail": "A resource is anything thought of as a strength or weakness of a given firm."
+                      "heading": "Critical or Non-critical Delays",
+                      "detail": "A critical delay extends the project's overall duration, leading to increased costs (e.g., a delay in pouring the foundation of a building pushes back the entire construction schedule). A non-critical delay does not extend the overall project but affects individual activity timelines (e.g., painting a room can be delayed without affecting the final move-in date if there is slack time)."
                     },
                     {
-                      "heading": "Formal Definition",
-                      "detail": "More formally, a firm's resources are those tangible and intangible assets that are tied semi-permanently to the firm."
+                      "heading": "Excusable or Non-excusable Delays",
+                      "detail": "An excusable delay is beyond the project team's control, like a natural disaster (e.g., a flood delaying site work). A non-excusable delay is the project team's fault, such as delayed procurement of materials (e.g., the project manager ordering steel beams too late)."
+                    },
+                    {
+                      "heading": "Concurrent Delays",
+                      "detail": "This occurs when two or more delays happen at the same time, affecting project completion (e.g., a strike by workers happening at the same time as a delay in client approvals for a design change)."
+                    },
+                    {
+                      "heading": "Compensable or Non-compensable Delays",
+                      "detail": "A compensable delay entitles the contractor to both a time extension and cost compensation, typically caused by the client (e.g., the client asking for a major design change). A non-compensable delay is solely the contractor's fault, and they bear all costs and liabilities (e.g., the contractor using unskilled labor that slows down work)."
                     }
                   ],
-                  "conclusion": "These resources enable the firm to produce efficient and/or effective market offerings.",
+                  "conclusion": "Understanding these classifications helps in assigning responsibility and determining the appropriate contractual remedies for project delays.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 4, Session 1, 1.1 - Nature of Firm Resources"
+                  "reference": "Unit 1, Session 6, 6.2 - Types of Delays in Projects"
                 }
               },
               {
                 "label": "b",
-                "question": "A firm is not able to implement its strategies without adequate resources. This means that a firm's resources substantially affect how its business model is used. State and explain four qualities of strategic business resource.",
-                "marks": 3,
-                "commandWord": "State and explain",
-                "answer": {
-                  "introduction": "For resources to provide a competitive advantage, they must possess four key qualities.",
-                  "mainPoints": [
-                    {
-                      "heading": "Valuable",
-                      "detail": "Resources are valuable because they exploit some environmental opportunity or neutralize a threat."
-                    },
-                    {
-                      "heading": "Rare",
-                      "detail": "Resources are rare in the sense that there are not enough for all competitors."
-                    },
-                    {
-                      "heading": "Imperfectly imitable",
-                      "detail": "Resources are imperfectly imitable when competitors cannot merely copy them."
-                    },
-                    {
-                      "heading": "Non-substitutable",
-                      "detail": "These are resources that cannot be substituted with other, strategically equivalent, common resources."
-                    }
-                  ],
-                  "conclusion": "These attributes ensure that a firm's strategic resources can be a source of sustained competitive advantage.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
-                }
-              },
-              {
-                "label": "c",
-                "question": "Procuring materials is a key management function for any business. Discuss the five steps involved in the procurement process and give examples when necessary.",
+                "question": "Examine five causes of delays in projects.",
                 "marks": 10,
-                "commandWord": "Discuss",
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "The procurement process ensures a steady flow of materials and services while obtaining the best value for money.",
+                  "introduction": "Project delays can stem from various sources, ranging from planning errors to external factors, all of which can impact the project's timeline and cost.",
                   "mainPoints": [
                     {
-                      "heading": "Initiate a request",
-                      "detail": "A department sends a requisition to purchasing, describing the item, quantity, quality, and desired delivery date."
+                      "heading": "Design Errors",
+                      "detail": "Errors in project design lead to wrong application of techniques, cost overruns, and the need for additional work and change orders, which cause significant delays."
                     },
                     {
-                      "heading": "Verify and select sources",
-                      "detail": "Purchasing verifies specifications and identifies potential suppliers with the capacity to deliver the desired goods."
+                      "heading": "Scope Change",
+                      "detail": "Any change in project scope during execution forces a review of the entire project plan, including budget and schedule, leading to delays while new baselines are developed."
                     },
                     {
-                      "heading": "Determine the best offer",
-                      "detail": "Purchasing reviews quotations based on costs, delivery time, warranties, and adherence to specifications."
+                      "heading": "Inappropriate Procurement and Faulty Contractual Management",
+                      "detail": "Poor selection of contractors and ambiguous contracts can lead to disputes, long chains of negotiation, and arbitration, all of which stall project progress."
                     },
                     {
-                      "heading": "Award and send the order",
-                      "detail": "When an order is awarded, it is faxed or mailed to the supplier, accompanied by terms and conditions."
+                      "heading": "Subcontractor and Consultant Delays",
+                      "detail": "Delays caused by the inability of subcontractors or consultants to complete their work on time are common and often difficult for the main organization to control."
                     },
                     {
-                      "heading": "Process payment and delivery",
-                      "detail": "The supplier delivers, the customer records delivery, and the invoice is cross-checked with the purchase order before payment is made."
+                      "heading": "Client-End Delays",
+                      "detail": "Delays can result from client dissatisfaction, requests for alterations, or a client changing their mind about project requirements, often requiring contract renegotiation."
                     }
                   ],
-                  "conclusion": "Following these steps helps the purchasing department keep costs down, ensure supply continuity, and reduce lead times.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 4, Session 2, 2.3.1 - Steps in the Purchasing Process"
+                  "conclusion": "Identifying these potential causes early in the project can help in developing proactive mitigation strategies to keep the project on schedule.",
+                  "otherPossibleAnswers": "Complexity of the project, Post Execution Phase (Closure) issues, Shipping and Supply Delays, Climate Delays.",
+                  "reference": "Unit 1, Session 6, 6.3 - Causes of Project Delays"
                 }
               }
             ]
@@ -343,713 +336,70 @@
             "subQuestions": [
               {
                 "label": "a",
-                "question": "A product might be categorized in terms of who purchases them and what their intended use is. Explain with examples the three classifications of a product.",
-                "marks": 6,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "Products can be categorized into consumer, industrial, and commercial products based on who purchases them and their intended use.",
-                  "mainPoints": [
-                    {
-                      "heading": "Consumer products",
-                      "detail": "Goods and services purchased for final consumption by people. Example: Cars, clothing, and appliances bought for personal use."
-                    },
-                    {
-                      "heading": "Industrial products",
-                      "detail": "Purchased by businesses for use directly in the production of other products. Example: Raw materials, machinery, and equipment."
-                    },
-                    {
-                      "heading": "Commercial products",
-                      "detail": "Products that are not used directly in production but assist in that production. Example: Office supplies, typewriters, and filing cabinets."
-                    }
-                  ],
-                  "conclusion": "This classification helps businesses understand their target market and develop appropriate marketing strategies.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 5, 5.2.1 - Product Classification"
-                }
-              },
-              {
-                "label": "b",
-                "question": "With the aid of a diagram explain, the stages of a product life cycle highlighting three activities that are likely to occur at each of the levels.",
-                "marks": 10,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "The product life cycle (PLC) measures the stages of growth a product moves through from introduction to decline.",
-                  "mainPoints": [
-                    {
-                      "heading": "Introductory Stage",
-                      "detail": "The product is presented to consumers. Activities: High marketing costs, low or negative profits, advertising to gain recognition."
-                    },
-                    {
-                      "heading": "Growth Stage",
-                      "detail": "Consumers begin to accept the product, and sales rise. Activities: Sales and profit margins rise, competitors may enter the market."
-                    },
-                    {
-                      "heading": "Maturity Stage",
-                      "detail": "Sales volume continues to rise but profit margins peak and begin to fall. Activities: Increased competition, price reductions to hold market share."
-                    },
-                    {
-                      "heading": "Decline Stage",
-                      "detail": "Sales continue to drop, and profit margins fall drastically. Activities: Decisions to continue selling, discontinue, or introduce new products."
-                    }
-                  ],
-                  "conclusion": "Understanding the PLC enables management to make informed decisions about a product's future and the need for innovation.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 5, 5.2.2 - The Product Life Cycle"
-                }
-              },
-              {
-                "label": "c",
-                "question": "Explain the two main pricing approaches available to small business owners.",
-                "marks": 4,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "Small business owners commonly adopt two main approaches to pricing their products or services.",
-                  "mainPoints": [
-                    {
-                      "heading": "Market pricing",
-                      "detail": "Pricing according to what the market will bear, considering the maximum price a customer is prepared to pay and competitors' prices."
-                    },
-                    {
-                      "heading": "Cost-plus pricing",
-                      "detail": "Deciding prices by calculating total costs and adding what is judged to be an adequate element of profit."
-                    }
-                  ],
-                  "conclusion": "In practice, pricing is often a compromise between covering costs and meeting customer and competitive expectations.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 5, 5.3.1 - Approaches to pricing"
-                }
-              }
-            ]
-          },
-          {
-            "label": "Question 3",
-            "totalMarks": 20,
-            "subQuestions": [
-              {
-                "label": "a",
-                "question": "Finance plays a vital role in business activities. Discuss four major roles of finance in small enterprise development.",
-                "marks": 8,
-                "commandWord": "Discuss",
-                "answer": {
-                  "introduction": "Finance, often described as the lifeblood of a business, is essential at every stage of a small enterprise's development.",
-                  "mainPoints": [
-                    {
-                      "heading": "Start-ups",
-                      "detail": "Finance is needed as initial or seed capital to purchase assets, materials, employ people, and cover running costs."
-                    },
-                    {
-                      "heading": "Expansion",
-                      "detail": "As a business grows, finance is needed for higher capacity and new technology to cut costs and keep up with competitors."
-                    },
-                    {
-                      "heading": "Develop and market new products",
-                      "detail": "Funds are required to research, develop, and market new products to survive in a competitive market."
-                    },
-                    {
-                      "heading": "To enter new markets",
-                      "detail": "Finance supports activities like research and advertising campaigns needed to sell products in new geographical areas or to new customer types."
-                    }
-                  ],
-                  "conclusion": "Without adequate finance at the appropriate time, a small business may struggle to survive or fulfill its potential.",
-                  "otherPossibleAnswers": "Take-over or acquisition, Moving to new premises, Operating expenses.",
-                  "reference": "Unit 6, Session 1, 1.1 - The Importance of Finance in Business"
-                }
-              },
-              {
-                "label": "b",
-                "question": "Examine four factors that may influence the choice of finance for small and medium enterprises.",
-                "marks": 8,
-                "commandWord": "Examine",
-                "answer": {
-                  "introduction": "A business needs to assess different types of finance based on several key criteria to choose the most appropriate source.",
-                  "mainPoints": [
-                    {
-                      "heading": "Amount of money required",
-                      "detail": "Large amounts may not be available through some sources, while others may not offer flexibility for smaller amounts."
-                    },
-                    {
-                      "heading": "How quickly the money is needed",
-                      "detail": "The longer a business spends trying to raise money, the cheaper the source is likely to be."
-                    },
-                    {
-                      "heading": "The cheapest option available",
-                      "detail": "The cost of finance is measured by the extra money paid, such as interest, with trading profits being the cheapest form."
-                    },
-                    {
-                      "heading": "The amount of risk involved",
-                      "detail": "Lenders may not lend to higher-risk ventures without guarantees, as risk affects the likelihood of repayment."
-                    }
-                  ],
-                  "conclusion": "The final choice will balance these factors against the firm's assets and its willingness to accept risk.",
-                  "otherPossibleAnswers": "The length of time the finance is needed.",
-                  "reference": "Unit 6, Session 1, 1.2 - Factors that Influence the Choice of Finance"
-                }
-              },
-              {
-                "label": "c",
-                "question": "Differentiate between preference share and a debenture.",
-                "marks": 4,
-                "commandWord": "Differentiate",
-                "answer": {
-                  "introduction": "Preference shares and debentures are both sources of long-term finance but have different characteristics.",
-                  "mainPoints": [
-                    {
-                      "heading": "Preference Share",
-                      "detail": "Represents a hybrid form of financing. Dividend is payable only out of profits and is not an obligatory payment."
-                    },
-                    {
-                      "heading": "Debenture",
-                      "detail": "Represents a loan taken by the company. Interest is an obligatory payment that must be paid even if the company makes a loss."
-                    }
-                  ],
-                  "conclusion": "Preference shares are ownership capital with discretionary returns, while debentures are debt capital with mandatory interest payments.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 6, Session 2, 2.1.a & 2.1.b - Preference Shares & Debentures"
-                }
-              }
-            ]
-          },
-          {
-            "label": "Question 4",
-            "totalMarks": 20,
-            "subQuestions": [
-              {
-                "label": "a",
-                "question": "Starting a new business and buying an existing business which one do you prefer given the opportunity with all the available resources? Give four reasons to support your answer.",
-                "marks": 8,
-                "commandWord": "Which one do you prefer and give reasons",
-                "answer": {
-                  "introduction": "Given the opportunity with all available resources, I would prefer starting a new business.",
-                  "mainPoints": [
-                    {
-                      "heading": "Clean Sheet",
-                      "detail": "The business starts with no backlog of problems, creating new challenges rather than inheriting old ones."
-                    },
-                    {
-                      "heading": "Match between founder and enterprise",
-                      "detail": "I can ensure my individual strengths are well used by choosing a business that matches my qualities and experiences."
-                    },
-                    {
-                      "heading": "Less funds required",
-                      "detail": "A new business start-up that works would cost less than buying a similar existing business."
-                    },
-                    {
-                      "heading": "Creation and Control",
-                      "detail": "As the owner, I have freedom of choice and maximum control over what the business does and how it operates."
-                    }
-                  ],
-                  "conclusion": "Starting a new business allows for a clean slate, personal control, and a venture perfectly aligned with one's own vision and strengths.",
-                  "otherPossibleAnswers": "Satisfaction of success due to one's own effort; Help from various government agencies.",
-                  "reference": "Unit 2, Session 1, 1.2.1 - Advantages of Starting Your Own Small Business"
-                }
-              },
-              {
-                "label": "b",
-                "question": "The franchisee normally enters in a business that has an accepted name, product or services. Identify and explain three merits and three demerits of franchising to the franchisee.",
+                "question": "Analyse the processes involved in project procurement management.",
                 "marks": 12,
-                "commandWord": "Identify and explain",
+                "commandWord": "Analyse",
                 "answer": {
-                  "introduction": "Franchising offers individuals the opportunity to own a business with a higher probability of success, but it also has specific drawbacks for the franchisee.",
+                  "introduction": "Project procurement management involves a series of interconnected processes to acquire goods and services from outside the project organization.",
                   "mainPoints": [
                     {
-                      "heading": "Merit: Product acceptance",
-                      "detail": "The franchisee enters a business with an accepted name and product, eliminating the need to build credibility from scratch."
+                      "heading": "Procurement Planning",
+                      "detail": "The initial process of identifying which project needs can best be met by procuring products or services externally, considering what is available in the marketplace and making \"make-or-buy\" decisions."
                     },
                     {
-                      "heading": "Merit: Management training and support",
-                      "detail": "Franchisors offer managerial training programs and follow-up counselling services to educate new owners."
+                      "heading": "Solicitation Planning",
+                      "detail": "This stage involves documenting product requirements and identifying potential sources. It includes preparing solicitation documents like Requests for Proposal (RFP) and defining the evaluation criteria for sellers."
                     },
                     {
-                      "heading": "Merit: Knowledge of the market",
-                      "detail": "Established franchisors offer years of market experience, providing a detailed profile of the target customer."
+                      "heading": "Solicitation",
+                      "detail": "This is the process of obtaining bids and proposals from prospective sellers. Activities include sending out procurement documents and holding bidder conferences to ensure all sellers have a clear understanding of the requirements."
                     },
                     {
-                      "heading": "Demerit: Franchise fees and profit sharing",
-                      "detail": "The financial costs are considerable, with large upfront fees and high royalties paid from sales revenues."
+                      "heading": "Source Selection",
+                      "detail": "The process of evaluating proposals and bids using predefined criteria. Proposals are often scored and ranked, and the highest-ranked seller is selected for contract negotiation."
                     },
                     {
-                      "heading": "Demerit: Lack of independence",
-                      "detail": "The franchisee must adhere to the franchisor's operating standards to protect the public image, limiting autonomy."
+                      "heading": "Contract Administration",
+                      "detail": "This stage ensures that the seller's performance meets the contractual requirements. It involves applying project management processes to the contractual relationship and managing changes, payments, and quality control."
                     },
                     {
-                      "heading": "Demerit: Limited product line",
-                      "detail": "The franchise agreement typically states that the franchisee can sell only those products approved by the franchisor."
+                      "heading": "Contract Closeout",
+                      "detail": "The final process of completing and settling the contract, including confirming that all work and deliverables were accepted and resolving any open items. It involves updating records and documenting lessons learned."
                     }
                   ],
-                  "conclusion": "A potential franchisee must carefully weigh the benefits of an established system and support against the costs, loss of freedom, and operational restrictions.",
-                  "otherPossibleAnswers": "Merits: Standardized quality goods/services. Demerits: Less freedom, Unsatisfactory training programmes.",
-                  "reference": "Unit 2, Session 6, 6.3.1 & 6.3.2 - Advantages and Disadvantages for Franchisees"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "semester": "Semester II",
-      "sectionA": [
-        {
-          "type": "single",
-          "question": "Kwesi pursued carpentry and joining program at the Kumasi Technical Institute. After a successful completion of his program, he started his own carpentry shop and now has two apprentices working with him.\n   Kwesi can be classified as ______ entrepreneur.",
-          "options": [
-            "A. Craft",
-            "B. Nascent",
-            "C. Novice",
-            "D. Opportunist"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Craft entrepreneurs participate directly in the work of the enterprise, including participating manually, and are responsible for the training of apprentices.",
-          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
-        },
-        {
-          "type": "single",
-          "question": "An original, functional model of a product that potential customers can see, test and use is called ______.",
-          "options": [
-            "A. Business model",
-            "B. Usable product",
-            "C. Prototype",
-            "D. Concept"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The text mentions that a prototype should be tested by independent testers to check for weak points, implying it is a functional model.",
-          "reference": "Unit 2, Session 3, 3.3.1 - Evaluation-Related Questions"
-        },
-        {
-          "type": "single",
-          "question": "Mr. Agyeman Badu a tutor at Abura R/C primary school was elected as the parliamentary candidate for Cape Coast constituency and failed to retain his seat after 8 years in parliament. Having no political appointment and also not considering to go back to the classroom, started his own private business. Mr. Agyeman Badu can be classified under which of the sociological approaches to entrepreneurship?",
-          "options": [
-            "A. Positive Push",
-            "B. Negative Displacement",
-            "C. Between Things",
-            "D. Positive Pull"
-          ],
-          "correctAnswer": "C",
-          "explanation": "People who are \"between things,\" such as politicians no longer in politics looking for something else to do, are more likely to seek entrepreneurial outlets.",
-          "reference": "Unit 1, Session 3, 3.2.2 - Between Things"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following methods of generating business idea appoints a moderator to lead a group of people through an open, in death discussion rather than simply asking questions to solicit response?",
-          "options": [
-            "A. Brainstorming",
-            "B. Research and development",
-            "C. Focus group",
-            "D. Problem inventory analysis"
-          ],
-          "correctAnswer": "C",
-          "explanation": "In focus groups, a moderator leads a group through an open, in-depth discussion rather than simply asking questions to solicit a response.",
-          "reference": "Unit 2, Session 2, 2.2.1 - Focus Groups"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following government agencies is not responsible for the development of small and medium enterprises in Ghana?",
-          "options": [
-            "A. National Board for Small Scale Industry (NBSSI)",
-            "B. Business Assistance Fund (BAF)",
-            "C. Venture Capital Trust Fund (VCTF)",
-            "D. National Disaster Management Organization (NADMO)"
-          ],
-          "correctAnswer": "D",
-          "explanation": "NADMO is responsible for disaster management, while NBSSI, BAF, and VCTF are institutions established to support small-scale enterprises.",
-          "reference": "Unit 6, Session 4 - Government and Institutional Support to Small Scale Enterprises"
-        },
-        {
-          "type": "single",
-          "question": "According to Hisrich and Peters which of the following is the largest source of new business idea?",
-          "options": [
-            "A. Customer",
-            "B. Existing companies",
-            "C. Research and development",
-            "D. Distribution channel"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Hisrich and Peters point out that the largest source for new ideas is the entrepreneur's own \"research and development.\"",
-          "reference": "Unit 2, Session 2, 2.1.5 - Research and Development"
-        },
-        {
-          "type": "single",
-          "question": "Stephen, the general manager of PKB Ltd negotiated with the current owners of the same business and bought 80% shares to become a part-owner. Which option of small business purchase is this?",
-          "options": [
-            "A. Outright purchase",
-            "B. Buy-in management buy-out (BIMBO)",
-            "C. Buy-in",
-            "D. Buy-out"
-          ],
-          "correctAnswer": "D",
-          "explanation": "Buy-outs commonly refer to the purchase of a business, or a significant part of it, by its current management.",
-          "reference": "Unit 2, Session 4, 4.1.3 - Buy-out"
-        },
-        {
-          "type": "single",
-          "question": "The name and address of the company, the name of the entrepreneur and his contact numbers can be found at which section of the business plan?",
-          "options": [
-            "A. Executive Summary",
-            "B. Introductory Page",
-            "C. Industry analysis",
-            "D. Organizational plan"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The introductory page is the title or cover page and should contain the name and address of the company and the name of the entrepreneur(s).",
-          "reference": "Unit 3, Session 4, 4.1 - Introductory Page"
-        },
-        {
-          "type": "single",
-          "question": "New venture goes through phases, which of the following is not part of the phases.",
-          "options": [
-            "A. Mid start – up",
-            "B. Pre start – up",
-            "C. Start – up",
-            "D. Post start – up"
-          ],
-          "correctAnswer": "A",
-          "explanation": "A new venture goes through three phases: pre-start-up, start-up, and post-start-up. \"Mid start-up\" is not a defined phase.",
-          "reference": "Unit 2, Session 3, 3.1.1 - The Phases of a New Venture"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not one of the characteristics of a firm's resources?",
-          "options": [
-            "A. Market exists for them.",
-            "B. They have value.",
-            "C. They cannot be consumed.",
-            "D. They can only be used once."
-          ],
-          "correctAnswer": "C",
-          "explanation": "Resources are consumed, can only be used once, have a value, and markets exist for them.",
-          "reference": "Unit 4, Session 1, 1.2 - Characteristics of Resources"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following 4p's of marketing involves all aspects of getting the products to the consumer in the right location at the right time?",
-          "options": [
-            "A. Promotion",
-            "B. Price",
-            "C. Place",
-            "D. Product"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Place (or distribution) is an element of the marketing mix involving all aspects of getting products to the consumer in the right location at the right time.",
-          "reference": "Unit 5, Session 1, 1.3.3 - Place"
-        },
-        {
-          "type": "single",
-          "question": "The medium for gathering information that serves as the foundation for the marketing plan is referred to as ______.",
-          "options": [
-            "A. Marketing strategy",
-            "B. Marketing concepts",
-            "C. Marketing research",
-            "D. Target marketing"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Marketing research is a medium for gathering the information that serves as the foundation for the marketing plan.",
-          "reference": "Unit 5, Session 2, 2.1 - The Nature of Marketing Research"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not a marketing strategy to increase firm's sales?",
-          "options": [
-            "A. Market segmentation",
-            "B. Market penetration",
-            "C. Market development",
-            "D. Product development"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Market segmentation is a strategy to subdivide the market, while market penetration, development, and development are strategies to increase sales.",
-          "reference": "Unit 5, Session 3, 3.2 & 3.3 - Choosing a Marketing Strategy & Market Segmentation"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is not one of the factors to be considered when assessing the credit worthiness of a firm?",
-          "options": [
-            "A. Capacity",
-            "B. Guarantee",
-            "C. Factoring",
-            "D. Circumstance"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Factoring is a source of short-term finance, not a factor for assessing creditworthiness. The factors are Character, Capacity, Circumstances, Insurance Cover, and Guarantees.",
-          "reference": "Unit 6, Session 3, 3.1 - Sources of Short Term Finance"
-        },
-        {
-          "type": "case-group",
-          "caseStudy": {
-            "title": "Mini Case: Rex Athletes Shop",
-            "fullText": "Rex wants to open a store that caters to athletes, but, due to space and budgetary constraints, he recognizes that he will not be able to offer the same variety and selection of products as the local athletic mega-store. So, he has decided to focus specifically on runners. He stocks shoes and related gear for runners, and maintains a staff that is knowledgeable and enthusiastic about running. Rex's advertising campaign emphasizes his store's high standard of customer service and selection of products specifically tailored to meet the needs of runners."
-          },
-          "questions": [
-            {
-              "question": "In the mini case, the process of dividing the athletic market into different subsets of shoe consumers, such as runners, basketball players, and golfers, is known as ______.",
-              "options": [
-                "A. Market segmentation",
-                "B. Market targeting",
-                "C. Product placement",
-                "D. Product positioning"
-              ],
-              "correctAnswer": "A",
-              "explanation": "Market segmentation involves dividing a market into smaller, more homogeneous segments based on characteristics.",
-              "reference": "Unit 5, Session 3, 3.3 - Market Segmentation"
-            },
-            {
-              "question": "In the case, Rex decides to focus his attention on that segment of the market that is interested in running. This selection of a specific market segment is known as ______.",
-              "options": [
-                "A. Market segmentation",
-                "B. Market targeting",
-                "C. Product placement",
-                "D. Social marketing"
-              ],
-              "correctAnswer": "B",
-              "explanation": "Market targeting involves selecting which segments in a market are appropriate to focus on and designing the means of reaching them.",
-              "reference": "Unit 5, Session 4, 4.2.2 - Market Targeting"
-            },
-            {
-              "question": "By portraying his store as a one-stop-shop for all your running needs, Rex has developed a distinct image for his store. This is an example of ______.",
-              "options": [
-                "A. placement",
-                "B. positioning",
-                "C. segmentation",
-                "D. targeting"
-              ],
-              "correctAnswer": "B",
-              "explanation": "Positioning involves using a carefully selected marketing mix to make a target market see a product as meeting important wants and needs.",
-              "reference": "Unit 5, Session 4, 4.2.3 - Market Positioning"
-            },
-            {
-              "question": "Which of the four elements of the marketing mix does Rex emphasize in positioning his store in the marketplace?",
-              "options": [
-                "A. Place",
-                "B. positioning",
-                "C. product/service",
-                "D. promotion"
-              ],
-              "correctAnswer": "C",
-              "explanation": "Rex emphasizes his store's selection of products specifically tailored to meet the needs of runners.",
-              "reference": "Unit 5, Session 1, 1.3.1 - Product"
-            }
-          ]
-        },
-        {
-          "type": "single",
-          "question": "An instrument issued by a company to acknowledge the loan taken by the company under its common seal is referred to as Shares.",
-          "options": ["A. True", "B. False"],
-          "correctAnswer": "B",
-          "explanation": "A debenture is an instrument issued by a company to acknowledge the loan taken by the company under its common seal.",
-          "reference": "Unit 6, Session 2, 2.1.b - Debentures"
-        },
-        {
-          "type": "single",
-          "question": "Current Ratio is one of the profitability ratios.",
-          "options": ["A. True", "B. False"],
-          "correctAnswer": "B",
-          "explanation": "The current ratio is a liquidity ratio, which measures a firm's ability to meet its short-term obligations.",
-          "reference": "Unit 6, Session 5, 5.2.b - Liquidity Ratios"
-        }
-      ],
-      "sectionB": {
-        "format": "grouped",
-        "questions": [
-          {
-            "label": "Question 1",
-            "totalMarks": 20,
-            "caseStudy": {
-              "title": "Case Study: Nana Yaw Poku",
-              "fullText": "Nana Yaw Poku started his career as a driver to Mr. Kofi Kyereh, an established businessman in Kumasi. Through mentorship, advice, and inspirations from Mr. Kofi Kyereh, Nana Poku developed the impetus for entrepreneurship.\n\nTo start his business as an entrepreneur, Mr. Poku combined resources with Mr. Prah the general Manager of Cocoa Tea Company Ltd and took over the ownership of that business from the existing owners.\n\nThough Mr. Poku had initial challenges with generating business ideas and its funding, he now owns and manages six different businesses.",
-              "keyFacts": [
-      "Nana Yaw Poku started as a driver and was mentored by established businessman Mr. Kofi Kyereh",
-      "Mentorship and inspiration acted as a Positive Pull factor toward entrepreneurship",
-      "Acquired Cocoa Tea Company Ltd by combining resources with General Manager Mr. Prah",
-      "The acquisition was a Buy-out since it involved current management (Mr. Prah)",
-      "Initially struggled with generating business ideas and funding",
-      "Now successfully owns and manages six different businesses"
-      ]
-            },
-            "subQuestions": [
-              {
-                "label": "A",
-                "question": "I. What is the term given to the social factor that influenced Mr. Poku into Entrepreneurship? Give reason to your answer.",
-                "marks": 3,
-                "commandWord": "What is the term and give reason",
-                "answer": {
-                  "introduction": "The social factor that influenced Mr. Poku is known as Positive Pull.",
-                  "mainPoints": [
-                    {
-                      "heading": "Positive Pull",
-                      "detail": "This refers to positive influences that lead to the decision to investigate entrepreneurship."
-                    },
-                    {
-                      "heading": "Reason",
-                      "detail": "The passage states that Mr. Poku was influenced through mentorship, advice, and inspirations from Mr. Kofi Kyereh, which is a classic example of a positive pull from a mentor."
-                    }
-                  ],
-                  "conclusion": "Mr. Kyereh acted as a mentor, pulling Mr. Poku towards entrepreneurship.",
+                  "conclusion": "Following these structured processes ensures that procurement is conducted fairly, transparently, and in a way that best serves the project's objectives.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 3, 3.2.2 - Positive Pull"
+                  "reference": "Unit 2, Session 5, 5.2 - Procurement Process"
                 }
               },
               {
-                "label": "A",
-                "question": "II. According to the passage, what option of Small Business acquisition has transpired between Mr. Poku and Mr. Prah. Give reasons for your answers.",
-                "marks": 3,
-                "commandWord": "What option and give reasons",
-                "answer": {
-                  "introduction": "The option of small business acquisition that transpired is a Buy-out.",
-                  "mainPoints": [
-                    {
-                      "heading": "Buy-out",
-                      "detail": "This refers to the purchase of a business, or a significant part of it, by its current management."
-                    },
-                    {
-                      "heading": "Reason",
-                      "detail": "Mr. Poku combined resources with Mr. Prah, the General Manager of the company, to take over ownership from the existing owners. This involves current management (Mr. Prah) in the purchase."
-                    }
-                  ],
-                  "conclusion": "The involvement of the existing General Manager in the purchase makes this a management buy-out.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 4, 4.1.3 - Buy-out"
-                }
-              },
-              {
-                "label": "A",
-                "question": "III. Explain one advantage of your answer in (II) over the other options available for small business buyers.",
-                "marks": 2,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "One key advantage of a buy-out is the benefit of insider knowledge.",
-                  "mainPoints": [
-                    {
-                      "heading": "Insider Knowledge",
-                      "detail": "The existing management possesses intimate knowledge of the business, its operations, strengths, and weaknesses, which reduces the risk for the new owners."
-                    }
-                  ],
-                  "conclusion": "This knowledge is an advantage that an outsider purchasing a business outright would not have.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 5, 5.1 - Advantages of Buying an Existing Business"
-                }
-              },
-              {
-                "label": "A",
-                "question": "IV. Mr. Poku can be classified as what type of entrepreneur and why?",
-                "marks": 2,
-                "commandWord": "Classify and why",
-                "answer": {
-                  "introduction": "Mr. Poku can be classified as a portfolio entrepreneur.",
-                  "mainPoints": [
-                    {
-                      "heading": "Portfolio Entrepreneur",
-                      "detail": "This refers to individuals who own more than one business simultaneously."
-                    },
-                    {
-                      "heading": "Reason",
-                      "detail": "The passage states that Mr. Poku now owns and manages six different businesses."
-                    }
-                  ],
-                  "conclusion": "As an individual with ownership in multiple businesses, he fits the definition of a portfolio entrepreneur.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
-                }
-              },
-              {
-                "label": "B",
-                "question": "Mark a serial entrepreneurial has shown interest in buying a hotel that has been put up for sale by its owner. As a business consultant, examine any five logical and methodological approach to follow in buying a new business.",
-                "marks": 10,
+                "label": "b",
+                "question": "Examine any four main risks that occur in project procurement process.",
+                "marks": 8,
                 "commandWord": "Examine",
                 "answer": {
-                  "introduction": "Buying an existing business should follow a logical, methodical approach to avoid costly mistakes.",
+                  "introduction": "The procurement process is exposed to various risks that can disrupt the project's supply chain and affect its cost and schedule.",
                   "mainPoints": [
                     {
-                      "heading": "Analyse your skills, abilities, and interests",
-                      "detail": "Conduct a self-audit to determine the ideal business for you, such as a hotel."
+                      "heading": "Demand fluctuation",
+                      "detail": "Uncertainty in demand for project materials or services can affect cost and schedule. Factors like seasonality and price changes make it hard to order the correct quantity, potentially leading to shortages or waste."
                     },
                     {
-                      "heading": "Prepare a list of potential candidates",
-                      "detail": "Search for businesses for sale through newspapers, industry contacts, and business brokers."
+                      "heading": "Vague price information",
+                      "detail": "Instability in the market price of materials and services creates uncertainty. Different purchasing times mean different costs, making budget planning difficult."
                     },
                     {
-                      "heading": "Investigate the potential candidates",
-                      "detail": "Evaluate the company's strengths, weaknesses, profitability, financial condition, and competitors."
+                      "heading": "Unreliable yield",
+                      "detail": "This risk stems from a supplier's limited production capability or inability to meet product requirements. It can lead to shortages of critical materials, forcing the project to find alternative, potentially more expensive, sources."
                     },
                     {
-                      "heading": "Explore financing options",
-                      "detail": "Structure the deal, typically with a down payment to the seller, who may finance the balance."
-                    },
-                    {
-                      "heading": "Ensure a smooth transition",
-                      "detail": "Communicate with employees, be honest, listen to them, and consider asking the seller to serve as a consultant."
+                      "heading": "Uncertain lead time",
+                      "detail": "Unpredictable time between placing an order and receiving it can disrupt project scheduling. If lead times are uncertain, it's difficult to plan activities, and delays can increase total project costs."
                     }
                   ],
-                  "conclusion": "Following these steps increases the likelihood of a successful purchase and a smooth transition of ownership.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 4, 4.2 - The Right Way to Buy a Business"
-                }
-              }
-            ]
-          },
-          {
-            "label": "Question 2",
-            "totalMarks": 20,
-            "subQuestions": [
-              {
-                "label": "A",
-                "question": "Procurement is a key business strategy that ensures critical materials are available for use by the organisation. Explain the steps in the procurement process.",
-                "marks": 10,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "The procurement process is a key management function that ensures a steady flow of materials and services.",
-                  "mainPoints": [
-                    {
-                      "heading": "Initiate a request",
-                      "detail": "A department sends a requisition to purchasing, describing the item, quantity, quality, and desired delivery date."
-                    },
-                    {
-                      "heading": "Verify and select sources",
-                      "detail": "Purchasing verifies specifications and identifies potential suppliers with the capacity to deliver."
-                    },
-                    {
-                      "heading": "Determine the best offer",
-                      "detail": "Purchasing reviews quotations based on unit costs, delivery time, warranties, and adherence to specifications."
-                    },
-                    {
-                      "heading": "Award and send the order",
-                      "detail": "When an order is awarded, it is faxed or mailed to the supplier, accompanied by terms and conditions."
-                    },
-                    {
-                      "heading": "Process payment and delivery",
-                      "detail": "The supplier delivers, the customer records delivery, and the invoice is cross-checked with the purchase order before payment."
-                    }
-                  ],
-                  "conclusion": "These steps help keep costs down, ensure supply continuity, and reduce lead times.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 4, Session 2, 2.3.1 - Steps in the Purchasing Process"
-                }
-              },
-              {
-                "label": "B",
-                "question": "Discuss four technological resources available to small firms.",
-                "marks": 10,
-                "commandWord": "Discuss",
-                "answer": {
-                  "introduction": "Technological resources are anything thought of as a strength in the areas of invention and process innovation.",
-                  "mainPoints": [
-                    {
-                      "heading": "People",
-                      "detail": "The most important resource; people have ideas and skills to do the work, make products, and provide services."
-                    },
-                    {
-                      "heading": "Information",
-                      "detail": "A commodity that is bought and sold, essential to technological problem solving, ranging from books to the internet."
-                    },
-                    {
-                      "heading": "Knowledge",
-                      "detail": "Built by individuals through practical experience and internal processing of information, encompassing technical know-how and skills."
-                    },
-                    {
-                      "heading": "Tools and Machines",
-                      "detail": "Physical devices used in production, including computers as machines and software as tools."
-                    }
-                  ],
-                  "conclusion": "These resources help small firms adapt, sustain competitive advantage, and improve operational efficiency.",
-                  "otherPossibleAnswers": "Time, Materials, Money",
-                  "reference": "Unit 4, Session 5, 5.2 - Types of Technological Resources"
+                  "conclusion": "Effectively managing these procurement risks through strategies like supplier diversification and financial hedging is crucial for project stability.",
+                  "otherPossibleAnswers": "Disruption risks, Multiple uncertainties.",
+                  "reference": "Unit 2, Session 6, 6.2 - Classification of Procurement Risk Management"
                 }
               }
             ]
@@ -1059,71 +409,71 @@
             "totalMarks": 20,
             "subQuestions": [
               {
-                "label": "A",
-                "question": "Discuss the key activities involved in Human Resource Management.",
-                "marks": 14,
-                "commandWord": "Discuss",
+                "label": "a",
+                "question": "Examine two importance and challenges each of project communication management.",
+                "marks": 8,
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "Human Resource Management is the strategic approach to managing an organization's most valued assets: its people.",
+                  "introduction": "Project communication management is vital for project success, but it also presents several challenges that must be navigated.",
                   "mainPoints": [
                     {
-                      "heading": "Human Resource Planning",
-                      "detail": "Ensuring personnel needs are met by analyzing internal skill needs and external labor market factors."
+                      "heading": "Importance 1: Relay of Information",
+                      "detail": "It ensures the right information is sent to the right people through the right media, facilitating the flow of progress reports and updates to stakeholders."
                     },
                     {
-                      "heading": "Recruitment",
-                      "detail": "Developing a pool of job candidates through advertisements, agencies, and campus visits, based on a clear job analysis."
+                      "heading": "Importance 2: Clarifies Tasks",
+                      "detail": "It ensures all project teams have their tasks communicated clearly, giving team members a clear understanding of the creative skills and work expected of them."
                     },
                     {
-                      "heading": "Selection",
-                      "detail": "Using application forms, interviews, and tests to screen candidates for managers to hire."
+                      "heading": "Challenge 1: Poor Communication as an Excuse",
+                      "detail": "When issues arise, \"poor communication\" is often used as an excuse, which stems from a failure to dynamically integrate formal and informal communication plans."
                     },
                     {
-                      "heading": "Socialization",
-                      "detail": "Helping new employees fit into the organization by introducing them to colleagues and informing them of goals and policies."
-                    },
-                    {
-                      "heading": "Training and Development",
-                      "detail": "Increasing employee ability to contribute through programs identified by performance appraisal and job analysis."
-                    },
-                    {
-                      "heading": "Performance Appraisal",
-                      "detail": "Comparing an individual's job performance to standards to make decisions on promotions, bonuses, or corrective action."
-                    },
-                    {
-                      "heading": "Promotions, Transfers, Demotions, and Separations",
-                      "detail": "Reflecting an employee's value to the organization and affecting future human resource planning."
+                      "heading": "Challenge 2: Unclear Definition of Objectives",
+                      "detail": "If project goals and purpose are not clearly communicated from the start, it leads to confusion and chaos among team members and stakeholders."
                     }
                   ],
-                  "conclusion": "These activities ensure the organization has a competent, committed, and effective workforce.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 4, Session 4, 4.2 - Steps in Human Resource Management"
+                  "conclusion": "Effective communication management requires a well-followed plan to reap its benefits and avoid the pitfalls of misunderstanding and misinformation.",
+                  "otherPossibleAnswers": "Importance: Intensifies the effectiveness of everyone the project manager interacts with. Challenges: Language barriers in global projects.",
+                  "reference": "Unit 4, Session 4, 4.3 - Importance of Project Communication Management; 4.4 - Challenges in Communication Management"
                 }
               },
               {
-                "label": "B",
-                "question": "Discuss three sources of short-term business finance available to small business owners.",
-                "marks": 6,
-                "commandWord": "Discuss",
+                "label": "b",
+                "question": "Explain the activities involved in the project integration management process.",
+                "marks": 12,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Short-term finance refers to loans or credit facilities with a maturity period of one year or less, used for working capital.",
+                  "introduction": "Project integration management involves a series of interconnected activities that unify and coordinate all aspects of a project throughout its life cycle.",
                   "mainPoints": [
                     {
-                      "heading": "Bank Overdraft",
-                      "detail": "The bank allows the borrower to overdraw their account up to a limit. Interest is calculated on the daily outstanding balance."
+                      "heading": "Develop Project Charter",
+                      "detail": "The process of creating a document that formally authorizes the project and gives the project manager authority to apply organizational resources to project activities."
                     },
                     {
-                      "heading": "Factoring",
-                      "detail": "Raising funds on the security of the company's debts, receiving cash earlier than waiting for debtors to pay."
+                      "heading": "Develop Project Management Plan",
+                      "detail": "The process of defining, preparing, and coordinating all subsidiary plans and baselines into a comprehensive project management plan that guides execution, monitoring, and closure."
                     },
                     {
-                      "heading": "Trade Credit",
-                      "detail": "Suppliers extend interest-free credit on purchases, allowing the business to order and sell goods before paying for them."
+                      "heading": "Direct and Manage Project Work",
+                      "detail": "The process of leading and performing the work defined in the project management plan and implementing approved changes to achieve the project's objectives."
+                    },
+                    {
+                      "heading": "Monitor and Control Project Work",
+                      "detail": "The process of tracking, reviewing, and reporting overall project progress to meet performance objectives defined in the project management plan."
+                    },
+                    {
+                      "heading": "Perform Integrated Change Control",
+                      "detail": "The process of reviewing all change requests, approving and managing changes to deliverables, project documents, and the project management plan, and communicating their disposition."
+                    },
+                    {
+                      "heading": "Close Project or Phase",
+                      "detail": "The process of finalizing all activities across all Project Management Process Groups to formally complete the project or phase."
                     }
                   ],
-                  "conclusion": "These sources provide the necessary liquidity for day-to-day operations and managing cash flow gaps.",
-                  "otherPossibleAnswers": "Customers (by expediting collections).",
-                  "reference": "Unit 6, Session 3, 3.1 - Sources of Short Term Finance"
+                  "conclusion": "These integration activities ensure that all elements of the project are properly coordinated, from initial authorization to final closure.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.1 - The Project Integration Management Process or Activities; Sessions 2 and 3"
                 }
               }
             ]
@@ -1133,63 +483,63 @@
             "totalMarks": 20,
             "subQuestions": [
               {
-                "label": "A",
-                "question": "State and explain five critical factors to consider at the pre-start up and start-up phases of new venture development.",
+                "label": "a",
+                "question": "Examine four common problems associated with project scope management.",
                 "marks": 10,
-                "commandWord": "State and explain",
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "Several critical factors are important for assessing a new venture during its pre-start-up and start-up phases.",
+                  "introduction": "Common problems in project scope management can derail a project, leading to delays, cost overruns, and stakeholder dissatisfaction.",
                   "mainPoints": [
                     {
-                      "heading": "Uniqueness of the venture",
-                      "detail": "The venture should have special characteristics that draw customers and provide superior performance or service."
+                      "heading": "Ambiguity",
+                      "detail": "A vague or unclear scope leads to unnecessary work, confusion among team members, and misinterpretations of requirements."
                     },
                     {
-                      "heading": "Investment size",
-                      "detail": "The capital investment required can vary significantly and must be determined, along with the timing of funds needed."
+                      "heading": "Incomplete definition",
+                      "detail": "An incomplete scope fails to capture all necessary work, leading to schedule slips and cost overruns as missing elements are discovered later."
                     },
                     {
-                      "heading": "Sales growth",
-                      "detail": "The anticipated growth pattern for sales and profits, whether for a lifestyle, small profitable, or high-growth venture."
+                      "heading": "Transience (Scope Creep)",
+                      "detail": "A scope that is not finalized and is constantly changed leads to \"scope creep,\" which is a primary cause of late deliveries and projects that never seem to end."
                     },
                     {
-                      "heading": "Product availability",
-                      "detail": "The availability of a saleable good or service at the time the venture opens is essential to its success."
-                    },
-                    {
-                      "heading": "Customer availability",
-                      "detail": "The venture's risk is affected by whether customers are ready and willing to buy the product or service at start-up."
+                      "heading": "Uncollaborated scope",
+                      "detail": "A scope developed in isolation without input from all key stakeholders causes misinterpretations in requirements and design, as it doesn't reflect everyone's needs."
                     }
                   ],
-                  "conclusion": "A clear understanding of these factors helps the entrepreneur select a viable venture and reduce the risk of failure.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 3, 3.1 - Critical Factors for New-Venture Development"
+                  "conclusion": "Addressing these issues through clear, complete, stable, and collaborative scope definition is critical for project success.",
+                  "otherPossibleAnswers": "Poor scope change management can lead to disputes and arbitration, causing further delays.",
+                  "reference": "Unit 3, Session 1, (Common problems associated with project scope management)"
                 }
               },
               {
-                "label": "B",
-                "question": "As a student who has taken entrepreneurship, state and explain four methods of generating business ideas.",
+                "label": "b",
+                "question": "Explain four importance of time management in projects.",
                 "marks": 10,
-                "commandWord": "State and explain",
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Entrepreneurs can use several methods to help generate and test new business ideas.",
+                  "introduction": "Project time management is a critical knowledge area, as it directly influences the project's ability to meet its deadlines and be perceived as successful.",
                   "mainPoints": [
                     {
-                      "heading": "Focus Groups",
-                      "detail": "A moderator leads a group of 8 to 14 participants through an open, in-depth discussion to creatively develop new product ideas."
+                      "heading": "Provides assurance of project success",
+                      "detail": "Meeting the scheduled date is a key indicator of project success. Time management ensures projects do not go beyond the scheduled time, which would be viewed as failure."
                     },
                     {
-                      "heading": "Brainstorming",
-                      "detail": "Bringing people together to suggest alternatives to a problem or generate new ideas, following rules like no criticism and building on others' ideas."
+                      "heading": "Results in effectiveness and efficiency",
+                      "detail": "When time is managed well, activities are performed within the planned duration, leading to both effectiveness (doing the right things) and efficiency (doing things right)."
                     },
                     {
-                      "heading": "Problem Inventory Analysis",
-                      "detail": "Consumers are provided with a list of problems for a product category and asked to identify products with that problem, leading to new product ideas."
+                      "heading": "Reduces stress",
+                      "detail": "Proper time management prevents unnecessary delays and ensures work progresses as expected, which reduces project-related stress for the team and stakeholders."
+                    },
+                    {
+                      "heading": "Results in quality output",
+                      "detail": "By ensuring work is done based on the time scheduled, project time management helps maintain a steady pace and focus, which contributes to meeting the set quality standards."
                     }
                   ],
-                  "conclusion": "These methods help entrepreneurs systematically generate and screen ideas to find viable business opportunities.",
+                  "conclusion": "Effective time management is essential not just for finishing on time, but for maintaining team morale, controlling costs, and delivering quality results.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 2, 2.2 - Methods for Generating Ideas"
+                  "reference": "Unit 3, Session 4, (Importance of Time Management)"
                 }
               }
             ]

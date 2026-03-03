@@ -1,6 +1,6 @@
 {
-  "subject": "Entrepreneurship and Small Enterprise Management",
-  "subjectCode": "SBU 408D",
+  "subject": "Project Management",
+  "subjectCode": "SBU 405D",
   "academicYear": "2024/2025",
   "semesters": [
     {
@@ -8,263 +8,263 @@
       "sectionA": [
         {
           "type": "single",
-          "question": "The evolution of the term 'entrepreneur' in the 17th century established a crucial connection with which concept?",
+          "question": "Which of the following is not a feature of a project?",
           "options": [
-            "A. Innovation",
-            "B. Risk-taking",
-            "C. Capital provision",
-            "D. Investment"
+            "A. Repetitive process",
+            "B. Temporal in nature",
+            "C. Unique deliverables",
+            "D. Defined beginning and end"
           ],
-          "correctAnswer": "B",
-          "explanation": "The connection between risk and entrepreneurship was established in the 17th century with the entrepreneur entering into a contract with the government to manage large projects for a fixed price.",
-          "reference": "Unit 1, Session 1, 1.1 - The Evolution of Entrepreneur and Entrepreneurship"
+          "correctAnswer": "A",
+          "explanation": "Projects are temporary and unique, with a defined start and end. A repetitive process is a feature of ongoing operations, not a project.",
+          "reference": "Unit 1, Session 1, 1.2 - Characteristic of a Project"
         },
         {
           "type": "single",
-          "question": "The Ghanaian government introduces new tax incentives and grants specifically for startups in the agricultural technology sector. This action directly influences which external environmental factor affecting entrepreneurship? ______ environment.",
+          "question": "A project is considered successful when it meets ______.",
           "options": [
-            "A. Sociological",
-            "B. Legal",
-            "C. Competitive",
-            "D. Economic"
+            "A. only the budget",
+            "B. only the schedule",
+            "C. scope, time, cost and quality objectives",
+            "D. the expectations of the project team"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Project success involves balancing competing constraints, including scope, time, cost, and quality, to meet the project objectives. The provided text emphasizes the triple constraints (scope, cost, time) and mentions quality as an important modern constraint.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "What does it mean when a project is temporary? It ______.",
+          "options": [
+            "A. has a definite start and end date",
+            "B. lasts forever",
+            "C. is repeated continuously",
+            "D. does not require resources"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The temporary nature of a project indicates that it has a specific starting point and a specific ending point.",
+          "reference": "Unit 1, Session 1, 1.1 - What is Project"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best describes the uniqueness of a project?",
+          "options": [
+            "A. All projects follow the same process.",
+            "B. Each project has distinct objectives and deliverables.",
+            "C. Projects do not require planning.",
+            "D. Projects are routine operations."
+          ],
+          "correctAnswer": "B",
+          "explanation": "A project is undertaken to create a unique product, service, or result, meaning each project has distinct objectives and deliverables.",
+          "reference": "Unit 1, Session 1, 1.1 - What is Project"
+        },
+        {
+          "type": "single",
+          "question": "A project is different from operations because ______.",
+          "options": [
+            "A. a project is temporary, while operations are ongoing.",
+            "B. the project does not require management.",
+            "C. operations do not have any objectives.",
+            "D. operations are always unsuccessful."
+          ],
+          "correctAnswer": "A",
+          "explanation": "The fundamental difference is that a project is a temporary endeavor with a defined end, while operations are ongoing and repetitive.",
+          "reference": "Unit 1, Session 1, 1.1 - What is Project"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not considered a primary constraint in project management?",
+          "options": [
+            "A. Scope",
+            "B. Cost",
+            "C. Time",
+            "D. Motivation"
           ],
           "correctAnswer": "D",
-          "explanation": "The economic environment covers factors such as population, interest rates, and inflation that influence business activities. Tax incentives and grants are part of the economic environment.",
-          "reference": "Unit 1, Session 4, 4.1 - Economic Environment"
+          "explanation": "The primary traditional constraints are time, cost, and scope, also known as the triple constraints. Motivation is an interpersonal skill, not a project constraint.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
         },
         {
           "type": "single",
-          "question": "The entrepreneurial process involves several key stages. Which stage typically concludes when the business is firmly established and beyond short-term threats to survival? ______ phase.",
+          "question": "The three primary constraints in project management are often referred to as the ______.",
           "options": [
-            "A. Pre-start-up",
-            "B. Start-up",
-            "C. Post-start-up",
-            "D. Maturity"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The post-start-up phase lasts until the venture is terminated or the surviving organizational entity is no longer controlled by an entrepreneur.",
-          "reference": "Unit 2, Session 3, 3.1.1 - The Phases of a New Venture"
-        },
-        {
-          "type": "single",
-          "question": "Which political condition would most discourage entrepreneurship?",
-          "options": [
-            "A. Stable democratic governance",
-            "B. High corruption and instability",
-            "C. Free market policies",
-            "D. Tax incentives for startups"
-          ],
-          "correctAnswer": "B",
-          "explanation": "If the government is unstable or corrupt, entrepreneurship will be discouraged because business owners cannot be certain whether they will be allowed to access any rewards they accumulate.",
-          "reference": "Unit 1, Session 4, 4.3 - Political Environment"
-        },
-        {
-          "type": "single",
-          "question": "What is the process of creating and delivering desired goods and services to customers, involving all activities associated with winning and retaining customers?",
-          "options": [
-            "A. Production",
-            "B. Operations",
-            "C. Marketing",
-            "D. Procurement"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Marketing may be regarded as the process of creating and delivering desired goods and services to customers and involves all of the activities associated with winning and retaining loyal customers.",
-          "reference": "Unit 5, Session 1, 1.1 - Meaning of the Marketing"
-        },
-        {
-          "type": "single",
-          "question": "An entrepreneur is assessing different \"Promotion\" strategies for a new service. If their primary goal is to build long-term relationships with customers and demonstrate value directly, which method would be most effective to evaluate for its suitability?",
-          "options": [
-            "A. Mass advertising campaigns with general messaging",
-            "B. Personal selling and direct engagement with potential clients",
-            "C. Placing products in a remote, inaccessible retail outlet",
-            "D. Online sales through e-commerce platform"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Personal methods of promotion involve direct contact between the customer and a representative of the firm, which is effective for building relationships and demonstrating value directly.",
-          "reference": "Unit 5, Session 6, 6.2.1 - Personal methods of promotion"
-        },
-        {
-          "type": "single",
-          "question": "The marketing mix is fundamentally comprised of which key factors?",
-          "options": [
-            "A. Planning, Product, Price and Place",
-            "B. Product, Price, Place, and Promotion",
-            "C. Finance, Human Resources, Operations, and Strategy",
-            "D. Product, Price, Operations, and Organizing"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The basic elements of the marketing mix are product, place (distribution), price, and promotion. These are commonly referred to as the four Ps of marketing.",
-          "reference": "Unit 5, Session 1, 1.3 - The Marketing Mix"
-        },
-        {
-          "type": "single",
-          "question": "When choosing a marketing strategy, a business should critically assess ______.",
-          "options": [
-            "A. only the internal capabilities without considering external factors",
-            "B. how to align organizational resources with market opportunities",
-            "C. the latest trends in advertising, irrespective of cost",
-            "D. placing products in a remote, inaccessible retail outlet"
-          ],
-          "correctAnswer": "B",
-          "explanation": "A marketing strategy involves commitment to certain courses of action and allocation of the resources necessary to achieve the identified goals.",
-          "reference": "Unit 5, Session 3, 3.1 - Meaning of Marketing Strategy"
-        },
-        {
-          "type": "single",
-          "question": "The importance of target marketing lies in its ability to ______.",
-          "options": [
-            "A. reduce the need for any form of promotion",
-            "B. allow businesses to focus their resources on the most promising customer groups",
-            "C. ensure that all potential customers are equally reached",
-            "D. the latest trends in advertising, irrespective of cost"
-          ],
-          "correctAnswer": "B",
-          "explanation": "In target marketing, the seller identifies market segments, selects one or more of them, and develops products and marketing mixes tailored to each, allowing focused resource allocation.",
-          "reference": "Unit 5, Session 4, 4.1 - Meaning and Importance of Target Marketing"
-        },
-        {
-          "type": "single",
-          "question": "What is a major disadvantage of franchising for franchisees?",
-          "options": [
-            "A. Access to management training",
-            "B. High upfront fees and profit-sharing",
-            "C. Guaranteed market share",
-            "D. Unlimited product line flexibility"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The financial costs can be considerable with large up-front fees and high royalties. Franchisors impose fees and demand a share of sales revenues.",
-          "reference": "Unit 2, Session 6, 6.3.2 - Disadvantages to Franchisees"
-        },
-        {
-          "type": "single",
-          "question": "What distinguishes \"buy-in management buy-out (BIMBO)\" from a standard buy-out?",
-          "options": [
-            "A. BIMBO combines outside and inside management in the purchase",
-            "B. BIMBO excludes all existing employees",
-            "C. Standard buy-outs involve no financial risk",
-            "D. BIMBO is only for franchises"
+            "A. Triple Constraint",
+            "B. Golden Triangle",
+            "C. Project Cycle",
+            "D. Management Pyramid"
           ],
           "correctAnswer": "A",
-          "explanation": "The Buy-in Management Buy-out (BIMBO) is a variation of the management buy-out concept that combines outside and inside management in the purchase of a firm.",
-          "reference": "Unit 2, Session 4, 4.1.4 - Buy-in Management buy-out"
+          "explanation": "The three most important traditional constraints of project management (time, cost, and scope) are commonly known as the triple constraints.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
         },
         {
           "type": "single",
-          "question": "How does \"technical feasibility\" contribute to new venture success? It ______.",
+          "question": "If a project faces budget cuts, which constraint is directly affected?",
           "options": [
-            "A. ensures product safety, durability, and ease of use",
-            "B. eliminates the need for market research",
-            "C. guarantees government subsidies",
-            "D. focuses only on financial planning"
+            "A. Scope",
+            "B. Cost",
+            "C. Time",
+            "D. Risk"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A budget cut directly reduces the amount of money available for the project, which is the cost constraint.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "If the project schedule is shortened, what is most likely to be impacted?",
+          "options": [
+            "A. Cost and scope",
+            "B. Risk only",
+            "C. Stakeholder interest",
+            "D. Project vision"
           ],
           "correctAnswer": "A",
-          "explanation": "Technical feasibility involves identifying technical requirements including functional design, durability, reliability, product safety, and ease of maintenance.",
-          "reference": "Unit 2, Session 3, 3.4.1 - Technical Feasibility"
+          "explanation": "Shortening the schedule (time) often requires more resources or overtime, increasing cost, and may force a reduction in the project's scope to meet the new deadline.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
         },
         {
           "type": "single",
-          "question": "What is a key attribute of a strategic resource?",
+          "question": "Which of the following is an additional constraint beyond the traditional triple constraint?",
           "options": [
-            "A. Easily imitable by competitors",
-            "B. They are Valuable and rare",
-            "C. Commonly available to all firms",
-            "D. Focused solely on financial assets"
+            "A. Quality",
+            "B. Innovation",
+            "C. Leadership style",
+            "D. Market trends"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The text states that other constraints such as quality standards, resources, and risk have become an important concern in managing modern projects.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "When project requirements increase but the deadline remains the same, what is most likely to happen? The ______.",
+          "options": [
+            "A. project team will need additional resources",
+            "B. cost will decrease",
+            "C. quality of work will improve automatically",
+            "D. project will be completed ahead of schedule"
+          ],
+          "correctAnswer": "A",
+          "explanation": "An increase in scope (requirements) without a change in time will typically require more resources (people, materials) to complete the additional work within the same deadline.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "In project management, resource constraints typically refer to limitations in ______.",
+          "options": [
+            "A. financial budget",
+            "B. manpower, materials, and equipment",
+            "C. project goals and vision",
+            "D. market competition"
           ],
           "correctAnswer": "B",
-          "explanation": "Strategic resources must be valuable, rare, imperfectly imitable, and non-substitutable to provide competitive advantage.",
-          "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
+          "explanation": "Resources in a project context include labor, personnel, equipment, and materials. Constraints on these are resource constraints.",
+          "reference": "Unit 1, Session 1, 1.2 - Characteristic of a Project"
         },
         {
           "type": "single",
-          "question": "Which type of resource includes patents, trademarks, and proprietary processes? ______ resources.",
+          "question": "What is the most common cause of project delays?",
           "options": [
-            "A. Human",
-            "B. Technological",
-            "C. Organizational",
-            "D. Physical"
+            "A. Poor stakeholder engagement",
+            "B. Excessive budgeting",
+            "C. Early project completion",
+            "D. Lack of competition"
           ],
-          "correctAnswer": "B",
-          "explanation": "Technological resources include knowledge generated by research and development protected by patents, as well as formulae, licenses, trademarks, and copyrights.",
-          "reference": "Unit 4, Session 1, 1.4 - Technological Resources"
+          "correctAnswer": "A",
+          "explanation": "Based on the provided material, while not explicitly stated as \"most common,\" poor stakeholder engagement (like client-end delays or scope changes) is a significant and frequent cause of delays. The other options are not listed as causes.",
+          "reference": "Unit 1, Session 6, 6.3 - Causes of Project Delays"
         },
         {
           "type": "single",
-          "question": "Why is market information vital for businesses? It ______.",
+          "question": "If a project is delayed due to a lack of necessary resources, which constraint is most directly affected?",
           "options": [
-            "A. guarantees immediate profitability",
-            "B. aids in new product development and strategic decisions",
-            "C. replaces the need for competitor analysis",
-            "D. is only relevant for large corporations"
+            "A. Scope",
+            "B. Quality",
+            "C. Cost",
+            "D. Time"
           ],
-          "correctAnswer": "B",
-          "explanation": "Companies depend on market information for new product development, market planning, communications, advertising planning, and export decisions.",
-          "reference": "Unit 4, Session 3, 3.2.a - Market Information"
+          "correctAnswer": "D",
+          "explanation": "A lack of resources that causes a delay directly impacts the project's ability to meet its scheduled completion date, thus affecting the time constraint.",
+          "reference": "Unit 1, Session 6, 6.1 - Project Delays"
         },
         {
           "type": "single",
-          "question": "The components of the entrepreneurial process are, entrepreneur ______.",
+          "question": "How can project managers reduce the impact of delays?",
           "options": [
-            "A. ideas, resource and opportunity",
-            "B. opportunity, finance and resources",
-            "C. opportunity, resource and organization",
-            "D. opportunity, resource and profit"
+            "A. Ignoring stakeholder concerns",
+            "B. Increasing workload without proper planning",
+            "C. Implementing risk management strategies",
+            "D. Avoiding communication with the project team"
           ],
           "correctAnswer": "C",
-          "explanation": "The entrepreneurial process involves four contingencies: entrepreneur, opportunity, organization, and resources.",
-          "reference": "Unit 1, Session 3, 3.1 - The Entrepreneurial Process"
+          "explanation": "Implementing risk management strategies helps to identify potential delays early and develop response plans to mitigate their impact.",
+          "reference": "Unit 1, Session 6, (General principle of risk management for delays)"
         },
         {
           "type": "single",
-          "question": "Which of the following is not a financial resource?",
+          "question": "A delay in project approval from senior management is an example of what type of delay? ______ delay.",
           "options": [
-            "A. Cash in hand",
-            "B. Debtors",
-            "C. Creditors",
-            "D. Overdraft facilities"
+            "A. Internal",
+            "B. External",
+            "C. Technical",
+            "D. Operational"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Senior management is part of the project's own organization. A delay caused by them is an internal delay, as opposed to an external one like a natural disaster.",
+          "reference": "Unit 1, Session 6, 6.2.2 - Excusable & Non-excusable Delays; 6.3.6 - Client-End Delays"
+        },
+        {
+          "type": "single",
+          "question": "What is a critical path in project management?",
+          "options": [
+            "A. The sequence of tasks that determines the minimum project duration",
+            "B. The list of all non-essential project tasks",
+            "C. A flexible schedule that allows for unlimited delays",
+            "D. A strategy to increase project costs"
+          ],
+          "correctAnswer": "A",
+          "explanation": "While not explicitly defined in the provided text, this is a standard project management definition. The concept of a \"critical delay\" (one that extends project duration) aligns with the idea of tasks on a critical path.",
+          "reference": "Unit 1, Session 6, 6.2.1 - Critical or Non-critical Delays"
+        },
+        {
+          "type": "single",
+          "question": "If a project faces unexpected regulatory approvals that delay progress, what type of risk is this? ______ risk.",
+          "options": [
+            "A. Financial",
+            "B. Political",
+            "C. Legal and compliance",
+            "D. Technological"
           ],
           "correctAnswer": "C",
-          "explanation": "Creditors represent a liability (money owed to suppliers), not a financial resource. Financial resources include cash, debtors (money owed to the firm), and overdraft facilities.",
-          "reference": "Unit 4, Session 1, 1.4 - Financial Resources"
+          "explanation": "Unexpected regulatory approvals fall under legal and compliance risks, as they pertain to rules and laws set by governing bodies.",
+          "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk (Legislation, Unforeseen regulatory requirements)"
         },
         {
           "type": "single",
-          "question": "An entrepreneur with an \"internal locus of control\" would most likely ______.",
+          "question": "What is the best strategy to manage delays caused by scope creep?",
           "options": [
-            "A. blame market failures on external factors",
-            "B. believe success depends on personal effort",
-            "C. rely on government support for business growth",
-            "D. avoid making decisions independently"
+            "A. Ignoring client requests",
+            "B. Implementing a strict change control process",
+            "C. Reducing the number of project team members",
+            "D. Eliminating the risk management plan"
           ],
           "correctAnswer": "B",
-          "explanation": "Internals are those who believe that for the most part the future is theirs to control through their own effort.",
-          "reference": "Unit 1, Session 3, 3.2.1 - Locus of Control"
+          "explanation": "A strict change control process ensures that all changes to scope are formally reviewed, approved, and their impacts on time and cost are assessed before implementation, preventing uncontrolled scope creep.",
+          "reference": "Unit 3, Session 3, 3.3 - Control Scope; Unit 5, Session 3, 3.2 - Perform Integrated Change Control"
         },
         {
           "type": "single",
-          "question": "What is a key characteristic of serial entrepreneurs in comparison to novice entrepreneurs?",
+          "question": "Obtaining information from prospective sellers on how project needs can be met is referred to as ______.",
           "options": [
-            "A. Lack of innovation",
-            "B. Limited risk tolerance",
-            "C. Multiple business experiences",
-            "D. Singular business focus"
+            "A. procurement planning",
+            "B. project procurement",
+            "C. solicitation",
+            "D. source selection"
           ],
           "correctAnswer": "C",
-          "explanation": "A serial entrepreneur is an entrepreneur who starts a new business after having already started and exited a previous business venture, indicating multiple business experiences.",
-          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
-        },
-        {
-          "type": "single",
-          "question": "The purpose of market segmentation in marketing strategy is to ______.",
-          "options": [
-            "A. create a single product that appeals to everyone",
-            "B. divide a broad target market into subsets of consumers",
-            "C. focus only on high-income consumer groups",
-            "D. target a market with one product"
-          ],
-          "correctAnswer": "B",
-          "explanation": "A market segmentation strategy seeks to segment the mass market, that is, subdivides it into smaller, more homogeneous segments.",
-          "reference": "Unit 5, Session 3, 3.3 - Market Segmentation"
+          "explanation": "Solicitation involves obtaining information (bids and proposals) from prospective sellers on how project needs can be met.",
+          "reference": "Unit 2, Session 5, 5.2.3 - Solicitation"
         }
       ],
       "sectionB": {
@@ -273,253 +273,114 @@
           {
             "label": "Question 1",
             "totalMarks": 20,
-            "caseStudy": {
-              "title": "Case Study: The Entrepreneurial Journey of Don Teeti – Building a Catfish Agribusiness in Ghana",
-              "fullText": "Don Teeti was raised in a small farming community near Kpong, in Ghana's Eastern Region, where his family grew maize and cassava. Coming from one of the poorest areas of society, children in his community often engaged in various entrepreneurial activities to support their families. From a young age, Teeti was fascinated by water, local streams, and fish, which sparked his interest in aquaculture. After completing his first degree, Teeti was inspired by the rising opportunities in Ghana's aquaculture sector, especially as consumer preferences in urban areas were shifting from tilapia to catfish. Motivated by this trend, he decided to venture into fish farming despite having little capital.\n\nIn 2016, he launched a small catfish farming operation on his family's land, building two small earthen ponds. He combined personal savings with a small loan from his uncle to buy his first batch of fingerlings. Teeti's initial experiences were challenging. With little business or technical experience, he struggled with water quality, disease control, and feeding practices. His first harvest was disappointing, with many of his fish underweight, leading to poor market prices. Family and friends were skeptical, feeling that as a fresh university graduate, he should aim higher than fish farming. Despite discouragement, Teeti realized he needed more business knowledge.\n\nIn 2018, he attended an agribusiness training workshop organized by the Ministry of Food and Agriculture and an NGO that supported young farmers. There, Teeti gained critical knowledge in record-keeping, market research, pricing, and customer relationship management. He also built a network of fellow young farmers with whom he regularly exchanged ideas and solutions to common challenges. Applying what he learned, Teeti improved pond management and invested in better-quality feed. He began securing relationships with hotels, restaurants, and supermarkets in Kpong and Tema, offering reliable supply, flexible delivery, and product samples to win contracts. By 2020, Teeti's reputation and profits had grown. He obtained a small agribusiness loan from a local bank, expanded his operations with additional concrete ponds, and installed a basic water recirculation system. Teeti diversified his income by selling fingerlings to other farmers and offering training programs, transforming his farm into a local knowledge hub.\n\nWhen the COVID-19 pandemic hit, Teeti's business faced new challenges: delayed feed imports, restricted transportation, and the temporary shutdown of restaurant clients. Demonstrating adaptability, Teeti pivoted to digital marketing, using WhatsApp and Facebook to promote home deliveries of smoked and fresh catfish, opening a new revenue stream. Today, Teeti employs six full-time workers and several part-time helpers. His dream is to expand into fish processing, offering packaged smoked catfish for domestic sales and future export across West Africa. He is also exploring collaborations with research institutions to introduce sustainable aquaculture practices. Teeti's journey exemplifies the resilience, adaptability, and entrepreneurial spirit needed for agribusiness success in Ghana. His story continues to inspire young farmers to view fish farming not as mere survival but as a scalable, profitable, and innovative business venture.",
-              "keyFacts": [
-                "Started in 2016 on family land near Kpong, Eastern Region.",
-                "Combined personal savings and a loan from his uncle to buy first fingerlings.",
-                "Attended a 2018 agribusiness training workshop by MOFA and an NGO.",
-                "Secured relationships with hotels, restaurants, and supermarkets in Kpong and Tema.",
-                "Obtained a bank agribusiness loan and expanded with concrete ponds by 2020.",
-                "Pivoted to digital marketing during COVID-19 using WhatsApp and Facebook.",
-                "Currently employs six full-time workers and several part-time helpers.",
-                "Plans to expand into fish processing and export across West Africa."
-              ]
-            },
+            "context": "The government of Ghana as part of its effort to boost health care in the country has embarked upon Agenda 111. The project is aimed at building hospitals in each district of Ghana. As a project consultant, you have been appointed to analyse the risk associated with the project and advise the government on the following:",
             "subQuestions": [
               {
-                "label": "a",
-                "question": "What is the sociological approach that inspired Don Teeti to explore entrepreneurship? Provide justification for your answer.",
-                "marks": 2,
-                "commandWord": "What and justify",
+                "label": "a-i",
+                "question": "Examine five internal and external risks that might affect the project.",
+                "marks": 10,
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "The sociological approach that inspired Don Teeti is positive pull.",
+                  "introduction": "The Agenda 111 hospital construction project will face various internal and external risks that could impact its successful completion.",
                   "mainPoints": [
                     {
-                      "heading": "Positive Pull",
-                      "detail": "This refers to positive influences that lead to the decision to investigate entrepreneurship."
+                      "heading": "Internal Risk 1: Conflicting project priorities",
+                      "detail": "With 111 projects running simultaneously, there is a high risk of resource conflicts and unclear prioritization across districts, leading to delays and inefficiencies."
                     },
                     {
-                      "heading": "Justification",
-                      "detail": "Teeti was inspired by the rising opportunities in Ghana's aquaculture sector and the shift in consumer preferences from tilapia to catfish, which pulled him toward entrepreneurship."
+                      "heading": "Internal Risk 2: Poor control of design changes",
+                      "detail": "As construction progresses, there may be requests for design alterations. Without strict control, these changes can cause cost overruns and significant delays."
+                    },
+                    {
+                      "heading": "Internal Risk 3: Unrealistic planning and scheduling",
+                      "detail": "The ambitious goal of building in every district may lead to overly optimistic timelines and plans that do not account for on-the-ground realities."
+                    },
+                    {
+                      "heading": "External Risk 1: Natural disasters",
+                      "detail": "Unpredictable events like floods or earthquakes in certain districts could physically damage construction sites and disrupt project schedules."
+                    },
+                    {
+                      "heading": "External Risk 2: Inflation and currency rate fluctuations",
+                      "detail": "The project spans several years, so increases in the cost of materials (inflation) or changes in exchange rates for imported goods could severely impact the project budget."
                     }
                   ],
-                  "conclusion": "The market opportunity acted as a positive pull factor drawing him into fish farming.",
+                  "conclusion": "Successfully managing these internal and external risks through proactive identification and response planning is critical for the project's success.",
+                  "otherPossibleAnswers": "Internal: No one person responsible for the total project; Problems with team members; Organization's resources are overcommitted. External: Unforeseen regulatory requirements; Social or political unrest in a district; Vandalism or sabotage.",
+                  "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk"
+                }
+              },
+              {
+                "label": "a-ii",
+                "question": "Evaluate two techniques that can be used to identify project risks.",
+                "marks": 6,
+                "commandWord": "Evaluate",
+                "answer": {
+                  "introduction": "Several techniques can be used to identify project risks, each with its own strengths. Two effective methods are brainstorming and expert judgment.",
+                  "mainPoints": [
+                    {
+                      "heading": "Brainstorming",
+                      "detail": "This is a preferred method because of its flexibility and capability to generate a wide and diverse range of risks. By bringing together the project team and stakeholders, many potential risks can be identified through creative and open discussion."
+                    },
+                    {
+                      "heading": "Expert Judgement",
+                      "detail": "This involves consulting individuals or groups with specialized knowledge or experience in similar projects. Their insights can uncover risks that may not be obvious to the project team, based on past lessons learned."
+                    }
+                  ],
+                  "conclusion": "Using a combination of techniques, like brainstorming for breadth and expert judgment for depth, provides a comprehensive list of potential project risks.",
+                  "otherPossibleAnswers": "Workshops, Interview questionnaires, Benchmarking, Past experience, Delphi technique, Site visits, Historical data analysis.",
+                  "reference": "Unit 6, Session 2, 2.3 - Risk Identification Methods"
+                }
+              },
+              {
+                "label": "b-i",
+                "question": "The project Agenda 111 has provided you with the following data on risk analysis:\n\n| Risk             | Probability | Severity |\n|------------------|-------------|----------|\n| Financial risk   | 0.1         | 0.6      |\n| Political risk   | 0.6         | 0.4      |\n| Technology       | 0.3         | 0.8      |\n\nCalculate the threshold of these risks.",
+                "marks": 2,
+                "commandWord": "Calculate",
+                "answer": {
+                  "introduction": "The risk threshold is calculated using the formula Risk (R) = Probability (P) * Severity (S).",
+                  "mainPoints": [
+                    {
+                      "heading": "Financial risk threshold",
+                      "detail": "Financial risk threshold = 0.1 * 0.6 = 0.06"
+                    },
+                    {
+                      "heading": "Political risk threshold",
+                      "detail": "Political risk threshold = 0.6 * 0.4 = 0.24"
+                    },
+                    {
+                      "heading": "Technology risk threshold",
+                      "detail": "Technology risk threshold = 0.3 * 0.8 = 0.24"
+                    }
+                  ],
+                  "conclusion": "The calculated risk thresholds are 0.06 for financial risk, and 0.24 for both political and technology risks.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 3, 3.2.2 - Positive Pull"
+                  "reference": "Unit 6, Session 3, 4.1 - Risk Scoring Matrix"
                 }
               },
               {
-                "label": "b",
-                "question": "What type of entrepreneur is Teeti? Provide justification for your answer.",
+                "label": "b-ii",
+                "question": "Based on the answer in b(i) classify the risk into high, low and medium.",
                 "marks": 2,
-                "commandWord": "What and justify",
+                "commandWord": "Classify",
                 "answer": {
-                  "introduction": "Don Teeti can be classified as a novice entrepreneur.",
+                  "introduction": "Based on the calculated thresholds and using the provided classification guide (< 0.30 = low, 0.30-0.70 = medium, > 0.70 = high), the risks can be classified.",
                   "mainPoints": [
                     {
-                      "heading": "Novice Entrepreneur",
-                      "detail": "He began as a nascent entrepreneur — someone in the process of starting a business with no prior ownership experience (2016, launching his first catfish operation with limited capital and knowledge). He is now a Novice Entrepreneur: an individual with no prior business ownership experience who currently owns an equity stake in a business that is new."
+                      "heading": "Financial risk classification",
+                      "detail": "Financial risk with a threshold of 0.06 is classified as a Low risk."
                     },
                     {
-                      "heading": "Justification",
-                      "detail": "Teeti had no prior business experience before starting his catfish farm in 2016, making him a first-time entrepreneur."
+                      "heading": "Political risk classification",
+                      "detail": "Political risk with a threshold of 0.24 is classified as a Low risk."
+                    },
+                    {
+                      "heading": "Technology risk classification",
+                      "detail": "Technology risk with a threshold of 0.24 is classified as a Low risk."
                     }
                   ],
-                  "conclusion": "As a first-time business founder, he fits the definition of a novice entrepreneur.",
-                  "otherPossibleAnswers": "Craft entrepreneur (due to his hands-on involvement in fish farming).",
-                  "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
-                }
-              },
-              {
-                "label": "c",
-                "question": "Outline six entrepreneurial attributes/traits about Teeti that guided him during his journey.",
-                "marks": 3,
-                "commandWord": "Outline",
-                "answer": {
-                  "introduction": "Don Teeti demonstrated several key entrepreneurial attributes throughout his journey.",
-                  "mainPoints": [
-                    {
-                      "heading": "Passion for business",
-                      "detail": "He was fascinated by water and fish from a young age, driving his interest in aquaculture."
-                    },
-                    {
-                      "heading": "Persistence",
-                      "detail": "Despite initial failures and skepticism from family, he persevered and sought more knowledge."
-                    },
-                    {
-                      "heading": "Adaptability",
-                      "detail": "During COVID-19, he pivoted to digital marketing and home deliveries when restaurants closed."
-                    },
-                    {
-                      "heading": "Willingness to learn",
-                      "detail": "He attended training workshops to gain business and technical knowledge."
-                    },
-                    {
-                      "heading": "Risk-taking",
-                      "detail": "He ventured into fish farming despite having little capital and no experience."
-                    },
-                    {
-                      "heading": "Self-confidence",
-                      "detail": "He believed he could succeed and continued despite discouragement."
-                    }
-                  ],
-                  "conclusion": "These attributes helped him overcome challenges and build a successful business.",
-                  "otherPossibleAnswers": "Head for business, Learning from failure.",
-                  "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
-                }
-              },
-              {
-                "label": "d",
-                "question": "Describe two main challenges Teeti faced during his initial catfish harvest.",
-                "marks": 2,
-                "commandWord": "Describe",
-                "answer": {
-                  "introduction": "Teeti faced several operational challenges during his initial harvest.",
-                  "mainPoints": [
-                    {
-                      "heading": "Poor water quality",
-                      "detail": "He struggled with maintaining proper water quality in his ponds."
-                    },
-                    {
-                      "heading": "Disease control",
-                      "detail": "He had difficulty managing diseases affecting his fish."
-                    },
-                    {
-                      "heading": "Poor feeding practices",
-                      "detail": "His lack of technical knowledge led to improper feeding, resulting in underweight fish and poor market prices."
-                    }
-                  ],
-                  "conclusion": "These technical challenges nearly led to failure but taught him valuable lessons.",
+                  "conclusion": "According to the given criteria, all three identified risks fall into the low-risk category.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 3, 3.2 - Reasons For New Venture Failure"
-                }
-              },
-              {
-                "label": "e",
-                "question": "Describe two instances in the case where Teeti made good use of available resources.",
-                "marks": 2,
-                "commandWord": "Describe",
-                "answer": {
-                  "introduction": "Teeti demonstrated resourcefulness by making good use of available resources.",
-                  "mainPoints": [
-                    {
-                      "heading": "Family land",
-                      "detail": "He used his family's land to build his first two earthen ponds, saving on rental costs."
-                    },
-                    {
-                      "heading": "Personal savings and family loan",
-                      "detail": "He combined his savings with a small loan from his uncle to buy his first batch of fingerlings."
-                    },
-                    {
-                      "heading": "Training workshop",
-                      "detail": "He attended an agribusiness workshop to gain knowledge and build a network of fellow farmers."
-                    }
-                  ],
-                  "conclusion": "These resourceful actions helped him start and grow his business with limited capital.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 4, Session 6, 6.3 - Resource Utilisation Strategy"
-                }
-              },
-              {
-                "label": "f",
-                "question": "Explain how Teeti diversified his income sources as his business grew.",
-                "marks": 2,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "Teeti diversified his income to reduce risk and increase revenue streams.",
-                  "mainPoints": [
-                    {
-                      "heading": "Selling fingerlings",
-                      "detail": "He started selling fingerlings to other farmers, creating a new income source."
-                    },
-                    {
-                      "heading": "Offering training programs",
-                      "detail": "He transformed his farm into a local knowledge hub, offering training to other farmers."
-                    },
-                    {
-                      "heading": "Smoked and fresh catfish",
-                      "detail": "During COVID-19, he added smoked catfish to his product line for home deliveries."
-                    }
-                  ],
-                  "conclusion": "Diversification helped him build a more resilient and profitable business.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 6, Session 1, 1.1 - The Importance of Finance in Business"
-                }
-              },
-              {
-                "label": "g",
-                "question": "Explain the economic impact of Teeti's Catfish business to the society.",
-                "marks": 2,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "Teeti's business has created significant economic impact in his community.",
-                  "mainPoints": [
-                    {
-                      "heading": "Employment creation",
-                      "detail": "He employs six full-time workers and several part-time helpers, providing jobs."
-                    },
-                    {
-                      "heading": "Income generation",
-                      "detail": "The business provides income for his employees and supports local suppliers."
-                    },
-                    {
-                      "heading": "Knowledge sharing",
-                      "detail": "His training programs help other farmers improve their own businesses."
-                    }
-                  ],
-                  "conclusion": "Through job creation and knowledge transfer, his business contributes to local economic development.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 5, 5.1 - Advantages of Entrepreneurship"
-                }
-              },
-              {
-                "label": "h",
-                "question": "Propose a vision statement for Don Teeti's business.",
-                "marks": 2,
-                "commandWord": "Propose",
-                "answer": {
-                  "introduction": "A vision statement outlines the long-term aspirations of a business.",
-                  "mainPoints": [
-                    {
-                      "heading": "Proposed Vision",
-                      "detail": "\"To become West Africa's leading provider of sustainable, high-quality catfish and fish products, transforming aquaculture into an innovative and profitable venture for farmers across the region.\""
-                    }
-                  ],
-                  "conclusion": "This vision reflects Teeti's dream to expand into fish processing and export across West Africa.",
-                  "otherPossibleAnswers": "\"To be the premier catfish brand in Ghana, known for quality, sustainability, and community impact.\"",
-                  "reference": "Unit 3, Session 4, 4.4 - Description of Venture"
-                }
-              },
-              {
-                "label": "i",
-                "question": "Describe three main entrepreneurial lessons you learnt from reading this case.",
-                "marks": 3,
-                "commandWord": "Describe",
-                "answer": {
-                  "introduction": "Teeti's journey offers valuable lessons for aspiring entrepreneurs.",
-                  "mainPoints": [
-                    {
-                      "heading": "Persistence pays off",
-                      "detail": "Despite initial failures and skepticism, persistence led to eventual success."
-                    },
-                    {
-                      "heading": "Continuous learning is essential",
-                      "detail": "Attending training and gaining knowledge helped him overcome technical challenges."
-                    },
-                    {
-                      "heading": "Adaptability is key",
-                      "detail": "When COVID-19 disrupted his business, he adapted by using digital marketing and home deliveries."
-                    },
-                    {
-                      "heading": "Networking matters",
-                      "detail": "Building relationships with fellow farmers provided ongoing support and idea exchange."
-                    }
-                  ],
-                  "conclusion": "These lessons highlight the importance of resilience, learning, and flexibility in entrepreneurship.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
+                  "reference": "Unit 6, Session 3, 4.1 - Risk Scoring Matrix"
                 }
               }
             ]
@@ -527,91 +388,96 @@
           {
             "label": "Question 2",
             "totalMarks": 20,
+            "context": "The government of Ghana has promised to construct a STEM school in your community. As a project consultant, you have been asked to identify the stakeholders for the project and draw a plan for their engagement.",
             "subQuestions": [
               {
-                "label": "a",
-                "question": "Identify and explain two methods Ama can use to generate innovative and practical business ideas for her eco-friendly fashion business.",
-                "marks": 4,
-                "commandWord": "Identify and explain",
+                "label": "a-i",
+                "question": "Using the power interest grid, identify two stakeholders for each of the quadrants and justify their selection.",
+                "marks": 6,
+                "commandWord": "Identify and justify",
                 "answer": {
-                  "introduction": "Ama can use several methods to generate innovative ideas for her sustainable fashion business.",
+                  "introduction": "The power/interest grid helps categorize stakeholders based on their level of authority (power) and their level of concern (interest) in the project's outcome.",
                   "mainPoints": [
                     {
-                      "heading": "Focus Groups",
-                      "detail": "She can gather a group of potential customers (8-14 participants) led by a moderator to discuss their needs, preferences, and ideas for eco-friendly clothing. This helps generate ideas and screen concepts."
+                      "heading": "High Power, High Interest (Manage Closely)",
+                      "detail": "1. The District Chief Executive (DCE), as they have the authority to allocate local resources and a high interest in the project's success for their district. 2. The Ministry of Education, as they provide funding and set the educational standards, giving them high power and a direct interest."
                     },
                     {
-                      "heading": "Brainstorming",
-                      "detail": "She can bring together friends, colleagues, or potential customers to suggest alternatives and generate new product ideas without criticism, building on each other's suggestions."
+                      "heading": "High Power, Low Interest (Keep Satisfied)",
+                      "detail": "1. The Regional Minister, who has authority over the region but may have many other projects and a lower direct interest in the daily details of this one school. 2. A major national contractor who has the power to influence the supply chain but may not be directly interested in the school's educational outcomes."
                     },
                     {
-                      "heading": "Problem Inventory Analysis",
-                      "detail": "She can provide a list of common clothing problems (e.g., fabric discomfort, poor durability) to consumers and ask them to identify which products have these problems, leading to new product ideas."
+                      "heading": "Low Power, High Interest (Keep Informed)",
+                      "detail": "1. Parents and teachers in the community, who have a high interest in the school's facilities for their children's education but have little direct power over the construction. 2. Local media, who are interested in reporting on the project's progress but have limited power to influence its execution."
+                    },
+                    {
+                      "heading": "Low Power, Low Interest (Monitor)",
+                      "detail": "1. The general public in a neighboring district, who have minimal interest and no power over this specific project. 2. Suppliers of generic office materials, who are interested only in a potential contract but have low power and interest in the project's overall success."
                     }
                   ],
-                  "conclusion": "These methods will help Ama understand customer needs and develop practical business ideas.",
-                  "otherPossibleAnswers": "Research and Development, Existing companies analysis.",
-                  "reference": "Unit 2, Session 2, 2.2 - Methods for Generating Ideas"
+                  "conclusion": "This grid provides a clear framework for understanding stakeholder dynamics and planning appropriate engagement strategies.",
+                  "otherPossibleAnswers": "Examples may vary but should fit the quadrant logic.",
+                  "reference": "Unit 5, Session 5, 5.1.1 - Power and Interest Grid"
+                }
+              },
+              {
+                "label": "a-ii",
+                "question": "Explain how each of the stakeholders identified in each quadrant is to be managed. Your explanation should be supported with relevant examples.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The power/interest grid not only helps identify stakeholders but also prescribes how they should be managed to ensure their needs are met and their influence is used positively.",
+                  "mainPoints": [
+                    {
+                      "heading": "Manage Closely (High Power, High Interest)",
+                      "detail": "These stakeholders are key to the project's success and must be fully engaged. Example: The DCE should be given regular, detailed progress reports and be consulted on key decisions to ensure their continued support and resource allocation."
+                    },
+                    {
+                      "heading": "Keep Satisfied (High Power, Low Interest)",
+                      "detail": "These stakeholders have the power to block the project, so they need to be kept satisfied with high-level updates, but not overwhelmed with details. Example: The Regional Minister should receive periodic, concise summary reports to ensure they remain supportive without needing to be involved in day-to-day issues."
+                    },
+                    {
+                      "heading": "Keep Informed (Low Power, High Interest)",
+                      "detail": "These stakeholders are important advocates and can provide valuable feedback. Example: Parents and teachers should be informed through community meetings or newsletters about project milestones and completion dates, ensuring their concerns are addressed."
+                    },
+                    {
+                      "heading": "Monitor (Low Power, Low Interest)",
+                      "detail": "These stakeholders require minimal effort, but their status should be monitored in case their interest or power changes. Example: The general public can be monitored through occasional media scans, but no active, direct communication plan is needed."
+                    }
+                  ],
+                  "conclusion": "Tailoring the management approach to each quadrant ensures efficient use of the project manager's time and maximizes stakeholder support.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.1.1 - Power and Interest Grid"
                 }
               },
               {
                 "label": "b",
-                "question": "Explain four advantages Ama might enjoy by starting her own fashion business from scratch instead of buying an existing clothing brand in Ghana.",
+                "question": "Examine four outputs that would be achieved if the project managers of Agenda 111 perform integrated change control successfully.",
                 "marks": 8,
-                "commandWord": "Explain",
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "Starting a business from scratch offers several advantages over buying an existing one.",
+                  "introduction": "Performing integrated change control successfully ensures that all changes are managed in a coordinated way, leading to several key outputs.",
                   "mainPoints": [
                     {
-                      "heading": "Creation of the owners",
-                      "detail": "Ama will have freedom of choice over what the business does, how it operates, and what its values are, allowing her to fully express her sustainable fashion vision."
+                      "heading": "Approved Change Requests",
+                      "detail": "The primary output is that some change requests are formally approved. These approved changes will then be implemented through the Direct and Manage Project Work process."
                     },
                     {
-                      "heading": "Clean Sheet",
-                      "detail": "The business starts with no backlog of problems. She won't inherit any negative reputation, debts, or outdated equipment."
+                      "heading": "Change Log",
+                      "detail": "A change log is created and updated to document all changes that occur during the project, including their impact on time, cost, and risk. Rejected change requests are also captured here for the record."
                     },
                     {
-                      "heading": "Match between founder and enterprise",
-                      "detail": "She can ensure her individual strengths (passion for sustainable fashion) are well used by choosing a business that matches her qualities."
+                      "heading": "Project Management Plan Updates",
+                      "detail": "Elements of the project management plan that are subject to formal change control, such as the scope, schedule, or cost baselines, are updated to reflect the approved changes."
                     },
                     {
-                      "heading": "Less funds required",
-                      "detail": "A new business start-up typically costs less than buying an existing business or franchise."
-                    },
-                    {
-                      "heading": "Satisfaction",
-                      "detail": "There is inherent satisfaction in success achieved through her own skill and effort."
+                      "heading": "Project Documents Updates",
+                      "detail": "All other project documents that are specified as being subject to the formal change control process, like the requirements documentation, are updated accordingly."
                     }
                   ],
-                  "conclusion": "Starting from scratch allows Ama to build a brand that truly reflects her passion and values.",
-                  "otherPossibleAnswers": "Control over business affairs, Help from various agencies.",
-                  "reference": "Unit 2, Session 1, 1.2.1 - Advantages of Starting Your Own Small Business"
-                }
-              },
-              {
-                "label": "c",
-                "question": "Identify and explain two disadvantages Ama should be aware of when starting from scratch, and recommend specific strategies she can use to overcome these challenges.",
-                "marks": 8,
-                "commandWord": "Identify, explain, and recommend",
-                "answer": {
-                  "introduction": "Starting from scratch also has disadvantages that Ama should prepare for.",
-                  "mainPoints": [
-                    {
-                      "heading": "Disadvantage 1: No market share or goodwill",
-                      "detail": "As a new brand, she has no established customer base or reputation. Strategy: Use social media marketing, offer samples at fashion events, and collaborate with influencers to build brand awareness and trust."
-                    },
-                    {
-                      "heading": "Disadvantage 2: High failure rate",
-                      "detail": "Many new businesses fail within the first five years. Strategy: Develop a solid business plan, conduct thorough market research, and start small to test the market before scaling up."
-                    },
-                    {
-                      "heading": "Disadvantage 3: Difficult to finance",
-                      "detail": "Banks are often keener to lend to proven ideas than new concepts. Strategy: Explore alternative funding sources like government support (NBSSI, BAF), crowdfunding, or start with personal savings and reinvest profits."
-                    }
-                  ],
-                  "conclusion": "By anticipating these challenges and planning strategies to overcome them, Ama can increase her chances of success.",
-                  "otherPossibleAnswers": "Unproven idea, Hard lonely work, Barriers to entry.",
-                  "reference": "Unit 2, Session 1, 1.2.2 - Disadvantages of Starting Your Own Small Business"
+                  "conclusion": "These outputs provide a clear, controlled, and documented trail of all changes, ensuring the project's baselines remain accurate and all stakeholders are informed.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 3, 3.2.1 - Perform Integrated Change Control outputs"
                 }
               }
             ]
@@ -622,88 +488,88 @@
             "subQuestions": [
               {
                 "label": "a",
-                "question": "Describe the key stages Kwaku should follow when conducting marketing research to assess his new market opportunities.",
-                "marks": 8,
-                "commandWord": "Describe",
+                "question": "Examine four importance of project scope management.",
+                "marks": 6,
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "Marketing research involves several key stages to minimize risks in business decisions.",
+                  "introduction": "Project scope management is vital as it establishes a common understanding of the project's work and ensures the project stays on track.",
                   "mainPoints": [
                     {
-                      "heading": "Step 1: Define the problem",
-                      "detail": "Kwaku must clearly define what he needs to know: customer preferences, pricing expectations, and competition in Accra supermarkets and West African markets."
+                      "heading": "Ensures Stakeholder Understanding",
+                      "detail": "Effective scope management ensures that stakeholders and team members alike understand the scope of the project while agreeing on how the project goals will be met."
                     },
                     {
-                      "heading": "Step 2: Collect the data",
-                      "detail": "He should gather information from internal records (sales data) and external sources. External sources include secondary data (trade publications, industry reports) and primary data (interviews with supermarket managers, surveys of potential customers)."
+                      "heading": "Prevents Scope Creep",
+                      "detail": "Scope management helps avoid the challenges of a bloating scope by clearly setting out what is included and controlling what gets added or removed during execution."
                     },
                     {
-                      "heading": "Step 3: Analyse and interpret the data",
-                      "detail": "He needs to evaluate the results and attach meaning to them, such as identifying preferred packaging sizes or acceptable price ranges."
+                      "heading": "Defines Exclusions",
+                      "detail": "It formally defines what is not part of the project, ensuring that work outside the project's boundaries is not inadvertently included."
                     },
                     {
-                      "heading": "Step 4: Draw conclusions",
-                      "detail": "Based on the analysis, he should decide whether to enter these markets, what adjustments to make, and how to position his product."
+                      "heading": "Enables Accurate Estimations",
+                      "detail": "Without a defined project scope, the cost and time required for the project cannot be accurately estimated, as any change to scope directly affects the budget and schedule."
                     }
                   ],
-                  "conclusion": "Following these steps will help Kwaku make informed decisions and reduce the risk of failure.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 2, 2.3 - Conducting Marketing Research"
+                  "conclusion": "In essence, scope management provides the foundation for all other project activities, enabling controlled execution and successful delivery.",
+                  "otherPossibleAnswers": "Provides verification procedures for completed work. Establishes control mechanisms for changes.",
+                  "reference": "Unit 3, Session 1, (Importance of project scope management)"
                 }
               },
               {
                 "label": "b",
-                "question": "Discuss, using examples, how marketing research can add value to Kwaku's business decision-making and help reduce risks.",
+                "question": "Examine four outputs achieved when a project manager validates the scope of the project.",
                 "marks": 4,
-                "commandWord": "Discuss",
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "Marketing research adds significant value by providing information that reduces uncertainty.",
+                  "introduction": "Validate Scope is the process of formalizing acceptance of the completed project deliverables, leading to specific outputs.",
                   "mainPoints": [
                     {
-                      "heading": "Identifies customer preferences",
-                      "detail": "Research can reveal that Accra supermarkets prefer smaller, branded packaging, helping Kwaku adjust his product accordingly."
+                      "heading": "Accepted Deliverables",
+                      "detail": "The primary output is that deliverables which meet the acceptance criteria are formally signed off and approved by the customer or sponsor."
                     },
                     {
-                      "heading": "Reveals pricing expectations",
-                      "detail": "He might learn that supermarkets expect lower wholesale prices than local markets, allowing him to calculate if he can still profit."
-                    },
-                    {
-                      "heading": "Uncovers competition",
-                      "detail": "Research might show that several established brands already supply Accra, helping him decide whether to compete or differentiate."
-                    },
-                    {
-                      "heading": "Detects unmet needs",
-                      "detail": "He might discover demand for organic or speciality palm oil, creating a niche opportunity."
+                      "heading": "Change Requests",
+                      "detail": "Deliverables that are not formally accepted are documented with reasons. These may require a change request for defect repair."
                     }
                   ],
-                  "conclusion": "By providing these insights, marketing research minimizes the risk of making costly mistakes based on assumptions.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 2, 2.2 - The Value of Marketing Research"
+                  "conclusion": "The validation process ensures that work is formally accepted, or if not, a clear path for correction is established.",
+                  "otherPossibleAnswers": "Work performance information (though this is more for control, not validation). Project document updates (can occur but are not the primary focus).",
+                  "reference": "Unit 3, Session 3, 3.2 - Validate Scope"
                 }
               },
               {
                 "label": "c",
-                "question": "Identify two common marketing research challenges that Ghanaian entrepreneurs like Kwaku typically face, and explain how each challenge can be effectively overcome.",
-                "marks": 8,
-                "commandWord": "Identify and explain",
+                "question": "Explain five guidelines that plan schedule management provides in project management.",
+                "marks": 10,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Ghanaian entrepreneurs face several challenges when conducting marketing research.",
+                  "introduction": "Plan Schedule Management establishes the policies and procedures for developing, managing, and controlling the project schedule. It provides specific guidelines on several key matters.",
                   "mainPoints": [
                     {
-                      "heading": "Challenge 1: Limited funds for research",
-                      "detail": "Small businesses often cannot afford expensive research firms or large surveys. Solution: Use low-cost methods like informal interviews with supermarket managers, observation, and online research. Seek support from institutions like NBSSI that offer business advisory services."
+                      "heading": "Project schedule model development",
+                      "detail": "It specifies the scheduling methodology and the scheduling tool to be used for developing the project schedule model."
                     },
                     {
-                      "heading": "Challenge 2: Difficulty accessing reliable data",
-                      "detail": "Secondary data may be outdated or unavailable, and primary data collection can be time-consuming. Solution: Build networks with other palm oil producers to share market information. Partner with university students who need research projects. Use simple questionnaires and focus groups with willing participants."
+                      "heading": "Level of accuracy",
+                      "detail": "It specifies the acceptable range used in determining realistic activity duration estimates, which may include an amount for contingencies."
                     },
                     {
-                      "heading": "Challenge 3: Lack of research skills",
-                      "detail": "Entrepreneurs may not know how to design surveys or interpret data. Solution: Attend free business training workshops offered by NGOs, MOFA, or business development centers. Hire a part-time consultant or intern with research skills."
+                      "heading": "Units of measurement",
+                      "detail": "It defines each unit used in measurements, such as staff hours for time or meters for quantity, for each of the resources."
+                    },
+                    {
+                      "heading": "Project schedule model maintenance",
+                      "detail": "It defines the process used to update the status and record progress of the project in the schedule model during execution."
+                    },
+                    {
+                      "heading": "Control thresholds",
+                      "detail": "It specifies variance thresholds for monitoring schedule performance, indicating the amount of variation allowed before corrective action is needed."
                     }
                   ],
-                  "conclusion": "By using creative, low-cost approaches and seeking support, entrepreneurs can overcome these challenges and conduct effective research.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 2, 2.3.2 - Collecting the Data"
+                  "conclusion": "These guidelines provide a clear roadmap for how the project schedule will be created, tracked, and controlled throughout the project lifecycle.",
+                  "otherPossibleAnswers": "It also addresses how to create the schedule, what tools to use, and how to manage variances.",
+                  "reference": "Unit 3, Session 5, 5.1 - plan schedule management"
                 }
               }
             ]
@@ -714,92 +580,88 @@
             "subQuestions": [
               {
                 "label": "a",
-                "question": "Explain the four key sections that must be included in a business plan.",
-                "marks": 8,
+                "question": "Using relevant examples, explain what is project delay.",
+                "marks": 2,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "A business plan has several key sections that provide a complete picture of the proposed venture.",
+                  "introduction": "A project delay is the inability of a project team to complete all project activities within the estimated duration.",
                   "mainPoints": [
                     {
-                      "heading": "Introductory Page",
-                      "detail": "Contains the name and address of the company, entrepreneur's contact information, nature of business, financing needed, and a confidentiality statement."
+                      "heading": "Definition",
+                      "detail": "Project delay is the failure to complete a project by its planned finish date."
                     },
                     {
-                      "heading": "Executive Summary",
-                      "detail": "A concise 2-3 page summary of the complete business plan, explaining the venture, financing needed, market potential, and why it will succeed."
-                    },
-                    {
-                      "heading": "Industry Analysis",
-                      "detail": "Discusses industry outlook, future trends, competitor analysis, market segmentation, and industry forecasts to put the venture in proper context."
-                    },
-                    {
-                      "heading": "Description of Venture",
-                      "detail": "Provides detailed description of the product/service, business location, size, personnel needed, equipment, and background of entrepreneurs."
+                      "heading": "Example",
+                      "detail": "If a construction project to build a hospital was scheduled to be completed in 24 months but takes 30 months, it is delayed by 6 months."
                     }
                   ],
-                  "conclusion": "These sections together provide a comprehensive overview that guides the entrepreneur and attracts potential investors.",
-                  "otherPossibleAnswers": "Production Plan, Marketing Plan, Organizational Plan, Assessment of Risk, Financial Plan, Appendix.",
-                  "reference": "Unit 3, Session 4 & 5 - Writing the Business Plan II & III"
+                  "conclusion": "Such delays manifest as a breach of the time constraint and can positively or negatively affect cost, scope, and quality.",
+                  "otherPossibleAnswers": "A delay can be a deliberate or indeliberate action.",
+                  "reference": "Unit 1, Session 6, 6.1 - Project Delays"
                 }
               },
               {
                 "label": "b",
-                "question": "Discuss three important reasons why entrepreneurs write business plan.",
-                "marks": 6,
-                "commandWord": "Discuss",
+                "question": "Examine the types of project delays using relevant examples.",
+                "marks": 8,
+                "commandWord": "Examine",
                 "answer": {
-                  "introduction": "Entrepreneurs write business plans for several important purposes.",
+                  "introduction": "Project delays can be classified into four main types based on their impact, controllability, and compensability.",
                   "mainPoints": [
                     {
-                      "heading": "To determine venture viability",
-                      "detail": "It helps assess whether the business idea is feasible in the designated market before committing resources."
+                      "heading": "Critical or Non-critical Delays",
+                      "detail": "A critical delay extends the project's overall duration. Example: A delay in pouring the foundation of a building pushes back the entire construction schedule. A non-critical delay does not extend the overall project. Example: Painting a room can be delayed without affecting the final move-in date if there is slack time."
                     },
                     {
-                      "heading": "To provide guidance",
-                      "detail": "It serves as a roadmap for organizing planning activities and making strategic decisions throughout the first year of operations."
+                      "heading": "Excusable or Non-excusable Delays",
+                      "detail": "An excusable delay is beyond the project team's control. Example: A flood delaying site work. A non-excusable delay is the project team's fault. Example: The project manager ordering steel beams too late."
                     },
                     {
-                      "heading": "To obtain financing",
-                      "detail": "It is an essential tool for convincing potential investors, banks, and lenders to provide funding."
+                      "heading": "Concurrent Delays",
+                      "detail": "This occurs when two or more delays happen at the same time. Example: A strike by workers happening at the same time as a delay in client approvals for a design change."
                     },
                     {
-                      "heading": "To assess progress",
-                      "detail": "It provides parameters against which progress toward goals can be measured and control decisions made."
+                      "heading": "Compensable or Non-compensable Delays",
+                      "detail": "A compensable delay entitles the contractor to both a time extension and cost compensation. Example: The client asking for a major design change. A non-compensable delay is solely the contractor's fault. Example: The contractor using unskilled labor that slows down work."
                     }
                   ],
-                  "conclusion": "A well-written business plan is essential for both launching and managing a successful venture.",
+                  "conclusion": "Understanding these classifications helps in assigning responsibility and determining the appropriate contractual remedies for project delays.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 3, Session 1, 1.3 - The Importance of the Business Plan"
+                  "reference": "Unit 1, Session 6, 6.2 - Types of Delays in Projects"
                 }
               },
               {
                 "label": "c",
-                "question": "Provide three practical tips that entrepreneurs should follow to ensure that once the business plan is written, it is effectively used and does not just sit on the shelf.",
-                "marks": 6,
-                "commandWord": "Provide tips",
+                "question": "Analyse five causes of project delays. Your answer must reflect relevant examples.",
+                "marks": 10,
+                "commandWord": "Analyse",
                 "answer": {
-                  "introduction": "A business plan should be a living document that guides operations, not just a document filed away.",
+                  "introduction": "Project delays can stem from various sources, ranging from planning errors to external factors.",
                   "mainPoints": [
                     {
-                      "heading": "Measure progress regularly",
-                      "detail": "At the beginning of each month, check profit and loss statements, cash flow, inventory, and sales against projections to identify deviations."
+                      "heading": "Design Errors",
+                      "detail": "Errors in project design lead to wrong application of techniques and the need for change orders. Example: An architect's error in a hospital's foundation design requires excavation to be redone, causing a significant delay."
                     },
                     {
-                      "heading": "Update the plan when conditions change",
-                      "detail": "If environmental factors (economy, technology, competition) or internal factors (loss of key employees) change, revise the plan accordingly."
+                      "heading": "Scope Change",
+                      "detail": "Any change in project scope during execution forces a review of the entire project plan. Example: The government deciding to add an extra wing to the STEM school after construction has started will delay the project while new plans and budgets are approved."
                     },
                     {
-                      "heading": "Share with key employees",
-                      "detail": "Ensure that team members understand the company's goals and how they are expected to perform, creating buy-in and alignment."
+                      "heading": "Subcontractor and Consultant Delays",
+                      "detail": "Delays caused by the inability of subcontractors to complete their work on time. Example: An electrical subcontractor for the hospital fails to show up on schedule, holding up the subsequent plastering work."
                     },
                     {
-                      "heading": "Use control elements",
-                      "detail": "Implement inventory control, production control, quality control, and sales control systems to track performance against the plan."
+                      "heading": "Shipping and Supply Delays",
+                      "detail": "Delays resulting from late delivery of required materials. Example: A shipment of specialized medical equipment for the hospital is held up at the port, delaying its installation."
+                    },
+                    {
+                      "heading": "Client-End Delays",
+                      "detail": "Delays resulting from client dissatisfaction or a client changing their mind. Example: The community representatives request a change in the school's roofing material after it has been ordered, causing a delay while the new material is sourced."
                     }
                   ],
-                  "conclusion": "By actively using and updating the plan, entrepreneurs can stay on track and respond effectively to changes.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 3, Session 6 - Using and Implementing the Business Plan"
+                  "conclusion": "Identifying these potential causes early can help in developing proactive mitigation strategies to keep the project on schedule.",
+                  "otherPossibleAnswers": "Inappropriate procurement and faulty contractual management. Climate Delays. Complexity of the project. Post Execution Phase (Closure) issues.",
+                  "reference": "Unit 1, Session 6, 6.3 - Causes of Project Delays"
                 }
               }
             ]

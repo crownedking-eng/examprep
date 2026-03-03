@@ -1,6 +1,6 @@
 {
-  "subject": "Entrepreneurship and Small Enterprise Management",
-  "subjectCode": "SBU 408D",
+  "subject": "Project Management",
+  "subjectCode": "SBU 405",
   "academicYear": "2019/2020",
   "semesters": [
     {
@@ -8,255 +8,259 @@
       "sectionA": [
         {
           "type": "single",
-          "question": "Which type of entrepreneur starts a new business after having already started and exited a previous business venture?",
+          "question": "Arrange the steps in managing a project.\nI. Identification of requirements/needs\nII. Balancing competing project constraints\nIII. Managing stakeholders towards meeting project requirements and creating deliverables\nIV. Setting up, maintaining and carrying out communications among stakeholders in planning and executing the project\nV. Addressing the various needs, concerns and expectations of the stakeholders in planning and executing the project",
           "options": [
-            "A. Craft entrepreneur",
-            "B. Serial entrepreneur",
-            "C. Opportunistic entrepreneur",
-            "D. Portfolio entrepreneur"
-          ],
-          "correctAnswer": "B",
-          "explanation": "A serial entrepreneur is specifically defined as an entrepreneur who starts a new business after having already started and exited a previous business venture.",
-          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
-        },
-        {
-          "type": "single",
-          "question": "The components of the entrepreneurial process are ______.",
-          "options": [
-            "A. entrepreneur, opportunity, organization, and resources",
-            "B. entrepreneur, opportunity, organization, and society",
-            "C. entrepreneur, opportunity, business partners, and resources",
-            "D. entrepreneur, achievements, organization, and, resources"
+            "A. I, V, IV, III, II",
+            "B. I, IV, V, II, III",
+            "C. I, II, IV, III, V",
+            "D. I, IV, V, III, II"
           ],
           "correctAnswer": "A",
-          "explanation": "The entrepreneurial process involves four contingencies coming together: the entrepreneur, an opportunity, an organization, and resources.",
-          "reference": "Unit 1, Session 3, 3.1 - The Entrepreneurial Process"
+          "explanation": "According to the text, the steps to manage a project are: identification of requirements, addressing stakeholder needs, carrying out communications, managing stakeholders, and finally balancing project constraints.",
+          "reference": "Unit 1, Session 2, 2.2 - Steps to manage a project"
         },
         {
           "type": "single",
-          "question": "Which of the elements in the entrepreneurial environment covers factors such as population, interest rates and inflation that influence business activities?",
+          "question": "Customers, end users, suppliers and project teams are often not considered as project stakeholders.",
           "options": [
-            "A. Socio-cultural Environment",
-            "B. Political Environment",
-            "C. Legal Environment",
-            "D. Economic Environment"
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Customers, end users, suppliers and project teams are explicitly listed as examples of project stakeholders.",
+          "reference": "Unit 1, Session 3, 3.2 - Project Stakeholders"
+        },
+        {
+          "type": "single",
+          "question": "The following are examples of interpersonal skills that the project manager must have EXCEPT ______.",
+          "options": [
+            "A. leadership",
+            "B. motivation",
+            "C. negotiation",
+            "D. knowledge"
           ],
           "correctAnswer": "D",
-          "explanation": "The economic environment covers factors such as population, interest rates, and inflation that influence business activities.",
-          "reference": "Unit 1, Session 4, 4.1 - Economic Environment"
+          "explanation": "Leadership, motivation, and negotiation are listed as interpersonal skills. Knowledge is a separate competency area, distinct from interpersonal skills.",
+          "reference": "Unit 1, Session 3, 3.4.3 - Interpersonal Skills of a Project Manager; 3.4.2 - Competencies of the Project Manager"
         },
         {
           "type": "single",
-          "question": "The ______ is a written outline of the entrepreneur's proposed venture, its operational and financial details, its marketing opportunities and strategy, and its manager's skills and abilities.",
+          "question": "The type of project conflict that arise due to differences in stakeholders' opinion and understanding of the overall outcome of the project is referred to as ______ conflicts.",
           "options": [
-            "A. Plan",
-            "B. Strategic Plan",
-            "C. Business Plan",
-            "D. Organizational Plan"
+            "A. group differences",
+            "B. role",
+            "C. project vision",
+            "D. communication"
           ],
           "correctAnswer": "C",
-          "explanation": "The business plan is defined as a written outline of the entrepreneur's proposed venture, its operational and financial details, its marketing opportunities and strategy, and its manager's skills and abilities.",
-          "reference": "Unit 3, Session 1, 1.1 - What is the Business Plan?"
+          "explanation": "Project vision conflicts are specifically defined as arising from differences in stakeholders' opinion and understanding of the vision and overall outcome of the project.",
+          "reference": "Unit 1, Session 4, 4.2.1 - Project Vision"
         },
         {
           "type": "single",
-          "question": "Every organization has to be resourceful. Resources of an organization are made up of ______ and ______ assets.",
+          "question": "Which of the project conflict resolution strategies is criticized as taking advantage of the opposition's weakness by resorting to tactics which are disarming nature?",
           "options": [
-            "A. movable and immovable",
-            "B. tangible and intangible",
-            "C. fixed and current",
-            "D. financial and non-financial"
+            "A. Accommodation",
+            "B. Avoidance",
+            "C. Compromise",
+            "D. Competition"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The text states one criticism of competition is that \"it takes advantage of the opposition's weakness, by resorting to various strategies and tactics which have a disarming nature.\"",
+          "reference": "Unit 1, Session 4, 4.3.4 - Competition"
+        },
+        {
+          "type": "single",
+          "question": "A schedule baseline can only be changed through formal change control procedures.",
+          "options": [
+            "A. False",
+            "B. True"
           ],
           "correctAnswer": "B",
-          "explanation": "A firm's resources are those tangible and intangible assets that are tied semi-permanently to the firm.",
-          "reference": "Unit 4, Session 1, 1.1 - Nature of Firm Resources"
+          "explanation": "The text defines a schedule baseline as the approved version of a schedule model that \"can be changed only through formal change control procedures.\"",
+          "reference": "Unit 3, Session 6, 6.2 - Develop Schedule"
         },
         {
           "type": "single",
-          "question": "In franchising, the entrepreneur assumes fewer risks because the franchise provides all the following except ______.",
+          "question": "The third step in human resource planning for project management involves ______.",
           "options": [
-            "A. management assistance in operating the business",
-            "B. favorable image for the products",
-            "C. over sale of rights",
-            "D. established markets for the products"
+            "A. specify skills requirement",
+            "B. identification and document project roles and responsibility",
+            "C. establishing reporting relationships",
+            "D. creating a staffing management plan"
           ],
           "correctAnswer": "C",
-          "explanation": "Franchising provides benefits like management training, an accepted name/product, and knowledge of the market. \"Over sale of rights\" is not a benefit; it could be a disadvantage related to lack of independence.",
-          "reference": "Unit 2, Session 6, 6.3.1 - Advantages for Franchisees"
+          "explanation": "The human resource management plan is developed in a specific order: 1) Identify roles, 2) Specify skills, 3) Establish reporting relationships, and 4) Create a staffing management plan.",
+          "reference": "Unit 4, Session 2, 2.1 - Plan Human Resource Management"
         },
         {
           "type": "single",
-          "question": "Which of the following is an excellent method for initially screening ideas and concepts in addition to generating new ideas?",
+          "question": "A good listener exhibits the following characteristics EXCEPT ______.",
           "options": [
-            "A. Brainstorming",
-            "B. Focus group",
-            "C. Problem inventory analysis",
-            "D. Reverse brainstorming"
+            "A. leaning towards the speaker",
+            "B. interjects with his/her thoughts",
+            "C. nodding the head",
+            "D. sharing positive comments"
           ],
           "correctAnswer": "B",
-          "explanation": "Further to generating new ideas, the focus group is a very good method for initially screening ideas and concepts.",
-          "reference": "Unit 2, Session 2, 2.2.1 - Focus Groups"
+          "explanation": "Interjecting with one's own thoughts would interrupt the speaker and is not a characteristic of a good listener. The other options indicate attentiveness and positive feedback.",
+          "reference": "Unit 4, Session 4, (General principles of effective listening, implied within communication concepts)"
         },
         {
           "type": "single",
-          "question": "The approach of pricing which involves deciding price by calculating costs and adding what is assumed to be an adequate element of profit is known as ______.",
+          "question": "Expectations of customers based on previous experiences are referred to as ______ expectations.",
           "options": [
-            "A. Profit-Oriented Pricing",
-            "B. Cost-plus pricing",
-            "C. Market prices",
-            "D. Cost-benefit pricing"
+            "A. general",
+            "B. level of",
+            "C. primary",
+            "D. secondary"
           ],
           "correctAnswer": "B",
-          "explanation": "Cost-plus pricing involves deciding prices by calculating costs and adding what is judged to be an adequate element of profit.",
-          "reference": "Unit 5, Session 5, 5.3.1.2 - Cost-plus pricing"
+          "explanation": "The provided material does not contain specific information on types of customer expectations.",
+          "reference": "Not directly found in the provided text."
         },
         {
           "type": "single",
-          "question": "The personal method of promotion includes the following except ______.",
+          "question": "The creative process of using a diagram to illustrate the interrelationships among ideas, words, tasks, activities and objects related to a problem is referred to as ______.",
           "options": [
-            "A. Direct selling",
-            "B. Retail selling",
-            "C. Exhibitions",
-            "D. Radio advertisements"
-          ],
-          "correctAnswer": "D",
-          "explanation": "Personal methods include direct selling, telephone selling, retail selling, and exhibitions. Radio advertisements are an impersonal method of promotion.",
-          "reference": "Unit 5, Session 6, 6.2.1 & 6.2.2.1 - Personal methods of promotion & Media advertisements"
-        },
-        {
-          "type": "single",
-          "question": "The act of raising short term funds on the security of a firm's creditors is termed as ______.",
-          "options": [
-            "A. Factoring",
-            "B. Leasing",
-            "C. Hire purchase",
-            "D. Mortgage"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Factoring involves raising funds on the security of the company's debts (creditors), so that cash is received earlier.",
-          "reference": "Unit 6, Session 3, 3.1.b - Factoring"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following financial ratios will be of key importance when assessing a potential supplier of raw materials?",
-          "options": [
-            "A. Gross profit ratio",
-            "B. Expense to sales ratio",
-            "C. Debtors collection period",
-            "D. Creditors collection management"
-          ],
-          "correctAnswer": "D",
-          "explanation": "A potential supplier would be interested in how quickly the firm pays its bills, which is measured by the creditor payment period.",
-          "reference": "Unit 6, Session 5, 5.2.c.iv - Creditor Payment Period"
-        },
-        {
-          "type": "single",
-          "question": "Which category of ratios measure a firm's ability to meet its long term obligations?",
-          "options": [
-            "A. Leverage ratios",
-            "B. Liquidity ratios",
-            "C. Activity ratios",
-            "D. Profitability ratios"
-          ],
-          "correctAnswer": "A",
-          "explanation": "To judge the long-term financial position of the firm, financial leverage or capital structure (gearing) ratios are calculated. These are also called long-term solvency ratios.",
-          "reference": "Unit 6, Session 6 - a. Leverage/Gearing Ratios (Long-term solvency) Ratios"
-        },
-        {
-          "type": "single",
-          "question": "The following are some reasons why small businesses fail at start up except ______.",
-          "options": [
-            "A. poor market timing",
-            "B. lack of distribution channels",
-            "C. clear business idea",
-            "D. lack of technical and managerial skills"
+            "A. focus group discussion",
+            "B. brainstorming",
+            "C. mind mapping",
+            "D. diagramming"
           ],
           "correctAnswer": "C",
-          "explanation": "Common reasons for failure include product/market problems (like poor timing and inappropriate distribution strategy) and managerial problems. A clear business idea is a factor for success, not failure.",
-          "reference": "Unit 2, Session 3, 3.2 - Reasons For New Venture Failure"
+          "explanation": "The provided material does not contain specific information on mind mapping.",
+          "reference": "Not directly found in the provided text."
         },
         {
           "type": "single",
-          "question": "Which of the following is not an approach for evaluating new ventures.",
+          "question": "In which of the following documents is the schedule of activities essential for a project presented in?",
           "options": [
-            "A. Analysis of financial feasibility",
-            "B. Determining the technical feasibility of idea",
-            "C. Analysis of organisational resources and capabilities",
-            "D. Systems analysis"
+            "A. Activity attributes",
+            "B. Activity list",
+            "C. Milestone list",
+            "D. Sequence activities"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The activity list is defined as a list that contains all schedule activities essential for the project.",
+          "reference": "Unit 3, Session 5, 5.2 - Define activities"
+        },
+        {
+          "type": "single",
+          "question": "Identifying the multiple components associated with each activity is contained in which of the following documents?",
+          "options": [
+            "A. Activity attributes",
+            "B. Activity list",
+            "C. Milestone list",
+            "D. Network diagram"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Activity attributes extend the description of the activity by identifying the multiple components associated with each activity, such as identifiers, predecessors, and successors.",
+          "reference": "Unit 3, Session 5, 5.2 - Define activities"
+        },
+        {
+          "type": "single",
+          "question": "A graphical representation of the logical relationships among the project schedule activities is referred to as ______ diagram.",
+          "options": [
+            "A. activity",
+            "B. flow",
+            "C. network",
+            "D. schedule"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A project schedule network diagram is a graphical representation of the logical relationships, also referred to as dependencies, among the project schedule activities.",
+          "reference": "Unit 3, Session 5, 5.3 - Sequence Activities"
+        },
+        {
+          "type": "single",
+          "question": "The process of developing a detailed description of the project and product is referred to as ______.",
+          "options": [
+            "A. activity description",
+            "B. project scope definition",
+            "C. project plan development",
+            "D. project documentation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Define Scope is the process of developing a detailed description of the project and product, essentially creating your scope statement.",
+          "reference": "Unit 3, Session 2, 2.3 - Define Scope"
+        },
+        {
+          "type": "single",
+          "question": "Organizations run their activities as projects because of the following reasons EXCEPT ______.",
+          "options": [
+            "A. narrow project launch windows",
+            "B. economic periods marked by high inflation",
+            "C. shortened product life cycle",
+            "D. increasingly complex and technical products"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The text lists reasons for running activities as projects, including shortened product life cycles, narrow product launch windows, and increasingly complex products. A period of high inflation is not listed as a reason, but rather a period of low inflation is.",
+          "reference": "Unit 1, Session 1, 1.4 - Importance of Projects"
+        },
+        {
+          "type": "single",
+          "question": "Which of the phase of the project life cycle involves the development of detailed plans to confirm the specifications in the project scope?",
+          "options": [
+            "A. Project initiation",
+            "B. Project planning",
+            "C. Project execution",
+            "D. Project termination"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The project planning phase involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Planning"
+        },
+        {
+          "type": "single",
+          "question": "Which of the of delays in project has the potential for extending the project duration?",
+          "options": [
+            "A. Critical delay",
+            "B. Concurrent delay",
+            "C. Compensable delay",
+            "D. Excusable delay"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A critical delay is specifically defined as the delay that is responsible for extending the project duration.",
+          "reference": "Unit 1, Session 6, 6.2.1 - Critical or Non-critical Delays"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following could account for project scope change?",
+          "options": [
+            "A. Broader initial scope definition",
+            "B. Secured project funding",
+            "C. Sudden admiration of the project",
+            "D. Inherent risk and uncertainties"
           ],
           "correctAnswer": "D",
-          "explanation": "The comprehensive feasibility approach includes technical feasibility and marketability. Other methods include evaluation-related questions, profile analysis, and feasibility criteria approach.",
-          "reference": "Unit 2, Session 3, 3.3 & 3.4 - The Evaluation Process of New Ventures & Comprehensive Feasibility Approach"
+          "explanation": "The text lists causes for scope change, including inherent risk and uncertainties, wrong initial scope definition, sudden change of interest, and project funding change.",
+          "reference": "Unit 1, Session 6, 6.3.1 - Scope Change"
         },
         {
           "type": "single",
-          "question": "Kwame Gyan, a successful entrepreneur believes that what he has achieved is a result of his handwork, perseverance and dedication. Kwame is said to have ______ locus of control.",
+          "question": "Which of the type of project cost changes throughout the project life cycle?",
           "options": [
-            "A. external",
-            "B. internal",
-            "C. personal",
-            "D. positive"
+            "A. Expedited costs",
+            "B. Fixed costs",
+            "C. Normal costs",
+            "D. Variable cost"
           ],
-          "correctAnswer": "B",
-          "explanation": "Internals are those who believe that for the most part the future is theirs to control through their own effort.",
-          "reference": "Unit 1, Session 3, 3.2.1 - Locus of Control"
+          "correctAnswer": "D",
+          "explanation": "Variable costs are defined as those that accelerate or increase or vary throughout the project life cycle.",
+          "reference": "Unit 2, Session 2, 2.1.6 - Variable costs"
         },
         {
           "type": "single",
-          "question": "The marginalisation of individuals or groups of individuals from the core of society is termed as ______.",
+          "question": "Hierarchical presentation of resources by category and type is referred to as ______.",
           "options": [
-            "A. Negative displacement",
-            "B. Positive displacement",
-            "C. Prejudice",
-            "D. Stereotyping"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Negative displacement is the marginalization of individuals or groups of individuals from the core of society.",
-          "reference": "Unit 1, Session 3, 3.2.2 - Negative Displacement"
-        },
-        {
-          "type": "single",
-          "question": "Resources are rare in the sense that there are not enough for all competitors. Valuable resources shared by a large number of firms can be a source of competitive advantage.",
-          "options": [
-            "A. True",
-            "B. False"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Valuable resources shared by a large number of firms cannot be a source of competitive advantage because they are not rare and are easily duplicated.",
-          "reference": "Unit 4, Session 1, 1.3 - Rare Resources"
-        },
-        {
-          "type": "single",
-          "question": "Purchase Orders are normally accompanied by terms and conditions which form the contractual agreement of the transaction.",
-          "options": [
-            "A. True",
-            "B. False"
+            "A. resource breakdown structure",
+            "B. project breakdown structure",
+            "C. activity breakdown structure",
+            "D. resource calendar"
           ],
           "correctAnswer": "A",
-          "explanation": "Purchase Orders are normally accompanied by terms and conditions which form the contractual agreement of the transaction.",
-          "reference": "Unit 4, Session 2, 2.3.1.e - Steps in the Purchasing Process"
-        },
-        {
-          "type": "single",
-          "question": "Information sources can either be primary; gathered from existing sources or secondary, gathered as a result of research.",
-          "options": [
-            "A. True",
-            "B. False"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Information sources can either be primary, gathered as a result of research or analysis instigated by the firm, or secondary, gathered from existing sources.",
-          "reference": "Unit 4, Session 3, 3.3 - Sources of business information"
-        },
-        {
-          "type": "single",
-          "question": "Human resource management is the strategic and garbled approach to the management of an organization's most valued assets.",
-          "options": [
-            "A. True",
-            "B. False"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Human resource management is the strategic and coherent approach to the management of an organisation's most valued assets.",
-          "reference": "Unit 4, Session 4, 4.1 - Definition of Human Resource"
+          "explanation": "The resource breakdown structure is a hierarchical representation of resources by category and type, such as labour, material, and equipment.",
+          "reference": "Unit 3, Session 5, 5.4 - Estimate Activity Resource"
         }
       ],
       "sectionB": {
@@ -264,122 +268,96 @@
         "questions": [
           {
             "label": "Question 1",
-            "totalMarks": 40,
-            "caseStudy": {
-              "title": "Case Study: Rex Athletes Shop",
-              "fullText": "Rex wants to open a store that caters for athletes, but, due to space and budgetary constraints, he recognizes that he will not be able to offer the same variety and selection of products as does the local athletic mega-store, so he has decided to focus specifically on runners. He stocks shoes and related gear for runners, and maintains a staff that is knowledgeable and enthusiastic about running. Rex's advertising campaign emphasizes his store's high standard of customer service and selection of products specifically tailored to meet the needs of the runner.",
-              "keyFacts": [
-                "Rex faces space and budgetary constraints, preventing him from competing with larger athletic stores",
-                "He decides to focus specifically on runners as his target market segment",
-                "Stocks shoes and related gear exclusively for runners",
-                "Maintains staff that is knowledgeable and enthusiastic about running",
-                "Advertising campaign emphasizes high standard of customer service",
-                "Products are specifically tailored to meet the needs of runners"
-              ]
-            },
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "a",
-                "question": "Outline and explain the three (3) main steps involved in target marketing for Rex's products.",
-                "marks": 16,
-                "commandWord": "Outline and explain",
+                "question": "Explain the key responsibility of the project manager in defining project scope.",
+                "marks": 2,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "The three main steps in target marketing are market segmentation, market targeting, and market positioning.",
+                  "introduction": "The project manager's key responsibility in defining scope is to lead the process of creating a detailed and controlled description of the project.",
                   "mainPoints": [
                     {
-                      "heading": "Market Segmentation",
-                      "detail": "Rex would divide the broad market of athletes into smaller segments, such as runners, swimmers, or team sports players."
+                      "heading": "Develop a detailed project scope statement",
+                      "detail": "Document the entire scope, including project and product scope, deliverables, assumptions, and constraints."
                     },
                     {
-                      "heading": "Market Targeting",
-                      "detail": "Rex would then evaluate the runner segment and decide to focus his efforts on it, as he has limited resources."
+                      "heading": "Ensure only required work is performed",
+                      "detail": "Ensure that only the required work (the scope) will be performed and that each of the deliverables can be completed in the allotted time and within budget."
                     },
                     {
-                      "heading": "Market Positioning",
-                      "detail": "Rex would use his marketing mix (products, staff, ads) to create a distinct image of his store as the best choice for runners in the consumers' minds."
+                      "heading": "Manage stakeholder expectations",
+                      "detail": "Explicitly state what is included and excluded from the project scope to manage stakeholder expectations."
                     }
                   ],
-                  "conclusion": "By following these steps, Rex can effectively focus his limited resources on the specific group of customers he aims to serve.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 4, 4.2 - Steps in Target Marketing"
+                  "conclusion": "Ultimately, the project manager is responsible for creating a clear scope baseline that guides all project work and prevents scope creep.",
+                  "otherPossibleAnswers": "Ensure the scope is collaboratively prepared with stakeholders to avoid misinterpretations. Obtain formal acceptance of the completed project deliverables against the defined scope.",
+                  "reference": "Unit 3, Session 1, (Introduction); Session 2, 2.3 - Define Scope"
                 }
               },
               {
                 "label": "b",
-                "question": "Describe any two (2) types of market segmentation available to Rex.",
-                "marks": 14,
-                "commandWord": "Describe",
+                "question": "Explain four (4) common problems associated with project scope management.",
+                "marks": 8,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Market segmentation involves dividing a market into distinct groups of buyers with different needs, characteristics, or behaviors.",
+                  "introduction": "Common problems in project scope management can derail a project, leading to delays, cost overruns, and stakeholder dissatisfaction.",
                   "mainPoints": [
                     {
-                      "heading": "Geographic Segmentation",
-                      "detail": "Rex could divide his market based on geographic units like neighbourhoods, cities, or regions where runners live."
+                      "heading": "Ambiguity",
+                      "detail": "A vague or unclear scope leads to unnecessary work, confusion among team members, and misinterpretations of requirements."
                     },
                     {
-                      "heading": "Demographic Segmentation",
-                      "detail": "Rex could segment runners based on variables like age, income, or occupation."
+                      "heading": "Incomplete definition",
+                      "detail": "An incomplete scope fails to capture all necessary work, leading to schedule slips and cost overruns as missing elements are discovered later."
                     },
                     {
-                      "heading": "Psychographic Segmentation",
-                      "detail": "Rex could segment runners based on their lifestyle or personality characteristics, such as \"serious marathoners\" vs. \"casual joggers.\""
+                      "heading": "Transience (Scope Creep)",
+                      "detail": "A scope that is not finalized and is constantly changed leads to \"scope creep,\" which is a primary cause of late deliveries and projects that never seem to end."
                     },
                     {
-                      "heading": "Behavioural Segmentation",
-                      "detail": "Rex could divide runners based on their knowledge of, or responses to, products, such as \"brand-loyal runners\" or \"benefit-seekers\" (e.g., seeking cushioning vs. speed)."
+                      "heading": "Uncollaborated scope",
+                      "detail": "A scope developed in isolation without input from all key stakeholders causes misinterpretations in requirements and design, as it doesn't reflect everyone's needs."
                     }
                   ],
-                  "conclusion": "By using these segmentation strategies, Rex can better understand and tailor his offerings to the specific needs of his chosen runner market.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 4, 4.2.1 - Market Segmentation"
+                  "conclusion": "Addressing these issues through clear, complete, stable, and collaborative scope definition is critical for project success.",
+                  "otherPossibleAnswers": "Poor scope change management can lead to disputes and arbitration, causing further delays.",
+                  "reference": "Unit 3, Session 1, (Common problems associated with project scope management)"
                 }
               },
               {
                 "label": "c",
-                "question": "Distinguish between market targeting and market positioning.",
-                "marks": 4,
-                "commandWord": "Distinguish",
-                "answer": {
-                  "introduction": "Market targeting and market positioning are two distinct steps in the target marketing process.",
-                  "mainPoints": [
-                    {
-                      "heading": "Market Targeting",
-                      "detail": "This is the process of selecting which market segments to enter."
-                    },
-                    {
-                      "heading": "Market Positioning",
-                      "detail": "This is the process of defining how a product is perceived by consumers relative to competing products."
-                    }
-                  ],
-                  "conclusion": "In essence, targeting decides which customers to pursue, while positioning decides how to compete for their attention.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 4, 4.2.2 & 4.2.3 - Market Targeting & Market Positioning"
-                }
-              },
-              {
-                "label": "d",
-                "question": "Explain three (3) channels of distribution Rex can utilize for his products.",
-                "marks": 6,
+                "question": "Explain any five (5) importance of project scope management.",
+                "marks": 10,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "A channel of distribution is the path goods take from producer to consumer, and Rex has several options to get his products to runners.",
+                  "introduction": "Project scope management is vital as it establishes a common understanding of the project's work and ensures the project stays on track to deliver its intended objectives.",
                   "mainPoints": [
                     {
-                      "heading": "Direct Sales",
-                      "detail": "Rex can sell directly to runners in his physical retail store, the \"Rex Athletes Shop.\""
+                      "heading": "Ensures Stakeholder Understanding",
+                      "detail": "Effective scope management ensures that stakeholders and team members alike understand the scope of the project while agreeing on how the project goals will be met."
                     },
                     {
-                      "heading": "Retail and Specialist Outlets",
-                      "detail": "Rex's own store is itself a specialist retail outlet where customers can visit and purchase."
+                      "heading": "Provides Verification Procedures",
+                      "detail": "It sets up clear procedures for how completed work will be verified and approved by the customer or sponsor."
                     },
                     {
-                      "heading": "Mail Order",
-                      "detail": "Rex could sell his products directly to customers through a catalogue or website, dispatching them via mail."
+                      "heading": "Prevents Scope Creep",
+                      "detail": "Scope management helps avoid the challenges of a bloating scope by clearly setting out what is included and controlling what gets added or removed during execution."
+                    },
+                    {
+                      "heading": "Defines Exclusions",
+                      "detail": "It formally defines what is not part of the project, ensuring that work outside the project's boundaries is not inadvertently included during the execution stage."
+                    },
+                    {
+                      "heading": "Enables Accurate Estimations",
+                      "detail": "Without a defined project scope, the cost and time required for the project cannot be accurately estimated, as any change to scope directly affects the budget and schedule."
                     }
                   ],
-                  "conclusion": "The choice of channel will depend on his customers, the products, and his financial circumstances.",
-                  "otherPossibleAnswers": "Multi-level marketing.",
-                  "reference": "Unit 5, Session 6, 6.1.1.1 & 6.1.1.2 - Channels of Distribution"
+                  "conclusion": "In essence, scope management provides the foundation for all other project activities, enabling accurate planning, controlled execution, and successful delivery.",
+                  "otherPossibleAnswers": "Establishes control mechanisms to address factors that may result in changes during the project lifecycle.",
+                  "reference": "Unit 3, Session 1, (Importance of project scope management)"
                 }
               }
             ]
@@ -390,84 +368,92 @@
             "subQuestions": [
               {
                 "label": "a",
-                "question": "With the aid of examples, explain three (3) investment ratios available to a firm.",
-                "marks": 6,
-                "commandWord": "Explain",
+                "question": "State the four (4) main types of project termination.",
+                "marks": 4,
+                "commandWord": "State",
                 "answer": {
-                  "introduction": "Investment ratios help equity shareholders and other investors assess the value and quality of an investment in a company's shares.",
+                  "introduction": "A project can be concluded in several ways, not just upon successful completion. The four main types of project termination are as follows.",
                   "mainPoints": [
                     {
-                      "heading": "Earnings per Share (EPS)",
-                      "detail": "This represents the net income earned for each share of outstanding common stock. Example: If a company has a net profit of GH¢100,000 and 50,000 ordinary shares, its EPS is GH¢2 per share."
+                      "heading": "Termination by Starvation",
+                      "detail": "Occurs when the necessary resources for the project are lacking or are cut off, often due to budget cuts, with the possibility of reactivation later."
                     },
                     {
-                      "heading": "Dividend per Share",
-                      "detail": "This indicates the amount of dividend payable on each share in a particular accounting year. Example: If a company pays a total dividend of GH¢20,000 and has 50,000 ordinary shares, the dividend per share is GH¢0.40."
+                      "heading": "Termination by Extinction",
+                      "detail": "The project is stopped, either successfully because it met its goals and delivered the final result, or unsuccessfully because it failed to accomplish its desired result."
                     },
                     {
-                      "heading": "Price/Earnings Ratio",
-                      "detail": "This indicates the number of years' purchase of the earnings that make up the current market value of a share. Example: If a company's market price per share is GH¢10 and its EPS is GH¢2, the P/E ratio is 5."
+                      "heading": "Termination by Addition",
+                      "detail": "A very successful project is not disbanded; instead, it is transformed into a new, formal operating unit or division within the organization."
+                    },
+                    {
+                      "heading": "Termination by Integration",
+                      "detail": "The project's resources, including the project team, are reabsorbed back into the organization's existing functional departments."
                     }
                   ],
-                  "conclusion": "These ratios are crucial for potential investors who are thinking of investing in a company.",
-                  "otherPossibleAnswers": "Dividend Cover, Payout Ratio, Earnings Yield, Dividend Yield.",
-                  "reference": "Unit 6, Session 6 - b. Investment Ratios"
+                  "conclusion": "Understanding these termination types helps in planning for the project's end and the redeployment of its resources.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
                 }
               },
               {
                 "label": "b",
-                "question": "Discuss three (3) institutional support to small businesses in Ghana.",
+                "question": "Using relevant examples, explain the three (3) main processes used to ensure effective project costs management.",
                 "marks": 6,
-                "commandWord": "Discuss",
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "The Ghanaian government has established several institutions to provide support for entrepreneurs and small business owners.",
+                  "introduction": "Effective project cost management relies on three key processes that build upon each other to plan, establish, and control the project's finances.",
                   "mainPoints": [
                     {
-                      "heading": "Venture Capital Trust Fund (VCTF)",
-                      "detail": "Provides low-cost financing (credit and equity) to businesses through venture capital financing companies to help them grow, create wealth, and jobs."
+                      "heading": "Project Cost Estimating",
+                      "detail": "This is the process of approximating the cost to complete all project activities. For example, to build a house, you would estimate costs for the land, design, foundation, and roofing, rather than making a single total estimate."
                     },
                     {
-                      "heading": "National Board for Small Scale Industries (NBSSI)",
-                      "detail": "An apex body for SSE development that promotes entrepreneurship, provides extension services, and administers a loan revolving fund scheme."
+                      "heading": "Project Cost Budgeting",
+                      "detail": "This involves aggregating the estimated costs of individual activities to establish an authorized cost baseline. For example, the sum of all the individual house-building estimates creates the total project budget against which actual spending will be measured."
                     },
                     {
-                      "heading": "Business Assistance Fund (BAF)",
-                      "detail": "Introduced to restore the productive capacity of enterprises with proven potential, providing loans at a subsidized interest rate to SSEs in productive sectors."
+                      "heading": "Project Cost Control",
+                      "detail": "This is the process of monitoring the project's status to update costs and manage changes to the cost baseline. For example, during the house-building, you track actual expenses against the budget and manage the financial impact of any changes, like choosing more expensive windows."
                     }
                   ],
-                  "conclusion": "These institutions play a vital role in providing financial and technical support to grow the small business sector in Ghana.",
-                  "otherPossibleAnswers": "PAMSCAD Credit Line, Export Development and Investment Fund (EDIF), GRATIS.",
-                  "reference": "Unit 6, Session 4, 4.1, 4.2 & 4.3 - VCTF, NBSSI & BAF"
+                  "conclusion": "These three processes—estimating, budgeting, and controlling—work together to ensure the project is completed within its approved financial limits.",
+                  "otherPossibleAnswers": "Before these processes, one must plan for inflation, account for unexpected events, and track costs in real-time.",
+                  "reference": "Unit 2, Session 3, 3.1 - Project Cost Management Process"
                 }
               },
               {
                 "label": "c",
-                "question": "Identify and explain four (4) sources of long term finance to small firms.",
-                "marks": 8,
-                "commandWord": "Identify and explain",
+                "question": "Explain any five (5) sources of long-term project funding.",
+                "marks": 10,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Long-term sources of finance are those needed over a longer period, generally over a year, for activities like expansion or buying new premises.",
+                  "introduction": "Long-term project funding involves capital that is repayable or invested for a period exceeding one year, and it can be sourced from various internal and external avenues.",
                   "mainPoints": [
                     {
-                      "heading": "Shares",
-                      "detail": "Capital raised by issuing shares to the public. Equity shares represent ownership, while preference shares have a preferential claim on dividends."
+                      "heading": "Sale and Leaseback",
+                      "detail": "An organization sells an asset it owns to a financial institution and then leases it back. This releases the capital tied up in the asset for project investment, though it creates future rental payments."
                     },
                     {
-                      "heading": "Debentures",
-                      "detail": "A loan raised by a company by issuing an instrument, acknowledging its debt. Debenture holders receive fixed interest payments."
+                      "heading": "Loan Capital (Debentures)",
+                      "detail": "These are loans secured against a company's assets. Debenture holders receive interest payments before shareholders and are preferential creditors if the business fails."
                     },
                     {
-                      "heading": "Asset Leasing",
-                      "detail": "An agreement where the lessor owns an asset but allows the lessee to use it in exchange for payments, a form of rental."
+                      "heading": "Business Angels",
+                      "detail": "These are private, often experienced, investors who invest their own money in a company in exchange for an equity stake and possibly a board position. They are a source of both funds and useful knowledge."
                     },
                     {
-                      "heading": "Mortgage",
-                      "detail": "A long-term secured loan, usually on a property or other fixed asset, where the asset acts as security for the loan."
+                      "heading": "Venture Capital",
+                      "detail": "Venture capitalists provide significant funds to companies considered too risky by traditional lenders, in exchange for an equity share and strategic involvement. Their goal is to sell their shares later at a profit."
+                    },
+                    {
+                      "heading": "Retained Profits",
+                      "detail": "This is the portion of a company's profits that is kept back as reserves instead of being distributed to shareholders. It is a major internal source of funding, with no interest costs."
                     }
                   ],
-                  "conclusion": "The choice of source depends on factors like the amount required, cost, and the firm's ability to provide security.",
-                  "otherPossibleAnswers": "Venture Capital.",
-                  "reference": "Unit 6, Session 2, 2.1 - Sources of Long Term Finance"
+                  "conclusion": "Choosing the right mix of long-term funding sources is crucial for financing a project and depends on the project's size, risk, and the organization's financial strategy.",
+                  "otherPossibleAnswers": "Share Capital (Ordinary and Preference shares): Money raised from shareholders in exchange for a share of profits and ownership rights. Issuing Shares (New Issues/Rights Issues): Raising capital by offering new shares to the public or existing shareholders.",
+                  "reference": "Unit 2, Session 4, 4.3 - Sources of Long-term Project Funding"
                 }
               }
             ]
@@ -478,84 +464,122 @@
             "subQuestions": [
               {
                 "label": "a",
-                "question": "Identify and explain the different stages involved in the marketing research process.",
-                "marks": 8,
-                "commandWord": "Identify and explain",
+                "question": "\"All projects are temporary in nature.\" Discuss.",
+                "marks": 4,
+                "commandWord": "Discuss",
                 "answer": {
-                  "introduction": "The goal of marketing research is to minimise the risks associated with making business decisions through a systematic process.",
+                  "introduction": "The statement \"all projects are temporary in nature\" is a fundamental and accurate characteristic of a project, defining its core identity.",
                   "mainPoints": [
                     {
-                      "heading": "Define the problem",
-                      "detail": "The first step is to define the specific nature of the problem to be investigated clearly and briefly."
+                      "heading": "Defined Start and End",
+                      "detail": "The temporary nature means every project has a definite beginning and a definite end, with a specific period to commence and complete its activities."
                     },
                     {
-                      "heading": "Collect the data",
-                      "detail": "This involves gathering information from internal sources (business records) and external sources (secondary and primary data)."
+                      "heading": "Not Necessarily Short Duration",
+                      "detail": "This temporariness does not imply that the project's duration is short. Some projects can last for several years, like a four-year university degree program."
                     },
                     {
-                      "heading": "Analyse and interpret the data",
-                      "detail": "The collected data is evaluated, and meaning is attached to it in response to the research objectives."
+                      "heading": "Outcome Outlives the Project",
+                      "detail": "The temporary nature of the project does not mean the product, service, or result it creates is short-lived. For example, a project to build a bridge creates a structure that will last for decades."
                     },
                     {
-                      "heading": "Draw conclusions",
-                      "detail": "Based on the analysis, the business owner decides how to use the information in their business."
+                      "heading": "A Defined Undertaking",
+                      "detail": "It signifies that the project's engagement and its longevity are specified and planned from the outset, unlike ongoing operational work."
                     }
                   ],
-                  "conclusion": "The marketing research process is complete only when the business owner acts on the information collected.",
+                  "conclusion": "Therefore, the temporary nature is a defining feature that distinguishes a project from routine, ongoing operations, focusing on its unique, time-bound mission.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 2, 2.3 - Conducting Marketing Research"
+                  "reference": "Unit 1, Session 1, 1.1 - What is Project"
                 }
               },
               {
                 "label": "b",
-                "question": "Explain any four (4) types of business informational resources that can be utilized by entrepreneurs.",
-                "marks": 8,
+                "question": "Explain any six (6) characteristics of a project.",
+                "marks": 6,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Business information is knowledge about specific events or situations that has been gathered to aid in decision-making.",
+                  "introduction": "Projects are unique endeavors with distinct characteristics that set them apart from routine business operations.",
                   "mainPoints": [
                     {
-                      "heading": "Market Information",
-                      "detail": "Data on market size, growth, consumer spending, needs, and behavior, crucial for new product development and marketing plans."
+                      "heading": "Objective to be achieved",
+                      "detail": "Every project is an ad hoc endeavor with a specific goal or objective that it is designed to accomplish."
                     },
                     {
-                      "heading": "Competitor Information",
-                      "detail": "Information about competitors' locations, activities, and performance, which is vital for strategic positioning."
+                      "heading": "Schedule to closure",
+                      "detail": "A project has a temporal life cycle with a specific time to accomplish each activity and an overall deadline for completion."
                     },
                     {
-                      "heading": "Production Information",
-                      "detail": "Internal data on production efficiency, cost, wastage, and quality, ensuring operations can meet promised customer demand."
+                      "heading": "Complexity",
+                      "detail": "Every project has its own level of complexity, which may require specific technologies or approaches to achieve its objectives."
                     },
                     {
-                      "heading": "Human Resources Information",
-                      "detail": "Information on staff training, skill levels, morale, and staffing costs to manage the organization's valued assets."
+                      "heading": "Resources needs",
+                      "detail": "A project requires specific resources to ensure successful closure, including labor, personnel, equipment, materials, and a dedicated budget."
+                    },
+                    {
+                      "heading": "Organizational Structure",
+                      "detail": "Every project has a management structure and project office that provides direction and makes decisions from planning to closure."
+                    },
+                    {
+                      "heading": "Risk and Safety Controls",
+                      "detail": "Projects must have risk management and safety controls in place to comply with international and local standards."
                     }
                   ],
-                  "conclusion": "Access to and effective management of these information resources helps entrepreneurs reduce risk and overcome communication barriers.",
-                  "otherPossibleAnswers": "Macroeconomic information, Supplier information, External financial information, Information on regulations, Internal financial information.",
-                  "reference": "Unit 4, Session 3, 3.2 - Types of Business Information"
+                  "conclusion": "These characteristics collectively define a project and necessitate a structured approach to its management.",
+                  "otherPossibleAnswers": "Outcomes of projects are satisfaction of customer's requirements. Termination of project is done either upon success or failure.",
+                  "reference": "Unit 1, Session 1, 1.2 - Characteristic of a Project"
                 }
               },
               {
                 "label": "c",
-                "question": "Evaluate two (2) strategies firms can use in utilizing resources.",
-                "marks": 4,
-                "commandWord": "Evaluate",
+                "question": "With the aid of a diagram, explain the three (3) most important traditional constraints of project management.",
+                "marks": 6,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Successful entrepreneurs seek to control and utilise resources efficiently rather than always owning them outright.",
+                  "introduction": "The three most important traditional constraints of project management, known as the triple constraints, are time, cost, and scope, which are all interconnected.",
                   "mainPoints": [
                     {
-                      "heading": "Control resources rather than own them",
-                      "detail": "This strategy requires less capital, provides flexibility, lowers sunk costs, and reduces risk."
+                      "heading": "Cost (Budget)",
+                      "detail": "This is the financial constraint, representing the approved budget for the project. A change in scope or time will inevitably impact the project's cost."
                     },
                     {
-                      "heading": "Use the minimum possible amount of resources",
-                      "detail": "Entrepreneurs should seek to use the minimum amount of resources at each stage of the venture's growth."
+                      "heading": "Time (Schedule)",
+                      "detail": "This constraint refers to the timeline for completing the project. A change in scope or a need to reduce costs can affect the project's schedule."
+                    },
+                    {
+                      "heading": "Scope",
+                      "detail": "This defines all the work required to complete the project successfully. A change in scope is a primary driver for changes in both time and cost."
                     }
                   ],
-                  "conclusion": "These strategies help entrepreneurs maximize their venture's potential by focusing on strategic needs and preserving capital.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 4, Session 6, 6.3 - Resource Utilisation Strategy"
+                  "conclusion": "The project manager must constantly balance these three constraints, as a change in one will inevitably affect the others. (A diagram showing a triangle with Scope, Cost, and Time at each vertex, interconnected, is implied).",
+                  "otherPossibleAnswers": "Modern project management also considers other constraints like quality, resources, and risk.",
+                  "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+                }
+              },
+              {
+                "label": "d",
+                "question": "Explain any two (2) responsibilities of the project sponsor towards the board.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The project sponsor has specific responsibilities towards the board to ensure the project aligns with organizational strategy and delivers value.",
+                  "mainPoints": [
+                    {
+                      "heading": "Owns the business case and keeps the project aligned with the organization's strategy",
+                      "detail": "The sponsor is responsible for ensuring the project remains relevant and continues to support the company's strategic direction and portfolio."
+                    },
+                    {
+                      "heading": "Governs project risk and works with other sponsors",
+                      "detail": "The sponsor oversees the management of project risks at a high level and coordinates with other sponsors to manage cross-project impacts."
+                    },
+                    {
+                      "heading": "Focuses on realization of benefits and recommends opportunities to optimize cost/benefits",
+                      "detail": "The sponsor is ultimately accountable for ensuring the project delivers the promised benefits and looks for ways to improve its value."
+                    }
+                  ],
+                  "conclusion": "Through these responsibilities, the sponsor acts as the key link between the project team and the highest level of organizational governance.",
+                  "otherPossibleAnswers": "Provides assurance and provides feedback and lessons learnt. Ensures continuity of sponsorship.",
+                  "reference": "Unit 1, Session 3, 3.3 - Project Sponsors responsibilities"
                 }
               }
             ]
@@ -566,88 +590,722 @@
             "subQuestions": [
               {
                 "label": "a",
-                "question": "Examine the possible disadvantages of buying existing business.",
-                "marks": 6,
-                "commandWord": "Examine",
+                "question": "State two (2) importance of human resource planning in project management.",
+                "marks": 4,
+                "commandWord": "State",
                 "answer": {
-                  "introduction": "While buying an existing business can offer advantages, potential entrepreneurs should be aware of its possible drawbacks.",
+                  "introduction": "Human resource planning is crucial for project success as it ensures the right people with the right skills are available when needed.",
                   "mainPoints": [
                     {
-                      "heading": "Potential ill will",
-                      "detail": "The previous owner may have created negative feelings among customers, suppliers, or employees that the new owner inherits."
+                      "heading": "Identifies Specific Roles and Responsibilities",
+                      "detail": "It helps identify the specific roles and responsibilities required to achieve the project's aim, giving the project leader a clear idea of the caliber of people to recruit."
                     },
                     {
-                      "heading": "Buying possible liabilities with assets",
-                      "detail": "Even if only assets are purchased, liabilities like employee claims can still be attached to them."
-                    },
-                    {
-                      "heading": "Inherited employees may be unsuitable",
-                      "detail": "The current employees may not possess the skills needed for the new owner's plans for the business."
-                    },
-                    {
-                      "heading": "The location may have become unsatisfactory",
-                      "detail": "The business location may become obsolete as market and demographic trends change."
+                      "heading": "Sets the Standard for Required Skills",
+                      "detail": "It establishes the standard of skills and intellectual capacity needed in prospective team members, guiding the recruitment method to discover those skills."
                     }
                   ],
-                  "conclusion": "A thorough investigation is needed before purchase to avoid inheriting these problems.",
-                  "otherPossibleAnswers": "Risk in intangible assets; Equipment may be obsolete; \"It's a dog\" (unprofitable); Not all my own work.",
-                  "reference": "Unit 2, Session 5, 5.2 - Disadvantages of Buying an Existing Business"
+                  "conclusion": "Effective human resource planning directly contributes to building a competent and well-organized project team.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 2.2 - Importance of Human Resource Planning in Project"
                 }
               },
               {
                 "label": "b",
-                "question": "Describe the different types of franchising available to a would be entrepreneur.",
-                "marks": 6,
-                "commandWord": "Describe",
+                "question": "Explain any four (4) functions performed by the project manager in managing and leading project teams.",
+                "marks": 8,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Franchising is a business agreement where a franchisor grants a franchisee the right to sell a product or service.",
+                  "introduction": "In managing and leading a project team, the project manager performs several critical functions to guide, support, and optimize the team's performance.",
                   "mainPoints": [
                     {
-                      "heading": "Trade name franchising",
-                      "detail": "The franchisee buys the right to be identified with the franchisor's trade name without distributing particular products exclusively."
+                      "heading": "Influencing the project team",
+                      "detail": "The project manager must be aware of and influence human resource factors like team environment, communication, and politics that may impact the project."
                     },
                     {
-                      "heading": "Product distribution franchising",
-                      "detail": "The franchisee is licensed to sell specific products under the franchisor's brand name and trademark via a limited distribution network."
+                      "heading": "Building trust",
+                      "detail": "The project manager can build trust by persuading team members to ask questions and seek guidance from one another, fostering a comfortable environment for vulnerability."
                     },
                     {
-                      "heading": "Pure (Business format) franchising",
-                      "detail": "This provides the franchisee with a complete business format, including trade name, products, methods of operation, and a marketing strategy."
+                      "heading": "Managing conflict",
+                      "detail": "The project manager must actively manage inevitable conflicts by using techniques such as collaboration, compromise, or other methods to resolve issues effectively."
+                    },
+                    {
+                      "heading": "Conducting appraisals",
+                      "detail": "The project manager can use performance appraisals to provide feedback to team members and receive advice from the team, allowing individuals to reflect and improve."
                     }
                   ],
-                  "conclusion": "Each type offers a different level of involvement and support, with pure franchising being the most comprehensive relationship.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 6, 6.2 - Types of Franchising"
+                  "conclusion": "Through these functions, the project manager ensures the team remains cohesive, motivated, and focused on achieving project objectives.",
+                  "otherPossibleAnswers": "Ensuring professional and ethical behavior within the team.",
+                  "reference": "Unit 4, Session 3, 3.2 - Manage Project Team"
                 }
               },
               {
                 "label": "c",
-                "question": "Discuss two (2) advantages and disadvantages each of franchising to the franchisee.",
+                "question": "State the steps to consider in establishing the project risk context.",
                 "marks": 8,
-                "commandWord": "Discuss",
+                "commandWord": "State",
                 "answer": {
-                  "introduction": "Franchising offers an entrepreneur a way to own a business with a higher probability of success, but it also comes with specific limitations.",
+                  "introduction": "Establishing the risk context is the foundational step in project risk management, creating a structured framework for all subsequent risk activities.",
                   "mainPoints": [
                     {
-                      "heading": "Advantage — Product acceptance",
-                      "detail": "The franchisee enters a business with an accepted name and product, eliminating the need to build credibility from scratch."
+                      "heading": "Establish the organizational and project environment",
+                      "detail": "Establish the organizational and project environment in which the risk assessment is taking place."
                     },
                     {
-                      "heading": "Advantage — Management training and support",
-                      "detail": "Franchisors offer training programs and ongoing counselling services to educate new owners."
+                      "heading": "Specify the main objectives and outcomes",
+                      "detail": "Specify the main objectives and outcomes required from the risk assessment process."
                     },
                     {
-                      "heading": "Disadvantage — Franchise fees and profit sharing",
-                      "detail": "The financial costs can be considerable, with large upfront fees and high royalties from sales revenues."
+                      "heading": "Identify a set of success criteria",
+                      "detail": "Identify a set of success criteria against which the consequences of identified risks can be measured."
                     },
                     {
-                      "heading": "Disadvantage — Lack of independence",
-                      "detail": "The franchisee must adhere to the franchisor's operating and structural control standards to protect the public image."
+                      "heading": "Define key elements for risk structuring",
+                      "detail": "Define a set of key elements for structuring the risk identification and assessment process."
                     }
                   ],
-                  "conclusion": "A potential franchisee must weigh the benefits of an established system against the costs and loss of autonomy.",
-                  "otherPossibleAnswers": "Advantages: Knowledge of the market, Standardized quality. Disadvantages: Limited product line, Less freedom, Unsatisfactory training programmes.",
-                  "reference": "Unit 2, Session 6, 6.3.1 & 6.3.2 - Advantages and Disadvantages for Franchisees"
+                  "conclusion": "By following these steps, a project manager ensures the risk management process is aligned with project goals and has clear parameters for evaluation.",
+                  "otherPossibleAnswers": "Gather context inputs like key project documents (project charter, scope definition, etc.). Produce an output statement of project objectives, criteria for success, and key elements for risk identification.",
+                  "reference": "Unit 6, Session 2, 2.1 - Establish the Risk Context"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "semester": "Semester I Resit",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "An approach to conflict that involves a party either physically or psychologically removing himself/herself from the conflict is referred to as ______.",
+          "options": [
+            "A. accommodation",
+            "B. avoidance",
+            "C. collaboration",
+            "D. compromise"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Avoidance is defined as physically or psychologically removing oneself from the conflict, as the parties feel it is hopeless to try and resolve it.",
+          "reference": "Unit 1, Session 4, 4.3.1 - Avoidance"
+        },
+        {
+          "type": "single",
+          "question": "When parties to a conflict coming to an agreement through yielding or conforming to the positions of others, cooperation in an effort to create harmony, even at the expense of their own ideas and values. Which of the following best describes the conflict resolution approach adopted?",
+          "options": [
+            "A. Accommodation",
+            "B. Competition",
+            "C. Compromise",
+            "D. Collaboration"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Accommodation is the conflict resolution approach that focuses on coming to an agreement through yielding or conforming to the positions of others to create harmony.",
+          "reference": "Unit 1, Session 4, 4.3.2 - Accommodation"
+        },
+        {
+          "type": "single",
+          "question": "The phase of project life cycle which involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase is referred to as ______.",
+          "options": [
+            "A. execution",
+            "B. initiation",
+            "C. planning",
+            "D. closure"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The project planning phase involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Planning"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following types of project termination occurs when the needed resources to execute the project by the project organization is lacking or inadequate?",
+          "options": [
+            "A. Addition",
+            "B. Extinction",
+            "C. Integration",
+            "D. Starvation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Project starvation occurs when the needed resources needed by the project organization to execute the project is lacking or inadequate or unavailable.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not considered as a cause of project delays?",
+          "options": [
+            "A. Closure",
+            "B. Scope change",
+            "C. Design errors",
+            "D. Deliberate action"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Deliberate action is described as a type of delay, not a cause. Scope change, design errors, and issues with closure are all listed as causes of delays.",
+          "reference": "Unit 1, Session 6, 6.1 - Project Delays; 6.3 - Causes of Project Delays"
+        },
+        {
+          "type": "single",
+          "question": "Project cost associated with hiring and paying the various classification of workers involved in developing the project is classified as a service cost.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Labour costs are costs associated with hiring and paying workers. Service costs are associated with the work done by consultants, experts, and subcontractors.",
+          "reference": "Unit 2, Session 1, 1.2.1 - Labour Cost; 1.2.3 - Service Cost"
+        },
+        {
+          "type": "single",
+          "question": "Indirect cost associated with a project include the following except ______.",
+          "options": [
+            "A. advertising",
+            "B. depreciation of equipment",
+            "C. insurance",
+            "D. materials"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Indirect costs include overheads (like insurance, depreciation) and selling/administration costs (like advertising). Materials cost is a direct cost.",
+          "reference": "Unit 2, Session 2, 2.1.1 - Direct costs; 2.1.2 - Indirect costs"
+        },
+        {
+          "type": "single",
+          "question": "Unplanned costs incurred when steps are taken to speed up the project's completion are referred to as ______ cost.",
+          "options": [
+            "A. expedited",
+            "B. fixed",
+            "C. variable",
+            "D. normal"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Expedited costs are unplanned costs incurred when steps are taken to speed up the project's completion, such as overtime or hiring additional workers.",
+          "reference": "Unit 2, Session 2, 2.1.8 - Expedited costs"
+        },
+        {
+          "type": "single",
+          "question": "Business angels, are examples of short-term project funding sources.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Business angels are private investors who invest directly in a company, typically for the long-term, and are classified as a source of long-term project funding.",
+          "reference": "Unit 2, Session 4, 4.3.3 - Business Angels"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an example of long-term sources of project funding?",
+          "options": [
+            "A. Venture Capital",
+            "B. Bank overdraft",
+            "C. Retained Profits",
+            "D. Share Capital"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bank overdrafts are a source of short-term finance, as they are typically due for repayment in less than a year. The others are all long-term sources.",
+          "reference": "Unit 2, Session 4, 4.2.1 - Bank Overdrafts; 4.3 - Sources of Long-term Project Funding"
+        },
+        {
+          "type": "single",
+          "question": "Which of the classification of procurement risk management are influenced by factors such as seasonality, taxation, product availability and price?",
+          "options": [
+            "A. Disruption risks",
+            "B. Demand fluctuation",
+            "C. Uncertain lead time",
+            "D. Unreliable yield"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Demand fluctuation is highly probable due to factors that influence demand, including seasonality, taxation, product availability, and price.",
+          "reference": "Unit 2, Session 6, 6.2.1 - Demand fluctuation"
+        },
+        {
+          "type": "single",
+          "question": "The following are activities in developing human resource management plan for a project except ______.",
+          "options": [
+            "A. create a staffing management plan",
+            "B. draft reporting relationship of workforce",
+            "C. identify persons with role and responsibilities problems",
+            "D. specify the skills and qualification expected"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The four activities are to 1) identify roles, 2) specify skills, 3) establish reporting relationships, and 4) create a staffing plan. Identifying problems is not one of these initial planning steps.",
+          "reference": "Unit 4, Session 2, 2.1 - Plan Human Resource Management"
+        },
+        {
+          "type": "single",
+          "question": "The process of confirming human resource availability and obtaining the team necessary to complete project activities is referred to as ______.",
+          "options": [
+            "A. project team development",
+            "B. project team acquisition",
+            "C. project team management",
+            "D. all the above"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Acquiring Project Team is the process of confirming human resource availability and obtaining the team necessary to complete project activities.",
+          "reference": "Unit 4, Session 2, 2.3 - Acquire Project Team"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is TRUE about the importance of project human resource management?",
+          "options": [
+            "A. Helps identify and disengage employees limited skills",
+            "B. Creates human resource teams to provide support and complement each other in the project",
+            "C. Create project directory problems and conflict resolution policy",
+            "D. Discipline issues are dealt with"
+          ],
+          "correctAnswer": "B",
+          "explanation": "One importance of human resource management is that it helps construct a team that supports and complements each other's activity on the project.",
+          "reference": "Unit 4, Session 1, 6.3 - Importance of Project Human Resource Management"
+        },
+        {
+          "type": "single",
+          "question": "The type of skills which allows managers to visualize the entire organization and work with ideas and the relationship between concepts are referred to as ______ skills.",
+          "options": [
+            "A. conceptual",
+            "B. human",
+            "C. technical",
+            "D. problem solving"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Conceptual skills allow a manager to visualize the entire organization and work with ideas and the relationships between abstract concepts.",
+          "reference": "Unit 4, Session 2, 2.1.2 - Specify skills requirement"
+        },
+        {
+          "type": "single",
+          "question": "The phase of team development that addresses project work, technical decisions and the project management approach is referred to as ______.",
+          "options": [
+            "A. forming",
+            "B. norming",
+            "C. performing",
+            "D. storming"
+          ],
+          "correctAnswer": "D",
+          "explanation": "During the storming phase, the team begins to address the project work, technical decisions, and the project management approach.",
+          "reference": "Unit 4, Session 3, 3.1 - Team Development"
+        },
+        {
+          "type": "single",
+          "question": "At which phase of the team development process do members of the team begin to work together and adjust work habits and behaviours?",
+          "options": [
+            "A. Adjourning",
+            "B. Forming",
+            "C. Norming",
+            "D. Storming"
+          ],
+          "correctAnswer": "C",
+          "explanation": "In the norming phase, team members begin to work together and adjust their work habits and behaviors to support the team.",
+          "reference": "Unit 4, Session 3, 3.1 - Team Development"
+        },
+        {
+          "type": "single",
+          "question": "When a project manager creates, collects, distributes, stores, retrieves and ultimately dispose of project information in accordance with the communications management plan, which of the following is the manager performing?",
+          "options": [
+            "A. Planning communication management",
+            "B. Managing project communication",
+            "C. Controlling project communication",
+            "D. Providing output of the project to outsiders"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Manage Communications is the process of creating, collecting, distributing, storing, retrieving, and the ultimate disposition of project information in accordance to the communications management plan.",
+          "reference": "Unit 4, Session 6, 6.1 - Manage Project Communication"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not true about project communication plan? It ______.",
+          "options": [
+            "A. allows the project manager to maintain control of the project and ensure all stakeholders receive the necessary information",
+            "B. enables the project leader to lead the team to the desired project outcome",
+            "C. increases the inconsistencies of how the project is handled",
+            "D. ensures that all stakeholders have the same information on the project requirements and changes"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A solid communication plan increases the consistency of how the project is handled, not the inconsistencies.",
+          "reference": "Unit 4, Session 5, (Importance of project communication plan)"
+        },
+        {
+          "type": "single",
+          "question": "When one develops a document that formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources to project activities, which of the project integration management activities is the person engaged in?",
+          "options": [
+            "A. Close project",
+            "B. Perform integrated change control",
+            "C. Project management plan",
+            "D. Project charter"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Develop Project Charter is the process of creating a document that formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources.",
+          "reference": "Unit 5, Session 2, 2.1 - Develop Project Charter"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Explain the key responsibility of the project manager in defining project scope.",
+                "marks": 2,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The project manager's key responsibility in defining scope is to lead the process of creating a detailed and controlled description of the project.",
+                  "mainPoints": [
+                    {
+                      "heading": "Develop a detailed project scope statement",
+                      "detail": "Document the entire scope, including project and product scope, deliverables, assumptions, and constraints."
+                    },
+                    {
+                      "heading": "Ensure only required work is performed",
+                      "detail": "Ensure that only the required work (the scope) will be performed and that each of the deliverables can be completed in the allotted time and within budget."
+                    },
+                    {
+                      "heading": "Manage stakeholder expectations",
+                      "detail": "Explicitly state what is included and excluded from the project scope to manage stakeholder expectations."
+                    }
+                  ],
+                  "conclusion": "Ultimately, the project manager is responsible for creating a clear scope baseline that guides all project work and prevents scope creep.",
+                  "otherPossibleAnswers": "Ensure the scope is collaboratively prepared with stakeholders to avoid misinterpretations. Obtain formal acceptance of the completed project deliverables against the defined scope.",
+                  "reference": "Unit 3, Session 1, (Introduction); Session 2, 2.3 - Define Scope"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Explain Four (4) common problems associated with project scope management.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Common problems in project scope management can derail a project, leading to delays, cost overruns, and stakeholder dissatisfaction.",
+                  "mainPoints": [
+                    {
+                      "heading": "Ambiguity",
+                      "detail": "A vague or unclear scope leads to unnecessary work, confusion among team members, and misinterpretations of requirements."
+                    },
+                    {
+                      "heading": "Incomplete definition",
+                      "detail": "An incomplete scope fails to capture all necessary work, leading to schedule slips and cost overruns as missing elements are discovered later."
+                    },
+                    {
+                      "heading": "Transience (Scope Creep)",
+                      "detail": "A scope that is not finalized and is constantly changed leads to \"scope creep,\" which is a primary cause of late deliveries and projects that never seem to end."
+                    },
+                    {
+                      "heading": "Uncollaborated scope",
+                      "detail": "A scope developed in isolation without input from all key stakeholders causes misinterpretations in requirements and design, as it doesn't reflect everyone's needs."
+                    }
+                  ],
+                  "conclusion": "Addressing these issues through clear, complete, stable, and collaborative scope definition is critical for project success.",
+                  "otherPossibleAnswers": "Poor scope change management can lead to disputes and arbitration, causing further delays.",
+                  "reference": "Unit 3, Session 1, (Common problems associated with project scope management)"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Explain any Five (5) importance of project scope management.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Project scope management is vital as it establishes a common understanding of the project's work and ensures the project stays on track to deliver its intended objectives.",
+                  "mainPoints": [
+                    {
+                      "heading": "Ensures Stakeholder Understanding",
+                      "detail": "Effective scope management ensures that stakeholders and team members alike understand the scope of the project while agreeing on how the project goals will be met."
+                    },
+                    {
+                      "heading": "Provides Verification Procedures",
+                      "detail": "It sets up clear procedures for how completed work will be verified and approved by the customer or sponsor."
+                    },
+                    {
+                      "heading": "Prevents Scope Creep",
+                      "detail": "Scope management helps avoid the challenges of a bloating scope by clearly setting out what is included and controlling what gets added or removed during execution."
+                    },
+                    {
+                      "heading": "Defines Exclusions",
+                      "detail": "It formally defines what is not part of the project, ensuring that work outside the project's boundaries is not inadvertently included during the execution stage."
+                    },
+                    {
+                      "heading": "Enables Accurate Estimations",
+                      "detail": "Without a defined project scope, the cost and time required for the project cannot be accurately estimated, as any change to scope directly affects the budget and schedule."
+                    }
+                  ],
+                  "conclusion": "In essence, scope management provides the foundation for all other project activities, enabling accurate planning, controlled execution, and successful delivery.",
+                  "otherPossibleAnswers": "Establishes control mechanisms to address factors that may result in changes during the project lifecycle.",
+                  "reference": "Unit 3, Session 1, (Importance of project scope management)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "State the Four (4) main types of project termination.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "A project can be concluded in several ways, not just upon successful completion. The four main types of project termination are as follows.",
+                  "mainPoints": [
+                    {
+                      "heading": "Termination by Starvation",
+                      "detail": "Occurs when the necessary resources for the project are lacking or are cut off, often due to budget cuts, with the possibility of reactivation later."
+                    },
+                    {
+                      "heading": "Termination by Extinction",
+                      "detail": "The project is stopped, either successfully because it met its goals and delivered the final result, or unsuccessfully because it failed to accomplish its desired result."
+                    },
+                    {
+                      "heading": "Termination by Addition",
+                      "detail": "A very successful project is not disbanded; instead, it is transformed into a new, formal operating unit or division within the organization."
+                    },
+                    {
+                      "heading": "Termination by Integration",
+                      "detail": "The project's resources, including the project team, are reabsorbed back into the organization's existing functional departments."
+                    }
+                  ],
+                  "conclusion": "Understanding these termination types helps in planning for the project's end and the redeployment of its resources.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Using relevant examples, explain the three (3) main processes used to ensure effective project costs management.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Effective project cost management relies on three key processes that build upon each other to plan, establish, and control the project's finances.",
+                  "mainPoints": [
+                    {
+                      "heading": "Project Cost Estimating",
+                      "detail": "This is the process of approximating the cost to complete all project activities. For example, to build a house, you would estimate costs for the land, design, foundation, and roofing, rather than making a single total estimate."
+                    },
+                    {
+                      "heading": "Project Cost Budgeting",
+                      "detail": "This involves aggregating the estimated costs of individual activities to establish an authorized cost baseline. For example, the sum of all the individual house-building estimates creates the total project budget against which actual spending will be measured."
+                    },
+                    {
+                      "heading": "Project Cost Control",
+                      "detail": "This is the process of monitoring the project's status to update costs and manage changes to the cost baseline. For example, during the house-building, you track actual expenses against the budget and manage the financial impact of any changes, like choosing more expensive windows."
+                    }
+                  ],
+                  "conclusion": "These three processes—estimating, budgeting, and controlling—work together to ensure the project is completed within its approved financial limits.",
+                  "otherPossibleAnswers": "Before these processes, one must plan for inflation, account for unexpected events, and track costs in real-time.",
+                  "reference": "Unit 2, Session 3, 3.1 - Project Cost Management Process"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Explain any Five (5) sources of long-term project funding.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Long-term project funding involves capital that is repayable or invested for a period exceeding one year, and it can be sourced from various internal and external avenues.",
+                  "mainPoints": [
+                    {
+                      "heading": "Sale and Leaseback",
+                      "detail": "An organization sells an asset it owns to a financial institution and then leases it back. This releases the capital tied up in the asset for project investment, though it creates future rental payments."
+                    },
+                    {
+                      "heading": "Loan Capital (Debentures)",
+                      "detail": "These are loans secured against a company's assets. Debenture holders receive interest payments before shareholders and are preferential creditors if the business fails."
+                    },
+                    {
+                      "heading": "Business Angels",
+                      "detail": "These are private, often experienced, investors who invest their own money in a company in exchange for an equity stake and possibly a board position. They are a source of both funds and useful knowledge."
+                    },
+                    {
+                      "heading": "Venture Capital",
+                      "detail": "Venture capitalists provide significant funds to companies considered too risky by traditional lenders, in exchange for an equity share and strategic involvement. Their goal is to sell their shares later at a profit."
+                    },
+                    {
+                      "heading": "Retained Profits",
+                      "detail": "This is the portion of a company's profits that is kept back as reserves instead of being distributed to shareholders. It is a major internal source of funding, with no interest costs."
+                    }
+                  ],
+                  "conclusion": "Choosing the right mix of long-term funding sources is crucial for financing a project and depends on the project's size, risk, and the organization's financial strategy.",
+                  "otherPossibleAnswers": "Share Capital (Ordinary and Preference shares): Money raised from shareholders in exchange for a share of profits and ownership rights. Issuing Shares (New Issues/Rights Issues): Raising capital by offering new shares to the public or existing shareholders.",
+                  "reference": "Unit 2, Session 4, 4.3 - Sources of Long-term Project Funding"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "All projects are temporary in nature. Discuss.",
+                "marks": 4,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "The statement \"all projects are temporary in nature\" is a fundamental and accurate characteristic of a project, defining its core identity.",
+                  "mainPoints": [
+                    {
+                      "heading": "Defined Start and End",
+                      "detail": "The temporary nature means every project has a definite beginning and a definite end, with a specific period to commence and complete its activities."
+                    },
+                    {
+                      "heading": "Not Necessarily Short Duration",
+                      "detail": "This temporariness does not imply that the project's duration is short. Some projects can last for several years, like a four-year university degree program."
+                    },
+                    {
+                      "heading": "Outcome Outlives the Project",
+                      "detail": "The temporary nature of the project does not mean the product, service, or result it creates is short-lived. For example, a project to build a bridge creates a structure that will last for decades."
+                    },
+                    {
+                      "heading": "A Defined Undertaking",
+                      "detail": "It signifies that the project's engagement and its longevity are specified and planned from the outset, unlike ongoing operational work."
+                    }
+                  ],
+                  "conclusion": "Therefore, the temporary nature is a defining feature that distinguishes a project from routine, ongoing operations, focusing on its unique, time-bound mission.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1, 1.1 - What is Project"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Explain any six (6) characteristics of a project.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Projects are unique endeavors with distinct characteristics that set them apart from routine business operations.",
+                  "mainPoints": [
+                    {
+                      "heading": "Objective to be achieved",
+                      "detail": "Every project is an ad hoc endeavor with a specific goal or objective that it is designed to accomplish."
+                    },
+                    {
+                      "heading": "Schedule to closure",
+                      "detail": "A project has a temporal life cycle with a specific time to accomplish each activity and an overall deadline for completion."
+                    },
+                    {
+                      "heading": "Complexity",
+                      "detail": "Every project has its own level of complexity, which may require specific technologies or approaches to achieve its objectives."
+                    },
+                    {
+                      "heading": "Resources needs",
+                      "detail": "A project requires specific resources to ensure successful closure, including labor, personnel, equipment, materials, and a dedicated budget."
+                    },
+                    {
+                      "heading": "Organizational Structure",
+                      "detail": "Every project has a management structure and project office that provides direction and makes decisions from planning to closure."
+                    },
+                    {
+                      "heading": "Risk and Safety Controls",
+                      "detail": "Projects must have risk management and safety controls in place to comply with international and local standards."
+                    }
+                  ],
+                  "conclusion": "These characteristics collectively define a project and necessitate a structured approach to its management.",
+                  "otherPossibleAnswers": "Outcomes of projects are satisfaction of customer's requirements. Termination of project is done either upon success or failure.",
+                  "reference": "Unit 1, Session 1, 1.2 - Characteristic of a Project"
+                }
+              },
+              {
+                "label": "c",
+                "question": "With the aid of a diagram, explain the three (3) most important traditional constraints of project management.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The three most important traditional constraints of project management, known as the triple constraints, are time, cost, and scope, which are all interconnected.",
+                  "mainPoints": [
+                    {
+                      "heading": "Cost (Budget)",
+                      "detail": "This is the financial constraint, representing the approved budget for the project. A change in scope or time will inevitably impact the project's cost."
+                    },
+                    {
+                      "heading": "Time (Schedule)",
+                      "detail": "This constraint refers to the timeline for completing the project. A change in scope or a need to reduce costs can affect the project's schedule."
+                    },
+                    {
+                      "heading": "Scope",
+                      "detail": "This defines all the work required to complete the project successfully. A change in scope is a primary driver for changes in both time and cost."
+                    }
+                  ],
+                  "conclusion": "The project manager must constantly balance these three constraints, as a change in one will inevitably affect the others. (A diagram showing a triangle with Scope, Cost, and Time at each vertex, interconnected, is implied).",
+                  "otherPossibleAnswers": "Modern project management also considers other constraints like quality, resources, and risk.",
+                  "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "State and explain the three (3) main processes to ensure effective project cost management.",
+                "marks": 6,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "There are three main processes to ensure effective project costs management: cost estimating, cost budgeting, and cost control.",
+                  "mainPoints": [
+                    {
+                      "heading": "Project Cost Estimating",
+                      "detail": "The process of approximating the cost to complete the project activities by considering all resources like labor, materials, equipment, and services."
+                    },
+                    {
+                      "heading": "Project Cost Budgeting",
+                      "detail": "The process of aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline against which project expenditures will be measured."
+                    },
+                    {
+                      "heading": "Project Cost Control",
+                      "detail": "The process of monitoring the status of the project to update the project costs and managing changes to the cost baseline, often by checking progress against the plan."
+                    }
+                  ],
+                  "conclusion": "These three processes work sequentially to first predict, then allocate, and finally manage the financial resources of a project.",
+                  "otherPossibleAnswers": "Before these processes, one must plan for inflation and account for unexpected events.",
+                  "reference": "Unit 2, Session 3, 3.1 - Project Cost Management Process"
+                }
+              },
+              {
+                "label": "b",
+                "question": "State and explain three (3) things to consider before embarking on the processes to manage project cost.",
+                "marks": 6,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Before embarking on the core cost management processes, several important factors must be considered to ensure accuracy and preparedness.",
+                  "mainPoints": [
+                    {
+                      "heading": "Plan for Inflation",
+                      "detail": "Account for the potential increase in prices for materials, labor, and other resources over the project's duration, especially for long-term projects."
+                    },
+                    {
+                      "heading": "Account for Natural Disasters or Potential Events",
+                      "detail": "Include contingency plans and reserves for unexpected events like natural disasters that could cause significant cost overruns."
+                    },
+                    {
+                      "heading": "Track in Real-Time",
+                      "detail": "Establish systems and procedures to monitor and record costs as they occur, allowing for timely identification of variances from the plan."
+                    }
+                  ],
+                  "conclusion": "Considering these factors upfront helps create a more realistic and resilient cost management framework.",
+                  "otherPossibleAnswers": "Respond Promptly: Be prepared to take corrective action quickly when cost deviations are detected.",
+                  "reference": "Unit 2, Session 3, (Before embarking on the processes to manage project cost there is the need to:)"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Explain two (2) sources of short-term project funding.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Short-term project funding refers to finances that are due for repayment within one year and are often used for immediate operational needs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Bank Overdrafts",
+                      "detail": "This is a flexible source of short-term finance where an organization can withdraw more money than it has in its account, up to an agreed limit. Interest is only charged on the amount used, and it can be arranged quickly."
+                    },
+                    {
+                      "heading": "Loans",
+                      "detail": "This is a more formal source of short-term funding where a specific amount is borrowed and must be repaid with interest over a pre-agreed period. Loans are less flexible than overdrafts as payments are fixed, but the interest is tax-deductible."
+                    }
+                  ],
+                  "conclusion": "Both bank overdrafts and loans provide accessible capital for projects with short-term needs, though they differ in flexibility and structure.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 4, 4.2 - Sources of Short-term Project Funding"
                 }
               }
             ]
