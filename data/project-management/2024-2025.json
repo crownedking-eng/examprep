@@ -1,0 +1,811 @@
+{
+  "subject": "Entrepreneurship and Small Enterprise Management",
+  "subjectCode": "SBU 408D",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The evolution of the term 'entrepreneur' in the 17th century established a crucial connection with which concept?",
+          "options": [
+            "A. Innovation",
+            "B. Risk-taking",
+            "C. Capital provision",
+            "D. Investment"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The connection between risk and entrepreneurship was established in the 17th century with the entrepreneur entering into a contract with the government to manage large projects for a fixed price.",
+          "reference": "Unit 1, Session 1, 1.1 - The Evolution of Entrepreneur and Entrepreneurship"
+        },
+        {
+          "type": "single",
+          "question": "The Ghanaian government introduces new tax incentives and grants specifically for startups in the agricultural technology sector. This action directly influences which external environmental factor affecting entrepreneurship? ______ environment.",
+          "options": [
+            "A. Sociological",
+            "B. Legal",
+            "C. Competitive",
+            "D. Economic"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The economic environment covers factors such as population, interest rates, and inflation that influence business activities. Tax incentives and grants are part of the economic environment.",
+          "reference": "Unit 1, Session 4, 4.1 - Economic Environment"
+        },
+        {
+          "type": "single",
+          "question": "The entrepreneurial process involves several key stages. Which stage typically concludes when the business is firmly established and beyond short-term threats to survival? ______ phase.",
+          "options": [
+            "A. Pre-start-up",
+            "B. Start-up",
+            "C. Post-start-up",
+            "D. Maturity"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The post-start-up phase lasts until the venture is terminated or the surviving organizational entity is no longer controlled by an entrepreneur.",
+          "reference": "Unit 2, Session 3, 3.1.1 - The Phases of a New Venture"
+        },
+        {
+          "type": "single",
+          "question": "Which political condition would most discourage entrepreneurship?",
+          "options": [
+            "A. Stable democratic governance",
+            "B. High corruption and instability",
+            "C. Free market policies",
+            "D. Tax incentives for startups"
+          ],
+          "correctAnswer": "B",
+          "explanation": "If the government is unstable or corrupt, entrepreneurship will be discouraged because business owners cannot be certain whether they will be allowed to access any rewards they accumulate.",
+          "reference": "Unit 1, Session 4, 4.3 - Political Environment"
+        },
+        {
+          "type": "single",
+          "question": "What is the process of creating and delivering desired goods and services to customers, involving all activities associated with winning and retaining customers?",
+          "options": [
+            "A. Production",
+            "B. Operations",
+            "C. Marketing",
+            "D. Procurement"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Marketing may be regarded as the process of creating and delivering desired goods and services to customers and involves all of the activities associated with winning and retaining loyal customers.",
+          "reference": "Unit 5, Session 1, 1.1 - Meaning of the Marketing"
+        },
+        {
+          "type": "single",
+          "question": "An entrepreneur is assessing different \"Promotion\" strategies for a new service. If their primary goal is to build long-term relationships with customers and demonstrate value directly, which method would be most effective to evaluate for its suitability?",
+          "options": [
+            "A. Mass advertising campaigns with general messaging",
+            "B. Personal selling and direct engagement with potential clients",
+            "C. Placing products in a remote, inaccessible retail outlet",
+            "D. Online sales through e-commerce platform"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Personal methods of promotion involve direct contact between the customer and a representative of the firm, which is effective for building relationships and demonstrating value directly.",
+          "reference": "Unit 5, Session 6, 6.2.1 - Personal methods of promotion"
+        },
+        {
+          "type": "single",
+          "question": "The marketing mix is fundamentally comprised of which key factors?",
+          "options": [
+            "A. Planning, Product, Price and Place",
+            "B. Product, Price, Place, and Promotion",
+            "C. Finance, Human Resources, Operations, and Strategy",
+            "D. Product, Price, Operations, and Organizing"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The basic elements of the marketing mix are product, place (distribution), price, and promotion. These are commonly referred to as the four Ps of marketing.",
+          "reference": "Unit 5, Session 1, 1.3 - The Marketing Mix"
+        },
+        {
+          "type": "single",
+          "question": "When choosing a marketing strategy, a business should critically assess ______.",
+          "options": [
+            "A. only the internal capabilities without considering external factors",
+            "B. how to align organizational resources with market opportunities",
+            "C. the latest trends in advertising, irrespective of cost",
+            "D. placing products in a remote, inaccessible retail outlet"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A marketing strategy involves commitment to certain courses of action and allocation of the resources necessary to achieve the identified goals.",
+          "reference": "Unit 5, Session 3, 3.1 - Meaning of Marketing Strategy"
+        },
+        {
+          "type": "single",
+          "question": "The importance of target marketing lies in its ability to ______.",
+          "options": [
+            "A. reduce the need for any form of promotion",
+            "B. allow businesses to focus their resources on the most promising customer groups",
+            "C. ensure that all potential customers are equally reached",
+            "D. the latest trends in advertising, irrespective of cost"
+          ],
+          "correctAnswer": "B",
+          "explanation": "In target marketing, the seller identifies market segments, selects one or more of them, and develops products and marketing mixes tailored to each, allowing focused resource allocation.",
+          "reference": "Unit 5, Session 4, 4.1 - Meaning and Importance of Target Marketing"
+        },
+        {
+          "type": "single",
+          "question": "What is a major disadvantage of franchising for franchisees?",
+          "options": [
+            "A. Access to management training",
+            "B. High upfront fees and profit-sharing",
+            "C. Guaranteed market share",
+            "D. Unlimited product line flexibility"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The financial costs can be considerable with large up-front fees and high royalties. Franchisors impose fees and demand a share of sales revenues.",
+          "reference": "Unit 2, Session 6, 6.3.2 - Disadvantages to Franchisees"
+        },
+        {
+          "type": "single",
+          "question": "What distinguishes \"buy-in management buy-out (BIMBO)\" from a standard buy-out?",
+          "options": [
+            "A. BIMBO combines outside and inside management in the purchase",
+            "B. BIMBO excludes all existing employees",
+            "C. Standard buy-outs involve no financial risk",
+            "D. BIMBO is only for franchises"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The Buy-in Management Buy-out (BIMBO) is a variation of the management buy-out concept that combines outside and inside management in the purchase of a firm.",
+          "reference": "Unit 2, Session 4, 4.1.4 - Buy-in Management buy-out"
+        },
+        {
+          "type": "single",
+          "question": "How does \"technical feasibility\" contribute to new venture success? It ______.",
+          "options": [
+            "A. ensures product safety, durability, and ease of use",
+            "B. eliminates the need for market research",
+            "C. guarantees government subsidies",
+            "D. focuses only on financial planning"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Technical feasibility involves identifying technical requirements including functional design, durability, reliability, product safety, and ease of maintenance.",
+          "reference": "Unit 2, Session 3, 3.4.1 - Technical Feasibility"
+        },
+        {
+          "type": "single",
+          "question": "What is a key attribute of a strategic resource?",
+          "options": [
+            "A. Easily imitable by competitors",
+            "B. They are Valuable and rare",
+            "C. Commonly available to all firms",
+            "D. Focused solely on financial assets"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic resources must be valuable, rare, imperfectly imitable, and non-substitutable to provide competitive advantage.",
+          "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
+        },
+        {
+          "type": "single",
+          "question": "Which type of resource includes patents, trademarks, and proprietary processes? ______ resources.",
+          "options": [
+            "A. Human",
+            "B. Technological",
+            "C. Organizational",
+            "D. Physical"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Technological resources include knowledge generated by research and development protected by patents, as well as formulae, licenses, trademarks, and copyrights.",
+          "reference": "Unit 4, Session 1, 1.4 - Technological Resources"
+        },
+        {
+          "type": "single",
+          "question": "Why is market information vital for businesses? It ______.",
+          "options": [
+            "A. guarantees immediate profitability",
+            "B. aids in new product development and strategic decisions",
+            "C. replaces the need for competitor analysis",
+            "D. is only relevant for large corporations"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Companies depend on market information for new product development, market planning, communications, advertising planning, and export decisions.",
+          "reference": "Unit 4, Session 3, 3.2.a - Market Information"
+        },
+        {
+          "type": "single",
+          "question": "The components of the entrepreneurial process are, entrepreneur ______.",
+          "options": [
+            "A. ideas, resource and opportunity",
+            "B. opportunity, finance and resources",
+            "C. opportunity, resource and organization",
+            "D. opportunity, resource and profit"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The entrepreneurial process involves four contingencies: entrepreneur, opportunity, organization, and resources.",
+          "reference": "Unit 1, Session 3, 3.1 - The Entrepreneurial Process"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a financial resource?",
+          "options": [
+            "A. Cash in hand",
+            "B. Debtors",
+            "C. Creditors",
+            "D. Overdraft facilities"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Creditors represent a liability (money owed to suppliers), not a financial resource. Financial resources include cash, debtors (money owed to the firm), and overdraft facilities.",
+          "reference": "Unit 4, Session 1, 1.4 - Financial Resources"
+        },
+        {
+          "type": "single",
+          "question": "An entrepreneur with an \"internal locus of control\" would most likely ______.",
+          "options": [
+            "A. blame market failures on external factors",
+            "B. believe success depends on personal effort",
+            "C. rely on government support for business growth",
+            "D. avoid making decisions independently"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Internals are those who believe that for the most part the future is theirs to control through their own effort.",
+          "reference": "Unit 1, Session 3, 3.2.1 - Locus of Control"
+        },
+        {
+          "type": "single",
+          "question": "What is a key characteristic of serial entrepreneurs in comparison to novice entrepreneurs?",
+          "options": [
+            "A. Lack of innovation",
+            "B. Limited risk tolerance",
+            "C. Multiple business experiences",
+            "D. Singular business focus"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A serial entrepreneur is an entrepreneur who starts a new business after having already started and exited a previous business venture, indicating multiple business experiences.",
+          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
+        },
+        {
+          "type": "single",
+          "question": "The purpose of market segmentation in marketing strategy is to ______.",
+          "options": [
+            "A. create a single product that appeals to everyone",
+            "B. divide a broad target market into subsets of consumers",
+            "C. focus only on high-income consumer groups",
+            "D. target a market with one product"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A market segmentation strategy seeks to segment the mass market, that is, subdivides it into smaller, more homogeneous segments.",
+          "reference": "Unit 5, Session 3, 3.3 - Market Segmentation"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "Case Study: The Entrepreneurial Journey of Don Teeti – Building a Catfish Agribusiness in Ghana",
+              "fullText": "Don Teeti was raised in a small farming community near Kpong, in Ghana's Eastern Region, where his family grew maize and cassava. Coming from one of the poorest areas of society, children in his community often engaged in various entrepreneurial activities to support their families. From a young age, Teeti was fascinated by water, local streams, and fish, which sparked his interest in aquaculture. After completing his first degree, Teeti was inspired by the rising opportunities in Ghana's aquaculture sector, especially as consumer preferences in urban areas were shifting from tilapia to catfish. Motivated by this trend, he decided to venture into fish farming despite having little capital.\n\nIn 2016, he launched a small catfish farming operation on his family's land, building two small earthen ponds. He combined personal savings with a small loan from his uncle to buy his first batch of fingerlings. Teeti's initial experiences were challenging. With little business or technical experience, he struggled with water quality, disease control, and feeding practices. His first harvest was disappointing, with many of his fish underweight, leading to poor market prices. Family and friends were skeptical, feeling that as a fresh university graduate, he should aim higher than fish farming. Despite discouragement, Teeti realized he needed more business knowledge.\n\nIn 2018, he attended an agribusiness training workshop organized by the Ministry of Food and Agriculture and an NGO that supported young farmers. There, Teeti gained critical knowledge in record-keeping, market research, pricing, and customer relationship management. He also built a network of fellow young farmers with whom he regularly exchanged ideas and solutions to common challenges. Applying what he learned, Teeti improved pond management and invested in better-quality feed. He began securing relationships with hotels, restaurants, and supermarkets in Kpong and Tema, offering reliable supply, flexible delivery, and product samples to win contracts. By 2020, Teeti's reputation and profits had grown. He obtained a small agribusiness loan from a local bank, expanded his operations with additional concrete ponds, and installed a basic water recirculation system. Teeti diversified his income by selling fingerlings to other farmers and offering training programs, transforming his farm into a local knowledge hub.\n\nWhen the COVID-19 pandemic hit, Teeti's business faced new challenges: delayed feed imports, restricted transportation, and the temporary shutdown of restaurant clients. Demonstrating adaptability, Teeti pivoted to digital marketing, using WhatsApp and Facebook to promote home deliveries of smoked and fresh catfish, opening a new revenue stream. Today, Teeti employs six full-time workers and several part-time helpers. His dream is to expand into fish processing, offering packaged smoked catfish for domestic sales and future export across West Africa. He is also exploring collaborations with research institutions to introduce sustainable aquaculture practices. Teeti's journey exemplifies the resilience, adaptability, and entrepreneurial spirit needed for agribusiness success in Ghana. His story continues to inspire young farmers to view fish farming not as mere survival but as a scalable, profitable, and innovative business venture.",
+              "keyFacts": [
+                "Started in 2016 on family land near Kpong, Eastern Region.",
+                "Combined personal savings and a loan from his uncle to buy first fingerlings.",
+                "Attended a 2018 agribusiness training workshop by MOFA and an NGO.",
+                "Secured relationships with hotels, restaurants, and supermarkets in Kpong and Tema.",
+                "Obtained a bank agribusiness loan and expanded with concrete ponds by 2020.",
+                "Pivoted to digital marketing during COVID-19 using WhatsApp and Facebook.",
+                "Currently employs six full-time workers and several part-time helpers.",
+                "Plans to expand into fish processing and export across West Africa."
+              ]
+            },
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "What is the sociological approach that inspired Don Teeti to explore entrepreneurship? Provide justification for your answer.",
+                "marks": 2,
+                "commandWord": "What and justify",
+                "answer": {
+                  "introduction": "The sociological approach that inspired Don Teeti is positive pull.",
+                  "mainPoints": [
+                    {
+                      "heading": "Positive Pull",
+                      "detail": "This refers to positive influences that lead to the decision to investigate entrepreneurship."
+                    },
+                    {
+                      "heading": "Justification",
+                      "detail": "Teeti was inspired by the rising opportunities in Ghana's aquaculture sector and the shift in consumer preferences from tilapia to catfish, which pulled him toward entrepreneurship."
+                    }
+                  ],
+                  "conclusion": "The market opportunity acted as a positive pull factor drawing him into fish farming.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 3, 3.2.2 - Positive Pull"
+                }
+              },
+              {
+                "label": "b",
+                "question": "What type of entrepreneur is Teeti? Provide justification for your answer.",
+                "marks": 2,
+                "commandWord": "What and justify",
+                "answer": {
+                  "introduction": "Don Teeti can be classified as a novice entrepreneur.",
+                  "mainPoints": [
+                    {
+                      "heading": "Novice Entrepreneur",
+                      "detail": "He began as a nascent entrepreneur — someone in the process of starting a business with no prior ownership experience (2016, launching his first catfish operation with limited capital and knowledge). He is now a Novice Entrepreneur: an individual with no prior business ownership experience who currently owns an equity stake in a business that is new."
+                    },
+                    {
+                      "heading": "Justification",
+                      "detail": "Teeti had no prior business experience before starting his catfish farm in 2016, making him a first-time entrepreneur."
+                    }
+                  ],
+                  "conclusion": "As a first-time business founder, he fits the definition of a novice entrepreneur.",
+                  "otherPossibleAnswers": "Craft entrepreneur (due to his hands-on involvement in fish farming).",
+                  "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Outline six entrepreneurial attributes/traits about Teeti that guided him during his journey.",
+                "marks": 3,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Don Teeti demonstrated several key entrepreneurial attributes throughout his journey.",
+                  "mainPoints": [
+                    {
+                      "heading": "Passion for business",
+                      "detail": "He was fascinated by water and fish from a young age, driving his interest in aquaculture."
+                    },
+                    {
+                      "heading": "Persistence",
+                      "detail": "Despite initial failures and skepticism from family, he persevered and sought more knowledge."
+                    },
+                    {
+                      "heading": "Adaptability",
+                      "detail": "During COVID-19, he pivoted to digital marketing and home deliveries when restaurants closed."
+                    },
+                    {
+                      "heading": "Willingness to learn",
+                      "detail": "He attended training workshops to gain business and technical knowledge."
+                    },
+                    {
+                      "heading": "Risk-taking",
+                      "detail": "He ventured into fish farming despite having little capital and no experience."
+                    },
+                    {
+                      "heading": "Self-confidence",
+                      "detail": "He believed he could succeed and continued despite discouragement."
+                    }
+                  ],
+                  "conclusion": "These attributes helped him overcome challenges and build a successful business.",
+                  "otherPossibleAnswers": "Head for business, Learning from failure.",
+                  "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
+                }
+              },
+              {
+                "label": "d",
+                "question": "Describe two main challenges Teeti faced during his initial catfish harvest.",
+                "marks": 2,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Teeti faced several operational challenges during his initial harvest.",
+                  "mainPoints": [
+                    {
+                      "heading": "Poor water quality",
+                      "detail": "He struggled with maintaining proper water quality in his ponds."
+                    },
+                    {
+                      "heading": "Disease control",
+                      "detail": "He had difficulty managing diseases affecting his fish."
+                    },
+                    {
+                      "heading": "Poor feeding practices",
+                      "detail": "His lack of technical knowledge led to improper feeding, resulting in underweight fish and poor market prices."
+                    }
+                  ],
+                  "conclusion": "These technical challenges nearly led to failure but taught him valuable lessons.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.2 - Reasons For New Venture Failure"
+                }
+              },
+              {
+                "label": "e",
+                "question": "Describe two instances in the case where Teeti made good use of available resources.",
+                "marks": 2,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Teeti demonstrated resourcefulness by making good use of available resources.",
+                  "mainPoints": [
+                    {
+                      "heading": "Family land",
+                      "detail": "He used his family's land to build his first two earthen ponds, saving on rental costs."
+                    },
+                    {
+                      "heading": "Personal savings and family loan",
+                      "detail": "He combined his savings with a small loan from his uncle to buy his first batch of fingerlings."
+                    },
+                    {
+                      "heading": "Training workshop",
+                      "detail": "He attended an agribusiness workshop to gain knowledge and build a network of fellow farmers."
+                    }
+                  ],
+                  "conclusion": "These resourceful actions helped him start and grow his business with limited capital.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 6, 6.3 - Resource Utilisation Strategy"
+                }
+              },
+              {
+                "label": "f",
+                "question": "Explain how Teeti diversified his income sources as his business grew.",
+                "marks": 2,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Teeti diversified his income to reduce risk and increase revenue streams.",
+                  "mainPoints": [
+                    {
+                      "heading": "Selling fingerlings",
+                      "detail": "He started selling fingerlings to other farmers, creating a new income source."
+                    },
+                    {
+                      "heading": "Offering training programs",
+                      "detail": "He transformed his farm into a local knowledge hub, offering training to other farmers."
+                    },
+                    {
+                      "heading": "Smoked and fresh catfish",
+                      "detail": "During COVID-19, he added smoked catfish to his product line for home deliveries."
+                    }
+                  ],
+                  "conclusion": "Diversification helped him build a more resilient and profitable business.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1, 1.1 - The Importance of Finance in Business"
+                }
+              },
+              {
+                "label": "g",
+                "question": "Explain the economic impact of Teeti's Catfish business to the society.",
+                "marks": 2,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Teeti's business has created significant economic impact in his community.",
+                  "mainPoints": [
+                    {
+                      "heading": "Employment creation",
+                      "detail": "He employs six full-time workers and several part-time helpers, providing jobs."
+                    },
+                    {
+                      "heading": "Income generation",
+                      "detail": "The business provides income for his employees and supports local suppliers."
+                    },
+                    {
+                      "heading": "Knowledge sharing",
+                      "detail": "His training programs help other farmers improve their own businesses."
+                    }
+                  ],
+                  "conclusion": "Through job creation and knowledge transfer, his business contributes to local economic development.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.1 - Advantages of Entrepreneurship"
+                }
+              },
+              {
+                "label": "h",
+                "question": "Propose a vision statement for Don Teeti's business.",
+                "marks": 2,
+                "commandWord": "Propose",
+                "answer": {
+                  "introduction": "A vision statement outlines the long-term aspirations of a business.",
+                  "mainPoints": [
+                    {
+                      "heading": "Proposed Vision",
+                      "detail": "\"To become West Africa's leading provider of sustainable, high-quality catfish and fish products, transforming aquaculture into an innovative and profitable venture for farmers across the region.\""
+                    }
+                  ],
+                  "conclusion": "This vision reflects Teeti's dream to expand into fish processing and export across West Africa.",
+                  "otherPossibleAnswers": "\"To be the premier catfish brand in Ghana, known for quality, sustainability, and community impact.\"",
+                  "reference": "Unit 3, Session 4, 4.4 - Description of Venture"
+                }
+              },
+              {
+                "label": "i",
+                "question": "Describe three main entrepreneurial lessons you learnt from reading this case.",
+                "marks": 3,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Teeti's journey offers valuable lessons for aspiring entrepreneurs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Persistence pays off",
+                      "detail": "Despite initial failures and skepticism, persistence led to eventual success."
+                    },
+                    {
+                      "heading": "Continuous learning is essential",
+                      "detail": "Attending training and gaining knowledge helped him overcome technical challenges."
+                    },
+                    {
+                      "heading": "Adaptability is key",
+                      "detail": "When COVID-19 disrupted his business, he adapted by using digital marketing and home deliveries."
+                    },
+                    {
+                      "heading": "Networking matters",
+                      "detail": "Building relationships with fellow farmers provided ongoing support and idea exchange."
+                    }
+                  ],
+                  "conclusion": "These lessons highlight the importance of resilience, learning, and flexibility in entrepreneurship.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Identify and explain two methods Ama can use to generate innovative and practical business ideas for her eco-friendly fashion business.",
+                "marks": 4,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Ama can use several methods to generate innovative ideas for her sustainable fashion business.",
+                  "mainPoints": [
+                    {
+                      "heading": "Focus Groups",
+                      "detail": "She can gather a group of potential customers (8-14 participants) led by a moderator to discuss their needs, preferences, and ideas for eco-friendly clothing. This helps generate ideas and screen concepts."
+                    },
+                    {
+                      "heading": "Brainstorming",
+                      "detail": "She can bring together friends, colleagues, or potential customers to suggest alternatives and generate new product ideas without criticism, building on each other's suggestions."
+                    },
+                    {
+                      "heading": "Problem Inventory Analysis",
+                      "detail": "She can provide a list of common clothing problems (e.g., fabric discomfort, poor durability) to consumers and ask them to identify which products have these problems, leading to new product ideas."
+                    }
+                  ],
+                  "conclusion": "These methods will help Ama understand customer needs and develop practical business ideas.",
+                  "otherPossibleAnswers": "Research and Development, Existing companies analysis.",
+                  "reference": "Unit 2, Session 2, 2.2 - Methods for Generating Ideas"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Explain four advantages Ama might enjoy by starting her own fashion business from scratch instead of buying an existing clothing brand in Ghana.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Starting a business from scratch offers several advantages over buying an existing one.",
+                  "mainPoints": [
+                    {
+                      "heading": "Creation of the owners",
+                      "detail": "Ama will have freedom of choice over what the business does, how it operates, and what its values are, allowing her to fully express her sustainable fashion vision."
+                    },
+                    {
+                      "heading": "Clean Sheet",
+                      "detail": "The business starts with no backlog of problems. She won't inherit any negative reputation, debts, or outdated equipment."
+                    },
+                    {
+                      "heading": "Match between founder and enterprise",
+                      "detail": "She can ensure her individual strengths (passion for sustainable fashion) are well used by choosing a business that matches her qualities."
+                    },
+                    {
+                      "heading": "Less funds required",
+                      "detail": "A new business start-up typically costs less than buying an existing business or franchise."
+                    },
+                    {
+                      "heading": "Satisfaction",
+                      "detail": "There is inherent satisfaction in success achieved through her own skill and effort."
+                    }
+                  ],
+                  "conclusion": "Starting from scratch allows Ama to build a brand that truly reflects her passion and values.",
+                  "otherPossibleAnswers": "Control over business affairs, Help from various agencies.",
+                  "reference": "Unit 2, Session 1, 1.2.1 - Advantages of Starting Your Own Small Business"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Identify and explain two disadvantages Ama should be aware of when starting from scratch, and recommend specific strategies she can use to overcome these challenges.",
+                "marks": 8,
+                "commandWord": "Identify, explain, and recommend",
+                "answer": {
+                  "introduction": "Starting from scratch also has disadvantages that Ama should prepare for.",
+                  "mainPoints": [
+                    {
+                      "heading": "Disadvantage 1: No market share or goodwill",
+                      "detail": "As a new brand, she has no established customer base or reputation. Strategy: Use social media marketing, offer samples at fashion events, and collaborate with influencers to build brand awareness and trust."
+                    },
+                    {
+                      "heading": "Disadvantage 2: High failure rate",
+                      "detail": "Many new businesses fail within the first five years. Strategy: Develop a solid business plan, conduct thorough market research, and start small to test the market before scaling up."
+                    },
+                    {
+                      "heading": "Disadvantage 3: Difficult to finance",
+                      "detail": "Banks are often keener to lend to proven ideas than new concepts. Strategy: Explore alternative funding sources like government support (NBSSI, BAF), crowdfunding, or start with personal savings and reinvest profits."
+                    }
+                  ],
+                  "conclusion": "By anticipating these challenges and planning strategies to overcome them, Ama can increase her chances of success.",
+                  "otherPossibleAnswers": "Unproven idea, Hard lonely work, Barriers to entry.",
+                  "reference": "Unit 2, Session 1, 1.2.2 - Disadvantages of Starting Your Own Small Business"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Describe the key stages Kwaku should follow when conducting marketing research to assess his new market opportunities.",
+                "marks": 8,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Marketing research involves several key stages to minimize risks in business decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "Step 1: Define the problem",
+                      "detail": "Kwaku must clearly define what he needs to know: customer preferences, pricing expectations, and competition in Accra supermarkets and West African markets."
+                    },
+                    {
+                      "heading": "Step 2: Collect the data",
+                      "detail": "He should gather information from internal records (sales data) and external sources. External sources include secondary data (trade publications, industry reports) and primary data (interviews with supermarket managers, surveys of potential customers)."
+                    },
+                    {
+                      "heading": "Step 3: Analyse and interpret the data",
+                      "detail": "He needs to evaluate the results and attach meaning to them, such as identifying preferred packaging sizes or acceptable price ranges."
+                    },
+                    {
+                      "heading": "Step 4: Draw conclusions",
+                      "detail": "Based on the analysis, he should decide whether to enter these markets, what adjustments to make, and how to position his product."
+                    }
+                  ],
+                  "conclusion": "Following these steps will help Kwaku make informed decisions and reduce the risk of failure.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.3 - Conducting Marketing Research"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Discuss, using examples, how marketing research can add value to Kwaku's business decision-making and help reduce risks.",
+                "marks": 4,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Marketing research adds significant value by providing information that reduces uncertainty.",
+                  "mainPoints": [
+                    {
+                      "heading": "Identifies customer preferences",
+                      "detail": "Research can reveal that Accra supermarkets prefer smaller, branded packaging, helping Kwaku adjust his product accordingly."
+                    },
+                    {
+                      "heading": "Reveals pricing expectations",
+                      "detail": "He might learn that supermarkets expect lower wholesale prices than local markets, allowing him to calculate if he can still profit."
+                    },
+                    {
+                      "heading": "Uncovers competition",
+                      "detail": "Research might show that several established brands already supply Accra, helping him decide whether to compete or differentiate."
+                    },
+                    {
+                      "heading": "Detects unmet needs",
+                      "detail": "He might discover demand for organic or speciality palm oil, creating a niche opportunity."
+                    }
+                  ],
+                  "conclusion": "By providing these insights, marketing research minimizes the risk of making costly mistakes based on assumptions.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.2 - The Value of Marketing Research"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Identify two common marketing research challenges that Ghanaian entrepreneurs like Kwaku typically face, and explain how each challenge can be effectively overcome.",
+                "marks": 8,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Ghanaian entrepreneurs face several challenges when conducting marketing research.",
+                  "mainPoints": [
+                    {
+                      "heading": "Challenge 1: Limited funds for research",
+                      "detail": "Small businesses often cannot afford expensive research firms or large surveys. Solution: Use low-cost methods like informal interviews with supermarket managers, observation, and online research. Seek support from institutions like NBSSI that offer business advisory services."
+                    },
+                    {
+                      "heading": "Challenge 2: Difficulty accessing reliable data",
+                      "detail": "Secondary data may be outdated or unavailable, and primary data collection can be time-consuming. Solution: Build networks with other palm oil producers to share market information. Partner with university students who need research projects. Use simple questionnaires and focus groups with willing participants."
+                    },
+                    {
+                      "heading": "Challenge 3: Lack of research skills",
+                      "detail": "Entrepreneurs may not know how to design surveys or interpret data. Solution: Attend free business training workshops offered by NGOs, MOFA, or business development centers. Hire a part-time consultant or intern with research skills."
+                    }
+                  ],
+                  "conclusion": "By using creative, low-cost approaches and seeking support, entrepreneurs can overcome these challenges and conduct effective research.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.3.2 - Collecting the Data"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Explain the four key sections that must be included in a business plan.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "A business plan has several key sections that provide a complete picture of the proposed venture.",
+                  "mainPoints": [
+                    {
+                      "heading": "Introductory Page",
+                      "detail": "Contains the name and address of the company, entrepreneur's contact information, nature of business, financing needed, and a confidentiality statement."
+                    },
+                    {
+                      "heading": "Executive Summary",
+                      "detail": "A concise 2-3 page summary of the complete business plan, explaining the venture, financing needed, market potential, and why it will succeed."
+                    },
+                    {
+                      "heading": "Industry Analysis",
+                      "detail": "Discusses industry outlook, future trends, competitor analysis, market segmentation, and industry forecasts to put the venture in proper context."
+                    },
+                    {
+                      "heading": "Description of Venture",
+                      "detail": "Provides detailed description of the product/service, business location, size, personnel needed, equipment, and background of entrepreneurs."
+                    }
+                  ],
+                  "conclusion": "These sections together provide a comprehensive overview that guides the entrepreneur and attracts potential investors.",
+                  "otherPossibleAnswers": "Production Plan, Marketing Plan, Organizational Plan, Assessment of Risk, Financial Plan, Appendix.",
+                  "reference": "Unit 3, Session 4 & 5 - Writing the Business Plan II & III"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Discuss three important reasons why entrepreneurs write business plan.",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Entrepreneurs write business plans for several important purposes.",
+                  "mainPoints": [
+                    {
+                      "heading": "To determine venture viability",
+                      "detail": "It helps assess whether the business idea is feasible in the designated market before committing resources."
+                    },
+                    {
+                      "heading": "To provide guidance",
+                      "detail": "It serves as a roadmap for organizing planning activities and making strategic decisions throughout the first year of operations."
+                    },
+                    {
+                      "heading": "To obtain financing",
+                      "detail": "It is an essential tool for convincing potential investors, banks, and lenders to provide funding."
+                    },
+                    {
+                      "heading": "To assess progress",
+                      "detail": "It provides parameters against which progress toward goals can be measured and control decisions made."
+                    }
+                  ],
+                  "conclusion": "A well-written business plan is essential for both launching and managing a successful venture.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 1, 1.3 - The Importance of the Business Plan"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Provide three practical tips that entrepreneurs should follow to ensure that once the business plan is written, it is effectively used and does not just sit on the shelf.",
+                "marks": 6,
+                "commandWord": "Provide tips",
+                "answer": {
+                  "introduction": "A business plan should be a living document that guides operations, not just a document filed away.",
+                  "mainPoints": [
+                    {
+                      "heading": "Measure progress regularly",
+                      "detail": "At the beginning of each month, check profit and loss statements, cash flow, inventory, and sales against projections to identify deviations."
+                    },
+                    {
+                      "heading": "Update the plan when conditions change",
+                      "detail": "If environmental factors (economy, technology, competition) or internal factors (loss of key employees) change, revise the plan accordingly."
+                    },
+                    {
+                      "heading": "Share with key employees",
+                      "detail": "Ensure that team members understand the company's goals and how they are expected to perform, creating buy-in and alignment."
+                    },
+                    {
+                      "heading": "Use control elements",
+                      "detail": "Implement inventory control, production control, quality control, and sales control systems to track performance against the plan."
+                    }
+                  ],
+                  "conclusion": "By actively using and updating the plan, entrepreneurs can stay on track and respond effectively to changes.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 6 - Using and Implementing the Business Plan"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

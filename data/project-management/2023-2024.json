@@ -1,0 +1,664 @@
+{
+  "subject": "Entrepreneurship and Small Enterprise Management",
+  "subjectCode": "SBU 408D",
+  "academicYear": "2023/2024",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "When was the connection between risk and entrepreneurship established?",
+          "options": [
+            "A. Before the Middle Ages",
+            "B. In the 17th century",
+            "C. In the 18th century",
+            "D. During the 19th century"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The connection between risk and entrepreneurship was established in the 17th century with the entrepreneur entering into a contract with the government to manage large projects for a fixed price.",
+          "reference": "Unit 1, Session 1, 1.1 - The Evolution of Entrepreneur and Entrepreneurship"
+        },
+        {
+          "type": "single",
+          "question": "What distinguishes novice entrepreneurs from the others? They ______.",
+          "options": [
+            "A. have vocational qualifications",
+            "B. have prior experience as business founders",
+            "C. currently own minority or majority equity in a business",
+            "D. only own businesses that are new"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Novice entrepreneurs are individuals with no prior business ownership experience but who currently own a minority or majority equity stake in a business that is either new, purchased or inherited.",
+          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following examples best describe a positive pull influence?",
+          "options": [
+            "A. Individuals with a desire for isolation and self-reliance.",
+            "B. Politicians seeking a return to active politics.",
+            "C. Potential partners offering to share experience and help with work.",
+            "D. People facing negative displacement in society."
+          ],
+          "correctAnswer": "C",
+          "explanation": "Positive pull influences can come from a potential partner, mentor, parent, customer or investor who encourages the individual.",
+          "reference": "Unit 1, Session 3, 3.2.2 - Positive Pull"
+        },
+        {
+          "type": "single",
+          "question": "When does the pre-start-up phase of a new venture end? When the ______.",
+          "options": [
+            "A. business reaches maturity",
+            "B. entrepreneur gets the idea for the venture",
+            "C. doors are opened for the business",
+            "D. first product is sold"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The prestart-up phase begins with an idea for the venture and ends when the doors are opened for the business.",
+          "reference": "Unit 2, Session 3, 3.1.1 - The Phases of a New Venture"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not considered as one of the critical factors during the pre-start-up and start-up phases?",
+          "options": [
+            "A. Availability of customers",
+            "B. Expected growth of sales and profits",
+            "C. Competitive pricing strategy",
+            "D. Availability of products"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The critical factors are uniqueness, investment size, sales growth, product availability, and customer availability. Competitive pricing strategy is not listed as one of these specific factors.",
+          "reference": "Unit 2, Session 3, 3.1.2 - Critical Factors of Pre-Start-Up and Start-Up Phases"
+        },
+        {
+          "type": "single",
+          "question": "Which type of venture focuses primarily on providing a comfortable living for the entrepreneur without a strong emphasis on large sales or profits?",
+          "options": [
+            "A. High-growth ventures",
+            "B. Small profitable ventures",
+            "C. Lifestyle ventures",
+            "D. None of the above"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Lifestyle ventures appear to have independent, autonomy, and control as their primary driving forces. Neither large sales nor profits are deemed important beyond providing a sufficient and comfortable living for the entrepreneur.",
+          "reference": "Unit 2, Session 3, 3.1.2.3 - Sales Growth"
+        },
+        {
+          "type": "single",
+          "question": "When is it advisable for a small enterprise owner to review and update a business plan?",
+          "options": [
+            "A. Only after the business has been established for several years",
+            "B. When there is a need for major new investment in equipment",
+            "C. When the business faces no changes in its environment",
+            "D. Once every five years to maintain consistency"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Planning is usually instigated at a time of major change, such as a need for major new investment in equipment.",
+          "reference": "Unit 3, Session 1, 1.2 - When to Plan?"
+        },
+        {
+          "type": "single",
+          "question": "Why is a statement of confidentiality included in the introductory page of a business plan?",
+          "options": [
+            "A. To protect the entrepreneur's personal information",
+            "B. To prevent competitors from reading the plan",
+            "C. For security purposes and to safeguard the report",
+            "D. To outline the company's legal structure."
+          ],
+          "correctAnswer": "C",
+          "explanation": "A statement of the confidentiality of the report is included for security purposes and is important for the entrepreneur.",
+          "reference": "Unit 3, Session 4, 4.1 - Introductory Page"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a characteristic of resources? They ______.",
+          "options": [
+            "A. are consumed.",
+            "B. can only be used once.",
+            "C. are always readily available.",
+            "D. have a value – a price tag."
+          ],
+          "correctAnswer": "C",
+          "explanation": "Resources are consumed, can only be used once, are in demand and are competed for, and have a value. They are not always readily available.",
+          "reference": "Unit 4, Session 1, 1.2 - Characteristics of Resources"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following attributes is not a component of the competitive advantage, as per the resource-based perspective?",
+          "options": [
+            "A. Valuable",
+            "B. Scarce",
+            "C. Imitable",
+            "D. Substitutable"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Strategic resources must be valuable, rare, imperfectly imitable, and non-substitutable. \"Imitable\" is the opposite of what is required.",
+          "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not included in the requisition when initiating a request for goods or services?",
+          "options": [
+            "A. Description of the item desired",
+            "B. Quantity and quality requirements",
+            "C. Vendor selection criteria",
+            "D. Desired delivery dates"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The requisition includes a description of the item, the quantity and quality necessary, and desired delivery dates. Vendor selection is done later by purchasing staff.",
+          "reference": "Unit 4, Session 2, 2.3.1.a - Steps in the Purchasing Process"
+        },
+        {
+          "type": "single",
+          "question": "In the recruitment process, what is the term used for the statement describing the content and location of a specific job at the managerial level?",
+          "options": [
+            "A. Job analysis",
+            "B. Job specification",
+            "C. Position description",
+            "D. Job posting"
+          ],
+          "correctAnswer": "C",
+          "explanation": "At the operative level, the statement is called the job description; at the managerial level, it is called a position description.",
+          "reference": "Unit 4, Session 4, 4.2.b - Recruitment"
+        },
+        {
+          "type": "single",
+          "question": "Which step in the organization's selection process involves evaluating the applicant's technical, conceptual, and diagnostic skills?",
+          "options": [
+            "A. Initial screening interview",
+            "B. Background investigation",
+            "C. Physical examination",
+            "D. Testing"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Testing measures the applicant's job skills and ability to learn on the job, involving the applicant's technical, conceptual, and diagnostic skills.",
+          "reference": "Unit 4, Session 4, 4.2.c.iii - Selection"
+        },
+        {
+          "type": "single",
+          "question": "What is the term used to describe the tendency to rate employees based on a single characteristic?",
+          "options": [
+            "A. Bias",
+            "B. Uniform rating",
+            "C. The halo effect",
+            "D. Different rater patterns"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The halo effect is the common tendency to rate subordinates high or low on all performance measures based on one of their characteristics.",
+          "reference": "Unit 4, Session 4, 4.2.g.iv - The halo effect"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not one of the four C's in the Harvard model for evaluating HRM outcomes?",
+          "options": [
+            "A. Culture",
+            "B. Commitment",
+            "C. Congruence",
+            "D. Competence"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The four C's model for human resources outcomes consists of commitment, competence, congruence, and cost effectiveness. Culture is not part of this model.",
+          "reference": "Unit 4, Session 4, 4.3 - The Four C's Model for Evaluating Human Resources"
+        },
+        {
+          "type": "single",
+          "question": "What is the central idea of the marketing concept?",
+          "options": [
+            "A. Maximizing short-term profits",
+            "B. Focusing on satisfying consumer wants and needs",
+            "C. Ignoring product development",
+            "D. Isolating marketing from other corporate functions"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The marketing concept is the idea that organizations should focus on satisfying consumers' wants and needs.",
+          "reference": "Unit 5, Session 1, 1.4 - The Marketing Concept"
+        },
+        {
+          "type": "single",
+          "question": "What are the two main sources of external data?",
+          "options": [
+            "A. Tertiary and quaternary data",
+            "B. Secondary and primary data",
+            "C. Public and private data",
+            "D. Confidential and classified data"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The two sources of external data are secondary (information that already exists) and primary (information collected for the specific purpose at hand).",
+          "reference": "Unit 5, Session 2, 2.3.2.ii - External data"
+        },
+        {
+          "type": "single",
+          "question": "Which data collection method is ideal for gathering complex information?",
+          "options": [
+            "A. Telephone interviews",
+            "B. Mail surveys",
+            "C. Focus groups",
+            "D. Personal interviews"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Personal interviews are ideal for collecting complex information and can be longer than telephone or mail questionnaires.",
+          "reference": "Unit 5, Session 2, 2.3.2.ii - Primary data"
+        },
+        {
+          "type": "single",
+          "question": "What is the focus of a market development strategy?",
+          "options": [
+            "A. Reducing sales in existing markets",
+            "B. Introducing existing products in new markets",
+            "C. Creating entirely new markets",
+            "D. Enhancing advertising efforts"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A market development strategy attempts to increase sales by introducing existing products or services into new markets.",
+          "reference": "Unit 5, Session 3, 3.2.2 - Market development"
+        },
+        {
+          "type": "single",
+          "question": "What are the three main steps in target marketing?",
+          "options": [
+            "A. Market promotion, market analysis, market expansion",
+            "B. Market segmentation, market targeting, market positioning",
+            "C. Product development, advertising, distribution",
+            "D. Market penetration, market saturation, market diversification"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The three main steps in target marketing are market segmentation, market targeting, and market positioning.",
+          "reference": "Unit 5, Session 4, 4.2 - Steps in Target Marketing"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "Case Study: College, the ideal place to launch a business",
+              "fullText": "For growing numbers of students, college is not just a time of learning, partying and growing into young adulthood; it is fast becoming a place for building a business. More than 2,300 colleges and universities offer courses in entrepreneurship and small business management (an increase from just 200 schools in the 1970s) to more than 400,000 students, and many of them have trouble keeping up with demand for these classes. \"Students used to come to college and assume that five to ten years down the road, they'd start a business,\" says Gerry Hills, cofounder of the Collegiate Entrepreneurs Organization. \"[Today], they come in preparing to get ideas and launch.\"\n\nMany collegiate entrepreneurs realize that if they are going to have a job when they graduate, it is likely to be one they have created for themselves. According to a recent survey by Accenture, only 16 percent of college graduates who applied for a job had one waiting for them after graduation. For a growing number of college students, landing a job in corporate World, starting on the bottom rung of an uncertain career ladder, has lost much of its allure. While studying at University of Cape Coast (where she majored in Marketing), Ama Bediako worked in internships at \"Abrontentan Ltd,\" which offered her a marketing position when she graduated. Ama turned down the job offer, choosing instead to focus on the business, EagleEye Ltd an online magazine aimed at showcasing discoveries, inventions and new businesses, that she had started with classmates Araba Aikins and Konadu Yiadom. \"It's not a pure dichotomy anymore that entrepreneurship is risky and other jobs are safe, so why not do what I love?\" she says.\n\nFor their work at EagleEye Ltd, which is now profitable, Ama, Araba, and Konadu recently were named to Inc. magazine's \"30 Under 30 Coolest Young Entrepreneurs\" list. The business is more profitable than Ama and Her friends had expected, but numerous unanticipated problems cropped up as well, including sharing of profit and payments of active partners as one of them is a dormant partner. Moreover, Ama and Co. are searching for Ghc 100,000 from private investors to fuel EagleEye Ltd's growth so that the company can live up to its potential without giving up equity so early in their business.",
+              "keyFacts": [
+      "Over 2,300 colleges now offer entrepreneurship courses (up from 200 in the 1970s) to over 400,000 students",
+      "Only 16% of college graduates had a job waiting after graduation (Accenture survey)",
+      "Ama Bediako turned down a confirmed marketing job offer from Abrontentan Ltd to pursue EagleEye Ltd",
+      "Ama studied Marketing at University of Cape Coast",
+      "EagleEye Ltd is an online magazine showcasing discoveries, inventions, and new businesses",
+      "Co-founded with classmates Araba Aikins and Konadu Yiadom",
+      "The business is now profitable and founders were named to Inc. magazine's \"30 Under 30 Coolest Young Entrepreneurs\" list",
+      "Key problem: profit-sharing dispute involving a dormant partner (organizational planning failure)",
+      "Funding need: GHC 100,000 from private investors",
+      "Goal: Fuel growth without giving up equity too early",
+      "Demonstrates that students are increasingly starting businesses on campus rather than waiting until after graduation"
+    ]
+            },
+            "subQuestions": [
+              {
+                "label": "1",
+                "question": "Analyse two key success factors behind the entrepreneurial decisions taken by: Ama, Araba and Konadu.",
+                "marks": 2,
+                "commandWord": "Analyse",
+                "answer": {
+                  "introduction": "The success of Ama, Araba, and Konadu can be attributed to several key entrepreneurial decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "Pursuing their passion",
+                      "detail": "Ama turned down a safe job offer to focus on what she loves, showing passion for her business."
+                    },
+                    {
+                      "heading": "Taking calculated risks",
+                      "detail": "They started the business while in school, recognizing that entrepreneurship is not riskier than uncertain corporate jobs."
+                    }
+                  ],
+                  "conclusion": "Their willingness to follow their passion and take risks contributed to their recognition as successful young entrepreneurs.",
+                  "otherPossibleAnswers": "Identifying a market opportunity (online magazine), Building a team with classmates.",
+                  "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
+                }
+              },
+              {
+                "label": "2",
+                "question": "What type of entrepreneurs are the management of EagleEye Ltd.",
+                "marks": 2,
+                "commandWord": "What",
+                "answer": {
+                  "introduction": "The management of EagleEye Ltd can be classified as portfolio entrepreneurs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Portfolio Entrepreneurs",
+                      "detail": "They are individuals who currently own a business (EagleEye Ltd) and are likely to be involved in multiple ventures simultaneously."
+                    }
+                  ],
+                  "conclusion": "As young entrepreneurs who have started and are running their own business, they fit this category.",
+                  "otherPossibleAnswers": "Novice entrepreneurs (as they are first-time business founders).",
+                  "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
+                }
+              },
+              {
+                "label": "3",
+                "question": "Identify the root cause of the problems of EagleEye Ltd and suggest solution to it.",
+                "marks": 4,
+                "commandWord": "Identify and suggest",
+                "answer": {
+                  "introduction": "The root cause of EagleEye Ltd's problems is poor organizational planning.",
+                  "mainPoints": [
+                    {
+                      "heading": "Root Cause",
+                      "detail": "Lack of clear agreement on profit sharing and payments, especially with one dormant partner, indicating failure to establish proper organizational structure and roles."
+                    },
+                    {
+                      "heading": "Solution 1",
+                      "detail": "Develop a formal partnership agreement clearly defining roles, responsibilities, and profit-sharing ratios for all partners, including dormant partners."
+                    },
+                    {
+                      "heading": "Solution 2",
+                      "detail": "Create distinct departments and avoid multitasking to ensure clarity in operations and financial management."
+                    }
+                  ],
+                  "conclusion": "Proper organizational planning and legal agreements would prevent such disputes and ensure smooth operations.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 5, 5.3 - Organizational Plan"
+                }
+              },
+              {
+                "label": "4",
+                "question": "Analyse two reasons for which you will encourage University of Cape Coast (UCC) students to start businesses whilst on campus.",
+                "marks": 4,
+                "commandWord": "Analyse",
+                "answer": {
+                  "introduction": "Starting a business while on campus offers students unique advantages.",
+                  "mainPoints": [
+                    {
+                      "heading": "Access to resources",
+                      "detail": "Universities offer courses in entrepreneurship, providing knowledge and skills needed to start a business."
+                    },
+                    {
+                      "heading": "Job creation",
+                      "detail": "With only 16% of graduates having jobs waiting, creating their own business provides immediate employment after graduation."
+                    },
+                    {
+                      "heading": "Support network",
+                      "detail": "Students can collaborate with classmates (like Ama did) to build teams and share ideas."
+                    }
+                  ],
+                  "conclusion": "Campus provides an ideal environment with education, collaboration opportunities, and a safety net for experimentation.",
+                  "otherPossibleAnswers": "Low overhead costs, Access to mentors and professors.",
+                  "reference": "Unit 1, Session 1, 1.4 - Reasons Why People become Entrepreneurs"
+                }
+              },
+              {
+                "label": "5",
+                "question": "Explain two challenges that student entrepreneurs are likely to face whilst on campus.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Student entrepreneurs face unique challenges while balancing academics and business.",
+                  "mainPoints": [
+                    {
+                      "heading": "Time management",
+                      "detail": "Balancing coursework, exams, and business operations can be overwhelming and lead to stress."
+                    },
+                    {
+                      "heading": "Limited funding",
+                      "detail": "Students often lack capital and must seek external funding, as EagleEye Ltd is doing, which can be difficult without a track record."
+                    },
+                    {
+                      "heading": "Lack of experience",
+                      "detail": "Students may lack managerial and technical skills needed to handle problems like profit sharing and partnership disputes."
+                    }
+                  ],
+                  "conclusion": "These challenges require discipline, planning, and seeking mentorship to overcome.",
+                  "otherPossibleAnswers": "Work schedule unpredictability, Discouragement from obstacles.",
+                  "reference": "Unit 1, Session 5, 5.2 - Disadvantages of Entrepreneurship"
+                }
+              },
+              {
+                "label": "6",
+                "question": "State and explain to the management of EagleEye Ltd two sources of finance that could be appropriate for their financial situation.",
+                "marks": 4,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "EagleEye Ltd needs GHC 100,000 for growth and should consider appropriate sources of finance.",
+                  "mainPoints": [
+                    {
+                      "heading": "Venture Capital",
+                      "detail": "This is private equity capital provided by outside investors to new and growing businesses in exchange for shares. However, they want to avoid giving up equity too early."
+                    },
+                    {
+                      "heading": "Bank Overdraft",
+                      "detail": "A short-term source where the bank allows them to overdraw up to a limit, useful for managing cash flow and working capital needs."
+                    },
+                    {
+                      "heading": "Business Assistance Fund (BAF)",
+                      "detail": "A government fund in Ghana providing loans to SSEs at subsidized interest rates for productive sectors."
+                    }
+                  ],
+                  "conclusion": "They should evaluate which source aligns with their goal of not giving up equity while securing needed funds.",
+                  "otherPossibleAnswers": "Factoring (if they have debtors), Trade credit from suppliers.",
+                  "reference": "Unit 6, Session 2, 3 & 4 - Long Term Finance, Short Term Finance, Institutional Support"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Information plays an increasingly critical role in today businesses, both as a resource and a commodity. Discuss four types/categories of business information that a small enterprise should process to enhance the survival of their businesses.",
+                "marks": 16,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Small enterprises need various types of information to make informed decisions and ensure survival.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market Information",
+                      "detail": "Data on market size, growth, consumer spending power, needs, and behavior. This helps in new product development, marketing planning, and identifying opportunities."
+                    },
+                    {
+                      "heading": "Competitor Information",
+                      "detail": "Information about competitors' locations, activities, and performance. This is vital for strategic positioning and responding to competitive threats."
+                    },
+                    {
+                      "heading": "Supplier Information",
+                      "detail": "Information on supplier cost, reliability, quality, and speed of delivery. This ensures smooth production and helps plan effectively for raw material needs."
+                    },
+                    {
+                      "heading": "Production Information",
+                      "detail": "Internal data on production efficiency, cost, wastage, and quality. This helps ensure the business can deliver the volume and quality promised to customers."
+                    }
+                  ],
+                  "conclusion": "Processing these information types helps small enterprises reduce risk and make better strategic decisions.",
+                  "otherPossibleAnswers": "Macroeconomic information, External financial information, Information on regulations, Human resources information, Internal financial information.",
+                  "reference": "Unit 4, Session 3, 3.2 - Types of Business Information"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Two importance of business information to the small enterprise owner managers.",
+                "marks": 4,
+                "commandWord": "Importance",
+                "answer": {
+                  "introduction": "Business information is crucial for small enterprise owner managers to make effective decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "Reduces risk",
+                      "detail": "Information helps entrepreneurs make informed decisions, reducing uncertainty in business activities. It has a cost but is repaid through better outcomes."
+                    },
+                    {
+                      "heading": "Preserves records",
+                      "detail": "Records are specialized information retained for business value, legal requirements, and accountability, ensuring integrity for as long as required."
+                    },
+                    {
+                      "heading": "Overcomes communication barriers",
+                      "detail": "Information helps overcome physical, perceptual, and cultural barriers, ensuring effective communication within the organization."
+                    }
+                  ],
+                  "conclusion": "Gathering and managing information helps small businesses operate smoothly and make better strategic choices.",
+                  "otherPossibleAnswers": "Aids in strategy formulation, Helps in decision making.",
+                  "reference": "Unit 4, Session 3, 3.4 - Importance of Business Information"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Outline and discuss with example the steps involved in conducting market research in the context of small enterprises that are increasingly diverging from conventional approaches?",
+                "marks": 12,
+                "commandWord": "Outline and discuss",
+                "answer": {
+                  "introduction": "Marketing research is a medium for gathering information that serves as the foundation for the marketing plan, helping small enterprises minimize risks.",
+                  "mainPoints": [
+                    {
+                      "heading": "Step 1: Define the problem",
+                      "detail": "Clearly and briefly define the specific nature of the problem to be investigated. Example: A small bakery wants to know why sales have declined in the past month."
+                    },
+                    {
+                      "heading": "Step 2: Collect the data",
+                      "detail": "Gather information from internal records (sales data) and external sources. External sources include secondary data (census reports) and primary data (surveys)."
+                    },
+                    {
+                      "heading": "Step 3: Analyse and interpret the data",
+                      "detail": "Evaluate the results and attach meaning to them in response to the research objectives. Example: Analysis shows that a new competitor opened nearby."
+                    },
+                    {
+                      "heading": "Step 4: Draw conclusions",
+                      "detail": "Based on the analysis, decide how to use the information. Example: The bakery decides to introduce new products and a loyalty program."
+                    }
+                  ],
+                  "conclusion": "Following these steps helps small enterprises make data-driven decisions rather than relying on guesswork.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.3 - Conducting Marketing Research"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain clearly, the following terminologies under small enterprise marketing:\ni. Market Penetration\nii. Market Development\niii. Product Development\niv. Market Segmentation",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "These are key marketing strategies and concepts that small enterprises can use to grow their business.",
+                  "mainPoints": [
+                    {
+                      "heading": "i. Market Penetration",
+                      "detail": "A strategy that seeks to increase sales of existing products in current markets through greater selling and advertising efforts. Example: A local restaurant offers \"buy one get one free\" deals to attract more customers in its neighborhood."
+                    },
+                    {
+                      "heading": "ii. Market Development",
+                      "detail": "A strategy that attempts to increase sales by introducing existing products or services into new markets. Example: A Ghanaian clothing brand starts selling its products online to customers in Europe."
+                    },
+                    {
+                      "heading": "iii. Product Development",
+                      "detail": "A strategy that tries to raise sales by adding new goods or services to existing markets. These new products may be modifications of existing items or entirely new ones. Example: A soap maker adds a new line of liquid soap to their existing bar soap products."
+                    },
+                    {
+                      "heading": "iv. Market Segmentation",
+                      "detail": "A strategy that subdivides the mass market into smaller, more homogeneous segments to attack each with a specific marketing strategy. Example: A shoe company divides its market into runners, basketball players, and golfers."
+                    }
+                  ],
+                  "conclusion": "Using these strategies helps small enterprises focus their limited resources effectively and maximize sales.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 3, 3.2 & 3.3 - Choosing a Marketing Strategy & Market Segmentation"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "What are Financial Ratios.",
+                "marks": 2,
+                "commandWord": "What",
+                "answer": {
+                  "introduction": "Financial ratios are tools used to evaluate a company's financial condition and performance.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition",
+                      "detail": "A financial ratio is a relationship that indicates something about a company's activities, such as the ratio between current assets and current liabilities."
+                    },
+                    {
+                      "heading": "Purpose",
+                      "detail": "They enable an analyst to make a comparison of a company's financial condition over time or in relation to other firms."
+                    }
+                  ],
+                  "conclusion": "They serve as yardsticks for measuring various aspects of business performance.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 5, 5.2 - Interpreting Financial Ratios"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Outline five distinct stakeholders (users) who utilize financial statements and explain the rationale behind their reliance on these financial documents.",
+                "marks": 10,
+                "commandWord": "Outline and explain",
+                "answer": {
+                  "introduction": "Various interest groups use financial statements to make informed decisions about a company.",
+                  "mainPoints": [
+                    {
+                      "heading": "Owner/Investor Group",
+                      "detail": "Existing and potential shareholders use them to evaluate performance and assess the entity's viability."
+                    },
+                    {
+                      "heading": "Employee Group",
+                      "detail": "Employees and trade unions use them to assess job security and the company's ability to meet wage demands."
+                    },
+                    {
+                      "heading": "Loan Creditor Group",
+                      "detail": "Banks and debenture holders use them to assess the firm's ability to repay loans and interest."
+                    },
+                    {
+                      "heading": "Business Contact Group",
+                      "detail": "Suppliers and customers use them to evaluate creditworthiness and reliability of supply."
+                    },
+                    {
+                      "heading": "Government",
+                      "detail": "Tax authorities use them to ensure compliance with tax laws and regulations."
+                    }
+                  ],
+                  "conclusion": "Each stakeholder relies on financial statements to make economic decisions related to their interest in the company.",
+                  "otherPossibleAnswers": "Advisor/Analyst Group, General Public.",
+                  "reference": "Unit 6, Session 5, 5.1 - Financial Statements"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain four profitability ratios that might be available to small enterprise owners.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Profitability ratios measure how effectively a firm's management is generating profit on sales, assets, and stockholders' investment.",
+                  "mainPoints": [
+                    {
+                      "heading": "Gross Profit Ratio",
+                      "detail": "Indicates the average gross margin on sales, revealing how effectively management is making decisions regarding pricing and production cost control. Formula: Gross Profit / Sales."
+                    },
+                    {
+                      "heading": "Net Profit Margin",
+                      "detail": "Indicates the relative efficiency after taking into account all operating expenses, interest, and taxes. Formula: Net Profit (after interest & tax) / Sales."
+                    },
+                    {
+                      "heading": "Return on Assets (ROA)",
+                      "detail": "Measures how much net income was generated for each cedi of assets the company has. Formula: Net Profit after Interest & Tax / Total Assets."
+                    },
+                    {
+                      "heading": "Return on Equity (ROE)",
+                      "detail": "Measures the rate of return on stockholders' equity, influenced by the amount of debt used. Formula: Net Profit after Tax / Shareholders' Equity."
+                    }
+                  ],
+                  "conclusion": "These ratios help small enterprise owners assess their business's profitability and make improvements where needed.",
+                  "otherPossibleAnswers": "Return on Capital Employed (ROCE), Expenses to Sales Ratio.",
+                  "reference": "Unit 6, Session 5, 5.2.a - Profitability Ratios"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
