@@ -1,0 +1,659 @@
+{
+  "subject": "Entrepreneurship and Small Enterprise Management",
+  "subjectCode": "SBU 408D",
+  "academicYear": "2019/2020",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Which type of entrepreneur starts a new business after having already started and exited a previous business venture?",
+          "options": [
+            "A. Craft entrepreneur",
+            "B. Serial entrepreneur",
+            "C. Opportunistic entrepreneur",
+            "D. Portfolio entrepreneur"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A serial entrepreneur is specifically defined as an entrepreneur who starts a new business after having already started and exited a previous business venture.",
+          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
+        },
+        {
+          "type": "single",
+          "question": "The components of the entrepreneurial process are ______.",
+          "options": [
+            "A. entrepreneur, opportunity, organization, and resources",
+            "B. entrepreneur, opportunity, organization, and society",
+            "C. entrepreneur, opportunity, business partners, and resources",
+            "D. entrepreneur, achievements, organization, and, resources"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The entrepreneurial process involves four contingencies coming together: the entrepreneur, an opportunity, an organization, and resources.",
+          "reference": "Unit 1, Session 3, 3.1 - The Entrepreneurial Process"
+        },
+        {
+          "type": "single",
+          "question": "Which of the elements in the entrepreneurial environment covers factors such as population, interest rates and inflation that influence business activities?",
+          "options": [
+            "A. Socio-cultural Environment",
+            "B. Political Environment",
+            "C. Legal Environment",
+            "D. Economic Environment"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The economic environment covers factors such as population, interest rates, and inflation that influence business activities.",
+          "reference": "Unit 1, Session 4, 4.1 - Economic Environment"
+        },
+        {
+          "type": "single",
+          "question": "The ______ is a written outline of the entrepreneur's proposed venture, its operational and financial details, its marketing opportunities and strategy, and its manager's skills and abilities.",
+          "options": [
+            "A. Plan",
+            "B. Strategic Plan",
+            "C. Business Plan",
+            "D. Organizational Plan"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The business plan is defined as a written outline of the entrepreneur's proposed venture, its operational and financial details, its marketing opportunities and strategy, and its manager's skills and abilities.",
+          "reference": "Unit 3, Session 1, 1.1 - What is the Business Plan?"
+        },
+        {
+          "type": "single",
+          "question": "Every organization has to be resourceful. Resources of an organization are made up of ______ and ______ assets.",
+          "options": [
+            "A. movable and immovable",
+            "B. tangible and intangible",
+            "C. fixed and current",
+            "D. financial and non-financial"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A firm's resources are those tangible and intangible assets that are tied semi-permanently to the firm.",
+          "reference": "Unit 4, Session 1, 1.1 - Nature of Firm Resources"
+        },
+        {
+          "type": "single",
+          "question": "In franchising, the entrepreneur assumes fewer risks because the franchise provides all the following except ______.",
+          "options": [
+            "A. management assistance in operating the business",
+            "B. favorable image for the products",
+            "C. over sale of rights",
+            "D. established markets for the products"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Franchising provides benefits like management training, an accepted name/product, and knowledge of the market. \"Over sale of rights\" is not a benefit; it could be a disadvantage related to lack of independence.",
+          "reference": "Unit 2, Session 6, 6.3.1 - Advantages for Franchisees"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is an excellent method for initially screening ideas and concepts in addition to generating new ideas?",
+          "options": [
+            "A. Brainstorming",
+            "B. Focus group",
+            "C. Problem inventory analysis",
+            "D. Reverse brainstorming"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Further to generating new ideas, the focus group is a very good method for initially screening ideas and concepts.",
+          "reference": "Unit 2, Session 2, 2.2.1 - Focus Groups"
+        },
+        {
+          "type": "single",
+          "question": "The approach of pricing which involves deciding price by calculating costs and adding what is assumed to be an adequate element of profit is known as ______.",
+          "options": [
+            "A. Profit-Oriented Pricing",
+            "B. Cost-plus pricing",
+            "C. Market prices",
+            "D. Cost-benefit pricing"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Cost-plus pricing involves deciding prices by calculating costs and adding what is judged to be an adequate element of profit.",
+          "reference": "Unit 5, Session 5, 5.3.1.2 - Cost-plus pricing"
+        },
+        {
+          "type": "single",
+          "question": "The personal method of promotion includes the following except ______.",
+          "options": [
+            "A. Direct selling",
+            "B. Retail selling",
+            "C. Exhibitions",
+            "D. Radio advertisements"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Personal methods include direct selling, telephone selling, retail selling, and exhibitions. Radio advertisements are an impersonal method of promotion.",
+          "reference": "Unit 5, Session 6, 6.2.1 & 6.2.2.1 - Personal methods of promotion & Media advertisements"
+        },
+        {
+          "type": "single",
+          "question": "The act of raising short term funds on the security of a firm's creditors is termed as ______.",
+          "options": [
+            "A. Factoring",
+            "B. Leasing",
+            "C. Hire purchase",
+            "D. Mortgage"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Factoring involves raising funds on the security of the company's debts (creditors), so that cash is received earlier.",
+          "reference": "Unit 6, Session 3, 3.1.b - Factoring"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following financial ratios will be of key importance when assessing a potential supplier of raw materials?",
+          "options": [
+            "A. Gross profit ratio",
+            "B. Expense to sales ratio",
+            "C. Debtors collection period",
+            "D. Creditors collection management"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A potential supplier would be interested in how quickly the firm pays its bills, which is measured by the creditor payment period.",
+          "reference": "Unit 6, Session 5, 5.2.c.iv - Creditor Payment Period"
+        },
+        {
+          "type": "single",
+          "question": "Which category of ratios measure a firm's ability to meet its long term obligations?",
+          "options": [
+            "A. Leverage ratios",
+            "B. Liquidity ratios",
+            "C. Activity ratios",
+            "D. Profitability ratios"
+          ],
+          "correctAnswer": "A",
+          "explanation": "To judge the long-term financial position of the firm, financial leverage or capital structure (gearing) ratios are calculated. These are also called long-term solvency ratios.",
+          "reference": "Unit 6, Session 6 - a. Leverage/Gearing Ratios (Long-term solvency) Ratios"
+        },
+        {
+          "type": "single",
+          "question": "The following are some reasons why small businesses fail at start up except ______.",
+          "options": [
+            "A. poor market timing",
+            "B. lack of distribution channels",
+            "C. clear business idea",
+            "D. lack of technical and managerial skills"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Common reasons for failure include product/market problems (like poor timing and inappropriate distribution strategy) and managerial problems. A clear business idea is a factor for success, not failure.",
+          "reference": "Unit 2, Session 3, 3.2 - Reasons For New Venture Failure"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an approach for evaluating new ventures.",
+          "options": [
+            "A. Analysis of financial feasibility",
+            "B. Determining the technical feasibility of idea",
+            "C. Analysis of organisational resources and capabilities",
+            "D. Systems analysis"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The comprehensive feasibility approach includes technical feasibility and marketability. Other methods include evaluation-related questions, profile analysis, and feasibility criteria approach.",
+          "reference": "Unit 2, Session 3, 3.3 & 3.4 - The Evaluation Process of New Ventures & Comprehensive Feasibility Approach"
+        },
+        {
+          "type": "single",
+          "question": "Kwame Gyan, a successful entrepreneur believes that what he has achieved is a result of his handwork, perseverance and dedication. Kwame is said to have ______ locus of control.",
+          "options": [
+            "A. external",
+            "B. internal",
+            "C. personal",
+            "D. positive"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Internals are those who believe that for the most part the future is theirs to control through their own effort.",
+          "reference": "Unit 1, Session 3, 3.2.1 - Locus of Control"
+        },
+        {
+          "type": "single",
+          "question": "The marginalisation of individuals or groups of individuals from the core of society is termed as ______.",
+          "options": [
+            "A. Negative displacement",
+            "B. Positive displacement",
+            "C. Prejudice",
+            "D. Stereotyping"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Negative displacement is the marginalization of individuals or groups of individuals from the core of society.",
+          "reference": "Unit 1, Session 3, 3.2.2 - Negative Displacement"
+        },
+        {
+          "type": "single",
+          "question": "Resources are rare in the sense that there are not enough for all competitors. Valuable resources shared by a large number of firms can be a source of competitive advantage.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Valuable resources shared by a large number of firms cannot be a source of competitive advantage because they are not rare and are easily duplicated.",
+          "reference": "Unit 4, Session 1, 1.3 - Rare Resources"
+        },
+        {
+          "type": "single",
+          "question": "Purchase Orders are normally accompanied by terms and conditions which form the contractual agreement of the transaction.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Purchase Orders are normally accompanied by terms and conditions which form the contractual agreement of the transaction.",
+          "reference": "Unit 4, Session 2, 2.3.1.e - Steps in the Purchasing Process"
+        },
+        {
+          "type": "single",
+          "question": "Information sources can either be primary; gathered from existing sources or secondary, gathered as a result of research.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Information sources can either be primary, gathered as a result of research or analysis instigated by the firm, or secondary, gathered from existing sources.",
+          "reference": "Unit 4, Session 3, 3.3 - Sources of business information"
+        },
+        {
+          "type": "single",
+          "question": "Human resource management is the strategic and garbled approach to the management of an organization's most valued assets.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Human resource management is the strategic and coherent approach to the management of an organisation's most valued assets.",
+          "reference": "Unit 4, Session 4, 4.1 - Definition of Human Resource"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 40,
+            "caseStudy": {
+              "title": "Case Study: Rex Athletes Shop",
+              "fullText": "Rex wants to open a store that caters for athletes, but, due to space and budgetary constraints, he recognizes that he will not be able to offer the same variety and selection of products as does the local athletic mega-store, so he has decided to focus specifically on runners. He stocks shoes and related gear for runners, and maintains a staff that is knowledgeable and enthusiastic about running. Rex's advertising campaign emphasizes his store's high standard of customer service and selection of products specifically tailored to meet the needs of the runner.",
+              "keyFacts": [
+                "Rex faces space and budgetary constraints, preventing him from competing with larger athletic stores",
+                "He decides to focus specifically on runners as his target market segment",
+                "Stocks shoes and related gear exclusively for runners",
+                "Maintains staff that is knowledgeable and enthusiastic about running",
+                "Advertising campaign emphasizes high standard of customer service",
+                "Products are specifically tailored to meet the needs of runners"
+              ]
+            },
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Outline and explain the three (3) main steps involved in target marketing for Rex's products.",
+                "marks": 16,
+                "commandWord": "Outline and explain",
+                "answer": {
+                  "introduction": "The three main steps in target marketing are market segmentation, market targeting, and market positioning.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market Segmentation",
+                      "detail": "Rex would divide the broad market of athletes into smaller segments, such as runners, swimmers, or team sports players."
+                    },
+                    {
+                      "heading": "Market Targeting",
+                      "detail": "Rex would then evaluate the runner segment and decide to focus his efforts on it, as he has limited resources."
+                    },
+                    {
+                      "heading": "Market Positioning",
+                      "detail": "Rex would use his marketing mix (products, staff, ads) to create a distinct image of his store as the best choice for runners in the consumers' minds."
+                    }
+                  ],
+                  "conclusion": "By following these steps, Rex can effectively focus his limited resources on the specific group of customers he aims to serve.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.2 - Steps in Target Marketing"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Describe any two (2) types of market segmentation available to Rex.",
+                "marks": 14,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Market segmentation involves dividing a market into distinct groups of buyers with different needs, characteristics, or behaviors.",
+                  "mainPoints": [
+                    {
+                      "heading": "Geographic Segmentation",
+                      "detail": "Rex could divide his market based on geographic units like neighbourhoods, cities, or regions where runners live."
+                    },
+                    {
+                      "heading": "Demographic Segmentation",
+                      "detail": "Rex could segment runners based on variables like age, income, or occupation."
+                    },
+                    {
+                      "heading": "Psychographic Segmentation",
+                      "detail": "Rex could segment runners based on their lifestyle or personality characteristics, such as \"serious marathoners\" vs. \"casual joggers.\""
+                    },
+                    {
+                      "heading": "Behavioural Segmentation",
+                      "detail": "Rex could divide runners based on their knowledge of, or responses to, products, such as \"brand-loyal runners\" or \"benefit-seekers\" (e.g., seeking cushioning vs. speed)."
+                    }
+                  ],
+                  "conclusion": "By using these segmentation strategies, Rex can better understand and tailor his offerings to the specific needs of his chosen runner market.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.2.1 - Market Segmentation"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Distinguish between market targeting and market positioning.",
+                "marks": 4,
+                "commandWord": "Distinguish",
+                "answer": {
+                  "introduction": "Market targeting and market positioning are two distinct steps in the target marketing process.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market Targeting",
+                      "detail": "This is the process of selecting which market segments to enter."
+                    },
+                    {
+                      "heading": "Market Positioning",
+                      "detail": "This is the process of defining how a product is perceived by consumers relative to competing products."
+                    }
+                  ],
+                  "conclusion": "In essence, targeting decides which customers to pursue, while positioning decides how to compete for their attention.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.2.2 & 4.2.3 - Market Targeting & Market Positioning"
+                }
+              },
+              {
+                "label": "d",
+                "question": "Explain three (3) channels of distribution Rex can utilize for his products.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "A channel of distribution is the path goods take from producer to consumer, and Rex has several options to get his products to runners.",
+                  "mainPoints": [
+                    {
+                      "heading": "Direct Sales",
+                      "detail": "Rex can sell directly to runners in his physical retail store, the \"Rex Athletes Shop.\""
+                    },
+                    {
+                      "heading": "Retail and Specialist Outlets",
+                      "detail": "Rex's own store is itself a specialist retail outlet where customers can visit and purchase."
+                    },
+                    {
+                      "heading": "Mail Order",
+                      "detail": "Rex could sell his products directly to customers through a catalogue or website, dispatching them via mail."
+                    }
+                  ],
+                  "conclusion": "The choice of channel will depend on his customers, the products, and his financial circumstances.",
+                  "otherPossibleAnswers": "Multi-level marketing.",
+                  "reference": "Unit 5, Session 6, 6.1.1.1 & 6.1.1.2 - Channels of Distribution"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "With the aid of examples, explain three (3) investment ratios available to a firm.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Investment ratios help equity shareholders and other investors assess the value and quality of an investment in a company's shares.",
+                  "mainPoints": [
+                    {
+                      "heading": "Earnings per Share (EPS)",
+                      "detail": "This represents the net income earned for each share of outstanding common stock. Example: If a company has a net profit of GH¢100,000 and 50,000 ordinary shares, its EPS is GH¢2 per share."
+                    },
+                    {
+                      "heading": "Dividend per Share",
+                      "detail": "This indicates the amount of dividend payable on each share in a particular accounting year. Example: If a company pays a total dividend of GH¢20,000 and has 50,000 ordinary shares, the dividend per share is GH¢0.40."
+                    },
+                    {
+                      "heading": "Price/Earnings Ratio",
+                      "detail": "This indicates the number of years' purchase of the earnings that make up the current market value of a share. Example: If a company's market price per share is GH¢10 and its EPS is GH¢2, the P/E ratio is 5."
+                    }
+                  ],
+                  "conclusion": "These ratios are crucial for potential investors who are thinking of investing in a company.",
+                  "otherPossibleAnswers": "Dividend Cover, Payout Ratio, Earnings Yield, Dividend Yield.",
+                  "reference": "Unit 6, Session 6 - b. Investment Ratios"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Discuss three (3) institutional support to small businesses in Ghana.",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "The Ghanaian government has established several institutions to provide support for entrepreneurs and small business owners.",
+                  "mainPoints": [
+                    {
+                      "heading": "Venture Capital Trust Fund (VCTF)",
+                      "detail": "Provides low-cost financing (credit and equity) to businesses through venture capital financing companies to help them grow, create wealth, and jobs."
+                    },
+                    {
+                      "heading": "National Board for Small Scale Industries (NBSSI)",
+                      "detail": "An apex body for SSE development that promotes entrepreneurship, provides extension services, and administers a loan revolving fund scheme."
+                    },
+                    {
+                      "heading": "Business Assistance Fund (BAF)",
+                      "detail": "Introduced to restore the productive capacity of enterprises with proven potential, providing loans at a subsidized interest rate to SSEs in productive sectors."
+                    }
+                  ],
+                  "conclusion": "These institutions play a vital role in providing financial and technical support to grow the small business sector in Ghana.",
+                  "otherPossibleAnswers": "PAMSCAD Credit Line, Export Development and Investment Fund (EDIF), GRATIS.",
+                  "reference": "Unit 6, Session 4, 4.1, 4.2 & 4.3 - VCTF, NBSSI & BAF"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Identify and explain four (4) sources of long term finance to small firms.",
+                "marks": 8,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Long-term sources of finance are those needed over a longer period, generally over a year, for activities like expansion or buying new premises.",
+                  "mainPoints": [
+                    {
+                      "heading": "Shares",
+                      "detail": "Capital raised by issuing shares to the public. Equity shares represent ownership, while preference shares have a preferential claim on dividends."
+                    },
+                    {
+                      "heading": "Debentures",
+                      "detail": "A loan raised by a company by issuing an instrument, acknowledging its debt. Debenture holders receive fixed interest payments."
+                    },
+                    {
+                      "heading": "Asset Leasing",
+                      "detail": "An agreement where the lessor owns an asset but allows the lessee to use it in exchange for payments, a form of rental."
+                    },
+                    {
+                      "heading": "Mortgage",
+                      "detail": "A long-term secured loan, usually on a property or other fixed asset, where the asset acts as security for the loan."
+                    }
+                  ],
+                  "conclusion": "The choice of source depends on factors like the amount required, cost, and the firm's ability to provide security.",
+                  "otherPossibleAnswers": "Venture Capital.",
+                  "reference": "Unit 6, Session 2, 2.1 - Sources of Long Term Finance"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Identify and explain the different stages involved in the marketing research process.",
+                "marks": 8,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "The goal of marketing research is to minimise the risks associated with making business decisions through a systematic process.",
+                  "mainPoints": [
+                    {
+                      "heading": "Define the problem",
+                      "detail": "The first step is to define the specific nature of the problem to be investigated clearly and briefly."
+                    },
+                    {
+                      "heading": "Collect the data",
+                      "detail": "This involves gathering information from internal sources (business records) and external sources (secondary and primary data)."
+                    },
+                    {
+                      "heading": "Analyse and interpret the data",
+                      "detail": "The collected data is evaluated, and meaning is attached to it in response to the research objectives."
+                    },
+                    {
+                      "heading": "Draw conclusions",
+                      "detail": "Based on the analysis, the business owner decides how to use the information in their business."
+                    }
+                  ],
+                  "conclusion": "The marketing research process is complete only when the business owner acts on the information collected.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.3 - Conducting Marketing Research"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Explain any four (4) types of business informational resources that can be utilized by entrepreneurs.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Business information is knowledge about specific events or situations that has been gathered to aid in decision-making.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market Information",
+                      "detail": "Data on market size, growth, consumer spending, needs, and behavior, crucial for new product development and marketing plans."
+                    },
+                    {
+                      "heading": "Competitor Information",
+                      "detail": "Information about competitors' locations, activities, and performance, which is vital for strategic positioning."
+                    },
+                    {
+                      "heading": "Production Information",
+                      "detail": "Internal data on production efficiency, cost, wastage, and quality, ensuring operations can meet promised customer demand."
+                    },
+                    {
+                      "heading": "Human Resources Information",
+                      "detail": "Information on staff training, skill levels, morale, and staffing costs to manage the organization's valued assets."
+                    }
+                  ],
+                  "conclusion": "Access to and effective management of these information resources helps entrepreneurs reduce risk and overcome communication barriers.",
+                  "otherPossibleAnswers": "Macroeconomic information, Supplier information, External financial information, Information on regulations, Internal financial information.",
+                  "reference": "Unit 4, Session 3, 3.2 - Types of Business Information"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Evaluate two (2) strategies firms can use in utilizing resources.",
+                "marks": 4,
+                "commandWord": "Evaluate",
+                "answer": {
+                  "introduction": "Successful entrepreneurs seek to control and utilise resources efficiently rather than always owning them outright.",
+                  "mainPoints": [
+                    {
+                      "heading": "Control resources rather than own them",
+                      "detail": "This strategy requires less capital, provides flexibility, lowers sunk costs, and reduces risk."
+                    },
+                    {
+                      "heading": "Use the minimum possible amount of resources",
+                      "detail": "Entrepreneurs should seek to use the minimum amount of resources at each stage of the venture's growth."
+                    }
+                  ],
+                  "conclusion": "These strategies help entrepreneurs maximize their venture's potential by focusing on strategic needs and preserving capital.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 6, 6.3 - Resource Utilisation Strategy"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Examine the possible disadvantages of buying existing business.",
+                "marks": 6,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "While buying an existing business can offer advantages, potential entrepreneurs should be aware of its possible drawbacks.",
+                  "mainPoints": [
+                    {
+                      "heading": "Potential ill will",
+                      "detail": "The previous owner may have created negative feelings among customers, suppliers, or employees that the new owner inherits."
+                    },
+                    {
+                      "heading": "Buying possible liabilities with assets",
+                      "detail": "Even if only assets are purchased, liabilities like employee claims can still be attached to them."
+                    },
+                    {
+                      "heading": "Inherited employees may be unsuitable",
+                      "detail": "The current employees may not possess the skills needed for the new owner's plans for the business."
+                    },
+                    {
+                      "heading": "The location may have become unsatisfactory",
+                      "detail": "The business location may become obsolete as market and demographic trends change."
+                    }
+                  ],
+                  "conclusion": "A thorough investigation is needed before purchase to avoid inheriting these problems.",
+                  "otherPossibleAnswers": "Risk in intangible assets; Equipment may be obsolete; \"It's a dog\" (unprofitable); Not all my own work.",
+                  "reference": "Unit 2, Session 5, 5.2 - Disadvantages of Buying an Existing Business"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Describe the different types of franchising available to a would be entrepreneur.",
+                "marks": 6,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Franchising is a business agreement where a franchisor grants a franchisee the right to sell a product or service.",
+                  "mainPoints": [
+                    {
+                      "heading": "Trade name franchising",
+                      "detail": "The franchisee buys the right to be identified with the franchisor's trade name without distributing particular products exclusively."
+                    },
+                    {
+                      "heading": "Product distribution franchising",
+                      "detail": "The franchisee is licensed to sell specific products under the franchisor's brand name and trademark via a limited distribution network."
+                    },
+                    {
+                      "heading": "Pure (Business format) franchising",
+                      "detail": "This provides the franchisee with a complete business format, including trade name, products, methods of operation, and a marketing strategy."
+                    }
+                  ],
+                  "conclusion": "Each type offers a different level of involvement and support, with pure franchising being the most comprehensive relationship.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.2 - Types of Franchising"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Discuss two (2) advantages and disadvantages each of franchising to the franchisee.",
+                "marks": 8,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Franchising offers an entrepreneur a way to own a business with a higher probability of success, but it also comes with specific limitations.",
+                  "mainPoints": [
+                    {
+                      "heading": "Advantage — Product acceptance",
+                      "detail": "The franchisee enters a business with an accepted name and product, eliminating the need to build credibility from scratch."
+                    },
+                    {
+                      "heading": "Advantage — Management training and support",
+                      "detail": "Franchisors offer training programs and ongoing counselling services to educate new owners."
+                    },
+                    {
+                      "heading": "Disadvantage — Franchise fees and profit sharing",
+                      "detail": "The financial costs can be considerable, with large upfront fees and high royalties from sales revenues."
+                    },
+                    {
+                      "heading": "Disadvantage — Lack of independence",
+                      "detail": "The franchisee must adhere to the franchisor's operating and structural control standards to protect the public image."
+                    }
+                  ],
+                  "conclusion": "A potential franchisee must weigh the benefits of an established system against the costs and loss of autonomy.",
+                  "otherPossibleAnswers": "Advantages: Knowledge of the market, Standardized quality. Disadvantages: Limited product line, Less freedom, Unsatisfactory training programmes.",
+                  "reference": "Unit 2, Session 6, 6.3.1 & 6.3.2 - Advantages and Disadvantages for Franchisees"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
