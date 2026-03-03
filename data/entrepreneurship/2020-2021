@@ -1,0 +1,380 @@
+{
+  "subject": "Entrepreneurship and Small Enterprise Management",
+  "subjectCode": "SBU 408D",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Which option of Small Business buying combines outside and inside management in the purchase of a firm?",
+          "options": [
+            "A. Buy-out",
+            "B. Buy-in",
+            "C. Outright purchase",
+            "D. Buy-in Management buy-out"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The Buy-in Management Buy-out (BIMBO) is a variation that combines outside and inside management in the purchase of a firm.",
+          "reference": "Unit 2, Session 4, 4.1.4 - Buy-in Management buy-out"
+        },
+        {
+          "type": "single",
+          "question": "Business plans can be triggered by various events and reasons. Which of the following is not one of the various events and reasons?",
+          "options": [
+            "A. Ongoing review",
+            "B. Major Decision",
+            "C. Business sale",
+            "D. Start up"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Business plans can be triggered by start-up, business purchase, ongoing review, and major decisions, not by business sale.",
+          "reference": "Unit 3, Session 1, 1.2 - When to Plan?"
+        },
+        {
+          "type": "single",
+          "question": "Resources are said to be ______ when competitors cannot meet copy them.",
+          "options": [
+            "A. non-substitutable",
+            "B. substitutable",
+            "C. perfectly imitable",
+            "D. imperfectly imitable"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Resources are imperfectly imitable when competitors cannot merely copy them.",
+          "reference": "Unit 4, Session 1, 1.3 - Imperfectly Imitable Resources"
+        },
+        {
+          "type": "single",
+          "question": "The following are all secondary source of data except ______.",
+          "options": [
+            "A. census reports",
+            "B. personal interviews",
+            "C. magazines",
+            "D. trade association"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Personal interviews are a method for collecting primary data, not a secondary source. Secondary sources include census reports, magazines, and trade associations.",
+          "reference": "Unit 5, Session 2, 2.3.2 - Collecting the Data"
+        },
+        {
+          "type": "single",
+          "question": "Selecting which segments in a market are appropriate to focus on and designing the means of reaching them can be termed as ______.",
+          "options": [
+            "A. target marketing",
+            "B. market targeting",
+            "C. market positioning",
+            "D. market segmentation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Market targeting involves selecting which segments in a market are appropriate to focus on and designing the means of reaching them.",
+          "reference": "Unit 5, Session 4, 4.2.2 - Market Targeting"
+        },
+        {
+          "type": "single",
+          "question": "The Executive summary of a business plan should be written by the entrepreneur before the total plan is prepared.",
+          "options": ["A. True", "B. False"],
+          "correctAnswer": "B",
+          "explanation": "The executive summary of the business plan should be written by the entrepreneur after the total plan is prepared.",
+          "reference": "Unit 3, Session 4, 4.2 - Executive Summary"
+        },
+        {
+          "type": "single",
+          "question": "One of the disadvantages of buying existing business is overcoming barriers to entry.",
+          "options": ["A. True", "B. False"],
+          "correctAnswer": "B",
+          "explanation": "Overcoming barriers to market entry is an advantage of buying an existing business, not a disadvantage.",
+          "reference": "Unit 2, Session 5, 5.1 - Advantages of Buying an Existing Business"
+        },
+        {
+          "type": "single",
+          "question": "Filing cabinet can be classified as commercial product.",
+          "options": ["A. True", "B. False"],
+          "correctAnswer": "A",
+          "explanation": "Office supplies, typewriters, and filing cabinets are examples of commercial goods because they are indirectly consumed in the production of other goods.",
+          "reference": "Unit 5, Session 5, 5.2.1 - Product Classification"
+        },
+        {
+          "type": "single",
+          "question": "Business format franchising is one of the major types of franchising.",
+          "options": ["A. True", "B. False"],
+          "correctAnswer": "A",
+          "explanation": "The three main types of franchising are trade name, product distribution, and pure (or comprehensive or business format) franchising.",
+          "reference": "Unit 2, Session 6, 6.2 - Types of Franchising"
+        },
+        {
+          "type": "single",
+          "question": "An instrument issued by a company to acknowledge the loan taken by the company under its common seal is referred to as venture capital.",
+          "options": ["A. True", "B. False"],
+          "correctAnswer": "B",
+          "explanation": "A debenture is an instrument issued by a company to acknowledge the loan taken by the company under its common seal.",
+          "reference": "Unit 6, Session 2, 2.1.b - Debentures"
+        },
+        {
+          "type": "single",
+          "question": "The word entrepreneur is derived from the French word 'entreprendre' which means, to ______.",
+          "options": [
+            "A. undertake",
+            "B. create",
+            "C. develop",
+            "D. innovate"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The word entrepreneur is derived from the French word 'entrepreneur', which means, \"to undertake.\"",
+          "reference": "Unit 1, Session 1, 1.1 - The Evolution of Entrepreneur and Entrepreneurship"
+        },
+        {
+          "type": "single",
+          "question": "Entrepreneurs who tend to think not in terms of a grand vision, but in terms of what can be exploited in their environment is referred to as ______.",
+          "options": [
+            "A. Nascent",
+            "B. Novice",
+            "C. Opportunist",
+            "D. Craft"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Opportunists' entrepreneurs tend to think not in terms of a grand vision, but in terms of what can be exploited in their environment.",
+          "reference": "Unit 1, Session 1, 1.3 - Types of Entrepreneurs"
+        },
+        {
+          "type": "single",
+          "question": "Entrepreneurial research has identified a number of personality characteristics that differentiate entrepreneurs from others. Which of the following is not a personality characteristics?",
+          "options": [
+            "A. Negative Displacement",
+            "B. Need for Achievement",
+            "C. Locust of Control",
+            "D. Risk taking"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Negative displacement is a factor in the sociological approach, not a personality characteristic. Personality traits include need for achievement, locus of control, and risk-taking propensity.",
+          "reference": "Unit 1, Session 3, 3.2.1 & 3.2.2 - Personality Characteristics & Sociological Approach"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a method used by entrepreneurs to generate and test new ideas?",
+          "options": [
+            "A. Focus Group",
+            "B. Problem inventory analysis",
+            "C. Research and Development",
+            "D. Brainstorming"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Research and development is a source of new ideas, but the methods for generating and testing ideas are focus groups, brainstorming, and problem inventory analysis.",
+          "reference": "Unit 2, Session 2, 2.1.5 & 2.2 - Research and Development & Methods for Generating Ideas"
+        },
+        {
+          "type": "single",
+          "question": "The phases of a new venture include the following except ______.",
+          "options": [
+            "A. pre start up",
+            "B. mid start up",
+            "C. post start up",
+            "D. start up"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A new venture goes through three phases: pre-start-up, start-up, and post-start-up. \"Mid start-up\" is not a defined phase.",
+          "reference": "Unit 2, Session 3, 3.1.1 - The Phases of a New Venture"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a factor to be considered when assessing the credit worthiness of a venture/entrepreneur?",
+          "options": [
+            "A. Capability",
+            "B. Circumstances",
+            "C. Character",
+            "D. Guarantees"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The factors for assessing creditworthiness are Character, Capacity, Circumstances, Insurance Cover, and Guarantees.",
+          "reference": "Unit 6, Session 3, 3.1 - Sources of Short Term Finance"
+        },
+        {
+          "type": "single",
+          "question": "Which type of ratios measure the firm's ability to meet its short-term obligations when they fall due?",
+          "options": [
+            "A. Liquidity Ratio",
+            "B. Leverage Ratio",
+            "C. Investment Ratio",
+            "D. Profitability Ratio"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Liquidity ratios provide a quick measure of a firm's ability to provide sufficient cash to conduct business and meet short-term obligations.",
+          "reference": "Unit 6, Session 5, 5.2.b - Liquidity Ratios"
+        },
+        {
+          "type": "single",
+          "question": "To evaluate the effectiveness of the HRM Process within an organization, the Harvard researchers have proposed a four C's model for human resources outcomes: Which of the following is not part of the four C's?",
+          "options": [
+            "A. Confidence",
+            "B. Congruence",
+            "C. Competence",
+            "D. Commitment"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The four C's model for human resources outcomes consists of commitment, competence, congruence, and cost effectiveness.",
+          "reference": "Unit 4, Session 4, 4.3 - The Four C's Model for Evaluating Human Resources"
+        },
+        {
+          "type": "single",
+          "question": "The tendency of a manager rating subordinates high or low on all performance measures based on one of their characteristics is referred to as",
+          "options": [
+            "A. shifting standards",
+            "B. bias",
+            "C. different rating pattern",
+            "D. the Halo Effect"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The halo effect is the common tendency to rate subordinates high or low on all performance measures based on one of their characteristics.",
+          "reference": "Unit 4, Session 4, 4.2.g.iv - The halo effect"
+        },
+        {
+          "type": "single",
+          "question": "The Ghanaian government in an attempt to strengthen the responsibility of private sector to economic reforms in 1992, proposed the establishment of the following institutions except",
+          "options": [
+            "A. National Board for Small Scale Industries (NBSSI).",
+            "B. Micro-Finance and Small Loan Centre (MASLOC).",
+            "C. The Venture Capital Trust Fund.",
+            "D. Ghana National Petroleum Company (GNPC)."
+          ],
+          "correctAnswer": "D",
+          "explanation": "The government proposed institutions like NBSSI, MASLOC, and VCTF to support small businesses. GNPC is a state-owned company in the oil and gas sector, not specifically for small business support.",
+          "reference": "Unit 6, Session 4 - Government and Institutional Support to Small Scale Enterprises"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 15,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Define a firm's resources",
+                "marks": 2,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "A firm's resources are the tangible and intangible assets it owns and controls.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition of a Resource",
+                      "detail": "A resource is anything thought of as a strength or weakness of a given firm."
+                    },
+                    {
+                      "heading": "Formal Definition",
+                      "detail": "More formally, a firm's resources are those tangible and intangible assets that are tied semi-permanently to the firm."
+                    }
+                  ],
+                  "conclusion": "These resources enable the firm to produce efficient and/or effective market offerings.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1, 1.1 - Nature of Firm Resources"
+                }
+              },
+              {
+                "label": "b",
+                "question": "A firm is not able to implement its strategies without adequate resources. This means that a firm's resources substantially affect how its business model is used. State and explain four qualities of strategic business resource.",
+                "marks": 3,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "For resources to provide a competitive advantage, they must possess four key qualities.",
+                  "mainPoints": [
+                    {
+                      "heading": "Valuable",
+                      "detail": "Resources are valuable because they exploit some environmental opportunity or neutralize a threat."
+                    },
+                    {
+                      "heading": "Rare",
+                      "detail": "Resources are rare in the sense that there are not enough for all competitors."
+                    },
+                    {
+                      "heading": "Imperfectly imitable",
+                      "detail": "Resources are imperfectly imitable when competitors cannot merely copy them."
+                    },
+                    {
+                      "heading": "Non-substitutable",
+                      "detail": "These are resources that cannot be substituted with other, strategically equivalent, common resources."
+                    }
+                  ],
+                  "conclusion": "These attributes ensure that a firm's strategic resources can be a source of sustained competitive advantage.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Procuring materials is a key management function for any business. Discuss the five steps involved in the procurement process and give examples when necessary.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "The procurement process ensures a steady flow of materials and services while obtaining the best value for money.",
+                  "mainPoints": [
+                    {
+                      "heading": "Initiate a request",
+                      "detail": "A department sends a requisition to purchasing, describing the item, quantity, quality, and desired delivery date."
+                    },
+                    {
+                      "heading": "Verify and select sources",
+                      "detail": "Purchasing verifies specifications and identifies potential suppliers with the capacity to deliver the desired goods."
+                    },
+                    {
+                      "heading": "Determine the best offer",
+                      "detail": "Purchasing reviews quotations based on costs, delivery time, warranties, and adherence to specifications."
+                    },
+                    {
+                      "heading": "Award and send the order",
+                      "detail": "When an order is awarded, it is faxed or mailed to the supplier, accompanied by terms and conditions."
+                    },
+                    {
+                      "heading": "Process payment and delivery",
+                      "detail": "The supplier delivers, the customer records delivery, and the invoice is cross-checked with the purchase order before payment is made."
+                    }
+                  ],
+                  "conclusion": "Following these steps helps the purchasing department keep costs down, ensure supply continuity, and reduce lead times.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 2.3.1 - Steps in the Purchasing Process"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "A product might be categorized in terms of who purchases them and what their intended use is. Explain with examples the three classifications of a product.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Products can be categorized into consumer, industrial, and commercial products based on who purchases them and their intended use.",
+                  "mainPoints": [
+                    {
+                      "heading": "Consumer products",
+                      "detail": "Goods and services purchased for final consumption by people. Example: Cars, clothing, and appliances bought for personal use."
+                    },
+                    {
+                      "heading": "Industrial products",
+                      "detail": "Purchased by businesses for use directly in the production of other products. Example: Raw materials, machinery, and equipment."
+                    },
+                    {
+                      "heading": "Commercial products",
+                      "detail": "Products that are not used directly in production but assist in that production. Example: Office supplies, typewriters, and filing cabinets."
+                    }
+                  ],
+                  "conclusion": "This classification helps businesses understand their target market and develop appropriate marketing strategies.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.2.1 - Product Classification"
+                }
+              },
+              {
+                "label": "b",
+                "question": "With the aid of a diagram explain, the stages of a product life cycle highlighting three activities that are likely to occur at each of the levels.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The product life cycle (PLC) measures the stages of growth a product moves through from introduction to decline.",
+                  "mainPoints": [
+                    {
+                      "heading": "Introductory Stage",
+                      "detail": "The product
