@@ -1,6 +1,6 @@
 # ExamPrep App
 
-A comprehensive exam preparation app for Entrepreneurship and Small Enterprise Management (SBU 408D).
+A comprehensive exam preparation app for UCC PSCM Level 400 College of Education (CoDE) students.
 
 ## Features
 - Multiple academic years (2019-2020 to 2024-2025)
@@ -11,7 +11,7 @@ A comprehensive exam preparation app for Entrepreneurship and Small Enterprise M
 
 ## Subjects Available
 - Entrepreneurship (SBU 408D) - 6 academic years
-- Project Management (SBU 405) - Coming soon
+- Project Management (SBU 405) - 5 academic years
 - Sustainable Procurement (PCM 401D) - Coming soon
 - Risk Management (PCM 403D) - Coming soon
 - Lean and Six Sigma (PCM 409D) - Coming soon
