@@ -1,0 +1,661 @@
+{
+  "subject": "Sustainable Procurement",
+  "subjectCode": "PCM 401D",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "What is the third step of Early Influence on sustainability?",
+          "options": [
+            "A. Identify positive impacts achievable by your procurement",
+            "B. Engage the market early",
+            "C. Aim to reduce consumption at the start",
+            "D. Challenge the status quo"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The seven steps of early influence are: 1. Reduce consumption, 2. Develop understanding of business need, 3. Challenge the status quo, 4. Understand the power of your spending, 5. Identify positive impacts, 6. Consider whole life issues, 7. Engage the market early.",
+          "reference": "Unit 4, Session 1, 4.1 - Seven steps of early influence on sustainability"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a way a buyer can influence the sustainability of requirement definition?",
+          "options": [
+            "A. Challenging customer definitions of requirements",
+            "B. Using complement items in stock, outsourcing services, renting, leasing, and repairing existing assets",
+            "C. Attempting to change the designer and user mindset",
+            "D. None of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Options A, B, and C are all explicitly listed as ways buyers can influence sustainability. Therefore, \"None of the above\" is correct as there is no exception among them.",
+          "reference": "Unit 4, Session 1, 4.2 - Buyers can influence the sustainability of requirement definition in the following ways"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is an advantage of using Standards?",
+          "options": [
+            "A. To restrict the supplier’s ability to innovate.",
+            "B. To guarantee the lowest possible cost.",
+            "C. A wider range of potential suppliers and less reliance on specialist suppliers.",
+            "D. To eliminate the need for quality control."
+          ],
+          "correctAnswer": "C",
+          "explanation": "One key advantage of using standards is that they provide a wider range of potential suppliers and less reliance on specialist suppliers because of the general application of the standard.",
+          "reference": "Unit 4, Session 2, 4.6 - Advantages of using standards"
+        },
+        {
+          "type": "single",
+          "question": "The act of entering into early dialogue with potential suppliers in relation to a given contract or requirement can be best termed as ______.",
+          "options": [
+            "A. Negotiation",
+            "B. Early Supplier Involvement",
+            "C. Contracting",
+            "D. Market Engagement"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Market engagement is defined as entering into early dialogue with potential suppliers in relation to a given contract or requirement.",
+          "reference": "Unit 4, Session 3, 4.4 - Market Engagement"
+        },
+        {
+          "type": "single",
+          "question": "The choice of negotiating approach and tactics, and the ethical use of power in negotiation, is important for the following reasons, except? To ______.",
+          "options": [
+            "A. support sustainability outcomes in the supply chain by using legitimate influence to drive change and improvements",
+            "B. support sustainability outcomes in the supply chain by using influence responsibly",
+            "C. maintain sustainable and sustainability-supporting supplier relationships, by not negotiating in an adversarial way that might damage future relationships",
+            "D. ensure that sustainability clauses can be used as leverage in future renegotiations"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Options A, B, and C are explicitly listed as reasons for the importance of negotiating approach. Using sustainability clauses as leverage for future negotiations is not mentioned as a primary reason.",
+          "reference": "Unit 4, Session 4, 4.2 - Negotiating Approach and Tactics"
+        },
+        {
+          "type": "single",
+          "question": "In order to ensure fair competition and competitive value for money, buyers are generally obliged to award contracts on the basis of lowest price.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "While lowest price is one basis, buyers are generally obliged to award contracts on the basis of lowest price OR the most economically advantageous tender (MEAT).",
+          "reference": "Unit 5, Session 3, 3.3 - Contract award in the public sector"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following stands for MEAT?",
+          "options": [
+            "A. Most Environmental Advantageous Tender",
+            "B. Minimum Environmental Advantageous Tender",
+            "C. Most Economically Advantageous Tender",
+            "D. Minimum Economically Advantageous Tender"
+          ],
+          "correctAnswer": "C",
+          "explanation": "MEAT stands for Most Economically Advantageous Tender, a method allowing contract award based on aspects other than just price, such as quality and life cycle costs.",
+          "reference": "Unit 5, Session 3, 3.3 - Contract award in the public sector"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is defined by ISO 14001 as a 'policy statement of intended action which may or may not be quantified'.",
+          "options": [
+            "A. Target",
+            "B. Indicator",
+            "C. Standard",
+            "D. Objective"
+          ],
+          "correctAnswer": "D",
+          "explanation": "An objective is defined by ISO 14001 as a 'policy statement of intended action which may or may not be quantified'.",
+          "reference": "Unit 5, Session 4, 4.4 - Setting Sustainability Targets and Objectives"
+        },
+        {
+          "type": "single",
+          "question": "The key perspectives of Kaplan and Norton on the balanced scorecard are ______.\nI. Financial\nII. Customer\nIII. Innovation and Organizational learning\nIV. Internal business processes",
+          "options": [
+            "A. I and II only",
+            "B. I, III and IV only",
+            "C. II and III only",
+            "D. I, II, III and IV"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Kaplan and Norton proposed four key perspectives for a balanced scorecard: Financial, Customer, Internal Business Processes, and Innovation and Organisational Learning.",
+          "reference": "Unit 5, Session 5, 5.7.1 - Four key perspectives of Kaplan and Norton on the balance score card"
+        },
+        {
+          "type": "single",
+          "question": "All but one of the following is not an approach for evaluating sustainability performance of a supply chain.",
+          "options": [
+            "A. Balanced Scorecard",
+            "B. Carters 10Cs",
+            "C. CSR Sustainability Index",
+            "D. Life Cycle Assessment"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The listed approaches for evaluating sustainability performance are the Balanced Scorecard, Life Cycle Assessment (LCA), and the CSR Sustainability Index. \"Carters 10Cs\" is not mentioned as a sustainability evaluation tool in the provided material.",
+          "reference": "Unit 6, Session 4, 4.3 - Approaches for monitoring and measuring sustainability performance"
+        },
+        {
+          "type": "single",
+          "question": "The following are areas necessary for supply chain audits except ______.",
+          "options": [
+            "A. business registration processes",
+            "B. demand management",
+            "C. order fulfilments",
+            "D. returns management"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The supply chain management processes identified for audit include Customer Relationship Management, Supplier Relationship Management, Demand Management, Order Fulfilments, and Returns Management. Business registration processes are not listed.",
+          "reference": "Unit 6, Session 6, 6.4 - Areas necessary for supply chain audits"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following involves making decisions and taking action that are in the interests of protecting the natural world, with particular emphasis on preserving the capability of the environment to support human life.",
+          "options": [
+            "A. Environmental sustainability",
+            "B. Ecological sustainability",
+            "C. Sustainability promotion",
+            "D. Natural resource sustainability"
+          ],
+          "correctAnswer": "A",
+          "explanation": "This is the definition of environmental sustainability: \"making decisions and taking action that are in the interests of protecting the natural world, with particular emphasis on preserving the capability of the environment to support human life.\"",
+          "reference": "Unit 2, Session 5, 5.1 - Meaning of Environmental Sustainability"
+        },
+        {
+          "type": "single",
+          "question": "The following are dimensions of the categories of sustainability measures, except ______.",
+          "options": [
+            "A. achieving a flexible framework",
+            "B. emission of carbon dioxide",
+            "C. reduction in waste sent to landfill.",
+            "D. staff trained in sustainable procurement."
+          ],
+          "correctAnswer": "A",
+          "explanation": "The BSI suggests measures are categorised as Management (e.g., staff trained), Operational (e.g., waste reduction), and Environmental Condition (e.g., CO2 emissions). \"Achieving a flexible framework\" is not a listed dimension.",
+          "reference": "Unit 5, Session 5, 5.2 - Types of performance measure for sustainability"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a driver of sustainable procurement?",
+          "options": [
+            "A. Economic drivers",
+            "B. Financial drivers",
+            "C. Cost savings and value",
+            "D. Risk drivers"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The text lists Financial Drivers, Marketing Drivers, Organizational Value Drivers, Risk Drivers, and Stakeholder Drivers. \"Economic drivers\" is a broad category but not one of the specifically named drivers.",
+          "reference": "Unit 1, Session 4, 4.3.1 to 4.3.7 - Drivers of Sustainable Procurement"
+        },
+        {
+          "type": "single",
+          "question": "Risk management strategies include all the following except ______.",
+          "options": [
+            "A. tolerate",
+            "B. terminate",
+            "C. transfer",
+            "D. tackle"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The 4Ts of risk management are Tolerate, Transfer, Terminate, and Treat. \"Tackle\" is not one of the four standard strategies.",
+          "reference": "Unit 3, Session 5, 3.6.2 - Risk Mitigation"
+        },
+        {
+          "type": "single",
+          "question": "According to the BS 8900 series, which of the following is not a part of its principles and values?",
+          "options": [
+            "A. Inclusivity",
+            "B. Due diligence",
+            "C. Integrity",
+            "D. Transparency"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The BS 8900 series principles and values include inclusivity, integrity, and stewardship. Transparency is also a key principle. \"Due diligence\" is not listed as one of its core principles.",
+          "reference": "Unit 1, Session 4, 4.2 - Sustainable Procurement Principles (Table)"
+        },
+        {
+          "type": "single",
+          "question": "The buying power of large global purchasers gives them the ability to bargain hard with suppliers—and in the case of small, less powerful suppliers, to dictate and enforce prices and terms of trade to suit their own interests.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "This statement accurately reflects the reality of power imbalance, where large buyers can dictate terms to smaller, less powerful suppliers, which can have adverse effects.",
+          "reference": "Unit 3, Session 3, 3.2 - Irresponsible Use of Power in Supply Chains"
+        },
+        {
+          "type": "single",
+          "question": "Looking beyond the traditional economic parameters and making decisions based on the whole life cost, associated risks, measures of success and the implications for society, and the environment is defined as ______.",
+          "options": [
+            "A. Logistics management",
+            "B. Strategic procurement",
+            "C. Sustainable procurement",
+            "D. Value for money"
+          ],
+          "correctAnswer": "C",
+          "explanation": "This is the definition of sustainable procurement: taking social and environmental factors into consideration alongside financial factors and looking beyond traditional economic parameters.",
+          "reference": "Unit 1, Session 4, 4.1 - Definition and nature of sustainable procurement"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a driving factor of sustainability in procurement?",
+          "options": [
+            "A. Branding",
+            "B. Improved Analytic Tools",
+            "C. Market Penetration of the IS Tool",
+            "D. Reinvigorated Supply Chain School"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The listed driving factors are Improved Analytic Tools, Development of ISO20400, Reinvigorated Supply Chain School, Market Penetration of the IS Tool, and New Developments in Product Labelling. Branding is not one of these specific drivers.",
+          "reference": "Unit 1, Session 2, 2.6 - The factors driving sustainability in procurement"
+        },
+        {
+          "type": "single",
+          "question": "All the following are reasons why managers would resist responsible procurement except if ______.",
+          "options": [
+            "A. it is perceived as a public relations exercise",
+            "B. it is perceived as being soft or subjective, without a sound business case to justify effort and investment",
+            "C. it threatens the status quo, established norms and procedures and established competencies and relationships.",
+            "D. None of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Options A, B, and C are all listed as reasons for resistance. Therefore, \"None of the above\" is the correct choice as it is not an exception.",
+          "reference": "Unit 3, Session 4, 3.1 - Reasons for Resisting Responsible Procurement"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Outline and explain the approaches to waste management under the waste hierarchy",
+                "marks": 8,
+                "commandWord": "Outline and explain",
+                "answer": {
+                  "introduction": "The waste hierarchy provides a framework for managing waste by prioritising the most environmentally sound options.",
+                  "mainPoints": [
+                    {
+                      "heading": "Reduce",
+                      "detail": "This is the top priority. It means ensuring products are definitely needed, are durable and fit for purpose, and that packaging is the minimum necessary for protection."
+                    },
+                    {
+                      "heading": "Re-use",
+                      "detail": "Before recycling or disposal, consider if items can be used again. This involves checking for redundant equipment that could be redeployed or giving preference to suppliers with take-back schemes."
+                    },
+                    {
+                      "heading": "Recycle",
+                      "detail": "If an item cannot be reused, it should be recycled. This means specifying products made from recovered materials and purchasing items designed for ease of recycling."
+                    },
+                    {
+                      "heading": "Rethink",
+                      "detail": "This involves re-evaluating precedents and assumptions. It is the process of considering and evaluating all options and alternatives to find the most sustainable approach from the start."
+                    }
+                  ],
+                  "conclusion": "Following this hierarchy—Reduce, Re-use, Recycle, and Rethink—helps organisations minimise waste, conserve resources, and lower their environmental footprint.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1, 4.3 - The Waste Hierarchy"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Differentiate between conformance and performance specification.",
+                "marks": 6,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "The key difference lies in how the requirement is described: by its precise characteristics or by its intended function.",
+                  "mainPoints": [
+                    {
+                      "heading": "Conformance Specification",
+                      "detail": "The buyer details the exact characteristics, content, or design of the purchased item (e.g., an engineering drawing or a brand name). The supplier's task is to conform to this precise description."
+                    },
+                    {
+                      "heading": "Performance Specification",
+                      "detail": "The buyer describes what the item should achieve in terms of function, performance level, or outcome. It is then up to the supplier to propose a product or solution that meets these functional requirements."
+                    }
+                  ],
+                  "conclusion": "Conformance specs prescribe the solution, while performance specs define the problem to be solved, allowing for greater supplier innovation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 4.3 - Conformance and Performance Specifications"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Discuss the sustainability considerations in specifications under the following:\ni. Economic consideration (2 marks)\nii. Social and ethical considerations (2 marks)\niii. Environmental consideration (2 marks)",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "When developing specifications, it is crucial to integrate economic, social, and environmental considerations to ensure holistic sustainability.",
+                  "mainPoints": [
+                    {
+                      "heading": "Economic consideration",
+                      "detail": "Ask if there is a genuine business need for the product or service. Can the need be met with less cost, resource use, or variety in a way that promotes greater operational efficiency?"
+                    },
+                    {
+                      "heading": "Social and ethical considerations",
+                      "detail": "Ensure the specification does not unfairly exclude small and diverse suppliers. It should embody ethical and fair-trade practices and require minimum standards for human rights and labour conditions in the supply chain."
+                    },
+                    {
+                      "heading": "Environmental consideration",
+                      "detail": "The specification should require specific minimum standards of environmental performance. It should promote environmental management systems in the supply chain and be formulated to maximise support for sustainable principles without compromising functionality."
+                    }
+                  ],
+                  "conclusion": "By addressing all three pillars—economic, social, and environmental—in the specification, an organisation ensures its procurement activities are truly sustainable.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 4.4 - Sustainability Considerations in Specifications"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State and explain any three criteria that fall under a sustainable price for a buyer to pay.",
+                "marks": 6,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "A sustainable price is one that balances the buyer's need for value with the supplier's need for viability and ethical operations.",
+                  "mainPoints": [
+                    {
+                      "heading": "A price which the purchaser can afford",
+                      "detail": "The price must fit within the buyer's budget and financial constraints, ensuring the purchase is feasible and sustainable for the buying organisation itself."
+                    },
+                    {
+                      "heading": "A price which appears fair and reasonable",
+                      "detail": "The price should represent value for money for the total package of benefits being purchased, considering quality, service, and sustainability attributes, not just the lowest cost."
+                    },
+                    {
+                      "heading": "A price which supports security and sustainability of supply",
+                      "detail": "The price must be sufficient to protect the financial viability of suppliers, enabling them to pay living wages, maintain decent working conditions, and invest in further sustainability improvements."
+                    }
+                  ],
+                  "conclusion": "A sustainable price, therefore, is not just about the lowest cost but about ensuring long-term value, supplier stability, and ethical practices throughout the chain.",
+                  "otherPossibleAnswers": "A price which gives the purchaser a cost or quality advantage: It should enable the buyer to compete more effectively in its own markets, linking sustainable procurement to competitive advantage.",
+                  "reference": "Unit 4, Session 5, 4.1 - Sustainable Price"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Assess the three types of pricing arrangements.",
+                "marks": 6,
+                "commandWord": "Assess",
+                "answer": {
+                  "introduction": "Pricing arrangements in contracts define how the buyer will pay the supplier and allocate financial risk.",
+                  "mainPoints": [
+                    {
+                      "heading": "Fixed price agreements",
+                      "detail": "A schedule of fixed fees is agreed in advance. This is advantageous for the buyer as financial risk is known, but can be inflexible in volatile markets. Variants include CPA clauses or price review clauses."
+                    },
+                    {
+                      "heading": "Incentivised contracts",
+                      "detail": "The price includes mechanisms to motivate performance, such as bonus payments for meeting KPIs or cost-saving targets, or penalties for failure. This aligns supplier motivation with buyer objectives."
+                    },
+                    {
+                      "heading": "Cost-plus agreements",
+                      "detail": "The buyer reimburses the supplier for all allowable costs plus an agreed profit percentage. This transfers most financial risk to the buyer but ensures the supplier's costs are covered, useful for projects with uncertain scope."
+                    }
+                  ],
+                  "conclusion": "The choice of pricing arrangement depends on the nature of the purchase, market volatility, and the desired allocation of risk between buyer and supplier.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 5, 4.2 - Pricing Arrangements; 4.3 - Advantages of Fixed Price Adjustment"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain the following:\ni. Contract Development (2 marks)\nii. Market Engagement (2 marks)\niii. Early Supplier Involvement (2 marks)\niv. Contract Negotiation (2 marks)",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "These are key processes in the procurement cycle that help integrate sustainability into supplier relationships and agreements.",
+                  "mainPoints": [
+                    {
+                      "heading": "Contract Development",
+                      "detail": "The process of drafting and finalising contract terms that crystallise the commitments, responsibilities, and rights of both parties regarding sustainability issues, cost apportionment, and continuous improvement."
+                    },
+                    {
+                      "heading": "Market Engagement",
+                      "detail": "The act of entering into early dialogue with potential suppliers before finalising a specification, to understand their capabilities, harness their expertise, and signal demand for sustainability."
+                    },
+                    {
+                      "heading": "Early Supplier Involvement",
+                      "detail": "Involving suppliers at an early stage in product or service development (ideally at the design stage) to contribute technical expertise and make proactive suggestions for improvement."
+                    },
+                    {
+                      "heading": "Contract Negotiation",
+                      "detail": "The discussion and decision-making process used to reach a commercial agreement, secure stakeholder buy-in, and ensure contracts reflect a genuine agreement with a fair sharing of risk and reward."
+                    }
+                  ],
+                  "conclusion": "These processes, when managed effectively, build trust, foster innovation, and create a solid foundation for a sustainable and collaborative supply chain relationship.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 4, 4.1 - Contract Negotiation; 4.3 - Contract Development; Unit 4, Session 3, 4.4 - Market Engagement; 4.5 - Early Supplier Involvement"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain any two factors that influence sustainable objectives in the procurement process.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Several factors determine how and when sustainability objectives can be effectively integrated into the procurement process.",
+                  "mainPoints": [
+                    {
+                      "heading": "The capability, maturity and number of suppliers in the market",
+                      "detail": "If few suppliers can meet sustainability standards, the buyer may need to focus on development rather than strict requirements. A mature market with many capable suppliers allows for more stringent criteria."
+                    },
+                    {
+                      "heading": "The buyer's level of influence in the market",
+                      "detail": "This depends on the value and length of the proposed contract. A large, long-term contract gives the buyer more power to 'insist' on sustainability standards, as the contract is highly valuable to suppliers."
+                    }
+                  ],
+                  "conclusion": "Understanding these factors—supplier capability and buyer influence—helps in designing a procurement strategy that is both ambitious and achievable.",
+                  "otherPossibleAnswers": "The assessed level of supply chain vulnerability; Any regulatory frameworks governing the procurement process.",
+                  "reference": "Unit 5, Session 1, 1.2 - Factors Influencing sustainable objectives in the procurement process"
+                }
+              },
+              {
+                "label": "B",
+                "question": "With relevant examples, discuss the elements of the sustainable supplier selection process.",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "The sustainable supplier selection process involves embedding environmental and social criteria into the various stages of evaluating and choosing a supplier.",
+                  "mainPoints": [
+                    {
+                      "heading": "Selective request for quotation or invitation to tender",
+                      "detail": "The buyer may only invite suppliers that market research shows meet a mandatory sustainability requirement. Example: Only inviting suppliers to tender for office furniture if they can certify that the wood is from sustainable sources (e.g., FSC certified)."
+                    },
+                    {
+                      "heading": "Mandatory pre-qualification criteria",
+                      "detail": "The PQQ specifies minimum capabilities that respondents must have to pass the screening stage. Example: Requiring all potential suppliers for a construction project to have an ISO 14001-certified environmental management system."
+                    },
+                    {
+                      "heading": "Specifications and statements of requirement",
+                      "detail": "Prospective suppliers are encouraged to offer items that meet or exceed published sustainability specifications. Example: In the tender for IT equipment, the specification requires all monitors to have an Energy Star rating above a certain threshold."
+                    },
+                    {
+                      "heading": "Qualitative requirements",
+                      "detail": "Suppliers are asked to provide information on a range of criteria to allow their sustainability credentials to be evaluated and scored. Example: Asking logistics providers to describe their programmes in place to reduce fleet emissions or optimise delivery routes."
+                    }
+                  ],
+                  "conclusion": "By integrating sustainability at multiple points—from pre-qualification to final evaluation—the selection process ensures that chosen suppliers are not only capable but also committed to responsible practices.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.3 - Elements of the Sustainable Supplier Selection Process"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State four supplier appraisal procedures in shortlisting suppliers.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Supplier appraisal for shortlisting involves gathering and verifying information to identify the most suitable potential suppliers.",
+                  "mainPoints": [
+                    {
+                      "heading": "Questionnaires",
+                      "detail": "Pre-qualification or appraisal questionnaires, completed by suppliers."
+                    },
+                    {
+                      "heading": "Document perusal",
+                      "detail": "Perusal of the supplier's financial statements, reports, certifications, and past audit reports."
+                    },
+                    {
+                      "heading": "References",
+                      "detail": "Arranging to get references from customers, suppliers, and relevant NGOs."
+                    },
+                    {
+                      "heading": "Audits and visits",
+                      "detail": "Conducting supplier audits, site visits, or capability surveys for high-risk procurements."
+                    }
+                  ],
+                  "conclusion": "These procedures help verify the truth and accuracy of supplier claims and provide a deeper understanding of their capabilities and practices.",
+                  "otherPossibleAnswers": "Checking product samples or portfolios of work.",
+                  "reference": "Unit 5, Session 2, 2.2 - Appraisal and Shortlisting of Suppliers"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Differentiate between Request for Proposal (RFP) and Request for Quotation (RFQ).",
+                "marks": 4,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "Both are documents sent to suppliers, but they are used for different types of purchasing needs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Request for Quotation (RFQ)",
+                      "detail": "An 'enquiry' or 'request' sent to suppliers when the requirement is clear and well-defined. It focuses on obtaining price and terms for a specific, standardised product or service. The evaluation is primarily on price."
+                    },
+                    {
+                      "heading": "Request for Proposal (RFP)",
+                      "detail": "Used when the requirement is more complex or the solution is not yet defined. It sets out the problem or need and asks suppliers to propose a solution. Evaluation considers the proposed approach, innovation, and expertise, not just price."
+                    }
+                  ],
+                  "conclusion": "An RFQ is for buying a known item at the best price, while an RFP is for solving a problem or developing a new solution with a supplier's help.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.4 - Approaches to select sustainable suppliers"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "With appropriate examples, state and explain three importance of Post tender negotiation.",
+                "marks": 9,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Post-tender negotiation (PTN) is a crucial step after receiving tenders but before awarding the contract, offering a valuable opportunity to enhance sustainability outcomes.",
+                  "mainPoints": [
+                    {
+                      "heading": "To highlight the importance of sustainability issues",
+                      "detail": "PTN allows the buyer to emphasise the need for commitment to sustainability improvements to a highly motivated preferred supplier. Example: A buyer for a clothing brand can use PTN to stress the critical importance of adhering to the company's code of conduct on labour standards in all supplier factories."
+                    },
+                    {
+                      "heading": "To check for suppliers' understanding of codes of practice",
+                      "detail": "It provides a chance to verify that the supplier truly understands the standards they have agreed to and the associated costs and risks. Example: A buyer can ask detailed questions about how the supplier plans to ensure its own sub-suppliers comply with chemical restrictions in the production process."
+                    },
+                    {
+                      "heading": "To influence the supplier's forward sustainability agenda",
+                      "detail": "PTN can be used to encourage the supplier to develop plans for continuous improvement that will benefit the whole supply chain. Example: A buyer for an electronics company can negotiate with the preferred supplier to commit to a take-back and recycling programme for end-of-life components."
+                    }
+                  ],
+                  "conclusion": "Post-tender negotiation is a powerful tool to finalise and enhance sustainability commitments, ensuring they are understood, feasible, and embedded in the final agreement.",
+                  "otherPossibleAnswers": "To refine or improve the winning bid; To gain supplier agreement to mitigate specific sustainability risks.",
+                  "reference": "Unit 5, Session 3, 3.4 - Post tender negotiation"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Describe any three objectives of measuring performance.",
+                "marks": 3,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Measuring performance against sustainability goals is essential for effective management and continuous improvement.",
+                  "mainPoints": [
+                    {
+                      "heading": "To correct deviations and solve problems",
+                      "detail": "Monitoring allows organisations to identify when performance falls short of targets so that corrective action can be taken, and problems can be solved."
+                    },
+                    {
+                      "heading": "To identify potential for improvement",
+                      "detail": "By measuring results, organisations can learn lessons and identify opportunities to improve processes and outcomes in future planning cycles."
+                    },
+                    {
+                      "heading": "To motivate individuals and teams",
+                      "detail": "Clear objectives and measurable targets provide focus and motivation, especially when achievement is demonstrable and can be rewarded."
+                    }
+                  ],
+                  "conclusion": "Performance measurement is not just about tracking numbers, but about enabling learning, motivation, and accountability.",
+                  "otherPossibleAnswers": "To provide an accurate account to stakeholders; To justify the expense of resources.",
+                  "reference": "Unit 5, Session 4, 4.2 - Objectives of Measuring Performance"
+                }
+              },
+              {
+                "label": "C",
+                "question": "With relevant examples, outline three advantages of Fixed Price Adjustments.",
+                "marks": 6,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Fixed price agreements offer several advantages to the buyer, primarily around certainty and simplicity.",
+                  "mainPoints": [
+                    {
+                      "heading": "Financial risk is known in advance",
+                      "detail": "The buyer knows the total price commitment from the start, as the supplier bears all the risk of cost fluctuations. Example: A company signs a fixed-price contract for office supplies for the next year, protecting itself if the supplier's raw material costs increase."
+                    },
+                    {
+                      "heading": "Cashflow management can be pre-planned",
+                      "detail": "The timing of payments is agreed in advance, allowing the buyer to plan its finances with certainty. Example: Knowing exactly when quarterly payments for a software license are due helps the finance department manage cash flow."
+                    },
+                    {
+                      "heading": "Supplier motivation is strong",
+                      "detail": "The supplier has a strong incentive to deliver efficiently and on time, as any cost savings they achieve are kept as additional profit. Example: A construction contractor with a fixed-price contract will be motivated to complete the project efficiently to maximise its own profit margin."
+                    }
+                  ],
+                  "conclusion": "These advantages make fixed-price agreements a common and beneficial choice for buyers seeking cost certainty and administrative simplicity.",
+                  "otherPossibleAnswers": "Administrative simplicity: The buyer is not concerned with monitoring or auditing the supplier's cost performance, reducing contract management costs.",
+                  "reference": "Unit 4, Session 5, 4.3 - Advantages of Fixed Price Adjustment"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Highlight the two indications of yardsticks or measures for performance management.",
+                "marks": 2,
+                "commandWord": "Highlight",
+                "answer": {
+                  "introduction": "Yardsticks in performance management indicate the targets and the actual results against those targets.",
+                  "mainPoints": [
+                    {
+                      "heading": "Targets and standards",
+                      "detail": "(a) the target and standard standards to which efforts and resources will be directed."
+                    },
+                    {
+                      "heading": "Actual results progress",
+                      "detail": "(b) whether actual results are on track, going according to plan or reaching the required or expected standard."
+                    }
+                  ],
+                  "conclusion": "Essentially, yardsticks tell you where you want to be and whether you are getting there.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.3 - Yardsticks for Measurement"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
