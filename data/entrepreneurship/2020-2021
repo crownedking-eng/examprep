@@ -1055,3 +1055,147 @@
             ]
           },
           {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss the key activities involved in Human Resource Management.",
+                "marks": 14,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Human Resource Management is the strategic approach to managing an organization's most valued assets: its people.",
+                  "mainPoints": [
+                    {
+                      "heading": "Human Resource Planning",
+                      "detail": "Ensuring personnel needs are met by analyzing internal skill needs and external labor market factors."
+                    },
+                    {
+                      "heading": "Recruitment",
+                      "detail": "Developing a pool of job candidates through advertisements, agencies, and campus visits, based on a clear job analysis."
+                    },
+                    {
+                      "heading": "Selection",
+                      "detail": "Using application forms, interviews, and tests to screen candidates for managers to hire."
+                    },
+                    {
+                      "heading": "Socialization",
+                      "detail": "Helping new employees fit into the organization by introducing them to colleagues and informing them of goals and policies."
+                    },
+                    {
+                      "heading": "Training and Development",
+                      "detail": "Increasing employee ability to contribute through programs identified by performance appraisal and job analysis."
+                    },
+                    {
+                      "heading": "Performance Appraisal",
+                      "detail": "Comparing an individual's job performance to standards to make decisions on promotions, bonuses, or corrective action."
+                    },
+                    {
+                      "heading": "Promotions, Transfers, Demotions, and Separations",
+                      "detail": "Reflecting an employee's value to the organization and affecting future human resource planning."
+                    }
+                  ],
+                  "conclusion": "These activities ensure the organization has a competent, committed, and effective workforce.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 4, 4.2 - Steps in Human Resource Management"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss three sources of short-term business finance available to small business owners.",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Short-term finance refers to loans or credit facilities with a maturity period of one year or less, used for working capital.",
+                  "mainPoints": [
+                    {
+                      "heading": "Bank Overdraft",
+                      "detail": "The bank allows the borrower to overdraw their account up to a limit. Interest is calculated on the daily outstanding balance."
+                    },
+                    {
+                      "heading": "Factoring",
+                      "detail": "Raising funds on the security of the company's debts, receiving cash earlier than waiting for debtors to pay."
+                    },
+                    {
+                      "heading": "Trade Credit",
+                      "detail": "Suppliers extend interest-free credit on purchases, allowing the business to order and sell goods before paying for them."
+                    }
+                  ],
+                  "conclusion": "These sources provide the necessary liquidity for day-to-day operations and managing cash flow gaps.",
+                  "otherPossibleAnswers": "Customers (by expediting collections).",
+                  "reference": "Unit 6, Session 3, 3.1 - Sources of Short Term Finance"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State and explain five critical factors to consider at the pre-start up and start-up phases of new venture development.",
+                "marks": 10,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Several critical factors are important for assessing a new venture during its pre-start-up and start-up phases.",
+                  "mainPoints": [
+                    {
+                      "heading": "Uniqueness of the venture",
+                      "detail": "The venture should have special characteristics that draw customers and provide superior performance or service."
+                    },
+                    {
+                      "heading": "Investment size",
+                      "detail": "The capital investment required can vary significantly and must be determined, along with the timing of funds needed."
+                    },
+                    {
+                      "heading": "Sales growth",
+                      "detail": "The anticipated growth pattern for sales and profits, whether for a lifestyle, small profitable, or high-growth venture."
+                    },
+                    {
+                      "heading": "Product availability",
+                      "detail": "The availability of a saleable good or service at the time the venture opens is essential to its success."
+                    },
+                    {
+                      "heading": "Customer availability",
+                      "detail": "The venture's risk is affected by whether customers are ready and willing to buy the product or service at start-up."
+                    }
+                  ],
+                  "conclusion": "A clear understanding of these factors helps the entrepreneur select a viable venture and reduce the risk of failure.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.1 - Critical Factors for New-Venture Development"
+                }
+              },
+              {
+                "label": "B",
+                "question": "As a student who has taken entrepreneurship, state and explain four methods of generating business ideas.",
+                "marks": 10,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Entrepreneurs can use several methods to help generate and test new business ideas.",
+                  "mainPoints": [
+                    {
+                      "heading": "Focus Groups",
+                      "detail": "A moderator leads a group of 8 to 14 participants through an open, in-depth discussion to creatively develop new product ideas."
+                    },
+                    {
+                      "heading": "Brainstorming",
+                      "detail": "Bringing people together to suggest alternatives to a problem or generate new ideas, following rules like no criticism and building on others' ideas."
+                    },
+                    {
+                      "heading": "Problem Inventory Analysis",
+                      "detail": "Consumers are provided with a list of problems for a product category and asked to identify products with that problem, leading to new product ideas."
+                    }
+                  ],
+                  "conclusion": "These methods help entrepreneurs systematically generate and screen ideas to find viable business opportunities.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 2, 2.2 - Methods for Generating Ideas"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
