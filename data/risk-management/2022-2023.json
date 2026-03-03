@@ -1,0 +1,581 @@
+{
+  "subject": "Sustainable Procurement",
+  "subjectCode": "PCM 401D",
+  "academicYear": "2022/2023",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Auntie Araba buys tomatoes from the Makola market. These tomatoes were grown on farms in the Bono East region. Someone went to the farmers to buy them and then engage the services of a transport owner to transport them down to Accra. Then various market women including Auntie Araba, buy in bulk from the suppliers and sell in smaller quantities to final consumers. The above passage is a true illustration of ______.",
+          "options": [
+            "A. A flow chain",
+            "B. A network",
+            "C. A supply chain",
+            "D. A value stream map"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The passage describes the network of actors (farmers, transporter, market women) involved, directly or indirectly, in fulfilling a customer request (Auntie Araba buying tomatoes), which is the definition of a supply chain.",
+          "reference": "Unit 6, Session 1, 1.1 - Supply Chain Complexity"
+        },
+        {
+          "type": "single",
+          "question": "A condition of inter-connectedness and inter-dependencies across a network where a change in one element can have an effect on other elements in a supply chain is termed?",
+          "options": [
+            "A. Dynamic supply chain",
+            "B. Supply chain complexity",
+            "C. Supply chain difficulties",
+            "D. Supply chain issues"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This is the definition of supply chain complexity, which describes a state where inter-connectedness and inter-dependencies mean a change in one element can affect others.",
+          "reference": "Unit 6, Session 1, 1.1 - Supply Chain Complexity"
+        },
+        {
+          "type": "single",
+          "question": "The forces that cause this complexity in supply chains can be categorized into two. These include ______.",
+          "options": [
+            "A. climate change and natural disasters",
+            "B. environmental and technological forces",
+            "C. inland forces and outland forces",
+            "D. internal forces and external forces"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The forces that cause supply chain complexity are categorised into two main groups: internal forces (generated within the organisation) and external forces (driven by the general business environment).",
+          "reference": "Unit 6, Session 1, 1.2 - Sources of Supply Chain Complexity"
+        },
+        {
+          "type": "single",
+          "question": "The following are the importance of supply chain mapping except to ______.",
+          "options": [
+            "A. gain greater supply chain visibility",
+            "B. increase revenues",
+            "C. minimize risk exposure",
+            "D. spot potential threats"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Supply chain mapping directly helps with visibility, risk minimisation, and spotting threats. While better management may lead to increased revenues, it is not a direct, primary importance of the mapping process itself.",
+          "reference": "Unit 6, Session 1, 1.4.1 - Importance of Supply Chain Mapping"
+        },
+        {
+          "type": "single",
+          "question": "According to the Charted Institute of Procurement and Supply (CIPS), risk is defined as ______.",
+          "options": [
+            "A. a probability or threat of damage, injury, liability, loss, or any other negative occurrence",
+            "B. probability refers to the likelihood that a given result might occur.",
+            "C. the expected losses from a given hazard to a given element at risk, over a specified future time period",
+            "D. the probability of an unwanted outcome happening"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The text explicitly states, 'Risks is defined by CIPS as' the probability of an unwanted outcome happening'.",
+          "reference": "Unit 3, Session 5, 3.1 - Risk and Vulnerability"
+        },
+        {
+          "type": "single",
+          "question": "Risk is the probability that a hazard will cause damage or harm while Vulnerability is ______.",
+          "options": [
+            "A. a source of potential damage, harm, or accident either to persons, properties, or events.",
+            "B. inherent uncertainties in supply chains that occur in the normal course of day-to-day activities",
+            "C. the amount of loss an element at risk is exposed to.",
+            "D. the probability that a hazard will cause damage or harm."
+          ],
+          "correctAnswer": "C",
+          "explanation": "Vulnerability is defined as the amount of loss an element at risk is exposed to, describing how much damage will be suffered when a hazard occurs.",
+          "reference": "Unit 6, Session 2, 2.2.3 - Vulnerability"
+        },
+        {
+          "type": "single",
+          "question": "The ability of a supply chain to either resist disruptions, contain disruptions, or recover operational capability after disruptions occurs is known as ______.",
+          "options": [
+            "A. Operational resilience",
+            "B. Supply chain disaster management",
+            "C. Supply chain resilience",
+            "D. Supply risk management"
+          ],
+          "correctAnswer": "C",
+          "explanation": "This is the precise definition of supply chain resilience: the ability to resist, contain, or recover from disruptions.",
+          "reference": "Unit 6, Session 3, 3.2 - Definition of Supply Chain Resilience"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a strategy for building a resilient supply chain?",
+          "options": [
+            "A. Contracting with backup suppliers",
+            "B. Keeping additional inventory",
+            "C. Making a lot of money available to suppliers",
+            "D. Multiple sourcing arrangements"
+          ],
+          "correctAnswer": "C",
+          "explanation": "'Making a lot of money available to suppliers' is not a specific, structured strategy for resilience like the others. Resilience strategies include multiple sourcing, backup suppliers, and keeping additional inventory.",
+          "reference": "Unit 6, Session 3, 3.4 - Some Strategies for Building Resilient Supply Chains"
+        },
+        {
+          "type": "single",
+          "question": "All but one of the following is not an approach for evaluating sustainability performance of a supply chain.",
+          "options": [
+            "A. Balanced Scorecard",
+            "B. Carters 10Cs",
+            "C. CSR Sustainability Index",
+            "D. Life Cycle Assessment"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The listed approaches for evaluating sustainability performance are the Balanced Scorecard, Life Cycle Assessment (LCA), and the CSR Sustainability Index. 'Carters 10Cs' is not mentioned as a sustainability evaluation tool in the provided material.",
+          "reference": "Unit 6, Session 4, 4.3 - Approaches for monitoring and measuring sustainability performance"
+        },
+        {
+          "type": "single",
+          "question": "The following are areas necessary for supply chain audits except ______.",
+          "options": [
+            "A. Business registrations processes",
+            "B. Demand management",
+            "C. Order fulfilments",
+            "D. Returns management"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The supply chain management processes identified for audit include Customer Relationship Management, Supplier Relationship Management, Demand Management, Order Fulfilments, and Returns Management. Business registration processes are not listed as a core area for supply chain audit.",
+          "reference": "Unit 6, Session 6, 6.4 - Areas necessary for supply chain audits"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is/are benefits of sustainable procurement? I. Minimise business risk II. Enhance corporate image in the marketplace III. Overlooking wastes and defects IV. Create markets for new products and services",
+          "options": [
+            "A. I and II",
+            "B. II, III and IV",
+            "C. I, II and IV",
+            "D. I, II, III, IV"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Benefits include minimising business risk, enhancing corporate image, and creating markets for new products. 'Overlooking wastes and defects' is the opposite of a benefit; sustainable procurement aims to reduce waste and improve resource efficiency.",
+          "reference": "Unit 1, Session 4, 4.4 - Benefits of Sustainable Procurement"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a benefit of sustainable supply chain management?",
+          "options": [
+            "A. Creating values collectively",
+            "B. Increasing packaging materials",
+            "C. Minimising risk",
+            "D. Receiving grants for local environmental projects"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Sustainable supply chain management aims to reduce packaging through more effective design for reuse and recycling. Increasing packaging materials is contrary to this goal and is not a benefit.",
+          "reference": "Unit 1, Session 6, 6.8 - Advantages of Sustainable Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "Pressures by competitors which force firms to engage in sustainability include ______ pressures.",
+          "options": [
+            "A. coercive",
+            "B. institutional",
+            "C. mimetic",
+            "D. normative"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Mimetic pressures arise when competitors adopt sustainability practices, and other organisations are then asked or feel compelled to undertake these same actions to remain competitive.",
+          "reference": "Unit 1, Session 6, 6.7 - Drivers for Sustainable Supply Chain"
+        },
+        {
+          "type": "single",
+          "question": "What is the best means of dealing with environmental problems?",
+          "options": [
+            "A. Avoid waste management practices",
+            "B. Do everything possible to fix them",
+            "C. Pretend they do not exist",
+            "D. Produce more non-biodegradable product"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The text states that 'Environmental management deals with trying to prevent ecological disaster as well as aiding in environmental crises and trying to find appropriate solutions.' Doing everything possible to fix them is the logical best means.",
+          "reference": "Unit 2, Session 6, 6.2.1 - Definitions Environmental management"
+        },
+        {
+          "type": "single",
+          "question": "All the following are risk management responds strategies except ______.",
+          "options": [
+            "A. tackle",
+            "B. terminate",
+            "C. tolerate",
+            "D. transfer"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The 4Ts of risk management are Tolerate, Transfer, Terminate, and Treat. 'Tackle' is not one of the four standard strategies.",
+          "reference": "Unit 3, Session 5, 3.6.2 - Risk Mitigation"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is most suitable when there is no viable way to reduce the risk, no further action may, for the moment be required, or justified?",
+          "options": [
+            "A. Terminate",
+            "B. Tolerate",
+            "C. Transfer",
+            "D. Treat"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Tolerate (or accept) strategy is used when there is no viable way to reduce the risk, and no further action may be required or justified for the moment. The risk is simply acknowledged and registered.",
+          "reference": "Unit 3, Session 5, 3.6.2 - Risk Mitigation"
+        },
+        {
+          "type": "single",
+          "question": "Which is the fifth step in the risk management cycle?",
+          "options": [
+            "A. Formulate risk management strategies",
+            "B. Identify sources of risk",
+            "C. Implement risk management",
+            "D. Monitor, report and adjust"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The risk management cycle steps are: 1. Identify sources of risk, 2. Assess probability/impact, 3. Formulate strategies, 4. Implement risk management, and 5. Monitor, report, and adjust.",
+          "reference": "Unit 6, Session 2, 2.4.2 & 2.4.3 (implied cycle)"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following alignments is about ensuring that the goal of every activity contributes towards the overall objectives of the business?",
+          "options": [
+            "A. Forward",
+            "B. Horizontal",
+            "C. Integral",
+            "D. Vertical"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Vertical alignment ensures that the goals and plans of every activity at different levels (strategic, tactical, operational) contribute towards the overall objectives of the business.",
+          "reference": "Unit 3, Session 4, 3.4 - Value and Strategy Alignment"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following alignments is about ensuring that the plans of every unit in an organisation are co-ordinated with those of other units, so that they work effectively together?",
+          "options": [
+            "A. Forward",
+            "B. Horizontal",
+            "C. Integral",
+            "D. Vertical"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Horizontal alignment ensures that the plans of every unit in an organisation are co-ordinated with those of other units, so that they work effectively together.",
+          "reference": "Unit 3, Session 4, 3.4 - Value and Strategy Alignment"
+        },
+        {
+          "type": "single",
+          "question": "Improved supplier relations, resulting in collaborative efficiencies and improvements helps to reduce cost throughout the supply chain.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The text states that cost barriers can be overcome through, among other things, 'Improved supplier relations, resulting in collaborative efficiencies and improvements'.",
+          "reference": "Unit 3, Session 4, 3.6 - Cost Barriers Can be Overcome in Various Ways"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State and explain five key drivers for Sustainability Risk Management. (10 marks)",
+                "marks": 10,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Key drivers compel organisations to adopt a risk-based approach to sustainability, linking responsible practices to core business success.",
+                  "mainPoints": [
+                    {
+                      "heading": "Reputation and brand strength",
+                      "detail": "Sustainable performance fosters a strong corporate reputation. Reputation accounts for a significant part of marketing value, and a large portion of reputation is based on social performance, as seen with Nike's recovery after reputational damage."
+                    },
+                    {
+                      "heading": "Competitive advantage and productivity",
+                      "detail": "A survey of large companies indicated that over half of their sustainability behaviour is motivated by innovation, showing that it can be a source of competitive edge."
+                    },
+                    {
+                      "heading": "Improved shareholder value",
+                      "detail": "Managing sustainability risks can increase long-term profits and reduce the cost of capital, as shareholders increasingly demand future-proofed investment strategies that account for risks like climate change."
+                    },
+                    {
+                      "heading": "Operational efficiency",
+                      "detail": "Addressing sustainability concerns (environmental laws, employee engagement, etc.) reduces the risk of operational disruption from strikes, boycotts, or regulatory scrutiny, which have major financial implications."
+                    },
+                    {
+                      "heading": "Financial efficiency",
+                      "detail": "Managing these risks can lead to cost reduction through improved environmental, health, and safety performance, resulting in fewer fines, accidents, and lost workdays (e.g., PUMA quantifying its impacts)."
+                    }
+                  ],
+                  "conclusion": "These drivers demonstrate that Sustainability Risk Management is not just about compliance, but about creating value, enhancing efficiency, and protecting the organisation's future.",
+                  "otherPossibleAnswers": "Improved human and intellectual capital: Strong environmental and social performance can reduce employee turnover rates (e.g., Patagonia's low turnover compared to the industry average).",
+                  "reference": "Unit 1, Session 2, 2.7 - Key drivers for Sustainability Risk Management"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State and explain any five benefits of sustainable procurement. (10 marks)",
+                "marks": 10,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Sustainable procurement offers a range of benefits that extend beyond cost savings to enhance overall organisational performance and resilience.",
+                  "mainPoints": [
+                    {
+                      "heading": "Minimise business risk",
+                      "detail": "It helps identify and manage risks in the supply chain related to security of supply, price volatility, and unethical practices that could damage reputation or lead to financial liabilities."
+                    },
+                    {
+                      "heading": "Provide cost savings",
+                      "detail": "By focusing on whole-life costing and resource efficiency, it encourages reduced use, reuse, and recycling, ultimately reducing waste and long-term operational costs."
+                    },
+                    {
+                      "heading": "Enhance corporate image in the marketplace",
+                      "detail": "Demonstrating a commitment to sustainable purchasing builds trust with customers, investors, and the community, differentiating the organisation from its competitors."
+                    },
+                    {
+                      "heading": "Create markets for new products and services",
+                      "detail": "Sustainable procurement can drive innovation by creating demand for new, greener technologies and products, which can initially command a premium price."
+                    },
+                    {
+                      "heading": "Secure the supply of goods and services",
+                      "detail": "By proactively addressing environmental and social issues, it helps ensure the long-term availability of resources and compliance with increasingly stringent legislation, preventing disruptions."
+                    }
+                  ],
+                  "conclusion": "These benefits show that sustainable procurement is a strategic approach that contributes to risk management, cost efficiency, brand strength, and market development.",
+                  "otherPossibleAnswers": "Reduce waste and improve resource efficiency: It encourages practices that minimise waste and make more efficient use of materials throughout the product lifecycle.",
+                  "reference": "Unit 1, Session 4, 4.4 - Benefits of Sustainable Procurement"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Outline any four barriers to achieving sustainable procurement. (8 marks)",
+                "marks": 8,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Several barriers can hinder an organisation's progress in implementing sustainable procurement practices.",
+                  "mainPoints": [
+                    {
+                      "heading": "Habit and the difficulty in changing procurement behaviour",
+                      "detail": "Long-established purchasing routines and a resistance to change among staff can be a major obstacle to adopting new, sustainable approaches."
+                    },
+                    {
+                      "heading": "Lack of suppliers of sustainable assets, suppliers or services",
+                      "detail": "The market may not yet have enough suppliers offering genuinely sustainable alternatives, making it difficult to source required items responsibly."
+                    },
+                    {
+                      "heading": "Complexity of comparing costing/value for money assessments",
+                      "detail": "It can be challenging to compare the total value of a sustainable option against a conventional one, especially when trying to quantify long-term benefits versus upfront costs."
+                    },
+                    {
+                      "heading": "A perception that the process and outcomes are more costly or time consuming",
+                      "detail": "The belief that sustainable options are always more expensive and require more effort can discourage organisations from pursuing them, even if this is not always the case."
+                    }
+                  ],
+                  "conclusion": "Overcoming these barriers requires strong leadership, training, market engagement, and a long-term perspective on value.",
+                  "otherPossibleAnswers": "The difficulty of including factors broader than environmental considerations: Integrating complex social and ethical factors into procurement decisions can be difficult compared to the more straightforward environmental criteria.",
+                  "reference": "Unit 1, Session 5, 5.5.2 - Barriers"
+                }
+              },
+              {
+                "label": "B",
+                "question": "With relevant examples, explain the three main drivers of Globalisation. (12 marks)",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Globalisation is driven by a combination of political, economic, and technological factors that facilitate cross-border movement of goods, services, and capital.",
+                  "mainPoints": [
+                    {
+                      "heading": "Trade Liberalisation",
+                      "detail": "Governments have reduced barriers to trade, such as tariffs and quotas, through policies and agreements. Example: The formation of the European Union (EU) created a single market where members trade freely, substantially reducing internal trade barriers."
+                    },
+                    {
+                      "heading": "Differences in Cost Between Countries",
+                      "detail": "Variations in the cost of land, labour, and capital between countries create strong incentives for companies to outsource production. Example: A company like Nike outsources manufacturing to countries like China where labour costs are significantly lower than in industrialised nations, reducing overall production costs."
+                    },
+                    {
+                      "heading": "Rapid Change in Technology",
+                      "detail": "Advancements in communication (e.g., internet, video conferencing) and transportation (e.g., efficient air freight) have reduced the friction of space and time. Example: A US bank director can conduct a video conference with managers in India, saving time and travel expenses, and making it easier to manage global operations."
+                    }
+                  ],
+                  "conclusion": "These three drivers—liberalised trade, cost differentials, and technological progress—have worked in tandem to create the highly interconnected global economy we see today.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 6, 6.3 - Drivers of Globalization"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Outline five advantages of sustainable supply chain management. (10 marks)",
+                "marks": 10,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Sustainable supply chain management provides significant strategic and operational advantages to organisations.",
+                  "mainPoints": [
+                    {
+                      "heading": "Minimizing and avoiding risk",
+                      "detail": "It helps identify and mitigate operational, financial, and reputational risks associated with environmental and social issues."
+                    },
+                    {
+                      "heading": "Designing efficient business processes and strengthening the capacity for innovation",
+                      "detail": "The focus on sustainability encourages the redesign of processes for efficiency and can drive innovation in products and services."
+                    },
+                    {
+                      "heading": "Strengthening transparency and living up to higher standards",
+                      "detail": "It promotes greater visibility in the supply chain, helping firms meet the increasing demands of stakeholders for ethical and environmental accountability."
+                    },
+                    {
+                      "heading": "Improve corporate image and organizational reputation",
+                      "detail": "A commitment to sustainability enhances brand value and builds trust with customers, investors, and the public."
+                    },
+                    {
+                      "heading": "Reduces packaging through using more effective design for reuse and recycling",
+                      "detail": "It encourages the reduction of waste at the source by designing packaging that can be easily reused or recycled."
+                    }
+                  ],
+                  "conclusion": "These advantages demonstrate that sustainable supply chain management is a key driver of long-term value, resilience, and competitive differentiation.",
+                  "otherPossibleAnswers": "Creating values collectively: It fosters collaboration with supply chain partners to create shared value and improve overall performance. Grants for local environmental projects and activities: A sustainable reputation can make a company eligible for grants and improve its standing in the community.",
+                  "reference": "Unit 1, Session 6, 6.8 - Advantages of Sustainable Supply Chain Management"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain the following terms; i. Green product certification ii. Standards iii. Specification (6 marks)",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "These terms are foundational in establishing and verifying the sustainability credentials of products and processes.",
+                  "mainPoints": [
+                    {
+                      "heading": "i. Green product certification",
+                      "detail": "A confirmation by an independent third party that a product meets defined criteria of a standard and offers an environmental benefit. It validates a product's green attributes."
+                    },
+                    {
+                      "heading": "ii. Standards",
+                      "detail": "A set of guidelines and criteria, established by consensus and approved by a recognized body, against which a product, service, or process can be judged. They provide common rules and definitions."
+                    },
+                    {
+                      "heading": "iii. Specification",
+                      "detail": "A detailed statement of the requirements that must be satisfied for a specific product or process. It provides specific/additional requirements that may be beyond the code or standard."
+                    }
+                  ],
+                  "conclusion": "Together, these tools provide the language and verification needed to ensure that sustainability claims are credible and requirements are clearly understood.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 2, 2.3.1 - Green Product Certification; 2.5 - What is Standard?; 2.9 - What is Specification?"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Outline four principles for business leaders to combat forced labor. (4 marks)",
+                "marks": 4,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Business leaders have a critical role to play in preventing and combating forced labour within their operations and supply chains.",
+                  "mainPoints": [
+                    {
+                      "heading": "Have a clear and transparent policy",
+                      "detail": "Set out the measures taken to prevent forced labour in a clear and accessible company policy."
+                    },
+                    {
+                      "heading": "Treat migrant workers fairly",
+                      "detail": "Ensure fair treatment and monitor recruitment agencies carefully, especially those providing cross-border labour, to prevent abuse."
+                    },
+                    {
+                      "heading": "Ensure all workers have written contracts",
+                      "detail": "Provide contracts in a language workers understand, specifying their rights regarding wages, overtime, and retention of identity documents."
+                    },
+                    {
+                      "heading": "Train auditors, human resource and compliance officers",
+                      "detail": "Equip key personnel to identify forced labour in practice and to seek appropriate remedies."
+                    }
+                  ],
+                  "conclusion": "By implementing these principles, business leaders can create systems that prevent forced labour and promote ethical practices throughout their sphere of influence.",
+                  "otherPossibleAnswers": "Promote agreements and codes of conduct by industrial sector: Collaborate within an industry sector to identify areas of risk and take appropriate remedial measures.",
+                  "reference": "Unit 2, Session 3, 3.4.4 - Principles for business leaders to combat forced labour"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain using relevant examples the 5-Rs in Environmental Sustainability. (10 marks)",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The 5-Rs provide a practical framework for individuals and organisations to minimise their environmental impact by managing waste more effectively.",
+                  "mainPoints": [
+                    {
+                      "heading": "Reduce",
+                      "detail": "Cutting back on the quantity and type of products consumed. Example: A company decides to print all internal reports double-sided to halve its paper consumption."
+                    },
+                    {
+                      "heading": "Reuse",
+                      "detail": "Repurposing products instead of throwing them away. Example: An office collects used shipping boxes and uses them again for internal mail or storing documents instead of buying new ones."
+                    },
+                    {
+                      "heading": "Recycle",
+                      "detail": "Processing used materials to make new products. Example: A household separates all plastic, glass, and paper waste for collection by the local recycling service."
+                    },
+                    {
+                      "heading": "Rot",
+                      "detail": "Composting organic waste. Example: A restaurant collects food scraps and coffee grounds to create compost for a community garden instead of sending them to a landfill."
+                    },
+                    {
+                      "heading": "Refuse",
+                      "detail": "Saying no to items that are harmful or unnecessary. Example: A procurement officer refuses to buy chemical-based cleaners and specifies only water-based, non-toxic alternatives for the janitorial staff."
+                    }
+                  ],
+                  "conclusion": "By following the 5-Rs hierarchy—Refuse, Reduce, Reuse, Recycle, and Rot—we can systematically decrease waste, conserve resources, and promote a more circular economy.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.9 - The 5-Rs in Environmental Sustainability"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State five mechanisms for managing conflicting priorities within the organisation. (10 marks)",
+                "marks": 10,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Managing conflicting priorities is crucial for ensuring that sustainability goals are not undermined by competing pressures from other functions.",
+                  "mainPoints": [
+                    {
+                      "heading": "Communicating, promoting and reinforcing sustainability values",
+                      "detail": "Secure cross-functional stakeholder 'buy-in' by consistently communicating the importance of sustainability."
+                    },
+                    {
+                      "heading": "Emphasising the benefits and risks",
+                      "detail": "For each stakeholder group, highlight the benefits of sustainability and the risks of non-sustainability, and ensure those benefits are demonstrable."
+                    },
+                    {
+                      "heading": "Incorporating sustainability goals in corporate mission and policy statements",
+                      "detail": "Embed sustainability into the organisation's core identity to ensure value and strategy alignment across all functions."
+                    },
+                    {
+                      "heading": "Capture and dissemination of learning from critical incidents",
+                      "detail": "Analyse problems or successes to identify and resolve root causes, preventing future conflicts."
+                    },
+                    {
+                      "heading": "Risk and vulnerability impact assessments",
+                      "detail": "Conduct assessments to understand and mitigate the negative consequences that priority conflicts in the buying organisation can have on supply chains."
+                    }
+                  ],
+                  "conclusion": "These mechanisms help to align different parts of the organisation, ensuring that sustainability becomes an integrated priority rather than a source of conflict.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 4, 3.3 - Key mechanisms for managing conflicting priorities within the organisation"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

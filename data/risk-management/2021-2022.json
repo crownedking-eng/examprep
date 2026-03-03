@@ -1,0 +1,713 @@
+{
+  "subject": "Sustainable Procurement",
+  "subjectCode": "PCM 401D",
+  "academicYear": "2021/2022",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The following are benefits of globalisation, except ______.",
+          "options": [
+            "A. incompatible legal requirements",
+            "B. intellectual property access",
+            "C. low cost of operation",
+            "D. new market niche"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Incompatible legal requirements are a hurdle or barrier to globalisation, not a benefit. Benefits include access to new markets, intellectual property, and lower operational costs.",
+          "reference": "Unit 1, Session 6, 6.3 - Drivers of Globalization"
+        },
+        {
+          "type": "single",
+          "question": "Pressures by competitors which force firms to engage in sustainability include ______.",
+          "options": [
+            "A. coercive pressures",
+            "B. institutional pressures",
+            "C. mimetic pressures",
+            "D. normative pressures"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Mimetic pressures arise when competitors adopt sustainability practices, and other organisations are then asked or feel compelled to undertake these same actions to remain competitive.",
+          "reference": "Unit 1, Session 6, 6.7 - Drivers for Sustainable Supply Chain"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a benefit of sustainable supply chain management?",
+          "options": [
+            "A. Creating values collectively",
+            "B. Increasing packaging materials",
+            "C. Minimising risk",
+            "D. Receiving grants for local environmental projects"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Sustainable supply chain management aims to reduce waste and improve resource efficiency. Increasing packaging materials is contrary to this goal and is not a benefit.",
+          "reference": "Unit 1, Session 6, 6.8 - Advantages of Sustainable Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "Standards provide the following benefits, except ______.",
+          "options": [
+            "A. enhancing variety in requirement",
+            "B. ensure competition for the product",
+            "C. ensure compliance to requirement",
+            "D. general means of assessing value"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Standards provide clear specifications, which reduce uncertainty and ambiguity. They do not enhance variety in requirements; instead, they provide a common, uniform basis for them.",
+          "reference": "Unit 4, Session 2, 4.6 - Advantages of using standards"
+        },
+        {
+          "type": "single",
+          "question": "Buyers can influence the sustainability of requirement definition in the following ways except ______.",
+          "options": [
+            "A. developing a knowledge bank on sustainable alternatives or planning to access available information sources",
+            "B. ensure that definitions of business need include sustainability requirements alongside performance, quality, cost and compliance requirements",
+            "C. give preference to supplier that operate take back schemes for end of life equipment and packaging",
+            "D. using substitute items in stock; outsourcing services, renting, leasing, sharing, exchange and repairing existing assets"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Giving preference to suppliers with take-back schemes is an action during supplier selection or contract management, not during the initial stage of defining the requirement itself.",
+          "reference": "Unit 4, Session 1, 4.2 - Buyers can influence the sustainability of requirement definition in the following ways"
+        },
+        {
+          "type": "single",
+          "question": "The systematic study of all relevant factors which may affect the acquisition of good and services, for the purpose of securing current and future requirements in such a way that the competitive position of the company is enhanced is known as ______.",
+          "options": [
+            "A. specification",
+            "B. purchasing research",
+            "C. market survey",
+            "D. sustainable innovation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This is the definition of purchasing research, which is the systematic study of factors affecting the acquisition of goods and services to enhance the company's competitive position.",
+          "reference": "Unit 4, Session 3, 4.2 - Market Research and Analysis"
+        },
+        {
+          "type": "single",
+          "question": "Negotiation, as an approach to decision making, stakeholder influencing and conflict resolution, will be important in the following except ______.",
+          "options": [
+            "A. securing stakeholder input and buy-in to sustainability policies",
+            "B. ensuring that stakeholders' voices and perspectives have been included in decisions which affect them",
+            "C. ensuring that contracts reflect genuine agreement between the parties, and a sharing of risk and reward that that is broadly acceptable to both parties",
+            "D. maintaining sustainability outcomes in the supply chain by using legitimate influence to drive change and improvements"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Options A, B, and C are explicitly mentioned as roles for negotiation. Using legitimate influence to drive change is a reason for choosing a negotiating approach, but not listed as a primary role of negotiation itself in the provided context.",
+          "reference": "Unit 4, Session 4, 4.1 - Contract Negotiation"
+        },
+        {
+          "type": "single",
+          "question": "Sustainable payment terms may be based on all the following except ______.",
+          "options": [
+            "A. pre-payment, payment in advance with order, in full or in the form of a deposit or down payments",
+            "B. scheduled payments, allowing suppliers to plan cashflows more dependably",
+            "C. incentives for early or prompt payment of supplier invoices",
+            "D. receiving advance payments from suppliers"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Sustainable payment terms are about what the buyer provides to the supplier (e.g., pre-payment, scheduled payments, early payment incentives). Receiving advance payments from suppliers is the opposite and is not a sustainable payment term offered by the buyer.",
+          "reference": "Unit 4, Session 5, 4.1 - Sustainable Price"
+        },
+        {
+          "type": "single",
+          "question": "The following are elements of the Sustainable Supplier Selection Process except ______.",
+          "options": [
+            "A. selective request for quotation or invitation to tender",
+            "B. mandatory pre-qualification criteria",
+            "C. specifications and statements of requirement",
+            "D. contract payment"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Contract payment is a stage that occurs after the supplier has been selected and the contract is awarded. It is not part of the initial supplier selection process itself.",
+          "reference": "Unit 5, Session 1, 1.3 - Elements of the Sustainable Supplier Selection Process"
+        },
+        {
+          "type": "single",
+          "question": "Supplier appraisal for shortlisting may be carried out by the various means except ______.",
+          "options": [
+            "A. perusal of the supplier's financial statements and reports",
+            "B. pre-qualification or appraisal questionnaires",
+            "C. arranging to get references from customers, suppliers and relevant NGOS",
+            "D. post tender negotiation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Post-tender negotiation happens after shortlisting and evaluation, not as a means of appraising suppliers for the shortlist itself.",
+          "reference": "Unit 5, Session 2, 2.2 - Appraisal and Shortlisting of Suppliers"
+        },
+        {
+          "type": "single",
+          "question": "The refers to the discussions that are held between a prospective supplier and the buyer after the buyer receives tenders but before the award of contract is known as ______.",
+          "options": [
+            "A. post tender negotiation",
+            "B. tender",
+            "C. contract award",
+            "D. invoice"
+          ],
+          "correctAnswer": "A",
+          "explanation": "This is the definition of post-tender negotiation, which are discussions held after tenders are received but before the contract is formally awarded.",
+          "reference": "Unit 5, Session 3, 3.4 - Post tender negotiation"
+        },
+        {
+          "type": "single",
+          "question": "A measure or other expression of information, but performance, performance influencers or conditions is known as ______.",
+          "options": [
+            "A. objective",
+            "B. target",
+            "C. indicator",
+            "D. benchmark"
+          ],
+          "correctAnswer": "C",
+          "explanation": "An indicator is defined as a measure or other expression of information about performance, performance influencers, or conditions.",
+          "reference": "Unit 5, Session 4, 4.4 - Setting Sustainability Targets and Objectives"
+        },
+        {
+          "type": "single",
+          "question": "The following are the four key perspectives for the balanced scorecard Kaplan and Norton proposed except ______.",
+          "options": [
+            "A. innovation and organisational learning",
+            "B. customer",
+            "C. financial",
+            "D. originality"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The four key perspectives proposed by Kaplan and Norton are Financial, Customer, Internal Business Processes, and Innovation and Organisational Learning. 'Originality' is not one of them.",
+          "reference": "Unit 5, Session 5, 5.7.1 - Four key perspectives of Kaplan and Norton on the balance score card"
+        },
+        {
+          "type": "single",
+          "question": "The following are the objectives of joint performance appraisal approach except ______.",
+          "options": [
+            "A. support long-term value-adding relationships, by ensuring mutual advantage and the equitable sharing of relationship risks and rewards",
+            "B. identify problems within the buyer supplier relationship that may impair the performance of either party, with a view to collaborative problem resolution.",
+            "C. identifying high performing suppliers with potential for closer partnership relationship",
+            "D. identify problems within the relationship that may not impair the performance of either party, with a view to collaborative problem resolution"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The JPA aims to identify problems that do impair performance. Identifying problems that do not impair performance is not listed as an objective. Option C is a driver for setting KPIs, not a specific objective of JPA.",
+          "reference": "Unit 5, Session 6, 6.4.1 - Objectives of JPA; Unit 5, Session 5, 5.4 - Some Key drivers of setting KPIS for supplier Sustainability"
+        },
+        {
+          "type": "single",
+          "question": "The following are importance of Supply Chain Mapping except ______.",
+          "options": [
+            "A. Gain greater supply chain visibility",
+            "B. Spot potential threats",
+            "C. Demonstrate CSR",
+            "D. Continuous improvement planning"
+          ],
+          "correctAnswer": "D",
+          "explanation": "While continuous improvement planning is a wider process in supply chain management, it is not listed as a direct, primary importance of supply chain mapping in the provided text. The main benefits are visibility, spotting threats, and demonstrating CSR.",
+          "reference": "Unit 6, Session 1, 1.4.1 - Importance of Supply Chain Mapping"
+        },
+        {
+          "type": "single",
+          "question": "The following are the essential components in the determination of risk except ______.",
+          "options": [
+            "A. quantifying hazard probability",
+            "B. determining the hazard occurrence probability",
+            "C. the vulnerability of the elements at risk",
+            "D. the elements at risk"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The three essential components are: (1) determining the hazard occurrence probability, (2) the elements at risk, and (3) the vulnerability of the elements at risk. 'Quantifying hazard probability' is a process, but the core component is determining the probability itself.",
+          "reference": "Unit 6, Session 2, 2.5 - How is Risk Determined?"
+        },
+        {
+          "type": "single",
+          "question": "The following are strategies global firms use to enhance robustness against disruptions except ______.",
+          "options": [
+            "A. fortification of the upstream supply chain",
+            "B. reducing flow complexity by minimising the total number of links in the supply chain network",
+            "C. developing business continuity and disaster recovery plans",
+            "D. ascertain whether the organization's risk profile is changing"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Ascertaining whether the risk profile is changing is an activity within the monitoring and review stage of the risk management cycle, not a strategy to enhance robustness against disruptions itself. The other options are direct strategies for building resilience.",
+          "reference": "Unit 6, Session 3, 3.4 - Some Strategies for Building Resilient Supply Chains; Unit 6, Session 2, 2.4.2 - Risk response / mitigation plan"
+        },
+        {
+          "type": "single",
+          "question": "The following are some of the approaches for evaluating sustainability performance of the supply chain except ______.",
+          "options": [
+            "A. Balanced Scorecard (BSC)",
+            "B. Life Cycle Assessment (LCA)",
+            "C. CSR Sustainability Index",
+            "D. Supply Chain Development Programme"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A Supply Chain Development Programme is an approach for enhancing supplier performance and capabilities, not a specific framework for evaluating or measuring sustainability performance.",
+          "reference": "Unit 6, Session 4, 4.3 - Approaches for monitoring and measuring sustainability performance"
+        },
+        {
+          "type": "single",
+          "question": "Development programs tend to be relatively long-term and focused on working side-by-side with the supplier to directly improve supplier performance along dimensions such as cost, quality delivery performance.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This statement describes short-term operational performance improvement. Supplier development can be either short-term (operational) or long-term (capability building). The statement is too absolute.",
+          "reference": "Unit 6, Session 5, 5.3 - Types of Supplier Development Programmes"
+        },
+        {
+          "type": "single",
+          "question": "All expenses that a company incurs by adhering to government regulations and subjecting their operations, systems and products to quality checks and certifications is known as ______.",
+          "options": [
+            "A. cost of compliance",
+            "B. cost-plus agreement",
+            "C. budget",
+            "D. overhead"
+          ],
+          "correctAnswer": "A",
+          "explanation": "This is the definition of the cost of compliance, which includes all expenses related to meeting regulatory and certification requirements.",
+          "reference": "Unit 6, Session 6, 6.2 - Costs of compliance"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State and explain any four key drivers that makes sustainability in procurement and supply a lot simpler? (4 marks)",
+                "marks": 4,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Several key drivers are simplifying the integration of sustainability into procurement and supply chain practices.",
+                  "mainPoints": [
+                    {
+                      "heading": "Improved Analytic Tools",
+                      "detail": "Tools based on Life Cycle Assessment (LCA) now allow firms to generate 'heat maps' to identify sustainability impacts across the full life cycle of a product, from manufacturing to disposal."
+                    },
+                    {
+                      "heading": "Development of ISO20400",
+                      "detail": "This new ISO standard provides a common framework and language for sustainable procurement, offering improved guidance around social sustainability and human rights, making implementation easier."
+                    },
+                    {
+                      "heading": "Reinvigorated Supply Chain School",
+                      "detail": "Initiatives like the Australian Supply Chain Sustainability School provide resources and training, building momentum and capability for sustainable practices within the industry."
+                    },
+                    {
+                      "heading": "New Developments in Product Labelling",
+                      "detail": "New labelling schemes make it easier for procurement practitioners to quickly distinguish between the sustainability performance of similar products, simplifying the selection process."
+                    }
+                  ],
+                  "conclusion": "These drivers—better tools, common standards, industry support, and clearer labelling—are collectively lowering the barriers to effective sustainable procurement.",
+                  "otherPossibleAnswers": "Market Penetration of the IS Tool: Infrastructure projects increasingly expect IS Ratings, forcing contractors to adjust internal processes and driving sustainable procurement centrally.",
+                  "reference": "Unit 1, Session 2, 2.6 - The factors driving sustainability in procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain the following terms i. Sustainable procurement (2 marks) ii. Sustainability (2 marks)",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "These terms are foundational concepts in responsible business management.",
+                  "mainPoints": [
+                    {
+                      "heading": "i. Sustainable procurement",
+                      "detail": "It is the process of integrating social and environmental factors alongside financial ones into all procurement decisions, looking beyond price to consider the whole life cost and impact on society and the environment."
+                    },
+                    {
+                      "heading": "ii. Sustainability",
+                      "detail": "It is a process involving people, institutions, natural resources, and the environment, focused on meeting the needs of the present without compromising the ability of future generations to meet their own needs."
+                    }
+                  ],
+                  "conclusion": "Sustainability provides the overarching goal, while sustainable procurement is a key operational tool for businesses to contribute to that goal.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1, 1.1 - Meaning of Sustainability; Unit 1, Session 4, 4.1 - Definition and nature of sustainable procurement"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Examine four problems of Globalization? (8 marks)",
+                "marks": 8,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "While globalisation drives economic integration, it also presents significant hurdles and problems for businesses and societies.",
+                  "mainPoints": [
+                    {
+                      "heading": "Technological Barriers",
+                      "detail": "The development and protection of new technologies create challenges. High R&D costs and the need to protect intellectual property can create barriers and monopolistic situations, hindering fair competition."
+                    },
+                    {
+                      "heading": "Cultural Barriers",
+                      "detail": "Different cultures can lead to misunderstandings in cross-cultural negotiations. Communication problems, differing norms, and unintended offenses can create conflict and impede business relationships."
+                    },
+                    {
+                      "heading": "Ethical Barriers",
+                      "detail": "Large multinational corporations can gain monopolistic positions, creating an unequal playing field where smaller, national companies cannot compete, which is contrary to the principles of a free and ethical market."
+                    },
+                    {
+                      "heading": "Economic Barriers",
+                      "detail": "Globalisation has been linked to increased income inequality within countries. It tends to favour the strongest economic sectors and can lead to greater macroeconomic instability, particularly in developing nations."
+                    }
+                  ],
+                  "conclusion": "These problems—technological, cultural, ethical, and economic—highlight that the benefits of globalisation are not automatic and require careful management to ensure more equitable outcomes.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 6, 6.4 - Hurdles of Globalization"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Enumerate four Sustainable Procurement principles or standards? (4 marks)",
+                "marks": 4,
+                "commandWord": "Enumerate",
+                "answer": {
+                  "introduction": "Sustainable procurement is guided by a set of principles that ensure decisions are responsible and holistic.",
+                  "mainPoints": [
+                    {
+                      "heading": "A sound approach",
+                      "detail": "Procurement must be based on fairness, openness, transparency, non-discrimination, and competition."
+                    },
+                    {
+                      "heading": "An ethical approach",
+                      "detail": "It should ensure integrity, encourage diversity, avoid corruption, and comply with international labour standards."
+                    },
+                    {
+                      "heading": "A holistic approach",
+                      "detail": "Decisions must consider the effects on quality of life, the environment, and society at local, national, and international levels."
+                    },
+                    {
+                      "heading": "A risk/opportunity-based approach",
+                      "detail": "It requires ongoing improvement by using risk and opportunity assessment to identify and address impacts at all stages of the product life cycle."
+                    }
+                  ],
+                  "conclusion": "These principles ensure that procurement activities are not just efficient, but also ethically sound and strategically aligned with broader sustainability goals.",
+                  "otherPossibleAnswers": "Leadership: Senior-level leadership and 'champions' are needed to build capacity and drive change. Delivery of organisational objectives: Sustainable procurement should deliver against a wide range of objectives, from CO2 savings to innovation.",
+                  "reference": "Unit 1, Session 4, 4.2.1 - Sustainable Procurement Principles"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss three contributions of procurement professionals to sustainable procurement and supply chain management. (9 marks)",
+                "marks": 9,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Procurement professionals are uniquely positioned to contribute specialised knowledge that drives sustainability throughout the supply chain.",
+                  "mainPoints": [
+                    {
+                      "heading": "Supply Market Awareness",
+                      "detail": "They understand the availability of standard items, identify suppliers with sustainability and innovation capability, and are aware of market prices and supply chain risks, which informs more sustainable sourcing decisions."
+                    },
+                    {
+                      "heading": "Supplier Contacts",
+                      "detail": "They can engage in early dialogue with suppliers to discuss potential sustainable solutions before specifications are finalised, or introduce pre-qualified suppliers to design teams, fostering sustainable innovation."
+                    },
+                    {
+                      "heading": "Awareness of Legal Aspects",
+                      "detail": "They possess knowledge of relevant laws and regulations concerning health and safety, environmental protection, and procurement methods, ensuring that sourcing activities remain compliant and responsible."
+                    }
+                  ],
+                  "conclusion": "Through their market knowledge, supplier relationships, and legal awareness, procurement professionals are critical enablers of an organisation's sustainability agenda.",
+                  "otherPossibleAnswers": "Purchasing Disciplines: They can apply value analysis, cost reduction, and whole-life costing to ensure economic sustainability alongside environmental and social goals.",
+                  "reference": "Unit 4, Session 2, 1.2 - Contributions of Procurement Professionals"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Differentiate between sustainable conformance and performance specifications? (2 marks)",
+                "marks": 2,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "The key difference lies in how the requirement is described: by its precise characteristics or by its intended function.",
+                  "mainPoints": [
+                    {
+                      "heading": "Conformance Specification",
+                      "detail": "The buyer details the exact characteristics, content, or design of the purchased item (e.g., an engineering drawing or a brand name). The supplier's task is to conform to this precise description."
+                    },
+                    {
+                      "heading": "Performance Specification",
+                      "detail": "The buyer describes what the item should achieve in terms of function, performance level, or outcome. It is then up to the supplier to propose a product or solution that meets these functional requirements."
+                    }
+                  ],
+                  "conclusion": "Conformance specs prescribe the solution, while performance specs define the problem to be solved, allowing for greater supplier innovation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 4.3 - Conformance and Performance Specifications"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Outline five indicators of a responsible purchasing? (5 marks)",
+                "marks": 5,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Responsible purchasing can be measured by specific indicators that reflect the quality of relationships and ethical practices.",
+                  "mainPoints": [
+                    {
+                      "heading": "Good relationship with suppliers",
+                      "detail": "Building and maintaining positive, collaborative relationships."
+                    },
+                    {
+                      "heading": "Clear, timely communication",
+                      "detail": "Ensuring information is shared effectively and promptly with supply chain partners."
+                    },
+                    {
+                      "heading": "Sustainable prices and pricing",
+                      "detail": "Paying prices that are fair and allow suppliers to maintain ethical practices."
+                    },
+                    {
+                      "heading": "Clear lead times and payments",
+                      "detail": "Providing predictable schedules and ensuring suppliers are paid on time."
+                    },
+                    {
+                      "heading": "Respect for human rights in the supply chain",
+                      "detail": "Actively ensuring that fundamental human and labour rights are upheld throughout the sourcing process."
+                    }
+                  ],
+                  "conclusion": "These indicators move beyond simple cost metrics to evaluate the health and ethical standing of procurement operations.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 1, 3.5 - Components and Indicators of Responsible Purchasing"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Outline four instances in which sustainable payment terms are required? (4 marks)",
+                "marks": 4,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Sustainable payment terms are designed to support the financial health and stability of suppliers, particularly smaller or more vulnerable ones.",
+                  "mainPoints": [
+                    {
+                      "heading": "Pre-payment",
+                      "detail": "Paying in advance with an order, or providing a deposit, can help suppliers with upfront costs for materials or labour."
+                    },
+                    {
+                      "heading": "Scheduled payments",
+                      "detail": "Structuring payments at agreed intervals allows suppliers to plan their cash flows more dependably and manage their finances effectively."
+                    },
+                    {
+                      "heading": "Incentives for early payment",
+                      "detail": "Offering bonuses or discounts for prompt payment encourages buyers to settle invoices quickly, improving supplier liquidity."
+                    },
+                    {
+                      "heading": "Buyer penalties for late payment",
+                      "detail": "Including clauses that penalise the buyer for late payments protects suppliers from the cash flow problems caused by delays."
+                    }
+                  ],
+                  "conclusion": "These payment terms are required to create a more equitable and stable financial environment within the supply chain.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 5, 4.1 - Sustainable Price"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Enumerate four ways supplier appraisals for shortlisting may be carried out in a sustainable manner. (8 marks)",
+                "marks": 8,
+                "commandWord": "Enumerate",
+                "answer": {
+                  "introduction": "Supplier appraisal for shortlisting can be conducted sustainably by using methods that verify information and ensure fair assessment.",
+                  "mainPoints": [
+                    {
+                      "heading": "Pre-qualification or appraisal questionnaires",
+                      "detail": "Use questionnaires to gather information on a supplier's sustainability policies, performance, and commitment to improvement, ensuring information is proportionate to the procurement's risk."
+                    },
+                    {
+                      "heading": "Perusal of supplier's financial statements and reports",
+                      "detail": "Check the supplier's financial stability, certifications, and past audit reports to verify their long-term viability and compliance history."
+                    },
+                    {
+                      "heading": "Arranging to get references from customers, suppliers, and relevant NGOs",
+                      "detail": "Seek external validation of the supplier's sustainability performance and reputation from credible third parties."
+                    },
+                    {
+                      "heading": "Conducting supplier audits or site visits",
+                      "detail": "For high-risk procurements, follow up with on-site visits by a cross-functional team to directly verify working conditions, environmental practices, and the accuracy of reported information."
+                    }
+                  ],
+                  "conclusion": "These methods, used appropriately, ensure that shortlisting decisions are based on verified, relevant sustainability data, promoting transparency and fairness.",
+                  "otherPossibleAnswers": "Checking product samples or portfolios of work: Physically inspecting samples to ensure they meet specified sustainability and quality standards. Using third-party audit teams: Employing specialist auditors for overseas suppliers where the buying organisation lacks local presence or expertise.",
+                  "reference": "Unit 5, Session 2, 2.2 - Appraisal and Shortlisting of Suppliers; 2.3 - Sustainable Process for Pre-Qualification"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss three types of performance measures for sustainability? (6 marks)",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Sustainability performance can be measured by focusing on management practices, operational outcomes, and environmental conditions.",
+                  "mainPoints": [
+                    {
+                      "heading": "Management measures",
+                      "detail": "These reflect procurement practices and are often 'measures of input.' Examples include the percentage of contracts with sustainability criteria or the number of supply chain staff trained in sustainable procurement."
+                    },
+                    {
+                      "heading": "Operational measures",
+                      "detail": "These focus on the tangible outcomes of sustainability initiatives. Examples include the percentage reduction in waste sent to landfill, reduction in carbon emissions, or the percentage of suppliers meeting labour standards."
+                    },
+                    {
+                      "heading": "Environmental condition measures",
+                      "detail": "These are broader, macro-level measures used to inform strategy. Examples include the concentration of air pollutants in a region or the average wages in an industry sector, which help shape policies like fleet management."
+                    }
+                  ],
+                  "conclusion": "Using a mix of these measure types—input, output, and contextual—provides a more complete picture of an organisation's sustainability performance.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.2 - Types of performance measure for sustainability"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain the term 'KPI'? (2 marks)",
+                "marks": 2,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "A KPI is a critical tool used to track and manage performance against strategic objectives.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition",
+                      "detail": "Key Performance Indicators (KPIs) are clear qualitative or quantitative statements which define adequate or desired performance in key areas."
+                    },
+                    {
+                      "heading": "Function",
+                      "detail": "They are monitored, reviewed, and reported on at regular intervals to ensure the organisation or project is 'on track' in relation to its most important 'yardsticks' of success."
+                    }
+                  ],
+                  "conclusion": "In essence, KPIs translate strategy into measurable terms, providing a clear focus for action and improvement.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.1 - Key Performance Indicators"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Outline four key drivers for setting supplier sustainability key performance indicators (KPIs). (4 marks)",
+                "marks": 4,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Setting sustainability KPIs for suppliers is driven by the need to manage performance, risks, and relationships effectively.",
+                  "mainPoints": [
+                    {
+                      "heading": "Setting clear performance criteria",
+                      "detail": "To establish unambiguous expectations for supplier compliance and continuous improvement."
+                    },
+                    {
+                      "heading": "Managing sustainability related risks",
+                      "detail": "To proactively identify and mitigate potential environmental, social, or ethical risks in the supply chain."
+                    },
+                    {
+                      "heading": "Supporting contract management and supplier motivation",
+                      "detail": "To provide a basis for monitoring performance, applying incentives or sanctions, and motivating suppliers to achieve targets."
+                    },
+                    {
+                      "heading": "Identifying high performing suppliers",
+                      "detail": "To recognise suppliers with potential for closer partnership relationships or for inclusion on preferred supplier lists."
+                    }
+                  ],
+                  "conclusion": "These drivers ensure that KPIs are not just a bureaucratic exercise but a strategic tool for building a more resilient and responsible supply base.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.4 - Some Key drivers of setting KPIS for supplier Sustainability"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the following terms i. Supply chain mapping (2 marks) ii. Hazard (2 marks) iii. Risk (2 marks) iv. Vulnerability (2 marks)",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "These are fundamental concepts in supply chain management and risk assessment.",
+                  "mainPoints": [
+                    {
+                      "heading": "i. Supply chain mapping",
+                      "detail": "It is the process of documenting the exact source and flow of materials, activities, and processes within the value chain, from raw materials to the end customer."
+                    },
+                    {
+                      "heading": "ii. Hazard",
+                      "detail": "A hazard is a source of potential damage, harm, or any adverse event to persons, property, or the environment (e.g., a slippery floor, a flood)."
+                    },
+                    {
+                      "heading": "iii. Risk",
+                      "detail": "Risk is the probability that a hazard will cause damage or harm, combined with the actual loss that will be suffered. It is the likelihood of an unwanted event happening."
+                    },
+                    {
+                      "heading": "iv. Vulnerability",
+                      "detail": "Vulnerability is the degree of loss an element at risk is exposed to when a hazard occurs. It describes how much damage will be suffered (e.g., an unprotected building is more vulnerable to a storm)."
+                    }
+                  ],
+                  "conclusion": "Understanding these terms is crucial for identifying, analysing, and mitigating potential disruptions in the supply chain.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1, 1.4 - Supply Chain Mapping; Unit 6, Session 2, 2.2.1 - A hazard, 2.1 - Nature and Definition of risk, 2.2.3 - Vulnerability"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Differentiate between Resistance capacity and Recovery capacity. (4 marks)",
+                "marks": 4,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "These are the two critical and complementary components of supply chain resilience.",
+                  "mainPoints": [
+                    {
+                      "heading": "Resistance capacity",
+                      "detail": "This is the proactive ability of a system to minimise the impact of a disruption by either evading it entirely (avoidance) or by absorbing the initial shock and containing its immediate effects."
+                    },
+                    {
+                      "heading": "Recovery capacity",
+                      "detail": "This is the reactive ability of a system to return to a state of functionality after a disruption has occurred. This involves a stabilisation phase followed by a return to a steady-state performance."
+                    }
+                  ],
+                  "conclusion": "Resistance is about withstanding a shock, while recovery is about bouncing back from it effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 3, 3.2.1 - Types of Supply Chain Resilience"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Enumerate four importance of Supply chain mapping. (8 marks)",
+                "marks": 8,
+                "commandWord": "Enumerate",
+                "answer": {
+                  "introduction": "Supply chain mapping is a vital process that provides crucial visibility and insights for managing a complex network.",
+                  "mainPoints": [
+                    {
+                      "heading": "To gain greater supply chain visibility",
+                      "detail": "It reveals the exact sources and flows of materials, identifying all suppliers and locations, which is the first step in understanding the chain."
+                    },
+                    {
+                      "heading": "To minimize risk exposure",
+                      "detail": "By providing visibility, it allows procurement officers to dramatically reduce their organisation's risk of suffering damage to finances, reputation, and legal exposure."
+                    },
+                    {
+                      "heading": "To demonstrate CSR",
+                      "detail": "Investing in supply chain visibility demonstrates a company's commitment to corporate social responsibility by showing a willingness to understand and manage its impacts."
+                    },
+                    {
+                      "heading": "To spot potential threats",
+                      "detail": "It allows buyers to see where suppliers are located geographically, enabling them to make informed choices and anticipate disruptions from political instability, natural disasters, or other regional risks."
+                    }
+                  ],
+                  "conclusion": "These benefits—visibility, risk reduction, CSR demonstration, and threat identification—make supply chain mapping an essential tool for modern, responsible supply chain management.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1, 1.4.1 - Importance of Supply Chain Mapping"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
