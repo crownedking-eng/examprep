@@ -1,1 +1,595 @@
-
+{
+  "subject": "Lean and Six Sigma",
+  "subjectCode": "PCM 409D",
+  "academicYear": "2023/2024",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Which of the following is not an objective of Six Sigma?",
+          "options": [
+            "A. Reduce costs",
+            "B. Improve customer satisfaction",
+            "C. Increase customers grievances",
+            "D. Improve cycle time"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Six Sigma aims to improve processes by reducing defects and errors, which in turn reduces costs and cycle time while improving customer satisfaction. Increasing customer grievances is the opposite of this goal.",
+          "reference": "Unit 1 - Six Sigma Objectives"
+        },
+        {
+          "type": "single",
+          "question": "The \"take one, make one\" concept clearly depicts the notion of producing only what your ______ needs?",
+          "options": [
+            "A. suppliers",
+            "B. distributors",
+            "C. shareholders",
+            "D. customers"
+          ],
+          "correctAnswer": "D",
+          "explanation": "\"Take one, make one\" is a core concept of a pull system, where production is triggered by customer demand. You only produce or replenish what the customer has just consumed.",
+          "reference": "Unit - Pull System and JIT"
+        },
+        {
+          "type": "single",
+          "question": "Your ability to effectively provide value to your customer relates directly to your ability to ______ and keep it away, permanently.",
+          "options": [
+            "A. eliminate waste",
+            "B. continuously improve",
+            "C. strive for perfection",
+            "D. decrease cost"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The study material states: \"Your ability to effectively provide value to your customer relates directly to your ability to eliminate waste and keep it away, permanently.\"",
+          "reference": "Unit - Lean and Waste Elimination"
+        },
+        {
+          "type": "single",
+          "question": "Producing more than what your customers require is a waste. This causes other wastes except ______.",
+          "options": [
+            "A. inventory cost",
+            "B. dealing with scarce product",
+            "C. consumption of raw materials",
+            "D. installation of excess capacity"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Overproduction leads to excess inventory, consumption of raw materials for unneeded goods, and the need for excess capacity. It does not cause product scarcity; it does the opposite, creating a surplus.",
+          "reference": "Unit - Seven Forms of Waste (Overproduction)"
+        },
+        {
+          "type": "single",
+          "question": "What is the unnecessary or unreasonable overburdening of people, equipment, or systems by demands that exceed capacity?",
+          "options": [
+            "A. Muri",
+            "B. Mura",
+            "C. Muda",
+            "D. Andon"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Muri is the Japanese word for unreasonable, impossible, or overdoing. Muri is the unnecessary or unreasonable overburdening of people, equipment, or systems by demands that exceed capacity.",
+          "reference": "Unit - Muri, Mura, Muda"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a waste caused by variation in quality, cost, or delivery?",
+          "options": [
+            "A. mura",
+            "B. muri",
+            "C. muda",
+            "D. Andon"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Mura is defined as variation in an operation — when activities don't go smoothly or consistently. This is waste caused by variation in quality, cost, or delivery.",
+          "reference": "Unit - Muri, Mura, Muda"
+        },
+        {
+          "type": "single",
+          "question": "People naturally and regularly use muda to eliminate wasteful non-value-added work and follow the Plan-Do-Check-Act (PDCA) methodology.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Muda means \"waste\". People do not use waste to eliminate waste. They use tools and methodologies like PDCA to identify and eliminate Muda.",
+          "reference": "Unit - Muda and PDCA"
+        },
+        {
+          "type": "single",
+          "question": "What is the fourth stage in developing a new product?",
+          "options": [
+            "A. Improve",
+            "B. Control",
+            "C. Design",
+            "D. Verify"
+          ],
+          "correctAnswer": "D",
+          "explanation": "This question refers to the DMADV methodology (Define, Measure, Analyze, Design, Verify). The stages are: 1. Define, 2. Measure, 3. Analyze, 4. Design, 5. Verify. \"Design\" is the fourth stage.",
+          "reference": "Unit - DMADV Methodology"
+        },
+        {
+          "type": "single",
+          "question": "DPMO stands for ______.",
+          "options": [
+            "A. Defect Percentage per Million Opportunity",
+            "B. Defect Per Minor Opportunity",
+            "C. Defeat Per Million Opportunity",
+            "D. Defect Per Million Opportunity"
+          ],
+          "correctAnswer": "D",
+          "explanation": "DPMO is a standard Six Sigma acronym that stands for Defects Per Million Opportunities, a metric used to measure process performance.",
+          "reference": "Unit - Six Sigma Metrics"
+        },
+        {
+          "type": "single",
+          "question": "The sigma levels range from virtual perfection, good to ______.",
+          "options": [
+            "A. improvement needed",
+            "B. continuous improvement",
+            "C. excellent",
+            "D. perfection"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Sigma levels are a measure of process capability. A lower sigma level indicates a process with many defects, meaning improvement is needed to reach higher levels of performance.",
+          "reference": "Unit - Six Sigma Levels"
+        },
+        {
+          "type": "single",
+          "question": "Which term works toward eliminating the variation in discrepancies, redundancy, and anomalies in the manufacturing operations through introduction and adherence to standard protocols of processes?",
+          "options": [
+            "A. Six Sigma",
+            "B. Lean",
+            "C. Value Creation",
+            "D. Just In Time"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Six Sigma's primary focus is on reducing variation and defects in processes by using statistical analysis and establishing standard protocols to ensure consistency.",
+          "reference": "Unit - Six Sigma Definition and Purpose"
+        },
+        {
+          "type": "single",
+          "question": "There are six basic principles of lean. Which of the following is not one of the basic principles?",
+          "options": [
+            "A. Organizational value",
+            "B. Value stream analysis",
+            "C. Everyday improvement",
+            "D. Continuous Flow"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The six basic principles of Lean are: customer value, value stream analysis, everyday improvement, flow, pull, and perfection. \"Organizational value\" is not listed as one of the core principles.",
+          "reference": "Unit - Six Principles of Lean"
+        },
+        {
+          "type": "single",
+          "question": "The fundamental premise for all lean organizations, and the first step of any lean undertaking, is to identify your ______ and what they really value.",
+          "options": [
+            "A. employees",
+            "B. customers",
+            "C. suppliers",
+            "D. shareholders"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The material states: \"The fundamental premise for all Lean organizations, and the first step of any Lean undertaking, is to identify your customer and what they really value — what they want today and tomorrow.\"",
+          "reference": "Unit - Lean Fundamentals and Customer Value"
+        },
+        {
+          "type": "single",
+          "question": "Value creation is very important to organizations. Who defines value in a lean organization?",
+          "options": [
+            "A. Shareholders",
+            "B. CEO",
+            "C. Employees",
+            "D. Customers"
+          ],
+          "correctAnswer": "D",
+          "explanation": "In Lean, only the customer can define what behaviors in the value stream add value, and \"customers determine value.\"",
+          "reference": "Unit - Customer Value in Lean"
+        },
+        {
+          "type": "single",
+          "question": "To be value added, any process, task, or activity acting on the product or service in any way must meet all three key criteria. Which of the following is a criterion for value addition? The ______.",
+          "options": [
+            "A. customer must be willing to pay for it",
+            "B. activity mustn't transform the product or service in some way",
+            "C. employee must be willing to work on the activity",
+            "D. activity must be done incorrectly the first time"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The first of the three precise criteria for an activity to be value-added, as stated in the material, is: \"The customer must be willing to pay for the activity.\"",
+          "reference": "Unit - Value-Added Criteria"
+        },
+        {
+          "type": "single",
+          "question": "In an ideal or perfect world, the value stream consists of only ______.",
+          "options": [
+            "A. People performing activities in the organization",
+            "B. Value-added activities",
+            "C. Value stream analysis",
+            "D. B & C only"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The material explicitly states: \"In an ideal or perfect world, the value stream consists of only value-added activities.\"",
+          "reference": "Unit - Value Stream"
+        },
+        {
+          "type": "single",
+          "question": "Taiichi Ohno categorized waste into seven forms. Which of the listed below does not form part?",
+          "options": [
+            "A. Transport",
+            "B. Under production",
+            "C. Inventory",
+            "D. Waiting time"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The seven forms of waste (Muda) as categorized by Taiichi Ohno are: Transport, Waiting, Overproduction, Defects, Inventory, Motion, and Extra Processing. \"Under production\" is not one of the seven wastes.",
+          "reference": "Unit - Taiichi Ohno's Seven Forms of Waste"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a tool for improving an existing process?",
+          "options": [
+            "A. DMADV",
+            "B. Toyota Production System",
+            "C. DMAIC",
+            "D. TQM"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The DMAIC methodology (Define, Measure, Analyze, Improve, Control) is specifically designed for improving existing processes. DMADV is for designing new processes.",
+          "reference": "Unit - DMAIC vs DMADV"
+        },
+        {
+          "type": "single",
+          "question": "Which one of these is a tool for improving a new process?",
+          "options": [
+            "A. DMAIC",
+            "B. TQM",
+            "C. DMADV",
+            "D. Toyota Production System"
+          ],
+          "correctAnswer": "C",
+          "explanation": "DMADV (Define, Measure, Analyze, Design, Verify) is a methodology used for creating new processes or products, ensuring they are designed to meet customer needs and perform at a Six Sigma level from the start.",
+          "reference": "Unit - DMAIC vs DMADV"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following refers to a professional who is a manager in the upper level leading Lean Six Sigma deployment and strategy?",
+          "options": [
+            "A. Green belt",
+            "B. Black belt",
+            "C. Champion",
+            "D. Master black belt"
+          ],
+          "correctAnswer": "C",
+          "explanation": "In Lean Six Sigma, Champions are high-level managers who understand the methodology and are responsible for leading the deployment, removing barriers, and aligning projects with the organization's strategy.",
+          "reference": "Unit - Lean Six Sigma Roles and Belts"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "With relevant examples, explain the seven forms of waste.",
+                "marks": 14,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Waste, or Muda, is any activity that does not add value from the customer's perspective, and Taiichi Ohno categorized it into seven forms.",
+                  "mainPoints": [
+                    {
+                      "heading": "Transport",
+                      "detail": "Unnecessary movement of products. Example: Moving finished goods to a distant warehouse before shipping."
+                    },
+                    {
+                      "heading": "Inventory",
+                      "detail": "Excess products or materials not being processed. Example: Piles of raw materials waiting days to be used."
+                    },
+                    {
+                      "heading": "Motion",
+                      "detail": "Unnecessary movement of people. Example: A worker walking back and forth to get tools because they are not organized."
+                    },
+                    {
+                      "heading": "Waiting",
+                      "detail": "Idle time for workers or products. Example: Patients waiting for a doctor because of scheduling delays."
+                    },
+                    {
+                      "heading": "Overproduction",
+                      "detail": "Producing more than customer demand. Example: Baking 100 loaves of bread when only 50 are ordered."
+                    },
+                    {
+                      "heading": "Overprocessing",
+                      "detail": "Doing more work than necessary. Example: Adding extra, unrequested features to a software report."
+                    },
+                    {
+                      "heading": "Defects",
+                      "detail": "Products or services that don't meet specifications. Example: A wrongly manufactured part that needs to be scrapped or reworked."
+                    }
+                  ],
+                  "conclusion": "Understanding these seven wastes helps organizations target their improvement efforts and deliver true value to the customer.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Taiichi Ohno's Seven Forms of Waste (Muda)"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Differentiate between a consumer and a customer of a product.",
+                "marks": 6,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "In Lean, understanding who receives value requires a clear distinction between a customer and a consumer.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customer",
+                      "detail": "A customer is the person or entity that purchases the goods or services and pays the price for them. They are the buyer or client."
+                    },
+                    {
+                      "heading": "Consumer",
+                      "detail": "A consumer is the end user of the product or service, who uses it for their own consumption. They may or may not be the one who purchased it."
+                    }
+                  ],
+                  "conclusion": "Distinguishing between the buyer and the end-user ensures that value is correctly defined and delivered for both parties.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Customer vs Consumer"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Examine the philosophies of Lean.",
+                "marks": 8,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Lean is a philosophy centered on creating customer value by eliminating waste and empowering people.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customer Focus",
+                      "detail": "Value is defined solely by the customer; all activities must align with what the customer values and is willing to pay for."
+                    },
+                    {
+                      "heading": "Respect for People",
+                      "detail": "People are the most important asset, and their ideas and insights drive improvement throughout the organization."
+                    },
+                    {
+                      "heading": "Continuous Improvement (Kaizen)",
+                      "detail": "Striving for perfection through ongoing, incremental changes made by all employees at every level."
+                    },
+                    {
+                      "heading": "Focus on Flow and Pull",
+                      "detail": "Aiming for smooth process flow triggered by actual customer demand, eliminating overproduction and reducing waste."
+                    }
+                  ],
+                  "conclusion": "These philosophies position Lean as a holistic system for building a resilient and continuously improving organization.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Lean Philosophy"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four things that make Lean special.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Lean stands out from other improvement methodologies due to several distinctive characteristics.",
+                  "mainPoints": [
+                    {
+                      "heading": "People-Centric",
+                      "detail": "It empowers all employees — not just managers — to contribute to improvement and stop the line when issues arise."
+                    },
+                    {
+                      "heading": "Visual Management",
+                      "detail": "It uses visual tools like Andon to make problems and process status immediately apparent to everyone on the floor."
+                    },
+                    {
+                      "heading": "Long-Term Journey",
+                      "detail": "It is a continuous journey of improvement rather than a one-time project, requiring ongoing commitment and discipline."
+                    },
+                    {
+                      "heading": "Simplicity",
+                      "detail": "It seeks simple, elegant solutions to complex problems, making them easier to learn, manage, and sustain."
+                    }
+                  ],
+                  "conclusion": "These unique traits make Lean a sustainable and human-centered approach to building organizational excellence.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - What Makes Lean Special"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Assess three criteria for classifying an activity as value added.",
+                "marks": 4,
+                "commandWord": "Assess",
+                "answer": {
+                  "introduction": "For an activity to be classified as value-added, it must satisfy three precise criteria simultaneously.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customer Willing to Pay",
+                      "detail": "The customer must want the activity and be willing to pay for it; if the customer would not pay for it, it is non-value-added."
+                    },
+                    {
+                      "heading": "Transforms the Product or Service",
+                      "detail": "The activity must physically or informationally change the product or service in a meaningful way."
+                    },
+                    {
+                      "heading": "Done Correctly the First Time",
+                      "detail": "The activity must be performed without errors, defects, or the need for rework or correction."
+                    }
+                  ],
+                  "conclusion": "An activity must meet all three criteria to be truly value-added; failing any one of them classifies it as waste.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Value-Added Criteria"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four fundamental assumptions of Lean.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Lean's effectiveness in eliminating waste is built on a foundation of core assumptions about the organization and its customers.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customer Defines Value",
+                      "detail": "The ultimate goal is to provide what the customer values; the customer's perspective is the only valid definition of value."
+                    },
+                    {
+                      "heading": "Waste is Prevalent",
+                      "detail": "All processes contain non-value-added activities (Muda) that can be systematically identified and eliminated."
+                    },
+                    {
+                      "heading": "People are Capable",
+                      "detail": "Employees are intelligent, motivated, and best positioned to improve their own work; they must be empowered to do so."
+                    },
+                    {
+                      "heading": "Perfection is a Goal",
+                      "detail": "While unattainable, striving for perfection is essential for continuous improvement and drives the Lean journey forward."
+                    }
+                  ],
+                  "conclusion": "These assumptions create the mindset necessary for effective waste elimination and continuous improvement.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Fundamental Assumptions of Lean"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four benefits six sigma provides to practicing organizations.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Six Sigma provides practicing organizations with a data-driven approach to achieving measurable and sustained improvements.",
+                  "mainPoints": [
+                    {
+                      "heading": "Reduced Costs",
+                      "detail": "By eliminating defects and rework, organizations save on materials, labor, and warranty expenses."
+                    },
+                    {
+                      "heading": "Improved Quality",
+                      "detail": "The focus on reducing variation leads to more consistent, defect-free products and services."
+                    },
+                    {
+                      "heading": "Increased Customer Satisfaction",
+                      "detail": "Higher quality and faster delivery (improved cycle time) lead to happier customers who are more loyal."
+                    },
+                    {
+                      "heading": "Enhanced Efficiency",
+                      "detail": "Processes become streamlined, leading to faster turnaround times and less wasted effort across the organization."
+                    }
+                  ],
+                  "conclusion": "These benefits show that Six Sigma is a powerful approach for aligning operations with what customers truly want.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Six Sigma Benefits"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Define value as used in Lean and Six Sigma.",
+                "marks": 4,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "Value is the central concept around which both Lean and Six Sigma are built.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition of Value",
+                      "detail": "Value, as used in Lean and Six Sigma, is the worth of a product or service as defined solely by the customer. It is what the customer is willing to pay for, and it is created when an activity transforms the product or service correctly the first time."
+                    }
+                  ],
+                  "conclusion": "Any activity that does not add value in the eyes of the customer is considered waste and a target for elimination.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Definition of Value in Lean and Six Sigma"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Assess any six principles of Lean.",
+                "marks": 12,
+                "commandWord": "Assess",
+                "answer": {
+                  "introduction": "Lean is guided by six fundamental principles that shape its approach to creating value and eliminating waste.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customer Value",
+                      "detail": "Identify value from the customer's perspective; all activities must contribute to delivering what the customer wants and is willing to pay for."
+                    },
+                    {
+                      "heading": "Value Stream",
+                      "detail": "Map all steps in the process to see the entire flow of materials and information, identifying which steps add value and which are waste."
+                    },
+                    {
+                      "heading": "Smooth Flow",
+                      "detail": "Ensure the product or service moves continuously through the value stream without interruptions, delays, or bottlenecks."
+                    },
+                    {
+                      "heading": "Pull System",
+                      "detail": "Produce only in response to customer demand, pulling work through the system rather than pushing output based on forecasts."
+                    },
+                    {
+                      "heading": "Everyday Improvement (Kaizen)",
+                      "detail": "Foster a culture where all employees continuously seek to make improvements, no matter how small, on a daily basis."
+                    },
+                    {
+                      "heading": "Perfection",
+                      "detail": "Strive for an ideal state where every activity is value-added, treating perfection as a long-term aspirational goal that drives ongoing effort."
+                    }
+                  ],
+                  "conclusion": "These principles provide a comprehensive roadmap for Lean implementation and create the foundation for a culture of continuous improvement.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Six Principles of Lean"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four users of the value stream map.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The Value Stream Map (VSM) is a key Lean tool used by various roles to visualize, analyze, and improve the flow of materials and information.",
+                  "mainPoints": [
+                    {
+                      "heading": "Process Owners",
+                      "detail": "They use the VSM to quickly identify and prioritize opportunities for improvement across the whole value stream they are responsible for."
+                    },
+                    {
+                      "heading": "Process Workers",
+                      "detail": "They use the VSM to see how their specific tasks fit into the bigger picture and find practical ways to improve their own work."
+                    },
+                    {
+                      "heading": "Supply-Chain Managers",
+                      "detail": "They use the VSM to find opportunities for better logistics, such as consolidating deliveries from suppliers to reduce transport waste."
+                    },
+                    {
+                      "heading": "Value-Stream Managers",
+                      "detail": "They use the VSM at a high level to guide the entire organization toward serving the customer more effectively."
+                    }
+                  ],
+                  "conclusion": "The VSM acts as a critical guide for everyone involved in the Lean journey, from individual workers to senior managers.",
+                  "otherPossibleAnswers": "Procurement Managers: Use the VSM to work with suppliers to support Lean initiatives. Information Technology (IT): Use the VSM to develop systems that support information flow.",
+                  "reference": "Unit - Value Stream Map Users"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

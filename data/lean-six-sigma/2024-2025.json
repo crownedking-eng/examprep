@@ -1,0 +1,583 @@
+{
+  "subject": "Lean and Six Sigma",
+  "subjectCode": "PCM 409D",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Which of the following is not included in the six phases of the customer experience life cycle?",
+          "options": [
+            "A. Purchase",
+            "B. Delivery",
+            "C. Supplements",
+            "D. Simplicity"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The six phases of the customer experience life cycle are Purchase, Delivery, Use, Supplements, Maintenance, and Disposal. Simplicity is one of the six utility levers, not a phase.",
+          "reference": "Unit - Customer Experience Life Cycle"
+        },
+        {
+          "type": "single",
+          "question": "What is the third stage in the customer journey map?",
+          "options": [
+            "A. Awareness",
+            "B. Search",
+            "C. Consider",
+            "D. Loyalty"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Based on standard customer journey models, the typical stages are Awareness, Search/Consideration, Purchase, Use/Service, and Loyalty/Advocacy. \"Consider\" is the stage that follows Awareness and Search.",
+          "reference": "Unit - Customer Journey Map"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following aims at obtaining an even deeper insight into customers or customer segments?",
+          "options": [
+            "A. Empathy maps",
+            "B. Customer journey maps",
+            "C. Kano model",
+            "D. Customer utility map"
+          ],
+          "correctAnswer": "A",
+          "explanation": "An empathy map aims at obtaining an even deeper insight into customers or customer segments. It helps teams understand what customers think, feel, see, and do.",
+          "reference": "Unit - Empathy Maps"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following does not fall under the typical classifications of customers in a supply chain?",
+          "options": [
+            "A. Ex-customer",
+            "B. Existing customer",
+            "C. Prospective customer",
+            "D. Respective customer"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The three kinds of customers listed in the material are Former customers or ex-customers, Existing customers, and Prospective customers. \"Respective customer\" is not a standard classification.",
+          "reference": "Unit - Types of Customers"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a JIT technique?",
+          "options": [
+            "A. Standardized work",
+            "B. Quick changeover",
+            "C. Push",
+            "D. Producing to takt"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Just-in-Time (JIT) is based on a pull system, where production is triggered by customer demand. A \"push\" system, where production is based on forecasts, is the opposite of a JIT technique.",
+          "reference": "Unit - Just-in-Time Techniques"
+        },
+        {
+          "type": "single",
+          "question": "In lean, ______ view all aspects of your supply chain as a system and manage them as a whole.",
+          "options": [
+            "A. Integrated logistics",
+            "B. Standardized work",
+            "C. Takt production",
+            "D. Pull"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The material defines Integrated logistics as the practice to \"View all aspects of your supply chain as a system, and manage them as a whole.\"",
+          "reference": "Unit - Integrated Logistics"
+        },
+        {
+          "type": "single",
+          "question": "The Lean view is to implement appropriate technology, so that people can do less valuable work.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Lean view is to use technology to free people from mundane tasks so they can focus on more valuable, value-added work that requires their intelligence and creativity. The statement says the opposite.",
+          "reference": "Unit - Lean and Technology"
+        },
+        {
+          "type": "single",
+          "question": "In lean, which of the following includes actions that are non-value added but are for some other reason deemed necessary?",
+          "options": [
+            "A. Type-1 muda",
+            "B. Type-2 muda",
+            "C. Mura",
+            "D. Muri"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The material defines Type-1 muda as \"Non-value-added but necessary.\" These activities cannot be immediately eliminated and must be managed.",
+          "reference": "Unit - Types of Muda"
+        },
+        {
+          "type": "single",
+          "question": "In lean, the amount of time it takes one piece to flow through the process from start to finish can be termed as ______ time.",
+          "options": [
+            "A. Cycle",
+            "B. Takt",
+            "C. Lead",
+            "D. Changeover"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The material defines Lead time as \"the amount of time that one piece takes to flow completely through the process.\"",
+          "reference": "Unit - Key Lean Time Concepts"
+        },
+        {
+          "type": "single",
+          "question": "In a Just-in-time production environment, which of the following best describes the primary function of a withdrawal kanban? To ______.",
+          "options": [
+            "A. authorise the production of a specified quantity of items at a workstation",
+            "B. signal the need to stop production due to quality issues",
+            "C. request the movement of materials from a supplying process to a using process",
+            "D. monitor inventory levels at the supplier's warehouse"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A withdrawal (or move) kanban's function is to signal that materials are needed and should be moved from a supplying process (like a supermarket) to the using process that has consumed them.",
+          "reference": "Unit - Kanban System"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following scenarios most appropriately requires the use of a production kanban in a pull-based manufacturing system? When ______.",
+          "options": [
+            "A. finished goods are ready for shipment to the customer",
+            "B. a workstation needs to replenish raw materials from the supplier",
+            "C. a downstream process consumes inventory and triggers upstream production",
+            "D. excess inventory needs to be stored in anticipation of future demand"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A production kanban authorizes the upstream process to produce more parts. It is triggered when a downstream process withdraws items, signaling that the upstream process needs to replenish what was taken.",
+          "reference": "Unit - Kanban System"
+        },
+        {
+          "type": "single",
+          "question": "In the context of kanban systems and value stream mapping, what key role does the data box icon typically serve? It ______.",
+          "options": [
+            "A. identifies bottlenecks in the production process by indicating takt time",
+            "B. specifies detailed operational data such as cycle time and changeover time",
+            "C. signals the physical location of inventory storage within the production floor",
+            "D. represents the movement of materials between suppliers and customers"
+          ],
+          "correctAnswer": "B",
+          "explanation": "In Value Stream Mapping, the data box is placed under process steps and contains key information like cycle time (C/T), changeover time (C/O), number of operators, and uptime.",
+          "reference": "Unit - Value Stream Mapping Icons"
+        },
+        {
+          "type": "single",
+          "question": "In the context of lean manufacturing, which of the following best illustrates the core concept of a pull system?",
+          "options": [
+            "A. Initiating production activities only when there is a signal from the downstream process",
+            "B. Producing based on historical sales data to maintain continuous workflow",
+            "C. Replenishing inventory based on minimum stock levels regardless of actual demand",
+            "D. Scheduling large production runs to take advantage of economies of scale"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A pull system is defined by producing only in response to consumption by the next step or the customer. The signal from the downstream process (e.g., a kanban) initiates the upstream production.",
+          "reference": "Unit - Pull System"
+        },
+        {
+          "type": "single",
+          "question": "In value stream mapping, what does the shipment arrow typically represent? The ______.",
+          "options": [
+            "A. movement of work-in-progress inventory within a process step",
+            "B. flow of information between scheduling and production departments",
+            "C. signal to begin production based on customer order forecasts",
+            "D. transportation of finished goods from the manufacturer to the customer"
+          ],
+          "correctAnswer": "D",
+          "explanation": "In a VSM, the shipment arrow, which usually points to the customer icon on the right, represents the movement or delivery of finished goods to the customer.",
+          "reference": "Unit - Value Stream Mapping Icons"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best describes the primary function of an andon system? To ______.",
+          "options": [
+            "A. automatically reschedule production based on customer order changes",
+            "B. alert managers and workers to a problem in real time for immediate response",
+            "C. display the takt time and production targets for each workstation",
+            "D. track overall equipment effectiveness for continuous improvement"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Andon is a signal to alert people of problems at a specific place in a process, enabling a rapid response to issues.",
+          "reference": "Unit - Andon and Visual Management"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best describes the role of production control in a lean manufacturing system?",
+          "options": [
+            "A. Monitoring and coordinating production activities to align with demand and reduce waste",
+            "B. Ensuring maximum inventory levels are maintained to avoid stockouts",
+            "C. Forecasting future sales trends to guide batch production decisions",
+            "D. Approving engineering changes before they are implemented on the shop floor"
+          ],
+          "correctAnswer": "A",
+          "explanation": "In Lean, production control focuses on aligning production with actual demand, often using pull signals, to ensure smooth flow and minimize waste like overproduction and excess inventory.",
+          "reference": "Unit - Production Control in Lean"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best illustrates the purpose of level scheduling in lean production? To ______.",
+          "options": [
+            "A. produce goods in large batches to meet end of month targets",
+            "B. increase lead time by delaying orders until capacity is reached",
+            "C. ensure smooth production by distributing volume and mix evenly over time",
+            "D. schedule maintenance activities at regular intervals"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Heijunka, or workload levelling, means smoothing out the volume and mix of the schedule for what's to be produced to minimize variation.",
+          "reference": "Unit - Heijunka (Level Scheduling)"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best reflects the purpose of standardized work in a lean environment? To ______.",
+          "options": [
+            "A. ensure that operators memorise their own way of doing tasks",
+            "B. allow operators to experiment with different process methods",
+            "C. create a consistent and repeatable process that forms a baseline for improvement",
+            "D. provide detailed financial instructions for accounting staff"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Standardized work creates a consistent method and provides a baseline. It is the standard to which the actual process is compared, and it represents the foundation on which to improve.",
+          "reference": "Unit - Standardized Work"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not one of the traditional seven forms of muda?",
+          "options": [
+            "A. Overproduction",
+            "B. Waiting",
+            "C. Inventory",
+            "D. Product innovation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The seven forms of waste (Muda) are Transport, Waiting, Overproduction, Defects, Inventory, Motion, and Extra Processing. Product innovation is a value-added activity, not a waste.",
+          "reference": "Unit - Taiichi Ohno's Seven Forms of Waste"
+        },
+        {
+          "type": "single",
+          "question": "One of the main benefits of imposing work-in-progress limits in a kanban system is to ______.",
+          "options": [
+            "A. maximise equipment utilization",
+            "B. prevent bottlenecks by limiting overload in any process stage",
+            "C. encourage multitasking across several production lines",
+            "D. allow forecasting of demand with greater accuracy"
+          ],
+          "correctAnswer": "B",
+          "explanation": "WIP limits prevent overproduction and the accumulation of excess inventory. This helps to expose and prevent bottlenecks by ensuring that work cannot be pushed into a stage faster than it can be processed.",
+          "reference": "Unit - Kanban and WIP Limits"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "The practice of lean as a root-cause eliminator of waste is based on some core fundamental assumptions. Examine any four of those assumptions.",
+                "marks": 10,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Lean's effectiveness in eliminating waste is built on a foundation of core assumptions about the organization and its customers.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customer Defines Value",
+                      "detail": "The only valid definition of value comes from the customer's perspective, not internal opinions. All improvement efforts must be anchored to what the customer wants."
+                    },
+                    {
+                      "heading": "Waste is Pervasive",
+                      "detail": "Waste (Muda) exists in every process and can be systematically identified and eliminated. No process is perfect, and there is always room to remove non-value-added steps."
+                    },
+                    {
+                      "heading": "People are Capable and Engaged",
+                      "detail": "Employees are the greatest asset and are expected to contribute to daily improvement. Their proximity to the work makes them best placed to identify and solve problems."
+                    },
+                    {
+                      "heading": "Perfection is the Goal",
+                      "detail": "While perfection is unattainable, striving for it is necessary to drive continuous improvement. It sets the direction and sustains the effort over the long term."
+                    }
+                  ],
+                  "conclusion": "These assumptions create the mindset required for waste elimination and align the entire organization toward continuous value creation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Fundamental Assumptions of Lean"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Assess any four ways of identifying customer value in lean.",
+                "marks": 10,
+                "commandWord": "Assess",
+                "answer": {
+                  "introduction": "Lean provides several practical tools and methods for capturing and understanding what the customer truly values.",
+                  "mainPoints": [
+                    {
+                      "heading": "Voice of the Customer (VOC)",
+                      "detail": "Systematically capturing customer needs, preferences, and expectations through surveys, interviews, focus groups, and feedback mechanisms."
+                    },
+                    {
+                      "heading": "Kano Model",
+                      "detail": "Categorizing customer requirements into \"must-be's,\" \"performance\" attributes, and \"delighters\" to prioritize which features deliver the most value."
+                    },
+                    {
+                      "heading": "Customer Journey Maps",
+                      "detail": "Modeling the end-to-end process customers go through to identify moments of value, pain points, and opportunities at each touchpoint."
+                    },
+                    {
+                      "heading": "Empathy Maps",
+                      "detail": "Gaining deeper insight into customers or customer segments by exploring what they think, feel, see, and do in relation to the product or service."
+                    }
+                  ],
+                  "conclusion": "These tools provide the practical methods to identify exactly what the customer values, ensuring improvement efforts are focused on what matters most.",
+                  "otherPossibleAnswers": "Customer Utility Map: Identifies value across six phases of the customer lifecycle. CTQ Tree: Translates customer needs into specific, measurable Critical-to-Quality requirements.",
+                  "reference": "Unit - Identifying Customer Value; Kano Model; Empathy Maps; Customer Journey Maps"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Assess any four objectives of Six Sigma.",
+                "marks": 10,
+                "commandWord": "Assess",
+                "answer": {
+                  "introduction": "Six Sigma provides a data-driven methodology for improvement with clear, measurable objectives that drive organizational performance.",
+                  "mainPoints": [
+                    {
+                      "heading": "Reduce Costs",
+                      "detail": "By minimizing defects, rework, and waste, Six Sigma directly lowers operational costs, freeing up resources for value-adding activities."
+                    },
+                    {
+                      "heading": "Improve Customer Satisfaction",
+                      "detail": "Delivering products and services with fewer defects and higher consistency meets or exceeds customer expectations, building loyalty."
+                    },
+                    {
+                      "heading": "Reduce Variation",
+                      "detail": "A primary goal is to make processes predictable and consistent by identifying and controlling sources of variation using statistical tools."
+                    },
+                    {
+                      "heading": "Improve Cycle Time",
+                      "detail": "Streamlining processes and reducing defects allows for faster delivery of products and services to the customer, improving responsiveness."
+                    }
+                  ],
+                  "conclusion": "These objectives provide clear, measurable targets that align organizational efforts with both efficiency gains and customer value.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Six Sigma Objectives"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State and explain four ways through which an organization can build on the foundations of lean.",
+                "marks": 10,
+                "commandWord": "State and Explain",
+                "answer": {
+                  "introduction": "Lean's foundation can be strengthened by embedding its core philosophies and practices deeply into the organizational culture.",
+                  "mainPoints": [
+                    {
+                      "heading": "Respect for People",
+                      "detail": "Recognize that people have more value than machines. Empower employees to contribute ideas and stop the line when quality issues arise, rather than pushing problems downstream."
+                    },
+                    {
+                      "heading": "Make it Visual",
+                      "detail": "Use visual management tools (like Andon boards) to create transparency, making problems and process status instantly clear to everyone on the floor."
+                    },
+                    {
+                      "heading": "Quality at the Source",
+                      "detail": "Design processes so that quality is built-in at each step, preventing defects from being passed along, rather than relying on end-of-line inspection."
+                    },
+                    {
+                      "heading": "Simple is Better (KISS)",
+                      "detail": "Strive for simple solutions to complex problems, as they are easier to learn, manage, communicate, and sustain over time."
+                    }
+                  ],
+                  "conclusion": "Building on these foundations ensures that Lean philosophy is deeply ingrained and sustainable, rather than a short-term initiative.",
+                  "otherPossibleAnswers": "Long-Term Journey: View Lean as a lifestyle change requiring diligence, not just a short-term project. Measurement Systems: Use tools like the Balanced Scorecard to reinforce Lean behaviors by measuring more than just financials.",
+                  "reference": "Unit - Building on the Foundations of Lean"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Muda, which signifies waste, can be categorized into two forms. With relevant examples, differentiate between type 1 and type 2 muda.",
+                "marks": 6,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "In Lean, waste (Muda) is not uniform; it is categorized into two types based on whether or not it is currently necessary.",
+                  "mainPoints": [
+                    {
+                      "heading": "Type-1 Muda",
+                      "detail": "Non-value-added but necessary activities that cannot be eliminated immediately due to current constraints. Example: Weighing ingredients in a salad to ensure quality, or placing price labels on products for the checkout process."
+                    },
+                    {
+                      "heading": "Type-2 Muda",
+                      "detail": "Non-value-added and not necessary — pure waste that should be eliminated immediately. Example: Walking back and forth to find a forgotten tool, or throwing away good ingredients due to overproduction."
+                    }
+                  ],
+                  "conclusion": "Understanding both types helps organizations prioritize their waste elimination efforts, targeting Type-2 Muda first for immediate gains.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Types of Muda"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State and explain four users of value stream map.",
+                "marks": 8,
+                "commandWord": "State and Explain",
+                "answer": {
+                  "introduction": "The Value Stream Map (VSM) is a versatile Lean tool used by a range of roles to visualize and improve the flow of materials and information.",
+                  "mainPoints": [
+                    {
+                      "heading": "Process Owners",
+                      "detail": "Use the VSM to identify improvement opportunities across the whole value stream they are responsible for, and to prioritize where changes will have the greatest impact."
+                    },
+                    {
+                      "heading": "Process Workers",
+                      "detail": "Use the VSM to understand the broader context of their own tasks and identify practical ways to improve their specific area of work."
+                    },
+                    {
+                      "heading": "Supply-Chain Managers",
+                      "detail": "Use the VSM to find opportunities to improve logistics and supplier relationships, such as consolidating deliveries to reduce transport waste."
+                    },
+                    {
+                      "heading": "Value-Stream Managers",
+                      "detail": "Use the VSM at a high level to guide the entire organization toward better serving the customer by optimizing the end-to-end value stream."
+                    }
+                  ],
+                  "conclusion": "The VSM is a critical tool for collaboration, giving every role a shared view of how value flows and where waste exists.",
+                  "otherPossibleAnswers": "Procurement Managers: Use the VSM to work with suppliers to support Lean initiatives. Information Technology (IT): Use the VSM to develop systems that support information flow.",
+                  "reference": "Unit - Value Stream Map Users"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Differentiate between the terms DMAIC and DMADV.",
+                "marks": 6,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "DMAIC and DMADV are two distinct Six Sigma methodologies, each suited to a different type of improvement challenge.",
+                  "mainPoints": [
+                    {
+                      "heading": "DMAIC",
+                      "detail": "A data-driven methodology used for improving an existing process. It stands for Define, Measure, Analyze, Improve, and Control. It is used when a process already exists but is underperforming."
+                    },
+                    {
+                      "heading": "DMADV",
+                      "detail": "A methodology used for creating a new process or product design. It stands for Define, Measure, Analyze, Design, and Verify. It is used when a new product or process needs to be created from scratch to meet customer requirements."
+                    }
+                  ],
+                  "conclusion": "Choosing the right methodology depends on the situation: DMAIC for fixing what exists, DMADV for designing something new.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - DMAIC vs DMADV"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Distinguish between a customer and a consumer.",
+                "marks": 4,
+                "commandWord": "Distinguish",
+                "answer": {
+                  "introduction": "Lean thinking requires a clear understanding of who receives your product or service, which begins with distinguishing between a customer and a consumer.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customer",
+                      "detail": "The person or entity who buys the goods or services and pays the price for them. They are the buyer or client who initiates the transaction."
+                    },
+                    {
+                      "heading": "Consumer",
+                      "detail": "The person who is the end user of the product or service, using it for their own consumption. They may or may not be the person who purchased it."
+                    }
+                  ],
+                  "conclusion": "Understanding this distinction ensures that value is defined and delivered correctly for both the buyer and the end-user.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Customer vs Consumer"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain the three kinds of customers.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Organizations can classify their customers into three categories based on their current relationship with the business.",
+                  "mainPoints": [
+                    {
+                      "heading": "Former Customers (Ex-Customers)",
+                      "detail": "Individuals or entities who have previously purchased from the business but no longer do. Understanding why they left can reveal improvement opportunities."
+                    },
+                    {
+                      "heading": "Existing Customers",
+                      "detail": "The current, active customers who regularly purchase and use the business's products or services. Retaining and satisfying them is a primary focus."
+                    },
+                    {
+                      "heading": "Prospective Customers",
+                      "detail": "Potential customers who have not yet purchased but are likely to become customers in the future. Attracting them requires understanding what they value."
+                    }
+                  ],
+                  "conclusion": "Recognizing these three types helps an organization tailor its value proposition and retention strategies for each group.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Types of Customers"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Discuss Taiichi Ohno's seven forms of waste.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Taiichi Ohno, the father of the Toyota Production System, identified seven forms of waste (Muda) that consume resources without adding value for the customer.",
+                  "mainPoints": [
+                    {
+                      "heading": "Transport",
+                      "detail": "Unnecessary movement of products or materials. Example: Moving parts to and from a distant storage area adds time and cost without transforming the product."
+                    },
+                    {
+                      "heading": "Inventory",
+                      "detail": "Excess products or materials not currently being processed. Example: Piles of raw materials waiting for weeks tie up capital and space."
+                    },
+                    {
+                      "heading": "Motion",
+                      "detail": "Unnecessary movement of people. Example: A worker bending and reaching excessively to access tools due to poor workstation layout."
+                    },
+                    {
+                      "heading": "Waiting",
+                      "detail": "Idle time for people or products. Example: A machine operator waiting for a machine to finish its cycle while unable to do other productive work."
+                    },
+                    {
+                      "heading": "Overproduction",
+                      "detail": "Producing more than customer demand requires. Example: Making 100 units when the order is for 50 creates excess inventory and masks other wastes."
+                    },
+                    {
+                      "heading": "Overprocessing",
+                      "detail": "Doing more work than is necessary or requested. Example: Applying a second coat of paint when one is sufficient adds no value to the customer."
+                    },
+                    {
+                      "heading": "Defects",
+                      "detail": "Products or services that do not meet specifications. Example: A part that is the wrong size and must be scrapped or reworked, wasting materials and labor."
+                    }
+                  ],
+                  "conclusion": "By identifying and eliminating these seven wastes, organizations can streamline operations and focus all resources on delivering genuine value to the customer.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit - Taiichi Ohno's Seven Forms of Waste (Muda)"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
