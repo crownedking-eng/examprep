@@ -297,6 +297,63 @@ function themeToggleBtn() {
   return `<button class="theme-toggle" aria-label="${label}" title="${label}">${icon}</button>`;
 }
 
+// ─── BOTTOM NAV ───────────────────────────────────────────────────────────────
+function renderBottomNav() {
+  const scr        = state.screen;
+  const hasContext = !!(state.subjectId && state.yearId);
+
+  // Resolve the "Current" tab's label and destination
+  let currentIcon   = "📚";
+  let currentLabel  = "Current";
+  let currentTarget = "";          // empty = disabled
+  let currentActive = false;
+
+  if (scr === "mcq") {
+    currentLabel  = "Section A";
+    currentTarget = "sections";
+    currentActive = true;
+  } else if (scr === "written" || scr === "written-questions") {
+    currentLabel  = "Section B";
+    currentTarget = "sections";
+    currentActive = true;
+  } else if (scr === "sections") {
+    currentLabel  = "Sections";
+    currentTarget = "sections";
+    currentActive = true;
+  } else if (scr === "semesters") {
+    currentLabel  = "Semesters";
+    currentTarget = "semesters";
+    currentActive = true;
+  }
+
+  const homeActive    = scr === "subjects" || scr === "years";
+  const currentDisabled = !hasContext || !currentTarget;
+
+  return `
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button class="nav-item${homeActive ? " active" : ""}" data-nav="home"
+              aria-label="Home">
+        <span class="nav-icon" aria-hidden="true">🏠</span>
+        <span class="nav-label">Home</span>
+      </button>
+      <button class="nav-item${currentActive ? " active" : ""}${currentDisabled ? " nav-disabled" : ""}"
+              data-nav="current" data-target="${currentTarget}"
+              ${currentDisabled ? "disabled" : ""}
+              aria-label="${currentLabel}">
+        <span class="nav-icon" aria-hidden="true">${currentIcon}</span>
+        <span class="nav-label">${currentLabel}</span>
+      </button>
+      <button class="nav-item nav-disabled" disabled aria-label="Bookmarks (coming soon)">
+        <span class="nav-icon" aria-hidden="true">🔖</span>
+        <span class="nav-label">Bookmarks</span>
+      </button>
+      <button class="nav-item nav-disabled" disabled aria-label="Settings (coming soon)">
+        <span class="nav-icon" aria-hidden="true">⚙️</span>
+        <span class="nav-label">Settings</span>
+      </button>
+    </nav>`;
+}
+
 // ─── SCREENS ──────────────────────────────────────────────────────────────────
 
 function renderSubjects() {
@@ -318,7 +375,8 @@ function renderSubjects() {
     <main class="screen">
       <h1 class="screen-title">Choose a Subject</h1>
       <div class="card-grid">${cards}</div>
-    </main>`;
+    </main>
+    ${renderBottomNav()}`;
 }
 
 function renderYears() {
@@ -343,7 +401,8 @@ function renderYears() {
       <p class="breadcrumb">${subject.title}</p>
       <h1 class="screen-title">Select Academic Year</h1>
       <div class="card-grid">${cards}</div>
-    </main>`;
+    </main>
+    ${renderBottomNav()}`;
 }
 
 function renderSemesters() {
@@ -369,7 +428,8 @@ function renderSemesters() {
       <p class="breadcrumb">${subject.title} · ${year.label}</p>
       <h1 class="screen-title">Select a Semester</h1>
       <div class="card-grid">${cards}</div>
-    </main>`;
+    </main>
+    ${renderBottomNav()}`;
 }
 
 function renderSections() {
@@ -410,7 +470,8 @@ function renderSections() {
           <span class="card-sub">Written · ${totalBParent} Question${totalBParent !== 1 ? "s" : ""} · ${totalB} sub-questions</span>
         </button>
       </div>
-    </main>`;
+    </main>
+    ${renderBottomNav()}`;
 }
 
 // ── MCQ ───────────────────────────────────────────────────────────────────────
@@ -473,7 +534,8 @@ function renderMCQ() {
         ${feedback}
         ${answered ? `<button class="btn-primary next-btn">${nextLabel}</button>` : ""}
       </div>
-    </main>`;
+    </main>
+    ${renderBottomNav()}`;
 }
 
 // ── WRITTEN QUESTION SELECTOR (grouped format: Q1–Q4 picker) ─────────────────
@@ -507,7 +569,8 @@ function renderWrittenQuestions() {
       <h2 class="screen-title">Section B — Written Questions</h2>
       <p class="screen-sub">Select a question to begin</p>
       <div class="card-grid">${cards}</div>
-    </main>`;
+    </main>
+    ${renderBottomNav()}`;
 }
 
 // ── WRITTEN (sub-question view) ───────────────────────────────────────────────
@@ -631,7 +694,8 @@ function renderWritten() {
         ${!showAnswer ? `<button class="btn-primary reveal-btn">Reveal Structured Answer</button>` : ""}
         ${answerBlock}
       </div>
-    </main>`;
+    </main>
+    ${renderBottomNav()}`;
 }
 
 // ─── EVENTS ───────────────────────────────────────────────────────────────────
@@ -641,6 +705,20 @@ function bindEvents() {
   // Theme toggle
   app.querySelectorAll(".theme-toggle").forEach((btn) => {
     btn.addEventListener("click", toggleTheme);
+  });
+
+  // Bottom nav
+  app.querySelectorAll("[data-nav]").forEach((btn) => {
+    if (btn.disabled) return;
+    btn.addEventListener("click", () => {
+      const nav    = btn.dataset.nav;
+      const target = btn.dataset.target;
+      if (nav === "home") {
+        go("subjects");
+      } else if (nav === "current" && target) {
+        go(target);
+      }
+    });
   });
 
   // Subject select
