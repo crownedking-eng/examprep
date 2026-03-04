@@ -18,6 +18,34 @@ const DATA = { subjects: [] };
 // Cache of already-fetched year payloads keyed by "subjectId/yearId"
 const YEAR_CACHE = {};
 
+// ─── THEME ────────────────────────────────────────────────────────────────────
+const THEME_KEY = "examprep_theme";
+
+function getStoredTheme() {
+  return localStorage.getItem(THEME_KEY) || "light";
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  localStorage.setItem(THEME_KEY, theme);
+  // Update every toggle button currently in the DOM
+  document.querySelectorAll(".theme-toggle").forEach((btn) => {
+    btn.textContent  = theme === "dark" ? "☀️" : "🌙";
+    btn.setAttribute("aria-label", theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
+    btn.setAttribute("title",      theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
+  });
+}
+
+function toggleTheme() {
+  const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  applyTheme(next);
+}
+
+// Apply persisted theme immediately (before first render, avoids flash)
+applyTheme(getStoredTheme());
+
+
+
 // ─── NORMALISATION ────────────────────────────────────────────────────────────
 // Converts one raw JSON file (as parsed object) into the internal format.
 //
@@ -236,12 +264,18 @@ function go(screen, patch = {}) {
   render();
 }
 
-// goYear — fetches year data if not cached, then navigates to semesters screen
+// goYear — fetches year data, then skips the semester selector when there is only one semester
 async function goYear(yearId) {
   state = saveState({ screen: "semesters", yearId, semesterIndex: undefined, qIndex: 0 });
   showLoading("Loading exam data\u2026");
   try {
     await loadYear(state.subjectId, yearId);
+    const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+    const year    = subject?.years.find((y) => y.id === yearId);
+    if (year?.semesters?.length === 1) {
+      // Only one semester — skip the selector and land directly on sections
+      state = saveState({ screen: "sections", semesterIndex: 0 });
+    }
     render();
   } catch (e) {
     showError(`Failed to load year data.<br><small>${e.message}</small>`);
@@ -252,6 +286,15 @@ function render() {
   const fn = screens[state.screen] || renderSubjects;
   document.getElementById("app").innerHTML = fn();
   bindEvents();
+}
+
+
+// ─── THEME TOGGLE HTML ────────────────────────────────────────────────────────
+function themeToggleBtn() {
+  const theme = document.documentElement.getAttribute("data-theme") || "light";
+  const icon  = theme === "dark" ? "☀️" : "🌙";
+  const label = theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
+  return `<button class="theme-toggle" aria-label="${label}" title="${label}">${icon}</button>`;
 }
 
 // ─── SCREENS ──────────────────────────────────────────────────────────────────
@@ -270,6 +313,7 @@ function renderSubjects() {
     <header class="top-bar">
       <div class="logo">ExamPrep</div>
       <div class="tagline">Study smarter. Pass with confidence.</div>
+      ${themeToggleBtn()}
     </header>
     <main class="screen">
       <h1 class="screen-title">Choose a Subject</h1>
@@ -293,6 +337,7 @@ function renderYears() {
     <header class="top-bar">
       <button class="back-btn" data-goto="subjects">← Back</button>
       <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title}</p>
@@ -318,6 +363,7 @@ function renderSemesters() {
     <header class="top-bar">
       <button class="back-btn" data-goto="years">← Back</button>
       <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · ${year.label}</p>
@@ -340,10 +386,14 @@ function renderSections() {
     : (sectionB?.questions?.length ?? 0);
   const totalBParent = sectionB?.format === "grouped" ? (sectionB.questions || []).length : totalB;
 
+  // If this year has only one semester the selector was skipped — go back to years directly
+  const backScreen = (year.semesters?.length === 1) ? "years" : "semesters";
+
   return `
     <header class="top-bar">
-      <button class="back-btn" data-goto="semesters">← Back</button>
+      <button class="back-btn" data-goto="${backScreen}">← Back</button>
       <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · ${year.label} · ${sem.semester}</p>
@@ -408,6 +458,7 @@ function renderMCQ() {
     <header class="top-bar">
       <button class="back-btn" data-goto="sections">← Back</button>
       <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · ${year.label} · ${sem.semester} · Section A</p>
@@ -449,6 +500,7 @@ function renderWrittenQuestions() {
     <header class="top-bar">
       <button class="back-btn" data-goto="sections">← Back</button>
       <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · ${year.label} · ${sem.semester} · Section B</p>
@@ -564,6 +616,7 @@ function renderWritten() {
     <header class="top-bar">
       <button class="back-btn" data-goto="${backScreen}">${backLabel}</button>
       <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · ${year.label} · ${sem.semester} · Section B${breadcrumbSuffix}</p>
@@ -584,6 +637,11 @@ function renderWritten() {
 // ─── EVENTS ───────────────────────────────────────────────────────────────────
 function bindEvents() {
   const app = document.getElementById("app");
+
+  // Theme toggle
+  app.querySelectorAll(".theme-toggle").forEach((btn) => {
+    btn.addEventListener("click", toggleTheme);
+  });
 
   // Subject select
   app.querySelectorAll("[data-subject]").forEach((el) => {

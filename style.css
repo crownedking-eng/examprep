@@ -24,6 +24,46 @@
   --font-ui: "DM Sans", system-ui, sans-serif;
 }
 
+/* ─── DARK MODE TOKENS ────────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  --bg:           #0f1210;
+  --surface:      #181f1c;
+  --surface-2:    #1e2822;
+  --border:       #2d3d35;
+  --ink:          #e8e4da;
+  --ink-2:        #a8a096;
+  --ink-3:        #6a6560;
+  --accent:       #4a9e78;
+  --accent-light: #1a3028;
+  --accent-2:     #d4963a;
+  --accent-2-light: #2a1f0a;
+  --correct:      #4aad6a;
+  --correct-bg:   #0f2418;
+  --wrong:        #d4614e;
+  --wrong-bg:     #2a100d;
+  --shadow:       0 2px 12px rgba(0, 0, 0, 0.35);
+  --shadow-md:    0 4px 24px rgba(0, 0, 0, 0.50);
+}
+
+/* ─── THEME TRANSITION ────────────────────────────────────────────────────── */
+body,
+.top-bar,
+.card,
+.case-study-details,
+.case-static,
+.option-btn,
+.feedback-box,
+.answer-point,
+.rating-btn,
+.sub-q-tab,
+.loading-msg code {
+  transition:
+    background-color 0.25s ease,
+    border-color     0.25s ease,
+    color            0.25s ease,
+    box-shadow       0.25s ease;
+}
+
 /* ─── RESET ──────────────────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { font-size: 16px; -webkit-text-size-adjust: 100%; }
@@ -684,4 +724,29 @@ details[open] .case-summary::after { transform: rotate(180deg); }
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
+}
+
+/* ─── THEME TOGGLE BUTTON ─────────────────────────────────────────────────── */
+.theme-toggle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  background: var(--surface-2);
+  color: var(--ink-2);
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+  flex-shrink: 0;
+}
+.theme-toggle:hover {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  transform: rotate(12deg) scale(1.08);
+}
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
