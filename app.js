@@ -230,7 +230,7 @@ function getSemester() {
 
 // ─── STATE ────────────────────────────────────────────────────────────────────
 const STATE_KEY     = "examprep_state";
-const STATE_VERSION = 4;   // bump whenever state shape changes; wipes stale localStorage
+const STATE_VERSION = 5;   // bump whenever state shape changes; wipes stale localStorage
 
 function loadState() {
   try {
@@ -257,8 +257,12 @@ const screens = {
   mcq:               renderMCQ,
   mcqScore:          renderMCQScore,
   mcqReview:         renderMCQReview,
-  "written-questions": renderWrittenQuestions,
-  written:           renderWritten,
+  "written-questions":   renderWrittenQuestions,
+  written:              renderWritten,
+  practiceConfig:       renderPracticeConfig,
+  practiceSession:      renderPracticeSession,
+  practiceScore:        renderPracticeScore,
+  practiceReview:       renderPracticeReview,
 };
 
 function go(screen, patch = {}) {
@@ -299,6 +303,7 @@ function themeToggleBtn() {
   return `<button class="theme-toggle" aria-label="${label}" title="${label}">${icon}</button>`;
 }
 
+
 // ─── BOTTOM NAV ───────────────────────────────────────────────────────────────
 function renderBottomNav() {
   const scr        = state.screen;
@@ -325,6 +330,10 @@ function renderBottomNav() {
   } else if (scr === "semesters") {
     currentLabel  = "Semesters";
     currentTarget = "semesters";
+    currentActive = true;
+  } else if (scr === "practiceConfig" || scr === "practiceSession" || scr === "practiceScore" || scr === "practiceReview") {
+    currentLabel  = "Practice";
+    currentTarget = "practiceConfig";
     currentActive = true;
   }
 
@@ -448,6 +457,80 @@ function guardMCQLeave(proceed) {
   }
 }
 
+// ─── PRACTICE & SEARCH HELPERS ──────────────────────────────────────────────
+
+// Fisher-Yates shuffle (returns a new array).
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Collect every MCQ question from every loaded year of a subject.
+// Each item: { q, item, yearLabel, semesterLabel, yearId, semesterIdx }
+function buildMCQPool(subjectId) {
+  const subject = DATA.subjects.find((s) => s.id === subjectId);
+  if (!subject) return [];
+  const pool = [];
+  for (const year of subject.years) {
+    if (!year.semesters) continue;
+    year.semesters.forEach((sem, si) => {
+      flattenSectionA(sem.sectionA).forEach(({ item, q }) => {
+        pool.push({ q, item, yearLabel: year.label, semesterLabel: sem.semester, yearId: year.id, semesterIdx: si });
+      });
+    });
+  }
+  return pool;
+}
+
+// Collect every written sub-question from every loaded year of a subject.
+// Each item: { q, parentLabel, caseStudy, yearLabel, semesterLabel, yearId, semesterIdx }
+function buildWrittenPool(subjectId) {
+  const subject = DATA.subjects.find((s) => s.id === subjectId);
+  if (!subject) return [];
+  const pool = [];
+  for (const year of subject.years) {
+    if (!year.semesters) continue;
+    year.semesters.forEach((sem, si) => {
+      const sB = sem.sectionB;
+      if (!sB) return;
+      if (sB.format === "grouped") {
+        sB.questions.forEach((parent) => {
+          (parent.subQuestions || []).forEach((q) => {
+            pool.push({ q, parentLabel: parent.label, caseStudy: parent.caseStudy ?? null,
+              yearLabel: year.label, semesterLabel: sem.semester, yearId: year.id, semesterIdx: si });
+          });
+        });
+      } else {
+        (sB.questions || []).forEach((q) => {
+          pool.push({ q, parentLabel: null, caseStudy: sB.caseStudy ?? null,
+            yearLabel: year.label, semesterLabel: sem.semester, yearId: year.id, semesterIdx: si });
+        });
+      }
+    });
+  }
+  return pool;
+}
+
+// Search across all loaded MCQ + written questions for a subject.
+// Returns array of { type:"mcq"|"written", entry, score } sorted by relevance.
+// Load ALL year files for a subject (for practice mode or search).
+// Shows a loading UI; calls onDone() when complete.
+async function loadAllYears(subjectId, onDone) {
+  const subject = DATA.subjects.find((s) => s.id === subjectId);
+  if (!subject) { onDone(); return; }
+  showLoading("Loading all exam data\u2026");
+  try {
+    await Promise.all(subject.years.map((y) => loadYear(subjectId, y.id)));
+    onDone();
+  } catch (e) {
+    showError(`Failed to load data.<br><small>${e.message}</small>`);
+  }
+}
+
 // ─── SCREENS ──────────────────────────────────────────────────────────────────
 
 function renderSubjects() {
@@ -494,7 +577,14 @@ function renderYears() {
     <main class="screen">
       <p class="breadcrumb">${subject.title}</p>
       <h1 class="screen-title">Select Academic Year</h1>
-      <div class="card-grid">${cards}</div>
+      <div class="card-grid">
+        ${cards}
+        <button class="card practice-mode-card" data-action="go-practice">
+          <span class="card-icon">🎯</span>
+          <span class="card-title">Practice Mode</span>
+          <span class="card-code">All Years · Random Questions</span>
+        </button>
+      </div>
     </main>
     ${renderBottomNav()}`;
 }
@@ -919,6 +1009,349 @@ function renderWritten() {
     ${renderBottomNav()}`;
 }
 
+
+// ─── PRACTICE MODE SCREENS ───────────────────────────────────────────────────
+
+function renderPracticeConfig() {
+  const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+  if (!subject) return renderSubjects();
+
+  const cfg      = state.practiceCfg ?? {};
+  const selType  = cfg.type    ?? "mcq";
+  const selCount = cfg.count   ?? 20;
+
+  function typeBtn(val, label, icon) {
+    const active = selType === val;
+    return `<button class="practice-opt-btn${active ? " active" : ""}" data-practice-type="${val}">
+      <span>${icon}</span><span>${label}</span>
+    </button>`;
+  }
+  function countBtn(val) {
+    const active = selCount === val;
+    return `<button class="practice-count-btn${active ? " active" : ""}" data-practice-count="${val}">${val === 0 ? "All" : val}</button>`;
+  }
+
+  return `
+    <header class="top-bar">
+      <button class="back-btn" data-goto="years">\u2190 Back</button>
+      <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
+    </header>
+    <main class="screen">
+      <p class="breadcrumb">${subject.title}</p>
+      <h1 class="screen-title">Practice Mode</h1>
+      <p class="screen-sub">Random questions from all academic years</p>
+
+      <div class="practice-section">
+        <h3 class="practice-section-title">Question Type</h3>
+        <div class="practice-opts">
+          ${typeBtn("mcq",     "Section A (MCQ)",    "📝")}
+          ${typeBtn("written", "Section B (Written)", "✍️")}
+          ${typeBtn("both",    "Both Sections",       "📚")}
+        </div>
+      </div>
+
+      <div class="practice-section">
+        <h3 class="practice-section-title">Number of Questions</h3>
+        <div class="practice-counts">
+          ${[10, 20, 30, 0].map(countBtn).join("")}
+        </div>
+      </div>
+
+      <button class="btn-primary" id="btn-start-practice" style="margin-top:8px">
+        Start Practice Session 🎯
+      </button>
+    </main>
+    ${renderBottomNav()}`;
+}
+
+function renderPracticeSession() {
+  const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+  if (!subject) return renderSubjects();
+
+  const pool    = state.practicePool ?? [];
+  const idx     = Math.min(state.practiceIndex ?? 0, pool.length - 1);
+  const total   = pool.length;
+  if (!pool.length) return renderPracticeConfig();
+
+  const entry   = pool[idx];
+  const pType   = entry.pType;   // "mcq" or "written"
+
+  const answered     = state.practiceSelectedOpt !== undefined;
+  const showAnswer   = state.practiceAnswerShown ?? false;
+  const answeredCount = (state.practiceAnswers ?? []).filter((a) => a !== undefined).length;
+  const isLast       = idx + 1 >= total;
+
+  // ── MCQ ──────────────────────────────────────────────────────────────────
+  let contentBlock = "";
+  if (pType === "mcq") {
+    const { q, item } = entry;
+    const opts = (q.options || []).map((opt, i) => {
+      let cls = "option-btn";
+      if (answered) {
+        if (i === q.correct)                   cls += " correct";
+        else if (i === state.practiceSelectedOpt) cls += " wrong";
+        else                                   cls += " dimmed";
+      }
+      return `<button class="${cls}" data-prac-option="${i}" ${answered ? "disabled" : ""}>${opt}</button>`;
+    }).join("");
+
+    const caseBlock = item?.type === "case-group"
+      ? `<div class="case-static">
+           <div class="case-static-title">📄 ${item.caseStudy.title}</div>
+           <div class="case-static-body">${(item.caseStudy.fullText ?? "")
+             .replace(/\n\n/g, "</p><p>").replace(/^/, "<p>").replace(/$/, "</p>")}</div>
+         </div>` : "";
+
+    const feedback = answered
+      ? `<div class="feedback-box">
+           <div class="feedback-label">${state.practiceSelectedOpt === q.correct ? "✅ Correct!" : "❌ Incorrect"}</div>
+           <p class="feedback-exp">${q.explanation ?? ""}</p>
+           <p class="feedback-ref">📖 ${q.ref ?? ""}</p>
+         </div>` : "";
+
+    contentBlock = `
+      ${caseBlock}
+      <div class="card question-card">
+        <p class="practice-source-badge">${entry.yearLabel} · ${entry.semesterLabel}</p>
+        <p class="q-text">${q.text ?? ""}</p>
+        <div class="options-grid">${opts}</div>
+        ${feedback}
+        ${answered ? `<button class="btn-primary prac-next-btn" data-is-last="${isLast}">
+          ${isLast ? "Finish \u2714" : "Next \u2192"}
+        </button>` : ""}
+      </div>`;
+
+  // ── WRITTEN ───────────────────────────────────────────────────────────────
+  } else {
+    const { q, caseStudy, parentLabel } = entry;
+    const mainPts = (q?.answer?.mainPoints ?? []).map((p) => `
+      <div class="answer-point">
+        <strong>${p.heading}</strong><p>${p.detail}</p>
+      </div>`).join("");
+
+    const answerBlock = showAnswer
+      ? `<div class="answer-block">
+          ${q?.commandWord ? `<p class="command-word-label">Command Word: <strong>${q.commandWord}</strong></p>` : ""}
+          ${q?.answer?.introduction ? `<div class="answer-section"><h4>Introduction</h4><p>${q.answer.introduction}</p></div>` : ""}
+          <div class="answer-section"><h4>Main Points</h4>${mainPts}</div>
+          ${q?.answer?.conclusion ? `<div class="answer-section"><h4>Conclusion</h4><p>${q.answer.conclusion}</p></div>` : ""}
+          ${q?.answer?.ref ? `<p class="feedback-ref">📖 ${q.answer.ref}</p>` : ""}
+          <button class="btn-primary prac-next-btn" data-is-last="${isLast}" style="margin-top:16px">
+            ${isLast ? "Finish \u2714" : "Next Question \u2192"}
+          </button>
+        </div>` : "";
+
+    contentBlock = `
+      <div class="card question-card">
+        <p class="practice-source-badge">${entry.yearLabel} · ${entry.semesterLabel}${parentLabel ? " · " + parentLabel : ""}</p>
+        ${q?.marks ? `<div class="q-marks-row"><span class="q-marks">[${q.marks} marks]</span></div>` : ""}
+        <p class="q-text">${q?.text ?? ""}</p>
+        ${!showAnswer ? `<button class="btn-primary prac-reveal-btn">Reveal Answer</button>` : answerBlock}
+      </div>`;
+  }
+
+  return `
+    <header class="top-bar">
+      <button class="back-btn mcq-guard-back" data-goto="practiceConfig">\u2190 Exit</button>
+      <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
+    </header>
+    <main class="screen">
+      <p class="breadcrumb">${subject.title} · Practice Mode</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:${((idx + 1) / total) * 100}%"></div>
+      </div>
+      <p class="q-counter">Question ${idx + 1} of ${total}
+        ${answeredCount > 0 ? `<span class="q-answered-badge">${answeredCount} answered</span>` : ""}
+      </p>
+      ${contentBlock}
+    </main>
+    ${renderBottomNav()}`;
+}
+
+function renderPracticeScore() {
+  const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+  if (!subject) return renderSubjects();
+
+  const pool         = state.practicePool ?? [];
+  const answers      = state.practiceAnswers ?? [];
+  const mcqItems     = pool.filter((e) => e.pType === "mcq");
+  const writtenItems = pool.filter((e) => e.pType === "written");
+
+  // MCQ score — only over MCQ slots in the pool
+  const mcqAnswers = answers.filter((_, i) => pool[i]?.pType === "mcq");
+  const score      = calcScore(mcqAnswers, mcqItems.length);
+  const pct        = score.percentage;
+
+  const tier =
+    pct >= 80 ? { emoji: "\uD83C\uDFC6", cls: "score-tier-gold",  label: "Excellent!"       } :
+    pct >= 60 ? { emoji: "\u2705",       cls: "score-tier-green", label: "Good job!"         } :
+    pct >= 40 ? { emoji: "\uD83D\uDCDA", cls: "score-tier-amber", label: "Keep studying"     } :
+                { emoji: "\uD83D\uDCAA", cls: "score-tier-red",   label: "Don\u2019t give up!" };
+
+  const scoreBlock = mcqItems.length > 0
+    ? `<div class="score-card ${tier.cls}">
+        <div class="score-emoji">${tier.emoji}</div>
+        <div class="score-number">${score.correct}<span class="score-denom">/${score.total}</span></div>
+        <div class="score-percentage">${pct}%</div>
+        <div class="score-label">${tier.label}</div>
+      </div>`
+    : `<div class="score-card score-tier-green">
+        <div class="score-emoji">\u2705</div>
+        <div class="score-number">${writtenItems.length}</div>
+        <div class="score-percentage">Written Questions</div>
+        <div class="score-label">Practice complete!</div>
+      </div>`;
+
+  // Per-question breakdown rows (all types)
+  const reviewRows = pool.map((entry, i) => {
+    const ans    = answers[i];
+    if (entry.pType === "mcq") {
+      const isOk = ans?.correct ?? false;
+      const icon = ans === undefined ? "\u25CB" : (isOk ? "\u2705" : "\u274C");
+      const cls  = ans === undefined ? "skipped" : (isOk ? "correct" : "incorrect");
+      const text = (entry.q?.text ?? "").length > 72 ? entry.q.text.slice(0, 69) + "\u2026" : (entry.q?.text ?? "");
+      return `
+        <div class="question-review-item" data-prac-review-jump="${i}">
+          <div class="question-indicator ${cls}">${icon}</div>
+          <div class="review-item-body">
+            <span class="review-q-text">${i + 1}. ${text}</span>
+            <span class="practice-source-badge" style="margin-top:4px;display:inline-block">${entry.yearLabel} \u00b7 ${entry.semesterLabel}</span>
+          </div>
+        </div>`;
+    } else {
+      const text = (entry.q?.text ?? "").length > 72 ? entry.q.text.slice(0, 69) + "\u2026" : (entry.q?.text ?? "");
+      return `
+        <div class="question-review-item" data-prac-review-jump="${i}">
+          <div class="question-indicator skipped">\u270D\uFE0F</div>
+          <div class="review-item-body">
+            <span class="review-q-text">${i + 1}. ${text}</span>
+            <span class="practice-source-badge" style="margin-top:4px;display:inline-block">${entry.yearLabel} \u00b7 ${entry.semesterLabel}</span>
+          </div>
+        </div>`;
+    }
+  }).join("");
+
+  const hasReviewable = pool.length > 0;
+
+  return `
+    <header class="top-bar">
+      <button class="back-btn" data-goto="practiceConfig">\u2190 Done</button>
+      <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
+    </header>
+    <main class="screen">
+      <p class="breadcrumb">${subject.title} \u00b7 Practice Mode \u00b7 Results</p>
+      ${scoreBlock}
+      <div class="score-actions">
+        ${hasReviewable ? `<button class="btn-primary" id="btn-prac-review">\uD83D\uDCCB Review Answers</button>` : ""}
+        <button class="btn-secondary" id="btn-practice-again">\uD83D\uDD04 Practice Again</button>
+      </div>
+      <h3 class="review-list-title">Question Breakdown</h3>
+      <div class="question-review-list">${reviewRows}</div>
+    </main>
+    ${renderBottomNav()}`;
+}
+
+// ── PRACTICE REVIEW SCREEN ────────────────────────────────────────────────────
+function renderPracticeReview() {
+  const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+  if (!subject) return renderSubjects();
+
+  const pool  = state.practicePool ?? [];
+  const idx   = Math.min(state.practiceReviewIdx ?? 0, pool.length - 1);
+  const total = pool.length;
+  if (!pool.length) return renderPracticeScore();
+
+  const entry    = pool[idx];
+  const answers  = state.practiceAnswers ?? [];
+  const hasPrev  = idx > 0;
+  const hasNext  = idx + 1 < total;
+
+  let contentBlock = "";
+
+  if (entry.pType === "mcq") {
+    const { q, item } = entry;
+    const ans      = answers[idx];
+    const selected = ans?.selected;
+    const isOk     = ans?.correct ?? false;
+
+    const caseBlock = item?.type === "case-group"
+      ? `<div class="case-static">
+           <div class="case-static-title">\uD83D\uDCC4 ${item.caseStudy.title}</div>
+           <div class="case-static-body">${(item.caseStudy.fullText ?? "")
+             .replace(/\n\n/g, "</p><p>").replace(/^/, "<p>").replace(/$/, "</p>")}</div>
+         </div>` : "";
+
+    const opts = (q.options || []).map((opt, i) => {
+      let cls = "option-btn";
+      if (i === q.correct)     cls += " correct";
+      else if (i === selected) cls += " wrong";
+      else                     cls += " dimmed";
+      return `<button class="${cls}" disabled>${opt}</button>`;
+    }).join("");
+
+    const feedback = `
+      <div class="feedback-box">
+        <div class="feedback-label">${isOk ? "\u2705 Correct" : ans === undefined ? "\u25CB Not answered" : "\u274C Incorrect"}</div>
+        <p class="feedback-exp">${q.explanation ?? ""}</p>
+        <p class="feedback-ref">\uD83D\uDCDA ${q.ref ?? ""}</p>
+      </div>`;
+
+    contentBlock = `
+      ${caseBlock}
+      <div class="card question-card">
+        <p class="practice-source-badge">${entry.yearLabel} \u00b7 ${entry.semesterLabel}</p>
+        <p class="q-text">${q.text ?? ""}</p>
+        <div class="options-grid">${opts}</div>
+        ${feedback}
+      </div>`;
+
+  } else {
+    // Written review — always show answer
+    const { q, parentLabel } = entry;
+    const mainPts = (q?.answer?.mainPoints ?? []).map((p) => `
+      <div class="answer-point"><strong>${p.heading}</strong><p>${p.detail}</p></div>`).join("");
+
+    contentBlock = `
+      <div class="card question-card">
+        <p class="practice-source-badge">${entry.yearLabel} \u00b7 ${entry.semesterLabel}${parentLabel ? " \u00b7 " + parentLabel : ""}</p>
+        ${q?.marks ? `<div class="q-marks-row"><span class="q-marks">[${q.marks} marks]</span></div>` : ""}
+        <p class="q-text">${q?.text ?? ""}</p>
+        <div class="answer-block">
+          ${q?.commandWord ? `<p class="command-word-label">Command Word: <strong>${q.commandWord}</strong></p>` : ""}
+          ${q?.answer?.introduction ? `<div class="answer-section"><h4>Introduction</h4><p>${q.answer.introduction}</p></div>` : ""}
+          <div class="answer-section"><h4>Main Points</h4>${mainPts}</div>
+          ${q?.answer?.conclusion ? `<div class="answer-section"><h4>Conclusion</h4><p>${q.answer.conclusion}</p></div>` : ""}
+          ${q?.answer?.ref ? `<p class="feedback-ref">\uD83D\uDCDA ${q.answer.ref}</p>` : ""}
+        </div>
+      </div>`;
+  }
+
+  return `
+    <header class="top-bar">
+      <button class="back-btn" data-goto="practiceScore">\u2190 Score</button>
+      <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
+    </header>
+    <main class="screen">
+      <p class="breadcrumb">${subject.title} \u00b7 Practice Mode \u00b7 Review</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:${((idx + 1) / total) * 100}%"></div>
+      </div>
+      <p class="q-counter">Question ${idx + 1} of ${total}
+        <span class="review-mode-badge">Review</span>
+      </p>
+      ${contentBlock}
+      <div class="review-nav">
+        <button class="btn-secondary prac-rev-prev" ${hasPrev ? "" : "disabled"}>\u2190 Prev</button>
+        <button class="btn-primary  prac-rev-next"  ${hasNext ? "" : "disabled"}>Next \u2192</button>
+      </div>
+    </main>
+    ${renderBottomNav()}`;
+}
+
 // ─── EVENTS ───────────────────────────────────────────────────────────────────
 function bindEvents() {
   const app = document.getElementById("app");
@@ -941,6 +1374,160 @@ function bindEvents() {
       }
     });
   });
+
+  // Generic data-action buttons (practice, etc.)
+  app.querySelectorAll("[data-action]").forEach((el) => {
+    el.addEventListener("click", () => {
+      const action = el.dataset.action;
+      if (action === "go-practice") {
+        loadAllYears(state.subjectId, () => {
+          go("practiceConfig", { practiceCfg: { type: "mcq", count: 20 } });
+        });
+      }
+    });
+  });
+
+  // Practice config: type selector
+  app.querySelectorAll("[data-practice-type]").forEach((el) => {
+    el.addEventListener("click", () => {
+      const cfg = { ...(state.practiceCfg ?? {}), type: el.dataset.practiceType };
+      state = saveState({ practiceCfg: cfg });
+      render();
+    });
+  });
+
+  // Practice config: count selector
+  app.querySelectorAll("[data-practice-count]").forEach((el) => {
+    el.addEventListener("click", () => {
+      const cfg = { ...(state.practiceCfg ?? {}), count: parseInt(el.dataset.practiceCount) };
+      state = saveState({ practiceCfg: cfg });
+      render();
+    });
+  });
+
+  // Practice config: start button
+  const btnStartPractice = app.querySelector("#btn-start-practice");
+  if (btnStartPractice) {
+    btnStartPractice.addEventListener("click", () => {
+      const cfg      = state.practiceCfg ?? { type: "mcq", count: 20 };
+      const type     = cfg.type ?? "mcq";
+      const count    = cfg.count ?? 20;
+
+      // Build pool based on type
+      let pool = [];
+      if (type === "mcq" || type === "both") {
+        buildMCQPool(state.subjectId).forEach((e) => pool.push({ ...e, pType: "mcq" }));
+      }
+      if (type === "written" || type === "both") {
+        buildWrittenPool(state.subjectId).forEach((e) => pool.push({ ...e, pType: "written" }));
+      }
+
+      pool = shuffleArray(pool);
+      if (count > 0) pool = pool.slice(0, count);
+
+      if (!pool.length) {
+        showConfirmDialog("No questions available for the selected options. Try loading more year data.", () => {});
+        return;
+      }
+
+      state = saveState({
+        screen:               "practiceSession",
+        practicePool:         pool,
+        practiceIndex:        0,
+        practiceAnswers:      [],
+        practiceSelectedOpt:  undefined,
+        practiceAnswerShown:  false,
+        mcqSessionActive:     true,   // re-use guard for practice too
+      });
+      render();
+    });
+  }
+
+  // Practice session: MCQ option select
+  app.querySelectorAll("[data-prac-option]").forEach((el) => {
+    el.addEventListener("click", () => {
+      const selected = parseInt(el.dataset.pracOption);
+      const pool     = state.practicePool ?? [];
+      const idx      = state.practiceIndex ?? 0;
+      const entry    = pool[idx];
+      const isOk     = selected === entry?.q?.correct;
+      const answers  = [...(state.practiceAnswers ?? [])];
+      answers[idx]   = { selected, correct: isOk };
+      state = saveState({ practiceSelectedOpt: selected, practiceAnswers: answers });
+      render();
+    });
+  });
+
+  // Practice session: reveal written answer
+  const pracRevealBtn = app.querySelector(".prac-reveal-btn");
+  if (pracRevealBtn) {
+    pracRevealBtn.addEventListener("click", () => {
+      state = saveState({ practiceAnswerShown: true });
+      render();
+    });
+  }
+
+  // Practice session: next / finish
+  const pracNextBtn = app.querySelector(".prac-next-btn");
+  if (pracNextBtn) {
+    pracNextBtn.addEventListener("click", () => {
+      const isLast = pracNextBtn.dataset.isLast === "true";
+      if (isLast) {
+        state = saveState({
+          screen: "practiceScore",
+          mcqSessionActive: false,
+        });
+        render();
+      } else {
+        const nextIdx = (state.practiceIndex ?? 0) + 1;
+        state = saveState({
+          practiceIndex:       nextIdx,
+          practiceSelectedOpt: undefined,
+          practiceAnswerShown: false,
+        });
+        render();
+      }
+    });
+  }
+
+  // Practice score: Review Answers button
+  const btnPracReview = app.querySelector("#btn-prac-review");
+  if (btnPracReview) {
+    btnPracReview.addEventListener("click", () =>
+      go("practiceReview", { practiceReviewIdx: 0 })
+    );
+  }
+
+  // Practice score: click a breakdown row → jump into review at that index
+  app.querySelectorAll("[data-prac-review-jump]").forEach((el) => {
+    el.addEventListener("click", () =>
+      go("practiceReview", { practiceReviewIdx: parseInt(el.dataset.pracReviewJump) })
+    );
+  });
+
+  // Practice review: Prev / Next
+  const pracRevPrev = app.querySelector(".prac-rev-prev");
+  if (pracRevPrev) {
+    pracRevPrev.addEventListener("click", () =>
+      go("practiceReview", { practiceReviewIdx: Math.max(0, (state.practiceReviewIdx ?? 0) - 1) })
+    );
+  }
+  const pracRevNext = app.querySelector(".prac-rev-next");
+  if (pracRevNext) {
+    pracRevNext.addEventListener("click", () => {
+      const total = (state.practicePool ?? []).length;
+      go("practiceReview", { practiceReviewIdx: Math.min(total - 1, (state.practiceReviewIdx ?? 0) + 1) });
+    });
+  }
+
+  // Practice score: practice again
+  const btnPracticeAgain = app.querySelector("#btn-practice-again");
+  if (btnPracticeAgain) {
+    btnPracticeAgain.addEventListener("click", () => {
+      go("practiceConfig");
+    });
+  }
+
 
   // Subject select
   app.querySelectorAll("[data-subject]").forEach((el) => {
