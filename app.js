@@ -230,7 +230,7 @@ function getSemester() {
 
 // ─── STATE ────────────────────────────────────────────────────────────────────
 const STATE_KEY     = "examprep_state";
-const STATE_VERSION = 3;   // bump whenever state shape changes; wipes stale localStorage
+const STATE_VERSION = 4;   // bump whenever state shape changes; wipes stale localStorage
 
 function loadState() {
   try {
@@ -255,6 +255,8 @@ const screens = {
   semesters:         renderSemesters,
   sections:          renderSections,
   mcq:               renderMCQ,
+  mcqScore:          renderMCQScore,
+  mcqReview:         renderMCQReview,
   "written-questions": renderWrittenQuestions,
   written:           renderWritten,
 };
@@ -308,7 +310,7 @@ function renderBottomNav() {
   let currentTarget = "";          // empty = disabled
   let currentActive = false;
 
-  if (scr === "mcq") {
+  if (scr === "mcq" || scr === "mcqScore" || scr === "mcqReview") {
     currentLabel  = "Section A";
     currentTarget = "sections";
     currentActive = true;
@@ -352,6 +354,98 @@ function renderBottomNav() {
         <span class="nav-label">Settings</span>
       </button>
     </nav>`;
+}
+
+// ─── MCQ SESSION HELPERS ─────────────────────────────────────────────────────
+
+// Called when the user selects an option in the live quiz.
+// Records the answer into state.mcqAnswers[].
+function recordMCQAnswer(globalIdx, selected, isCorrect) {
+  const answers = [...(state.mcqAnswers ?? [])];
+  answers[globalIdx] = { qIndex: globalIdx, selected, correct: isCorrect };
+  state = saveState({ mcqAnswers: answers, mcqSessionActive: true });
+}
+
+// Calculate score object from state.mcqAnswers and total question count.
+function calcScore(answers, total) {
+  const correct    = (answers ?? []).filter((a) => a?.correct).length;
+  const answered   = (answers ?? []).filter((a) => a !== undefined).length;
+  const percentage = total > 0 ? Math.round((correct / total) * 100) : 0;
+  return { correct, total, answered, percentage };
+}
+
+// Start a fresh MCQ session (Retry or first start).
+function startMCQSession() {
+  state = saveState({
+    screen:           "mcq",
+    qIndex:           0,
+    selectedOption:   undefined,
+    mcqAnswers:       [],
+    mcqSessionActive: true,
+    mcqCompleted:     false,
+    mcqScore:         null,
+  });
+  render();
+}
+
+// Finish the quiz: compute score, persist, go to score screen.
+function finishMCQSession() {
+  const sem   = getSemester();
+  const flat  = flattenSectionA(sem?.sectionA);
+  const score = calcScore(state.mcqAnswers, flat.length);
+  state = saveState({
+    screen:           "mcqScore",
+    mcqSessionActive: false,
+    mcqCompleted:     true,
+    mcqScore:         score,
+    selectedOption:   undefined,
+  });
+  render();
+}
+
+// ─── CONFIRMATION DIALOG ──────────────────────────────────────────────────────
+// Injects a modal overlay into #app without re-rendering the whole page.
+// onConfirm is called when the user clicks "Leave".
+function showConfirmDialog(message, onConfirm) {
+  const overlay = document.createElement("div");
+  overlay.className = "confirm-overlay";
+  overlay.innerHTML = `
+    <div class="confirm-dialog" role="alertdialog" aria-modal="true"
+         aria-labelledby="confirm-msg">
+      <p id="confirm-msg" class="confirm-message">${message}</p>
+      <div class="confirm-actions">
+        <button class="btn-secondary confirm-stay" style="flex:1">Stay</button>
+        <button class="btn-danger confirm-leave" style="flex:1">Leave</button>
+      </div>
+    </div>`;
+
+  document.getElementById("app").appendChild(overlay);
+
+  overlay.querySelector(".confirm-stay").addEventListener("click", () => overlay.remove());
+  overlay.querySelector(".confirm-leave").addEventListener("click", () => {
+    overlay.remove();
+    onConfirm();
+  });
+  // Dismiss on backdrop click
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
+  // Trap focus on Stay by default
+  overlay.querySelector(".confirm-stay").focus();
+}
+
+// Guard helper — if a session is active, show the confirm dialog;
+// otherwise call proceed() immediately.
+function guardMCQLeave(proceed) {
+  if (state.mcqSessionActive) {
+    showConfirmDialog(
+      "You have an ongoing quiz. Are you sure you want to leave?<br>Your progress will be lost.",
+      () => {
+        state = saveState({ mcqSessionActive: false, mcqAnswers: [], mcqScore: null });
+        proceed();
+      }
+    );
+  } else {
+    proceed();
+  }
 }
 
 // ─── SCREENS ──────────────────────────────────────────────────────────────────
@@ -481,11 +575,11 @@ function renderMCQ() {
   const sem     = getSemester();
   if (!subject || !year || !sem) return renderSubjects();
 
-  const flat       = flattenSectionA(sem.sectionA);
-  const globalIdx  = Math.min(state.qIndex || 0, flat.length - 1);
+  const flat      = flattenSectionA(sem.sectionA);
+  const globalIdx = Math.min(state.qIndex || 0, flat.length - 1);
   const { item, q } = flat[globalIdx];
-  const total      = flat.length;
-  const answered   = state.selectedOption !== undefined;
+  const total     = flat.length;
+  const answered  = state.selectedOption !== undefined;
 
   const caseBlock = item.type === "case-group"
     ? `<div class="case-static">
@@ -498,9 +592,9 @@ function renderMCQ() {
   const opts = (q.options || []).map((opt, i) => {
     let cls = "option-btn";
     if (answered) {
-      if (i === q.correct)                               cls += " correct";
-      else if (i === state.selectedOption)               cls += " wrong";
-      else                                               cls += " dimmed";
+      if (i === q.correct)               cls += " correct";
+      else if (i === state.selectedOption) cls += " wrong";
+      else                               cls += " dimmed";
     }
     return `<button class="${cls}" data-option="${i}" ${answered ? "disabled" : ""}>${opt}</button>`;
   }).join("");
@@ -513,26 +607,153 @@ function renderMCQ() {
        </div>`
     : "";
 
-  const nextLabel = globalIdx + 1 < total ? "Next Question \u2192" : "Finish";
+  const isLast    = globalIdx + 1 >= total;
+  const nextLabel = isLast ? "Finish \u2714" : "Next Question \u2192";
+  const answeredCount = (state.mcqAnswers ?? []).filter((a) => a !== undefined).length;
 
   return `
     <header class="top-bar">
-      <button class="back-btn" data-goto="sections">← Back</button>
+      <button class="back-btn mcq-guard-back" data-goto="sections">\u2190 Back</button>
       <div class="logo">ExamPrep</div>
       ${themeToggleBtn()}
     </header>
     <main class="screen">
-      <p class="breadcrumb">${subject.title} · ${year.label} · ${sem.semester} · Section A</p>
+      <p class="breadcrumb">${subject.title} \u00b7 ${year.label} \u00b7 ${sem.semester} \u00b7 Section A</p>
       <div class="progress-bar">
         <div class="progress-fill" style="width:${((globalIdx + 1) / total) * 100}%"></div>
       </div>
-      <p class="q-counter">Question ${globalIdx + 1} of ${total}</p>
+      <p class="q-counter">Question ${globalIdx + 1} of ${total}
+        ${answeredCount > 0 ? `<span class="q-answered-badge">${answeredCount} answered</span>` : ""}
+      </p>
       ${caseBlock}
       <div class="card question-card">
         <p class="q-text">${q.text ?? ""}</p>
         <div class="options-grid">${opts}</div>
         ${feedback}
-        ${answered ? `<button class="btn-primary next-btn">${nextLabel}</button>` : ""}
+        ${answered ? `<button class="btn-primary next-btn" data-is-last="${isLast}">${nextLabel}</button>` : ""}
+      </div>
+    </main>
+    ${renderBottomNav()}`;
+}
+
+// ── MCQ SCORE SCREEN ──────────────────────────────────────────────────────────
+function renderMCQScore() {
+  const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+  const year    = subject?.years.find((y) => y.id === state.yearId);
+  const sem     = getSemester();
+  if (!subject || !year || !sem) return renderSubjects();
+
+  const flat  = flattenSectionA(sem.sectionA);
+  const score = state.mcqScore ?? calcScore(state.mcqAnswers, flat.length);
+  const pct   = score.percentage;
+
+  const tier =
+    pct >= 80 ? { emoji: "\uD83C\uDFC6", cls: "score-tier-gold",  label: "Excellent!"      } :
+    pct >= 60 ? { emoji: "\u2705",       cls: "score-tier-green", label: "Good job!"        } :
+    pct >= 40 ? { emoji: "\uD83D\uDCDA", cls: "score-tier-amber", label: "Keep studying"    } :
+                { emoji: "\uD83D\uDCAA", cls: "score-tier-red",   label: "Don\u2019t give up!" };
+
+  const reviewRows = flat.map(({ q }, i) => {
+    const ans  = (state.mcqAnswers ?? [])[i];
+    const isOk = ans?.correct ?? false;
+    const icon = ans === undefined ? "\u25CB" : (isOk ? "\u2705" : "\u274C");
+    const cls  = ans === undefined ? "skipped" : (isOk ? "correct" : "incorrect");
+    const text = (q.text ?? "").length > 72 ? q.text.slice(0, 69) + "\u2026" : (q.text ?? "");
+    return `
+      <div class="question-review-item" data-review-jump="${i}">
+        <div class="question-indicator ${cls}">${icon}</div>
+        <span class="review-q-text">${i + 1}. ${text}</span>
+      </div>`;
+  }).join("");
+
+  return `
+    <header class="top-bar">
+      <button class="back-btn" data-goto="sections">\u2190 Done</button>
+      <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
+    </header>
+    <main class="screen">
+      <p class="breadcrumb">${subject.title} \u00b7 ${year.label} \u00b7 ${sem.semester} \u00b7 Section A</p>
+      <div class="score-card ${tier.cls}">
+        <div class="score-emoji">${tier.emoji}</div>
+        <div class="score-number">${score.correct}<span class="score-denom">/${score.total}</span></div>
+        <div class="score-percentage">${pct}%</div>
+        <div class="score-label">${tier.label}</div>
+      </div>
+      <div class="score-actions">
+        <button class="btn-primary" id="btn-review-answers">\uD83D\uDCCB Review Answers</button>
+        <button class="btn-secondary" id="btn-retry-section">\uD83D\uDD04 Retry Section</button>
+      </div>
+      <h3 class="review-list-title">Question Breakdown</h3>
+      <div class="question-review-list">${reviewRows}</div>
+    </main>
+    ${renderBottomNav()}`;
+}
+
+// ── MCQ REVIEW SCREEN ─────────────────────────────────────────────────────────
+function renderMCQReview() {
+  const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+  const year    = subject?.years.find((y) => y.id === state.yearId);
+  const sem     = getSemester();
+  if (!subject || !year || !sem) return renderSubjects();
+
+  const flat      = flattenSectionA(sem.sectionA);
+  const globalIdx = Math.min(state.qIndex || 0, flat.length - 1);
+  const { item, q } = flat[globalIdx];
+  const total     = flat.length;
+  const ans       = (state.mcqAnswers ?? [])[globalIdx];
+  const selected  = ans?.selected;
+  const isCorrect = ans?.correct ?? false;
+
+  const caseBlock = item.type === "case-group"
+    ? `<div class="case-static">
+         <div class="case-static-title">📄 ${item.caseStudy.title}</div>
+         <div class="case-static-body">${item.caseStudy.fullText
+           .replace(/\n\n/g, "</p><p>").replace(/^/, "<p>").replace(/$/, "</p>")}</div>
+       </div>`
+    : "";
+
+  const opts = (q.options || []).map((opt, i) => {
+    let cls = "option-btn";
+    if (i === q.correct)     cls += " correct";
+    else if (i === selected) cls += " wrong";
+    else                     cls += " dimmed";
+    return `<button class="${cls}" disabled>${opt}</button>`;
+  }).join("");
+
+  const feedback = `
+    <div class="feedback-box">
+      <div class="feedback-label">${isCorrect ? "\u2705 You got this right" : "\u274C You got this wrong"}</div>
+      <p class="feedback-exp">${q.explanation ?? ""}</p>
+      <p class="feedback-ref">\uD83D\uDCDA ${q.ref ?? ""}</p>
+    </div>`;
+
+  const hasPrev = globalIdx > 0;
+  const hasNext = globalIdx + 1 < total;
+
+  return `
+    <header class="top-bar">
+      <button class="back-btn" data-goto="mcqScore">\u2190 Score</button>
+      <div class="logo">ExamPrep</div>
+      ${themeToggleBtn()}
+    </header>
+    <main class="screen">
+      <p class="breadcrumb">${subject.title} \u00b7 ${year.label} \u00b7 ${sem.semester} \u00b7 Section A \u00b7 Review</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width:${((globalIdx + 1) / total) * 100}%"></div>
+      </div>
+      <p class="q-counter">Question ${globalIdx + 1} of ${total}
+        <span class="review-mode-badge">Review</span>
+      </p>
+      ${caseBlock}
+      <div class="card question-card">
+        <p class="q-text">${q.text ?? ""}</p>
+        <div class="options-grid">${opts}</div>
+        ${feedback}
+        <div class="review-nav">
+          <button class="btn-secondary review-prev-btn" ${hasPrev ? "" : "disabled"}>\u2190 Prev</button>
+          <button class="btn-primary  review-next-btn"  ${hasNext ? "" : "disabled"}>Next \u2192</button>
+        </div>
       </div>
     </main>
     ${renderBottomNav()}`;
@@ -707,14 +928,14 @@ function bindEvents() {
     btn.addEventListener("click", toggleTheme);
   });
 
-  // Bottom nav
+  // Bottom nav — Home guards against active MCQ session
   app.querySelectorAll("[data-nav]").forEach((btn) => {
     if (btn.disabled) return;
     btn.addEventListener("click", () => {
       const nav    = btn.dataset.nav;
       const target = btn.dataset.target;
       if (nav === "home") {
-        go("subjects");
+        guardMCQLeave(() => go("subjects"));
       } else if (nav === "current" && target) {
         go(target);
       }
@@ -745,7 +966,15 @@ function bindEvents() {
     el.addEventListener("click", () => {
       const section = el.dataset.section;
       if (section === "A") {
-        go("mcq", { section, qIndex: 0, selectedOption: undefined });
+        // Clear any previous session before starting fresh
+        state = saveState({
+          mcqAnswers: [], mcqSessionActive: true,
+          mcqCompleted: false, mcqScore: null,
+          selectedOption: undefined,
+        });
+        go("mcq", { section, qIndex: 0, selectedOption: undefined,
+          mcqAnswers: [], mcqSessionActive: true,
+          mcqCompleted: false, mcqScore: null });
         return;
       }
       // Section B: go to question selector if grouped, otherwise straight to written
@@ -764,8 +993,9 @@ function bindEvents() {
     });
   });
 
-  // Back buttons
+  // Back buttons (generic) — skip MCQ guard-back which has its own handler above
   app.querySelectorAll("[data-goto]").forEach((el) => {
+    if (el.classList.contains("mcq-guard-back")) return;
     el.addEventListener("click", () => go(el.dataset.goto));
   });
 
@@ -796,10 +1026,17 @@ function bindEvents() {
     });
   });
 
-  // MCQ option select
+  // MCQ option select — records answer into state.mcqAnswers
   app.querySelectorAll("[data-option]").forEach((el) => {
     el.addEventListener("click", () => {
-      state = saveState({ selectedOption: parseInt(el.dataset.option) });
+      const selected = parseInt(el.dataset.option);
+      const sem      = getSemester();
+      const flat     = flattenSectionA(sem?.sectionA);
+      const idx      = state.qIndex || 0;
+      const { q }    = flat[idx] ?? {};
+      const isOk     = selected === q?.correct;
+      recordMCQAnswer(idx, selected, isOk);
+      state = saveState({ selectedOption: selected });
       render();
     });
   });
@@ -808,13 +1045,59 @@ function bindEvents() {
   const nextBtn = app.querySelector(".next-btn");
   if (nextBtn) {
     nextBtn.addEventListener("click", () => {
-      const flat    = flattenSectionA(getSemester()?.sectionA);
-      const nextIdx = (state.qIndex || 0) + 1;
-      if (nextIdx < flat.length) {
-        go("mcq", { qIndex: nextIdx, selectedOption: undefined });
+      const isLast = nextBtn.dataset.isLast === "true";
+      if (isLast) {
+        finishMCQSession();
       } else {
-        go("sections");
+        const nextIdx = (state.qIndex || 0) + 1;
+        go("mcq", { qIndex: nextIdx, selectedOption: undefined });
       }
+    });
+  }
+
+  // Guard: MCQ back button (top-bar) — intercept if session active
+  const mcqGuardBack = app.querySelector(".mcq-guard-back");
+  if (mcqGuardBack) {
+    mcqGuardBack.addEventListener("click", (e) => {
+      e.stopImmediatePropagation();   // prevent the generic [data-goto] handler below
+      guardMCQLeave(() => go(mcqGuardBack.dataset.goto));
+    });
+  }
+
+  // Score screen: Review Answers button
+  const btnReview = app.querySelector("#btn-review-answers");
+  if (btnReview) {
+    btnReview.addEventListener("click", () =>
+      go("mcqReview", { qIndex: 0 })
+    );
+  }
+
+  // Score screen: Retry Section button
+  const btnRetry = app.querySelector("#btn-retry-section");
+  if (btnRetry) {
+    btnRetry.addEventListener("click", () => startMCQSession());
+  }
+
+  // Score screen: click a review-row to jump straight into review at that question
+  app.querySelectorAll("[data-review-jump]").forEach((el) => {
+    el.addEventListener("click", () =>
+      go("mcqReview", { qIndex: parseInt(el.dataset.reviewJump) })
+    );
+  });
+
+  // Review screen: Prev / Next navigation
+  const prevBtn = app.querySelector(".review-prev-btn");
+  if (prevBtn) {
+    prevBtn.addEventListener("click", () => {
+      go("mcqReview", { qIndex: Math.max(0, (state.qIndex || 0) - 1) });
+    });
+  }
+  const revNextBtn = app.querySelector(".review-next-btn");
+  if (revNextBtn) {
+    revNextBtn.addEventListener("click", () => {
+      const sem   = getSemester();
+      const total = flattenSectionA(sem?.sectionA).length;
+      go("mcqReview", { qIndex: Math.min(total - 1, (state.qIndex || 0) + 1) });
     });
   }
 
