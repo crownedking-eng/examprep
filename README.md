@@ -1,6 +1,6 @@
 # ExamPrep App
 
-A comprehensive exam preparation app for UCC PSCM Level 400 College of Education (CoDE) students.
+A comprehensive exam preparation app for UCC PSCM Level 400 College of Distance Education (CoDE) students.
 
 ## Features
 - Multiple academic years (2019-2020 to 2024-2025)
@@ -9,6 +9,7 @@ A comprehensive exam preparation app for UCC PSCM Level 400 College of Education
 - Progress tracking with local storage
 - Self-rating system for written answers
 - System rating for MCQs and review after answer session
+- PWA feature for local installation
 
 ## Subjects Available
 - Entrepreneurship (SBU 408D) - 6 academic years
