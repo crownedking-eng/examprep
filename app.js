@@ -230,7 +230,7 @@ function getSemester() {
 
 // ─── STATE ────────────────────────────────────────────────────────────────────
 const STATE_KEY     = "examprep_state";
-const STATE_VERSION = 5;   // bump whenever state shape changes; wipes stale localStorage
+const STATE_VERSION = 7;   // bump whenever state shape changes; wipes stale localStorage
 
 function loadState() {
   try {
@@ -263,6 +263,8 @@ const screens = {
   practiceSession:      renderPracticeSession,
   practiceScore:        renderPracticeScore,
   practiceReview:       renderPracticeReview,
+  bookmarks:            renderBookmarks,
+  stats:                renderStatsDashboard,
 };
 
 function go(screen, patch = {}) {
@@ -318,41 +320,33 @@ function renderBottomNav() {
   const scr        = state.screen;
   const hasContext = !!(state.subjectId && state.yearId);
 
-  // Resolve the "Current" tab's label and destination
-  let currentIcon   = "📚";
+  // Resolve the "Current" tab
   let currentLabel  = "Current";
-  let currentTarget = "";          // empty = disabled
+  let currentTarget = "";
   let currentActive = false;
 
   if (scr === "mcq" || scr === "mcqScore" || scr === "mcqReview") {
-    currentLabel  = "Section A";
-    currentTarget = "sections";
-    currentActive = true;
+    currentLabel = "Section A"; currentTarget = "sections"; currentActive = true;
   } else if (scr === "written" || scr === "written-questions") {
-    currentLabel  = "Section B";
-    currentTarget = "sections";
-    currentActive = true;
+    currentLabel = "Section B"; currentTarget = "sections"; currentActive = true;
   } else if (scr === "sections") {
-    currentLabel  = "Sections";
-    currentTarget = "sections";
-    currentActive = true;
+    currentLabel = "Sections";  currentTarget = "sections"; currentActive = true;
   } else if (scr === "semesters") {
-    currentLabel  = "Semesters";
-    currentTarget = "semesters";
-    currentActive = true;
-  } else if (scr === "practiceConfig" || scr === "practiceSession" || scr === "practiceScore" || scr === "practiceReview") {
-    currentLabel  = "Practice";
-    currentTarget = "practiceConfig";
-    currentActive = true;
+    currentLabel = "Semesters"; currentTarget = "semesters"; currentActive = true;
+  } else if (scr === "practiceConfig" || scr === "practiceSession" ||
+             scr === "practiceScore"  || scr === "practiceReview") {
+    currentLabel = "Practice";  currentTarget = "practiceConfig"; currentActive = true;
   }
 
-  const homeActive    = scr === "subjects" || scr === "years";
+  const homeActive      = scr === "subjects" || scr === "years";
   const currentDisabled = !hasContext || !currentTarget;
+  const bookmarksActive = scr === "bookmarks";
+  const bmCount         = (state.bookmarks ?? []).length;
+  const bmBadge         = bmCount > 0 ? `<span class="bm-nav-count">${bmCount}</span>` : "";
 
   return `
     <nav class="bottom-nav" aria-label="Main navigation">
-      <button class="nav-item${homeActive ? " active" : ""}" data-nav="home"
-              aria-label="Home">
+      <button class="nav-item${homeActive ? " active" : ""}" data-nav="home" aria-label="Home">
         <span class="nav-icon" aria-hidden="true">🏠</span>
         <span class="nav-label">Home</span>
       </button>
@@ -360,16 +354,18 @@ function renderBottomNav() {
               data-nav="current" data-target="${currentTarget}"
               ${currentDisabled ? "disabled" : ""}
               aria-label="${currentLabel}">
-        <span class="nav-icon" aria-hidden="true">${currentIcon}</span>
+        <span class="nav-icon" aria-hidden="true">📚</span>
         <span class="nav-label">${currentLabel}</span>
       </button>
-      <button class="nav-item nav-disabled" disabled aria-label="Bookmarks (coming soon)">
+      <button class="nav-item${bookmarksActive ? " active" : ""}"
+              data-nav="bookmarks" aria-label="Bookmarks">
         <span class="nav-icon" aria-hidden="true">🔖</span>
-        <span class="nav-label">Bookmarks</span>
+        <span class="nav-label">Saved${bmBadge}</span>
       </button>
-      <button class="nav-item nav-disabled" disabled aria-label="Settings (coming soon)">
-        <span class="nav-icon" aria-hidden="true">⚙️</span>
-        <span class="nav-label">Settings</span>
+      <button class="nav-item${scr === "stats" ? " active" : ""}"
+              data-nav="stats" aria-label="Statistics">
+        <span class="nav-icon" aria-hidden="true">📊</span>
+        <span class="nav-label">Stats</span>
       </button>
     </nav>`;
 }
@@ -406,17 +402,37 @@ function startMCQSession() {
   render();
 }
 
-// Finish the quiz: compute score, persist, go to score screen.
+// Finish the quiz: compute score, record stats, go to score screen.
 function finishMCQSession() {
+  const subj  = DATA.subjects.find((s) => s.id === state.subjectId);
+  const yr    = subj?.years.find((y) => y.id === state.yearId);
   const sem   = getSemester();
   const flat  = flattenSectionA(sem?.sectionA);
   const score = calcScore(state.mcqAnswers, flat.length);
+
+  const session = {
+    id:             makeSessionId(),
+    timestamp:      Date.now(),
+    type:           "section",
+    subjectId:      state.subjectId ?? "",
+    subjectTitle:   subj?.title ?? "",
+    yearId:         state.yearId ?? "",
+    yearLabel:      yr?.label ?? "",
+    semesterLabel:  sem?.semester ?? "",
+    totalQuestions: score.total,
+    correctAnswers: score.correct,
+    score:          score.percentage,
+  };
+
+  const updatedStats = addSessionToStats(state.stats, session);
+
   state = saveState({
     screen:           "mcqScore",
     mcqSessionActive: false,
     mcqCompleted:     true,
     mcqScore:         score,
     selectedOption:   undefined,
+    stats:            updatedStats,
   });
   render();
 }
@@ -464,6 +480,167 @@ function guardMCQLeave(proceed) {
   } else {
     proceed();
   }
+}
+
+
+
+// ─── STATS HELPERS ──────────────────────────────────────────────────────────
+
+function emptyStats() {
+  return { sessions: [], aggregates: null };
+}
+
+function makeSessionId() {
+  return "s_" + Date.now() + "_" + Math.random().toString(36).slice(2, 9);
+}
+
+// Add one session record and recalculate aggregates. Keeps last 200 sessions.
+function addSessionToStats(statsIn, session) {
+  const sessions = [session, ...(statsIn?.sessions ?? [])].slice(0, 200);
+  return { sessions, aggregates: calcAggregates(sessions) };
+}
+
+function calcAggregates(sessions) {
+  const totalSessions   = sessions.length;
+  const totalQuestions  = sessions.reduce((s, r) => s + r.totalQuestions, 0);
+  const totalCorrect    = sessions.reduce((s, r) => s + r.correctAnswers, 0);
+  const overallAverage  = totalQuestions > 0
+    ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+
+  // By subject
+  const bySubject = {};
+  sessions.forEach((r) => {
+    if (!bySubject[r.subjectId]) {
+      bySubject[r.subjectId] = {
+        subjectId: r.subjectId, subjectTitle: r.subjectTitle,
+        sessions: 0, questions: 0, correct: 0, average: 0,
+      };
+    }
+    const b = bySubject[r.subjectId];
+    b.sessions++;
+    b.questions += r.totalQuestions;
+    b.correct   += r.correctAnswers;
+    b.average    = b.questions > 0 ? Math.round((b.correct / b.questions) * 100) : 0;
+  });
+
+  // Last 30 days activity (each day: how many sessions, average score)
+  const byDay = [];
+  const now = Date.now();
+  for (let i = 29; i >= 0; i--) {
+    const d     = new Date(now - i * 86400000);
+    const dStr  = d.toISOString().slice(0, 10);
+    const dayS  = sessions.filter((r) => new Date(r.timestamp).toISOString().slice(0, 10) === dStr);
+    const dTot  = dayS.reduce((s, r) => s + r.totalQuestions, 0);
+    const dCorr = dayS.reduce((s, r) => s + r.correctAnswers, 0);
+    byDay.push({
+      date:    dStr,
+      count:   dayS.length,
+      average: dTot > 0 ? Math.round((dCorr / dTot) * 100) : 0,
+    });
+  }
+
+  return { totalSessions, totalQuestionsAnswered: totalQuestions,
+           totalCorrect, overallAverage, bySubject, byDay };
+}
+
+// Format a timestamp as "Today", "Yesterday", or "Mar 15"
+function formatSessionDate(ts) {
+  const d   = new Date(ts);
+  const now = new Date();
+  const yes = new Date(now); yes.setDate(yes.getDate() - 1);
+  if (d.toDateString() === now.toDateString()) return "Today";
+  if (d.toDateString() === yes.toDateString()) return "Yesterday";
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
+
+// Return CSS class suffix for a score percentage
+function scoreColorCls(pct) {
+  if (pct >= 80) return "green";
+  if (pct >= 60) return "amber";
+  return "red";
+}
+
+// ─── BOOKMARK HELPERS ────────────────────────────────────────────────────────
+
+// Build a stable unique ID for any question location.
+// MCQ: "subj|year|semIdx|mcq|flatIdx"   (flat index across sectionA)
+// Written grouped: "subj|year|semIdx|written|parentIdx|subQIdx"
+// Written flat:    "subj|year|semIdx|written|0|qIdx"
+function makeBookmarkId(params) {
+  const { subjectId, yearId, semesterIndex, type, flatIdx, parentIdx, subQIdx } = params;
+  if (type === "mcq") {
+    return `${subjectId}|${yearId}|${semesterIndex}|mcq|${flatIdx}`;
+  }
+  return `${subjectId}|${yearId}|${semesterIndex}|written|${parentIdx ?? 0}|${subQIdx ?? 0}`;
+}
+
+function isBookmarked(bmId) {
+  return (state.bookmarks ?? []).some((b) => b.id === bmId);
+}
+
+// Add or remove a bookmark. Returns the updated bookmarks array.
+function toggleBookmark(bmData) {
+  const current = [...(state.bookmarks ?? [])];
+  const idx = current.findIndex((b) => b.id === bmData.id);
+  if (idx >= 0) {
+    current.splice(idx, 1);           // remove
+  } else {
+    current.unshift({ ...bmData, timestamp: Date.now() }); // add at front
+  }
+  state = saveState({ bookmarks: current });
+  return current;
+}
+
+// Navigate to a bookmarked question, loading year data if necessary.
+// Async because the year file may not be loaded yet.
+async function navigateToBookmark(bm) {
+  showLoading("Loading\u2026");
+  try {
+    await loadYear(bm.subjectId, bm.yearId);
+  } catch (e) {
+    showError(`Could not load year data.<br><small>${e.message}</small>`);
+    return;
+  }
+
+  const base = {
+    subjectId:      bm.subjectId,
+    yearId:         bm.yearId,
+    semesterIndex:  bm.semesterIndex,
+    selectedOption: undefined,
+    answerRevealed: false,
+    caseOpen:       false,
+    keyFactsOpen:   false,
+    mcqAnswers:     [],
+    mcqSessionActive: false,
+    mcqCompleted:   false,
+    mcqScore:       null,
+  };
+
+  if (bm.type === "mcq") {
+    go("mcq", { ...base, qIndex: bm.flatIdx ?? 0 });
+  } else {
+    // Determine if sectionB is grouped
+    const subj = DATA.subjects.find((s) => s.id === bm.subjectId);
+    const yr   = subj?.years.find((y) => y.id === bm.yearId);
+    const sem  = yr?.semesters?.[bm.semesterIndex ?? 0];
+    const isGrouped = sem?.sectionB?.format === "grouped";
+    go(isGrouped ? "written" : "written", {
+      ...base,
+      qIndex:    bm.parentIdx ?? 0,
+      subQIndex: bm.subQIdx   ?? 0,
+    });
+  }
+}
+
+// Returns the bookmark toggle button HTML for the given ID + text.
+function bookmarkBtn(bmId, qText) {
+  const active = isBookmarked(bmId);
+  const label  = active ? "Remove bookmark" : "Bookmark this question";
+  const icon   = active ? "\u2605" : "\u2606";   // ★ / ☆
+  return `<button class="bm-btn${active ? " bm-active" : ""}"
+    data-bm-id="${bmId.replace(/"/g, "&quot;")}"
+    data-bm-text="${(qText ?? "").slice(0, 80).replace(/"/g, "&quot;")}"
+    aria-label="${label}" title="${label}">${icon}</button>`;
 }
 
 // ─── PRACTICE & SEARCH HELPERS ──────────────────────────────────────────────
@@ -918,7 +1095,10 @@ function renderMCQ() {
       </p>
       ${caseBlock}
       <div class="card question-card">
-        <p class="q-text">${q.text ?? ""}</p>
+        <div class="q-card-header">
+          <p class="q-text">${q.text ?? ""}</p>
+          ${bookmarkBtn(makeBookmarkId({subjectId:state.subjectId, yearId:state.yearId, semesterIndex:state.semesterIndex??0, type:"mcq", flatIdx:globalIdx}), q.text)}
+        </div>
         <div class="options-grid">${opts}</div>
         ${feedback}
         ${answered ? `<button class="btn-primary next-btn" data-is-last="${isLast}">${nextLabel}</button>` : ""}
@@ -1038,7 +1218,10 @@ function renderMCQReview() {
       </p>
       ${caseBlock}
       <div class="card question-card">
-        <p class="q-text">${q.text ?? ""}</p>
+        <div class="q-card-header">
+          <p class="q-text">${q.text ?? ""}</p>
+          ${bookmarkBtn(makeBookmarkId({subjectId:state.subjectId, yearId:state.yearId, semesterIndex:state.semesterIndex??0, type:"mcq", flatIdx:globalIdx}), q.text)}
+        </div>
         <div class="options-grid">${opts}</div>
         ${feedback}
         <div class="review-nav">
@@ -1199,10 +1382,15 @@ function renderWritten() {
       ${keyFactsBlock}
       ${tabStrip}
       <div class="card question-card">
-        <div class="q-marks-row">
-          <span class="q-marks">[${q?.marks ?? "?"} marks]</span>
+        <div class="q-card-header">
+          <div>
+            <div class="q-marks-row">
+              <span class="q-marks">[${q?.marks ?? "?"} marks]</span>
+            </div>
+            <p class="q-text">${q?.text ?? ""}</p>
+          </div>
+          ${bookmarkBtn(makeBookmarkId({subjectId:state.subjectId, yearId:state.yearId, semesterIndex:state.semesterIndex??0, type:"written", parentIdx:isGrouped?(state.qIndex??0):0, subQIdx:subQIdx}), q?.text)}
         </div>
-        <p class="q-text">${q?.text ?? ""}</p>
         ${!showAnswer ? `<button class="btn-primary reveal-btn">Reveal Structured Answer</button>` : ""}
         ${answerBlock}
       </div>
@@ -1553,6 +1741,240 @@ function renderPracticeReview() {
     ${renderBottomNav()}`;
 }
 
+
+// ─── BOOKMARKS SCREEN ────────────────────────────────────────────────────────
+function renderBookmarks() {
+  const bookmarks = state.bookmarks ?? [];
+
+  // Group bookmarks by subjectId
+  const groups = {};
+  bookmarks.forEach((bm) => {
+    if (!groups[bm.subjectId]) groups[bm.subjectId] = [];
+    groups[bm.subjectId].push(bm);
+  });
+
+  const subjectOrder = DATA.subjects.map((s) => s.id);
+
+  // Build grouped HTML
+  let listHTML = "";
+
+  if (!bookmarks.length) {
+    listHTML = `
+      <div class="bm-empty">
+        <div class="bm-empty-icon">🔖</div>
+        <p class="bm-empty-title">No bookmarks yet</p>
+        <p class="bm-empty-sub">Tap ☆ on any question while studying to save it here.</p>
+      </div>`;
+  } else {
+    // Render in manifest subject order, then any stragglers
+    const orderedKeys = [
+      ...subjectOrder.filter((id) => groups[id]),
+      ...Object.keys(groups).filter((id) => !subjectOrder.includes(id)),
+    ];
+
+    orderedKeys.forEach((subjectId) => {
+      const subj   = DATA.subjects.find((s) => s.id === subjectId);
+      const title  = subj?.title ?? subjectId;
+      const icon   = subj?.icon  ?? "📚";
+      const items  = groups[subjectId];
+
+      const cards = items.map((bm) => {
+        const typeLabel  = bm.type === "mcq" ? "MCQ" : "Written";
+        const typeCls    = bm.type === "mcq" ? "bm-badge-mcq" : "bm-badge-written";
+        const preview    = bm.preview ?? "(no preview)";
+        const meta       = `${bm.yearLabel} · ${bm.semesterLabel}`;
+        const dateStr    = bm.timestamp
+          ? new Date(bm.timestamp).toLocaleDateString(undefined, { month: "short", day: "numeric" })
+          : "";
+        return `
+          <div class="bm-item" data-bm-nav="${bm.id}">
+            <div class="bm-item-main">
+              <div class="bm-item-top">
+                <span class="bm-type-badge ${typeCls}">${typeLabel}</span>
+                <span class="bm-item-meta">${meta}</span>
+                ${dateStr ? `<span class="bm-item-date">${dateStr}</span>` : ""}
+              </div>
+              <p class="bm-item-preview">${preview}</p>
+            </div>
+            <button class="bm-delete-btn" data-bm-delete="${bm.id}"
+                    aria-label="Remove bookmark" title="Remove bookmark">✕</button>
+          </div>`;
+      }).join("");
+
+      listHTML += `
+        <div class="bm-group">
+          <div class="bm-group-header">
+            <span class="bm-group-icon">${icon}</span>
+            <span class="bm-group-title">${title}</span>
+            <span class="bm-group-count">${items.length}</span>
+          </div>
+          <div class="bm-group-items">${cards}</div>
+        </div>`;
+    });
+  }
+
+  const clearBtn = bookmarks.length > 0
+    ? `<button class="btn-danger bm-clear-btn" id="btn-bm-clear-all">🗑 Clear All</button>`
+    : "";
+
+  return `
+    <header class="top-bar">
+      <button class="back-btn" data-goto="subjects">\u2190 Back</button>
+      <div class="logo">ExamPrep</div>
+      ${topBarRight(false)}
+    </header>
+    <main class="screen">
+      <h1 class="screen-title">Bookmarks
+        ${bookmarks.length > 0 ? `<span class="bm-total-count">${bookmarks.length}</span>` : ""}
+      </h1>
+      ${clearBtn}
+      <div class="bm-list">${listHTML}</div>
+    </main>
+    ${renderBottomNav()}`;
+}
+
+
+// ─── STATS DASHBOARD ────────────────────────────────────────────────────────
+function renderStatsDashboard() {
+  const stats    = state.stats ?? emptyStats();
+  const agg      = stats.aggregates ?? calcAggregates(stats.sessions ?? []);
+  const sessions = stats.sessions ?? [];
+
+  // ── Empty state ────────────────────────────────────────────────────────────
+  if (!sessions.length) {
+    return `
+      <header class="top-bar">
+        <button class="back-btn" data-goto="subjects">\u2190 Back</button>
+        <div class="logo">ExamPrep</div>
+        ${topBarRight(false)}
+      </header>
+      <main class="screen">
+        <h1 class="screen-title">Statistics</h1>
+        <div class="stats-empty">
+          <div class="stats-empty-icon">\uD83D\uDCC8</div>
+          <p class="stats-empty-title">No data yet</p>
+          <p class="stats-empty-sub">Complete a Section A quiz or a Practice session to start tracking your progress.</p>
+        </div>
+      </main>
+      ${renderBottomNav()}`;
+  }
+
+  // ── Summary cards ─────────────────────────────────────────────────────────
+  const avgCls = scoreColorCls(agg.overallAverage);
+  const summaryCards = `
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value">${agg.totalSessions}</div>
+        <div class="stat-label">Sessions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">${agg.totalQuestionsAnswered}</div>
+        <div class="stat-label">Questions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value score-${avgCls}">${agg.overallAverage}%</div>
+        <div class="stat-label">Avg Score</div>
+      </div>
+    </div>`;
+
+  // ── Bar chart: last 14 days that have data ─────────────────────────────────
+  // Only show days with at least one session; cap at 14 bars
+  const activeDays = agg.byDay.filter((d) => d.count > 0).slice(-14);
+  let chartHTML = "";
+  if (activeDays.length >= 2) {
+    const bars = activeDays.map((d) => {
+      const h     = Math.max(4, Math.round((d.average / 100) * 120));   // max 120 px
+      const cls   = scoreColorCls(d.average);
+      const label = d.date.slice(5);   // "MM-DD"
+      return `
+        <div class="bar-col" title="${label}: ${d.average}% (${d.count} session${d.count !== 1 ? "s" : ""})">
+          <div class="bar-score">${d.average}%</div>
+          <div class="bar bar-${cls}" style="height:${h}px"></div>
+          <div class="bar-label">${label}</div>
+        </div>`;
+    }).join("");
+
+    chartHTML = `
+      <div class="chart-card">
+        <div class="chart-title">Score Trend \u2014 Recent Sessions</div>
+        <div class="bar-chart">${bars}</div>
+      </div>`;
+  }
+
+  // ── Subject breakdown ─────────────────────────────────────────────────────
+  const subjRows = Object.values(agg.bySubject).map((s) => {
+    const cls   = scoreColorCls(s.average);
+    const subj  = DATA.subjects.find((d) => d.id === s.subjectId);
+    const icon  = subj?.icon ?? "\uD83D\uDCDA";
+    return `
+      <div class="subj-row">
+        <div class="subj-icon">${icon}</div>
+        <div class="subj-info">
+          <div class="subj-header">
+            <span class="subj-name">${s.subjectTitle}</span>
+            <span class="subj-score score-${cls}">${s.average}%</span>
+          </div>
+          <div class="subj-meta">${s.sessions} session${s.sessions !== 1 ? "s" : ""} \u00b7 ${s.questions} questions</div>
+          <div class="progress-bar-bg" style="margin-top:6px">
+            <div class="progress-bar-fill pf-${cls}" style="width:${s.average}%"></div>
+          </div>
+        </div>
+      </div>`;
+  }).join("");
+
+  const subjectSection = `
+    <div class="stats-section">
+      <div class="stats-section-title">By Subject</div>
+      <div class="stats-card subj-list">${subjRows}</div>
+    </div>`;
+
+  // ── Recent sessions (last 8) ──────────────────────────────────────────────
+  const recentRows = sessions.slice(0, 8).map((r) => {
+    const cls      = scoreColorCls(r.score);
+    const dateStr  = formatSessionDate(r.timestamp);
+    const typeIcon = r.type === "practice" ? "\uD83C\uDFAF" : "\uD83D\uDCDD";
+    const desc     = r.type === "practice"
+      ? `Practice \u00b7 ${r.subjectTitle}`
+      : `${r.subjectTitle}${r.semesterLabel ? " \u00b7 " + r.semesterLabel : ""}`;
+    return `
+      <div class="session-row">
+        <div class="session-left">
+          <div class="session-date">${typeIcon} ${dateStr}</div>
+          <div class="session-desc">${desc}</div>
+        </div>
+        <div class="session-score score-${cls}">${r.score}%</div>
+      </div>`;
+  }).join("");
+
+  const recentSection = `
+    <div class="stats-section">
+      <div class="stats-section-title">Recent Sessions</div>
+      <div class="stats-card">${recentRows}</div>
+    </div>`;
+
+  // ── Reset footer ──────────────────────────────────────────────────────────
+  const footer = `
+    <div class="stats-footer">
+      <button class="reset-stats-btn" id="btn-reset-stats">Reset Statistics</button>
+    </div>`;
+
+  return `
+    <header class="top-bar">
+      <button class="back-btn" data-goto="subjects">\u2190 Back</button>
+      <div class="logo">ExamPrep</div>
+      ${topBarRight(false)}
+    </header>
+    <main class="screen">
+      <h1 class="screen-title">Statistics</h1>
+      ${summaryCards}
+      ${chartHTML}
+      ${subjectSection}
+      ${recentSection}
+      ${footer}
+    </main>
+    ${renderBottomNav()}`;
+}
+
 // ─── EVENTS ───────────────────────────────────────────────────────────────────
 function bindEvents() {
   const app = document.getElementById("app");
@@ -1578,6 +2000,10 @@ function bindEvents() {
         guardMCQLeave(() => go("subjects"));
       } else if (nav === "current" && target) {
         go(target);
+      } else if (nav === "bookmarks") {
+        go("bookmarks");
+      } else if (nav === "stats") {
+        go("stats");
       }
     });
   });
@@ -1680,9 +2106,28 @@ function bindEvents() {
     pracNextBtn.addEventListener("click", () => {
       const isLast = pracNextBtn.dataset.isLast === "true";
       if (isLast) {
+        // Record practice session stats
+        const pool    = state.practicePool ?? [];
+        const answers = state.practiceAnswers ?? [];
+        const mcqQ    = pool.filter((e) => e.pType === "mcq");
+        const mcqAns  = answers.filter((_, i) => pool[i]?.pType === "mcq");
+        const mcqCorr = mcqAns.filter((a) => a?.correct).length;
+        const subj    = DATA.subjects.find((s) => s.id === state.subjectId);
+        const practSession = {
+          id:             makeSessionId(),
+          timestamp:      Date.now(),
+          type:           "practice",
+          subjectId:      state.subjectId ?? "",
+          subjectTitle:   subj?.title ?? "",
+          totalQuestions: mcqQ.length,
+          correctAnswers: mcqCorr,
+          score:          mcqQ.length > 0 ? Math.round((mcqCorr / mcqQ.length) * 100) : 0,
+        };
+        const updatedStats = addSessionToStats(state.stats, practSession);
         state = saveState({
           screen: "practiceScore",
           mcqSessionActive: false,
+          stats: updatedStats,
         });
         render();
       } else {
@@ -1735,6 +2180,100 @@ function bindEvents() {
     });
   }
 
+
+  // Bookmark toggle (☆/★ buttons on question cards)
+  app.querySelectorAll("[data-bm-id]").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();   // don't bubble to card-level click handlers
+      const bmId = btn.dataset.bmId;
+      // Determine bookmark metadata from current state
+      const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+      const yr      = subject?.years.find((y) => y.id === state.yearId);
+      const sem     = getSemester();
+      const bmData  = {
+        id:            bmId,
+        subjectId:     state.subjectId,
+        yearId:        state.yearId,
+        semesterIndex: state.semesterIndex ?? 0,
+        subjectTitle:  subject?.title ?? "",
+        yearLabel:     yr?.label ?? "",
+        semesterLabel: sem?.semester ?? "",
+        preview:       (btn.dataset.bmText ?? "").slice(0, 80),
+      };
+      // Parse type and indices from the id: "subj|year|semIdx|type|..."
+      const parts = bmId.split("|");
+      bmData.type = parts[3] ?? "mcq";
+      if (bmData.type === "mcq") {
+        bmData.flatIdx = parseInt(parts[4] ?? "0");
+      } else {
+        bmData.parentIdx = parseInt(parts[4] ?? "0");
+        bmData.subQIdx   = parseInt(parts[5] ?? "0");
+      }
+      toggleBookmark(bmData);
+      // Update button in-place without full re-render
+      const nowActive = isBookmarked(bmId);
+      btn.textContent = nowActive ? "★" : "☆";
+      btn.classList.toggle("bm-active", nowActive);
+      btn.setAttribute("aria-label", nowActive ? "Remove bookmark" : "Bookmark this question");
+      btn.setAttribute("title",      nowActive ? "Remove bookmark" : "Bookmark this question");
+      // Refresh bottom-nav badge count without re-rendering the page
+      document.querySelectorAll(".bm-nav-count").forEach((el) => {
+        const cnt = (state.bookmarks ?? []).length;
+        el.textContent = cnt > 0 ? cnt : "";
+        el.style.display = cnt > 0 ? "" : "none";
+      });
+    });
+  });
+
+  // Bookmarks screen: click a bookmark card → navigate to question
+  app.querySelectorAll("[data-bm-nav]").forEach((el) => {
+    el.addEventListener("click", (e) => {
+      // Ignore clicks on the delete button inside the card
+      if (e.target.closest("[data-bm-delete]")) return;
+      const bmId = el.dataset.bmNav;
+      const bm   = (state.bookmarks ?? []).find((b) => b.id === bmId);
+      if (bm) navigateToBookmark(bm);
+    });
+  });
+
+  // Bookmarks screen: delete individual bookmark
+  app.querySelectorAll("[data-bm-delete]").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const bmId = btn.dataset.bmDelete;
+      const bookmarks = (state.bookmarks ?? []).filter((b) => b.id !== bmId);
+      state = saveState({ bookmarks });
+      render();
+    });
+  });
+
+  // Bookmarks screen: clear all
+  const btnClearAll = app.querySelector("#btn-bm-clear-all");
+  if (btnClearAll) {
+    btnClearAll.addEventListener("click", () => {
+      showConfirmDialog(
+        "Remove all bookmarks? This cannot be undone.",
+        () => {
+          state = saveState({ bookmarks: [] });
+          render();
+        }
+      );
+    });
+  }
+
+  // Stats: reset button
+  const btnResetStats = app.querySelector("#btn-reset-stats");
+  if (btnResetStats) {
+    btnResetStats.addEventListener("click", () => {
+      showConfirmDialog(
+        "Reset all statistics? This cannot be undone.",
+        () => {
+          state = saveState({ stats: emptyStats() });
+          render();
+        }
+      );
+    });
+  }
 
   // Subject select
   app.querySelectorAll("[data-subject]").forEach((el) => {
