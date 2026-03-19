@@ -1762,4 +1762,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   render();
+
+  // ── Service Worker registration (PWA) ─────────────────────────────────────
+  // Registered after first render so it never delays the initial paint.
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js", { scope: "./" })
+      .catch((err) => console.warn("SW registration failed:", err));
+  }
 });
