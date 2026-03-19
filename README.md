@@ -7,6 +7,7 @@ A comprehensive exam preparation app for UCC PSCM Level 400 College of Distance 
 - Section A: Multiple Choice Questions with explanations
 - Section B: Case studies with structured answers and key facts
 - Search/Filter button
+- Bookmark feature for wuestions to be reviewed later
 - Progress tracking with local storage
 - Self-rating system for written answers
 - System rating for MCQs and review after answer session
