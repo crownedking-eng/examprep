@@ -1793,3 +1793,28 @@ details[open] .case-summary::after { transform: rotate(180deg); }
   padding: 4px 8px;
 }
 .reset-stats-btn:hover { color: var(--wrong); }
+
+/* ─── STATS: COMPLETED/ABANDONED ADDITIONS ───────────────────────────────── */
+
+/* 2×2 grid for the 4-card summary */
+.stats-grid-2x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Abandoned badge on recent-session rows */
+.session-abandoned-badge {
+  display: inline-block;
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--accent-2);
+  background: var(--accent-2-light);
+  border-radius: 4px;
+  padding: 1px 6px;
+  margin-top: 3px;
+}
+
+/* Slightly muted background for abandoned rows */
+.session-row-abandoned {
+  opacity: 0.75;
+}

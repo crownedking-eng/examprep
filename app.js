@@ -236,6 +236,23 @@ function loadState() {
   try {
     const raw = JSON.parse(localStorage.getItem(STATE_KEY));
     if (!raw || raw._v !== STATE_VERSION) return { _v: STATE_VERSION };
+    // One-time migration: sessions recorded before the completed/abandoned
+    // fields existed are assumed to have been finished normally.
+    if (raw.stats?.sessions) {
+      let migrated = false;
+      raw.stats.sessions = raw.stats.sessions.map((s) => {
+        if (s.completed === undefined) {
+          migrated = true;
+          return { ...s, completed: true, abandoned: false,
+                   questionsAttempted: s.totalQuestions };
+        }
+        return s;
+      });
+      if (migrated) {
+        raw.stats.aggregates = null;   // force recalc on next render
+        localStorage.setItem(STATE_KEY, JSON.stringify(raw));
+      }
+    }
     return raw;
   } catch { return { _v: STATE_VERSION }; }
 }
@@ -411,17 +428,20 @@ function finishMCQSession() {
   const score = calcScore(state.mcqAnswers, flat.length);
 
   const session = {
-    id:             makeSessionId(),
-    timestamp:      Date.now(),
-    type:           "section",
-    subjectId:      state.subjectId ?? "",
-    subjectTitle:   subj?.title ?? "",
-    yearId:         state.yearId ?? "",
-    yearLabel:      yr?.label ?? "",
-    semesterLabel:  sem?.semester ?? "",
-    totalQuestions: score.total,
-    correctAnswers: score.correct,
-    score:          score.percentage,
+    id:                 makeSessionId(),
+    timestamp:          Date.now(),
+    type:               "section",
+    subjectId:          state.subjectId ?? "",
+    subjectTitle:       subj?.title ?? "",
+    yearId:             state.yearId ?? "",
+    yearLabel:          yr?.label ?? "",
+    semesterLabel:      sem?.semester ?? "",
+    totalQuestions:     score.total,
+    correctAnswers:     score.correct,
+    score:              score.percentage,
+    completed:          true,
+    abandoned:          false,
+    questionsAttempted: score.answered,
   };
 
   const updatedStats = addSessionToStats(state.stats, session);
@@ -468,12 +488,49 @@ function showConfirmDialog(message, onConfirm) {
 
 // Guard helper — if a session is active, show the confirm dialog;
 // otherwise call proceed() immediately.
+// When the user confirms leaving, records an abandoned session if at least
+// one question was answered (avoids logging zero-question noise).
 function guardMCQLeave(proceed) {
   if (state.mcqSessionActive) {
     showConfirmDialog(
       "You have an ongoing quiz. Are you sure you want to leave?<br>Your progress will be lost.",
       () => {
-        state = saveState({ mcqSessionActive: false, mcqAnswers: [], mcqScore: null });
+        // Record abandoned session only when at least one answer exists
+        const answers  = state.mcqAnswers ?? [];
+        const answered = answers.filter((a) => a !== undefined).length;
+        if (answered > 0) {
+          const subj = DATA.subjects.find((s) => s.id === state.subjectId);
+          const yr   = subj?.years.find((y) => y.id === state.yearId);
+          const sem  = getSemester();
+          const flat = flattenSectionA(sem?.sectionA ?? []);
+          const correct = answers.filter((a) => a?.correct).length;
+          const abandonedSession = {
+            id:                 makeSessionId(),
+            timestamp:          Date.now(),
+            type:               "section",
+            subjectId:          state.subjectId ?? "",
+            subjectTitle:       subj?.title ?? "",
+            yearId:             state.yearId ?? "",
+            yearLabel:          yr?.label ?? "",
+            semesterLabel:      sem?.semester ?? "",
+            totalQuestions:     flat.length,
+            correctAnswers:     correct,
+            score:              flat.length > 0
+                                  ? Math.round((correct / flat.length) * 100) : 0,
+            completed:          false,
+            abandoned:          true,
+            questionsAttempted: answered,
+          };
+          const updatedStats = addSessionToStats(state.stats, abandonedSession);
+          state = saveState({
+            mcqSessionActive: false,
+            mcqAnswers:       [],
+            mcqScore:         null,
+            stats:            updatedStats,
+          });
+        } else {
+          state = saveState({ mcqSessionActive: false, mcqAnswers: [], mcqScore: null });
+        }
         proceed();
       }
     );
@@ -501,19 +558,29 @@ function addSessionToStats(statsIn, session) {
 }
 
 function calcAggregates(sessions) {
-  const totalSessions   = sessions.length;
-  const totalQuestions  = sessions.reduce((s, r) => s + r.totalQuestions, 0);
-  const totalCorrect    = sessions.reduce((s, r) => s + r.correctAnswers, 0);
-  const overallAverage  = totalQuestions > 0
+  const totalSessions     = sessions.length;
+  const completed         = sessions.filter((r) => r.completed !== false);
+  const abandoned         = sessions.filter((r) => r.abandoned === true);
+
+  // Totals across ALL sessions
+  const totalQuestions    = sessions.reduce((s, r) => s + r.totalQuestions, 0);
+  const totalCorrect      = sessions.reduce((s, r) => s + r.correctAnswers, 0);
+  const overallAverage    = totalQuestions > 0
     ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
 
-  // By subject
+  // Completed-only score (the clean average shown prominently)
+  const compQ   = completed.reduce((s, r) => s + r.totalQuestions, 0);
+  const compCorr = completed.reduce((s, r) => s + r.correctAnswers, 0);
+  const completedAverage = compQ > 0 ? Math.round((compCorr / compQ) * 100) : 0;
+
+  // By subject — only completed sessions count toward mastery averages
   const bySubject = {};
-  sessions.forEach((r) => {
+  completed.forEach((r) => {
     if (!bySubject[r.subjectId]) {
       bySubject[r.subjectId] = {
         subjectId: r.subjectId, subjectTitle: r.subjectTitle,
         sessions: 0, questions: 0, correct: 0, average: 0,
+        abandonedCount: 0,
       };
     }
     const b = bySubject[r.subjectId];
@@ -522,25 +589,47 @@ function calcAggregates(sessions) {
     b.correct   += r.correctAnswers;
     b.average    = b.questions > 0 ? Math.round((b.correct / b.questions) * 100) : 0;
   });
+  // Tally abandoned per subject too
+  abandoned.forEach((r) => {
+    if (!bySubject[r.subjectId]) {
+      bySubject[r.subjectId] = {
+        subjectId: r.subjectId, subjectTitle: r.subjectTitle,
+        sessions: 0, questions: 0, correct: 0, average: 0,
+        abandonedCount: 0,
+      };
+    }
+    bySubject[r.subjectId].abandonedCount++;
+  });
 
-  // Last 30 days activity (each day: how many sessions, average score)
+  // Last 30 days — chart only shows completed sessions for accurate trend
   const byDay = [];
   const now = Date.now();
   for (let i = 29; i >= 0; i--) {
-    const d     = new Date(now - i * 86400000);
-    const dStr  = d.toISOString().slice(0, 10);
-    const dayS  = sessions.filter((r) => new Date(r.timestamp).toISOString().slice(0, 10) === dStr);
-    const dTot  = dayS.reduce((s, r) => s + r.totalQuestions, 0);
-    const dCorr = dayS.reduce((s, r) => s + r.correctAnswers, 0);
+    const d    = new Date(now - i * 86400000);
+    const dStr = d.toISOString().slice(0, 10);
+    const dayC = completed.filter((r) => new Date(r.timestamp).toISOString().slice(0, 10) === dStr);
+    const dayA = abandoned.filter((r) => new Date(r.timestamp).toISOString().slice(0, 10) === dStr);
+    const dTot  = dayC.reduce((s, r) => s + r.totalQuestions, 0);
+    const dCorr = dayC.reduce((s, r) => s + r.correctAnswers, 0);
     byDay.push({
-      date:    dStr,
-      count:   dayS.length,
-      average: dTot > 0 ? Math.round((dCorr / dTot) * 100) : 0,
+      date:      dStr,
+      count:     dayC.length,
+      abandoned: dayA.length,
+      average:   dTot > 0 ? Math.round((dCorr / dTot) * 100) : 0,
     });
   }
 
-  return { totalSessions, totalQuestionsAnswered: totalQuestions,
-           totalCorrect, overallAverage, bySubject, byDay };
+  return {
+    totalSessions,
+    completedSessions:    completed.length,
+    abandonedSessions:    abandoned.length,
+    totalQuestionsAnswered: totalQuestions,
+    totalCorrect,
+    overallAverage,
+    completedAverage,
+    bySubject,
+    byDay,
+  };
 }
 
 // Format a timestamp as "Today", "Yesterday", or "Mar 15"
@@ -1859,21 +1948,25 @@ function renderStatsDashboard() {
       ${renderBottomNav()}`;
   }
 
-  // ── Summary cards ─────────────────────────────────────────────────────────
-  const avgCls = scoreColorCls(agg.overallAverage);
+  // ── Summary cards (4 cards in a 2×2 grid) ────────────────────────────────
+  const avgCls = scoreColorCls(agg.completedAverage);
   const summaryCards = `
-    <div class="stats-grid">
+    <div class="stats-grid stats-grid-2x2">
       <div class="stat-card">
-        <div class="stat-value">${agg.totalSessions}</div>
-        <div class="stat-label">Sessions</div>
+        <div class="stat-value">${agg.completedSessions}</div>
+        <div class="stat-label">Completed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value score-${avgCls}">${agg.completedAverage}%</div>
+        <div class="stat-label">Avg Score</div>
       </div>
       <div class="stat-card">
         <div class="stat-value">${agg.totalQuestionsAnswered}</div>
         <div class="stat-label">Questions</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value score-${avgCls}">${agg.overallAverage}%</div>
-        <div class="stat-label">Avg Score</div>
+        <div class="stat-value${agg.abandonedSessions > 0 ? " score-amber" : ""}">${agg.abandonedSessions}</div>
+        <div class="stat-label">Abandoned</div>
       </div>
     </div>`;
 
@@ -1928,21 +2021,29 @@ function renderStatsDashboard() {
       <div class="stats-card subj-list">${subjRows}</div>
     </div>`;
 
-  // ── Recent sessions (last 8) ──────────────────────────────────────────────
+  // ── Recent sessions (last 8) ───────────────────────────────────────────────
   const recentRows = sessions.slice(0, 8).map((r) => {
-    const cls      = scoreColorCls(r.score);
-    const dateStr  = formatSessionDate(r.timestamp);
-    const typeIcon = r.type === "practice" ? "\uD83C\uDFAF" : "\uD83D\uDCDD";
-    const desc     = r.type === "practice"
+    const isAbandoned = r.abandoned === true;
+    const cls         = isAbandoned ? "amber" : scoreColorCls(r.score);
+    const dateStr     = formatSessionDate(r.timestamp);
+    const typeIcon    = r.type === "practice" ? "\uD83C\uDFAF" : "\uD83D\uDCDD";
+    const desc        = r.type === "practice"
       ? `Practice \u00b7 ${r.subjectTitle}`
       : `${r.subjectTitle}${r.semesterLabel ? " \u00b7 " + r.semesterLabel : ""}`;
+    const badge    = isAbandoned
+      ? `<span class="session-abandoned-badge">Abandoned \u00b7 ${r.questionsAttempted ?? "?"} answered</span>`
+      : "";
+    const scoreEl  = isAbandoned
+      ? `<div class="session-score score-amber">\u2014</div>`
+      : `<div class="session-score score-${cls}">${r.score}%</div>`;
     return `
-      <div class="session-row">
+      <div class="session-row${isAbandoned ? " session-row-abandoned" : ""}">
         <div class="session-left">
           <div class="session-date">${typeIcon} ${dateStr}</div>
           <div class="session-desc">${desc}</div>
+          ${badge}
         </div>
-        <div class="session-score score-${cls}">${r.score}%</div>
+        ${scoreEl}
       </div>`;
   }).join("");
 
