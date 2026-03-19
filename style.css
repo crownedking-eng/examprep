@@ -1144,3 +1144,188 @@ details[open] .case-summary::after { transform: rotate(180deg); }
   display: inline-block;
   margin-bottom: 10px;
 }
+
+/* ─── TOP-BAR RIGHT CLUSTER ──────────────────────────────────────────────── */
+.top-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.search-icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  background: var(--surface-2);
+  color: var(--ink-2);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+  flex-shrink: 0;
+}
+.search-icon-btn:hover {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  transform: scale(1.08);
+}
+.search-icon-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ─── SEARCH OVERLAY ──────────────────────────────────────────────────────── */
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.48);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  animation: srFadeIn 0.15s ease;
+}
+@keyframes srFadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.search-panel {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  max-height: 85vh;
+  animation: srSlideDown 0.18s ease;
+}
+@keyframes srSlideDown { from { transform: translateY(-12px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+[data-theme="dark"] .search-panel {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.search-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.search-input-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface-2);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0 12px;
+  transition: border-color 0.15s;
+}
+.search-input-wrap:focus-within {
+  border-color: var(--accent);
+}
+
+.search-input-icon {
+  font-size: 0.95rem;
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+
+.search-panel-input {
+  flex: 1;
+  height: 42px;
+  background: none;
+  border: none;
+  outline: none;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  color: var(--ink);
+  /* Remove the browser's native clear button on search inputs */
+  -webkit-appearance: none;
+}
+.search-panel-input::-webkit-search-cancel-button { display: none; }
+
+.search-close-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  background: var(--surface-2);
+  font-size: 0.85rem;
+  color: var(--ink-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s, color 0.15s;
+}
+.search-close-btn:hover { background: var(--wrong-bg); color: var(--wrong); border-color: var(--wrong); }
+
+.search-panel-meta {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  color: var(--ink-3);
+  padding: 8px 16px 4px;
+  flex-shrink: 0;
+  min-height: 28px;
+}
+
+.search-panel-results {
+  overflow-y: auto;
+  flex: 1;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ─── SEARCH RESULT ITEMS ─────────────────────────────────────────────────── */
+.sr-item {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.1s;
+  outline: none;
+}
+.sr-item:last-child { border-bottom: none; }
+.sr-item:hover,
+.sr-item:focus-visible { background: var(--accent-light); }
+
+.sr-item-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.sr-type-badge {
+  font-family: var(--font-ui);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  padding: 2px 6px;
+  flex-shrink: 0;
+}
+.sr-badge-mcq     { background: var(--accent-light);   color: var(--accent); }
+.sr-badge-written { background: var(--accent-2-light); color: var(--accent-2); }
+
+.sr-meta {
+  font-family: var(--font-ui);
+  font-size: 0.73rem;
+  color: var(--ink-3);
+}
+
+.sr-text {
+  font-size: 0.855rem;
+  color: var(--ink-2);
+  line-height: 1.45;
+}
+
+/* Search input loading state (disabled while year data fetches on overlay open) */
+.search-panel-input:disabled {
+  opacity: 0.45;
+  cursor: wait;
+}

@@ -295,12 +295,21 @@ function render() {
 }
 
 
-// ─── THEME TOGGLE HTML ────────────────────────────────────────────────────────
+// ─── TOP-BAR RIGHT BUTTONS ───────────────────────────────────────────────────
 function themeToggleBtn() {
   const theme = document.documentElement.getAttribute("data-theme") || "light";
   const icon  = theme === "dark" ? "☀️" : "🌙";
   const label = theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
   return `<button class="theme-toggle" aria-label="${label}" title="${label}">${icon}</button>`;
+}
+
+// Returns the cluster of icon buttons that sit at the right end of every top-bar.
+// showSearch — pass false on screens where no subject is loaded yet.
+function topBarRight(showSearch) {
+  const searchBtn = (showSearch !== false && state.subjectId)
+    ? `<button class="search-icon-btn" id="open-search-btn" aria-label="Search questions" title="Search questions">🔍</button>`
+    : "";
+  return `<div class="top-bar-right">${searchBtn}${themeToggleBtn()}</div>`;
 }
 
 
@@ -531,6 +540,198 @@ async function loadAllYears(subjectId, onDone) {
   }
 }
 
+// ─── SEARCH HELPERS ─────────────────────────────────────────────────────────
+// Searches all *already-loaded* year data for the current subject.
+// Returns [{type, entry, score}] sorted by relevance, highest first.
+function searchQuestions(subjectId, query) {
+  const raw = (query || "").trim();
+  if (!raw) return [];
+  const normalized = raw.toLowerCase();
+  const terms = normalized.split(/\s+/).filter((t) => t.length >= 1);
+  if (!terms.length) return [];
+
+  function scoreField(text, weight) {
+    if (!text) return 0;
+    const t = text.toLowerCase();
+    let sc = 0;
+    if (t.includes(normalized)) sc += 100;           // exact phrase bonus
+    for (const term of terms) {
+      const re = new RegExp("\\b" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i");
+      if (re.test(t)) sc += 10;                      // word-boundary match
+      else if (t.includes(term)) sc += 2;            // substring match
+    }
+    return sc * weight;
+  }
+
+  const results = [];
+  buildMCQPool(subjectId).forEach((entry) => {
+    const sc = scoreField(entry.q.text, 3) + scoreField(entry.q.ref, 1) + scoreField(entry.q.explanation, 1);
+    if (sc > 0) results.push({ type: "mcq", entry, score: sc });
+  });
+  buildWrittenPool(subjectId).forEach((entry) => {
+    const sc = scoreField(entry.q.text, 3) + scoreField(entry.q.answer?.introduction, 1)
+             + scoreField(entry.q.answer?.ref, 1) + scoreField(entry.parentLabel, 1);
+    if (sc > 0) results.push({ type: "written", entry, score: sc });
+  });
+
+  results.sort((a, b) => b.score - a.score);
+  return results;
+}
+
+// ─── SEARCH OVERLAY ──────────────────────────────────────────────────────────
+// Injects a full-screen search overlay into #app without touching any screen.
+// All DOM updates happen in-place — render() is NEVER called during typing.
+// On open, all year data for the current subject is loaded silently so that
+// every question is searchable regardless of which screen the user is on.
+function showSearchOverlay() {
+  // Remove any existing overlay first
+  document.getElementById("search-overlay")?.remove();
+
+  const overlay = document.createElement("div");
+  overlay.id = "search-overlay";
+  overlay.className = "search-overlay";
+  overlay.setAttribute("role", "dialog");
+  overlay.setAttribute("aria-modal", "true");
+  overlay.setAttribute("aria-label", "Search questions");
+  overlay.innerHTML = `
+    <div class="search-panel">
+      <div class="search-panel-header">
+        <div class="search-input-wrap">
+          <span class="search-input-icon" aria-hidden="true">🔍</span>
+          <input class="search-panel-input" id="search-panel-input"
+                 type="search" placeholder="Search questions…"
+                 autocomplete="off" spellcheck="false" disabled />
+        </div>
+        <button class="search-close-btn" aria-label="Close search">✕</button>
+      </div>
+      <div class="search-panel-meta" id="search-meta">Loading exam data…</div>
+      <div class="search-panel-results" id="search-results"></div>
+    </div>`;
+
+  document.getElementById("app").appendChild(overlay);
+
+  const input    = overlay.querySelector("#search-panel-input");
+  const meta     = overlay.querySelector("#search-meta");
+  const results  = overlay.querySelector("#search-results");
+  const closeBtn = overlay.querySelector(".search-close-btn");
+
+  function closeOverlay() { overlay.remove(); }
+
+  // Close on backdrop click
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) closeOverlay(); });
+  closeBtn.addEventListener("click", closeOverlay);
+  // Close on Escape
+  overlay.addEventListener("keydown", (e) => { if (e.key === "Escape") closeOverlay(); });
+
+  // Build and inject result HTML, bind click handlers — never calls render()
+  function updateResults(query) {
+    const MAX  = 50;
+    const hits = query.length >= 1 ? searchQuestions(state.subjectId, query) : [];
+    const shown = hits.slice(0, MAX);
+
+    // Meta line
+    if (!query) {
+      meta.textContent = "Type to search across all exam questions.";
+    } else if (!hits.length) {
+      meta.innerHTML = `No results for \u201c<strong>${query}</strong>\u201d`;
+    } else if (hits.length > MAX) {
+      meta.textContent = `Showing top ${MAX} of ${hits.length} results`;
+    } else {
+      meta.textContent = `${hits.length} result${hits.length !== 1 ? "s" : ""}`;
+    }
+
+    // Result rows
+    results.innerHTML = shown.map(({ type, entry }) => {
+      const text  = (entry.q?.text ?? "").slice(0, 140);
+      const trail = (entry.q?.text?.length ?? 0) > 140 ? "\u2026" : "";
+      const badge = type === "mcq"
+        ? `<span class="sr-type-badge sr-badge-mcq">MCQ</span>`
+        : `<span class="sr-type-badge sr-badge-written">Written</span>`;
+      return `
+        <div class="sr-item" data-sr-type="${type}"
+             data-sr-year="${entry.yearId}" data-sr-sem="${entry.semesterIdx}"
+             tabindex="0" role="button">
+          <div class="sr-item-top">${badge}<span class="sr-meta">${entry.yearLabel} \u00b7 ${entry.semesterLabel}</span></div>
+          <p class="sr-text">${text}${trail}</p>
+        </div>`;
+    }).join("");
+
+    // Bind click + keyboard on each result row
+    results.querySelectorAll(".sr-item").forEach((el) => {
+      const activate = async () => {
+        const yearId = el.dataset.srYear;
+        const semIdx = parseInt(el.dataset.srSem);
+        const type   = el.dataset.srType;
+        if (!yearId) return;
+        closeOverlay();
+        showLoading("Loading\u2026");
+        try {
+          await loadYear(state.subjectId, yearId);
+          const patch = {
+            yearId,
+            semesterIndex:    semIdx,
+            qIndex:           0,
+            subQIndex:        0,
+            selectedOption:   undefined,
+            answerRevealed:   false,
+            mcqAnswers:       [],
+            mcqSessionActive: type === "mcq",
+            mcqCompleted:     false,
+            mcqScore:         null,
+          };
+          if (type === "mcq") {
+            go("mcq", patch);
+          } else {
+            const subj = DATA.subjects.find((s) => s.id === state.subjectId);
+            const yr   = subj?.years.find((y) => y.id === yearId);
+            const sem  = yr?.semesters?.[semIdx];
+            go(sem?.sectionB?.format === "grouped" ? "written-questions" : "written", patch);
+          }
+        } catch (e) {
+          showError(`Failed to load.<br><small>${e.message}</small>`);
+        }
+      };
+      el.addEventListener("click", activate);
+      el.addEventListener("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") activate(); });
+    });
+  }
+
+  // Debounced input handler
+  let timer;
+  input.addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => updateResults(input.value.trim()), 200);
+  });
+
+  // Load all year data for the subject, then enable the input and focus it.
+  // loadAllYears uses YEAR_CACHE so already-fetched years cost nothing.
+  const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+  if (!subject) {
+    // No subject selected — shouldn't normally happen since the button is
+    // hidden on the subjects screen, but handle it gracefully.
+    meta.textContent = "Select a subject first to search its questions.";
+    input.disabled = false;
+    requestAnimationFrame(() => input.focus());
+    return;
+  }
+
+  // Use Promise.all directly (same logic as loadAllYears but without the
+  // full-page loading overlay, since the search panel is already showing).
+  Promise.all(subject.years.map((y) => loadYear(subject.id, y.id)))
+    .then(() => {
+      input.disabled = false;
+      input.placeholder = "Search questions…";
+      // If the overlay was closed before loading finished, do nothing.
+      if (!document.getElementById("search-overlay")) return;
+      updateResults("");
+      requestAnimationFrame(() => { input.focus(); });
+    })
+    .catch((err) => {
+      if (!document.getElementById("search-overlay")) return;
+      meta.textContent = `Could not load data: ${err.message}`;
+    });
+}
+
 // ─── SCREENS ──────────────────────────────────────────────────────────────────
 
 function renderSubjects() {
@@ -547,7 +748,7 @@ function renderSubjects() {
     <header class="top-bar">
       <div class="logo">ExamPrep</div>
       <div class="tagline">Study smarter. Pass with confidence.</div>
-      ${themeToggleBtn()}
+      ${topBarRight(false)}
     </header>
     <main class="screen">
       <h1 class="screen-title">Choose a Subject</h1>
@@ -572,7 +773,7 @@ function renderYears() {
     <header class="top-bar">
       <button class="back-btn" data-goto="subjects">← Back</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title}</p>
@@ -606,7 +807,7 @@ function renderSemesters() {
     <header class="top-bar">
       <button class="back-btn" data-goto="years">← Back</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · ${year.label}</p>
@@ -637,7 +838,7 @@ function renderSections() {
     <header class="top-bar">
       <button class="back-btn" data-goto="${backScreen}">← Back</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · ${year.label} · ${sem.semester}</p>
@@ -705,7 +906,7 @@ function renderMCQ() {
     <header class="top-bar">
       <button class="back-btn mcq-guard-back" data-goto="sections">\u2190 Back</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} \u00b7 ${year.label} \u00b7 ${sem.semester} \u00b7 Section A</p>
@@ -760,7 +961,7 @@ function renderMCQScore() {
     <header class="top-bar">
       <button class="back-btn" data-goto="sections">\u2190 Done</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} \u00b7 ${year.label} \u00b7 ${sem.semester} \u00b7 Section A</p>
@@ -825,7 +1026,7 @@ function renderMCQReview() {
     <header class="top-bar">
       <button class="back-btn" data-goto="mcqScore">\u2190 Score</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} \u00b7 ${year.label} \u00b7 ${sem.semester} \u00b7 Section A \u00b7 Review</p>
@@ -873,7 +1074,7 @@ function renderWrittenQuestions() {
     <header class="top-bar">
       <button class="back-btn" data-goto="sections">← Back</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · ${year.label} · ${sem.semester} · Section B</p>
@@ -990,7 +1191,7 @@ function renderWritten() {
     <header class="top-bar">
       <button class="back-btn" data-goto="${backScreen}">${backLabel}</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · ${year.label} · ${sem.semester} · Section B${breadcrumbSuffix}</p>
@@ -1035,7 +1236,7 @@ function renderPracticeConfig() {
     <header class="top-bar">
       <button class="back-btn" data-goto="years">\u2190 Back</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title}</p>
@@ -1155,7 +1356,7 @@ function renderPracticeSession() {
     <header class="top-bar">
       <button class="back-btn mcq-guard-back" data-goto="practiceConfig">\u2190 Exit</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} · Practice Mode</p>
@@ -1239,7 +1440,7 @@ function renderPracticeScore() {
     <header class="top-bar">
       <button class="back-btn" data-goto="practiceConfig">\u2190 Done</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} \u00b7 Practice Mode \u00b7 Results</p>
@@ -1333,7 +1534,7 @@ function renderPracticeReview() {
     <header class="top-bar">
       <button class="back-btn" data-goto="practiceScore">\u2190 Score</button>
       <div class="logo">ExamPrep</div>
-      ${themeToggleBtn()}
+      ${topBarRight()}
     </header>
     <main class="screen">
       <p class="breadcrumb">${subject.title} \u00b7 Practice Mode \u00b7 Review</p>
@@ -1360,6 +1561,12 @@ function bindEvents() {
   app.querySelectorAll(".theme-toggle").forEach((btn) => {
     btn.addEventListener("click", toggleTheme);
   });
+
+  // Search icon button — opens the overlay
+  const openSearchBtn = app.querySelector("#open-search-btn");
+  if (openSearchBtn) {
+    openSearchBtn.addEventListener("click", showSearchOverlay);
+  }
 
   // Bottom nav — Home guards against active MCQ session
   app.querySelectorAll("[data-nav]").forEach((btn) => {
