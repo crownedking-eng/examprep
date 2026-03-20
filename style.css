@@ -1818,3 +1818,40 @@ details[open] .case-summary::after { transform: rotate(180deg); }
 .session-row-abandoned {
   opacity: 0.75;
 }
+
+/* ─── BOOKMARK VIEW (read-only) ──────────────────────────────────────────── */
+.bv-mode-badge {
+  display: inline-block;
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent-2);
+  background: var(--accent-2-light);
+  border-radius: 20px;
+  padding: 3px 10px;
+  margin-bottom: 14px;
+}
+
+.bv-info-block {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.bv-correct-label {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--correct);
+  margin-bottom: 8px;
+}
+
+.bv-explanation {
+  margin-top: 6px;
+  font-size: 0.88rem;
+  color: var(--ink-2);
+  line-height: 1.5;
+}

@@ -281,6 +281,7 @@ const screens = {
   practiceScore:        renderPracticeScore,
   practiceReview:       renderPracticeReview,
   bookmarks:            renderBookmarks,
+  bookmarkView:         renderBookmarkView,
   stats:                renderStatsDashboard,
 };
 
@@ -683,42 +684,24 @@ function toggleBookmark(bmData) {
 // Navigate to a bookmarked question, loading year data if necessary.
 // Async because the year file may not be loaded yet.
 async function navigateToBookmark(bm) {
-  showLoading("Loading\u2026");
+  showLoading("Loading…");
   try {
     await loadYear(bm.subjectId, bm.yearId);
   } catch (e) {
     showError(`Could not load year data.<br><small>${e.message}</small>`);
     return;
   }
-
-  const base = {
-    subjectId:      bm.subjectId,
-    yearId:         bm.yearId,
-    semesterIndex:  bm.semesterIndex,
-    selectedOption: undefined,
-    answerRevealed: false,
-    caseOpen:       false,
-    keyFactsOpen:   false,
-    mcqAnswers:     [],
-    mcqSessionActive: false,
-    mcqCompleted:   false,
-    mcqScore:       null,
-  };
-
-  if (bm.type === "mcq") {
-    go("mcq", { ...base, qIndex: bm.flatIdx ?? 0 });
-  } else {
-    // Determine if sectionB is grouped
-    const subj = DATA.subjects.find((s) => s.id === bm.subjectId);
-    const yr   = subj?.years.find((y) => y.id === bm.yearId);
-    const sem  = yr?.semesters?.[bm.semesterIndex ?? 0];
-    const isGrouped = sem?.sectionB?.format === "grouped";
-    go(isGrouped ? "written" : "written", {
-      ...base,
-      qIndex:    bm.parentIdx ?? 0,
-      subQIndex: bm.subQIdx   ?? 0,
-    });
-  }
+  // Navigate to the dedicated read-only bookmark view.
+  // Only location fields are stored — no session state is touched.
+  go("bookmarkView", {
+    subjectId:     bm.subjectId,
+    yearId:        bm.yearId,
+    semesterIndex: bm.semesterIndex ?? 0,
+    bmType:        bm.type,
+    bmFlatIdx:     bm.flatIdx   ?? 0,
+    bmParentIdx:   bm.parentIdx ?? 0,
+    bmSubQIdx:     bm.subQIdx   ?? 0,
+  });
 }
 
 // Returns the bookmark toggle button HTML for the given ID + text.
@@ -2072,6 +2055,156 @@ function renderStatsDashboard() {
       ${subjectSection}
       ${recentSection}
       ${footer}
+    </main>
+    ${renderBottomNav()}`;
+}
+
+
+// ── BOOKMARK VIEW (read-only, single question) ───────────────────────────────
+// Shows exactly one bookmarked question in fully expanded, non-interactive form.
+// Nothing here touches mcqAnswers, selectedOption, stats, or any session state.
+function renderBookmarkView() {
+  // Locate subject / year / semester from the bookmark location fields
+  const subject = DATA.subjects.find((s) => s.id === state.subjectId);
+  const year    = subject?.years.find((y) => y.id === state.yearId);
+  if (!subject || !year) return renderBookmarks();
+
+  const sem = year.semesters?.[state.semesterIndex ?? 0];
+  if (!sem) return renderBookmarks();
+
+  const bmType     = state.bmType ?? "mcq";
+  const breadcrumb = `${subject.title} \u00b7 ${year.label} \u00b7 ${sem.semester}`;
+
+  // ── MCQ bookmark ─────────────────────────────────────────────────────────────
+  if (bmType === "mcq") {
+    const flat = flattenSectionA(sem.sectionA);
+    const idx  = Math.min(state.bmFlatIdx ?? 0, flat.length - 1);
+    if (!flat.length) return renderBookmarks();
+
+    const { item, q } = flat[idx];
+
+    const caseBlock = item.type === "case-group"
+      ? `<div class="case-static">
+           <div class="case-static-title">\uD83D\uDCC4 ${item.caseStudy.title}</div>
+           <div class="case-static-body">${(item.caseStudy.fullText ?? "")
+             .replace(/\n\n/g, "</p><p>").replace(/^/, "<p>").replace(/$/, "</p>")}</div>
+         </div>`
+      : "";
+
+    // All options shown, correct highlighted green, all disabled — no wrong/dimmed
+    // because this is reference material, not a graded review.
+    const opts = (q.options || []).map((opt, i) => {
+      const cls = i === q.correct ? "option-btn correct" : "option-btn dimmed";
+      return `<button class="${cls}" disabled>${opt}</button>`;
+    }).join("");
+
+    const infoBlock = `
+      <div class="bv-info-block">
+        <span class="bv-correct-label">\u2705 Correct answer highlighted</span>
+        ${q.explanation ? `<p class="feedback-exp bv-explanation">${q.explanation}</p>` : ""}
+        ${q.ref ? `<p class="feedback-ref">\uD83D\uDCDA ${q.ref}</p>` : ""}
+      </div>`;
+
+    return `
+      <header class="top-bar">
+        <button class="back-btn" data-goto="bookmarks">\u2190 Bookmarks</button>
+        <div class="logo">ExamPrep</div>
+        ${topBarRight(false)}
+      </header>
+      <main class="screen">
+        <p class="breadcrumb">${breadcrumb} \u00b7 Section A</p>
+        <div class="bv-mode-badge">Bookmark \u00b7 Read Only</div>
+        ${caseBlock}
+        <div class="card question-card">
+          <p class="q-text">${q.text ?? ""}</p>
+          <div class="options-grid">${opts}</div>
+          ${infoBlock}
+        </div>
+      </main>
+      ${renderBottomNav()}`;
+  }
+
+  // ── Written bookmark ──────────────────────────────────────────────────────────
+  const sectionB  = sem.sectionB;
+  if (!sectionB) return renderBookmarks();
+
+  const isGrouped = sectionB.format === "grouped";
+  let q, cs, parentLabel;
+
+  if (isGrouped) {
+    const parent = sectionB.questions[state.bmParentIdx ?? 0];
+    if (!parent) return renderBookmarks();
+    const subs = parent.subQuestions ?? [];
+    const subIdx = Math.min(state.bmSubQIdx ?? 0, subs.length - 1);
+    q           = subs[subIdx];
+    cs          = parent.caseStudy ?? null;
+    parentLabel = parent.label ?? "";
+  } else {
+    const questions = sectionB.questions ?? [];
+    q           = questions[Math.min(state.bmSubQIdx ?? 0, questions.length - 1)];
+    cs          = sectionB.caseStudy ?? null;
+    parentLabel = "";
+  }
+
+  if (!q) return renderBookmarks();
+
+  // Case study — expanded by default (open), read-only <details>
+  const caseBlock = cs
+    ? `<details class="case-study-details" open>
+         <summary class="case-summary">\uD83D\uDCC4 ${cs.title}</summary>
+         <div class="case-body">${(cs.fullText ?? "")
+           .replace(/\n\n/g, "</p><p>").replace(/^/, "<p>").replace(/$/, "</p>")}</div>
+       </details>`
+    : "";
+
+  const keyFactsBlock = cs?.keyFacts?.length
+    ? `<details class="case-study-details keyfacts-details" open>
+         <summary class="case-summary keyfacts-summary">\uD83D\uDD11 Key Facts</summary>
+         <ul class="keyfacts-list">${cs.keyFacts.map((f) => `<li>${f}</li>`).join("")}</ul>
+       </details>`
+    : "";
+
+  const mainPts = (q.answer?.mainPoints ?? []).map((p) => `
+    <div class="answer-point">
+      <strong>${p.heading}</strong>
+      <p>${p.detail}</p>
+    </div>`).join("");
+
+  const otherAnswers = q.answer?.otherPossibleAnswers && q.answer.otherPossibleAnswers !== "N/A"
+    ? `<div class="answer-section other-answers">
+         <h4>Other Possible Answers</h4>
+         <p>${q.answer.otherPossibleAnswers}</p>
+       </div>` : "";
+
+  // Answer always fully expanded — no Reveal button, no rating buttons
+  const answerBlock = `
+    <div class="answer-block">
+      ${q.commandWord ? `<p class="command-word-label">Command Word: <strong>${q.commandWord}</strong></p>` : ""}
+      ${q.answer?.introduction ? `<div class="answer-section"><h4>Introduction</h4><p>${q.answer.introduction}</p></div>` : ""}
+      <div class="answer-section"><h4>Main Points</h4>${mainPts}</div>
+      ${q.answer?.conclusion ? `<div class="answer-section"><h4>Conclusion</h4><p>${q.answer.conclusion}</p></div>` : ""}
+      ${otherAnswers}
+      ${q.answer?.ref ? `<p class="feedback-ref">\uD83D\uDCDA ${q.answer.ref}</p>` : ""}
+    </div>`;
+
+  const bcSuffix = parentLabel ? ` \u00b7 ${parentLabel}` : "";
+
+  return `
+    <header class="top-bar">
+      <button class="back-btn" data-goto="bookmarks">\u2190 Bookmarks</button>
+      <div class="logo">ExamPrep</div>
+      ${topBarRight(false)}
+    </header>
+    <main class="screen">
+      <p class="breadcrumb">${breadcrumb} \u00b7 Section B${bcSuffix}</p>
+      <div class="bv-mode-badge">Bookmark \u00b7 Read Only</div>
+      ${caseBlock}
+      ${keyFactsBlock}
+      <div class="card question-card">
+        ${q.marks ? `<div class="q-marks-row"><span class="q-marks">[${q.marks} marks]</span></div>` : ""}
+        <p class="q-text">${q.text ?? ""}</p>
+        ${answerBlock}
+      </div>
     </main>
     ${renderBottomNav()}`;
 }
