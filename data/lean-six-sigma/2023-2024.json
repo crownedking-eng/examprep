@@ -104,7 +104,7 @@
             "C. Design",
             "D. Verify"
           ],
-          "correctAnswer": "D",
+          "correctAnswer": "C",
           "explanation": "This question refers to the DMADV methodology (Define, Measure, Analyze, Design, Verify). The stages are: 1. Define, 2. Measure, 3. Analyze, 4. Design, 5. Verify. \"Design\" is the fourth stage.",
           "reference": "Unit - DMADV Methodology"
         },
