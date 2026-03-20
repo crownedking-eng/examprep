@@ -16,7 +16,7 @@ A comprehensive exam preparation app for UCC PSCM Level 400 College of Distance 
 ## Subjects Available
 - Entrepreneurship (SBU 408D) - 6 academic years
 - Project Management (SBU 405) - 6 academic years
-- Sustainable Procurement (PCM 401D) - 5 academic years for now
+- Sustainable Procurement (PCM 401D) - 5 academic years
 - Risk Management (PCM 403D) - 5 academic years
 - Lean and Six Sigma (PCM 409D) - 2 academic years
 
