@@ -1,6 +1,6 @@
 {
-  "subject": "Sustainable Procurement",
-  "subjectCode": "PCM 401D",
+  "subject": "Risk Management",
+  "subjectCode": "ADM 405D",
   "academicYear": "2020/2021",
   "semesters": [
     {
@@ -8,253 +8,263 @@
       "sectionA": [
         {
           "type": "single",
-          "question": "Modern concept of sustainable development focuses more on ______.",
+          "question": "Planning designed to identify potential threats to the critical activities or success factors of an organisation, and to ensure that these can be reduced or responded to in such a way as to maintain business functions and processes through risk events is known as ______ Planning.",
           "options": [
-            "A. economic development",
-            "B. environmental protection",
-            "C. social development",
-            "D. All of the above"
-          ],
-          "correctAnswer": "D",
-          "explanation": "Sustainable development is defined by the triple-bottom-line, which equally emphasises economic, environmental, and social goals.",
-          "reference": "Unit 1, Session 1, 1.2 - What is sustainable development then?"
-        },
-        {
-          "type": "single",
-          "question": "A promising direction towards sustainable development is to design systems that are ______.",
-          "options": [
-            "A. flexible and irreversible",
-            "B. flexible and reversible",
-            "C. inflexible and irreversible",
-            "D. inflexible and reversible"
-          ],
-          "correctAnswer": "B",
-          "explanation": "To sustain future generations, systems must be adaptable (flexible) and able to be returned to a previous state (reversible), ensuring resources are not permanently depleted.",
-          "reference": "Unit 1, Session 1, 1.1 - Meaning of Sustainability"
-        },
-        {
-          "type": "single",
-          "question": "Mapping the supply chain will improve transparency of sustainable and ethical practice compliance. Is this true?",
-          "options": [
-            "A. No, it will not be possible to identify these",
-            "B. No, supply chain mapping will only identify costs",
-            "C. Yes, but only downstream activities need to be included",
-            "D. Yes, it will help to identify areas of good and poor practice"
-          ],
-          "correctAnswer": "D",
-          "explanation": "Supply chain mapping documents the exact source and flow of materials, which helps to spot potential threats, minimize risk exposure, and demonstrate corporate social responsibility by identifying good and poor practices.",
-          "reference": "Unit 6, Session 1, 1.4 - Supply Chain Mapping"
-        },
-        {
-          "type": "single",
-          "question": "A large electronics manufacturer that uses rare metals in its products has just announced it is to shift its focus more on sustainability in order to safeguard its supply chain. In this context, which of the following could be seen as the main driver for this?",
-          "options": [
-            "A. Financial pressures",
-            "B. Government policy",
-            "C. Increased accountability",
-            "D. Resource scarcity"
-          ],
-          "correctAnswer": "D",
-          "explanation": "The company uses rare metals, which are finite resources. The need to ensure the long-term availability of these scarce resources is a key driver for adopting sustainable practices to secure the supply chain.",
-          "reference": "Unit 1, Session 3, 3.1 - Meaning of Sustainability Risk"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following options is correct when an organisation only accomplish two out of three pillars of sustainable development?",
-          "options": [
-            "A. Economic + Environmental sustainability = Viable",
-            "B. Social + Economic sustainability = Equitable",
-            "C. Social + Environmental sustainability = Bearable",
-            "D. All of the above"
-          ],
-          "correctAnswer": "D",
-          "explanation": "The intersection of any two pillars creates a specific state: Economic + Environmental = Viable, Social + Economic = Equitable, and Social + Environmental = Bearable.",
-          "reference": "Unit 1, Session 1, 1.2.2 - What are the Primary Goals of Sustainability?"
-        },
-        {
-          "type": "single",
-          "question": "ABC is a market leading consumer products manufacturer. It has invested heavily in promoting sustainability throughout its practices and marketing communications. Which of the following is most likely to be the reward for ABC of such an investment?",
-          "options": [
-            "A. Improved brand reputation",
-            "B. Increased number of competitors",
-            "C. Integrated supplier base",
-            "D. Reduced indirect costs"
+            "A. Business Continuity",
+            "B. Succession",
+            "C. Strategic",
+            "D. Tactical"
           ],
           "correctAnswer": "A",
-          "explanation": "Promoting sustainability enhances corporate image and public perception, leading to an improved brand reputation and a competitive advantage.",
-          "reference": "Unit 1, Session 4, 4.4 - Benefits of Sustainable Procurement"
+          "explanation": "Business continuity planning is specifically designed to maintain business functions and processes through risk events by identifying threats to critical activities.",
+          "reference": "Unit 6, Session 2, 2.1 - Business Continuity Planning"
         },
         {
           "type": "single",
-          "question": "Which of the following themes cover (s) the environmental focus of sustainability?",
+          "question": "Which of the following is not part of the different categories of pure risks?",
           "options": [
-            "A. A means to minimize waste",
-            "B. A tool to address climate change",
-            "C. A way to help mitigate overexploitation of scarce resources",
-            "D. All the above"
+            "A. Personal",
+            "B. Property",
+            "C. Liability",
+            "D. None of the above"
           ],
           "correctAnswer": "D",
-          "explanation": "The environmental focus of sustainable procurement includes minimizing waste, addressing climate change by reducing carbon, and helping mitigate the overexploitation of scarce resources.",
-          "reference": "Unit 1, Session 4, 4.2 - A. The Environmental Context"
+          "explanation": "The three different categories of pure risks are personal, property, and liability. Therefore, \"None of the above\" is correct because all the listed options (A, B, and C) are part of the categories.",
+          "reference": "Unit 1, Session 4, 4.1 - Pure and speculative risk"
         },
         {
           "type": "single",
-          "question": "Which aspect of sustainable procurement focuses on inclusiveness, equality, diversity, poverty, unemployment, skills development, regeneration, health and well-being?",
+          "question": "Controls that are designed to mitigate the effect of undesirable outcomes once they have occurred is termed as ______.",
           "options": [
-            "A. Economic",
-            "B. Environmental",
-            "C. Social",
-            "D. All the above"
-          ],
-          "correctAnswer": "C",
-          "explanation": "The social context of sustainable procurement is used as a means to tackle issues such as inclusiveness, equality, diversity, poverty, unemployment, and skills development.",
-          "reference": "Unit 1, Session 4, 4.2 - C. The Social Context"
-        },
-        {
-          "type": "single",
-          "question": "Advancements in technology have supported the drive for globalisation. Is this correct?",
-          "options": [
-            "A. No, increased use of technology has made global trading much more expensive",
-            "B. No, technology has created significantly increased demand for shorter supply chains",
-            "C. Yes, emerging technologies have forced some companies overseas to retain staff",
-            "D. Yes, many barriers to communication have now been removed through technology"
+            "A. Detective Controls",
+            "B. Preventive Controls",
+            "C. Directive Controls",
+            "D. Corrective Controls"
           ],
           "correctAnswer": "D",
-          "explanation": "Technological advancements in communication and transportation have removed barriers of space and time, improving global connectivity and mobility, which are key drivers of globalisation.",
-          "reference": "Unit 1, Session 6, 6.3 - Drivers of Globalization"
+          "explanation": "Corrective controls are specifically designed to mitigate the effect of undesirable outcomes after they have occurred, such as legal remedies or insurance.",
+          "reference": "Unit 3, Session 2, 2.3.4 - Corrective Controls"
         },
         {
           "type": "single",
-          "question": "An organisation can manage its reputational risk in relation to its ethical and sustainable procurement practices through which of the following?",
+          "question": "The technique for coping with a series of decisions, each one having a variety of possible outcomes is called ______.",
           "options": [
-            "A. Ensuring equipment is replaced regularly",
-            "B. Implementing responsible procurement policies",
-            "C. Meeting suppliers at third party locations",
-            "D. Reducing supplier profitability"
+            "A. Probability Distribution",
+            "B. Decision Tree Analysis",
+            "C. Value at Risk",
+            "D. Extrapolation"
           ],
           "correctAnswer": "B",
-          "explanation": "Implementing responsible procurement policies, which include codes of conduct and sustainability standards, helps to protect the organisation's reputation by ensuring ethical practices throughout the supply chain.",
-          "reference": "Unit 3, Session 5, 3.5 - Reputational Risk"
+          "explanation": "Decision tree analysis is a technique for coping with a series of decisions, each having a variety of possible outcomes, by mapping combinations of decisions and outcomes.",
+          "reference": "Unit 2, Session 5, 5.3 - Decision Tree Analysis"
         },
         {
           "type": "single",
-          "question": "The probability of an unwanted event occurring is best described as ______.",
+          "question": "The category of risk that can be taken on voluntarily and will either result in a profit or loss is termed as ______.",
           "options": [
-            "A. Insurance",
-            "B. Likelihood",
-            "C. Risk",
+            "A. Pure risk",
+            "B. Speculative risk",
+            "C. Vulnerability",
+            "D. Uncertainty"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Speculative risk is a category of risk that can be taken on voluntarily and will either result in a profit or loss, unlike pure risk which has only the possibility of loss.",
+          "reference": "Unit 1, Session 4, 4.1 - Pure and speculative risk"
+        },
+        {
+          "type": "single",
+          "question": "The type of risk that cannot be controlled and has two outcomes is referred to as ______.",
+          "options": [
+            "A. Pure risk",
+            "B. Speculative risk",
+            "C. Vulnerability",
+            "D. Uncertainty"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Pure risk or absolute risk is a type of risk that cannot be controlled and has two outcomes: complete loss or no loss at all.",
+          "reference": "Unit 1, Session 4, 4.1 - Pure and speculative risk"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a factor responsible for non-diversifiable risks?",
+          "options": [
+            "A. Changes in investment policy",
+            "B. Alteration in taxation policy",
+            "C. Altering of socio-economic parameters",
+            "D. Strikes"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Non-diversifiable risk is caused by factors influencing the complete market like investment policy, taxation, and socio-economic parameters. Strikes are an example of diversifiable (unsystematic) risk.",
+          "reference": "Unit 1, Session 4, 4.2 - Diversifiable and non-diversifiable risk"
+        },
+        {
+          "type": "single",
+          "question": "The physical object, situation or setting, which poses a threat to life, property or any other thing is called",
+          "options": [
+            "A. Risk",
+            "B. Vulnerability",
+            "C. Hazard",
             "D. Uncertainty"
           ],
           "correctAnswer": "C",
-          "explanation": "Risk is formally defined as the probability or threat of damage, injury, or any other negative occurrence that may be caused by vulnerabilities.",
-          "reference": "Unit 3, Session 5, 3.1 - Risk and Vulnerability"
+          "explanation": "Hazard pertains to the physical object, situation or setting which poses a threat to life, property or any other thing, acting as the root or anticipated cause of harm.",
+          "reference": "Unit 1, Session 3, 3.3 - Key Differences between Risk and Hazard"
         },
         {
           "type": "single",
-          "question": "______ is the net affective or emotional reaction, good or bad, weak or strong, of customers, investors, employees and the general public to the company's name.",
+          "question": "The probability that an inbound supply problem will disrupt a business is known as ______ risk.",
           "options": [
-            "A. Advertisement",
-            "B. Brand image",
-            "C. Corporate reputation",
-            "D. None of the above"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Corporate reputation is defined as the overall estimation in which a company is held, representing the net affective or emotional reaction of its constituents.",
-          "reference": "Unit 3, Session 5, 3.5 - Reputational Risk"
-        },
-        {
-          "type": "single",
-          "question": "The process of notifying a tenderer that they have been selected as the supplier for a particular contract is known as ______.",
-          "options": [
-            "A. Contact signing",
-            "B. Contract award",
-            "C. Contract execution",
-            "D. Contract initiation"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Contract award refers specifically to the process of notifying a tenderer that they have been selected as the supplier for a particular contract.",
-          "reference": "Unit 5, Session 3, 3.1 - Contract Award"
-        },
-        {
-          "type": "single",
-          "question": "It advisable to consider tenders with ______.",
-          "options": [
-            "A. high prices",
-            "B. high supply risk",
-            "C. lower supply risk",
-            "D. lowest prices only"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Tenders can be risk-evaluated, and points awarded to those bids with lower risk supply, as this helps minimize potential negative impacts on the environment, economy, and ecology.",
-          "reference": "Unit 5, Session 3, 3.2 - Capturing sustainable elements in objective and transparent tender evaluation for contract award"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following is a key principle of sustainability?",
-          "options": [
-            "A. Satisfying the interest of stakeholders",
-            "B. Satisfying the needs of the organisation",
-            "C. The need to control organisational performance",
-            "D. All the above"
+            "A. Positive",
+            "B. Negative",
+            "C. Direct",
+            "D. Supply"
           ],
           "correctAnswer": "D",
-          "explanation": "A key principle of sustainability is the need to satisfy the needs and interests of an extended group of stakeholders, which implies the need to control organisational performance by setting clear goals and monitoring progress.",
-          "reference": "Unit 5, Session 4, 4.2 - Objectives of Measuring Performance"
+          "explanation": "Supply risk is specifically defined as the probability that an inbound supply problem will disrupt a business, including issues with suppliers, shipment, and markets.",
+          "reference": "Unit 1, Session 2, 2.4 - Examples of supply risks"
         },
         {
           "type": "single",
-          "question": "The triple bottom line recognises the need for businesses to measure their performance by how well they further only the interests of their primary stakeholders.",
+          "question": "According to the Ghana Law of Contract, Act 1960, Part five: \"the Obligations of parties to contracts that the parties to a contract must perform their respective promises, unless such performance is dispensed with or excused under the provisions of this Act or of any other law\" is termed as:",
           "options": [
-            "A. True",
-            "B. False"
+            "A. Implied terms",
+            "B. Performance of contract",
+            "C. Warranties",
+            "D. Conditions"
           ],
           "correctAnswer": "B",
-          "explanation": "The triple bottom line (TBL) recognises the need for businesses to measure performance not just by how well they further the interests of primary stakeholders (profit), but also how well they further or protect the interests of secondary stakeholders regarding social and environmental sustainability.",
-          "reference": "Unit 5, Session 5, 5.8 - The Triple Bottom Line theory"
+          "explanation": "The Ghana Law of Contract, Act 1960, Part five describes the performance of contract, which includes the obligation of parties to perform their promises.",
+          "reference": "Unit 5, Session 2, 2.1 - Performance of Contract"
         },
         {
           "type": "single",
-          "question": "Continuous improvement can be achieved through early supplier involvement.",
+          "question": "Which of the following is an illustrative example of supply risk?",
           "options": [
-            "A. True",
-            "B. False"
+            "A. The risk that a fire may destroy company assets",
+            "B. The risk that a customer goes out of business",
+            "C. The risk that a foreign exchange rate may change",
+            "D. All of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "All listed options are illustrative examples of supply risk: fire destroying assets, a customer going out of business, and foreign exchange rate changes.",
+          "reference": "Unit 1, Session 2, 2.4 - Examples of supply risks"
+        },
+        {
+          "type": "single",
+          "question": "The act of deliberate deception with the intention of gaining some benefit is called",
+          "options": [
+            "A. Fraud",
+            "B. Corruption",
+            "C. Bribery",
+            "D. Embezzlement"
           ],
           "correctAnswer": "A",
-          "explanation": "Early Supplier Involvement (ESI) enables pre-qualified suppliers to contribute expertise, which can lead to improved product or service design and reduced process costs or wastes, thereby supporting continuous improvement.",
-          "reference": "Unit 4, Session 3, 4.5 - Early Supplier Involvement"
+          "explanation": "Fraud is defined as an act of deliberate deception with the intention of gaining some benefit or, more specifically, deprivation by deceit.",
+          "reference": "Unit 4, Session 2, 2.1 - Fraud"
         },
         {
           "type": "single",
-          "question": "Contract management is the same as relationship management.",
+          "question": "The legal and financial responsibility or obligation of an entity in contract law is called ______",
           "options": [
-            "A. True",
-            "B. False"
+            "A. Liability",
+            "B. Indemnity clause",
+            "C. Insurance clause",
+            "D. Negative loss"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Liability in a legal context is the legal and financial responsibility or obligation of an entity in a situation, such as being liable for breach of contract.",
+          "reference": "Unit 5, Session 4, 4.1 - Liability"
+        },
+        {
+          "type": "single",
+          "question": "A clause designed to secure an undertaking from the other party that, it will accept liability for any loss arising from events in performance of the contract, and will make good the loss to the injured party or parties is known as ______",
+          "options": [
+            "A. Liability",
+            "B. Indemnity clause",
+            "C. Insurance clause",
+            "D. Negative loss"
           ],
           "correctAnswer": "B",
-          "explanation": "While related, they are not the same. Contract management focuses on the performance of specific contracts, whereas relationship management is often used to describe the management of an ongoing relationship with a supplier beyond individual transactions.",
-          "reference": "Unit 5, Session 6, 6.5 - Contract and Supplier Management"
+          "explanation": "An indemnity clause is designed to secure an undertaking from the other party to accept liability for any loss arising from events in performance of the contract and make good the loss.",
+          "reference": "Unit 5, Session 4, 4.2 - Indemnity Clause"
         },
         {
           "type": "single",
-          "question": "Supply chain mapping refers to documenting the exact sources and flow of materials, activities and processes within the value chain.",
+          "question": "The Cranfield School of Management identifies four (4) variables that foster success in supply chain vulnerability management, continuity management and resilience. Which of the following is not part of the variables?",
           "options": [
-            "A. True",
-            "B. False"
+            "A. Risk awareness among top management",
+            "B. Risk awareness as an integrated part of supply chain management",
+            "C. An understanding each of employee of his or her role in risk awareness",
+            "D. Risk handling for customers"
           ],
-          "correctAnswer": "A",
-          "explanation": "Supply chain mapping is precisely the process of documenting the exact source and flow of materials, activities, and processes within the value chain.",
-          "reference": "Unit 6, Session 1, 1.4 - Supply Chain Mapping"
+          "correctAnswer": "D",
+          "explanation": "The four variables are: risk awareness among top management, risk awareness as an integrated part of supply chain management, employee understanding of their role, and understanding that business strategy changes alter risk profiles. Risk handling for customers is not one of them.",
+          "reference": "Unit 1, Session 6, 6.2 - Key variables that foster success in supply chain vulnerability management, continuity management and resilience"
         },
         {
           "type": "single",
-          "question": "A source of potential damage, harm, accident or anything adverse either to persons, properties or events is known as a hazard.",
+          "question": "According to the US Project Management Institute (PMI), a temporary endeavour undertaken to create a unique product or service is called ______",
           "options": [
-            "A. True",
-            "B. False"
+            "A. Probability distribution",
+            "B. Project",
+            "C. Value at Risk",
+            "D. Extrapolation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The US Project Management Institute (PMI) defines a project as 'a temporary endeavour undertaken to create a unique product or service'.",
+          "reference": "Unit 4, Session 4, 4.1 - What is a project?"
+        },
+        {
+          "type": "single",
+          "question": "Financial risks resulting from macro-economic factors, such as: business cycles, fluctuating commodities prices; availability and costs of finance and fluctuating exchange rates is termed as ______ risks.",
+          "options": [
+            "A. External",
+            "B. Internal",
+            "C. Exchange",
+            "D. Currency"
           ],
           "correctAnswer": "A",
-          "explanation": "A hazard is defined as a source of potential damage, harm, accident, or anything adverse either to persons, properties, or events.",
-          "reference": "Unit 6, Session 2, 2.2.1 - A hazard"
+          "explanation": "Financial risks may be external, resulting from macro-economic factors such as business cycles, fluctuating commodities prices, and fluctuating exchange rates.",
+          "reference": "Unit 4, Session 5, 5.1 - Internal and External financial risks"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not part of the components of risk management?",
+          "options": [
+            "A. Risk assessment and analysis",
+            "B. Risk evaluation",
+            "C. Risk planning",
+            "D. Risk treatment"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The risk management process consists of three parts: risk assessment and analysis, risk evaluation, and risk treatment. Risk planning is not listed as one of these core components.",
+          "reference": "Unit 1, Session 5, 5.2 - Risk management processes"
+        },
+        {
+          "type": "single",
+          "question": "CIPS guidance suggests a checklist of issues to be considered ahead of new technology or systems implementation, which highlights the key risks involved. Which of the following is not among the checklist of issues CIPS guidance suggests to be considered ahead of new technology or systems implementation?",
+          "options": [
+            "A. Objectives",
+            "B. Personnel",
+            "C. Relationships",
+            "D. Time"
+          ],
+          "correctAnswer": "D",
+          "explanation": "CIPS guidance suggests a checklist including Objectives, Personnel, Relationships, Technology, Finance, and Power. Time is not listed as one of these specific issues.",
+          "reference": "Unit 4, Session 6, 6.2.1 - Implementation of new technology"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not part of the different levels of risks appetite within an organization?",
+          "options": [
+            "A. Corporate risk appetite",
+            "B. Delegated risk appetite",
+            "C. Project risk appetite",
+            "D. None of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The three distinct levels of risk appetite within an organization are Corporate risk appetite, Delegated risk appetite, and Project risk appetite. Therefore, \"None of the above\" is correct as all options A, B, and C are part of the levels.",
+          "reference": "Unit 1, Session 1, 1.4 - The concept of Risk appetite and the levels it is considered in an organisation"
         }
       ],
       "sectionB": {
@@ -266,80 +276,70 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Explain three factors considered by firms when they engage in sustainable procurement.",
-                "marks": 6,
+                "question": "Explain the steps involved in managing risk in supply chain.",
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "When engaging in sustainable procurement, firms consider a range of factors that go beyond traditional economic parameters to include social and environmental impacts.",
+                  "introduction": "The risk management process consists of several key steps to identify, assess, and control threats to an organization.",
                   "mainPoints": [
                     {
-                      "heading": "Value for Money and Whole Life Costing",
-                      "detail": "Firms look beyond the initial purchase price to consider the total cost of ownership over the product's lifetime, including operation, maintenance, and disposal costs."
+                      "heading": "Identify the Risk",
+                      "detail": "This foundational step requires knowledge of the organization, its market, and environment to identify potential risks. Failure here can cause major loss."
                     },
                     {
-                      "heading": "Environmental Impact",
-                      "detail": "Firms assess the effects of a product or service on the environment throughout its whole life cycle (\"from cradle to grave\"), such as carbon emissions, waste, and resource depletion."
+                      "heading": "Assess and Analyze",
+                      "detail": "Determine the likelihood and consequence of each risk. This evaluates the organization's exposure and estimates potential damage to operations and reputation."
                     },
                     {
-                      "heading": "Social and Ethical Considerations",
-                      "detail": "Firms evaluate the social consequences of their purchasing decisions, including labour conditions, human rights, fair trade practices, and the impact on local communities."
+                      "heading": "Evaluate and Formulate Strategies",
+                      "detail": "Management must formulate risk mitigation strategies, often referred to as the 4T's (Tolerate, Transfer, Terminate, Treat), to minimize negative outcomes."
+                    },
+                    {
+                      "heading": "Assign an Owner to the Risk",
+                      "detail": "A person must be responsible for overseeing each identified risk, leading the work to resolve it should it occur."
+                    },
+                    {
+                      "heading": "Implementation",
+                      "detail": "Follow all planned methods for mitigating the effect of the risks, such as purchasing insurance or applying other controls."
+                    },
+                    {
+                      "heading": "Monitor and Review",
+                      "detail": "Use the Project Risk Register to monitor, track, and review risks on an ongoing basis to identify changes or new threats."
                     }
                   ],
-                  "conclusion": "These three core factors—economic, environmental, and social—form the foundation of sustainable procurement, ensuring decisions create long-term value for the organisation, society, and the planet.",
-                  "otherPossibleAnswers": "Risk Management: Assessing and mitigating risks related to supply chain security, price volatility, and reputational damage from unethical practices. Stakeholder Expectations: Responding to the demands of customers, investors, employees, and regulators for more responsible business conduct.",
-                  "reference": "Unit 1, Session 4, 4.1 - Definition and nature of sustainable procurement"
+                  "conclusion": "Following these structured steps helps an organization proactively prepare for unexpected events and minimize their impact.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.2 - Risk management processes"
                 }
               },
               {
                 "label": "B",
-                "question": "Explain three factors that need to be considered during requirement definition with regards to the social aspect of sustainability.",
-                "marks": 6,
+                "question": "Explain the following terms: (I) Positive risk, (II) Negative risk, (III) Direct risk, (IV) Pure risk",
+                "marks": 8,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Defining requirements for a purchase must incorporate social sustainability to ensure ethical practices and positive community impact throughout the supply chain.",
+                  "introduction": "These four terms describe distinct categories and characteristics of risk as encountered in procurement and supply chain management.",
                   "mainPoints": [
                     {
-                      "heading": "Health and Safety Standards",
-                      "detail": "Specifications should ensure products and services meet high health and safety standards to protect users and workers, such as requiring electrical equipment to be certified safe."
+                      "heading": "I. Positive Risk",
+                      "detail": "Positive risk, also known as upside potential, refers to uncertainties with positive outcomes. For example, innovation in supplier technology or entering a new market may yield results more positive than expected, creating opportunities for gain."
                     },
                     {
-                      "heading": "Local Production",
-                      "detail": "Sourcing from local suppliers can be a requirement to ensure that economic benefits, such as job creation and inward investment, are felt within the local community."
+                      "heading": "II. Negative Risk",
+                      "detail": "Negative risk, also known as downside risk, refers to uncertainties with negative outcomes. The results are less positive than expected, and the negative outcome may be a direct or indirect loss for the organization."
                     },
                     {
-                      "heading": "Ethically Sourced Goods",
-                      "detail": "Requirements should specify that products are sourced ethically, ensuring they are not produced using child labour or exploitative practices, and meet recognised fair-trade standards."
+                      "heading": "III. Direct Risk",
+                      "detail": "Direct risk refers to the potential for a loss arising directly from a risk event. This includes direct physical or material loss such as theft of stock, damage to buildings, repair costs, exchange rate loss, or disruption of supply."
+                    },
+                    {
+                      "heading": "IV. Pure Risk",
+                      "detail": "Pure risk, or absolute risk, is a type of risk that cannot be controlled and has only two outcomes: complete loss or no loss at all. It is generally prevalent in situations such as natural disasters, fires, or death, and is commonly transferred to an insurance company."
                     }
                   ],
-                  "conclusion": "By embedding these social factors into requirement definitions, organisations can use their purchasing power to promote human rights, support local economies, and foster fair labour conditions.",
+                  "conclusion": "Understanding these risk types enables procurement professionals to apply the most appropriate management strategies to each situation.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 5, 5.6.3 - Requirement definition (Table)"
-                }
-              },
-              {
-                "label": "C",
-                "question": "Explain joint performance appraisal and assess three objectives.",
-                "marks": 8,
-                "commandWord": "Explain and Assess",
-                "answer": {
-                  "introduction": "Joint Performance Appraisal (JPA) is a collaborative approach where both the buyer and the supplier assess each other's performance to foster a mutually beneficial and sustainable relationship.",
-                  "mainPoints": [
-                    {
-                      "heading": "Recognise Buyer Impact on Supply Chain",
-                      "detail": "One key objective is to identify how the buyer's own processes and behaviours (e.g., late payments, adversarial negotiations) negatively affect the supplier's performance, efficiency, and sustainability."
-                    },
-                    {
-                      "heading": "Identify and Resolve Relationship Problems",
-                      "detail": "JPA aims to pinpoint problems within the buyer-supplier relationship that may hinder the performance of either party, with the goal of collaborative problem resolution."
-                    },
-                    {
-                      "heading": "Support Long-Term Value Creation",
-                      "detail": "The process seeks to support long-term, value-adding relationships by ensuring that both parties share risks and rewards equitably, creating a stable and trusting partnership."
-                    }
-                  ],
-                  "conclusion": "JPA moves beyond traditional one-sided performance management to create a transparent dialogue that drives mutual improvement and strengthens the entire supply chain.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 6, 6.4 - Joint Performance Appraisal (JPA)"
+                  "reference": "Unit 1, Session 2, 2.1 - Positive and negative consequences of risk; Unit 1, Session 2, 2.2 - Direct and indirect consequences; Unit 1, Session 4, 4.1 - Pure and speculative risk"
                 }
               }
             ]
@@ -350,80 +350,48 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Explain sustainability reporting and assess three internal benefits of sustainability reporting for organisations.",
-                "marks": 8,
-                "commandWord": "Explain and Assess",
-                "answer": {
-                  "introduction": "A sustainability report is a publication by an organisation about the economic, environmental, and social impacts of its everyday activities, demonstrating its commitment to sustainable development.",
-                  "mainPoints": [
-                    {
-                      "heading": "Increased Understanding of Risks and Opportunities",
-                      "detail": "Internally, the reporting process forces a company to analyse its operations, leading to a better understanding of potential sustainability-related risks and opportunities for innovation."
-                    },
-                    {
-                      "heading": "Streamlining Processes and Improving Efficiency",
-                      "detail": "To report accurately, organisations often review their processes, which can help identify inefficiencies, reduce costs, and streamline operations for better environmental and economic performance."
-                    },
-                    {
-                      "heading": "Influencing Long-Term Strategy and Policy",
-                      "detail": "The insights gained from sustainability reporting can directly inform and influence the company's long-term management strategy, policy, and business plans, embedding sustainability into core decision-making."
-                    }
-                  ],
-                  "conclusion": "Sustainability reporting provides significant internal benefits by enhancing strategic awareness, operational efficiency, and long-term planning.",
-                  "otherPossibleAnswers": "Benchmarking Performance: It allows a company to benchmark its sustainability performance against laws, norms, and industry standards. Comparing Performance Internally: It facilitates the comparison of performance between different departments or over time within the organisation.",
-                  "reference": "Unit 6, Session 6, 6.5 - Sustainability reporting"
-                }
-              },
-              {
-                "label": "B",
-                "question": "Explain three challenges that may be faced by an organisation that does not adopt the sustainability mantra.",
-                "marks": 6,
+                "question": "Explain five advantages and three disadvantages of performing SWOT analysis in a procurement firm.",
+                "marks": 20,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "An organisation that fails to adopt sustainable practices exposes itself to significant challenges that can undermine its financial stability, operations, and reputation.",
+                  "introduction": "SWOT Analysis is a strategic planning tool used to evaluate an organization's Strengths, Weaknesses, Opportunities, and Threats to formulate its strategy.",
                   "mainPoints": [
                     {
-                      "heading": "Financial Risks",
-                      "detail": "The organisation may face higher costs due to poor supply chain management, fines for non-compliance with environmental regulations, and potential liability from lawsuits."
+                      "heading": "Advantage 1: General to Specific Road Map",
+                      "detail": "It has a general perspective and presents general solutions, serving as a road map that guides the firm from general strategic thinking to specific issues."
                     },
                     {
-                      "heading": "Operational Risks",
-                      "detail": "Unsustainable practices can lead to supply chain disruptions, such as quality issues from suppliers, unmanaged health and safety hazards, and supply shortages, impacting production and service delivery."
+                      "heading": "Advantage 2: Uncover Opportunities and Manage Threats",
+                      "detail": "It helps management uncover opportunities to take advantage of and, by understanding weaknesses, manage and eliminate threats."
                     },
                     {
-                      "heading": "Reputational Risks",
-                      "detail": "The exposure of unethical, socially irresponsible, or environmentally damaging activities can severely damage the company's brand image, erode customer trust, and make it less attractive to investors and employees."
+                      "heading": "Advantage 3: Fits Other Strategic Tools",
+                      "detail": "It encompasses and fits other strategic decision tools and theories, such as Porter's Five Forces Model or the Balanced Scorecard."
+                    },
+                    {
+                      "heading": "Advantage 4: Promotes Group Discussion",
+                      "detail": "It promotes group discussion about strategic issues and strategy development through participatory techniques like brainstorming."
+                    },
+                    {
+                      "heading": "Advantage 5: Broad Application",
+                      "detail": "It can be applied at different analytical levels — from an individual to an international level — and by various organizations, including non-profits and governments."
+                    },
+                    {
+                      "heading": "Disadvantage 1: General Perspective",
+                      "detail": "It has a general perspective and presents general solutions, not focusing on specific, detailed issues."
+                    },
+                    {
+                      "heading": "Disadvantage 2: Poor Formulation Risk",
+                      "detail": "It requires experience and training for systematic construction; otherwise, it can be poorly formulated, leading to superficial analysis."
+                    },
+                    {
+                      "heading": "Disadvantage 3: Quantity Over Quality",
+                      "detail": "Many factors can be identified, but quantity does not mean quality. It is difficult to determine priorities among the factors identified."
                     }
                   ],
-                  "conclusion": "Ignoring sustainability creates a deficit that leads to tangible risks, making the organisation less competitive, more vulnerable to disruptions, and prone to damaging its most valuable intangible asset: its reputation.",
-                  "otherPossibleAnswers": "Compliance and Liability Risk: Exposure to legal action and penalties for illegal or irresponsible activity, including workplace health and safety failures.",
-                  "reference": "Unit 3, Session 5, 3.3 - Effects of Sustainability Deficit"
-                }
-              },
-              {
-                "label": "C",
-                "question": "State three advantages of using sustainability Key Performance Indicators.",
-                "marks": 6,
-                "commandWord": "State",
-                "answer": {
-                  "introduction": "Using Key Performance Indicators (KPIs) for sustainability provides a structured way to measure, manage, and improve a company's environmental, social, and economic performance.",
-                  "mainPoints": [
-                    {
-                      "heading": "Supports Collaborative Relations",
-                      "detail": "They enable integrated or two-way performance measurement, fostering better collaboration between buyers and suppliers."
-                    },
-                    {
-                      "heading": "Facilitates Performance Comparison",
-                      "detail": "KPIs allow for a direct comparison of year-on-year performance, making it easy to identify improvement or deterioration trends over time."
-                    },
-                    {
-                      "heading": "Focuses on Key Results Areas",
-                      "detail": "They concentrate effort on critical success factors such as cost management, reputational protection, and environmental compliance."
-                    }
-                  ],
-                  "conclusion": "By providing clear, measurable targets, sustainability KPIs drive performance, enhance transparency, and support strategic objectives.",
-                  "otherPossibleAnswers": "Motivation: Clear targets can motivate employees and suppliers to achieve or surpass specified performance levels, especially when linked to incentives. Defines Shared Goals: Clearly defined goals facilitate cross-functional and cross-organisational teamwork towards common sustainability objectives.",
-                  "reference": "Unit 5, Session 5, 5.5 - Advantages and disadvantages of using sustainability KPIS"
+                  "conclusion": "While SWOT analysis is a useful tool for strategic planning, procurement firms must be aware of its limitations and ensure it is used as a guide for more detailed analysis.",
+                  "otherPossibleAnswers": "Advantage (additional): Helps managements start a discussion for the future by moving beyond daily problems. Disadvantage (additional): May not be fully valid in today's world based on rapid change and competition, as it was developed in more stable periods.",
+                  "reference": "Unit 2, Session 2, 2.4 - Advantages of SWOT analysis and 2.5 - Disadvantages and limitations of SWOT analysis"
                 }
               }
             ]
@@ -434,92 +402,62 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Examine four drivers of globalisation in supply chains using an environmental analysis tool of your choice.",
-                "marks": 8,
-                "commandWord": "Examine",
+                "question": "Explain four challenges in international procurement.",
+                "marks": 10,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Globalisation in supply chains is driven by interconnected factors that can be examined using a PESTLE analysis (Political, Economic, Social, Technological, Legal, Environmental).",
+                  "introduction": "International procurement, while beneficial, presents several challenges due to variations in language, culture, and legal heritage across borders.",
                   "mainPoints": [
                     {
-                      "heading": "Political Driver (Trade Liberalisation)",
-                      "detail": "The lowering of trade barriers (tariffs and quotas) through political agreements and policies, such as those within the European Union, encourages the freer cross-border movement of goods and services."
+                      "heading": "Different Technical or Industrial Standards",
+                      "detail": "Suppliers may use standards that do not meet the home country's requirements, leading to quality or compliance issues."
                     },
                     {
-                      "heading": "Economic Driver (Cost Differences)",
-                      "detail": "Significant differences in the costs of labour, land, and capital between countries drive companies to outsource and invest globally to reduce production costs and remain competitive."
+                      "heading": "Import/Export Restrictions",
+                      "detail": "Tariffs, quotas, and complicated documentation requirements for cross-border processes can increase costs and delays."
                     },
                     {
-                      "heading": "Technological Driver (Rapid Change in Technology)",
-                      "detail": "Advancements in information technology (e.g., the internet, video conferencing) and transportation (e.g., efficient air freight) have drastically reduced communication and logistics costs, enabling complex global networks."
+                      "heading": "Currency Exchange Fluctuation",
+                      "detail": "Unstable economic or political climates can cause currency fluctuations, affecting the final cost of goods and creating financial risk."
                     },
                     {
-                      "heading": "Social Driver (Converging Consumer Tastes)",
-                      "detail": "The spread of information and cultural exchange through media has led to more homogenised global consumer tastes, creating larger markets for standardised products and enabling economies of scale."
+                      "heading": "Language Differences",
+                      "detail": "Language barriers can complicate complex technical discussions, contract negotiations, and cause communication delays, affecting the bottom line."
                     }
                   ],
-                  "conclusion": "The interplay of political, economic, technological, and social factors, as highlighted by a PESTLE analysis, has created a powerful force driving the expansion and complexity of global supply chains.",
-                  "otherPossibleAnswers": "Legal Driver: The spread of international trade and investment laws that provide a more stable and predictable framework for cross-border business. Environmental Driver: While complex, global awareness of shared environmental challenges can lead to international environmental standards and agreements that shape global supply chain practices.",
-                  "reference": "Unit 1, Session 6, 6.3 - Drivers of Globalization"
+                  "conclusion": "Successfully navigating international procurement requires careful planning to overcome challenges related to standards, regulations, finance, and communication.",
+                  "otherPossibleAnswers": "Varying Legal Systems: Differences in legal regimes can lead to contracts being ambiguous, unenforceable, or disputed. Increased Transit and Logistics Risk: Long-distance supply lines increase the risk of goods being lost, damaged, or deteriorated.",
+                  "reference": "Unit 5, Session 3, 3.3 - Challenges to International Procurement; Unit 1, Session 4, 4.4 - Financial crisis and supply chain vulnerability in the international business environment"
                 }
               },
               {
                 "label": "B",
-                "question": "State four benefits of sustainable procurement.",
-                "marks": 6,
-                "commandWord": "State",
+                "question": "Discuss four importance of insurance to a procurement firm.",
+                "marks": 10,
+                "commandWord": "Discuss",
                 "answer": {
-                  "introduction": "Sustainable procurement offers a range of benefits that contribute to an organisation's efficiency, resilience, and reputation.",
+                  "introduction": "Insurance is a form of risk management tool used to hedge against the risk of an uncertain loss by transferring the risk to an insurer.",
                   "mainPoints": [
                     {
-                      "heading": "Minimise business risk",
-                      "detail": "It helps identify and manage supply chain risks related to ethics, environment, and security of supply."
+                      "heading": "Keeps Commerce Moving",
+                      "detail": "Insurance can support the life of a business after unforeseen events, safeguarding its operations and ensuring continuity."
                     },
                     {
-                      "heading": "Provide cost savings",
-                      "detail": "By focusing on whole-life costing and resource efficiency, it can lead to long-term savings through reduced use, reuse, and recycling."
+                      "heading": "Grants Peace of Mind",
+                      "detail": "Business owners can embark on ventures knowing they can shift the risk, allowing them to take calculated risks."
                     },
                     {
-                      "heading": "Enhance corporate image",
-                      "detail": "It demonstrates the organisation's value and commitment to responsibility, building trust with customers and stakeholders."
+                      "heading": "Ensures Business Stability",
+                      "detail": "It provides financial support and reduces uncertainties, helping to ensure the firm remains stable despite sudden losses."
                     },
                     {
-                      "heading": "Secure the supply of goods and services",
-                      "detail": "It helps ensure long-term availability of resources by proactively managing environmental and social issues that could disrupt supply."
+                      "heading": "Spreading of Risk",
+                      "detail": "Insurance facilitates the spreading of risk from the insured to the insurer, where a large pool of premiums compensates for the losses of a few."
                     }
                   ],
-                  "conclusion": "These benefits show that sustainable procurement is not just an ethical choice but a strategic one that improves business performance and resilience.",
-                  "otherPossibleAnswers": "Create markets for new products and services: It can drive innovation and create demand for new, more sustainable technologies and products. Reduce waste and improve resource efficiency: It encourages practices that minimise waste and make more efficient use of materials.",
-                  "reference": "Unit 1, Session 4, 4.4 - Benefits of Sustainable Procurement"
-                }
-              },
-              {
-                "label": "C",
-                "question": "Explain the risk management cycle using relevant examples.",
-                "marks": 6,
-                "commandWord": "Explain",
-                "answer": {
-                  "introduction": "The risk management cycle is a systematic process for identifying, assessing, and controlling threats to an organisation's capital and earnings.",
-                  "mainPoints": [
-                    {
-                      "heading": "Risk Identification",
-                      "detail": "The first step is to find potential problems. Example: A clothing retailer mapping its supply chain to identify all its Tier 1, 2, and 3 suppliers and the countries they operate in to pinpoint areas with poor labour records."
-                    },
-                    {
-                      "heading": "Risk Assessment/Evaluation",
-                      "detail": "Once identified, risks are analysed to understand their probability and potential impact. Example: The retailer assesses the probability of a supplier using child labour as high in a particular region and determines the potential impact as severe reputational damage and financial loss."
-                    },
-                    {
-                      "heading": "Risk Mitigation (The 4 Ts)",
-                      "detail": "Strategies are developed to manage the risk, such as Tolerating, Transferring, Terminating, or Treating it. Example: The retailer decides to Treat the risk by developing a supplier code of conduct and conducting regular audits (Treat), while also transferring some financial risk through insurance (Transfer)."
-                    },
-                    {
-                      "heading": "Monitoring, Reporting and Review",
-                      "detail": "The risk situation is continuously monitored, and the plan is reviewed and updated. Example: The retailer establishes a system for ongoing supplier monitoring, reviews audit reports quarterly, and updates its risk assessment if new issues are found in a region."
-                    }
-                  ],
-                  "conclusion": "The risk management cycle is a continuous, iterative loop that helps organisations proactively manage uncertainty and build a more resilient and sustainable supply chain.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 3, Session 5, 3.6 - Risk Management Cycle; Unit 6, Session 2, 2.4 - Managing Risk"
+                  "conclusion": "Insurance is crucial for a procurement firm as it provides financial protection, stability, and confidence to engage in business activities.",
+                  "otherPossibleAnswers": "Provides Safety and Security: It provides a cover against any sudden loss, reducing the fear and uncertainty associated with business operations.",
+                  "reference": "Unit 5, Session 5, 5.3 - Importance of insurance"
                 }
               }
             ]
@@ -530,96 +468,66 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Analyse three potential advantages and disadvantages each of the use of sustainability standards within the sourcing process.",
-                "marks": 8,
-                "commandWord": "Analyse",
+                "question": "Discuss four steps in developing capacity for recovery in supply chain.",
+                "marks": 10,
+                "commandWord": "Discuss",
                 "answer": {
-                  "introduction": "Using established sustainability standards in sourcing provides a clear framework for compliance but also introduces specific challenges for both buyers and suppliers.",
+                  "introduction": "Developing recovery capacity involves a systematic process to enable a supply chain to return to functionality after a disruption has occurred.",
                   "mainPoints": [
                     {
-                      "heading": "Advantage 1: Clear Specifications and Reduced Ambiguity",
-                      "detail": "Standards provide clear, unambiguous requirements, reducing the potential for errors, misunderstandings, and conflicts with suppliers about what is required."
+                      "heading": "Awareness of Risk",
+                      "detail": "Expose potential risks associated with a supply-chain disruption by surveying suppliers and educating the internal audience on identified exposures."
                     },
                     {
-                      "heading": "Advantage 2: Accurate Comparison of Bids",
-                      "detail": "Because all suppliers quote against the same specifications, the buyer can make accurate, like-for-like comparisons, ensuring a fair and objective evaluation process."
+                      "heading": "Prevention of Risk",
+                      "detail": "Fully identify potential risks, recognize their causes, estimate the probability of occurrence, treat the causes, and monitor the results."
                     },
                     {
-                      "heading": "Advantage 3: Wider Range of Potential Suppliers",
-                      "detail": "The use of widely recognised standards opens up the competition to a larger pool of suppliers who are already familiar with and certified to those standards, reducing reliance on niche providers."
+                      "heading": "Remediating Risks",
+                      "detail": "Develop a strategy to recover from identified threats, consider ways to shorten the duration of impact, allocate necessary resources, and enact the strategy when a disruption occurs."
                     },
                     {
-                      "heading": "Disadvantage 1: Potential to Disadvantage Small/Diverse Suppliers",
-                      "detail": "Strict, prescriptive standards (like requiring ISO 14001 certification) may be too costly or resource-intensive for small or developing-country suppliers to obtain, potentially excluding them from the process."
-                    },
-                    {
-                      "heading": "Disadvantage 2: Can Be Inflexible",
-                      "detail": "Standards may not allow for innovative or context-specific solutions that could be more sustainable than the standard prescribes, potentially stifling creativity."
-                    },
-                    {
-                      "heading": "Disadvantage 3: Focus on \"Inputs\" Not Always \"Outcomes\"",
-                      "detail": "A standard certifies a process or system, not necessarily the final outcome. A supplier with a certified management system might still have poor environmental or social performance in practice."
+                      "heading": "Knowledge Management",
+                      "detail": "Monitor external or internal changes to potential risks, perform post-event audits on disruptions, and ensure identified plans are sufficient for future reactions."
                     }
                   ],
-                  "conclusion": "While sustainability standards bring clarity and comparability to sourcing, they must be applied thoughtfully to avoid excluding innovative or smaller suppliers and ensure they lead to genuine performance improvements.",
+                  "conclusion": "These steps ensure an organization is not only prepared to respond to disruptions but can learn from them to improve future resilience.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 4, Session 2, 4.5 & 4.6 - The use of standards in specifications; Unit 4, Session 3, 4.3 - Responsible Purchasing Initiative; Unit 5, Session 2, 2.3 - Sustainable Process for Pre-Qualification"
+                  "reference": "Unit 6, Session 5, 5.3 - Steps in developing capacity for Recovery in Supply chain"
                 }
               },
               {
                 "label": "B",
-                "question": "Explain four factors that needs to be considered by firms during the requirement definition stage with regards to the Environmental aspect of sustainability.",
-                "marks": 6,
+                "question": "When identifying risks, several biases may come into play. Explain any five of these biases.",
+                "marks": 10,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "When defining requirements for a purchase, firms must consider the product's environmental impact across its entire life cycle, from design to disposal.",
+                  "introduction": "A bias is a systematic error or deviation from the truth that can lead to underestimation or overestimation of risks during the identification process.",
                   "mainPoints": [
                     {
-                      "heading": "Resource, Energy and Water Efficiency",
-                      "detail": "Consider the running costs and environmental footprint by specifying energy-efficient equipment (e.g., Energy Star rated) and products that minimise resource consumption during use."
+                      "heading": "Confirmation Bias",
+                      "detail": "Seeking out others who will confirm our own position or views, potentially failing to capture the full range of risks facing the organisation."
                     },
                     {
-                      "heading": "Maximum Durability, Repairability, and Recyclability",
-                      "detail": "Specify long-life products that are designed to be repaired, reused, or easily recycled at the end of their life, rather than single-use or disposable items."
+                      "heading": "Groupthink Bias",
+                      "detail": "Aligning opinions with a large group of peers or experts, often due to fear of being excluded, which can suppress dissenting views and lead to poor risk identification."
                     },
                     {
-                      "heading": "Minimum Packaging",
-                      "detail": "Requirements should call for the minimum amount of packaging necessary for protection, reducing waste that the firm will have to pay to dispose of later."
+                      "heading": "Availability Bias",
+                      "detail": "Flagging up risks that are at the forefront of one's mind, such as those in the news, while ignoring other potentially greater risks that are less prominent."
                     },
                     {
-                      "heading": "Use of Recycled or Non-Toxic Materials",
-                      "detail": "Where possible, specify products made from post-consumer recycled materials and those that avoid toxic chemicals, which reduces pollution and health risks for users."
+                      "heading": "Anchoring Bias",
+                      "detail": "Informing decisions based on the first piece of information received, which subconsciously anchors perception and prevents full consideration of other information."
+                    },
+                    {
+                      "heading": "Status Quo Bias",
+                      "detail": "A preference for things to stay the same, leading to a failure to question existing risks on the register simply because they are already there."
                     }
                   ],
-                  "conclusion": "By integrating these environmental criteria into the requirement definition, firms can significantly reduce the ecological footprint of their purchases and promote more sustainable production methods.",
-                  "otherPossibleAnswers": "Fit for Purpose: Ensure the product is suitable for all potential users, preventing waste from unsuitable purchases. Design for Disassembly: Specify products designed so materials (especially plastics and metals) can be easily separated for recycling at end-of-life.",
-                  "reference": "Unit 1, Session 5, 5.6.3 - Requirement definition (Table)"
-                }
-              },
-              {
-                "label": "C",
-                "question": "State three disadvantages of using sustainability Key Performance Indicators.",
-                "marks": 6,
-                "commandWord": "State",
-                "answer": {
-                  "introduction": "While useful, sustainability KPIs can have negative consequences if they are poorly designed or implemented.",
-                  "mainPoints": [
-                    {
-                      "heading": "Dysfunctional Behaviour",
-                      "detail": "The pursuit of a specific KPI can lead to dysfunctional or sub-optimal behaviour, such as cutting corners on quality or service to hit an efficiency target."
-                    },
-                    {
-                      "heading": "Sub-Optimisation",
-                      "detail": "Achieving one KPI might come at the expense of another important business area. For example, cost reduction KPIs could be met by sourcing from low-cost suppliers, which might damage quality or sustainability objectives."
-                    },
-                    {
-                      "heading": "Limited Focus",
-                      "detail": "To be effective, KPIs must be limited in number and focused only on critical success factors. This can mean they ignore other equally important areas of performance, creating a narrow view."
-                    }
-                  ],
-                  "conclusion": "To be effective, sustainability KPIs must be carefully designed, balanced, and monitored to prevent unintended negative consequences and ensure they support, rather than undermine, overall business goals.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 5, 5.6 - Conversely, it is worth nothing that KPIS can have some disadvantages as well."
+                  "conclusion": "Recognising these biases is crucial for ensuring that risk identification is comprehensive and objective, leading to better-informed decisions.",
+                  "otherPossibleAnswers": "Hindsight Bias: The feeling after an event that it was avoidable all along, which can create a blame culture and lead to unnecessary process changes.",
+                  "reference": "Unit 2, Session 6, 6.2 - Biases and risk management decisions"
                 }
               }
             ]

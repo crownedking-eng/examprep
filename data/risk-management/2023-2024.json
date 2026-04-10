@@ -1,6 +1,6 @@
 {
-  "subject": "Sustainable Procurement",
-  "subjectCode": "PCM 401D",
+  "subject": "Risk Management",
+  "subjectCode": "PCM 403D",
   "academicYear": "2023/2024",
   "semesters": [
     {
@@ -8,255 +8,263 @@
       "sectionA": [
         {
           "type": "single",
-          "question": "What is the best means of dealing with environmental problems?",
+          "question": "The relocation of business processes to a low cost destination, usually overseas is called ______.",
           "options": [
-            "A. Avoid waste management practices",
-            "B. Do everything possible to fix them",
-            "C. Pretend they do not exist",
-            "D. Produce more nonbiodegradable product"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Environmental management deals with trying to prevent ecological disaster as well as aiding in environmental crises and trying to find appropriate solutions. Doing everything possible to fix them is the logical best means.",
-          "reference": "Unit 2, Session 6, 6.2.1 - Definitions Environmental management"
-        },
-        {
-          "type": "single",
-          "question": "All the following are risk management strategies except ______.",
-          "options": [
-            "A. tackle",
-            "B. terminate",
-            "C. tolerate",
-            "D. transfer"
-          ],
-          "correctAnswer": "A",
-          "explanation": "The 4Ts of risk management are Tolerate, Transfer, Terminate, and Treat. 'Tackle' is not one of the four standard strategies.",
-          "reference": "Unit 3, Session 5, 3.6.2 - Risk Mitigation"
-        },
-        {
-          "type": "single",
-          "question": "______ the risk if there is no viable way to reduce the risk, no further action may, for the moment be required, or justified.",
-          "options": [
-            "A. Terminate",
-            "B. Tolerate",
-            "C. Transfer",
-            "D. Treat"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The Tolerate (or accept) strategy is used when there is no viable way to reduce the risk, and no further action may be required or justified for the moment. The risk is simply acknowledged and registered.",
-          "reference": "Unit 3, Session 5, 3.6.2 - Risk Mitigation"
-        },
-        {
-          "type": "single",
-          "question": "One of the following is the fifth step in the risk management cycle?",
-          "options": [
-            "A. Formulate risk management strategies",
-            "B. Identify sources of risk",
-            "C. Implement risk management",
-            "D. Monitor, report and adjust"
+            "A. Stakeholders",
+            "B. Project",
+            "C. Outsourcing",
+            "D. Offshoring"
           ],
           "correctAnswer": "D",
-          "explanation": "The risk management cycle steps are: 1. Identify sources of risk, 2. Assess probability/impact, 3. Formulate strategies, 4. Implement risk management, and 5. Monitor, report, and adjust.",
-          "reference": "Unit 6, Session 2, 2.4.2 & 2.4.3"
+          "explanation": "The term \"offshoring\" refers specifically to the relocation of business processes to a lower cost location, usually overseas.",
+          "reference": "Unit 4, Session 3, 3.3 - Offshoring"
         },
         {
           "type": "single",
-          "question": "The primary driver for many ecological and some societal threats is referred to as ______.",
+          "question": "The risk that a customer will be unwilling or unable to pay amounts it owes to a supplying organisation, disrupting the supplier's planned cashflow is called ______.",
           "options": [
-            "A. Carbon dioxide emissions",
-            "B. Human population growth",
-            "C. Out-of-control politicians",
-            "D. None of the above"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The text implies that increasing populations are a root cause of many problems, stating that because our birth rates are still too high, more people are producing more pollution.",
-          "reference": "Unit 1, Session 1, 1.1 - Meaning of Sustainability"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following refers to building human capability and skills for sustainable high-level organisational performance and for community and societal well-being?",
-          "options": [
-            "A. Ecological Sustainability",
-            "B. Human Sustainability",
-            "C. Sustainability Redesign",
-            "D. Sustainable Economic Development"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The text defines human sustainability as referring to building human capability and skills for sustainable high-level organisational performance and for community and societal well-being.",
-          "reference": "Unit 1, Session 1, 1.2.1 - Defining Sustainability"
-        },
-        {
-          "type": "single",
-          "question": "The following are dimensions of the categories of sustainability measures, except ______.",
-          "options": [
-            "A. achieving a flexible framework",
-            "B. emission of carbon dioxide",
-            "C. reduction in waste sent to landfill.",
-            "D. staff trained in sustainable procurement."
-          ],
-          "correctAnswer": "A",
-          "explanation": "The BSI suggests measures are categorised as Management (staff trained), Operational (waste reduction), and Environmental Condition (CO2 emissions). 'Achieving a flexible framework' is not a listed dimension.",
-          "reference": "Unit 5, Session 5, 5.2 - Types of performance measure for sustainability"
-        },
-        {
-          "type": "single",
-          "question": "A factory that allows its waste to flow into a nearby body of water to avoid the short-term costs of proper disposal can cause expensive and significant long-term environmental damage is a good example of sustainable practise.",
-          "options": [
-            "A. True",
-            "B. False"
-          ],
-          "correctAnswer": "B",
-          "explanation": "This is an example of unsustainable practice. It prioritises short-term profit over long-term environmental health, which contradicts the principles of sustainability.",
-          "reference": "Unit 1, Session 1, 1.4 - Challenges Around Sustainability"
-        },
-        {
-          "type": "single",
-          "question": "Ensuring that the goal of every activity contributes towards the overall objectives of the business is referred to as ______.",
-          "options": [
-            "A. Forward alignment",
-            "B. Horizontal alignment",
-            "C. Integral alignment",
-            "D. Vertical alignment"
+            "A. Investment risk",
+            "B. Currency and exchange risk",
+            "C. Prudent",
+            "D. Credit risk"
           ],
           "correctAnswer": "D",
-          "explanation": "Vertical alignment ensures that the goals and plans of every activity at different levels contribute towards the overall objectives of the business.",
-          "reference": "Unit 3, Session 4, 3.4 - Value and Strategy Alignment"
+          "explanation": "Credit risk is the risk that a customer will be unwilling or unable to pay amounts that it owes to a supplying organisation, disrupting the creditor's planned cash flow.",
+          "reference": "Unit 4, Session 1, 1.2.2 - Credit Risks"
         },
         {
           "type": "single",
-          "question": "Which of the following ensures that the plans of every unit in an organisation are co-ordinated with those of other units, so that they work effectively together?",
+          "question": "The intellectual property protection which is concerned with a formula, process, device, or other business information that companies keep private to give them a business advantage over their competitors is called ______.",
           "options": [
-            "A. Forward alignment",
-            "B. Horizontal alignment",
-            "C. Integral alignment",
-            "D. Vertical alignment"
+            "A. Patent",
+            "B. Trademark",
+            "C. Trade secrets",
+            "D. Copyrights"
           ],
-          "correctAnswer": "B",
-          "explanation": "Horizontal alignment ensures that the plans of every unit in an organisation are co-ordinated with those of other units, so that they work effectively together.",
-          "reference": "Unit 3, Session 4, 3.4 - Value and Strategy Alignment"
+          "correctAnswer": "C",
+          "explanation": "A trade secret is a formula, process, device, or other business information that companies keep private to give them a business advantage over their competitors.",
+          "reference": "Unit 5, Session 3, 3.4 - Intellectual Property Protection"
         },
         {
           "type": "single",
-          "question": "Improved supplier relations, resulting in collaborative efficiencies and improvements helps to reduce cost throughout the supply chain.",
+          "question": "The type of insurance for minimizing risks in supply chain management to cover exposure which may arise out of a defect in a product sold, distributed, manufactured or made available to the public is known as ______ insurance.",
           "options": [
-            "A. True",
-            "B. False"
+            "A. Liability",
+            "B. Professional Liability",
+            "C. Products Liability",
+            "D. Business interruption"
           ],
-          "correctAnswer": "A",
-          "explanation": "The text states that cost barriers can be overcome through, among other things, Improved supplier relations, resulting in collaborative efficiencies and improvements.",
-          "reference": "Unit 3, Session 4, 3.6 - Cost Barriers Can be Overcome"
+          "correctAnswer": "C",
+          "explanation": "Products Liability Coverage is designed to cover exposure that may arise out of a defect in a product sold, distributed, manufactured or made available to the public.",
+          "reference": "Unit 5, Session 5, 5.1 - Types of Insurance"
         },
         {
           "type": "single",
-          "question": "All the following are reasons why managers would resist responsible procurement except if it ______.",
+          "question": "Which of the following is not among the four strategies for enterprise resilience?",
           "options": [
-            "A. is perceived as a public relation exercise",
-            "B. is perceived as being soft or subjective, without a sound business case to justify effort and investment",
-            "C. threatens the status quo, established norms and procedures and established competencies and relationships.",
-            "D. None of the above"
+            "A. Steer and adjust",
+            "B. Sense and respond",
+            "C. Adapt and transform",
+            "D. Organise and coordinate"
           ],
           "correctAnswer": "D",
-          "explanation": "Options A, B, and C are all listed as reasons for resistance. Therefore, 'None of the above' is the correct choice as it is not an exception.",
-          "reference": "Unit 3, Session 4, 3.1 - Reasons for Resisting Responsible Procurement"
+          "explanation": "The four strategies for enterprise resilience are Steer and adjust, Sense and respond, Adapt and transform, and Survive and flourish. \"Organise and coordinate\" is not one of them.",
+          "reference": "Unit 6, Session 4, 4.2 - Strategies for Enterprise Resilience"
         },
         {
           "type": "single",
-          "question": "Which of the following powers may be exercised by an organisation by virtue of formal delegated authority, by law, contract terms and agreed standards?",
+          "question": "Which of the following is the third step in formulating contingency planning?",
           "options": [
-            "A. Expert",
-            "B. Legitimate",
-            "C. Referent",
-            "D. Reward"
+            "A. Analysing hazard and risk",
+            "B. Define and evaluate possible solutions for the risks identified",
+            "C. Identifies and documents selected contingency response gathered from existing trends",
+            "D. Document what or who will trigger activation of plan"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The steps are: 1. Analysing hazard and risk, 2. Define and evaluate possible solutions, 3. Identifies and documents selected contingency response, 4. Document what or who will trigger activation.",
+          "reference": "Unit 6, Session 1, 1.3 - Formulating Contingency Plans"
+        },
+        {
+          "type": "single",
+          "question": "Numerous surveys, together with anecdotal evidence, suggest that outsourcing projects often fail to deliver the expected benefits. Which of the following is not one of the reasons why an outsourcing fails? The ______.",
+          "options": [
+            "A. organisation is able to distinguish correctly between core and non-core activities.",
+            "B. organisation fails to identify and select a suitable supplier trading to poor performance of outsourced activity, or in the worst cases to supplier failure.",
+            "C. outsourcing contract contains inadequate or inappropriate terms and conditions.",
+            "D. contract does not contain well defined key performance indicators or service levels, which means that it is difficult to establish where things are going wrong."
+          ],
+          "correctAnswer": "A",
+          "explanation": "Failure to distinguish correctly between core and non-core activities is a reason for failure. Being able to distinguish correctly would help prevent failure.",
+          "reference": "Unit 4, Session 3, 3.1 - Outsourcing Risks"
+        },
+        {
+          "type": "single",
+          "question": "Which of the components of business continuity plan deals with roles and responsibilities, awareness and education?",
+          "options": [
+            "A. Program",
+            "B. Processes",
+            "C. Premises",
+            "D. People"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The 'People' component of a business continuity plan includes roles and responsibilities, awareness, and education.",
+          "reference": "Unit 6, Session 2, 2.4 - Components of business continuity plan"
+        },
+        {
+          "type": "single",
+          "question": "Financial risks resulting from macro-economic factors, such as: business cycles, fluctuating commodities prices; availability and costs of finance and fluctuating exchange rates is termed as ______ risks.",
+          "options": [
+            "A. External",
+            "B. Internal",
+            "C. Exchange",
+            "D. Currency"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Financial risks may be external, resulting from macro-economic factors such as business cycles, fluctuating commodities prices, and fluctuating exchange rates.",
+          "reference": "Unit 4, Session 5, 5.1 - Internal and External financial risks"
+        },
+        {
+          "type": "single",
+          "question": "The type of fraud where competitors gain unethical access to data or competitors by bribing customers or staff is called ______ fraud.",
+          "options": [
+            "A. Minor",
+            "B. Corporate identity",
+            "C. Telephone",
+            "D. Competitor"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Competitor fraud involves competitors gaining unethical access to data or competitive intelligence, for example, by bribing customers or staff.",
+          "reference": "Unit 4, Session 2, 2.1.2 - Types of fraud"
+        },
+        {
+          "type": "single",
+          "question": "The diagram that is used for singling out risks that could directly influence desired outcomes is known as ______ diagram.",
+          "options": [
+            "A. influence",
+            "B. Ishikawa",
+            "C. process flow",
+            "D. product"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The Influence Diagram is great for singling out risks that could directly influence desired outcomes, with nodes for general variables, situations, and chance variables.",
+          "reference": "Unit 2, Session 1, 1.4 - Influence Diagrams"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an advantage of SWOT Analysis? SWOT Analysis ______.",
+          "options": [
+            "A. is an analysis technique that has a general perspective and presents general solutions",
+            "B. can help organizational managements to explore opportunities",
+            "C. fits other theories and strategic decision tools.",
+            "D. is a technique that provides specific solutions."
+          ],
+          "correctAnswer": "D",
+          "explanation": "SWOT Analysis has a general perspective and presents general solutions, not specific ones. This is actually listed as both an advantage and a disadvantage.",
+          "reference": "Unit 2, Session 2, 2.4 - Advantages of SWOT analysis and 2.5 - Disadvantages"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is the third stage in the vulnerability assessment stages?",
+          "options": [
+            "A. Listing or cataloguing the resources (assets and capabilities) in a given system",
+            "B. Assigning a quantifiable value, score or rank order of importance to those resources",
+            "C. Identifying the vulnerability or potential threats to each resource",
+            "D. Planning to mitigate or eliminate the most serious vulnerabilities for the most valuable resources"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The four stages are: 1. Listing resources, 2. Assigning value, 3. Identifying vulnerability or potential threats, 4. Planning to mitigate.",
+          "reference": "Unit 2, Session 3, 3.3 - Vulnerability assessment"
+        },
+        {
+          "type": "single",
+          "question": "The technique for coping with a series of decisions, each one having a variety of possible outcomes is called ______.",
+          "options": [
+            "A. Probability distribution",
+            "B. Decision Tree Analysis",
+            "C. Value at Risk",
+            "D. Extrapolation"
           ],
           "correctAnswer": "B",
-          "explanation": "Legitimate power is exercised by an organisation by virtue of formal delegated authority, and is also legitimised by law, contract terms, and agreed standards.",
-          "reference": "Unit 3, Session 3, 3.1 - Classification of Power"
+          "explanation": "Decision tree analysis is a technique for coping with a series of decisions, each having a variety of possible outcomes, by mapping combinations of decisions and outcomes.",
+          "reference": "Unit 2, Session 5, 5.3 - Decision Tree Analysis"
         },
         {
           "type": "single",
-          "question": "Power exercised through the aggressive use of competitive leverage by a dominant buyer or supplier is ______.",
+          "question": "Which of the following is not part of the several biases that may come into play when identifying risks? ______ bias.",
           "options": [
-            "A. Coercive",
-            "B. Legitimate",
-            "C. Referent",
-            "D. Reward"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Coercive power is defined as power exercised through the aggressive use of competitive leverage by a dominant buyer or supplier.",
-          "reference": "Unit 3, Session 3, 3.1 - Classification of Power"
-        },
-        {
-          "type": "single",
-          "question": "Resource power and coercive power are clearly open to abuse in power-imbalanced or structurally asymmetric supply chain relationships.",
-          "options": [
-            "A. True",
-            "B. False"
-          ],
-          "correctAnswer": "A",
-          "explanation": "The text explicitly states that resource power and coercive power are clearly open to abuse in power-imbalanced or structurally 'asymmetric' supply chain relationships.",
-          "reference": "Unit 3, Session 3, 3.2 - Irresponsible Use of Power"
-        },
-        {
-          "type": "single",
-          "question": "The buying power of large global purchasers gives them the ability to bargain hard with suppliers-and in the case of small, less powerful suppliers, to dictate and enforce prices and terms of trade to suit their own interests.",
-          "options": [
-            "A. True",
-            "B. False"
-          ],
-          "correctAnswer": "A",
-          "explanation": "This statement accurately reflects the reality of power imbalance, where large buyers can dictate terms to smaller, less powerful suppliers.",
-          "reference": "Unit 3, Session 3, 3.2 - Irresponsible Use of Power"
-        },
-        {
-          "type": "single",
-          "question": "Which of the following involves making decisions and taking action that are in the interests of protecting the natural world, with particular emphasis on preserving the capability of the environment to support human life.",
-          "options": [
-            "A. Ecological sustainability",
-            "B. Environmental sustainability",
-            "C. Natural resource sustainability",
-            "D. Sustainability promotion"
+            "A. Confirmation",
+            "B. Research",
+            "C. Groupthink",
+            "D. Availability"
           ],
           "correctAnswer": "B",
-          "explanation": "This is the definition of environmental sustainability: making decisions and taking action that are in the interests of protecting the natural world.",
-          "reference": "Unit 2, Session 5, 5.1 - Meaning of Environmental Sustainability"
+          "explanation": "The biases that may come into play include Confirmation bias, Groupthink bias, Availability bias, Anchoring bias, Status quo bias, and Hindsight bias. \"Research bias\" is not listed.",
+          "reference": "Unit 2, Session 6, 6.2 - Biases and risk management decisions"
         },
         {
           "type": "single",
-          "question": "According to the BS 8900 series, which of the following is not a part of its principles and values.",
+          "question": "Which of the following is not part of the framework component of the ISO standards?",
           "options": [
-            "A. Due diligence",
-            "B. Inclusivity",
-            "C. Integrity",
-            "D. Transparency"
+            "A. Monitoring and review",
+            "B. Continual improvement",
+            "C. Implementing risk management",
+            "D. Organizing and harmonization"
           ],
-          "correctAnswer": "A",
-          "explanation": "The BS 8900 series principles and values include inclusivity, integrity, and stewardship. Transparency is also a key principle. 'Due diligence' is not listed as a core principle.",
-          "reference": "Unit 1, Session 4, 4.2 - Sustainable Procurement Principles"
+          "correctAnswer": "D",
+          "explanation": "The framework component includes: Mandate and commitment, Design of framework, Implementing risk management, Monitoring and review, and Continual improvement.",
+          "reference": "Unit 1, Session 5, 5.3 - Risk management standard"
         },
         {
           "type": "single",
-          "question": "The use of efficient goods and services with regards to total cost considerations takes on which context of sustainability?",
+          "question": "The goals of risk assessment plan include all the following except ______.",
           "options": [
-            "A. Economic context",
-            "B. Environmental context",
-            "C. Social context",
-            "D. None of the above"
+            "A. providing an analysis of possible threats",
+            "B. preventing injuries or illnesses",
+            "C. meeting legal requirements",
+            "D. providing a clear objective for the task"
           ],
-          "correctAnswer": "A",
-          "explanation": "The economic context of sustainability encourages the use of more resource-efficient goods and services and the evaluation of cost performance over the lifetime of a contract (whole-life costing).",
-          "reference": "Unit 1, Session 4, 4.2 - 4. The Economic Context"
+          "correctAnswer": "D",
+          "explanation": "Goals include providing analysis of threats, preventing injuries, meeting legal requirements, creating hazard awareness, inventorying assets, justifying costs, determining budget, and understanding ROI.",
+          "reference": "Unit 2, Session 3, 3.2 - The goal of risk assessment"
         },
         {
           "type": "single",
-          "question": "All the following are drivers of sustainable procurement except ______.",
+          "question": "Which of the following is the second step of a vulnerability assessment?",
           "options": [
-            "A. cost savings and value",
-            "B. economic drivers",
-            "C. financial drivers",
-            "D. risk drivers"
+            "A. Listing or cataloguing the resources (assets and capabilities) in a given system",
+            "B. Assigning a quantifiable value, score or rank order of importance to those resources",
+            "C. Identifying the vulnerability or potential threats to each resource",
+            "D. Planning to mitigate or eliminate the most serious vulnerabilities for the most valuable resources"
           ],
           "correctAnswer": "B",
-          "explanation": "The text lists Financial, Marketing, Organizational Value, Risk, and Stakeholder Drivers. 'Economic drivers' is not one of the specifically named drivers in the provided list.",
-          "reference": "Unit 1, Session 4, 4.3.1 to 4.3.7"
+          "explanation": "The four stages are: 1. Listing resources, 2. Assigning a quantifiable value or rank order of importance, 3. Identifying vulnerability or threats, 4. Planning mitigation.",
+          "reference": "Unit 2, Session 3, 3.3 - Vulnerability assessment"
+        },
+        {
+          "type": "single",
+          "question": "The kind of risk bias which says that naturally, we are most likely to flag up risks that relate to what is at the forefront of our mind is known as ______ bias.",
+          "options": [
+            "A. Confirmation",
+            "B. Groupthink",
+            "C. Anchoring",
+            "D. Availability"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Availability bias means we are most likely to flag up risks that relate to what is at the forefront of our mind, such as one's workload or what's in the news.",
+          "reference": "Unit 2, Session 6, 6.2 - Biases and risk management decisions"
+        },
+        {
+          "type": "single",
+          "question": "The risk response strategy for positive risks, or opportunities which increases the probability or the positive impacts of an opportunity is called ______.",
+          "options": [
+            "A. Exploit",
+            "B. Enhance",
+            "C. Share",
+            "D. Acceptance"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Enhance is a risk response strategy for positive risks that increases the probability or the positive impacts of an opportunity.",
+          "reference": "Unit 3, Session 1, 1.4 - Types of Risk Responses"
         }
       ],
       "sectionB": {
@@ -268,70 +276,70 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Explain any five benefits of sustainable procurement.",
-                "marks": 10,
-                "commandWord": "Explain",
+                "question": "Discuss the steps of risk management process.",
+                "marks": 12,
+                "commandWord": "Discuss",
                 "answer": {
-                  "introduction": "Sustainable procurement provides significant benefits that enhance an organisation's resilience, efficiency, and reputation.",
+                  "introduction": "The risk management process consists of several key steps to identify, assess, and control threats to an organization.",
                   "mainPoints": [
                     {
-                      "heading": "Minimise business risk",
-                      "detail": "It helps identify and manage risks in the supply chain related to security of supply, price volatility, and unethical practices that could damage reputation or lead to financial liabilities."
+                      "heading": "Identify the Risk",
+                      "detail": "This foundational step requires knowledge of the organization, its market, and environment to identify potential risks. Failure here may cause major loss."
                     },
                     {
-                      "heading": "Provide cost savings",
-                      "detail": "By focusing on whole-life costing and resource efficiency, it encourages reduced use, reuse, and recycling, ultimately reducing waste and long-term operational costs."
+                      "heading": "Assess and Analyze",
+                      "detail": "Determine the likelihood and consequence of each risk to evaluate exposure and estimate potential damage."
                     },
                     {
-                      "heading": "Enhance corporate image in the marketplace",
-                      "detail": "Demonstrating a commitment to sustainable purchasing builds trust with customers, investors, and the community, differentiating the organisation from its competitors."
+                      "heading": "Evaluate and Formulate Strategies",
+                      "detail": "Management must formulate risk mitigation strategies, often the 4T's (Tolerate, Transfer, Terminate, Treat), to minimize negative outcomes."
                     },
                     {
-                      "heading": "Create markets for new products and services",
-                      "detail": "Sustainable procurement can drive innovation by creating demand for new, greener technologies and products, which can initially command a premium price."
+                      "heading": "Assign an Owner to the Risk",
+                      "detail": "A person must be responsible for overseeing each identified risk and leading the work to resolve it."
                     },
                     {
-                      "heading": "Secure the supply of goods and services",
-                      "detail": "By proactively addressing environmental and social issues, it helps ensure the long-term availability of resources and compliance with legislation, preventing disruptions."
+                      "heading": "Implementation",
+                      "detail": "Follow all planned methods for mitigating the effect of the risks, such as purchasing insurance or applying controls."
+                    },
+                    {
+                      "heading": "Monitor and Review",
+                      "detail": "Use the Project Risk Register to monitor, track, and review risks on an ongoing basis to identify changes or new threats."
                     }
                   ],
-                  "conclusion": "These benefits show that sustainable procurement is a strategic approach that contributes to risk management, cost efficiency, brand strength, and market development.",
-                  "otherPossibleAnswers": "Reduce waste and improve resource efficiency.",
-                  "reference": "Unit 1, Session 4, 4.4 - Benefits of Sustainable Procurement"
+                  "conclusion": "Following these steps helps an organization proactively prepare for and minimize the impact of unexpected events.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.2 - Risk management processes"
                 }
               },
               {
                 "label": "B",
-                "question": "Outline any five advantages of sustainable supply chain management.",
-                "marks": 10,
-                "commandWord": "Outline",
+                "question": "The Cranfield School of Management has four variables that foster success in supply chain vulnerability management, continuity management and resilience. Discuss these four factors.",
+                "marks": 8,
+                "commandWord": "Discuss",
                 "answer": {
-                  "introduction": "Sustainable supply chain management provides significant strategic and operational advantages to organisations.",
+                  "introduction": "The Cranfield School of Management identifies specific variables that foster success in supply chain vulnerability management, continuity management, and resilience.",
                   "mainPoints": [
                     {
-                      "heading": "Minimizing and avoiding risk",
-                      "detail": "It helps identify and mitigate operational, financial, and reputational risks associated with environmental and social issues."
+                      "heading": "Risk Awareness Among Top Management",
+                      "detail": "Leadership must be aware of and prioritize risk management for it to be effective throughout the organization."
                     },
                     {
-                      "heading": "Designing efficient business processes",
-                      "detail": "The focus on sustainability encourages the redesign of processes for efficiency and can drive innovation in products and services."
+                      "heading": "Risk Awareness as an Integrated Part of Supply Chain Management",
+                      "detail": "Risk should be embedded in all supply chain processes, not treated as a separate or occasional activity."
                     },
                     {
-                      "heading": "Strengthening transparency",
-                      "detail": "It promotes greater visibility in the supply chain, helping firms meet the increasing demands of stakeholders for ethical and environmental accountability."
+                      "heading": "An Understanding by Each Employee of His or Her Role in Risk Awareness",
+                      "detail": "Every employee should know their personal responsibility in identifying and managing risk."
                     },
                     {
-                      "heading": "Improve corporate image",
-                      "detail": "A commitment to sustainability enhances brand value and builds trust with customers, investors, and the public."
-                    },
-                    {
-                      "heading": "Reduces packaging",
-                      "detail": "It encourages the reduction of waste at the source by designing packaging that can be easily reused or recycled."
+                      "heading": "An Understanding That Changes in Business Strategies Change Supply Chain Risk Profiles",
+                      "detail": "The organization must recognize that risk awareness must be constantly updated as strategies evolve."
                     }
                   ],
-                  "conclusion": "These advantages demonstrate that sustainable supply chain management is a key driver of long-term value, resilience, and competitive differentiation.",
-                  "otherPossibleAnswers": "Creating values collectively; Grants for local environmental projects.",
-                  "reference": "Unit 1, Session 6, 6.8 - Advantages of Sustainable Supply Chain Management"
+                  "conclusion": "These variables ensure that risk awareness is deeply embedded throughout the organization's culture and operations, from top management to every employee.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 6, 6.2 - Key variables that foster success in supply chain vulnerability management, continuity management and resilience"
                 }
               }
             ]
@@ -342,154 +350,132 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "State five mechanisms for managing conflicting priorities within the organization.",
+                "question": "Discuss three advantages and two disadvantages of SWOT analysis.",
                 "marks": 10,
-                "commandWord": "State",
+                "commandWord": "Discuss",
                 "answer": {
-                  "introduction": "Managing conflicting priorities is crucial for ensuring that sustainability goals are not undermined by competing pressures from other functions.",
+                  "introduction": "SWOT Analysis is a strategic planning tool used to evaluate an organization's Strengths, Weaknesses, Opportunities, and Threats.",
                   "mainPoints": [
                     {
-                      "heading": "Reinforcing sustainability values",
-                      "detail": "Secure cross-functional stakeholder 'buy-in' by consistently communicating the importance of sustainability."
+                      "heading": "Advantage 1: General to Specific Road Map",
+                      "detail": "It has a general perspective and serves as a road map that guides the firm from general strategic thinking to specific issues."
                     },
                     {
-                      "heading": "Emphasising benefits and risks",
-                      "detail": "For each stakeholder group, highlight the benefits of sustainability and the risks of non-sustainability."
+                      "heading": "Advantage 2: Uncover Opportunities and Manage Threats",
+                      "detail": "It helps management uncover opportunities to take advantage of and, by understanding weaknesses, manage and eliminate threats."
                     },
                     {
-                      "heading": "Incorporating goals in mission statements",
-                      "detail": "Embed sustainability into the organisation's core identity to ensure value and strategy alignment."
+                      "heading": "Advantage 3: Promotes Group Discussion",
+                      "detail": "It promotes group discussion about strategic issues and strategy development through participatory techniques like brainstorming."
                     },
                     {
-                      "heading": "Capture of learning from critical incidents",
-                      "detail": "Analyse problems or successes to identify and resolve root causes, preventing future conflicts."
+                      "heading": "Disadvantage 1: General Perspective",
+                      "detail": "It has a general perspective and presents general solutions, not focusing on specific, detailed issues."
                     },
                     {
-                      "heading": "Risk and vulnerability impact assessments",
-                      "detail": "Conduct assessments to understand and mitigate negative consequences that priority conflicts can have on supply chains."
+                      "heading": "Disadvantage 2: Quantity Over Quality",
+                      "detail": "Many factors can be identified, but quantity does not mean quality. It is difficult to determine priorities among the factors identified."
                     }
                   ],
-                  "conclusion": "These mechanisms help to align different parts of the organisation, ensuring sustainability becomes an integrated priority.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 3, Session 4, 3.3 - Key mechanisms for managing conflicting priorities"
+                  "conclusion": "While SWOT analysis is a useful guide, procurement firms must be aware of its limitations.",
+                  "otherPossibleAnswers": "Advantage (additional): Fits other strategic decision tools like Porter's Five Forces Model. Disadvantage (additional): Requires experience and training for systematic construction; otherwise, it can be poorly formulated.",
+                  "reference": "Unit 2, Session 2, 2.4 - Advantages of SWOT analysis and 2.5 - Disadvantages and limitations of SWOT analysis"
                 }
               },
               {
                 "label": "B",
-                "question": "Assess any five key drivers for Sustainability Risk Management.",
+                "question": "Discuss the four risk management mitigation strategies.",
                 "marks": 10,
-                "commandWord": "Assess",
+                "commandWord": "Discuss",
                 "answer": {
-                  "introduction": "Key drivers compel organisations to adopt a risk-based approach to sustainability, linking responsible practices to core business success.",
+                  "introduction": "The risk management mix, often referred to as the 4 T's, provides four strategies for dealing with identified risks.",
                   "mainPoints": [
                     {
-                      "heading": "Reputation and brand strength",
-                      "detail": "Sustainable performance fosters a strong corporate reputation, which accounts for a significant part of marketing value."
+                      "heading": "Tolerate (or Accept) the Risk",
+                      "detail": "No action is taken if the likelihood or impact is negligible, or there is no viable way to reduce it. The risk is acknowledged and monitored."
                     },
                     {
-                      "heading": "Competitive advantage and productivity",
-                      "detail": "Sustainability behavior is often motivated by innovation, providing a source of competitive edge."
+                      "heading": "Transfer (or Spread) the Risk",
+                      "detail": "Shifting the risk to a third party, for example by taking out insurance cover or using contract terms to ensure costs are borne by supply chain partners."
                     },
                     {
-                      "heading": "Improved shareholder value",
-                      "detail": "Managing sustainability risks can increase long-term profits and reduce the cost of capital as investors demand future-proofed strategies."
+                      "heading": "Terminate (or Avoid) the Risk",
+                      "detail": "Not engaging in the activity if the risk is too great and cannot be reduced, such as deciding not to outsource a core function."
                     },
                     {
-                      "heading": "Operational efficiency",
-                      "detail": "Addressing sustainability concerns reduces the risk of operational disruption from strikes, boycotts, or regulatory scrutiny."
-                    },
-                    {
-                      "heading": "Financial efficiency",
-                      "detail": "Managing risks leads to cost reduction through improved environmental and safety performance, resulting in fewer fines and accidents."
+                      "heading": "Treat (Mitigate, Minimize or Control) the Risk",
+                      "detail": "Taking active steps to manage the risk to reduce or minimize its impact, such as supplier monitoring and performance management."
                     }
                   ],
-                  "conclusion": "These drivers demonstrate that Sustainability Risk Management is about creating value, enhancing efficiency, and protecting the organisation's future.",
-                  "otherPossibleAnswers": "Improved human and intellectual capital.",
-                  "reference": "Unit 1, Session 2, 2.7 - Key drivers for Sustainability Risk Management"
+                  "conclusion": "These four strategies provide a comprehensive framework for organizations to respond to risks based on their nature and severity.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 1, 1.2 - Risk Management Mix-The Four T's"
                 }
               }
             ]
           },
           {
             "label": "Question 3",
-            "totalMarks": 18.5,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Explain the following terms: i. Sustainable procurement, ii. Sustainability",
-                "marks": 3,
-                "commandWord": "Explain",
+                "question": "State four project stakeholders and explain one role each.",
+                "marks": 10,
+                "commandWord": "State",
                 "answer": {
-                  "introduction": "These terms are foundational concepts in responsible business management.",
+                  "introduction": "Project stakeholders are individuals and groups in an organisation or supply chain who have an interest or 'stake' in the project.",
                   "mainPoints": [
                     {
-                      "heading": "Sustainable procurement",
-                      "detail": "The process whereby organisations meet their needs for goods and services in a way that achieves value for money on a whole-life basis, generating benefits for society and the economy while minimising environmental damage."
+                      "heading": "Project Owner",
+                      "detail": "The person or group for whom the project is being carried out, with a primary interest in the outcomes and deliverables of the project."
                     },
                     {
-                      "heading": "Sustainability",
-                      "detail": "A process focused on meeting the needs of the present without compromising the ability of future generations to meet their own needs."
+                      "heading": "Project Sponsor",
+                      "detail": "The person or group which provides and is accountable for resources invested in the project and responsible for achievement of objectives."
+                    },
+                    {
+                      "heading": "Project Champion",
+                      "detail": "Represents the project to the rest of the organisation, promoting its business case and securing buy-in and resources."
+                    },
+                    {
+                      "heading": "Project Manager",
+                      "detail": "The person responsible for planning, organising, coordinating and controlling the project, and managing the project team."
                     }
                   ],
-                  "conclusion": "Sustainability provides the overarching goal, while sustainable procurement is the operational tool to achieve it.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 1, 1.1; Unit 1, Session 4, 4.1"
+                  "conclusion": "Each stakeholder plays a distinct and vital role in ensuring the project's success through their specific responsibilities.",
+                  "otherPossibleAnswers": "Project board or steering committee: A body representing the interests of the owner and sponsor with responsibility for oversight. Project team members: The people responsible for carrying out the project work, reporting to the project manager.",
+                  "reference": "Unit 4, Session 4, 4.2 - Project stakeholders"
                 }
               },
               {
                 "label": "B",
-                "question": "Examine four hurdles of globalization?",
-                "marks": 8,
-                "commandWord": "Examine",
+                "question": "Discuss four critical success factors for projects.",
+                "marks": 10,
+                "commandWord": "Discuss",
                 "answer": {
-                  "introduction": "While globalisation drives economic integration, it also presents significant hurdles and problems.",
+                  "introduction": "Critical success factors are elements that are necessary for a project to achieve its mission and be successful.",
                   "mainPoints": [
                     {
-                      "heading": "Technological Barriers",
-                      "detail": "High R&D costs and the need to protect intellectual property can create monopolistic situations, hindering fair competition."
+                      "heading": "Clearly Defined Goals",
+                      "detail": "The overall philosophy or mission of the project must be clear, with commitment to those goals from the project team members."
                     },
                     {
-                      "heading": "Cultural Barriers",
-                      "detail": "Different cultures can lead to misunderstandings, communication problems, and unintended offenses in cross-cultural negotiations."
+                      "heading": "Competent Project Manager",
+                      "detail": "A project leader who has the necessary blend of interpersonal, technical and administrative skills to guide the project."
                     },
                     {
-                      "heading": "Ethical Barriers",
-                      "detail": "Large multinationals can gain monopolistic positions, creating an unequal playing field where smaller companies cannot compete."
+                      "heading": "Support of Top Management",
+                      "detail": "Commitment that must be communicated to the project team. For cross-company projects, there may be nominated senior owners."
                     },
                     {
-                      "heading": "Economic Barriers",
-                      "detail": "Globalisation can increase income inequality within countries and lead to greater macroeconomic instability in developing nations."
+                      "heading": "Competent Project Team Members",
+                      "detail": "The selection and training of project teams who have the right blend of skills to successfully complete the project."
                     }
                   ],
-                  "conclusion": "These hurdles highlight that the benefits of globalisation require careful management to ensure equitable outcomes.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 6, 6.4 - Hurdles of Globalization"
-                }
-              },
-              {
-                "label": "C",
-                "question": "Examine the three main drivers of globalization?",
-                "marks": 9,
-                "commandWord": "Examine",
-                "answer": {
-                  "introduction": "Globalisation is driven by political, economic, and technological factors that facilitate cross-border movement.",
-                  "mainPoints": [
-                    {
-                      "heading": "Trade Liberalisation",
-                      "detail": "Governments have reduced barriers to trade, such as tariffs and quotas, through policies like the formation of the EU."
-                    },
-                    {
-                      "heading": "Cost Differentials",
-                      "detail": "Variations in the cost of land and labour (e.g., manufacturing in China) create incentives for companies to outsource production."
-                    },
-                    {
-                      "heading": "Rapid Change in Technology",
-                      "detail": "Advancements in communication and transportation (e.g., internet, air freight) have reduced the friction of space and time."
-                    }
-                  ],
-                  "conclusion": "These three drivers have worked in tandem to create a highly interconnected global economy.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 6, 6.3 - Drivers of Globalization"
+                  "conclusion": "When these factors are present, a project has a significantly higher chance of meeting its objectives on time and within budget.",
+                  "otherPossibleAnswers": "Sufficient resource allocation: In the form of finance, personnel, logistics, available when required. Good communication channels: Between those involved on objectives, status, changes, with timely decision-making.",
+                  "reference": "Unit 4, Session 4, 4.4.2 - Critical success factors for projects"
                 }
               }
             ]
@@ -500,84 +486,66 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Enumerate four objectives of fair trade?",
-                "marks": 8,
-                "commandWord": "Enumerate",
+                "question": "Explain four contract terms in managing risk in procurement and supply chain.",
+                "marks": 10,
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "Fair Trade aims to create a more equitable trading system that empowers disadvantaged producers.",
+                  "introduction": "Contract terms are statements by the parties defining their rights and obligations, and they are crucial for managing contractual risk.",
                   "mainPoints": [
                     {
-                      "heading": "Promote opportunity for development",
-                      "detail": "Provide economic and social development opportunities for disadvantaged producers, especially women and native populations."
+                      "heading": "Express Terms",
+                      "detail": "Terms expressly inserted into a contract by either party, such as price, delivery dates, and how carriage and insurance costs will be shared."
                     },
                     {
-                      "heading": "Protect children from exploitation",
-                      "detail": "Ensuring that production processes do not involve the exploitation of children and that their rights are protected."
+                      "heading": "Implied Terms",
+                      "detail": "Terms automatically assumed to be part of a contract by virtue of statute, custom, or business, like goods being of satisfactory quality and fit for purpose."
                     },
                     {
-                      "heading": "Respect for human dignity",
-                      "detail": "Establishing production and commerce based on the respect of human dignity and safety for all workers."
+                      "heading": "Conditions",
+                      "detail": "Vital terms of the contract, the breach of which entitles the wronged party to cancel or repudiate the contract."
                     },
                     {
-                      "heading": "Fair working conditions",
-                      "detail": "Developing and sustaining fair wages and a safe work environment in disadvantaged countries."
+                      "heading": "Warranties",
+                      "detail": "Non-vital terms of the contract, the breach of which only entitles the wronged parties to damages, with the contract otherwise remaining in place."
                     }
                   ],
-                  "conclusion": "Fair Trade seeks to redress power imbalances and promote a more just form of international commerce.",
-                  "otherPossibleAnswers": "Promote sustainable resources; Protect small producers.",
-                  "reference": "Unit 2, Session 4, 4.3.2 - General Criteria of Fair Trade"
+                  "conclusion": "Understanding these different types of terms helps parties allocate risk and understand their legal remedies in case of failure.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.1 - Types of Contract Terms"
                 }
               },
               {
                 "label": "B",
-                "question": "With relevant examples, state and explain the 5-Rs in Environmental Sustainability?",
+                "question": "Explain any five components of business continuity plan.",
                 "marks": 10,
-                "commandWord": "State and explain",
+                "commandWord": "Explain",
                 "answer": {
-                  "introduction": "The 5-Rs provide a practical framework for individuals and organisations to minimise environmental impact.",
+                  "introduction": "A comprehensive business continuity plan includes the 'Seven Ps' to ensure all aspects of the business are covered.",
                   "mainPoints": [
                     {
-                      "heading": "Refuse",
-                      "detail": "Saying no to harmful or unnecessary items, such as refusing chemical-based cleaners for non-toxic alternatives."
+                      "heading": "People",
+                      "detail": "Roles and responsibilities, awareness and education of staff regarding the plan and their duties during a disruption."
                     },
                     {
-                      "heading": "Reduce",
-                      "detail": "Cutting back on consumption, such as a company printing double-sided to halve paper use."
+                      "heading": "Program",
+                      "detail": "Proactively managing the process of business continuity itself, including planning, testing, and updating the plan."
                     },
                     {
-                      "heading": "Reuse",
-                      "detail": "Repurposing products, like collecting and reusing shipping boxes for internal storage."
+                      "heading": "Processes",
+                      "detail": "All business processes, including supply and information management, that must be maintained or restored during a disruption."
                     },
                     {
-                      "heading": "Recycle",
-                      "detail": "Processing materials to make new products, such as separating plastic and glass waste."
+                      "heading": "Premises",
+                      "detail": "Buildings and facilities that are critical to operations and may need to be protected, relocated, or replaced during a disruption."
                     },
                     {
-                      "heading": "Rot",
-                      "detail": "Composting organic waste, like a restaurant using food scraps to create compost for a garden."
+                      "heading": "Providers",
+                      "detail": "The supply chain and outsource providers who are essential for delivering goods and services and whose continuity must also be ensured."
                     }
                   ],
-                  "conclusion": "Following the 5-Rs hierarchy systematically decreases waste and promotes a circular economy.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 5, 5.9 - The 5-Rs"
-                }
-              },
-              {
-                "label": "C",
-                "question": "Define the concept of Risk mitigation",
-                "marks": 2,
-                "commandWord": "Define",
-                "answer": {
-                  "introduction": "Risk mitigation is a critical step in the risk management process.",
-                  "mainPoints": [
-                    {
-                      "heading": "Definition",
-                      "detail": "The act of lessening the adverse impact of a risk event to a level where the residual risk is acceptable to the organisation."
-                    }
-                  ],
-                  "conclusion": "It involves taking proactive steps to manage or control the likelihood and potential impact of a risk.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 3, Session 5, 3.6.2 - Risk Mitigation"
+                  "conclusion": "These components ensure a holistic approach to business continuity, covering human, physical, and operational resources.",
+                  "otherPossibleAnswers": "Profile: Brand, image, and reputation that must be safeguarded during a disruption. Performance: Benchmarking, evaluation, and audit to ensure the plan remains effective.",
+                  "reference": "Unit 6, Session 2, 2.4 - Components of business continuity plan"
                 }
               }
             ]
