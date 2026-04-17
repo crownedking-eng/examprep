@@ -177,15 +177,15 @@
         },
         {
           "type": "single",
-          "question": "Personal methods of promoting small firms include the following except ______.",
+          "question": "Impersonal methods of promoting small firms include the following except ______.",
           "options": [
             "A. media advertisement",
             "B. trade show",
             "C. direct mail",
             "D. press release"
           ],
-          "correctAnswer": "A",
-          "explanation": "Media advertisement is an impersonal method. Personal methods include trade shows, direct selling, telephone selling, and retail selling.",
+          "correctAnswer": "B",
+          "explanation": "Trade shows and exhibitions are considered personal methods of promotion. Impersonal methods include media ads, direct mail, and press releases.",
           "reference": "Unit 5, Session 6, 6.2.1 & 6.2.2 - Personal and Impersonal methods of promotion"
         },
         {
