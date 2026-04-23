@@ -892,20 +892,20 @@
                 "marks": 3,
                 "commandWord": "What option and give reasons",
                 "answer": {
-                  "introduction": "The option of small business acquisition that transpired is a Buy-out.",
+                  "introduction": "The option of small business acquisition that transpired is a Buy-in Management Buy-out or BIMBO",
                   "mainPoints": [
                     {
-                      "heading": "Buy-out",
-                      "detail": "This refers to the purchase of a business, or a significant part of it, by its current management."
+                      "heading": "Buy-in Management Buy-out",
+                      "detail": "This combines outside and inside management purchase of a firm."
                     },
                     {
                       "heading": "Reason",
-                      "detail": "Mr. Poku combined resources with Mr. Prah, the General Manager of the company, to take over ownership from the existing owners. This involves current management (Mr. Prah) in the purchase."
+                      "detail": "Mr. Poku, who is an outside purchaser, combined resources with Mr. Prah, the General Manager of the company, to take over ownership from the existing owners. This involves current management (Mr. Prah) in the purchase."
                     }
                   ],
-                  "conclusion": "The involvement of the existing General Manager in the purchase makes this a management buy-out.",
+                  "conclusion": "The involvement of an outside buyer and an existing General Manager in the purchase a firm makes this a buy-in management buy-out or BIMBO.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 4, 4.1.3 - Buy-out"
+                  "reference": "Unit 2, Session 4, 4.1.4 - Buy-in Management Buy-out"
                 }
               },
               {
@@ -914,7 +914,7 @@
                 "marks": 2,
                 "commandWord": "Explain",
                 "answer": {
-                  "introduction": "One key advantage of a buy-out is the benefit of insider knowledge.",
+                  "introduction": "One key advantage of a buy-out Management buy-out is the benefit of insider knowledge of the existing owner of the business.",
                   "mainPoints": [
                     {
                       "heading": "Insider Knowledge",
