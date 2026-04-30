@@ -981,6 +981,120 @@ function showSearchOverlay() {
     });
 }
 
+
+// ─── MARKDOWN TABLE RENDERER ────────────────────────────────────────────────
+// Converts GitHub-flavoured markdown table syntax into a styled HTML table.
+// Handles multiple tables per string, and leaves non-table text untouched.
+// Falls back to the original text for any malformed table block.
+function renderMarkdownTables(text) {
+  if (!text || !text.includes("|")) return text;
+
+  // Split into lines, then group consecutive table lines into blocks
+  const lines  = text.split("\n");
+  const output = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    // A table line has at least one pipe that is not purely whitespace
+    const isTableLine = (l) => /\|/.test(l) && l.trim().length > 1;
+    // A separator line: only pipes, dashes, colons, spaces
+    const isSepLine   = (l) => /^\s*\|[\s\-:|]+\|\s*$/.test(l);
+
+    if (isTableLine(line)) {
+      // Collect contiguous table lines
+      const block = [];
+      while (i < lines.length && isTableLine(lines[i])) {
+        block.push(lines[i]);
+        i++;
+      }
+
+      // Need at least: header row + separator row + one data row
+      if (block.length < 3 || !isSepLine(block[1])) {
+        // Not a valid table — emit as-is
+        output.push(block.join("\n"));
+        continue;
+      }
+
+      // Parse cells from a row: split on |, trim, drop leading/trailing empties
+      const parseCells = (row) =>
+        row.split("|").map((c) => c.trim()).filter((_, idx, arr) => idx !== 0 || arr[0] !== "");
+
+      // Strip the first and last empty strings that come from leading/trailing |
+      function rowCells(row) {
+        const parts = row.split("|");
+        // Remove first element if empty (leading |) and last if empty (trailing |)
+        const trimmed = parts.slice(
+          parts[0].trim() === "" ? 1 : 0,
+          parts[parts.length - 1].trim() === "" ? -1 : undefined
+        );
+        return trimmed.map((c) => c.trim());
+      }
+
+      const headerCells = rowCells(block[0]);
+      // block[1] is the separator — skip it
+      const dataRows    = block.slice(2).map(rowCells);
+
+      // Safety: all rows should have same column count as header
+      const cols = headerCells.length;
+      if (cols === 0 || dataRows.some((r) => r.length === 0)) {
+        output.push(block.join("\n"));
+        continue;
+      }
+
+      // Detect numeric columns for right-alignment (all data cells parse as numbers)
+      const colIsNumeric = headerCells.map((_, ci) =>
+        dataRows.every((r) => r[ci] !== undefined && r[ci] !== "" && !isNaN(Number(r[ci])))
+      );
+
+      const thCells = headerCells.map((h, ci) =>
+        `<th style="text-align:${colIsNumeric[ci] ? "right" : "left"}">${h}</th>`
+      ).join("");
+
+      const tdRows = dataRows.map((row) => {
+        const cells = headerCells.map((_, ci) => {
+          const val = row[ci] ?? "";
+          return `<td style="text-align:${colIsNumeric[ci] ? "right" : "left"}">${val}</td>`;
+        }).join("");
+        return `<tr>${cells}</tr>`;
+      }).join("");
+
+      output.push(
+        `<div class="table-wrapper"><table class="q-table"><thead><tr>${thCells}</tr></thead><tbody>${tdRows}</tbody></table></div>`
+      );
+      continue;
+    }
+
+    // Non-table line — carry forward
+    output.push(line);
+    i++;
+  }
+
+  // Re-join lines, then convert remaining \n\n paragraph breaks to <p> breaks
+  return output.join("\n");
+}
+
+// Wraps question text in a fragment that renders markdown tables and preserves
+// paragraph breaks for the rest of the text.
+// Returns an HTML string — safe to set as innerHTML via template literals.
+function renderQText(raw) {
+  if (!raw) return "";
+  const withTables = renderMarkdownTables(raw);
+  // Split on double newlines to make paragraphs, but leave table HTML intact
+  return withTables
+    .split(/\n\n+/)
+    .map((chunk) => {
+      // If the chunk is already an HTML block (our table wrapper), emit as-is
+      if (chunk.trimStart().startsWith("<div class=\"table-wrapper\">")) return chunk;
+      // Otherwise wrap as a paragraph (escape nothing — content is trusted app data)
+      const inner = chunk.replace(/\n/g, " ").trim();
+      return inner ? `<p class="q-text-para">${inner}</p>` : "";
+    })
+    .filter(Boolean)
+    .join("");
+}
+
 // ─── SCREENS ──────────────────────────────────────────────────────────────────
 
 function renderSubjects() {
@@ -1459,7 +1573,7 @@ function renderWritten() {
             <div class="q-marks-row">
               <span class="q-marks">[${q?.marks ?? "?"} marks]</span>
             </div>
-            <p class="q-text">${q?.text ?? ""}</p>
+            <div class="q-text">${renderQText(q?.text ?? "")}</div>
           </div>
           ${bookmarkBtn(makeBookmarkId({subjectId:state.subjectId, yearId:state.yearId, semesterIndex:state.semesterIndex??0, type:"written", parentIdx:isGrouped?(state.qIndex??0):0, subQIdx:subQIdx}), q?.text)}
         </div>
@@ -1607,7 +1721,7 @@ function renderPracticeSession() {
       <div class="card question-card">
         <p class="practice-source-badge">${entry.yearLabel} · ${entry.semesterLabel}${parentLabel ? " · " + parentLabel : ""}</p>
         ${q?.marks ? `<div class="q-marks-row"><span class="q-marks">[${q.marks} marks]</span></div>` : ""}
-        <p class="q-text">${q?.text ?? ""}</p>
+        <div class="q-text">${renderQText(q?.text ?? "")}</div>
         ${!showAnswer ? `<button class="btn-primary prac-reveal-btn">Reveal Answer</button>` : answerBlock}
       </div>`;
   }
@@ -1779,7 +1893,7 @@ function renderPracticeReview() {
       <div class="card question-card">
         <p class="practice-source-badge">${entry.yearLabel} \u00b7 ${entry.semesterLabel}${parentLabel ? " \u00b7 " + parentLabel : ""}</p>
         ${q?.marks ? `<div class="q-marks-row"><span class="q-marks">[${q.marks} marks]</span></div>` : ""}
-        <p class="q-text">${q?.text ?? ""}</p>
+        <div class="q-text">${renderQText(q?.text ?? "")}</div>
         <div class="answer-block">
           ${q?.commandWord ? `<p class="command-word-label">Command Word: <strong>${q.commandWord}</strong></p>` : ""}
           ${q?.answer?.introduction ? `<div class="answer-section"><h4>Introduction</h4><p>${q.answer.introduction}</p></div>` : ""}
@@ -2202,7 +2316,7 @@ function renderBookmarkView() {
       ${keyFactsBlock}
       <div class="card question-card">
         ${q.marks ? `<div class="q-marks-row"><span class="q-marks">[${q.marks} marks]</span></div>` : ""}
-        <p class="q-text">${q.text ?? ""}</p>
+        <div class="q-text">${renderQText(q.text ?? "")}</div>
         ${answerBlock}
       </div>
     </main>

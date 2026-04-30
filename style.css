@@ -1855,3 +1855,71 @@ details[open] .case-summary::after { transform: rotate(180deg); }
   color: var(--ink-2);
   line-height: 1.5;
 }
+
+/* ─── MARKDOWN TABLE RENDERING ───────────────────────────────────────────── */
+.table-wrapper {
+  overflow-x: auto;
+  margin: 10px 0 6px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+  -webkit-overflow-scrolling: touch;
+}
+
+.q-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-ui);
+  font-size: 0.84rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.q-table th {
+  background: var(--accent-light);
+  color: var(--ink);
+  font-weight: 700;
+  padding: 9px 12px;
+  border-bottom: 2px solid var(--accent);
+  white-space: nowrap;
+}
+
+.q-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--ink-2);
+}
+
+.q-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Zebra striping */
+.q-table tbody tr:nth-child(even) {
+  background: var(--surface-2);
+}
+
+.q-table tbody tr:hover {
+  background: var(--accent-light);
+}
+
+/* Dark mode — tokens handle it automatically via CSS vars, but ensure
+   the border and header colours read correctly */
+[data-theme="dark"] .q-table th {
+  border-bottom-color: var(--accent);
+}
+
+/* Paragraph segments within a q-text that contains tables */
+.q-text-para {
+  margin: 0 0 8px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.q-text-para:last-child { margin-bottom: 0; }
+
+/* When q-text is a div (wrapping tables + paragraphs) keep base styling */
+div.q-text {
+  font-size: inherit;
+  color: var(--ink);
+  line-height: 1.6;
+}
