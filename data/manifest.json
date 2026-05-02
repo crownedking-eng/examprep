@@ -1,68 +1,69 @@
 {
-      "subjects": [
-          {
-                "id": "entrepreneurship",
-                      "title": "Entrepreneurship",
-                            "code": "SBU 408D",
-                                  "icon": "🚀",
-                                        "years": [
-                                                { "id": "2019-2020", "label": "2019 / 2020", "file": "entrepreneurship/2019-2020.json" },
-                                                        { "id": "2020-2021", "label": "2020 / 2021", "file": "entrepreneurship/2020-2021.json" },
-                                                                { "id": "2021-2022", "label": "2021 / 2022", "file": "entrepreneurship/2021-2022.json" },
-                                                                        { "id": "2022-2023", "label": "2022 / 2023", "file": "entrepreneurship/2022-2023.json" },
-                                                                                { "id": "2023-2024", "label": "2023 / 2024", "file": "entrepreneurship/2023-2024.json" },
-                                                                                        { "id": "2024-2025", "label": "2024 / 2025", "file": "entrepreneurship/2024-2025.json" }
-                                                                                              ]
-                                                                                                  },
-                                                                                                      {
-                                                                                                            "id": "project-management",
-                                                                                                                  "title": "Project Management",
-                                                                                                                        "code": "SBU 405",
-                                                                                                                              "icon": "📋",
-                                                                                                                                    "years": [
-                                                                                                                                            { "id": "2019-2020", "label": "2019 / 2020", "file": "project-management/2019-2020.json" },
-                                                                                                                                                    { "id": "2020-2021", "label": "2020 / 2021", "file": "project-management/2020-2021.json" },
-                                                                                                                                                            { "id": "2021-2022", "label": "2021 / 2022", "file": "project-management/2021-2022.json" },
-                                                                                                                                                                    { "id": "2022-2023", "label": "2022 / 2023", "file": "project-management/2022-2023.json" },
-                                                                                                                                                                            { "id": "2023-2024", "label": "2023 / 2024", "file": "project-management/2023-2024.json" },
-                                                                                                                                                                                    { "id": "2024-2025", "label": "2024 / 2025", "file": "project-management/2024-2025.json" }
-                                                                                                                                                                                          ]
-                                                                                                                                                                                              },
-                                                                                                                                                                                                  {
-                                                                                                                                                                                                        "id": "sustainable-procurement",
-                                                                                                                                                                                                              "title": "Sustainable Procurement",
-                                                                                                                                                                                                                    "code": "PCM 401D",
-                                                                                                                                                                                                                          "icon": "🌱",
-                                                                                                                                                                                                                                "years": [
-                                                                                                                                                                                                                                        { "id": "2020-2021", "label": "2020 / 2021", "file": "sustainable-procurement/2020-2021.json" },
-                                                                                                                                                                                                                                                { "id": "2021-2022", "label": "2021 / 2022", "file": "sustainable-procurement/2021-2022.json" },
-                                                                                                                                                                                                                                                        { "id": "2022-2023", "label": "2022 / 2023", "file": "sustainable-procurement/2022-2023.json" },
-                                                                                                                                                                                                                                                                { "id": "2023-2024", "label": "2023 / 2024", "file": "sustainable-procurement/2023-2024.json" },
-                                                                                                                                                                                                                                                                        { "id": "2024-2025", "label": "2024 / 2025", "file": "sustainable-procurement/2024-2025.json" }
-                                                                                                                                                                                                                                                                              ]
-                                                                                                                                                                                                                                                                                  },
-                                                                                                                                                                                                                                                                                      {
-                                                                                                                                                                                                                                                                                            "id": "risk-management",
-                                                                                                                                                                                                                                                                                                  "title": "Risk Management",
-                                                                                                                                                                                                                                                                                                        "code": "PCM 403D",
-                                                                                                                                                                                                                                                                                                              "icon": "⚠️",
-                                                                                                                                                                                                                                                                                                                    "years": [
-                                                                                                                                                                                                                                                                                                                            { "id": "2020-2021", "label": "2020 / 2021", "file": "risk-management/2020-2021.json" },
-                                                                                                                                                                                                                                                                                                                                    { "id": "2021-2022", "label": "2021 / 2022", "file": "risk-management/2021-2022.json" },
-                                                                                                                                                                                                                                                                                                                                            { "id": "2022-2023", "label": "2022 / 2023", "file": "risk-management/2022-2023.json" },
-                                                                                                                                                                                                                                                                                                                                                    { "id": "2023-2024", "label": "2023 / 2024", "file": "risk-management/2023-2024.json" },
-                                                                                                                                                                                                                                                                                                                                                            { "id": "2024-2025", "label": "2024 / 2025", "file": "risk-management/2024-2025.json" }
-                                                                                                                                                                                                                                                                                                                                                                  ]
-                                                                                                                                                                                                                                                                                                                                                                      },
-                                                                                                                                                                                                                                                                                                                                                                          {
-                                                                                                                                                                                                                                                                                                                                                                                "id": "lean-six-sigma",
-                                                                                                                                                                                                                                                                                                                                                                                      "title": "Lean and Six Sigma",
-                                                                                                                                                                                                                                                                                                                                                                                            "code": "PCM 409D",
-                                                                                                                                                                                                                                                                                                                                                                                                  "icon": "📊",
-                                                                                                                                                                                                                                                                                                                                                                                                        "years": [
-                                                                                                                                                                                                                                                                                                                                                                                                                { "id": "2023-2024", "label": "2023 / 2024", "file": "lean-six-sigma/2023-2024.json" },
-                                                                                                                                                                                                                                                                                                                                                                                                                        { "id": "2024-2025", "label": "2024 / 2025", "file": "lean-six-sigma/2024-2025.json" }
-                                                                                                                                                                                                                                                                                                                                                                                                                              ]
-                                                                                                                                                                                                                                                                                                                                                                                                                                  }
-                                                                                                                                                                                                                                                                                                                                                                                                                                    ]
-                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+  "subjects": [
+    {
+      "id": "entrepreneurship",
+      "title": "Entrepreneurship",
+      "code": "SBU 408D",
+      "icon": "🚀",
+      "years": [
+        { "id": "2019-2020", "label": "2019 / 2020", "file": "entrepreneurship/2019-2020.json" },
+        { "id": "2020-2021", "label": "2020 / 2021", "file": "entrepreneurship/2020-2021.json" },
+        { "id": "2021-2022", "label": "2021 / 2022", "file": "entrepreneurship/2021-2022.json" },
+        { "id": "2022-2023", "label": "2022 / 2023", "file": "entrepreneurship/2022-2023.json" },
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "entrepreneurship/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "entrepreneurship/2024-2025.json" }
+      ]
+    },
+    {
+      "id": "project-management",
+      "title": "Project Management",
+      "code": "SBU 405",
+      "icon": "📋",
+      "years": [
+        { "id": "2019-2020", "label": "2019 / 2020", "file": "project-management/2019-2020.json" },
+        { "id": "2020-2021", "label": "2020 / 2021", "file": "project-management/2020-2021.json" },
+        { "id": "2021-2022", "label": "2021 / 2022", "file": "project-management/2021-2022.json" },
+        { "id": "2022-2023", "label": "2022 / 2023", "file": "project-management/2022-2023.json" },
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "project-management/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "project-management/2024-2025.json" },
+        { "id": "2025-2026", "label": "2025 / 2026", "file": "project-management/2025-2026.json" }
+      ]
+    },
+    {
+      "id": "sustainable-procurement",
+      "title": "Sustainable Procurement",
+      "code": "PCM 401D",
+      "icon": "🌱",
+      "years": [
+        { "id": "2020-2021", "label": "2020 / 2021", "file": "sustainable-procurement/2020-2021.json" },
+        { "id": "2021-2022", "label": "2021 / 2022", "file": "sustainable-procurement/2021-2022.json" },
+        { "id": "2022-2023", "label": "2022 / 2023", "file": "sustainable-procurement/2022-2023.json" },
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "sustainable-procurement/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "sustainable-procurement/2024-2025.json" }
+      ]
+    },
+    {
+      "id": "risk-management",
+      "title": "Risk Management",
+      "code": "PCM 403D",
+      "icon": "⚠️",
+      "years": [
+        { "id": "2020-2021", "label": "2020 / 2021", "file": "risk-management/2020-2021.json" },
+        { "id": "2021-2022", "label": "2021 / 2022", "file": "risk-management/2021-2022.json" },
+        { "id": "2022-2023", "label": "2022 / 2023", "file": "risk-management/2022-2023.json" },
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "risk-management/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "risk-management/2024-2025.json" }
+      ]
+    },
+    {
+      "id": "lean-six-sigma",
+      "title": "Lean and Six Sigma",
+      "code": "PCM 409D",
+      "icon": "📊",
+      "years": [
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "lean-six-sigma/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "lean-six-sigma/2024-2025.json" }
+      ]
+    }
+  ]
+}
