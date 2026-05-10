@@ -52,7 +52,8 @@
         { "id": "2021-2022", "label": "2021 / 2022", "file": "risk-management/2021-2022.json" },
         { "id": "2022-2023", "label": "2022 / 2023", "file": "risk-management/2022-2023.json" },
         { "id": "2023-2024", "label": "2023 / 2024", "file": "risk-management/2023-2024.json" },
-        { "id": "2024-2025", "label": "2024 / 2025", "file": "risk-management/2024-2025.json" }
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "risk-management/2024-2025.json" },
+        { "id": "2025-2026", "label": "2025 / 2026", "file": "risk-management/2025-2026.json" }
       ]
     },
     {
