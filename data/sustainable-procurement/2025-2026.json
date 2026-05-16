@@ -1,0 +1,549 @@
+{
+  "subject": "Sustainable Procurement and Supply",
+  "subjectCode": "PCM 401D",
+  "academicYear": "2025/2026",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "What does the Brundtland Report define as sustainable development?",
+          "options": [
+            "A. Focusing exclusively on technological solutions",
+            "B. Meeting the needs of the present without compromising future generations",
+            "C. Prioritising social equity over economic factors",
+            "D. Unlimited economic growth without environmental constraints"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Brundtland Report gives the most adopted definition: \"to meet the needs of the present without compromising the ability of future generations to meet their own needs.\"",
+          "reference": "Unit 1, Session 1, 1.2 - What is sustainable development then?"
+        },
+        {
+          "type": "single",
+          "question": "Which driver of sustainability in procurement focuses on resource efficiencies?",
+          "options": [
+            "A. Avoiding stakeholder pressure for transparency",
+            "B. Cost savings through reduced energy, water, and waste consumption",
+            "C. Ignoring whole-life costing principles",
+            "D. Increasing reliance on virgin materials"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Sustainability saves money through resource efficiencies — reduction of energy, water and waste consumption reduces carbon and costs.",
+          "reference": "Unit 1, Session 2, 2.5 - The role of business drivers"
+        },
+        {
+          "type": "single",
+          "question": "What is a key principle of sustainable procurement related to fairness?",
+          "options": [
+            "A. Excluding social considerations from evaluations",
+            "B. Limiting competition to established suppliers only",
+            "C. Prioritising the lowest price regardless of other factors",
+            "D. Treating all bidders equally and avoiding bias in decision-making"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A sound approach to sustainable procurement is based on fairness, openness, transparency, non-discrimination, and competition.",
+          "reference": "Unit 1, Session 4, 4.2.1 - Sustainable Procurement Principles"
+        },
+        {
+          "type": "single",
+          "question": "In business sustainability efforts, what does the learning and growth perspective of the balanced scorecard address?",
+          "options": [
+            "A. How the organisation can improve and create value through skills and innovation",
+            "B. Immediate financial returns to shareholders",
+            "C. Internal process efficiency only",
+            "D. Short-term customer satisfaction metrics"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The innovation and organisational learning perspective asks: \"How can we continue to improve and create value?\" focusing on skills, training, and knowledge.",
+          "reference": "Unit 5, Session 5, 5.7.1 - Four key perspectives of Kaplan and Norton on the balance score card"
+        },
+        {
+          "type": "single",
+          "question": "What is the purpose of life cycle assessment in sustainability? To ______.",
+          "options": [
+            "A. evaluate impacts from raw material extraction through disposal",
+            "B. focus solely on the manufacturing stage",
+            "C. ignore end-of-life considerations",
+            "D. prioritise purchase price over long-term effects"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Life Cycle Assessment (LCA) is a technique for assessing impacts associated with all stages from cradle-to-grave (raw materials through to disposal or recycling).",
+          "reference": "Unit 6, Session 4, 4.3.2 - Life Cycle Assessment (LCA)"
+        },
+        {
+          "type": "single",
+          "question": "In globalisation, what driver facilitates sustainable supply chain practices?",
+          "options": [
+            "A. Elimination of all cross-border risks",
+            "B. Increased trade barriers between nations",
+            "C. Rapid changes in technology enabling better coordination and monitoring",
+            "D. Reduced emphasis on ethical sourcing"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Rapid change in technology, including information and communication technologies, has improved global connectivity and coordination, enabling better monitoring of supply chains.",
+          "reference": "Unit 1, Session 6, 6.3 - Drivers of Globalization"
+        },
+        {
+          "type": "single",
+          "question": "What is a benefit of sustainable procurement related to innovation?",
+          "options": [
+            "A. Encouraging the development of new sustainable products and services",
+            "B. Increasing dependence on non-renewable resources",
+            "C. Limiting supplier creativity",
+            "D. Reducing market opportunities for green technologies"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Sustainable procurement creates markets for new products and services by using technology to develop and market sustainable products that attract consumers.",
+          "reference": "Unit 1, Session 4, 4.4 - Benefits of Sustainable Procurement"
+        },
+        {
+          "type": "single",
+          "question": "Which approach helps organisations balance economic, social, and environmental performance?",
+          "options": [
+            "A. Focusing exclusively on regulatory compliance",
+            "B. Ignoring stakeholder expectations",
+            "C. Short-term profit maximisation only",
+            "D. The triple bottom line"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The triple bottom line (TBL or 3BL, also called 'People, Profit, Planet') recognises the need for businesses to measure performance across economic, social, and environmental dimensions.",
+          "reference": "Unit 5, Session 5, 5.8 - The Triple Bottom Line theory"
+        },
+        {
+          "type": "single",
+          "question": "In sustainable procurement, what does a holistic approach require?",
+          "options": [
+            "A. Considering only the purchase price of goods and services",
+            "B. Evaluating the effects of decisions on quality of life, the environment, and society",
+            "C. Excluding social and environmental factors from decision-making",
+            "D. Limiting procurement to local suppliers regardless of cost"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A holistic approach requires considering the effects of procurement decisions on quality of life, the environment, and society in general.",
+          "reference": "Unit 1, Session 4, 4.2.1 - Sustainable Procurement Principles"
+        },
+        {
+          "type": "single",
+          "question": "What is a key benefit of sustainable procurement?",
+          "options": [
+            "A. Creation of new markets for sustainable goods and services",
+            "B. Greater dependence on non-renewable resources",
+            "C. Increased waste generation and higher disposal costs",
+            "D. Reduced focus on whole-life costing"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Sustainable procurement creates markets for new products and services by developing and marketing sustainable products that attract early adopters.",
+          "reference": "Unit 1, Session 4, 4.4 - Benefits of Sustainable Procurement"
+        },
+        {
+          "type": "single",
+          "question": "Which factor acts as a barrier to sustainable procurement?",
+          "options": [
+            "A. Availability of clear training and guidance on sustainable practices",
+            "B. Perception that sustainable goods and services are more costly",
+            "C. Regular audits to assess sustainability performance",
+            "D. Strong organisational policies supporting sustainability"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A perception that the process and outcomes are more costly or time consuming is a major barrier to achieving sustainable procurement.",
+          "reference": "Unit 1, Session 5, 5.5.2 - Barriers"
+        },
+        {
+          "type": "single",
+          "question": "What does green procurement primarily aim to achieve?",
+          "options": [
+            "A. Focusing solely on the lowest purchase price",
+            "B. Ignoring social aspects in purchasing decisions",
+            "C. Increasing the use of virgin and non-renewable materials",
+            "D. Minimising adverse environmental impacts throughout the product life cycle"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Green procurement means contracting authorities take into account environmental elements when procuring goods, works or services throughout the entire life cycle.",
+          "reference": "Unit 1, Session 4, 4.2 - B. Green Procurement"
+        },
+        {
+          "type": "single",
+          "question": "In developing a sustainable procurement policy, what is essential for success?",
+          "options": [
+            "A. Avoiding stakeholder consultation",
+            "B. Focusing exclusively on short-term cost savings",
+            "C. Limiting involvement to procurement staff only",
+            "D. Securing senior-level sponsorship and commitment"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Maximising the success of implementing any business process requires senior level sponsorship and commitment; sustainable procurement is no different.",
+          "reference": "Unit 1, Session 5, 5.1 - Developing a Sustainable Procurement Policy"
+        },
+        {
+          "type": "single",
+          "question": "How does globalisation influence sustainable supply chains? It ______.",
+          "options": [
+            "A. decreases the complexity of supply networks",
+            "B. eliminates all barriers to cross-border trade",
+            "C. increases opportunities for sustainable innovation and collaboration",
+            "D. reduces the need for ethical sourcing practices"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Globalisation spreads production around the world, and supply-chain sustainability is becoming an integral part of companies' strategies to contribute to sustainable development.",
+          "reference": "Unit 1, Session 6, 6.6 - Globalization and Sustainable Supply Chain"
+        },
+        {
+          "type": "single",
+          "question": "What is a major hurdle of globalisation in relation to sustainability?",
+          "options": [
+            "A. Excessive focus on local sourcing",
+            "B. Potential exploitation of labour and environmental resources in developing nations",
+            "C. Reduced competition among global suppliers",
+            "D. Simplified regulatory compliance across borders"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Ethical barriers include large corporations becoming monopolists, and there is potential for exploitation of labour and environmental resources in developing countries.",
+          "reference": "Unit 1, Session 6, 6.4 - Hurdles of Globalization"
+        },
+        {
+          "type": "single",
+          "question": "Which element is central to a sustainable supply chain?",
+          "options": [
+            "A. Ignoring stakeholder expectations",
+            "B. Integrating economic, social, and environmental goals across the network",
+            "C. Limiting supplier involvement to transactional relationships",
+            "D. Maximising short-term profits regardless of impacts"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Sustainable supply chain refers to the strategic integration and achievement of an organisation's social, environmental, and economic goals in coordinating key inter-organisational business processes.",
+          "reference": "Unit 1, Session 6, 6.5 - The Concept of Sustainable Supply Chain"
+        },
+        {
+          "type": "single",
+          "question": "What is greenwashing in sustainability marketing?",
+          "options": [
+            "A. Collaborating with NGOs for verified certifications",
+            "B. Investing heavily in genuine sustainability initiatives",
+            "C. Transparent disclosure of environmental impacts",
+            "D. Using misleading claims to create a false impression of environmental responsibility"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Greenwashing is the use of green marketing to give the incorrect impression that the company's strategy, operations, and products are designed to be beneficial to the environment.",
+          "reference": "Unit 1, Session 3, 3.5.3 - Corporate Image Risks"
+        },
+        {
+          "type": "single",
+          "question": "In sustainable procurement, what does a risk-based approach involve?",
+          "options": [
+            "A. Avoiding any assessment of supplier practices",
+            "B. Focusing only on immediate financial returns",
+            "C. Ignoring potential impacts on the supply chain",
+            "D. Prioritising actions based on the greatest risks and opportunities"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A risk/opportunity-based approach means using risk and opportunity assessment to identify and address impacts and solutions, prioritising actions in relation to the greatest risks and opportunities.",
+          "reference": "Unit 1, Session 4, 4.2.1 - Sustainable Procurement Principles"
+        },
+        {
+          "type": "single",
+          "question": "Life cycle assessment does not consider impacts from raw material extraction to final disposal.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This statement is false. LCA assesses each and every impact associated with all stages of a process from cradle-to-grave (raw materials through to disposal or recycling).",
+          "reference": "Unit 6, Session 4, 4.3.2 - Life Cycle Assessment (LCA)"
+        },
+        {
+          "type": "single",
+          "question": "Stakeholder pressure is a key driver for companies to adopt sustainability practices.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Stakeholders are demanding that organizations consider environmental and social aspects and implement sustainable initiatives. Both internal employees and external stakeholders drive the need for change.",
+          "reference": "Unit 1, Session 4, 4.3.6 - Stakeholder Drivers"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss any four roles that codes and standards play in promoting sustainability, including how they are developed and their benefits for organisations.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Codes and standards provide benchmarks for good practice, helping organisations implement and verify their sustainability efforts.",
+                  "mainPoints": [
+                    {
+                      "heading": "Setting Minimum Acceptable Levels",
+                      "detail": "Codes specify minimum acceptable levels of safety, quality, and environmental performance for products and processes (e.g., ISO 14001 for environmental management)."
+                    },
+                    {
+                      "heading": "Providing Common Frameworks",
+                      "detail": "Standards like ISO20400 provide a common language and framework for sustainable procurement, making it easier for organisations to implement consistently across functions and geographies."
+                    },
+                    {
+                      "heading": "Enabling Certification",
+                      "detail": "Green product certifications by independent third parties confirm that products meet defined environmental criteria, helping buyers identify and select sustainable options with confidence."
+                    },
+                    {
+                      "heading": "Driving Continuous Improvement",
+                      "detail": "Standards often require organisations to continuously improve their performance, with documented benefits including energy savings (30-97%), reduced operating costs (8-9%), and higher occupant satisfaction."
+                    }
+                  ],
+                  "conclusion": "Codes and standards promote sustainability by creating clear rules, enabling third-party verification, and rewarding better environmental and social performance.",
+                  "otherPossibleAnswers": "How standards are developed: Through consensus processes by recognised bodies like ISO, involving experts from multiple countries. Additional benefits: Buildings that cost less to operate, have excellent energy performance, and increase property values.",
+                  "reference": "Unit 2, Session 2, 2.2 - What is Code?; 2.5 - What is Standard?; 2.10 - Benefits of Codes and Standards"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Evaluate any five ways in which labour codes and fair trade standards help address stakeholder conflicts and unethical practices in global supply chains.",
+                "marks": 10,
+                "commandWord": "Evaluate",
+                "answer": {
+                  "introduction": "Labour codes and fair trade standards provide rules that protect workers and create more equitable relationships between producers and buyers.",
+                  "mainPoints": [
+                    {
+                      "heading": "Preventing Forced Labour",
+                      "detail": "ILO Convention No. 29 defines and prohibits forced labour, requiring that workers are free to leave employment after normal notice periods without threat of punishment."
+                    },
+                    {
+                      "heading": "Prohibiting Child Labour",
+                      "detail": "Fair trade standards exclude the use of child labour in respect of the International Convention on the rights of childhood, protecting vulnerable children from exploitation."
+                    },
+                    {
+                      "heading": "Ensuring Non-Discrimination",
+                      "detail": "ILO Convention No. 111 prohibits discrimination based on race, colour, sex, religion, or social origin, ensuring equal opportunity and treatment in employment."
+                    },
+                    {
+                      "heading": "Enabling Collective Bargaining",
+                      "detail": "Freedom of association allows workers to form trade unions and negotiate terms of employment, giving them a voice against powerful employers."
+                    },
+                    {
+                      "heading": "Providing Fair Prices and Premiums",
+                      "detail": "Fairtrade ensures producers receive a fair price covering production costs plus an additional premium for community development, reducing poverty and stakeholder conflict."
+                    }
+                  ],
+                  "conclusion": "Labour codes and fair trade standards reduce stakeholder conflicts by giving workers rights, ensuring fair treatment, and creating transparent, equitable trading relationships.",
+                  "otherPossibleAnswers": "Safe working conditions: Standards require decent working conditions, reducing health and safety risks. Transparency and accountability: Fairtrade requires democratic governance in producer organisations and transparent economic management.",
+                  "reference": "Unit 2, Session 3, 3.2 - International Labour Standards; 3.4 - Freedom of Labour; Unit 2, Session 4, 4.2 - What is Fairtrade?"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss any four ways globalisation influences sustainable supply chain management, including key drivers and potential hurdles.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Globalisation has made supply chains longer and more complex, creating both opportunities and challenges for sustainability.",
+                  "mainPoints": [
+                    {
+                      "heading": "Increased Supply Chain Complexity",
+                      "detail": "Globalisation spreads production across countries, making supply chains longer and harder to monitor for environmental and social compliance."
+                    },
+                    {
+                      "heading": "Displacement of Environmental Impacts",
+                      "detail": "Consumption in rich countries often displaces environmental damage to distant locations via global supply chains — over 95% of environmental impacts of food and retail companies stem from their supply chains."
+                    },
+                    {
+                      "heading": "Driver from Technology",
+                      "detail": "Rapid changes in technology enable better coordination, monitoring, and transparency across global supply chains, helping track sustainability performance."
+                    },
+                    {
+                      "heading": "Hurdle of Labour Exploitation",
+                      "detail": "Large global purchasers can dictate prices to small suppliers in developing nations, potentially forcing them to cut corners on labour conditions and environmental practices."
+                    }
+                  ],
+                  "conclusion": "Globalisation creates sustainability challenges like complexity and exploitation, but also offers technological tools to manage and mitigate these risks.",
+                  "otherPossibleAnswers": "Driver from trade liberalisation: Reduced trade barriers allows companies to source globally but also increases supply chain length and risk. Driver from cost differences: Companies outsource to low-cost countries, but may face ethical risks from poor labour standards in those locations.",
+                  "reference": "Unit 1, Session 6, 6.3 - Drivers of Globalization; 6.4 - Hurdles of Globalization; 6.6 - Globalization and Sustainable Supply Chain"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Evaluate any four strategies organisations can adopt to build supply chain resilience while addressing sustainability risks and vulnerabilities.",
+                "marks": 10,
+                "commandWord": "Evaluate",
+                "answer": {
+                  "introduction": "Building resilient supply chains helps organisations survive disruptions like pandemics, earthquakes, or political instability while maintaining sustainability commitments.",
+                  "mainPoints": [
+                    {
+                      "heading": "Multiple Sourcing Arrangements",
+                      "detail": "Using several suppliers for key materials reduces dependence on a single source, preventing complete shutdown if one supplier fails or faces a disruption."
+                    },
+                    {
+                      "heading": "Keeping Additional Inventory",
+                      "detail": "Holding safety stock acts as a buffer against supply disruptions, though this must be balanced against waste and storage costs from a sustainability perspective."
+                    },
+                    {
+                      "heading": "Developing Business Continuity and Disaster Recovery Plans",
+                      "detail": "Having clear plans for how to operate during and after a crisis helps organisations recover faster and maintain ethical practices even under pressure."
+                    },
+                    {
+                      "heading": "Reducing Flow and Node Complexity",
+                      "detail": "Minimising the total number of links and active nodes in the supply chain makes it easier to monitor sustainability compliance and manage risks effectively."
+                    }
+                  ],
+                  "conclusion": "A resilient supply chain balances efficiency with preparedness, using strategies like multiple sourcing, inventory buffers, contingency plans, and simplified networks.",
+                  "otherPossibleAnswers": "Fortification of the upstream supply chain: Strengthening relationships and capabilities of key upstream suppliers. Contracting with backup suppliers: Having pre-identified alternative suppliers ready to step in when needed.",
+                  "reference": "Unit 6, Session 3, 3.4 - Some Strategies for Building Resilient Supply Chains"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain any four principles of sustainable procurement and how they differ from traditional procurement approaches.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Sustainable procurement principles expand beyond traditional cost-focused buying to include social, environmental, and ethical considerations.",
+                  "mainPoints": [
+                    {
+                      "heading": "A Sound Approach (Fairness, Openness, Transparency)",
+                      "detail": "Traditional procurement may prioritise lowest price without transparency. Sustainable procurement treats all bidders equally and openly communicates evaluation criteria."
+                    },
+                    {
+                      "heading": "An Ethical Approach (Integrity, No Corruption, ILO Standards)",
+                      "detail": "Traditional procurement focuses on legal compliance only. Sustainable procurement actively requires ethical labour conditions across the whole supply chain."
+                    },
+                    {
+                      "heading": "A Holistic Approach (Considering Quality of Life, Environment, Society)",
+                      "detail": "Traditional procurement looks at price and delivery only. Sustainable procurement evaluates impacts on society and the environment at local, national, and international levels."
+                    },
+                    {
+                      "heading": "A Risk/Opportunity-Based Approach (Prioritising Greatest Risks)",
+                      "detail": "Traditional procurement reacts to problems after they occur. Sustainable procurement proactively identifies and prioritises actions based on the biggest sustainability risks and opportunities."
+                    }
+                  ],
+                  "conclusion": "Sustainable procurement differs from traditional approaches by broadening the scope from short-term cost savings to long-term value creation for society and the environment.",
+                  "otherPossibleAnswers": "Leadership: Sustainable procurement requires champions at all levels, not just senior management approval. Delivery of organisational objectives: Sustainable procurement delivers beyond financial savings to include CO2 reductions and innovation.",
+                  "reference": "Unit 1, Session 4, 4.2.1 - Sustainable Procurement Principles"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Assess any five drivers, benefits and barriers to implementing sustainable procurement policies within organisations.",
+                "marks": 10,
+                "commandWord": "Assess",
+                "answer": {
+                  "introduction": "Organisations face multiple factors that push them toward sustainable procurement (drivers), rewards for doing it (benefits), and obstacles that slow them down (barriers).",
+                  "mainPoints": [
+                    {
+                      "heading": "Driver — Financial",
+                      "detail": "Cost savings through more efficient goods, reduced waste, and whole-life costing give organisations a clear financial reason to adopt sustainable procurement."
+                    },
+                    {
+                      "heading": "Driver — Stakeholder Pressure",
+                      "detail": "Customers, investors, and employees demand sustainable practices, creating external and internal pressure that forces organisations to change their procurement behaviour."
+                    },
+                    {
+                      "heading": "Benefit — Enhanced Corporate Image",
+                      "detail": "Sustainable procurement builds brand reputation and trust with customers, giving a competitive advantage and attracting ethically conscious consumers and investors."
+                    },
+                    {
+                      "heading": "Benefit — Risk Management",
+                      "detail": "It reduces reputational, operational, and compliance risks arising from unethical or unsustainable supply chain practices, protecting the organisation long-term."
+                    },
+                    {
+                      "heading": "Barrier — Perception of Higher Cost",
+                      "detail": "The belief that sustainable goods cost more — even when whole-life costs are lower — discourages procurement professionals and budget holders from adopting sustainable options."
+                    }
+                  ],
+                  "conclusion": "While barriers like cost perception exist, the combination of financial drivers, stakeholder demands, and reputational benefits make sustainable procurement a sound business choice.",
+                  "otherPossibleAnswers": "Barrier - Lack of suppliers: Not enough sustainable suppliers exist in some markets. Benefit - New market creation: Sustainable procurement helps develop markets for green products and services.",
+                  "reference": "Unit 1, Session 4, 4.3 - Drivers of Sustainable Procurement; 4.4 - Benefits; Unit 1, Session 5, 5.5 - Benefits, barriers and drivers"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain any four key perspectives of the Balanced Scorecard approach for monitoring and measuring sustainability performance.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The Balanced Scorecard, developed by Kaplan and Norton, helps organisations measure performance from four different perspectives, not just financial results.",
+                  "mainPoints": [
+                    {
+                      "heading": "Financial Perspective",
+                      "detail": "Asks \"Are we creating value for our shareholders?\" In sustainable procurement, this includes cost savings, profit contribution, and shareholder value derived from reputational strength."
+                    },
+                    {
+                      "heading": "Customer Perspective",
+                      "detail": "Asks \"Are we creating value for our customers?\" This measures customer satisfaction, retention, and market share based on sustainable product and brand attributes."
+                    },
+                    {
+                      "heading": "Internal Business Processes",
+                      "detail": "Asks \"What must we excel at?\" This includes environmental management systems and the management of internal and external supply chains for sustainability compliance."
+                    },
+                    {
+                      "heading": "Innovation and Organisational Learning",
+                      "detail": "Asks \"How can we continue to improve and create value?\" This measures skills, training, information systems, and the organisation's capacity for innovation in sustainability."
+                    }
+                  ],
+                  "conclusion": "The Balanced Scorecard balances financial measures with non-financial ones (customer, process, learning), aligning perfectly with the triple bottom line concept of People, Profit, and Planet.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.7.1 - Four key perspectives of Kaplan and Norton on the balance score card"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Assess any five ways supplier development programmes and collaborative performance management can enhance compliance and continuous improvement in sustainable supply chains.",
+                "marks": 10,
+                "commandWord": "Assess",
+                "answer": {
+                  "introduction": "Supplier development programmes help suppliers improve their capabilities, while collaborative performance management builds trust and shared goals between buyer and supplier.",
+                  "mainPoints": [
+                    {
+                      "heading": "Training Supplier Personnel",
+                      "detail": "Buying firms can train supplier staff on sustainability standards and practices, directly improving their ability to comply with requirements and raise overall standards."
+                    },
+                    {
+                      "heading": "Short-Term Operational Improvement",
+                      "detail": "Working side-by-side with suppliers to directly improve cost, quality, and delivery performance leads to faster and measurable compliance gains."
+                    },
+                    {
+                      "heading": "Long-Term Capability Building",
+                      "detail": "Developing the supplier's internal ability to improve itself creates lasting change that continues beyond the buyer's direct involvement, embedding a culture of continuous improvement."
+                    },
+                    {
+                      "heading": "Joint Performance Appraisal (JPA)",
+                      "detail": "Suppliers assess the buyer's performance too, identifying buyer-side problems (like late payments or unclear specifications) that harm supplier sustainability efforts."
+                    },
+                    {
+                      "heading": "Incentives and Rewards",
+                      "detail": "Contract extensions, preferred supplier status, and gain-sharing reward suppliers for sustainability achievements, creating positive motivation for continuous improvement."
+                    }
+                  ],
+                  "conclusion": "Supplier development and collaborative performance management create a partnership approach where both buyer and supplier work together to raise standards, solve problems, and build a more sustainable supply chain.",
+                  "otherPossibleAnswers": "Financial investment in supplier operations: Direct funding helps suppliers invest in cleaner technology or better working conditions. Shared risk and reward: Equitable sharing of relationship risks encourages both parties to commit to long-term improvements.",
+                  "reference": "Unit 5, Session 6, 6.4 - Joint Performance Appraisal; Unit 6, Session 5, 5.2.4 - Supplier Development Programmes; 5.3 - Types of Supplier Development Programmes"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
