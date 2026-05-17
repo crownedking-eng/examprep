@@ -1,0 +1,737 @@
+{
+  "subject": "Entrepreneurship and Small Scale Management",
+  "subjectCode": "SBU 408D",
+  "academicYear": "2025/2026",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The evolution of the term \"entrepreneur\" from the Middle Ages to the 17th century shows a shift in meaning from a/an ______.",
+          "options": [
+            "A. capital provider to a risk-taker",
+            "B. project manager to a contract-taker bearing risk",
+            "C. innovator to a manager",
+            "D. craftsman to a capitalist"
+          ],
+          "correctAnswer": "B",
+          "explanation": "In the Middle Ages, the entrepreneur managed large government projects without taking risks. In the 17th century, the connection between risk and entrepreneurship was established, with the entrepreneur entering contracts at a fixed price, thus bearing the risk of profit or loss.",
+          "reference": "Unit 1, Session 1, 1.1 - The Evolution of Entrepreneur and Entrepreneurship"
+        },
+        {
+          "type": "single",
+          "question": "In the competitive environment, the presence of close substitutes for a product primarily affects a firm's ______.",
+          "options": [
+            "A. ability to secure raw materials",
+            "B. ability to set high prices without losing customers",
+            "C. ease of entering the industry",
+            "D. relationship with its suppliers"
+          ],
+          "correctAnswer": "B",
+          "explanation": "If there are close substitutes for a product, this places a limit on the price a firm can charge. Consumers will switch to the substitute if the price difference is attractive enough.",
+          "reference": "Unit 1, Session 4, 4.6 - Competitive Environment"
+        },
+        {
+          "type": "single",
+          "question": "Which method for generating ideas involves a moderator leading a group of 8 to 14 participants in an open, in-depth discussion to creatively develop new product ideas?",
+          "options": [
+            "A. Brainstorming",
+            "B. Focus group",
+            "C. Problem inventory analysis",
+            "D. Value analysis"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A focus group involves a moderator leading a group of 8 to 14 participants through an open, in-depth discussion to creatively conceptualize and develop new product ideas.",
+          "reference": "Unit 2, Session 2, 2.2.1 - Focus Groups"
+        },
+        {
+          "type": "single",
+          "question": "The critical factor of \"sales growth\" in new venture development includes the concept of a \"lifestyle venture.\" This type of venture is primarily driven by ______.",
+          "options": [
+            "A. the desire to create a large public corporation",
+            "B. the goal of achieving a high-growth trajectory for a quick sale",
+            "C. the need for independence, autonomy, and a comfortable living",
+            "D. significant sales and profit growth to attract venture capital"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Lifestyle ventures have independence, autonomy, and control as their primary driving forces. Large sales or profits are not deemed important beyond providing a comfortable living for the entrepreneur.",
+          "reference": "Unit 2, Session 3, 3.1.2.3 - Sales Growth"
+        },
+        {
+          "type": "single",
+          "question": "One of the primary reasons some business plans fail is because ______.",
+          "options": [
+            "A. the entrepreneur has made a total commitment to the business",
+            "B. the entrepreneur has no experience in the planned business",
+            "C. the entrepreneur set measurable goals",
+            "D. they are too detailed and specific"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A lack of experience will result in failure unless the entrepreneur can either attain the necessary knowledge or team up with someone who already has it.",
+          "reference": "Unit 3, Session 6, 6.4 - Why Some Business Plans Fail"
+        },
+        {
+          "type": "single",
+          "question": "According to the resource-based perspective, a strategic resource must be valuable, rare, and ______.",
+          "options": [
+            "A. based solely on financial capital",
+            "B. easily available and cost-effective",
+            "C. imperfectly imitable and non-substitutable",
+            "D. perfectly imitable and substitutable"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The resource-based perspective holds that competitive advantage is created when firms possess strategic resources that are valuable, rare, imperfectly imitable, and non-substitutable.",
+          "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
+        },
+        {
+          "type": "single",
+          "question": "In the purchasing process, the step where a department initiates a request that includes a description of the item, quantity, and desired delivery date is the ______.",
+          "options": [
+            "A. accounts payable verification",
+            "B. request for requisition",
+            "C. review of quotations",
+            "D. selection of potential sources"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The process begins when a department initiates a request for goods or services (a requisition) and sends it to the purchasing department. This requisition includes a description, quantity, and desired delivery date.",
+          "reference": "Unit 4, Session 2, 2.3.1.a - Steps in the Purchasing Process"
+        },
+        {
+          "type": "single",
+          "question": "The 'halo effect' in performance appraisal occurs when a manager ______.",
+          "options": [
+            "A. allows personal biases like race or age to distort ratings",
+            "B. rates a subordinate high or low on all measures based on one characteristic"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The halo effect is the tendency to rate subordinates high or low on all performance measures based on one of their characteristics (e.g., an employee who works late is rated high on everything).",
+          "reference": "Unit 4, Session 4, 4.2.g.iv - The halo effect"
+        },
+        {
+          "type": "single",
+          "question": "The strategy of controlling resources rather than owning them provides an entrepreneur with an advantage of ______.",
+          "options": [
+            "A. greater flexibility to commit and decommit quickly",
+            "B. higher sunk costs, making exit more difficult",
+            "C. increased capital requirements to control the resources",
+            "D. a permanent and fixed competitive advantage"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Entrepreneurs who do not own resources are in a better position to commit and decommit quickly, providing flexibility. Owning resources leads to higher sunk costs.",
+          "reference": "Unit 4, Session 6, 6.3 - Resource Utilisation Strategy"
+        },
+        {
+          "type": "single",
+          "question": "A product development strategy for small businesses aims to increase sales by ______.",
+          "options": [
+            "A. adding new goods or services to existing markets",
+            "B. increasing selling efforts in current markets",
+            "C. introducing existing products into new geographical markets",
+            "D. subdividing the mass market into smaller segments"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A product development strategy tries to raise sales by adding new goods or services to existing markets.",
+          "reference": "Unit 5, Session 3, 3.2.3 - Product development"
+        },
+        {
+          "type": "single",
+          "question": "Psychographic segmentation divides the market based on variables such as ______.",
+          "options": [
+            "A. age, income, and education",
+            "B. knowledge, attitudes, and responses to a product",
+            "C. nation, region, and city",
+            "D. social class, lifestyle, and personality characteristics"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Psychographics segmentation divides buyers into different groups based on social class, lifestyle or personality characteristics.",
+          "reference": "Unit 5, Session 4, 4.2.1 - Market Segmentation"
+        },
+        {
+          "type": "single",
+          "question": "A company that decides to ignore market segment differences and go after the whole market with one product offer is using ______ marketing strategy.",
+          "options": [
+            "A. concentrated",
+            "B. differentiated",
+            "C. niche",
+            "D. undifferentiated"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A company using undifferentiated marketing strategy might decide to ignore market segment differences and go after the whole market with one product offer.",
+          "reference": "Unit 5, Session 4, 4.2.2 - Market Targeting"
+        },
+        {
+          "type": "single",
+          "question": "In the product life cycle, the stage where sales volume continues to rise, but profit margins peak and begin to fall as competitors enter is the ______ stage.",
+          "options": [
+            "A. Decline",
+            "B. Growth",
+            "C. Introductory",
+            "D. Maturity"
+          ],
+          "correctAnswer": "D",
+          "explanation": "In the maturity stage, sales volume continues to rise, but profit margins peak and then begin to fall as competitors enter the market.",
+          "reference": "Unit 5, Session 5, 5.2.2 - The Product Life Cycle"
+        },
+        {
+          "type": "single",
+          "question": "One of the frequently cited reasons for new product failure is ______.",
+          "options": [
+            "A. extensive funding and total commitment to the new product",
+            "B. inadequate knowledge of the market",
+            "C. a very long product development cycle",
+            "D. too much differentiation from existing products"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Frequently cited reasons for product failure include too little differentiation (not too much), inadequate knowledge of the market, poor planning, and inadequate funding.",
+          "reference": "Unit 5, Session 5, 5.2.3 - New Product Development"
+        },
+        {
+          "type": "single",
+          "question": "One of the key advantages of direct mail as an impersonal method of promotion is that it ______.",
+          "options": [
+            "A. is the most expensive form of advertising, guaranteeing a high response",
+            "B. is targeted and its results can be quantified",
+            "C. reaches a broad, undifferentiated audience",
+            "D. results cannot be measured or valued"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Direct mail is targeted (reaches specific customers), can be tested on a limited basis, and results can be measured and valued in terms of response back from recipients.",
+          "reference": "Unit 5, Session 6, 6.2.2.2 - Direct Mail"
+        },
+        {
+          "type": "single",
+          "question": "A debenture is considered \"secured\" if it ______.",
+          "options": [
+            "A. can be converted into equity shares",
+            "B. has a floating charge but no fixed asset tied to it",
+            "C. is issued by a company with a high credit rating",
+            "D. is specifically tied to the financing of a particular asset, like a building"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A secured debenture is one that is specifically tied to the financing of a particular asset, such as a building or a machine. The debenture holder has a legal interest in that asset.",
+          "reference": "Unit 6, Session 2, 2.1.b - Debentures"
+        },
+        {
+          "type": "single",
+          "question": "In a lease agreement, which party is the \"lessee\"? The ______.",
+          "options": [
+            "A. government agency regulating the transaction",
+            "B. provider of finance who owns the capital asset",
+            "C. third-party investor who holds the equity",
+            "D. user of the capital asset who makes rental payments"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A lease is an agreement between the \"lessor\" (owner of the asset) and the \"lessee\" (the user who makes payments under the terms of the lease).",
+          "reference": "Unit 6, Session 2, 2.1.c - Asset Leasing"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a key factor in assessing a borrower's creditworthiness for short-term finance? The ______.",
+          "options": [
+            "A. borrower's educational background",
+            "B. borrower's personal savings and stock portfolio",
+            "C. general business circumstances in the industry and economy",
+            "D. number of employees in the firm"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The factors considered when assessing creditworthiness are: Character, Capacity, Circumstances (general business circumstances in the industry and economy), Insurance Cover, and Guarantees.",
+          "reference": "Unit 6, Session 3, 3.1 - Sources of Short Term Finance"
+        },
+        {
+          "type": "single",
+          "question": "The source of short-term finance that allows a borrower to overdraw their account up to a specified limit, with interest calculated on the daily outstanding balance, is ______.",
+          "options": [
+            "A. a bank overdraft",
+            "B. a term loan",
+            "C. factoring",
+            "D. trade credit"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A bank overdraft allows the borrower to overdraw his account up to a specified limit. Interest is calculated on the daily outstanding balance, meaning no interest is paid on any unutilized portion.",
+          "reference": "Unit 6, Session 3, 3.1.a - Bank Overdraft"
+        },
+        {
+          "type": "single",
+          "question": "The debtor collection period ratio is used to measure the ______.",
+          "options": [
+            "A. efficiency of a firm's credit policy",
+            "B. firm's ability to pay its suppliers",
+            "C. number of shares outstanding",
+            "D. rate of return on equity"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The debtor collection period indicates the average period for which debtors remain uncollected and is a measure of the efficiency of a firm's credit policy.",
+          "reference": "Unit 6, Session 5, 5.2.c.iii - Debtor Collection Period"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "What is the general name for this business agreement? (The MediQuick case)",
+                "marks": 1,
+                "commandWord": "What",
+                "answer": {
+                  "introduction": "The general name for this business agreement is franchising.",
+                  "mainPoints": [
+                    {
+                      "heading": "Franchising",
+                      "detail": "Franchising is a business agreement in which a company (franchisor) grants others (franchisees) the right to sell a product or service and use the business system developed by the company. Dr. Serwaa is granting licences to independent operators to use her business model, trade name, and operating systems."
+                    }
+                  ],
+                  "conclusion": "Franchising is the correct term for this type of business arrangement.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.1 - The Meaning of Franchising"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Identify the two parties in this business arrangement and indicate their technical names under this agreement.",
+                "marks": 2,
+                "commandWord": "Identify",
+                "answer": {
+                  "introduction": "The two parties in a franchising agreement have specific technical names.",
+                  "mainPoints": [
+                    {
+                      "heading": "Party 1: Dr. Adjoa Serwaa — Franchisor",
+                      "detail": "The franchisor is the company that grants the licence and owns the business system. Dr. Serwaa developed the MediQuick model and grants others the right to use it."
+                    },
+                    {
+                      "heading": "Party 2: Mr. Kofi Mensah — Franchisee",
+                      "detail": "The franchisee is the independent operator who buys the right to use the business system. Mr. Mensah paid an initial fee and ongoing royalties to operate a MediQuick outlet."
+                    }
+                  ],
+                  "conclusion": "The franchisor owns the system, and the franchisee operates an outlet under that system.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.1 - The Meaning of Franchising"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State the specific type of business agreement described in the passage.",
+                "marks": 1,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "The specific type of business agreement described is pure (or comprehensive or business format) franchising.",
+                  "mainPoints": [
+                    {
+                      "heading": "Pure (Business Format) Franchising",
+                      "detail": "Pure franchising provides the franchisee with a complete business format, including trade name, products, operating methods, and a marketing strategy — which matches exactly what Dr. Serwaa provided to Mr. Mensah."
+                    }
+                  ],
+                  "conclusion": "This is pure franchising, as the franchisee receives the entire business system, not just a product or trade name.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.2.3 - Pure (or comprehensive or Business format) franchising"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Provide two justifications from the passage to support your answer in (c) above.",
+                "marks": 3,
+                "commandWord": "Justify",
+                "answer": {
+                  "introduction": "The passage contains specific evidence that this is pure (business format) franchising.",
+                  "mainPoints": [
+                    {
+                      "heading": "Justification 1: Complete Business Format",
+                      "detail": "The passage states that Dr. Serwaa provided Mr. Mensah with \"an established brand name, a complete business format, a protected territory, and a two-week intensive training programme.\""
+                    },
+                    {
+                      "heading": "Justification 2: Strict Operating Procedures",
+                      "detail": "The passage states that Mr. Mensah \"could only sell products approved by Dr. Serwaa and must adhere strictly to her quality control standards and operating procedures.\""
+                    }
+                  ],
+                  "conclusion": "These are key features of pure franchising — not just trade name or product distribution franchising.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.2.3 - Pure (or comprehensive or Business format) franchising"
+                }
+              },
+              {
+                "label": "E",
+                "question": "Based on the payment agreement in the scenario, calculate the total amount Mr. Mensah will pay to Dr. Adjoa Serwaa in the tenth month. Show your workings.",
+                "marks": 3,
+                "commandWord": "Calculate",
+                "answer": {
+                  "introduction": "Mr. Mensah pays an ongoing royalty of 5% of his monthly gross sales plus an advertising contribution of 2% of monthly sales.",
+                  "mainPoints": [
+                    {
+                      "heading": "Step 1: Identify the Monthly Gross Sales",
+                      "detail": "Monthly gross sales in the tenth month = GHC 60,000."
+                    },
+                    {
+                      "heading": "Step 2: Calculate the Royalty Payment",
+                      "detail": "Royalty (5% of sales) = 60,000 × 0.05 = GHC 3,000."
+                    },
+                    {
+                      "heading": "Step 3: Calculate the Advertising Contribution",
+                      "detail": "Advertising pool contribution (2% of sales) = 60,000 × 0.02 = GHC 1,200."
+                    },
+                    {
+                      "heading": "Step 4: Total Amount",
+                      "detail": "Total = GHC 3,000 + GHC 1,200 = GHC 4,200."
+                    }
+                  ],
+                  "conclusion": "Mr. Mensah will pay Dr. Serwaa a total of GHC 4,200 in the tenth month. Note: The initial fee of GHC 20,000 is paid upfront, not monthly.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.3.2 - Disadvantages to Franchisees"
+                }
+              },
+              {
+                "label": "F",
+                "question": "Outline six entrepreneurial traits or attributes demonstrated by Dr. Adjoa Serwaa.",
+                "marks": 3,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Dr. Adjoa Serwaa demonstrates several key entrepreneurial attributes throughout the MediQuick case.",
+                  "mainPoints": [
+                    {
+                      "heading": "Passion for Business",
+                      "detail": "She was passionate about the vision of MediQuick and sustained it despite family and friends' skepticism."
+                    },
+                    {
+                      "heading": "Head for Business",
+                      "detail": "She developed a standardized layout, approved product list, and centralized inventory management system."
+                    },
+                    {
+                      "heading": "Risk-Taking",
+                      "detail": "She chose to expand nationally through franchising rather than only company-owned outlets, bearing the risk of reputation."
+                    },
+                    {
+                      "heading": "Innovativeness",
+                      "detail": "She created a complete business format and a national advertising pool funded by franchisee contributions."
+                    },
+                    {
+                      "heading": "Resourcefulness",
+                      "detail": "She expanded nationally without using her own capital for each new outlet, leveraging franchisee investments."
+                    },
+                    {
+                      "heading": "Leadership",
+                      "detail": "She provided training programmes, enforced quality control standards, and resolved the unapproved product dispute professionally."
+                    }
+                  ],
+                  "conclusion": "These entrepreneurial traits enabled Dr. Serwaa to build a successful and nationally recognized brand.",
+                  "otherPossibleAnswers": "Persistence, Professionalism.",
+                  "reference": "Unit 1, Session 2, 2.3 - Characteristics of Successful Entrepreneurs"
+                }
+              },
+              {
+                "label": "G",
+                "question": "Outline three entrepreneurial lessons that can be learned from the MediQuick case.",
+                "marks": 3,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "The MediQuick case offers valuable lessons for aspiring entrepreneurs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Lesson 1: Franchising Enables Capital-Light Expansion",
+                      "detail": "Franchising allows rapid national expansion without using your own capital for every new outlet."
+                    },
+                    {
+                      "heading": "Lesson 2: Systems Reduce Risk",
+                      "detail": "A proven business system with training and quality control reduces risk for both the franchisor and franchisee."
+                    },
+                    {
+                      "heading": "Lesson 3: Pooling Resources Creates Competitive Advantage",
+                      "detail": "Pooling contributions (like the advertising pool) creates cost advantages and brand reach that benefit the entire network."
+                    }
+                  ],
+                  "conclusion": "These lessons show how structured business models and shared resources can lead to rapid national brand recognition.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6 - Franchising"
+                }
+              },
+              {
+                "label": "H",
+                "question": "Discuss two advantages of this type of business arrangement for a person in Dr. Adjoa Serwaa's position, compared to expanding solely through company-owned outlets.",
+                "marks": 4,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Pure franchising offers significant advantages over expanding only through company-owned outlets.",
+                  "mainPoints": [
+                    {
+                      "heading": "Advantage 1: Expansion Risk and Capital Requirements are Shared",
+                      "detail": "Dr. Serwaa \"benefited from the expansion without using her own capital for each new outlet.\" Franchisees pay an initial fee of GHC 20,000 plus ongoing royalties, funding the expansion from their own resources."
+                    },
+                    {
+                      "heading": "Advantage 2: Motivated Franchisees Drive Performance",
+                      "detail": "Mr. Mensah operated his outlet with dedication because his income depended on its success. Motivated owner-operators typically work harder than salaried branch managers."
+                    }
+                  ],
+                  "conclusion": "Franchising allows faster, cheaper national expansion with committed partners, compared to opening every branch with company funds and employees.",
+                  "otherPossibleAnswers": "Cost advantages from pooled advertising. Standardized quality across all outlets.",
+                  "reference": "Unit 2, Session 6, 6.4.1 - Advantages for Franchisors"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Define the term firm resources.",
+                "marks": 2,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "Firm resources are the assets a business owns and controls.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition",
+                      "detail": "A resource is anything thought of as a strength or weakness of a given firm. More formally, a firm's resources are those tangible and intangible assets that are tied semi-permanently to the firm, enabling it to produce efficient and effective market offerings."
+                    }
+                  ],
+                  "conclusion": "These resources enable the firm to conceive and implement strategies that improve its efficiency and effectiveness.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1, 1.1 - Nature of Firm Resources"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain the three types of resources available to a small enterprise owner-manager.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Small enterprise owner-managers can access three main types of resources.",
+                  "mainPoints": [
+                    {
+                      "heading": "Financial Resources",
+                      "detail": "Money assets, borrowing capacity, and ability to raise new equity. Examples include cash, bank overdrafts, and loans."
+                    },
+                    {
+                      "heading": "Physical Resources",
+                      "detail": "Tangible property used in production and administration. Examples include plant, equipment, location, and buildings."
+                    },
+                    {
+                      "heading": "Human Resources",
+                      "detail": "The knowledge, training, and experience of the entrepreneur and employees, including judgment, creativity, and relationship capital."
+                    }
+                  ],
+                  "conclusion": "These three resource types work together to help the business operate, compete, and grow.",
+                  "otherPossibleAnswers": "Technological resources, Organizational resources.",
+                  "reference": "Unit 4, Session 1, 1.4 - Types of Resources"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Discuss the concept of strategic resources.",
+                "marks": 4,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Strategic resources are those that give a firm a competitive advantage over its rivals.",
+                  "mainPoints": [
+                    {
+                      "heading": "Foundation for Strategy",
+                      "detail": "A firm cannot implement its strategy without adequate resources, so resources substantially affect how a business model is used and what competitive positions are achievable."
+                    },
+                    {
+                      "heading": "Resources in New Ventures",
+                      "detail": "For new ventures, strategic resources may include the competencies of founders, the opportunity identified, and the unique way they plan to serve the market."
+                    },
+                    {
+                      "heading": "Learning as a Resource",
+                      "detail": "The resource-based perspective sees organizational processes and learning as value-creating resources in their own right, providing advantages that are difficult to imitate."
+                    },
+                    {
+                      "heading": "Basis for Competitive Advantage",
+                      "detail": "Competitive advantage is created when firms possess resources that are not easily copied by competitors, allowing the firm to sustain superior performance."
+                    }
+                  ],
+                  "conclusion": "Strategic resources are the key assets that set a business apart from its competition and sustain its market position.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Explain the three attributes that make a resource strategic according to the resource-based perspective.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "A resource is strategic if it possesses three key attributes: valuable, rare, and imperfectly imitable (and non-substitutable).",
+                  "mainPoints": [
+                    {
+                      "heading": "Valuable",
+                      "detail": "The resource helps the organization exploit environmental opportunities or neutralize threats. It enables the firm to implement strategy effectively and efficiently."
+                    },
+                    {
+                      "heading": "Rare",
+                      "detail": "The resource is not available to all competitors. If a resource is valuable but common (like a lawyer), it cannot be a source of competitive advantage."
+                    },
+                    {
+                      "heading": "Imperfectly Imitable",
+                      "detail": "Competitors cannot easily copy or duplicate the resource. If duplication is very expensive or impossible, the resource provides sustained competitive advantage."
+                    }
+                  ],
+                  "conclusion": "Only resources that meet all these criteria can provide a lasting competitive advantage.",
+                  "otherPossibleAnswers": "Non-substitutable: The fourth attribute — competitors cannot use a different resource to achieve the same benefit.",
+                  "reference": "Unit 4, Session 1, 1.3 - Attributes of a Strategic Resource"
+                }
+              },
+              {
+                "label": "E",
+                "question": "Explain two key strategies that can be adopted to mobilize local resources.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Mobilizing local resources requires strategic thinking that goes beyond simply securing money.",
+                  "mainPoints": [
+                    {
+                      "heading": "Strategy 1: Think Beyond Money",
+                      "detail": "Firms should find ways to use every available resource required for the business — not assume that financial resources are the only ones needed. Creative use of existing relationships, skills, and assets can reduce capital requirements."
+                    },
+                    {
+                      "heading": "Strategy 2: Diversify Sources of Support",
+                      "detail": "Firms will be less vulnerable if they have many sources of support, so that if one source is discontinued, they can fall back on others. Relying on a single source creates dependency and risk."
+                    }
+                  ],
+                  "conclusion": "These strategies help firms access and sustain resources without over-reliance on a single source.",
+                  "otherPossibleAnswers": "Build local skills: Implement cost-effective training programs where previously trained people train others (cascade training). Be cost-effective. Keep records. Stay in line with your mission.",
+                  "reference": "Unit 4, Session 6, 6.2 & 6.2.1 - Mobilizing Resources & Developing Strategies for Mobilizing Local Resources"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 30,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain to the young lady the concept of marketing mix.",
+                "marks": 2,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The marketing mix is the combination of marketing activities a business uses to meet its objectives.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition",
+                      "detail": "The marketing mix entails the specific combination of interrelated and interdependent marketing activities that an organization engages in to meet its objectives."
+                    },
+                    {
+                      "heading": "Controllable Variables",
+                      "detail": "It is often called the \"controllable variables\" of marketing because the marketer can control and manipulate these elements — namely product, price, place (distribution), and promotion."
+                    }
+                  ],
+                  "conclusion": "The marketing mix is the set of tools you use to bring your product to customers effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.3 - The Marketing Mix"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Describe the four elements of the marketing mix.",
+                "marks": 6,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "The marketing mix has four elements known as the 4Ps: Product, Price, Place, and Promotion.",
+                  "mainPoints": [
+                    {
+                      "heading": "Product",
+                      "detail": "What the business offers to customers. It can be a good, service, or idea that satisfies consumer needs. For organic skincare, this includes the cream itself, its ingredients, and packaging."
+                    },
+                    {
+                      "heading": "Price",
+                      "detail": "The amount of money exchanged for the product. It must be based on production costs, distribution costs, and desired profit margin."
+                    },
+                    {
+                      "heading": "Place (Distribution)",
+                      "detail": "Getting the product to the consumer in the right location at the right time. This includes choices about selling through shops, online, or direct delivery."
+                    },
+                    {
+                      "heading": "Promotion",
+                      "detail": "How the business communicates with customers. This includes advertising, social media, sales promotions, and personal selling to inform and persuade buyers."
+                    }
+                  ],
+                  "conclusion": "These four elements must work together cohesively to create a successful marketing strategy.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.3.1 to 1.3.4 - Product, Price, Place, Promotion"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Discuss the three main market coverage strategies that the young lady can adopt for her skin-care product.",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Market coverage strategies determine how many market segments a business will target.",
+                  "mainPoints": [
+                    {
+                      "heading": "Undifferentiated Marketing",
+                      "detail": "The company ignores market segment differences and goes after the whole market with one product offer. This saves costs but may not satisfy all customers."
+                    },
+                    {
+                      "heading": "Differentiated Marketing",
+                      "detail": "The company targets several market segments and designs separate offers for each. This increases sales but also increases costs, making it less suitable for a limited budget."
+                    },
+                    {
+                      "heading": "Concentrated Marketing (Niche Marketing)",
+                      "detail": "The company develops a marketing mix to appeal to a single market segment. This is ideal for small businesses with limited resources, allowing deep penetration in one segment."
+                    }
+                  ],
+                  "conclusion": "The young lady should choose the strategy that best fits her resources and target customer base.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.2.2 - Market Targeting"
+                }
+              },
+              {
+                "label": "D",
+                "question": "From the three main market coverage strategies outlined in question (c) above, recommend one that would be most suitable for the young entrepreneur's organic skincare line. Justify your recommendation.",
+                "marks": 2,
+                "commandWord": "Recommend",
+                "answer": {
+                  "introduction": "For a young entrepreneur with a limited marketing budget, the most suitable strategy is concentrated marketing (niche marketing).",
+                  "mainPoints": [
+                    {
+                      "heading": "Justification 1: Limited Budget",
+                      "detail": "Concentrated marketing allows her to focus all her limited resources on one specific segment (young professionals in urban Ghana) rather than spreading them thinly across many segments."
+                    },
+                    {
+                      "heading": "Justification 2: Easier to Differentiate",
+                      "detail": "By focusing on one niche, she can tailor her product, price, and promotion specifically to that group's needs — organic, natural, and professional packaging."
+                    },
+                    {
+                      "heading": "Justification 3: Less Competition",
+                      "detail": "Larger companies often overlook small niches, allowing her to establish a strong brand presence without competing directly with big brands."
+                    }
+                  ],
+                  "conclusion": "Concentrated marketing gives her the best chance to build a strong brand with limited resources.",
+                  "otherPossibleAnswers": "Differentiated marketing could work if she has slightly more resources.",
+                  "reference": "Unit 5, Session 4, 4.2.2 - Market Targeting"
+                }
+              },
+              {
+                "label": "E",
+                "question": "Discuss two personal methods she can use to promote her products effectively.",
+                "marks": 4,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Personal methods of promotion involve direct contact between the customer and a representative of the business.",
+                  "mainPoints": [
+                    {
+                      "heading": "Method 1: Direct Selling",
+                      "detail": "She can meet potential customers face-to-face at places where young professionals gather (e.g., wellness fairs, office events, farmers' markets). She can demonstrate the product, answer questions, and take orders directly."
+                    },
+                    {
+                      "heading": "Method 2: Retail Selling",
+                      "detail": "She can partner with small boutique shops or beauty salons in urban areas where her target customers already shop. She can provide samples and train shop staff to recommend her products."
+                    }
+                  ],
+                  "conclusion": "These personal methods build trust and allow her to explain the unique benefits of her organic products directly to customers.",
+                  "otherPossibleAnswers": "Exhibitions or trade shows: Rent a small booth at local beauty or wellness expos to showcase her organic skincare line. Telephone selling.",
+                  "reference": "Unit 5, Session 6, 6.2.1 - Personal methods of promotion"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
