@@ -102,7 +102,9 @@
           "question": "The 'halo effect' in performance appraisal occurs when a manager ______.",
           "options": [
             "A. allows personal biases like race or age to distort ratings",
-            "B. rates a subordinate high or low on all measures based on one characteristic"
+            "B. rates a subordinate high or low on all measures based on one characteristic",
+            "C. rates all over employees based on uniform, fair standard.",
+            "D. shifts their rating standards for different employees."
           ],
           "correctAnswer": "B",
           "explanation": "The halo effect is the tendency to rate subordinates high or low on all performance measures based on one of their characteristics (e.g., an employee who works late is rated high on everything).",
