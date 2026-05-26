@@ -1,0 +1,673 @@
+{
+  "subject": "Project Management",
+  "subjectCode": "SBU 405D",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Which of the following is not a feature of a project?",
+          "options": [
+            "A. Repetitive process",
+            "B. Temporal in nature",
+            "C. Unique deliverables",
+            "D. Defined beginning and end"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Projects are temporary and unique, with a defined start and end. A repetitive process is a feature of ongoing operations, not a project.",
+          "reference": "Unit 1, Session 1, 1.2 - Characteristic of a Project"
+        },
+        {
+          "type": "single",
+          "question": "A project is considered successful when it meets ______.",
+          "options": [
+            "A. only the budget",
+            "B. only the schedule",
+            "C. scope, time, cost and quality objectives",
+            "D. the expectations of the project team"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Project success involves balancing competing constraints, including scope, time, cost, and quality, to meet the project objectives. The provided text emphasizes the triple constraints (scope, cost, time) and mentions quality as an important modern constraint.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "What does it mean when a project is temporary? It ______.",
+          "options": [
+            "A. has a definite start and end date",
+            "B. lasts forever",
+            "C. is repeated continuously",
+            "D. does not require resources"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The temporary nature of a project indicates that it has a specific starting point and a specific ending point.",
+          "reference": "Unit 1, Session 1, 1.1 - What is Project"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best describes the uniqueness of a project?",
+          "options": [
+            "A. All projects follow the same process.",
+            "B. Each project has distinct objectives and deliverables.",
+            "C. Projects do not require planning.",
+            "D. Projects are routine operations."
+          ],
+          "correctAnswer": "B",
+          "explanation": "A project is undertaken to create a unique product, service, or result, meaning each project has distinct objectives and deliverables.",
+          "reference": "Unit 1, Session 1, 1.1 - What is Project"
+        },
+        {
+          "type": "single",
+          "question": "A project is different from operations because ______.",
+          "options": [
+            "A. a project is temporary, while operations are ongoing.",
+            "B. the project does not require management.",
+            "C. operations do not have any objectives.",
+            "D. operations are always unsuccessful."
+          ],
+          "correctAnswer": "A",
+          "explanation": "The fundamental difference is that a project is a temporary endeavor with a defined end, while operations are ongoing and repetitive.",
+          "reference": "Unit 1, Session 1, 1.1 - What is Project"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not considered a primary constraint in project management?",
+          "options": [
+            "A. Scope",
+            "B. Cost",
+            "C. Time",
+            "D. Motivation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The primary traditional constraints are time, cost, and scope, also known as the triple constraints. Motivation is an interpersonal skill, not a project constraint.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "The three primary constraints in project management are often referred to as the ______.",
+          "options": [
+            "A. Triple Constraint",
+            "B. Golden Triangle",
+            "C. Project Cycle",
+            "D. Management Pyramid"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The three most important traditional constraints of project management (time, cost, and scope) are commonly known as the triple constraints.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "If a project faces budget cuts, which constraint is directly affected?",
+          "options": [
+            "A. Scope",
+            "B. Cost",
+            "C. Time",
+            "D. Risk"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A budget cut directly reduces the amount of money available for the project, which is the cost constraint.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "If the project schedule is shortened, what is most likely to be impacted?",
+          "options": [
+            "A. Cost and scope",
+            "B. Risk only",
+            "C. Stakeholder interest",
+            "D. Project vision"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Shortening the schedule (time) often requires more resources or overtime, increasing cost, and may force a reduction in the project's scope to meet the new deadline.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is an additional constraint beyond the traditional triple constraint?",
+          "options": [
+            "A. Quality",
+            "B. Innovation",
+            "C. Leadership style",
+            "D. Market trends"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The text states that other constraints such as quality standards, resources, and risk have become an important concern in managing modern projects.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "When project requirements increase but the deadline remains the same, what is most likely to happen? The ______.",
+          "options": [
+            "A. project team will need additional resources",
+            "B. cost will decrease",
+            "C. quality of work will improve automatically",
+            "D. project will be completed ahead of schedule"
+          ],
+          "correctAnswer": "A",
+          "explanation": "An increase in scope (requirements) without a change in time will typically require more resources (people, materials) to complete the additional work within the same deadline.",
+          "reference": "Unit 1, Session 2, 2.4 - Constraints to project Management"
+        },
+        {
+          "type": "single",
+          "question": "In project management, resource constraints typically refer to limitations in ______.",
+          "options": [
+            "A. financial budget",
+            "B. manpower, materials, and equipment",
+            "C. project goals and vision",
+            "D. market competition"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Resources in a project context include labor, personnel, equipment, and materials. Constraints on these are resource constraints.",
+          "reference": "Unit 1, Session 1, 1.2 - Characteristic of a Project"
+        },
+        {
+          "type": "single",
+          "question": "What is the most common cause of project delays?",
+          "options": [
+            "A. Poor stakeholder engagement",
+            "B. Excessive budgeting",
+            "C. Early project completion",
+            "D. Lack of competition"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Based on the provided material, while not explicitly stated as \"most common,\" poor stakeholder engagement (like client-end delays or scope changes) is a significant and frequent cause of delays. The other options are not listed as causes.",
+          "reference": "Unit 1, Session 6, 6.3 - Causes of Project Delays"
+        },
+        {
+          "type": "single",
+          "question": "If a project is delayed due to a lack of necessary resources, which constraint is most directly affected?",
+          "options": [
+            "A. Scope",
+            "B. Quality",
+            "C. Cost",
+            "D. Time"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A lack of resources that causes a delay directly impacts the project's ability to meet its scheduled completion date, thus affecting the time constraint.",
+          "reference": "Unit 1, Session 6, 6.1 - Project Delays"
+        },
+        {
+          "type": "single",
+          "question": "How can project managers reduce the impact of delays?",
+          "options": [
+            "A. Ignoring stakeholder concerns",
+            "B. Increasing workload without proper planning",
+            "C. Implementing risk management strategies",
+            "D. Avoiding communication with the project team"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Implementing risk management strategies helps to identify potential delays early and develop response plans to mitigate their impact.",
+          "reference": "Unit 1, Session 6, (General principle of risk management for delays)"
+        },
+        {
+          "type": "single",
+          "question": "A delay in project approval from senior management is an example of what type of delay? ______ delay.",
+          "options": [
+            "A. Internal",
+            "B. External",
+            "C. Technical",
+            "D. Operational"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Senior management is part of the project's own organization. A delay caused by them is an internal delay, as opposed to an external one like a natural disaster.",
+          "reference": "Unit 1, Session 6, 6.2.2 - Excusable & Non-excusable Delays; 6.3.6 - Client-End Delays"
+        },
+        {
+          "type": "single",
+          "question": "What is a critical path in project management?",
+          "options": [
+            "A. The sequence of tasks that determines the minimum project duration",
+            "B. The list of all non-essential project tasks",
+            "C. A flexible schedule that allows for unlimited delays",
+            "D. A strategy to increase project costs"
+          ],
+          "correctAnswer": "A",
+          "explanation": "While not explicitly defined in the provided text, this is a standard project management definition. The concept of a \"critical delay\" (one that extends project duration) aligns with the idea of tasks on a critical path.",
+          "reference": "Unit 1, Session 6, 6.2.1 - Critical or Non-critical Delays"
+        },
+        {
+          "type": "single",
+          "question": "If a project faces unexpected regulatory approvals that delay progress, what type of risk is this? ______ risk.",
+          "options": [
+            "A. Financial",
+            "B. Political",
+            "C. Legal and compliance",
+            "D. Technological"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Unexpected regulatory approvals fall under legal and compliance risks, as they pertain to rules and laws set by governing bodies.",
+          "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk (Legislation, Unforeseen regulatory requirements)"
+        },
+        {
+          "type": "single",
+          "question": "What is the best strategy to manage delays caused by scope creep?",
+          "options": [
+            "A. Ignoring client requests",
+            "B. Implementing a strict change control process",
+            "C. Reducing the number of project team members",
+            "D. Eliminating the risk management plan"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A strict change control process ensures that all changes to scope are formally reviewed, approved, and their impacts on time and cost are assessed before implementation, preventing uncontrolled scope creep.",
+          "reference": "Unit 3, Session 3, 3.3 - Control Scope; Unit 5, Session 3, 3.2 - Perform Integrated Change Control"
+        },
+        {
+          "type": "single",
+          "question": "Obtaining information from prospective sellers on how project needs can be met is referred to as ______.",
+          "options": [
+            "A. procurement planning",
+            "B. project procurement",
+            "C. solicitation",
+            "D. source selection"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Solicitation involves obtaining information (bids and proposals) from prospective sellers on how project needs can be met.",
+          "reference": "Unit 2, Session 5, 5.2.3 - Solicitation"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "context": "The government of Ghana as part of its effort to boost health care in the country has embarked upon Agenda 111. The project is aimed at building hospitals in each district of Ghana. As a project consultant, you have been appointed to analyse the risk associated with the project and advise the government on the following:",
+            "subQuestions": [
+              {
+                "label": "a-i",
+                "question": "Examine five internal and external risks that might affect the project.",
+                "marks": 10,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "The Agenda 111 hospital construction project will face various internal and external risks that could impact its successful completion.",
+                  "mainPoints": [
+                    {
+                      "heading": "Internal Risk 1: Conflicting project priorities",
+                      "detail": "With 111 projects running simultaneously, there is a high risk of resource conflicts and unclear prioritization across districts, leading to delays and inefficiencies."
+                    },
+                    {
+                      "heading": "Internal Risk 2: Poor control of design changes",
+                      "detail": "As construction progresses, there may be requests for design alterations. Without strict control, these changes can cause cost overruns and significant delays."
+                    },
+                    {
+                      "heading": "Internal Risk 3: Unrealistic planning and scheduling",
+                      "detail": "The ambitious goal of building in every district may lead to overly optimistic timelines and plans that do not account for on-the-ground realities."
+                    },
+                    {
+                      "heading": "External Risk 1: Natural disasters",
+                      "detail": "Unpredictable events like floods or earthquakes in certain districts could physically damage construction sites and disrupt project schedules."
+                    },
+                    {
+                      "heading": "External Risk 2: Inflation and currency rate fluctuations",
+                      "detail": "The project spans several years, so increases in the cost of materials (inflation) or changes in exchange rates for imported goods could severely impact the project budget."
+                    }
+                  ],
+                  "conclusion": "Successfully managing these internal and external risks through proactive identification and response planning is critical for the project's success.",
+                  "otherPossibleAnswers": "Internal: No one person responsible for the total project; Problems with team members; Organization's resources are overcommitted. External: Unforeseen regulatory requirements; Social or political unrest in a district; Vandalism or sabotage.",
+                  "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk"
+                }
+              },
+              {
+                "label": "a-ii",
+                "question": "Evaluate two techniques that can be used to identify project risks.",
+                "marks": 6,
+                "commandWord": "Evaluate",
+                "answer": {
+                  "introduction": "Several techniques can be used to identify project risks, each with its own strengths. Two effective methods are brainstorming and expert judgment.",
+                  "mainPoints": [
+                    {
+                      "heading": "Brainstorming",
+                      "detail": "This is a preferred method because of its flexibility and capability to generate a wide and diverse range of risks. By bringing together the project team and stakeholders, many potential risks can be identified through creative and open discussion."
+                    },
+                    {
+                      "heading": "Expert Judgement",
+                      "detail": "This involves consulting individuals or groups with specialized knowledge or experience in similar projects. Their insights can uncover risks that may not be obvious to the project team, based on past lessons learned."
+                    }
+                  ],
+                  "conclusion": "Using a combination of techniques, like brainstorming for breadth and expert judgment for depth, provides a comprehensive list of potential project risks.",
+                  "otherPossibleAnswers": "Workshops, Interview questionnaires, Benchmarking, Past experience, Delphi technique, Site visits, Historical data analysis.",
+                  "reference": "Unit 6, Session 2, 2.3 - Risk Identification Methods"
+                }
+              },
+              {
+                "label": "b-i",
+                "question": "The project Agenda 111 has provided you with the following data on risk analysis:\n\n| Risk             | Probability | Severity |\n|------------------|-------------|----------|\n| Financial risk   | 0.1         | 0.6      |\n| Political risk   | 0.6         | 0.4      |\n| Technology       | 0.3         | 0.8      |\n\nCalculate the threshold of these risks.",
+                "marks": 2,
+                "commandWord": "Calculate",
+                "answer": {
+                  "introduction": "The risk threshold is calculated using the formula Risk (R) = Probability (P) * Severity (S).",
+                  "mainPoints": [
+                    {
+                      "heading": "Financial risk threshold",
+                      "detail": "Financial risk threshold = 0.1 * 0.6 = 0.06"
+                    },
+                    {
+                      "heading": "Political risk threshold",
+                      "detail": "Political risk threshold = 0.6 * 0.4 = 0.24"
+                    },
+                    {
+                      "heading": "Technology risk threshold",
+                      "detail": "Technology risk threshold = 0.3 * 0.8 = 0.24"
+                    }
+                  ],
+                  "conclusion": "The calculated risk thresholds are 0.06 for financial risk, and 0.24 for both political and technology risks.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 3, 4.1 - Risk Scoring Matrix"
+                }
+              },
+              {
+                "label": "b-ii",
+                "question": "Based on the answer in b(i) classify the risk into high, low and medium.",
+                "marks": 2,
+                "commandWord": "Classify",
+                "answer": {
+                  "introduction": "Based on the calculated thresholds and using the provided classification guide (< 0.30 = low, 0.30-0.70 = medium, > 0.70 = high), the risks can be classified.",
+                  "mainPoints": [
+                    {
+                      "heading": "Financial risk classification",
+                      "detail": "Financial risk with a threshold of 0.06 is classified as a Low risk."
+                    },
+                    {
+                      "heading": "Political risk classification",
+                      "detail": "Political risk with a threshold of 0.24 is classified as a Low risk."
+                    },
+                    {
+                      "heading": "Technology risk classification",
+                      "detail": "Technology risk with a threshold of 0.24 is classified as a Low risk."
+                    }
+                  ],
+                  "conclusion": "According to the given criteria, all three identified risks fall into the low-risk category.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 3, 4.1 - Risk Scoring Matrix"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "context": "The government of Ghana has promised to construct a STEM school in your community. As a project consultant, you have been asked to identify the stakeholders for the project and draw a plan for their engagement.",
+            "subQuestions": [
+              {
+                "label": "a-i",
+                "question": "Using the power interest grid, identify two stakeholders for each of the quadrants and justify their selection.",
+                "marks": 6,
+                "commandWord": "Identify and justify",
+                "answer": {
+                  "introduction": "The power/interest grid helps categorize stakeholders based on their level of authority (power) and their level of concern (interest) in the project's outcome.",
+                  "mainPoints": [
+                    {
+                      "heading": "High Power, High Interest (Manage Closely)",
+                      "detail": "1. The District Chief Executive (DCE), as they have the authority to allocate local resources and a high interest in the project's success for their district. 2. The Ministry of Education, as they provide funding and set the educational standards, giving them high power and a direct interest."
+                    },
+                    {
+                      "heading": "High Power, Low Interest (Keep Satisfied)",
+                      "detail": "1. The Regional Minister, who has authority over the region but may have many other projects and a lower direct interest in the daily details of this one school. 2. A major national contractor who has the power to influence the supply chain but may not be directly interested in the school's educational outcomes."
+                    },
+                    {
+                      "heading": "Low Power, High Interest (Keep Informed)",
+                      "detail": "1. Parents and teachers in the community, who have a high interest in the school's facilities for their children's education but have little direct power over the construction. 2. Local media, who are interested in reporting on the project's progress but have limited power to influence its execution."
+                    },
+                    {
+                      "heading": "Low Power, Low Interest (Monitor)",
+                      "detail": "1. The general public in a neighboring district, who have minimal interest and no power over this specific project. 2. Suppliers of generic office materials, who are interested only in a potential contract but have low power and interest in the project's overall success."
+                    }
+                  ],
+                  "conclusion": "This grid provides a clear framework for understanding stakeholder dynamics and planning appropriate engagement strategies.",
+                  "otherPossibleAnswers": "Examples may vary but should fit the quadrant logic.",
+                  "reference": "Unit 5, Session 5, 5.1.1 - Power and Interest Grid"
+                }
+              },
+              {
+                "label": "a-ii",
+                "question": "Explain how each of the stakeholders identified in each quadrant is to be managed. Your explanation should be supported with relevant examples.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The power/interest grid not only helps identify stakeholders but also prescribes how they should be managed to ensure their needs are met and their influence is used positively.",
+                  "mainPoints": [
+                    {
+                      "heading": "Manage Closely (High Power, High Interest)",
+                      "detail": "These stakeholders are key to the project's success and must be fully engaged. Example: The DCE should be given regular, detailed progress reports and be consulted on key decisions to ensure their continued support and resource allocation."
+                    },
+                    {
+                      "heading": "Keep Satisfied (High Power, Low Interest)",
+                      "detail": "These stakeholders have the power to block the project, so they need to be kept satisfied with high-level updates, but not overwhelmed with details. Example: The Regional Minister should receive periodic, concise summary reports to ensure they remain supportive without needing to be involved in day-to-day issues."
+                    },
+                    {
+                      "heading": "Keep Informed (Low Power, High Interest)",
+                      "detail": "These stakeholders are important advocates and can provide valuable feedback. Example: Parents and teachers should be informed through community meetings or newsletters about project milestones and completion dates, ensuring their concerns are addressed."
+                    },
+                    {
+                      "heading": "Monitor (Low Power, Low Interest)",
+                      "detail": "These stakeholders require minimal effort, but their status should be monitored in case their interest or power changes. Example: The general public can be monitored through occasional media scans, but no active, direct communication plan is needed."
+                    }
+                  ],
+                  "conclusion": "Tailoring the management approach to each quadrant ensures efficient use of the project manager's time and maximizes stakeholder support.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.1.1 - Power and Interest Grid"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Examine four outputs that would be achieved if the project managers of Agenda 111 perform integrated change control successfully.",
+                "marks": 8,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Performing integrated change control successfully ensures that all changes are managed in a coordinated way, leading to several key outputs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Approved Change Requests",
+                      "detail": "The primary output is that some change requests are formally approved. These approved changes will then be implemented through the Direct and Manage Project Work process."
+                    },
+                    {
+                      "heading": "Change Log",
+                      "detail": "A change log is created and updated to document all changes that occur during the project, including their impact on time, cost, and risk. Rejected change requests are also captured here for the record."
+                    },
+                    {
+                      "heading": "Project Management Plan Updates",
+                      "detail": "Elements of the project management plan that are subject to formal change control, such as the scope, schedule, or cost baselines, are updated to reflect the approved changes."
+                    },
+                    {
+                      "heading": "Project Documents Updates",
+                      "detail": "All other project documents that are specified as being subject to the formal change control process, like the requirements documentation, are updated accordingly."
+                    }
+                  ],
+                  "conclusion": "These outputs provide a clear, controlled, and documented trail of all changes, ensuring the project's baselines remain accurate and all stakeholders are informed.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 3, 3.2.1 - Perform Integrated Change Control outputs"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Examine four importance of project scope management.",
+                "marks": 6,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Project scope management is vital as it establishes a common understanding of the project's work and ensures the project stays on track.",
+                  "mainPoints": [
+                    {
+                      "heading": "Ensures Stakeholder Understanding",
+                      "detail": "Effective scope management ensures that stakeholders and team members alike understand the scope of the project while agreeing on how the project goals will be met."
+                    },
+                    {
+                      "heading": "Prevents Scope Creep",
+                      "detail": "Scope management helps avoid the challenges of a bloating scope by clearly setting out what is included and controlling what gets added or removed during execution."
+                    },
+                    {
+                      "heading": "Defines Exclusions",
+                      "detail": "It formally defines what is not part of the project, ensuring that work outside the project's boundaries is not inadvertently included."
+                    },
+                    {
+                      "heading": "Enables Accurate Estimations",
+                      "detail": "Without a defined project scope, the cost and time required for the project cannot be accurately estimated, as any change to scope directly affects the budget and schedule."
+                    }
+                  ],
+                  "conclusion": "In essence, scope management provides the foundation for all other project activities, enabling controlled execution and successful delivery.",
+                  "otherPossibleAnswers": "Provides verification procedures for completed work. Establishes control mechanisms for changes.",
+                  "reference": "Unit 3, Session 1, (Importance of project scope management)"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Examine four outputs achieved when a project manager validates the scope of the project.",
+                "marks": 4,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Validate Scope is the process of formalizing acceptance of the completed project deliverables, leading to specific outputs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Accepted Deliverables",
+                      "detail": "The primary output is that deliverables which meet the acceptance criteria are formally signed off and approved by the customer or sponsor."
+                    },
+                    {
+                      "heading": "Change Requests",
+                      "detail": "Deliverables that are not formally accepted are documented with reasons. These may require a change request for defect repair."
+                    }
+                  ],
+                  "conclusion": "The validation process ensures that work is formally accepted, or if not, a clear path for correction is established.",
+                  "otherPossibleAnswers": "Work performance information (though this is more for control, not validation). Project document updates (can occur but are not the primary focus).",
+                  "reference": "Unit 3, Session 3, 3.2 - Validate Scope"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Explain five guidelines that plan schedule management provides in project management.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Plan Schedule Management establishes the policies and procedures for developing, managing, and controlling the project schedule. It provides specific guidelines on several key matters.",
+                  "mainPoints": [
+                    {
+                      "heading": "Project schedule model development",
+                      "detail": "It specifies the scheduling methodology and the scheduling tool to be used for developing the project schedule model."
+                    },
+                    {
+                      "heading": "Level of accuracy",
+                      "detail": "It specifies the acceptable range used in determining realistic activity duration estimates, which may include an amount for contingencies."
+                    },
+                    {
+                      "heading": "Units of measurement",
+                      "detail": "It defines each unit used in measurements, such as staff hours for time or meters for quantity, for each of the resources."
+                    },
+                    {
+                      "heading": "Project schedule model maintenance",
+                      "detail": "It defines the process used to update the status and record progress of the project in the schedule model during execution."
+                    },
+                    {
+                      "heading": "Control thresholds",
+                      "detail": "It specifies variance thresholds for monitoring schedule performance, indicating the amount of variation allowed before corrective action is needed."
+                    }
+                  ],
+                  "conclusion": "These guidelines provide a clear roadmap for how the project schedule will be created, tracked, and controlled throughout the project lifecycle.",
+                  "otherPossibleAnswers": "It also addresses how to create the schedule, what tools to use, and how to manage variances.",
+                  "reference": "Unit 3, Session 5, 5.1 - plan schedule management"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "a",
+                "question": "Using relevant examples, explain what is project delay.",
+                "marks": 2,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "A project delay is the inability of a project team to complete all project activities within the estimated duration.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition",
+                      "detail": "Project delay is the failure to complete a project by its planned finish date."
+                    },
+                    {
+                      "heading": "Example",
+                      "detail": "If a construction project to build a hospital was scheduled to be completed in 24 months but takes 30 months, it is delayed by 6 months."
+                    }
+                  ],
+                  "conclusion": "Such delays manifest as a breach of the time constraint and can positively or negatively affect cost, scope, and quality.",
+                  "otherPossibleAnswers": "A delay can be a deliberate or indeliberate action.",
+                  "reference": "Unit 1, Session 6, 6.1 - Project Delays"
+                }
+              },
+              {
+                "label": "b",
+                "question": "Examine the types of project delays using relevant examples.",
+                "marks": 8,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Project delays can be classified into four main types based on their impact, controllability, and compensability.",
+                  "mainPoints": [
+                    {
+                      "heading": "Critical or Non-critical Delays",
+                      "detail": "A critical delay extends the project's overall duration. Example: A delay in pouring the foundation of a building pushes back the entire construction schedule. A non-critical delay does not extend the overall project. Example: Painting a room can be delayed without affecting the final move-in date if there is slack time."
+                    },
+                    {
+                      "heading": "Excusable or Non-excusable Delays",
+                      "detail": "An excusable delay is beyond the project team's control. Example: A flood delaying site work. A non-excusable delay is the project team's fault. Example: The project manager ordering steel beams too late."
+                    },
+                    {
+                      "heading": "Concurrent Delays",
+                      "detail": "This occurs when two or more delays happen at the same time. Example: A strike by workers happening at the same time as a delay in client approvals for a design change."
+                    },
+                    {
+                      "heading": "Compensable or Non-compensable Delays",
+                      "detail": "A compensable delay entitles the contractor to both a time extension and cost compensation. Example: The client asking for a major design change. A non-compensable delay is solely the contractor's fault. Example: The contractor using unskilled labor that slows down work."
+                    }
+                  ],
+                  "conclusion": "Understanding these classifications helps in assigning responsibility and determining the appropriate contractual remedies for project delays.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 6, 6.2 - Types of Delays in Projects"
+                }
+              },
+              {
+                "label": "c",
+                "question": "Analyse five causes of project delays. Your answer must reflect relevant examples.",
+                "marks": 10,
+                "commandWord": "Analyse",
+                "answer": {
+                  "introduction": "Project delays can stem from various sources, ranging from planning errors to external factors.",
+                  "mainPoints": [
+                    {
+                      "heading": "Design Errors",
+                      "detail": "Errors in project design lead to wrong application of techniques and the need for change orders. Example: An architect's error in a hospital's foundation design requires excavation to be redone, causing a significant delay."
+                    },
+                    {
+                      "heading": "Scope Change",
+                      "detail": "Any change in project scope during execution forces a review of the entire project plan. Example: The government deciding to add an extra wing to the STEM school after construction has started will delay the project while new plans and budgets are approved."
+                    },
+                    {
+                      "heading": "Subcontractor and Consultant Delays",
+                      "detail": "Delays caused by the inability of subcontractors to complete their work on time. Example: An electrical subcontractor for the hospital fails to show up on schedule, holding up the subsequent plastering work."
+                    },
+                    {
+                      "heading": "Shipping and Supply Delays",
+                      "detail": "Delays resulting from late delivery of required materials. Example: A shipment of specialized medical equipment for the hospital is held up at the port, delaying its installation."
+                    },
+                    {
+                      "heading": "Client-End Delays",
+                      "detail": "Delays resulting from client dissatisfaction or a client changing their mind. Example: The community representatives request a change in the school's roofing material after it has been ordered, causing a delay while the new material is sourced."
+                    }
+                  ],
+                  "conclusion": "Identifying these potential causes early can help in developing proactive mitigation strategies to keep the project on schedule.",
+                  "otherPossibleAnswers": "Inappropriate procurement and faulty contractual management. Climate Delays. Complexity of the project. Post Execution Phase (Closure) issues.",
+                  "reference": "Unit 1, Session 6, 6.3 - Causes of Project Delays"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

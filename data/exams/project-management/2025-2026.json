@@ -1,0 +1,517 @@
+{
+  "subject": "Project Management",
+  "subjectCode": "SBU 405D",
+  "academicYear": "2025/2026",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Which of the following best captures the functional relationship between risk elements in project systems when detection is incorporated?",
+          "options": [
+            "A. R = P + S + D",
+            "B. R = P x (S + D)",
+            "C. RPN = P x S x D",
+            "D. R = (P x S) + D"
+          ],
+          "correctAnswer": "C",
+          "explanation": "When detection is included, the Risk Priority Number (RPN) is calculated as Probability × Severity × Detection. The inclusion of the third factor \"detection\" has been well accepted in systems like projects, and the RPN is used to define risk.",
+          "reference": "Unit 6, Session 1, 1.2.1 - Elements of risk"
+        },
+        {
+          "type": "single",
+          "question": "A project manager is primarily concerned with ensuring interdependencies across knowledge areas are optimally aligned. Which process is MOST directly responsible?",
+          "options": [
+            "A. Monitor and Control Project Work",
+            "B. Perform Integrated Change Control",
+            "C. Project Integration Management",
+            "D. Stakeholder Engagement Planning"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Project Integration Management is the process that identifies, defines, combines, unifies, and coordinates all the various processes and project management activities across knowledge areas.",
+          "reference": "Unit 5, Session 1, 1.1 - The Project Integration Management Process or Activities"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following BEST distinguishes coconut uncertainty from subway uncertainty in project risk classification?",
+          "options": [
+            "A. Coconut uncertainty is predictable but unmeasurable",
+            "B. Subway uncertainty is unquantifiable and rare",
+            "C. Coconut uncertainty involves events that cannot be modeled or anticipated",
+            "D. Subway uncertainty involves rare catastrophic events"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Subway uncertainty can be modeled and reasonably incorporated in probabilistic predictions, while coconut uncertainty pertains to events that cannot be modeled, and also to rare and unique events that are simply hard to envision.",
+          "reference": "Unit 6, Session 1, 1.2.2 - Project Risk vs Uncertainties"
+        },
+        {
+          "type": "single",
+          "question": "In the development of a Project Management Plan (PMP), which input ensures alignment with organizational standards and procedures?",
+          "options": [
+            "A. Project Charter",
+            "B. Outputs from other processes",
+            "C. Organisational Process Assets",
+            "D. Business Case"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Organizational Process Assets include standardized guidelines, work instructions, change control procedures, and performance measurement criteria that establish the official baseline for organizational standards and policies.",
+          "reference": "Unit 5, Session 2, 2.2 - Develop Project Management Plan (PMP)"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following scenarios BEST reflects a risk transfer strategy?",
+          "options": [
+            "A. Redesigning a process to eliminate hazards",
+            "B. Sharing project cost with partners",
+            "C. Accepting unavoidable natural disaster risks",
+            "D. Purchasing insurance to cover financial loss exposure"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Risk transfer strategy is employed when risk is beyond the project management's control. Insurance policies are specifically mentioned as a method of risk transfer.",
+          "reference": "Unit 6, Session 4, 4.3.2 - Transfer"
+        },
+        {
+          "type": "single",
+          "question": "A project team updates the risk register continuously. Which of the following justifies this requirement MOST accurately? Risks ______.",
+          "options": [
+            "A. are static but documentation evolves",
+            "B. are time-dependent, response-dependent, and progress-dependent",
+            "C. identification is only required at project initiation",
+            "D. analysis eliminates the need for updates"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Some risks are inherently unknowable, time-dependent, progress-dependent, and response-dependent (i.e., secondary risks), which justifies continuous updates to the risk register throughout the project lifecycle.",
+          "reference": "Unit 6, Session 2, 2.2 - Project Risk Identification"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best explains the primary benefit of stakeholder engagement in risk management? It ______.",
+          "options": [
+            "A. eliminates all project uncertainties",
+            "B. reduces project costs entirely",
+            "C. uncovers hidden risks through diverse stakeholder perspectives",
+            "D. transfers all risks to external actors"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Stakeholder engagement helps with reducing and uncovering risk: the more you engage stakeholders, the more you will reduce and uncover risks on your project.",
+          "reference": "Unit 5, Session 4, 4.2 - Importance of Stakeholder Management"
+        },
+        {
+          "type": "single",
+          "question": "During project execution, raw observations collected from activities are categorized as ______.",
+          "options": [
+            "A. work performance reports",
+            "B. deliverables",
+            "C. change requests",
+            "D. work performance Data"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Work performance data are the raw observations and measurements identified during activities being performed to carry out the project work. Data are often viewed as the lowest level of detail.",
+          "reference": "Unit 5, Session 2, 2.3.1 - Work Performance Data"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best represents a core function of human resource management in projects?",
+          "options": [
+            "A. Eliminating project risks",
+            "B. Designing financial budgets",
+            "C. Planning, organizing, directing, and controlling the project workforce",
+            "D. Conducting stakeholder analysis"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The role of human resource management is to plan, organize, direct and control the labour force of a project to enable smooth interaction among themselves and other resources.",
+          "reference": "Unit 4, Session 1, 4.1 - Introduction"
+        },
+        {
+          "type": "single",
+          "question": "A project experiences conflict due to resource scarcity and scheduling priorities. Which resolution technique focuses on collaborative problem-solving?",
+          "options": [
+            "A. Withdraw/Avoid",
+            "B. Force/Direct",
+            "C. Smooth/Accommodate",
+            "D. Collaborate/Problem Solve"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Collaboration is a total membership approach to conflict resolution where the parties value their own goals and relationships and view conflicts as problems to be solved.",
+          "reference": "Unit 1, Session 4, 4.3.5 - Collaboration"
+        },
+        {
+          "type": "single",
+          "question": "In project management, termination by addition, as a distinct form of project closure, specifically involves which of the following outcomes?",
+          "options": [
+            "A. The project is halted due to budget cuts, but documentation is retained for potential future reactivation.",
+            "B. The project team is reabsorbed into existing functional departments to perform different duties.",
+            "C. A decision is made not to disband a very successful project, and instead a new operating group is created from the project organization.",
+            "D. The project concludes unsuccessfully, leading to an audit of the final budget and the dispersal of material assets."
+          ],
+          "correctAnswer": "C",
+          "explanation": "Termination by addition occurs when the project organization decides not to disband a very successful project but instead create a new operating group out of the project organization.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
+        },
+        {
+          "type": "single",
+          "question": "In the context of project scope management challenges, \"transience\" leads to \"scope creep,\" which is identified as the primary cause of late deliveries. How does the text explicitly advise avoiding this specific issue?",
+          "options": [
+            "A. By ensuring the scope document is shared with all stakeholders at every step of the definition process to prevent misinterpretations.",
+            "B. By requiring that the scope be clearly defined and to the point to prevent unnecessary work and confusion.",
+            "C. By ensuring the scope is complete and accurate to prevent schedule slips and cost overruns.",
+            "D. By requiring that the scope document be finalized and remain unaltered for the duration of the project."
+          ],
+          "correctAnswer": "D",
+          "explanation": "For transience, the text advises: \"To avoid this, the scope document needs to be finalized and remain unaltered for the duration of the project.\"",
+          "reference": "Unit 3, Session 1 - Common problems associated with project scope management"
+        },
+        {
+          "type": "single",
+          "question": "Which is an accurate distinction between the outputs of the \"Define Activities\" process regarding milestones and other schedule activities?",
+          "options": [
+            "A. Milestones are identical to regular schedule activities but are distinguished only by having a higher priority for resource allocation.",
+            "B. Milestones have the same structure and attributes as regular schedule activities, including durations, but are used to mark significant events.",
+            "C. Milestones are similar to regular schedule activities with the same structure and attributes, but they have zero duration because they represent a moment in time.",
+            "D. Milestones are fundamentally different as they lack attributes like identifiers or descriptions, serving only as obligatory contractual deadlines."
+          ],
+          "correctAnswer": "C",
+          "explanation": "Milestones are similar to regular schedule activities, with the same structure and attributes, but they have zero duration because milestones represent a moment in time.",
+          "reference": "Unit 3, Session 5, 5.2 - Define activities"
+        },
+        {
+          "type": "single",
+          "question": "The Unit 2 reading describes multiple classifications of project cost. Which scenario best exemplifies the application of an \"expedited cost\" as distinguished from a \"normal cost\"?",
+          "options": [
+            "A. The planned, routine expense of leasing capital equipment as outlined in the original project budget.",
+            "B. The continuous expenditure on raw materials that fluctuates based on the project's consumption rate each month.",
+            "C. The unplanned expenditure for overtime and hiring additional temporary workers to regain lost time after a schedule delay.",
+            "D. The one-time charge for preliminary marketing analysis conducted at the project's initiation phase."
+          ],
+          "correctAnswer": "C",
+          "explanation": "Expedited costs are unplanned costs incurred when steps are taken to speed up the project's completion. Examples include project activity crashing costs such as overtime and hiring additional temporary workers.",
+          "reference": "Unit 2, Session 2, 2.1.8 - Expedited costs"
+        },
+        {
+          "type": "single",
+          "question": "Within the project procurement process, the stage of \"solicitation\" is distinctly characterized by which primary activity and participant dynamic?",
+          "options": [
+            "A. Obtaining information from prospective sellers, where most of the actual effort is expended by the sellers, normally at no cost to the project.",
+            "B. Identifying which project needs can be best met externally, involving consideration of whether to procure and what contract type to select.",
+            "C. Using a standard criteria to evaluate all bids, where proposals are often separated into technical and commercial sections for scoring.",
+            "D. Ensuring the supplier's performance meets contractual requirements, integrating processes like quality control and change control."
+          ],
+          "correctAnswer": "A",
+          "explanation": "Solicitation involves obtaining information (bids and proposals) from prospective sellers on how project needs can be met. Most of the actual effort in this process is expended by the prospective sellers, normally at no cost to the project.",
+          "reference": "Unit 2, Session 5, 5.2.3 - Solicitation"
+        },
+        {
+          "type": "single",
+          "question": "There are several types of conflict resolution approaches. In the \"accommodation\" approach, what is the underlying belief of the parties involved that drives their behavior?",
+          "options": [
+            "A. Relationships are most important and goals are of little importance, so conflicts should be avoided in favor of harmony.",
+            "B. Conflicts are problems to be solved to improve relationships by reducing tension and seeking mutually satisfying solutions.",
+            "C. It is easier to withdraw than face conflict, as the situation is hopeless and personal goals and relationships must be given up.",
+            "D. Winning provides a sense of pride, achieved by attacking and intimidating opponents with no concern for the relationship."
+          ],
+          "correctAnswer": "A",
+          "explanation": "For accommodation, the parties think relationships are most important and goals are of little importance. They believe conflicts should be avoided in favour of harmony and want to be accepted and liked by other people.",
+          "reference": "Unit 1, Session 4, 4.3.2 - Accommodation"
+        },
+        {
+          "type": "single",
+          "question": "According to the Unit 3 section on \"Estimate Activity Durations,\" what is the key benefit that this process provides, and what is its specific role in relation to another process?",
+          "options": [
+            "A. It identifies the type and characteristics of resources required, which allows for more accurate cost estimates rather than duration estimates.",
+            "B. It provides the amount of time each activity will take to complete, which is a major input into the \"Develop Schedule\" process.",
+            "C. It provides a structured vision of what has to be delivered by subdividing project deliverables into smaller components.",
+            "D. It generates a schedule model with planned dates for completing project activities based on logical relationships and constraints."
+          ],
+          "correctAnswer": "B",
+          "explanation": "The key benefit of this process is that it provides the amount of time each activity will take to complete, which is a major input into the Develop Schedule process.",
+          "reference": "Unit 3, Session 6, 6.1 - Estimate activity duration"
+        },
+        {
+          "type": "single",
+          "question": "In the context of project delays, a \"non-critical delay\" is differentiated from a \"critical delay\" specifically by its impact on which two project elements?",
+          "options": [
+            "A. It is responsible for extending project duration, leading to liquidated damages and idle equipment costs.",
+            "B. It results from the project team having no control (e.g., force majeure) and entitles them to a time extension.",
+            "C. It does not cause the project duration to be extended, however, it will have an effect in terms of activities getting completed later than scheduled, affecting cost estimates via idle labor and material cost escalation.",
+            "D. It occurs when the project manager is solely at fault, bearing the risk of cost consequences and liability for damages."
+          ],
+          "correctAnswer": "C",
+          "explanation": "A non-critical delay does not cause the project duration to be extended, however, it will have an effect in terms of activities getting completed later than scheduled, affecting project cost estimates in the form of idle labour and equipment cost, and labour and material cost escalation.",
+          "reference": "Unit 1, Session 6, 6.2.1 - Critical or Non-critical Delays"
+        },
+        {
+          "type": "single",
+          "question": "The text describes that the \"Define Scope\" process selects final project requirements from the requirements documentation. What crucial and non-intuitive element does the detailed project scope statement explicitly include to manage stakeholder expectations?",
+          "options": [
+            "A. Project exclusion, which generally identifies what is excluded from the project by explicitly stating what is out of scope.",
+            "B. A requirements traceability matrix that links each requirement to its origin and deliverable.",
+            "C. A hierarchical decomposition of the total scope of work known as the Work Breakdown Structure (WBS).",
+            "D. A separate log documenting all validated assumptions and their potential impact if false."
+          ],
+          "correctAnswer": "A",
+          "explanation": "The project scope statement may contain explicit scope exclusions that can assist in managing stakeholder expectations. This is non-intuitive because people naturally focus on what is included, not what is excluded.",
+          "reference": "Unit 3, Session 2, 2.3 - Define Scope"
+        },
+        {
+          "type": "single",
+          "question": "According to the text on procurement risk management, \"disruption risks\" are distinct from \"unreliable yield\" risks in that disruption risks primarily arise from an inability to supply the right quantity at the right time, while unreliable yield stems from different sources. What is the specific primary mitigation strategy mentioned for \"disruption risks\"?",
+          "options": [
+            "A. Using financial products, such as options and futures, to mitigate demand uncertainty.",
+            "B. Developing a flexible buyer-supplier relationship or adopting financial hedging to reduce price uncertainty.",
+            "C. Collaborating closely with the single supplier to improve their production capability and product requirement adherence.",
+            "D. Configuring the supply base with backup suppliers, though finding the optimal number of suppliers is important due to higher costs."
+          ],
+          "correctAnswer": "D",
+          "explanation": "For disruption risks, a buyer mostly configures the supply base with backup suppliers. However, a larger number of suppliers may result in higher cost, so it is important to find the optimal number of suppliers.",
+          "reference": "Unit 2, Session 6, 6.2.5 - Disruption risks"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "List the next three project time management processes that must be performed after \"Define Activities\" and before \"Develop Schedule.\" For each process, state one important output mentioned in the text.",
+                "marks": 12,
+                "commandWord": "List and State",
+                "answer": {
+                  "introduction": "After defining activities, the next three processes before developing the schedule are Sequence Activities, Estimate Activity Resources, and Estimate Activity Durations.",
+                  "mainPoints": [
+                    {
+                      "heading": "Sequence Activities",
+                      "detail": "The process of identifying and documenting relationships among project activities. One important output is a Project Schedule Network Diagram — a graphical representation of the logical relationships among activities."
+                    },
+                    {
+                      "heading": "Estimate Activity Resources",
+                      "detail": "The process of estimating the type and quantities of material, human resources, equipment, or supplies required for each activity. One important output is Activity Resource Requirements — identifying the types and quantities of resources needed for each activity."
+                    },
+                    {
+                      "heading": "Estimate Activity Durations",
+                      "detail": "The process of quantifying the amount of time each activity is anticipated to take to complete. One important output is Activity Duration Estimates — quantitative assessments of the likely number of time periods required to complete each activity."
+                    }
+                  ],
+                  "conclusion": "These three processes must be completed in this order to provide the necessary inputs for developing the final project schedule.",
+                  "otherPossibleAnswers": "Sequence Activities output: Project documents update. Estimate Activity Resources output: Resource breakdown structure.",
+                  "reference": "Unit 3, Session 5, 5.3 - Sequence Activities; 5.4 - Estimate Activity Resource; Session 6, 6.1 - Estimate activity duration"
+                }
+              },
+              {
+                "label": "B",
+                "question": "What is the difference between an excusable delay and a non-excusable delay? Provide one example of each from the text. Then, state whether the earthquake delay is excusable or non-excusable, and explain why.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Excusable and non-excusable delays are distinguished by who is responsible for the delay and whether the project team had control over it.",
+                  "mainPoints": [
+                    {
+                      "heading": "Excusable Delay",
+                      "detail": "A delay the project team has no control over. The team is usually entitled to an extension of time or compensation. Example from text: natural calamities, political/social unrest, terrorist attacks, or delays caused by the client (e.g., approvals or decisions)."
+                    },
+                    {
+                      "heading": "Non-Excusable Delay",
+                      "detail": "A delay for which the project manager is fully responsible. The project manager or organization bears the risk of cost consequences. Example from text: delayed mobilization, delayed procurement, or delayed submission of important documents."
+                    },
+                    {
+                      "heading": "Classification of the Earthquake Delay",
+                      "detail": "The earthquake delay is an excusable delay. The text explicitly lists natural calamities as a cause of excusable delay. An earthquake is a natural disaster that the project team has no control over and could not have prevented."
+                    }
+                  ],
+                  "conclusion": "Because the earthquake is a natural event outside the project team's control, it qualifies as an excusable delay, potentially entitling the project to a time extension.",
+                  "otherPossibleAnswers": "Excusable delay examples: force majeure clause, client delay on approvals. Non-excusable delay examples: planning and scheduling errors, critical events not highlighted to the client on time.",
+                  "reference": "Unit 1, Session 6, 6.2.2 - Excusable and Non-excusable Delays"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Name two internal sources of project funding and two external sources of project funding. Is retained profits an internal or external source?",
+                "marks": 10,
+                "commandWord": "Name",
+                "answer": {
+                  "introduction": "Project funding sources are categorized as internal (from within the organization) or external (from outside the organization).",
+                  "mainPoints": [
+                    {
+                      "heading": "Internal Source 1: Retained Profits",
+                      "detail": "Money the company kept instead of distributing to shareholders as dividends. It is the most significant source of equity finance from within the organization."
+                    },
+                    {
+                      "heading": "Internal Source 2: Reserves",
+                      "detail": "Funds already allocated to operational or capital expenditure from departmental budgets or approved by the executive board for major changes."
+                    },
+                    {
+                      "heading": "External Source 1: Bank Loans",
+                      "detail": "Borrowing money from a bank that must be repaid with interest over a pre-agreed period. This is a common form of debt financing."
+                    },
+                    {
+                      "heading": "External Source 2: Venture Capital",
+                      "detail": "Venture capitalists provide funds to companies in exchange for an equity share and strategic involvement in the project or business."
+                    },
+                    {
+                      "heading": "Classification of Retained Profits",
+                      "detail": "Retained profits is an internal source of project funding because it comes from within the organization's own accumulated earnings, not from outside lenders or investors."
+                    }
+                  ],
+                  "conclusion": "Understanding whether a funding source is internal or external helps in planning financial strategy and managing stakeholder expectations appropriately.",
+                  "otherPossibleAnswers": "Internal source: Share capital (rights issue to existing shareholders). External source: Business angels, debentures, sale and leaseback.",
+                  "reference": "Unit 2, Session 4, 4.1.1 - Internal Sources of Project Funding; 4.1.2 - External Sources of Project Funding; 4.3.6 - Retained Profits"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Identify the two procurement risks mentioned in the scenario (vague price information and uncertain lead time). For each risk, describe one specific way the text suggests to reduce or manage that risk.",
+                "marks": 10,
+                "commandWord": "Identify and Describe",
+                "answer": {
+                  "introduction": "The two procurement risks in the scenario are vague price information (cement prices change often) and uncertain lead time (supplier may not deliver on time).",
+                  "mainPoints": [
+                    {
+                      "heading": "Risk 1: Vague Price Information",
+                      "detail": "The price of materials is not stable in the market, meaning different purchasing times lead to different prices and cost unpredictability. How to manage: Develop a flexible buyer-supplier relationship to reduce price uncertainty, or adopt financial hedging instruments."
+                    },
+                    {
+                      "heading": "Risk 2: Uncertain Lead Time",
+                      "detail": "The time between placing an order and receiving the goods is unpredictable. This increases total cost and reduces customer service level. How to manage: Control lead time uncertainty by deciding the optimal ordering time and using a backup supply channel."
+                    }
+                  ],
+                  "conclusion": "By using flexible supplier relationships and backup supply channels, the project manager can significantly reduce the impact of price and lead time uncertainties on the construction project.",
+                  "otherPossibleAnswers": "For vague price information: use financial products like options and futures. For uncertain lead time: find the optimal ordering time to minimise exposure.",
+                  "reference": "Unit 2, Session 6, 6.2.2 - Vague price information; 6.2.4 - Uncertain lead time"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss how project integration management, stakeholder management, and risk management can be jointly applied to improve the project's performance and ensure successful delivery.",
+                "marks": 15,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "To save a struggling infrastructure project, the project manager must apply integration, stakeholder, and risk management together as connected systems, not separate activities.",
+                  "mainPoints": [
+                    {
+                      "heading": "Integration Management as the Glue",
+                      "detail": "Integration management coordinates all parts of the project. The project manager should develop a solid Project Management Plan (PMP) that combines all subsidiary plans. When regulatory changes occur, the Perform Integrated Change Control process ensures every change is formally reviewed and approved before action is taken."
+                    },
+                    {
+                      "heading": "Stakeholder Management to Fix Communication and Conflicts",
+                      "detail": "First, identify all stakeholders (government, contractors, local community) using a Power/Interest Grid. Then, plan engagement strategies — manage high-power stakeholders closely, keep high-interest ones informed. This addresses unclear communication channels and conflicting interests by tailoring messages to each group's needs."
+                    },
+                    {
+                      "heading": "Risk Management to Handle Emerging Risks",
+                      "detail": "Establish the risk context first, then continuously identify new risks from regulatory changes. Update the risk register throughout the project. Analyze each risk using Risk = Probability × Severity. For high risks, apply response strategies like avoidance (change the plan) or mitigation (reduce impact)."
+                    },
+                    {
+                      "heading": "How They Work Together",
+                      "detail": "The risk register feeds into the PMP through integration management. Stakeholder input helps identify risks the team might miss (uncovering hidden risks). Change control (integration) manages approved risk responses. Clear communication (stakeholder management) ensures everyone knows their role in risk response."
+                    }
+                  ],
+                  "conclusion": "By using integration management as the backbone, stakeholder engagement to improve communication, and risk management to handle uncertainties, the project manager can turn the project toward successful delivery.",
+                  "otherPossibleAnswers": "Use Monitor and Control Project Work to track all three areas simultaneously. Lessons learned from risk and stakeholder issues should be documented for future project phases.",
+                  "reference": "Unit 5, Session 1 - Integration Management; Unit 5, Session 4 - Stakeholder Management; Unit 6, Sessions 1-5 - Risk Management"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain how a Project Charter and Risk Register contribute to aligning project objectives with stakeholder expectations.",
+                "marks": 5,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The Project Charter and Risk Register are key documents that connect what the project aims to do with what stakeholders expect.",
+                  "mainPoints": [
+                    {
+                      "heading": "Project Charter",
+                      "detail": "This document formally authorizes the project and states the project objectives, scope, and key stakeholders. By getting stakeholders to agree to the charter at the start, everyone understands and commits to the same goals, preventing later misunderstandings."
+                    },
+                    {
+                      "heading": "Risk Register",
+                      "detail": "This document lists all identified risks, their likelihood, impact, and response plans. When stakeholders see their concerns recorded and managed in the risk register, they trust that the project is taking their interests seriously, aligning their expectations with project reality."
+                    }
+                  ],
+                  "conclusion": "Together, the Charter sets the agreed direction, and the Risk Register shows stakeholders that potential threats to their interests are being actively managed.",
+                  "otherPossibleAnswers": "The Project Charter gives the project manager authority, which helps when negotiating with stakeholders. The Risk Register includes risk owners, showing clear accountability.",
+                  "reference": "Unit 5, Session 2, 2.1 - Develop Project Charter; Unit 6, Session 2, 2.4 - Developing Risk Register"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Critically examine how human resource management, communication management, and risk response strategies can be integrated to enhance team performance and project outcomes.",
+                "marks": 15,
+                "commandWord": "Critically Examine",
+                "answer": {
+                  "introduction": "To fix a struggling multinational team, human resource management, communication management, and risk response strategies must work together, not in isolation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Human Resource Management to Build the Team",
+                      "detail": "Use the Tuckman model to guide team development. A culturally diverse team is likely in the Storming phase. The project manager should apply team-building activities, clarify roles, and build trust. Apply interpersonal skills like leadership, motivation, and conflict management using the Collaborate/Problem Solve technique."
+                    },
+                    {
+                      "heading": "Communication Management to Fix Poor Communication",
+                      "detail": "Create a formal Communication Management Plan specifying what information to share, who gets it, what format to use (simple language for non-native speakers), and how often. Use the communication model (sender encodes → chooses channel → receiver decodes → gives feedback) to reduce misunderstandings across cultures."
+                    },
+                    {
+                      "heading": "Risk Response Strategies to Handle Emerging Risks",
+                      "detail": "Because of weak coordination, risks are being missed. Use brainstorming and expert judgment to identify risks from cultural misunderstandings (e.g., different work ethics, language barriers). Apply: Mitigation (cross-cultural training), Avoidance (standard templates to reduce interpretation errors), or Transfer (hire local liaisons to manage specific cultural risks)."
+                    },
+                    {
+                      "heading": "How They Integrate",
+                      "detail": "HR builds the team's capability. Communication ensures information flows correctly. Risk response anticipates and prevents problems before they hurt performance. For example, HR hires a cultural trainer (mitigation). Communication creates clear reporting channels. Risk management updates the register when new cultural issues arise."
+                    }
+                  ],
+                  "conclusion": "By integrating HR (building the team), communication (sharing information), and risk response (preventing problems), the project manager can turn a struggling multicultural team into a high-performing unit.",
+                  "otherPossibleAnswers": "Performance appraisals (HR) can include communication effectiveness as a metric. Issue log (communication) can track recurring problems that eventually become risks.",
+                  "reference": "Unit 4, Sessions 1-3 - Human Resource Management; Unit 4, Sessions 4-6 - Communication Management; Unit 6, Sessions 4-5 - Risk Response"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Describe the role of the communication model (sender-receiver process) in reducing misunderstandings within project teams.",
+                "marks": 5,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "The communication model shows how a message travels from a sender to a receiver, and it helps reduce misunderstandings by identifying exactly where problems can occur.",
+                  "mainPoints": [
+                    {
+                      "heading": "The Process",
+                      "detail": "The sender encodes a thought into words or images, transmits it through a channel (email, meeting, phone), the receiver decodes it, and then sends feedback to confirm understanding."
+                    },
+                    {
+                      "heading": "Where Misunderstandings Happen",
+                      "detail": "Problems can occur at encoding (choosing wrong words), channel (using email for urgent news), or decoding (interpreting meaning differently). Noise like distance, technology failure, or cultural differences can also distort the message."
+                    },
+                    {
+                      "heading": "How the Model Helps",
+                      "detail": "By understanding this model, project managers can choose the right channel for each message, ask for feedback to confirm understanding, and be aware of potential noise — especially important for multinational teams."
+                    }
+                  ],
+                  "conclusion": "Using the communication model intentionally reduces misunderstandings because both sender and receiver actively work to ensure the message was correctly understood, not just sent.",
+                  "otherPossibleAnswers": "Acknowledgment (confirming receipt) is different from feedback (confirming understanding). Good listeners use techniques like nodding, leaning forward, and sharing positive comments.",
+                  "reference": "Unit 4, Session 4, 4.1 - The Communication Model"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

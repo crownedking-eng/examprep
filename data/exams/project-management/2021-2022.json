@@ -1,0 +1,571 @@
+{
+  "subject": "Project Management",
+  "subjectCode": "SBU 405D",
+  "academicYear": "2021/2022",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The document that formally authorizes the existence of a project and provides the project manager with the authority to apply organisational resources to project activities is referred to as ______.",
+          "options": [
+            "A. Project charter",
+            "B. Project management plan",
+            "C. Directing and controlling projects",
+            "D. Project integrated change"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The project charter is defined as a document that formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources.",
+          "reference": "Unit 5, Session 2, 2.1 - Develop Project Charter"
+        },
+        {
+          "type": "single",
+          "question": "Any unique and verifiable product or the result of the capability to perform a service that is required to complete a process, phase or project is called ______.",
+          "options": [
+            "A. Project outcome",
+            "B. Project Deliverables",
+            "C. Project service delivery",
+            "D. project execution"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A deliverable is defined as any unique and verifiable product, result, or capability to perform a service that is required to be produced to complete a process, phase, or project.",
+          "reference": "Unit 5, Session 2, 2.3.1 - Deliverables"
+        },
+        {
+          "type": "single",
+          "question": "The power, urgency and legitimacy grid are also referred to as ______.",
+          "options": [
+            "A. Influence and impact grid",
+            "B. Salience model",
+            "C. Stakeholder management grid",
+            "D. Stakeholder model"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The model that uses power, urgency, and legitimacy to classify stakeholders is known as the Salience model.",
+          "reference": "Unit 5, Session 5, 5.1.1 - Power, Urgency, and Legitimacy Grid"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following environmental factors impacts project management and outcomes?\nI. Operational\nII. Cultural\nIII. Ecological\nIV. Psychological",
+          "options": [
+            "A. I only",
+            "B. I and II only",
+            "C. II, III and IV only",
+            "D. I, II, III and IV"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The project environment encompasses numerous dynamic factors, including Operational, Physical, Ecological, Social, Cultural, Economical, Psychological, Financial, and Organizational.",
+          "reference": "Unit 6, Session 1, 1.1 - Project Environment"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not considered an internal source of risk?",
+          "options": [
+            "A. Market or operational risk",
+            "B. Poor understanding of the project manager's job",
+            "C. Poorly organized project office",
+            "D. Unrealistic planning and scheduling"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Market or operational risk is listed as an external risk. The other options are all listed as examples of internal risks.",
+          "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk"
+        },
+        {
+          "type": "single",
+          "question": "The project risk management framework consists of six phases, which of the following best arranges the phases in chronological order?\nI. Establish the context\nII. Risk analysis\nIII. Risk identification\nIV. Risk monitoring and control\nV. Risk response planning",
+          "options": [
+            "A. I, III, II, V and IV",
+            "B. II, I, III, V and IV",
+            "C. V, IV, III, II and I",
+            "D. III, II, IV, V and I"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The six major phases of project risk management are: establish the context, risk identification, risk analysis, risk evaluation, risk response planning, and risk monitoring and control.",
+          "reference": "Unit 6, Session 1, 1.3 - Project risk management framework"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not true about the project communication plan?",
+          "options": [
+            "A. It allows the project manager to maintain control of the project and ensure all stakeholders receive the necessary information",
+            "B. Enables the project leader to lead the team to the desired project outcome",
+            "C. It increases the inconsistencies of how the project is handled",
+            "D. Ensures that all stakeholders have the same information on the project requirements and changes"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A solid communication plan increases the consistency of how the project is handled, not the inconsistencies.",
+          "reference": "Unit 4, Session 5, (Importance of project communication plan)"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an item included in the risk register?",
+          "options": [
+            "A. Assessment of the likelihood of occurrence",
+            "B. Data of identifications",
+            "C. Historical data",
+            "D. Section of project"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The risk register includes items like a unique identifier, date of identification, project section, risk description, likelihood assessment, and severity assessment. Historical data is an input to risk identification, not a standard element of the risk register itself.",
+          "reference": "Unit 6, Session 2, 2.4 - Developing Risk Registrar"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best explains the processes involved in the risk scoring matrix?",
+          "options": [
+            "A. Identify all the risks, assign severity/impact if they should occur and assign a probability of occurrence rates",
+            "B. Identify the impact/severity if they occur, assign a probability of likelihood of occurrence, assess all risk",
+            "C. Identify all risks, assign a probability of occurrence rates/values and assign severity/impact if they should occur",
+            "D. Establish the organizational and project environment, assign severity/impact if they occur and specify objectives"
+          ],
+          "correctAnswer": "C",
+          "explanation": "To analyze risk using a risk scoring matrix, you first identify all risks, then assign probability of occurrence, and then assign severity/impact if they occur.",
+          "reference": "Unit 6, Session 3, 4.1 - Risk Scoring Matrix"
+        },
+        {
+          "type": "single",
+          "question": "Managing human resources of a project helps in the following ways except ______.",
+          "options": [
+            "A. Create teams that are unsupportive of each other",
+            "B. It gives the ability to resolve employee complaints",
+            "C. Helps in knowing when and how team members should be added",
+            "D. Identify and engage employees with a variety of skills levels"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Managing human resources helps construct a team that supports and complements each other, not one that is unsupportive. The other options are listed as benefits.",
+          "reference": "Unit 4, Session 1, 6.3 - Importance of Project Human Resource Management"
+        },
+        {
+          "type": "single",
+          "question": "An approach to conflict that involves a party either physically or psychologically removing himself/herself from the conflict is referred to as ______.",
+          "options": [
+            "A. Accommodation",
+            "B. Avoidance",
+            "C. Collaboration",
+            "D. Compromise"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Avoidance is defined as physically or psychologically removing oneself from the conflict, as the parties feel it is hopeless to try and resolve it.",
+          "reference": "Unit 1, Session 4, 4.3.1 - Avoidance"
+        },
+        {
+          "type": "single",
+          "question": "When parties to a conflict come to an agreement through yielding or conforming to the positions of others, cooperation in an effort to create harmony, even at the expense of their own ideas and values, which of the following best describes the conflict resolution approach adopted?",
+          "options": [
+            "A. Accommodation",
+            "B. Competition",
+            "C. Compromise",
+            "D. Collaboration"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Accommodation is the conflict resolution approach that focuses on coming to an agreement through yielding or conforming to the positions of others to create harmony.",
+          "reference": "Unit 1, Session 4, 4.3.2 - Accommodation"
+        },
+        {
+          "type": "single",
+          "question": "The phase of the project life cycle which involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase is referred to as ______.",
+          "options": [
+            "A. Execution",
+            "B. Initiation",
+            "C. Planning",
+            "D. Closure"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The project planning phase involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Planning"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following types of project termination occurs when the needed resources are executed by the project organization and the project is lacking or inadequate?",
+          "options": [
+            "A. Addition",
+            "B. Extinction",
+            "C. Integration",
+            "D. Starvation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Project starvation occurs when the needed resources needed by the project organization to execute the project is lacking or inadequate or unavailable.",
+          "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not considered as a cause of project delays?",
+          "options": [
+            "A. Closure",
+            "B. Scope change",
+            "C. Design errors",
+            "D. Deliberate action"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Deliberate action is described as a type of delay, not a cause. Scope change, design errors, and issues with closure are all listed as causes of delays.",
+          "reference": "Unit 1, Session 6, 6.1 - Project Delays; 6.3 - Causes of Project Delays"
+        },
+        {
+          "type": "single",
+          "question": "Project cost associated with hiring and paying the various classification of workers involved in developing the project is classified as service cost.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Labour costs are costs associated with hiring and paying workers. Service costs are associated with the work done by consultants, experts, and subcontractors.",
+          "reference": "Unit 2, Session 1, 1.2.1 - Labour Cost; 1.2.3 - Service Cost"
+        },
+        {
+          "type": "single",
+          "question": "Indirect costs associated with a project include the following except ______.",
+          "options": [
+            "A. Advertising",
+            "B. Depreciation of equipment",
+            "C. Insurance",
+            "D. Materials"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Indirect costs include overheads (like insurance, depreciation) and selling/administration costs (like advertising). Materials cost is a direct cost.",
+          "reference": "Unit 2, Session 2, 2.1.1 - Direct costs; 2.1.2 - Indirect costs"
+        },
+        {
+          "type": "single",
+          "question": "Unplanned costs incurred when steps are taken to speed up the project's completion are referred to as ______.",
+          "options": [
+            "A. Expedited Costs",
+            "B. Fixed Costs",
+            "C. Variable Costs",
+            "D. Normal Costs"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Expedited costs are unplanned costs incurred when steps are taken to speed up the project's completion, such as overtime or hiring additional workers.",
+          "reference": "Unit 2, Session 2, 2.1.8 - Expedited costs"
+        },
+        {
+          "type": "single",
+          "question": "Business angels are examples of short-term project funding sources.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Business angels are private investors who invest directly in a company, typically for the long-term, and are classified as a source of long-term project funding.",
+          "reference": "Unit 2, Session 4, 4.3.3 - Business Angels"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an example of long-term sources of project funding?",
+          "options": [
+            "A. Venture Capital",
+            "B. Bank overdraft",
+            "C. Retained Profits",
+            "D. Share Capital"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bank overdrafts are a source of short-term finance, as they are typically due for repayment in less than a year. The others are all long-term sources.",
+          "reference": "Unit 2, Session 4, 4.2.1 - Bank Overdrafts; 4.3 - Sources of Long-term Project Funding"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the activities in the project integration management process.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Project integration management involves a series of interconnected activities that unify and coordinate all aspects of a project throughout its life cycle.",
+                  "mainPoints": [
+                    {
+                      "heading": "Develop Project Charter",
+                      "detail": "The process of creating a document that formally authorizes the project and gives the project manager authority to apply organizational resources to project activities."
+                    },
+                    {
+                      "heading": "Develop Project Management Plan",
+                      "detail": "The process of defining, preparing, and coordinating all subsidiary plans and baselines into a comprehensive project management plan that guides execution, monitoring, and closure."
+                    },
+                    {
+                      "heading": "Direct and Manage Project Work",
+                      "detail": "The process of leading and performing the work defined in the project management plan and implementing approved changes to achieve the project's objectives."
+                    },
+                    {
+                      "heading": "Monitor and Control Project Work",
+                      "detail": "The process of tracking, reviewing, and reporting overall project progress to meet performance objectives defined in the project management plan."
+                    },
+                    {
+                      "heading": "Perform Integrated Change Control",
+                      "detail": "The process of reviewing all change requests, approving and managing changes to deliverables, project documents, and the project management plan, and communicating their disposition."
+                    },
+                    {
+                      "heading": "Close Project or Phase",
+                      "detail": "The process of finalizing all activities across all Project Management Process Groups to formally complete the project or phase."
+                    }
+                  ],
+                  "conclusion": "These integration activities ensure that all elements of the project are properly coordinated, from initial authorization to final closure.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.1 - The Project Integration Management Process or Activities; Sessions 2 and 3"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State two importance of project integration management to the project team.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Project integration management is crucial for the project team as it provides a framework for coordinated and focused effort.",
+                  "mainPoints": [
+                    {
+                      "heading": "Helps initiate the project",
+                      "detail": "It allocates resources to commence work, and the project charter directs the project team to execute the project plan."
+                    },
+                    {
+                      "heading": "Ensures projects are not managed in isolation",
+                      "detail": "It takes into account how other parts of the organization relate to the project, helping the team see the bigger picture."
+                    },
+                    {
+                      "heading": "Ensures the team works towards completing the project",
+                      "detail": "The integration process helps the team focus on meeting the project's scope, budget, and time."
+                    }
+                  ],
+                  "conclusion": "Ultimately, integration management provides the team with the structure and direction needed to work effectively towards a common goal.",
+                  "otherPossibleAnswers": "Helps generate a formal record of the project.",
+                  "reference": "Unit 5, Session 1, 1.2 - Importance of project integration Management"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State two challenges or common problems associated with project integration management.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Project integration management, while essential, comes with its own set of challenges that can hinder project success.",
+                  "mainPoints": [
+                    {
+                      "heading": "Difficulty in tracking and understanding impacts",
+                      "detail": "Keeping track of all project elements and understanding how a change in one area impacts others is very challenging; if not done accurately, it can lead to project failure."
+                    },
+                    {
+                      "heading": "Inadequate expertise advice",
+                      "detail": "Integration management requires very specific skills and project intelligence. A lack of this expertise will result in a poor project plan and execution."
+                    }
+                  ],
+                  "conclusion": "Overcoming these challenges requires a skilled project manager and a well-defined integration process.",
+                  "otherPossibleAnswers": "Difficulty in information dissemination for globally spread teams.",
+                  "reference": "Unit 5, Session 1, 2.4 - Challenges/ Common Problems of Project Integration Management"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Examine any five environmental factors that impact project outcomes.",
+                "marks": 10,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "The project environment consists of numerous dynamic factors whose interactions can significantly impact project management processes and final outcomes.",
+                  "mainPoints": [
+                    {
+                      "heading": "Operational",
+                      "detail": "The internal processes, procedures, and capabilities of the organization performing the project can influence efficiency and execution."
+                    },
+                    {
+                      "heading": "Physical",
+                      "detail": "The geographical location, infrastructure, and physical conditions where the project is executed can impact logistics and resource availability."
+                    },
+                    {
+                      "heading": "Ecological",
+                      "detail": "Environmental regulations, sustainability concerns, and the natural surroundings can affect project design and implementation."
+                    },
+                    {
+                      "heading": "Cultural",
+                      "detail": "The beliefs, values, and customs of the community and workforce can influence communication, decision-making, and stakeholder relations."
+                    },
+                    {
+                      "heading": "Economical",
+                      "detail": "Economic conditions like inflation, interest rates, and market stability directly affect project funding, cost estimates, and overall viability."
+                    }
+                  ],
+                  "conclusion": "A thorough understanding of these environmental factors is essential for proactive planning and risk management to ensure project success.",
+                  "otherPossibleAnswers": "Social, Psychological, Financial, Organizational.",
+                  "reference": "Unit 6, Session 1, 1.1 - Project Environment"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain any five external sources of project risk.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "External sources of project risk originate from outside the project and organization, often beyond the direct control of the project team.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market or operational risk",
+                      "detail": "Risks related to changes in market conditions, customer demand, or the competitive landscape that can affect the project's relevance or profitability."
+                    },
+                    {
+                      "heading": "Natural disasters",
+                      "detail": "Unpredictable events like earthquakes, floods, or storms that can physically damage project assets, disrupt schedules, and cause delays."
+                    },
+                    {
+                      "heading": "Currency rate fluctuations",
+                      "detail": "Changes in exchange rates that can significantly impact project costs, especially for projects that require importing materials or have international funding."
+                    },
+                    {
+                      "heading": "Inflation",
+                      "detail": "The general increase in prices for goods and services can erode the project's budget, leading to cost overruns if not anticipated."
+                    },
+                    {
+                      "heading": "Technology changes",
+                      "detail": "Rapid advancements in technology can render a project's planned outputs or processes obsolete before the project is even completed."
+                    }
+                  ],
+                  "conclusion": "Identifying and planning for these external risks is crucial for developing effective response strategies and contingency plans.",
+                  "otherPossibleAnswers": "Unforeseen regulatory requirements, Vandalism, Social instability, Changes in interest rates, Legislation.",
+                  "reference": "Unit 6, Session 1, 1.4 - Sources of Project Risk"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Examine any four project termination types.",
+                "marks": 8,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "A project can be concluded in several ways, not just upon successful completion. The four main types of project termination are as follows.",
+                  "mainPoints": [
+                    {
+                      "heading": "Termination by Starvation",
+                      "detail": "Occurs when the necessary resources for the project are lacking or are cut off, often due to budget cuts, with the possibility of reactivation later when economic situations improve."
+                    },
+                    {
+                      "heading": "Termination by Extinction",
+                      "detail": "The project is stopped, either successfully because it met its goals and delivered the final result, or unsuccessfully because it failed to accomplish its desired result."
+                    },
+                    {
+                      "heading": "Termination by Addition",
+                      "detail": "A very successful project is not disbanded; instead, it is transformed into a new, formal operating unit or division within the organization."
+                    },
+                    {
+                      "heading": "Termination by Integration",
+                      "detail": "The project's resources, including the project team, are reabsorbed back into the organization's existing functional departments after the project's conclusion."
+                    }
+                  ],
+                  "conclusion": "Understanding these termination types helps in planning for the project's end and the redeployment of its resources.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.1.2 - Project Termination/Closure"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Define the project life cycle and explain the stages or phases involved.",
+                "marks": 12,
+                "commandWord": "Define and explain",
+                "answer": {
+                  "introduction": "A project life-cycle refers to all the phases or stages a project goes through from its initiation to its closeout.",
+                  "mainPoints": [
+                    {
+                      "heading": "Project Initiation",
+                      "detail": "During this phase, a business problem or opportunity is identified. A business case is defined, a feasibility study is conducted, and upon approval, a project is initiated, a project manager is appointed, and a project charter is created."
+                    },
+                    {
+                      "heading": "Project Planning",
+                      "detail": "This second phase involves developing detailed plans to confirm the scope. It includes outlining activities, tasks, dependencies, and timeframes, as well as creating resource, financial, quality, risk, and procurement plans."
+                    },
+                    {
+                      "heading": "Project Execution and Controls",
+                      "detail": "This phase involves implementing the plans. While work is being done, management processes monitor and control deliverables, manage changes and risks, and review quality against the acceptance criteria."
+                    },
+                    {
+                      "heading": "Project Termination/Closure",
+                      "detail": "The final phase involves releasing final deliverables, handing over documentation, terminating supplier contracts, releasing resources, and communicating closure. A post-implementation review is then conducted to document lessons learned."
+                    }
+                  ],
+                  "conclusion": "Following this structured lifecycle provides a clear roadmap for the project from its conception to its final handover and review.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.1 - Project life cycle defined; 5.1.1-5.1.2"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the broad categorisation of the sources of project cost.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The sources of project cost can be broadly categorized into four main areas, each representing a different type of expense required to complete the project.",
+                  "mainPoints": [
+                    {
+                      "heading": "Labour cost",
+                      "detail": "These are costs associated with hiring and paying all classifications of workers (skilled, semi-skilled, laborers) involved in the project. This includes salaries, hourly/daily rates, and benefits like pensions or health insurance."
+                    },
+                    {
+                      "heading": "Materials cost",
+                      "detail": "This refers to the cost of specific requirements and supplies the project team needs to complete project tasks. These costs vary based on the project's scope, quality standards, and risk thresholds."
+                    },
+                    {
+                      "heading": "Service cost",
+                      "detail": "These are costs associated with the work done by external parties such as consultants, experts, designers, and subcontractors, whose contributions are essential for successful project completion."
+                    },
+                    {
+                      "heading": "Equipment and facilities cost",
+                      "detail": "These are costs that emerge from the rental or purchase of any equipment, tools, or office facilities needed to facilitate the project's work."
+                    }
+                  ],
+                  "conclusion": "A clear understanding of these cost categories is fundamental for accurate cost estimating, budgeting, and overall financial management of the project.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 1, 1.2 - Sources of Project Cost"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Using relevant examples, distinguish between the following types of cost.\ni. direct and indirect project costs\nii. Fixed and variable costs\niii. normal and expedited costs\niv. recurring and nonrecurring costs",
+                "marks": 10,
+                "commandWord": "Distinguish",
+                "answer": {
+                  "introduction": "Each pair of cost types is distinguished by how they behave and how they relate to the project's activities and timeline.",
+                  "mainPoints": [
+                    {
+                      "heading": "i. Direct vs. Indirect costs",
+                      "detail": "Direct costs are clearly assigned to the specific aspect of the project that generated them (e.g., wages of workers directly building a house). Indirect costs are linked to overhead and administration, not tied to one specific activity (e.g., utilities for the company office or advertising for the brand)."
+                    },
+                    {
+                      "heading": "ii. Fixed vs. Variable costs",
+                      "detail": "Fixed costs do not vary with respect to their usage throughout the project life cycle (e.g., leasing equipment at a fixed monthly payment). Variable costs accelerate or vary throughout the project life cycle based on activity level (e.g., cost of cement or steel, which depends on how much of the building is constructed)."
+                    },
+                    {
+                      "heading": "iii. Normal vs. Expedited costs",
+                      "detail": "Normal costs are incurred in the routine process of completing the project according to the original, planned schedule (e.g., standard wages during regular working hours). Expedited costs are unplanned costs incurred when steps are taken to speed up the project (e.g., paying overtime wages or hiring additional temporary staff)."
+                    },
+                    {
+                      "heading": "iv. Recurring vs. Nonrecurring costs",
+                      "detail": "Recurring costs are continuous throughout the project life cycle and happen repeatedly (e.g., weekly labor costs or monthly material supply costs). Nonrecurring costs are linked to one-time charges, typically at the beginning or closure of the project (e.g., the one-time purchase of equipment or a final audit fee)."
+                    }
+                  ],
+                  "conclusion": "Understanding these distinctions allows project managers to categorize and manage all project expenditures more accurately and effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 2, 2.1.1 - 2.1.8 - Nature of Project Cost"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
