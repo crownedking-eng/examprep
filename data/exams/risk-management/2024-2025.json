@@ -1,0 +1,535 @@
+{
+  "subject": "Risk Management",
+  "subjectCode": "PCM 403D",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The measure of potential future loss resulting from a specific activity or risk event is termed as ______.",
+          "options": [
+            "A. Residual risk",
+            "B. Risk exposure",
+            "C. Risk event",
+            "D. Supply chain"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Risk exposure is the measure of potential future loss resulting from a specific activity or risk event, usually calculated as probability multiplied by impact.",
+          "reference": "Unit 1, Session 1, 1.3 - Risk exposure and risk event"
+        },
+        {
+          "type": "single",
+          "question": "The term ______ is given to the level of risk remaining after controls and mitigating measures have been applied to the inherent risk.",
+          "options": [
+            "A. Residual risk",
+            "B. Risk exposure",
+            "C. Risk event",
+            "D. Inherent risk"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The term residual risk is given to the level of risk remaining after controls and mitigating measures have been applied to the inherent risk.",
+          "reference": "Unit 1, Session 1, 1.3 - Risk exposure and risk event"
+        },
+        {
+          "type": "single",
+          "question": "What role does supplier performance monitoring play in risk management? It ______.",
+          "options": [
+            "A. increases procurement costs",
+            "B. helps identify potential risks early and take corrective actions",
+            "C. reduces the need for supplier diversification",
+            "D. eliminates the risk of supply chain disruptions."
+          ],
+          "correctAnswer": "B",
+          "explanation": "Supplier monitoring and performance management is a risk mitigation measure designed to treat risk by actively managing it to reduce or minimize its impact.",
+          "reference": "Unit 1, Session 5, 5.4 - Risk management strategies"
+        },
+        {
+          "type": "single",
+          "question": "The diagram used in chemical and process engineering to help display the relationship between major pieces of equipment and very helpful in identifying risks is called ______.",
+          "options": [
+            "A. Ishikawa",
+            "B. Process Flow diagram",
+            "C. Influence diagram",
+            "D. Fishbone diagram"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Process Flow Diagram (PFD) is most commonly used in chemical and process engineering to help display the relationship between major pieces of equipment.",
+          "reference": "Unit 2, Session 1, 1.3 - Process Flow Diagram (PFD)"
+        },
+        {
+          "type": "single",
+          "question": "What is a key benefit of using predictive analytics in procurement risk management? It ______.",
+          "options": [
+            "A. reduces the need for risk assessments",
+            "B. helps anticipate potential disruptions before they occur",
+            "C. eliminates supplier evaluation",
+            "D. increases procurement costs unnecessarily"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Predictive analytics, like extrapolating from statistical data, helps anticipate potential disruptions by using historical data to predict future occurrences.",
+          "reference": "Unit 2, Session 5, 5.1 - Collating statistical evidence of risks"
+        },
+        {
+          "type": "single",
+          "question": "Contract management is designed to maximize the risk of loss or damage to the organization.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Contract management is designed to minimize, not maximize, the risk of loss or damage to the organization and its owners.",
+          "reference": "Unit 4, Session 1, 1.1 - Contract Failure Risk"
+        },
+        {
+          "type": "single",
+          "question": "The following risks are operating risks in supply chain management except ______ risk.",
+          "options": [
+            "A. legal",
+            "B. negotiation",
+            "C. non credit",
+            "D. financial"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Legal risk, negotiation risk, and financial risk are all discussed as operational risks. \"Non credit\" is not a standard operational risk category.",
+          "reference": "Unit 4, Session 1, 1.1 - Contract Failure Risk, 1.2 - Financial risks"
+        },
+        {
+          "type": "single",
+          "question": "Developing clarity around the definition and consequences of fraud through a well-defined and widely communicated policy is a way of ______.",
+          "options": [
+            "A. fraud management",
+            "B. assessment of fraud",
+            "C. fraud measures",
+            "D. fraud prevention"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Developing clarity around the definition and consequences of fraud is a general measure to prevent employee procurement fraud.",
+          "reference": "Unit 4, Session 2, 2.1.3 - Fraud Prevention Measures"
+        },
+        {
+          "type": "single",
+          "question": "The term ______ refers to the relocation of business processes to a lower cost location, usually overseas.",
+          "options": [
+            "A. Offshoring",
+            "B. Outsourcing",
+            "C. Performance",
+            "D. Management"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The term \"offshoring\" refers to the relocation of business processes to a lower cost location, usually overseas.",
+          "reference": "Unit 4, Session 3, 3.3 - Offshoring"
+        },
+        {
+          "type": "single",
+          "question": "The following includes reasons or causes of project failure except ______.",
+          "options": [
+            "A. poor project definition",
+            "B. lack of documentation",
+            "C. project risk management",
+            "D. inadequate risk assessment"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Project risk management is a discipline that helps prevent failure, not a cause of it. The others are listed as causes of project failure.",
+          "reference": "Unit 4, Session 4, 4.4.1 - Causes of project failure"
+        },
+        {
+          "type": "single",
+          "question": "The practice of managing risks related to the use, processing, storage and transmission of information or data and the systems and process used for those purposes is termed as ______.",
+          "options": [
+            "A. Database management",
+            "B. Information assurance",
+            "C. Information risk",
+            "D. Technology failure"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Information assurance (IA) is the practice of managing risks related to the use, processing, storage, and transmission of information or data.",
+          "reference": "Unit 4, Session 6, 6.3 - The role of information assurance"
+        },
+        {
+          "type": "single",
+          "question": "Remedies for a contract failure or breach includes all the following except ______.",
+          "options": [
+            "A. performance",
+            "B. quantum merit",
+            "C. conjunction",
+            "D. damages"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Remedies include Damages, Specific performance, Injunction, and Quantum meruit. \"Conjunction\" is not a legal remedy for breach of contract.",
+          "reference": "Unit 5, Session 1, 1.2 - Remedies for contract failure/ breach"
+        },
+        {
+          "type": "single",
+          "question": "Contract management helps in tracing the suppliers, assessing their performance based on the criteria mentioned in the contracts and evaluating supplier risk.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Contract management helps in tracking the suppliers, assessing their performance based on the criteria mentioned in the contracts, and evaluating supplier risk.",
+          "reference": "Unit 5, Session 2, 2.3.1 - Disadvantages of contract models"
+        },
+        {
+          "type": "single",
+          "question": "Digital procurement solutions can improve risk visibility and response strategies.",
+          "options": [
+            "A. False",
+            "B. True"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Technology resources support risk management through automated risk monitoring and reporting systems, improving visibility and response.",
+          "reference": "Unit 3, Session 4, 4.2 - Resource Categories needed for risk management"
+        },
+        {
+          "type": "single",
+          "question": "The specialists engaged to carry out independent investigation into corporate finance and internal controls of public companies are called",
+          "options": [
+            "A. Research companies",
+            "B. External auditors",
+            "C. Mystery shoppers",
+            "D. Internal assessors"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Specialist external auditors are engaged to carry out independent investigations into the corporate finances and internal controls of public companies.",
+          "reference": "Unit 5, Session 6, 6.2 - Risk Auditing Services"
+        },
+        {
+          "type": "single",
+          "question": "What helps to mitigate the impacts of risks, events, variances and failures?",
+          "options": [
+            "A. Contingency planning",
+            "B. Risk management",
+            "C. Risk control",
+            "D. Risk mitigation"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Contingency planning is planning to mitigate the impacts of risk events, variances and failures. It is the process of developing a Plan B.",
+          "reference": "Unit 6, Session 1, 1.1 - Introduction (Contingency Planning)"
+        },
+        {
+          "type": "single",
+          "question": "A force majeure clause in a procurement contract helps manage risks by ______.",
+          "options": [
+            "A. allowing suppliers to increase prices at any time",
+            "B. protecting parties from liability due to unforeseen events",
+            "C. making contracts non-negotiable",
+            "D. requiring penalties for late deliveries"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A force majeure clause protects parties from liability or obligation when an extraordinary event or circumstance beyond their control occurs, such as a natural disaster.",
+          "reference": "Unit 6, Session 3 - Disaster Recovery Planning"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not true about risk?",
+          "options": [
+            "A. Risk can be managed",
+            "B. Risks can be measured and quantified",
+            "C. You can assign a probability to risks events",
+            "D. Risk deals with the human characteristics which have the potential to affect the outcome."
+          ],
+          "correctAnswer": "D",
+          "explanation": "Risk is the probability and severity of an event. Human characteristics that affect outcome refer to moral hazard, not risk itself.",
+          "reference": "Unit 1, Session 3, 3.3 - Key Differences between Risk and Hazard"
+        },
+        {
+          "type": "single",
+          "question": "The type of control designed to limit the possibility of a negative outcome being realized is called ______ control.",
+          "options": [
+            "A. Corrective",
+            "B. Directive",
+            "C. Preventive",
+            "D. Detective"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Preventative controls are designed to limit the possibility of a negative outcome being realized.",
+          "reference": "Unit 3, Session 2, 2.3.1 - Preventive Controls"
+        },
+        {
+          "type": "single",
+          "question": "The type of control designed to ensure that a desired outcome is achieved is called ______ control.",
+          "options": [
+            "A. Corrective",
+            "B. Directive",
+            "C. Preventive",
+            "D. Detective"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Directive controls are designed to ensure that a desired outcome is achieved, such as health and safety regulations and staff training.",
+          "reference": "Unit 3, Session 2, 2.3.2 - Directive Controls"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four categories of resources that are needed to deliver effective risk management strategies in the organization.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "A range of resource categories is required to deliver effective risk management strategies in an organization.",
+                  "mainPoints": [
+                    {
+                      "heading": "Informational Resources",
+                      "detail": "Requires robust internal and external management information systems for timely data, including risk databases, registers, and environmental scanning systems."
+                    },
+                    {
+                      "heading": "Human Resources",
+                      "detail": "Requires allocation of managerial and staff time to risk activities, including trained and aware staff, risk committees, and audit teams."
+                    },
+                    {
+                      "heading": "Financial Resources",
+                      "detail": "Requires adequate budgetary provision for costs of information, staff time, mitigation measures, and pursuing opportunities."
+                    },
+                    {
+                      "heading": "Physical Resources",
+                      "detail": "Requires safe premises, plant, machinery, protective equipment, and secure storage facilities for hazardous substances and inventory."
+                    }
+                  ],
+                  "conclusion": "These resources — informational, human, financial, and physical — form the foundation for building and maintaining effective risk management.",
+                  "otherPossibleAnswers": "Infrastructure development: Development of management and risk information systems, templates, committees, and governance structures. Technology resources: Risk management information systems, automated monitoring, and technology-based mitigation measures. Time resources: Adequate allowance of time for risk management activities and effective scheduling.",
+                  "reference": "Unit 3, Session 4, 4.2 - Resource Categories needed for risk management"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain any four classification of risk management strategies.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Risk management strategies, often classified as the four T's, provide a framework for responding to identified risks.",
+                  "mainPoints": [
+                    {
+                      "heading": "Tolerate (or Accept) the Risk",
+                      "detail": "No action is taken if the likelihood or impact is negligible, or there is no viable way to reduce it. The risk is acknowledged and monitored."
+                    },
+                    {
+                      "heading": "Transfer (or Spread) the Risk",
+                      "detail": "Shifting the risk to a third party, for example by taking out insurance cover or using contract terms to ensure costs are borne by partners."
+                    },
+                    {
+                      "heading": "Terminate (or Avoid) the Risk",
+                      "detail": "Not engaging in the activity if the risk is too great and cannot be reduced, such as deciding not to enter a politically unstable market."
+                    },
+                    {
+                      "heading": "Treat (Mitigate, Minimize or Control) the Risk",
+                      "detail": "Taking active steps to manage the risk to reduce or minimize its impact, such as supplier monitoring and performance management."
+                    }
+                  ],
+                  "conclusion": "These four strategies provide organizations with a comprehensive toolkit to address risks based on their nature, severity, and cost-benefit analysis.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.4 - Risk management strategies and Unit 3, Session 1, 1.2 - Risk Management Mix-The Four T's"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four advantages of Strength Weakness Opportunities and Threat (SWOT) Analysis.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "SWOT Analysis is a strategic planning tool used to evaluate an organization's Strengths, Weaknesses, Opportunities, and Threats.",
+                  "mainPoints": [
+                    {
+                      "heading": "General to Specific Road Map",
+                      "detail": "It has a general perspective and serves as a road map that guides the firm from general strategic thinking to specific issues."
+                    },
+                    {
+                      "heading": "Uncover Opportunities and Manage Threats",
+                      "detail": "It helps management uncover opportunities to take advantage of and, by understanding weaknesses, manage and eliminate threats."
+                    },
+                    {
+                      "heading": "Fits Other Strategic Tools",
+                      "detail": "It encompasses and fits other strategic decision tools and theories, such as Porter's Five Forces Model or the Balanced Scorecard."
+                    },
+                    {
+                      "heading": "Promotes Group Discussion",
+                      "detail": "It promotes group discussion about strategic issues and strategy development through participatory techniques like brainstorming."
+                    }
+                  ],
+                  "conclusion": "These advantages make SWOT a versatile and widely used tool for initial strategic analysis.",
+                  "otherPossibleAnswers": "Future-Oriented Discussion: Helps managements start a discussion for the future by moving beyond daily problems. Broad Application: Can be applied at different analytical levels, from individual to international.",
+                  "reference": "Unit 2, Session 2, 2.4 - Advantages of SWOT analysis"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four disadvantages of Strength Weakness Opportunities and Threat (SWOT) Analysis.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Despite its usefulness, SWOT analysis has several limitations that organizations must be aware of.",
+                  "mainPoints": [
+                    {
+                      "heading": "General Perspective",
+                      "detail": "It has a general perspective and presents general solutions, not focusing on specific, detailed issues."
+                    },
+                    {
+                      "heading": "Poor Formulation Risk",
+                      "detail": "It requires experience and training for systematic construction; otherwise, it can be poorly formulated, leading to superficial analysis."
+                    },
+                    {
+                      "heading": "Quantity Over Quality",
+                      "detail": "Many factors can be identified, but quantity does not mean quality. It is difficult to determine priorities among the factors."
+                    },
+                    {
+                      "heading": "Not Valid in Dynamic Environments",
+                      "detail": "It may not be a valid technique in today's world based on change and competition, as it was developed in more stable periods."
+                    }
+                  ],
+                  "conclusion": "These disadvantages highlight that SWOT should be used as a starting point, complemented by more detailed and dynamic analysis tools.",
+                  "otherPossibleAnswers": "Problem in Quality and Quantity: It is difficult to determine the priorities of the factors identified and focus on them in detail.",
+                  "reference": "Unit 2, Session 2, 2.5 - Disadvantages and limitations of SWOT analysis"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four challenges firms face in international procurement.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "International procurement presents several challenges due to variations in language, culture, and legal heritage across borders.",
+                  "mainPoints": [
+                    {
+                      "heading": "Different Technical or Industrial Standards",
+                      "detail": "Suppliers may use standards that do not meet the home country's requirements, leading to quality or compliance issues."
+                    },
+                    {
+                      "heading": "Import/Export Restrictions",
+                      "detail": "Tariffs, quotas, and complicated documentation requirements for cross-border processes can increase costs and delays."
+                    },
+                    {
+                      "heading": "Currency Exchange Fluctuation",
+                      "detail": "Unstable economic or political climates can cause currency fluctuations, affecting the final cost of goods and creating financial risk."
+                    },
+                    {
+                      "heading": "Language Differences",
+                      "detail": "Language barriers can complicate complex technical discussions, contract negotiations, and cause communication delays, affecting the bottom line."
+                    }
+                  ],
+                  "conclusion": "Successfully navigating international procurement requires careful planning to overcome challenges related to standards, regulations, finance, and communication.",
+                  "otherPossibleAnswers": "Varying Legal Systems: Differences in legal regimes can lead to contracts being ambiguous, unenforceable, or disputed. Increased Transit and Logistics Risk: Long-distance supply lines increase the risk of goods being lost, damaged, or deteriorated.",
+                  "reference": "Unit 5, Session 3, 3.3 - Challenges to International Procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Differentiate the following: (i) Investment risk and Credit risk. (ii) Internal risk and External risk.",
+                "marks": 12,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "These are distinct categories of financial risk that organizations face, differentiated by their origin and nature.",
+                  "mainPoints": [
+                    {
+                      "heading": "i. Investment Risk",
+                      "detail": "Relates to the uncertainty surrounding the return on an investment or capital project. It involves appraising net cashflows, return on investment, and payback periods using techniques like payback method and discounted cashflow."
+                    },
+                    {
+                      "heading": "i. Credit Risk",
+                      "detail": "Is the risk that a customer will be unwilling or unable to pay amounts it owes to a supplying organisation, disrupting the creditor's planned cash flow. Investment risk concerns future returns on capital, while credit risk concerns non-payment by customers."
+                    },
+                    {
+                      "heading": "ii. Internal Financial Risks",
+                      "detail": "Arise from the organization's own financial structures and transactions, such as lack of cost analysis, poor financial controls, or inadequate investment appraisal. These are within the organization's control."
+                    },
+                    {
+                      "heading": "ii. External Financial Risks",
+                      "detail": "Result from macro-economic factors outside the organization's control, such as business cycles, fluctuating commodity prices, interest rates, and exchange rates. These stem from the broader economic environment."
+                    }
+                  ],
+                  "conclusion": "Investment risk concerns potential losses from investments, credit risk concerns non-payment by customers, internal risks are controllable, while external risks arise from the broader environment.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 5, 5.4 - Investment risk; Unit 4, Session 1, 1.2.2 - Credit Risks; Unit 4, Session 5, 5.1 - Internal and External financial risks"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four steps a firm should follow when developing capacity for recovery in supply chain.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Developing recovery capacity involves a systematic process to enable a supply chain to return to functionality after a disruption.",
+                  "mainPoints": [
+                    {
+                      "heading": "Awareness of Risk",
+                      "detail": "Expose potential risks associated with a supply-chain disruption by surveying suppliers and educating the internal audience on identified exposures."
+                    },
+                    {
+                      "heading": "Prevention of Risk",
+                      "detail": "Fully identify potential risks, recognize their causes, estimate the probability of occurrence, treat the causes, and monitor the results."
+                    },
+                    {
+                      "heading": "Remediating Risks",
+                      "detail": "Develop a strategy to recover from identified threats, consider ways to shorten the duration of impact, allocate necessary resources, and enact the strategy when a disruption occurs."
+                    },
+                    {
+                      "heading": "Knowledge Management",
+                      "detail": "Monitor external or internal changes to potential risks, perform post-event audits on disruptions, and ensure identified plans are sufficient for future reactions."
+                    }
+                  ],
+                  "conclusion": "These steps ensure an organization is prepared to respond to disruptions and can learn from them to improve future resilience.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 5, 5.3 - Steps in developing capacity for Recovery in Supply chain"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four possible reasons for failure of outsourcing agreements by organization.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Numerous surveys and anecdotal evidence suggest that outsourcing projects often fail to deliver the expected benefits for several reasons.",
+                  "mainPoints": [
+                    {
+                      "heading": "Failure to Distinguish Core Activities",
+                      "detail": "The organisation fails to distinguish correctly between core and non-core activities, outsourcing functions that are critical to its competitive advantage."
+                    },
+                    {
+                      "heading": "Poor Supplier Selection",
+                      "detail": "The organisation fails to identify and select a suitable supplier, leading to poor performance or, in the worst cases, supplier failure."
+                    },
+                    {
+                      "heading": "Inadequate Contract Terms",
+                      "detail": "The outsourcing contract contains inadequate or inappropriate terms and conditions that do not protect the buyer's interests."
+                    },
+                    {
+                      "heading": "Lack of Defined KPIs",
+                      "detail": "The contract does not contain well-defined key performance indicators or service levels, making it difficult to establish where things are going wrong."
+                    }
+                  ],
+                  "conclusion": "To avoid failure, organizations must conduct rigorous analysis, selection, and contracting processes before entering outsourcing agreements.",
+                  "otherPossibleAnswers": "Lack of Management Skills: The organisation lacks the management skills to control supplier performance and relationships effectively.",
+                  "reference": "Unit 4, Session 3, 3.1 - Outsourcing Risks"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

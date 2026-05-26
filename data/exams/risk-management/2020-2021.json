@@ -1,1 +1,539 @@
-
+{
+  "subject": "Risk Management",
+  "subjectCode": "ADM 405D",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Planning designed to identify potential threats to the critical activities or success factors of an organisation, and to ensure that these can be reduced or responded to in such a way as to maintain business functions and processes through risk events is known as ______ Planning.",
+          "options": [
+            "A. Business Continuity",
+            "B. Succession",
+            "C. Strategic",
+            "D. Tactical"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Business continuity planning is specifically designed to maintain business functions and processes through risk events by identifying threats to critical activities.",
+          "reference": "Unit 6, Session 2, 2.1 - Business Continuity Planning"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not part of the different categories of pure risks?",
+          "options": [
+            "A. Personal",
+            "B. Property",
+            "C. Liability",
+            "D. None of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The three different categories of pure risks are personal, property, and liability. Therefore, \"None of the above\" is correct because all the listed options (A, B, and C) are part of the categories.",
+          "reference": "Unit 1, Session 4, 4.1 - Pure and speculative risk"
+        },
+        {
+          "type": "single",
+          "question": "Controls that are designed to mitigate the effect of undesirable outcomes once they have occurred is termed as ______.",
+          "options": [
+            "A. Detective Controls",
+            "B. Preventive Controls",
+            "C. Directive Controls",
+            "D. Corrective Controls"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Corrective controls are specifically designed to mitigate the effect of undesirable outcomes after they have occurred, such as legal remedies or insurance.",
+          "reference": "Unit 3, Session 2, 2.3.4 - Corrective Controls"
+        },
+        {
+          "type": "single",
+          "question": "The technique for coping with a series of decisions, each one having a variety of possible outcomes is called ______.",
+          "options": [
+            "A. Probability Distribution",
+            "B. Decision Tree Analysis",
+            "C. Value at Risk",
+            "D. Extrapolation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Decision tree analysis is a technique for coping with a series of decisions, each having a variety of possible outcomes, by mapping combinations of decisions and outcomes.",
+          "reference": "Unit 2, Session 5, 5.3 - Decision Tree Analysis"
+        },
+        {
+          "type": "single",
+          "question": "The category of risk that can be taken on voluntarily and will either result in a profit or loss is termed as ______.",
+          "options": [
+            "A. Pure risk",
+            "B. Speculative risk",
+            "C. Vulnerability",
+            "D. Uncertainty"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Speculative risk is a category of risk that can be taken on voluntarily and will either result in a profit or loss, unlike pure risk which has only the possibility of loss.",
+          "reference": "Unit 1, Session 4, 4.1 - Pure and speculative risk"
+        },
+        {
+          "type": "single",
+          "question": "The type of risk that cannot be controlled and has two outcomes is referred to as ______.",
+          "options": [
+            "A. Pure risk",
+            "B. Speculative risk",
+            "C. Vulnerability",
+            "D. Uncertainty"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Pure risk or absolute risk is a type of risk that cannot be controlled and has two outcomes: complete loss or no loss at all.",
+          "reference": "Unit 1, Session 4, 4.1 - Pure and speculative risk"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a factor responsible for non-diversifiable risks?",
+          "options": [
+            "A. Changes in investment policy",
+            "B. Alteration in taxation policy",
+            "C. Altering of socio-economic parameters",
+            "D. Strikes"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Non-diversifiable risk is caused by factors influencing the complete market like investment policy, taxation, and socio-economic parameters. Strikes are an example of diversifiable (unsystematic) risk.",
+          "reference": "Unit 1, Session 4, 4.2 - Diversifiable and non-diversifiable risk"
+        },
+        {
+          "type": "single",
+          "question": "The physical object, situation or setting, which poses a threat to life, property or any other thing is called",
+          "options": [
+            "A. Risk",
+            "B. Vulnerability",
+            "C. Hazard",
+            "D. Uncertainty"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Hazard pertains to the physical object, situation or setting which poses a threat to life, property or any other thing, acting as the root or anticipated cause of harm.",
+          "reference": "Unit 1, Session 3, 3.3 - Key Differences between Risk and Hazard"
+        },
+        {
+          "type": "single",
+          "question": "The probability that an inbound supply problem will disrupt a business is known as ______ risk.",
+          "options": [
+            "A. Positive",
+            "B. Negative",
+            "C. Direct",
+            "D. Supply"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Supply risk is specifically defined as the probability that an inbound supply problem will disrupt a business, including issues with suppliers, shipment, and markets.",
+          "reference": "Unit 1, Session 2, 2.4 - Examples of supply risks"
+        },
+        {
+          "type": "single",
+          "question": "According to the Ghana Law of Contract, Act 1960, Part five: \"the Obligations of parties to contracts that the parties to a contract must perform their respective promises, unless such performance is dispensed with or excused under the provisions of this Act or of any other law\" is termed as:",
+          "options": [
+            "A. Implied terms",
+            "B. Performance of contract",
+            "C. Warranties",
+            "D. Conditions"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Ghana Law of Contract, Act 1960, Part five describes the performance of contract, which includes the obligation of parties to perform their promises.",
+          "reference": "Unit 5, Session 2, 2.1 - Performance of Contract"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is an illustrative example of supply risk?",
+          "options": [
+            "A. The risk that a fire may destroy company assets",
+            "B. The risk that a customer goes out of business",
+            "C. The risk that a foreign exchange rate may change",
+            "D. All of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "All listed options are illustrative examples of supply risk: fire destroying assets, a customer going out of business, and foreign exchange rate changes.",
+          "reference": "Unit 1, Session 2, 2.4 - Examples of supply risks"
+        },
+        {
+          "type": "single",
+          "question": "The act of deliberate deception with the intention of gaining some benefit is called",
+          "options": [
+            "A. Fraud",
+            "B. Corruption",
+            "C. Bribery",
+            "D. Embezzlement"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Fraud is defined as an act of deliberate deception with the intention of gaining some benefit or, more specifically, deprivation by deceit.",
+          "reference": "Unit 4, Session 2, 2.1 - Fraud"
+        },
+        {
+          "type": "single",
+          "question": "The legal and financial responsibility or obligation of an entity in contract law is called ______",
+          "options": [
+            "A. Liability",
+            "B. Indemnity clause",
+            "C. Insurance clause",
+            "D. Negative loss"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Liability in a legal context is the legal and financial responsibility or obligation of an entity in a situation, such as being liable for breach of contract.",
+          "reference": "Unit 5, Session 4, 4.1 - Liability"
+        },
+        {
+          "type": "single",
+          "question": "A clause designed to secure an undertaking from the other party that, it will accept liability for any loss arising from events in performance of the contract, and will make good the loss to the injured party or parties is known as ______",
+          "options": [
+            "A. Liability",
+            "B. Indemnity clause",
+            "C. Insurance clause",
+            "D. Negative loss"
+          ],
+          "correctAnswer": "B",
+          "explanation": "An indemnity clause is designed to secure an undertaking from the other party to accept liability for any loss arising from events in performance of the contract and make good the loss.",
+          "reference": "Unit 5, Session 4, 4.2 - Indemnity Clause"
+        },
+        {
+          "type": "single",
+          "question": "The Cranfield School of Management identifies four (4) variables that foster success in supply chain vulnerability management, continuity management and resilience. Which of the following is not part of the variables?",
+          "options": [
+            "A. Risk awareness among top management",
+            "B. Risk awareness as an integrated part of supply chain management",
+            "C. An understanding each of employee of his or her role in risk awareness",
+            "D. Risk handling for customers"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The four variables are: risk awareness among top management, risk awareness as an integrated part of supply chain management, employee understanding of their role, and understanding that business strategy changes alter risk profiles. Risk handling for customers is not one of them.",
+          "reference": "Unit 1, Session 6, 6.2 - Key variables that foster success in supply chain vulnerability management, continuity management and resilience"
+        },
+        {
+          "type": "single",
+          "question": "According to the US Project Management Institute (PMI), a temporary endeavour undertaken to create a unique product or service is called ______",
+          "options": [
+            "A. Probability distribution",
+            "B. Project",
+            "C. Value at Risk",
+            "D. Extrapolation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The US Project Management Institute (PMI) defines a project as 'a temporary endeavour undertaken to create a unique product or service'.",
+          "reference": "Unit 4, Session 4, 4.1 - What is a project?"
+        },
+        {
+          "type": "single",
+          "question": "Financial risks resulting from macro-economic factors, such as: business cycles, fluctuating commodities prices; availability and costs of finance and fluctuating exchange rates is termed as ______ risks.",
+          "options": [
+            "A. External",
+            "B. Internal",
+            "C. Exchange",
+            "D. Currency"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Financial risks may be external, resulting from macro-economic factors such as business cycles, fluctuating commodities prices, and fluctuating exchange rates.",
+          "reference": "Unit 4, Session 5, 5.1 - Internal and External financial risks"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not part of the components of risk management?",
+          "options": [
+            "A. Risk assessment and analysis",
+            "B. Risk evaluation",
+            "C. Risk planning",
+            "D. Risk treatment"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The risk management process consists of three parts: risk assessment and analysis, risk evaluation, and risk treatment. Risk planning is not listed as one of these core components.",
+          "reference": "Unit 1, Session 5, 5.2 - Risk management processes"
+        },
+        {
+          "type": "single",
+          "question": "CIPS guidance suggests a checklist of issues to be considered ahead of new technology or systems implementation, which highlights the key risks involved. Which of the following is not among the checklist of issues CIPS guidance suggests to be considered ahead of new technology or systems implementation?",
+          "options": [
+            "A. Objectives",
+            "B. Personnel",
+            "C. Relationships",
+            "D. Time"
+          ],
+          "correctAnswer": "D",
+          "explanation": "CIPS guidance suggests a checklist including Objectives, Personnel, Relationships, Technology, Finance, and Power. Time is not listed as one of these specific issues.",
+          "reference": "Unit 4, Session 6, 6.2.1 - Implementation of new technology"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not part of the different levels of risks appetite within an organization?",
+          "options": [
+            "A. Corporate risk appetite",
+            "B. Delegated risk appetite",
+            "C. Project risk appetite",
+            "D. None of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The three distinct levels of risk appetite within an organization are Corporate risk appetite, Delegated risk appetite, and Project risk appetite. Therefore, \"None of the above\" is correct as all options A, B, and C are part of the levels.",
+          "reference": "Unit 1, Session 1, 1.4 - The concept of Risk appetite and the levels it is considered in an organisation"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the steps involved in managing risk in supply chain.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The risk management process consists of several key steps to identify, assess, and control threats to an organization.",
+                  "mainPoints": [
+                    {
+                      "heading": "Identify the Risk",
+                      "detail": "This foundational step requires knowledge of the organization, its market, and environment to identify potential risks. Failure here can cause major loss."
+                    },
+                    {
+                      "heading": "Assess and Analyze",
+                      "detail": "Determine the likelihood and consequence of each risk. This evaluates the organization's exposure and estimates potential damage to operations and reputation."
+                    },
+                    {
+                      "heading": "Evaluate and Formulate Strategies",
+                      "detail": "Management must formulate risk mitigation strategies, often referred to as the 4T's (Tolerate, Transfer, Terminate, Treat), to minimize negative outcomes."
+                    },
+                    {
+                      "heading": "Assign an Owner to the Risk",
+                      "detail": "A person must be responsible for overseeing each identified risk, leading the work to resolve it should it occur."
+                    },
+                    {
+                      "heading": "Implementation",
+                      "detail": "Follow all planned methods for mitigating the effect of the risks, such as purchasing insurance or applying other controls."
+                    },
+                    {
+                      "heading": "Monitor and Review",
+                      "detail": "Use the Project Risk Register to monitor, track, and review risks on an ongoing basis to identify changes or new threats."
+                    }
+                  ],
+                  "conclusion": "Following these structured steps helps an organization proactively prepare for unexpected events and minimize their impact.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.2 - Risk management processes"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain the following terms: (I) Positive risk, (II) Negative risk, (III) Direct risk, (IV) Pure risk",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "These four terms describe distinct categories and characteristics of risk as encountered in procurement and supply chain management.",
+                  "mainPoints": [
+                    {
+                      "heading": "I. Positive Risk",
+                      "detail": "Positive risk, also known as upside potential, refers to uncertainties with positive outcomes. For example, innovation in supplier technology or entering a new market may yield results more positive than expected, creating opportunities for gain."
+                    },
+                    {
+                      "heading": "II. Negative Risk",
+                      "detail": "Negative risk, also known as downside risk, refers to uncertainties with negative outcomes. The results are less positive than expected, and the negative outcome may be a direct or indirect loss for the organization."
+                    },
+                    {
+                      "heading": "III. Direct Risk",
+                      "detail": "Direct risk refers to the potential for a loss arising directly from a risk event. This includes direct physical or material loss such as theft of stock, damage to buildings, repair costs, exchange rate loss, or disruption of supply."
+                    },
+                    {
+                      "heading": "IV. Pure Risk",
+                      "detail": "Pure risk, or absolute risk, is a type of risk that cannot be controlled and has only two outcomes: complete loss or no loss at all. It is generally prevalent in situations such as natural disasters, fires, or death, and is commonly transferred to an insurance company."
+                    }
+                  ],
+                  "conclusion": "Understanding these risk types enables procurement professionals to apply the most appropriate management strategies to each situation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 2, 2.1 - Positive and negative consequences of risk; Unit 1, Session 2, 2.2 - Direct and indirect consequences; Unit 1, Session 4, 4.1 - Pure and speculative risk"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain five advantages and three disadvantages of performing SWOT analysis in a procurement firm.",
+                "marks": 20,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "SWOT Analysis is a strategic planning tool used to evaluate an organization's Strengths, Weaknesses, Opportunities, and Threats to formulate its strategy.",
+                  "mainPoints": [
+                    {
+                      "heading": "Advantage 1: General to Specific Road Map",
+                      "detail": "It has a general perspective and presents general solutions, serving as a road map that guides the firm from general strategic thinking to specific issues."
+                    },
+                    {
+                      "heading": "Advantage 2: Uncover Opportunities and Manage Threats",
+                      "detail": "It helps management uncover opportunities to take advantage of and, by understanding weaknesses, manage and eliminate threats."
+                    },
+                    {
+                      "heading": "Advantage 3: Fits Other Strategic Tools",
+                      "detail": "It encompasses and fits other strategic decision tools and theories, such as Porter's Five Forces Model or the Balanced Scorecard."
+                    },
+                    {
+                      "heading": "Advantage 4: Promotes Group Discussion",
+                      "detail": "It promotes group discussion about strategic issues and strategy development through participatory techniques like brainstorming."
+                    },
+                    {
+                      "heading": "Advantage 5: Broad Application",
+                      "detail": "It can be applied at different analytical levels — from an individual to an international level — and by various organizations, including non-profits and governments."
+                    },
+                    {
+                      "heading": "Disadvantage 1: General Perspective",
+                      "detail": "It has a general perspective and presents general solutions, not focusing on specific, detailed issues."
+                    },
+                    {
+                      "heading": "Disadvantage 2: Poor Formulation Risk",
+                      "detail": "It requires experience and training for systematic construction; otherwise, it can be poorly formulated, leading to superficial analysis."
+                    },
+                    {
+                      "heading": "Disadvantage 3: Quantity Over Quality",
+                      "detail": "Many factors can be identified, but quantity does not mean quality. It is difficult to determine priorities among the factors identified."
+                    }
+                  ],
+                  "conclusion": "While SWOT analysis is a useful tool for strategic planning, procurement firms must be aware of its limitations and ensure it is used as a guide for more detailed analysis.",
+                  "otherPossibleAnswers": "Advantage (additional): Helps managements start a discussion for the future by moving beyond daily problems. Disadvantage (additional): May not be fully valid in today's world based on rapid change and competition, as it was developed in more stable periods.",
+                  "reference": "Unit 2, Session 2, 2.4 - Advantages of SWOT analysis and 2.5 - Disadvantages and limitations of SWOT analysis"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four challenges in international procurement.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "International procurement, while beneficial, presents several challenges due to variations in language, culture, and legal heritage across borders.",
+                  "mainPoints": [
+                    {
+                      "heading": "Different Technical or Industrial Standards",
+                      "detail": "Suppliers may use standards that do not meet the home country's requirements, leading to quality or compliance issues."
+                    },
+                    {
+                      "heading": "Import/Export Restrictions",
+                      "detail": "Tariffs, quotas, and complicated documentation requirements for cross-border processes can increase costs and delays."
+                    },
+                    {
+                      "heading": "Currency Exchange Fluctuation",
+                      "detail": "Unstable economic or political climates can cause currency fluctuations, affecting the final cost of goods and creating financial risk."
+                    },
+                    {
+                      "heading": "Language Differences",
+                      "detail": "Language barriers can complicate complex technical discussions, contract negotiations, and cause communication delays, affecting the bottom line."
+                    }
+                  ],
+                  "conclusion": "Successfully navigating international procurement requires careful planning to overcome challenges related to standards, regulations, finance, and communication.",
+                  "otherPossibleAnswers": "Varying Legal Systems: Differences in legal regimes can lead to contracts being ambiguous, unenforceable, or disputed. Increased Transit and Logistics Risk: Long-distance supply lines increase the risk of goods being lost, damaged, or deteriorated.",
+                  "reference": "Unit 5, Session 3, 3.3 - Challenges to International Procurement; Unit 1, Session 4, 4.4 - Financial crisis and supply chain vulnerability in the international business environment"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss four importance of insurance to a procurement firm.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Insurance is a form of risk management tool used to hedge against the risk of an uncertain loss by transferring the risk to an insurer.",
+                  "mainPoints": [
+                    {
+                      "heading": "Keeps Commerce Moving",
+                      "detail": "Insurance can support the life of a business after unforeseen events, safeguarding its operations and ensuring continuity."
+                    },
+                    {
+                      "heading": "Grants Peace of Mind",
+                      "detail": "Business owners can embark on ventures knowing they can shift the risk, allowing them to take calculated risks."
+                    },
+                    {
+                      "heading": "Ensures Business Stability",
+                      "detail": "It provides financial support and reduces uncertainties, helping to ensure the firm remains stable despite sudden losses."
+                    },
+                    {
+                      "heading": "Spreading of Risk",
+                      "detail": "Insurance facilitates the spreading of risk from the insured to the insurer, where a large pool of premiums compensates for the losses of a few."
+                    }
+                  ],
+                  "conclusion": "Insurance is crucial for a procurement firm as it provides financial protection, stability, and confidence to engage in business activities.",
+                  "otherPossibleAnswers": "Provides Safety and Security: It provides a cover against any sudden loss, reducing the fear and uncertainty associated with business operations.",
+                  "reference": "Unit 5, Session 5, 5.3 - Importance of insurance"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss four steps in developing capacity for recovery in supply chain.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Developing recovery capacity involves a systematic process to enable a supply chain to return to functionality after a disruption has occurred.",
+                  "mainPoints": [
+                    {
+                      "heading": "Awareness of Risk",
+                      "detail": "Expose potential risks associated with a supply-chain disruption by surveying suppliers and educating the internal audience on identified exposures."
+                    },
+                    {
+                      "heading": "Prevention of Risk",
+                      "detail": "Fully identify potential risks, recognize their causes, estimate the probability of occurrence, treat the causes, and monitor the results."
+                    },
+                    {
+                      "heading": "Remediating Risks",
+                      "detail": "Develop a strategy to recover from identified threats, consider ways to shorten the duration of impact, allocate necessary resources, and enact the strategy when a disruption occurs."
+                    },
+                    {
+                      "heading": "Knowledge Management",
+                      "detail": "Monitor external or internal changes to potential risks, perform post-event audits on disruptions, and ensure identified plans are sufficient for future reactions."
+                    }
+                  ],
+                  "conclusion": "These steps ensure an organization is not only prepared to respond to disruptions but can learn from them to improve future resilience.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 5, 5.3 - Steps in developing capacity for Recovery in Supply chain"
+                }
+              },
+              {
+                "label": "B",
+                "question": "When identifying risks, several biases may come into play. Explain any five of these biases.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "A bias is a systematic error or deviation from the truth that can lead to underestimation or overestimation of risks during the identification process.",
+                  "mainPoints": [
+                    {
+                      "heading": "Confirmation Bias",
+                      "detail": "Seeking out others who will confirm our own position or views, potentially failing to capture the full range of risks facing the organisation."
+                    },
+                    {
+                      "heading": "Groupthink Bias",
+                      "detail": "Aligning opinions with a large group of peers or experts, often due to fear of being excluded, which can suppress dissenting views and lead to poor risk identification."
+                    },
+                    {
+                      "heading": "Availability Bias",
+                      "detail": "Flagging up risks that are at the forefront of one's mind, such as those in the news, while ignoring other potentially greater risks that are less prominent."
+                    },
+                    {
+                      "heading": "Anchoring Bias",
+                      "detail": "Informing decisions based on the first piece of information received, which subconsciously anchors perception and prevents full consideration of other information."
+                    },
+                    {
+                      "heading": "Status Quo Bias",
+                      "detail": "A preference for things to stay the same, leading to a failure to question existing risks on the register simply because they are already there."
+                    }
+                  ],
+                  "conclusion": "Recognising these biases is crucial for ensuring that risk identification is comprehensive and objective, leading to better-informed decisions.",
+                  "otherPossibleAnswers": "Hindsight Bias: The feeling after an event that it was avoidable all along, which can create a blame culture and lead to unnecessary process changes.",
+                  "reference": "Unit 2, Session 6, 6.2 - Biases and risk management decisions"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
