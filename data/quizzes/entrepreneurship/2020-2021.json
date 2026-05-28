@@ -1,1 +1,526 @@
-
+{
+  "subject": "Entrepreneurship",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Entrepreneurship can best be described as ______.",
+            "options": [
+              "a process that requires setting up a business",
+              "taking a significant risk in a business context",
+              "a process involving innovation, new products or services, and value creation",
+              "All of the above"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All three options are correct. Entrepreneurship means starting a business, taking risks, and creating new value.",
+            "reference": "Unit 1, Session 1 - Meaning and Nature of Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "If Kojo starts a new service station, it is an example of a/an ______.",
+            "options": [
+              "new concept/new business",
+              "existing concept/new business",
+              "existing concept/existing business",
+              "new concept/existing business"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Service stations already exist (existing concept), but Kojo is starting a new one (new business).",
+            "reference": "Unit 1, Session 1 - Types of Entrepreneurial Ventures"
+          },
+          {
+            "type": "single",
+            "question": "The first person who introduced the term \"entrepreneur\" is ______.",
+            "options": [
+              "Adam Smith",
+              "Peter F. Drucker",
+              "Richard Cantillon",
+              "Joseph Shumpeter"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Richard Cantillon was the first person to use the word entrepreneur to describe someone who takes risks.",
+            "reference": "Unit 1, Session 1 - Historical Development of Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "______ entrepreneurship is defined as entrepreneurial actions undertaken by individuals living in poverty, and as such, concerned about their survival.",
+            "options": [
+              "Small Business",
+              "Social",
+              "Subsistence",
+              "Scalable Start-up"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Subsistence means just getting by. These entrepreneurs start businesses to survive, not to get rich.",
+            "reference": "Unit 1, Session 2 - Types of Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "As a new company grows, the entrepreneur will need to ______.",
+            "options": [
+              "be responsive to changes in the market",
+              "ensure financial controls are maintained",
+              "build a management team",
+              "all the above"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Growing a business needs all three: respond to changes, control money, and build a good team.",
+            "reference": "Unit 1, Session 4 - Growth and Development of Small Businesses"
+          },
+          {
+            "type": "single",
+            "question": "______ entrepreneurship is an approach by individuals, groups, start-up companies or entrepreneurs, in which they develop, fund and implement solutions to social, cultural, or environmental issues.",
+            "options": [
+              "High Growth",
+              "Corporate",
+              "Subsistence",
+              "Social"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Social entrepreneurs want to solve problems like poverty or pollution, not just make money.",
+            "reference": "Unit 1, Session 2 - Social Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "The characteristics of an individual that causes consistent patterns in that individual behavior over time is referred to as entrepreneurial ______.",
+            "options": [
+              "attribute",
+              "attitude",
+              "mentality",
+              "personality"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Your personality is what makes you act the same way again and again over time.",
+            "reference": "Unit 1, Session 2 - Entrepreneurial Personality"
+          },
+          {
+            "type": "single",
+            "question": "Entrepreneurs would be best described as risk ______.",
+            "options": [
+              "averse",
+              "rewarders",
+              "takers",
+              "lovers"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Entrepreneurs take calculated risks. They are not afraid to try things that might fail.",
+            "reference": "Unit 1, Session 2 - Risk Bearing in Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "The following are ways to avoid pitfalls of small business failure except ______.",
+            "options": [
+              "maintain a positive attitude",
+              "set your business along with the competition",
+              "know your business depth",
+              "understand Financial Statement"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Do not just copy your competitors. Be different. The other options help you avoid failure.",
+            "reference": "Unit 2, Session 4 - Avoiding Small Business Failure"
+          },
+          {
+            "type": "single",
+            "question": "An individual who actively engages in creating a new venture either alone or with someone and is expected to be the owner or part owner of this start-up is a ______ entrepreneur.",
+            "options": [
+              "serial",
+              "nascent",
+              "novice",
+              "portfolio"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Nascent means just beginning. These people are in the process of starting a business.",
+            "reference": "Unit 1, Session 2 - Types of Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "An entrepreneur who has internal locus of control ______.",
+            "options": [
+              "has a high need for achievement",
+              "feels comfortable in an unstructured",
+              "believes that success depends on his/her own actions",
+              "believes fate is a powerful force"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Internal locus means you believe your own hard work controls your success, not luck or fate.",
+            "reference": "Unit 1, Session 2 - Psychological Characteristics of Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "An entrepreneur who owns more than one business at a time is called ______.",
+            "options": [
+              "An intrapreneur",
+              "A corporate entrepreneur",
+              "A portfolio entrepreneur",
+              "None of the above"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Portfolio means collection. These entrepreneurs have a collection of businesses all at once.",
+            "reference": "Unit 1, Session 2 - Portfolio Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Mr. Agunde's belief in his capability to perform a task successfully is known as ______.",
+            "options": [
+              "self-recognition, beliefs, and values",
+              "beliefs and values",
+              "Self-determination",
+              "self-efficacy"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Self-efficacy is confidence in your own ability to get a job done well.",
+            "reference": "Unit 1, Session 2 - Entrepreneurial Self-Efficacy"
+          },
+          {
+            "type": "single",
+            "question": "Someone who improves an existing business using creativity and opportunity identification can be considered an/a ______.",
+            "options": [
+              "intrapreneur",
+              "co-worker",
+              "professional manager",
+              "None of the above"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Intrapreneur means entrepreneur inside a company. They innovate within an existing business.",
+            "reference": "Unit 1, Session 2 - Intrapreneurship"
+          },
+          {
+            "type": "single",
+            "question": "Which of these statements is true about entrepreneurship?",
+            "options": [
+              "Entrepreneurship = Artistic and Creativity",
+              "Entrepreneurship = Creativity and Smart",
+              "Entrepreneurship = Innovation and Creativity",
+              "Entrepreneurship = Creativity and Talent"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Entrepreneurship needs both coming up with new ideas (creativity) and turning them into real products (innovation).",
+            "reference": "Unit 1, Session 3 - Creativity and Innovation in Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "Creation, a type of creative behavior entails ______.",
+            "options": [
+              "an act of joining two previously unrelated things",
+              "inventing something from the scratch",
+              "modifying an existing product or service",
+              "identifying and evaluating various product alternatives"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Creation means making something completely new, not just changing or combining old things.",
+            "reference": "Unit 1, Session 3 - Types of Creative Behaviour"
+          },
+          {
+            "type": "single",
+            "question": "Offering tangible rewards to those generating ideas enhances creativity.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "True. When people get real rewards for good ideas, they are more motivated to be creative.",
+            "reference": "Unit 1, Session 3 - Encouraging Creativity"
+          },
+          {
+            "type": "single",
+            "question": "An entrepreneur is a person who has decided to take control of his future and become self-employed, whether by creating his own unique business or working as a member of a team.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "True. An entrepreneur takes charge of their own future and works for themselves.",
+            "reference": "Unit 1, Session 1 - Definition of an Entrepreneur"
+          },
+          {
+            "type": "single",
+            "question": "Personality is defined as the characteristics of an individual that cause consistent patterns in that individual's behaviour overtime.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "True. Personality is what makes you act in steady, predictable ways over time.",
+            "reference": "Unit 1, Session 2 - Entrepreneurial Personality"
+          },
+          {
+            "type": "single",
+            "question": "A trait is expressed as a dimension on which a person can be measured.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "True. Traits like confidence or risk-taking can be measured on a scale.",
+            "reference": "Unit 1, Session 2 - Traits of Entrepreneurs"
+          }
+        ]
+      }
+    },
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "The word entrepreneurship was derived from a Greek word \"entrepreneur\" meaning to undertake.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "False. It comes from the French word 'entreprendre', not Greek.",
+            "reference": "Unit 1, Session 1 - Historical Development of Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "The connection between risk and entrepreneurship was established in the 17th Century.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "True. Richard Cantillon linked risk and entrepreneurship in the 17th century.",
+            "reference": "Unit 1, Session 1 - Cantillon and Risk in Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "The entrepreneurial process does not include the \"entrepreneur\".",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "False. The entrepreneur is a key part of the process, along with opportunity, resources, and organization.",
+            "reference": "Unit 1, Session 2 - The Entrepreneurial Process"
+          },
+          {
+            "type": "single",
+            "question": "One of the basic rules of Brainstorming is to generate, do not evaluate.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "True. In brainstorming, you just throw out ideas first. Judge them later.",
+            "reference": "Unit 2, Session 2 - Brainstorming Technique"
+          },
+          {
+            "type": "single",
+            "question": "A business plan should not be prepared by the entrepreneur but rather by a professional.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "False. The entrepreneur should write the plan. Professionals can help, but the entrepreneur knows the business best.",
+            "reference": "Unit 3, Session 1 - Responsibility for Preparing a Business Plan"
+          },
+          {
+            "type": "single",
+            "question": "An entrepreneur is a person driven by certain forces which include the need for achievement and to escape authority of others. This definition was given by ______.",
+            "options": [
+              "Economist",
+              "Scientist",
+              "Businessmen",
+              "Psychologist"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Psychologists study the mind and motivation. They say people become entrepreneurs to achieve goals and be free from bosses.",
+            "reference": "Unit 1, Session 2 - Psychological Approach to Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "Joe is resourceful, quick thinker, and his level of restlessness makes him move from one business to another. Joe could be referred to as ______ entrepreneur.",
+            "options": [
+              "Craft",
+              "Opportunist",
+              "Serial",
+              "Portfolio"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Serial entrepreneurs start a business, leave it, then start another one over and over.",
+            "reference": "Unit 1, Session 2 - Serial Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Three reasons why people become entrepreneurs are as follows, except ______.",
+            "options": [
+              "Be their own boss",
+              "Pursue their own ideas",
+              "Manage other people",
+              "Realise financial rewards"
+            ],
+            "correctAnswer": "C",
+            "explanation": "People start businesses to be free, follow their ideas, and make money. Managing others is not a main reason.",
+            "reference": "Unit 2, Session 1 - Why People Start Businesses"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a characteristic of a successful entrepreneur?",
+            "options": [
+              "Head for business",
+              "Passion for their Business",
+              "They are professionals",
+              "They are risk averse"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Risk averse means avoiding risk. Successful entrepreneurs take risks, they do not avoid them.",
+            "reference": "Unit 1, Session 2 - Characteristics of Successful Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a personality characteristic of entrepreneurs?",
+            "options": [
+              "Locus of control",
+              "Risk taking",
+              "Positive push",
+              "Need for Achievement"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Positive push comes from society, not from your personality. The others are personality traits.",
+            "reference": "Unit 1, Session 3 - Personality vs Sociological Factors"
+          },
+          {
+            "type": "single",
+            "question": "Mr. Oheneba Gyebi developed the impetus and momentum for entrepreneurship based on the education and the knowledge acquired. Which sociological approach to entrepreneurship is this?",
+            "options": [
+              "Positive pull",
+              "Positive push",
+              "Negative displacement",
+              "Between things"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Positive push means good things like education and skills push you toward starting a business.",
+            "reference": "Unit 1, Session 3 - Sociological Approaches to Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "Which of the entrepreneurship environment is affected by the taste and preferences of consumers?",
+            "options": [
+              "Socio-cultural Environment",
+              "Competitive Environment",
+              "Political environment",
+              "Technological environment"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Tastes and preferences come from society and culture. That is the socio-cultural environment.",
+            "reference": "Unit 1, Session 4 - External Environment of Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not part of the reasons for starting your own business as outlined by Birley and Westhead (1994)?",
+            "options": [
+              "The need for approval",
+              "Perception of wealth",
+              "The need for personal development",
+              "The need for dependence"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Entrepreneurs want independence, not dependence. Needing to depend on others is not a reason to start a business.",
+            "reference": "Unit 2, Session 1 - Motives for Business Start-ups"
+          },
+          {
+            "type": "single",
+            "question": "If a business starts with no backlog of problems, the business is said to have a ______.",
+            "options": [
+              "goodwill",
+              "ill will",
+              "track record",
+              "clean sheet"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Clean sheet means starting fresh with no old problems or debts from the past.",
+            "reference": "Unit 2, Session 5 - Buying an Existing Business"
+          },
+          {
+            "type": "single",
+            "question": "According to Hisrich and Peters, which of the following is the largest source for new business idea?",
+            "options": [
+              "Research and development",
+              "Government agencies",
+              "Consumers",
+              "Existing Companies"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Consumers are the biggest source. Listening to what customers want gives you the best business ideas.",
+            "reference": "Unit 2, Session 2 - Sources of Business Ideas"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a method of generating new business idea?",
+            "options": [
+              "Distribution channel",
+              "Problem inventory analysis",
+              "Brainstorming",
+              "Focus group"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Distribution channels are a source of ideas, not a method. Methods are things like brainstorming and focus groups.",
+            "reference": "Unit 2, Session 2 - Idea Generation Techniques"
+          },
+          {
+            "type": "single",
+            "question": "Which phase of new business venture begins with an idea for the venture and ends when the doors of the venture are opened for business?",
+            "options": [
+              "Start-up",
+              "Post-Start-up",
+              "Pre Start-up",
+              "Mid Start-up"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Pre start-up is everything that happens before you open your doors, from the first idea to getting ready.",
+            "reference": "Unit 2, Session 3 - Phases of Venture Creation"
+          },
+          {
+            "type": "single",
+            "question": "Mr. John Mensah (a Chartered Accountant) bought 30% shares to become part owner of ReGAS Financial Services, a company owned by two professional accountants. Mr. Mensah can be classified under which options for small business buyers?",
+            "options": [
+              "Outright purchase",
+              "Buy-in",
+              "Buy-out",
+              "Buy-in Management Buy-out"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Buy-in means an outsider buys part of an existing business. Mr. Mensah was not an owner before, so he bought in.",
+            "reference": "Unit 2, Session 5 - Options for Small Business Buyers"
+          },
+          {
+            "type": "single",
+            "question": "Which section of a business plan establishes a favourable first impression of the owners and the business, and succeed in securing financing?",
+            "options": [
+              "Introductory page",
+              "Industry analysis",
+              "Executive Summary",
+              "Production Plan"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The Executive Summary is the first thing people read. It must sell your business idea to get funding.",
+            "reference": "Unit 3, Session 2 - Components of the Business Plan"
+          },
+          {
+            "type": "single",
+            "question": "Which type of franchising can also be referred to as Dealership?",
+            "options": [
+              "Trade name franchising",
+              "Product distribution Franchising",
+              "Pure franchising",
+              "Comprehensive franchising"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Product distribution franchising is also called a dealership, like car dealers or fuel stations.",
+            "reference": "Unit 2, Session 6 - Types of Franchising"
+          }
+        ]
+      }
+    }
+  ]
+}
