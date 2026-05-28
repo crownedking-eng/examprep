@@ -3,7 +3,8 @@
 //
 //  Data is loaded at runtime from:
 //    data/manifest.json          → subject list + year file paths
-//    data/{subject}/{year}.json  → semester/section/question data
+//    data/{file}                 → semester/section/question data (exams)
+//    data/{quizFile}             → quiz data (optional, from manifest)
 //
 //  Raw JSON uses:   question / reference / correctAnswer ("A"–"D") / sectionB[]
 //  App internally uses: text / ref / correct (0–3) / sectionB { caseStudy, questions }
@@ -158,6 +159,7 @@ async function loadManifest() {
       id: y.id,
       label: y.label,
       file: y.file,
+      quizFile: y.quizFile || null,
       semesters: null,
     })),
   }));
@@ -171,6 +173,7 @@ async function loadYear(subjectId, yearId) {
   const year = subject?.years.find((y) => y.id === yearId);
   if (!year) throw new Error(`Year "${yearId}" not found in subject "${subjectId}"`);
 
+  // Load exam data (required)
   const res = await fetch(`data/${year.file}`);
   if (!res.ok) throw new Error(`Could not load ${year.file} (HTTP ${res.status})`);
 
@@ -178,17 +181,24 @@ async function loadYear(subjectId, yearId) {
   const normalised = normaliseYear(raw);
   year.semesters = normalised.semesters;
 
-  try {
-    const quizRes = await fetch(`data/quizzes/${subjectId}/${yearId}.json`);
-    if (quizRes.ok) {
-      const quizRaw = await quizRes.json();
-      quizRaw.semesters?.forEach((quizSem, i) => {
-        if (quizSem?.quiz && normalised.semesters[i]) {
-          normalised.semesters[i].quiz = normQuiz(quizSem.quiz);
-        }
-      });
+  // Load quiz data from manifest-specified path (optional)
+  if (year.quizFile) {
+    try {
+      const quizRes = await fetch(`data/${year.quizFile}`);
+      if (quizRes.ok) {
+        const quizRaw = await quizRes.json();
+        quizRaw.semesters?.forEach((quizSem, i) => {
+          if (quizSem?.quiz && normalised.semesters[i]) {
+            normalised.semesters[i].quiz = normQuiz(quizSem.quiz);
+          }
+        });
+      } else {
+        console.warn(`Quiz file not found: data/${year.quizFile}`);
+      }
+    } catch (e) {
+      console.warn(`Failed to load quiz: ${e.message}`);
     }
-  } catch { /* quiz file missing */ }
+  }
 
   YEAR_CACHE[cacheKey] = true;
 }
@@ -1058,7 +1068,7 @@ function renderMarkdownTables(text) {
       }).join("");
 
       output.push(
-        `<div class="table-wrapper"><table class="q-table"><thead><tr>${thCells}</table></thead><tbody>${tdRows}</tbody></table></div>`
+        `<div class="table-wrapper"><table class="q-table"><thead><tr>${thCells}<tr></thead><tbody>${tdRows}</tbody></table></div>`
       );
       continue;
     }
