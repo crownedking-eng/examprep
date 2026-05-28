@@ -105,24 +105,42 @@ function normaliseYear(raw) {
     return rawB;
   }
 
-  function normQuiz(rawQ) {
-    if (!rawQ) return null;
-    return {
-      title: rawQ.title ?? "Mid-Semester Quiz",
-      description: rawQ.description ?? "",
-      totalQuestions: rawQ.totalQuestions ?? (rawQ.questions?.length ?? 0),
-      questions: (rawQ.questions || []).map(normQuestion),
-    };
-  }
-
   const semesters = (raw.semesters || []).map((sem) => ({
     semester: sem.semester,
     sectionA: (sem.sectionA || []).map(normSectionAItem),
     sectionB: normSectionB(sem.sectionB),
-    quiz: normQuiz(sem.quiz),
+    quiz: normQuiz(sem.quiz, normQuestion),   // normQuiz is now module-level
   }));
 
   return { semesters };
+}
+
+// ─── QUIZ NORMALISER (module-level so loadYear can call it) ──────────────────
+// Defined outside normaliseYear so loadYear can call it when merging the
+// separately-fetched quiz file. Has its own inline normalisation logic
+// (mirrors normQuestion) to avoid closure dependency issues.
+function normQuiz(rawQ, normFn) {
+  if (!rawQ) return null;
+  const letterToIdx = { A: 0, B: 1, C: 2, D: 3 };
+  function normaliseQ(q) {
+    return {
+      ...q,
+      text:    q.question ?? q.text ?? "",
+      options: (q.options || []).map((o) => String(o).replace(/^[A-D]\.\s*/i, "")),
+      correct: q.correctAnswer !== undefined
+        ? (letterToIdx[String(q.correctAnswer).toUpperCase()] ?? 0)
+        : (q.correct ?? 0),
+      ref: q.reference ?? q.ref ?? "",
+      question: undefined, reference: undefined, correctAnswer: undefined,
+    };
+  }
+  const fn = normFn ?? normaliseQ;
+  return {
+    title:          rawQ.title          ?? "Mid-Semester Quiz",
+    description:    rawQ.description    ?? "",
+    totalQuestions: rawQ.totalQuestions ?? (rawQ.questions?.length ?? 0),
+    questions:      (rawQ.questions || []).map(fn),
+  };
 }
 
 // ─── LOADING UI ───────────────────────────────────────────────────────────────
