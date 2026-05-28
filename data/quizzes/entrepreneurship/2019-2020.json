@@ -1,0 +1,269 @@
+{
+  "subject": "Entrepreneurship",
+  "academicYear": "2019/2020",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "All the following are forces in the external environment of business except ______.",
+            "options": [
+              "technological factors",
+              "employees",
+              "political factors",
+              "legal factors"
+            ],
+            "correctAnswer": "B",
+            "explanation": "External forces are things outside the business like politics, laws, and technology. Employees are inside the business, not outside.",
+            "reference": "Unit 1, Session 3 - Environmental Influences on Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "An entrepreneur who starts a new business after abandoning a previous business is called ______.",
+            "options": [
+              "opportunistic entrepreneur",
+              "nascent entrepreneur",
+              "serial entrepreneur",
+              "novice entrepreneur"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Serial means doing something again and again. A serial entrepreneur keeps starting new businesses, one after another.",
+            "reference": "Unit 1, Session 2 - Types of Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a benefit of starting a small business?",
+            "options": [
+              "Exercise of personal control",
+              "Less funds required",
+              "Lack of continuity after owner dies",
+              "Owner enjoys profit alone"
+            ],
+            "correctAnswer": "C",
+            "explanation": "When the owner dies and the business ends, that is a bad thing. Benefits are good things like control, low cost, and keeping profits.",
+            "reference": "Unit 1, Session 4 - Advantages and Disadvantages of Small Business"
+          },
+          {
+            "type": "single",
+            "question": "Entrepreneurs contribute to national development in the following way except ______.",
+            "options": [
+              "employment creation",
+              "evasion of taxes",
+              "capital formation",
+              "innovation"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Avoiding taxes is illegal and hurts the country. Entrepreneurs help by creating jobs, building capital, and making new things.",
+            "reference": "Unit 1, Session 1 - Role of Entrepreneurship in Economic Development"
+          },
+          {
+            "type": "single",
+            "question": "The characteristics within an individual that causes him to behave in a consistent way overtime is referred to as ______.",
+            "options": [
+              "attitude",
+              "personality",
+              "values",
+              "perception"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Your personality is who you are deep down. It stays the same over time and makes you act in certain ways.",
+            "reference": "Unit 1, Session 2 - Entrepreneurial Characteristics"
+          },
+          {
+            "type": "single",
+            "question": "The process of setting up your own business starts with ______.",
+            "options": [
+              "acquisition of resources",
+              "leading and directing the organisation",
+              "identification of opportunity",
+              "managing people"
+            ],
+            "correctAnswer": "C",
+            "explanation": "You cannot start a business until you first spot a chance to do something people want. That is the opportunity.",
+            "reference": "Unit 1, Session 2 - The Entrepreneurial Process"
+          },
+          {
+            "type": "single",
+            "question": "The factors that affect the entrepreneurship process include the following except ______.",
+            "options": [
+              "psychological factors",
+              "situational factors",
+              "sociological factors",
+              "cultural factors"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The book says three approaches are used: psychological, sociological, and situational. Cultural is not one of them.",
+            "reference": "Unit 1, Session 3 - Factors that Influence the Entrepreneurial Process"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a psychological factor that is believed to affect an individual's decision of becoming an entrepreneur?",
+            "options": [
+              "Locus of control",
+              "Need for achievement",
+              "Negative displacement",
+              "Personality characteristics"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Negative displacement is about society pushing you out. It is not about your mind or feelings, so it is sociological.",
+            "reference": "Unit 1, Session 3 - Psychological and Sociological Influences"
+          },
+          {
+            "type": "single",
+            "question": "Businesses with more than ten (10) employees, according to Ghana Statistical Services, are classified as ______.",
+            "options": [
+              "micro businesses",
+              "small businesses",
+              "small and medium businesses",
+              "medium and large businesses"
+            ],
+            "correctAnswer": "B",
+            "explanation": "In Ghana, if you have more than 10 workers, you are called a small business. Micro businesses have fewer workers.",
+            "reference": "Unit 1, Session 5 - Classification of Small Businesses in Ghana"
+          },
+          {
+            "type": "single",
+            "question": "Focus groups are ______.",
+            "options": [
+              "political debates",
+              "groups who meet to discuss and generate new ideas",
+              "awareness training groups",
+              "workshop sessions for individuals"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A focus group is when people sit together to talk and come up with fresh ideas for a business.",
+            "reference": "Unit 2, Session 2 - Sources and Techniques for Business Ideas"
+          },
+          {
+            "type": "single",
+            "question": "The following are some reasons why small businesses fail at start up except ______.",
+            "options": [
+              "poor market timing",
+              "lack of distribution channels",
+              "clear business idea",
+              "lack of technical and managerial skills"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Having a clear idea helps you succeed. The other options (bad timing, no way to sell products, no skills) cause failure.",
+            "reference": "Unit 2, Session 4 - Causes of New Venture Failure"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not an approach for evaluating new ventures?",
+            "options": [
+              "Analysis of financial feasibility",
+              "Determining the technical feasibility of idea",
+              "Analysis of organisational resources and capabilities",
+              "Systems analysis"
+            ],
+            "correctAnswer": "D",
+            "explanation": "You check money, technology, and your team's ability. Systems analysis is not used for this.",
+            "reference": "Unit 2, Session 3 - Evaluating New Venture Opportunities"
+          },
+          {
+            "type": "single",
+            "question": "In preparing to buy a new business, it is necessary to conduct a self-audit before the decision is launched. The purpose of the self-audit is to ______.",
+            "options": [
+              "determine your strengths and weaknesses and the ideal business that matches the strengths",
+              "determine opportunities and threats in the business environment",
+              "evaluate the performance of the potential business",
+              "knock on the doors of the potential businesses"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Self-audit means looking at yourself first. Know what you are good at and what you are bad at before looking at businesses.",
+            "reference": "Unit 2, Session 5 - Buying an Existing Business"
+          },
+          {
+            "type": "single",
+            "question": "Advantages of buying existing businesses include the following except ______.",
+            "options": [
+              "poor goodwill",
+              "overcoming barriers to entry",
+              "existing track record",
+              "insider knowledge"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Poor goodwill means customers do not like the business. That is a disadvantage, not an advantage.",
+            "reference": "Unit 2, Session 5 - Advantages and Disadvantages of Buying a Business"
+          },
+          {
+            "type": "single",
+            "question": "The business arrangement where one party grants the other the right and license to use its trade name as well as business processes is referred to as ______.",
+            "options": [
+              "joint venture",
+              "strategic alliance",
+              "franchising",
+              "partnership"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Franchising is when you pay to use another company's name and way of doing business. Think of KFC or MTN shops.",
+            "reference": "Unit 2, Session 6 - Meaning and Nature of Franchising"
+          },
+          {
+            "type": "single",
+            "question": "The type of franchising, where franchisees are granted the license to sell specific products under the manufacturer's brand and trade name through selected distribution channels is known as ______.",
+            "options": [
+              "pure franchising",
+              "product distribution franchising",
+              "trade name franchising",
+              "copyright franchising"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is like a car dealership. You sell a specific brand's products, not the whole business system.",
+            "reference": "Unit 2, Session 6 - Types of Franchising"
+          },
+          {
+            "type": "single",
+            "question": "A part of a business plan that is the last to be written but it is always placed at the beginning of the plan is the ______.",
+            "options": [
+              "marketing plan",
+              "production plan",
+              "executive summary",
+              "appendices"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The executive summary is a short version of the whole plan. You write it last, but put it first so readers see it right away.",
+            "reference": "Unit 3, Session 2 - Structure of the Business Plan"
+          },
+          {
+            "type": "single",
+            "question": "People who are in 'between things' are not likely to seek entrepreneurial opportunities.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is false. People between jobs or schools often start businesses because they are looking for a new path.",
+            "reference": "Unit 1, Session 3 - Sociological Influences on Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "Copyright franchising is one of the main types of franchising agreement.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is false. The main types are product distribution, trade name, and pure franchising. Copyright is not one of them.",
+            "reference": "Unit 2, Session 6 - Franchising Agreements"
+          },
+          {
+            "type": "single",
+            "question": "Business plan is not necessary when purchasing an already established company.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is false. Even if a business already exists, you still need a plan to check its finances, risks, and future.",
+            "reference": "Unit 3, Session 1 - Importance of Business Planning"
+          }
+        ]
+      }
+    }
+  ]
+}

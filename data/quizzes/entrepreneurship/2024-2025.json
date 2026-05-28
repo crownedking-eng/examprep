@@ -1,0 +1,275 @@
+{
+  "subject": "Entrepreneurship",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "The process of creating something new with value, by devoting the necessary time and effort, assuming the accompanying financial, psychic and social risks and receiving the resulting rewards of monetary, personal satisfaction and independence is referred to as ______.",
+            "options": [
+              "Entrepreneur",
+              "Entrepreneurship",
+              "Innovation",
+              "Production"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Entrepreneurship is the full process of creating value, taking risks, and getting rewards like money and freedom.",
+            "reference": "Unit 1, Session 1 - Meaning and Definition of Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "The concept of entrepreneurship that focuses on an individual's assessment of how appealing and satisfying entrepreneurial activities are is known as ______.",
+            "options": [
+              "Perception of desirability",
+              "Perception of feasibility",
+              "Positive pull",
+              "Positive push"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Perception of desirability asks: do I find entrepreneurship attractive and satisfying?",
+            "reference": "Unit 1, Session 3 - Perception of Desirability"
+          },
+          {
+            "type": "single",
+            "question": "In which phase of a new venture does the entrepreneur focus on researching the market, developing a business plan, and securing funding?",
+            "options": [
+              "Expansion Phase",
+              "Pre-Start-Up Phase",
+              "Post-Start-Up Phase",
+              "Start-Up Phase"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The pre-start-up phase happens before you open. You research, write a plan, and find money.",
+            "reference": "Unit 2, Session 3 - Phases of New Venture Creation"
+          },
+          {
+            "type": "single",
+            "question": "All the following are benefits of product feasibility except ______.",
+            "options": [
+              "Additional cost of capital",
+              "Avoid obvious flaws in design",
+              "Get additional insights",
+              "Get the product right the first time"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Additional cost of capital is not a benefit, it is a cost. The others are real benefits.",
+            "reference": "Unit 2, Session 3 - Product Feasibility Analysis"
+          },
+          {
+            "type": "single",
+            "question": "Which section of a business plan typically includes information about competitors and target customers?",
+            "options": [
+              "Company description",
+              "Financial projections",
+              "Market analysis",
+              "Marketing strategy"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The market analysis section studies competitors, customers, and industry trends.",
+            "reference": "Unit 3, Session 2 Market Analysis Section"
+          },
+          {
+            "type": "single",
+            "question": "Which party provides initial training and ongoing support in a franchising relationship?",
+            "options": [
+              "Both",
+              "Neither",
+              "Only the franchisee",
+              "Only the franchisor"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The franchisor is the one who owns the brand and provides training and support to the franchisee.",
+            "reference": "Unit 2, Session 6 Franchising Relationship"
+          },
+          {
+            "type": "single",
+            "question": "Anything or any quality that is useful is referred to as ______.",
+            "options": [
+              "Assets",
+              "Equipment",
+              "Raw material",
+              "Resource"
+            ],
+            "correctAnswer": "D",
+            "explanation": "A resource is anything useful that helps you run your business, like money, people, or equipment.",
+            "reference": "Unit 2, Session 4 - Meaning of Resources"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a characteristic of entrepreneurial resources?",
+            "options": [
+              "Market exists for them",
+              "They are always available",
+              "They are consumed",
+              "They have value"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Resources are not always available. They can be scarce or hard to find.",
+            "reference": "Unit 2, Session 4 - Characteristics of Resources"
+          },
+          {
+            "type": "single",
+            "question": "All the following are sources of generating entrepreneurial ideas except ______.",
+            "options": [
+              "Brainstorming session",
+              "Customer demands",
+              "Existing business",
+              "Research and development"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Brainstorming is a method, not a source. Sources are customers, existing businesses, and R&D.",
+            "reference": "Unit 2, Session 2 - Sources of Business Ideas"
+          },
+          {
+            "type": "single",
+            "question": "How does a buy-out differ from a buy-in? A buy-out ______.",
+            "options": [
+              "involves external investors",
+              "is when current managers/employees purchase the business",
+              "means buying part only",
+              "involves government"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A buy-out is when current managers buy the business. A buy-in is when an outsider buys in.",
+            "reference": "Unit 2, Session 5 - Buy-In and Buy-Out"
+          },
+          {
+            "type": "single",
+            "question": "Entrepreneurs with a high need for achievement tend to ______.",
+            "options": [
+              "Avoid challenges",
+              "Prefer routine",
+              "Set challenging but attainable goals",
+              "Set easy goals"
+            ],
+            "correctAnswer": "C",
+            "explanation": "People with high need for achievement set goals that are challenging but still possible to reach.",
+            "reference": "Unit 1, Session 2 - Need for Achievement"
+          },
+          {
+            "type": "single",
+            "question": "The components of the entrepreneurial process are, entrepreneur, ______.",
+            "options": [
+              "ideas, resource and opportunity",
+              "opportunity, finance and resources",
+              "opportunity, resource and organization",
+              "opportunity, resource and profit"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The four parts are: entrepreneur, opportunity, resources, and organization.",
+            "reference": "Unit 1, Session 4 - Entrepreneurial Process"
+          },
+          {
+            "type": "single",
+            "question": "What is a key characteristic of serial entrepreneurs compared to novice entrepreneurs?",
+            "options": [
+              "Lack of innovation",
+              "Limited risk tolerance",
+              "Multiple business experiences",
+              "Singular focus"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Serial entrepreneurs have started several businesses before. Novices are first-timers with no experience.",
+            "reference": "Unit 1, Session 2 - Serial Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Miss Eunice Agyei's movement from politics into business represents which sociological perspective?",
+            "options": [
+              "Between Things",
+              "Negative Displacement",
+              "Perception of desirability",
+              "Positive push"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Between things describes people who leave one role (like politics) and move into business during a transition.",
+            "reference": "Unit 1, Session 3 - Sociological Perspectives (Between Things)"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a primary goal of brainstorming in entrepreneurship?",
+            "options": [
+              "Critique immediately",
+              "Generate many diverse ideas",
+              "Limit participants",
+              "Select first idea"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The goal of brainstorming is to get as many different ideas as possible, not to judge them yet.",
+            "reference": "Unit 2, Session 2 - Brainstorming Technique"
+          },
+          {
+            "type": "single",
+            "question": "What source of entrepreneurial ideas involves purchasing rights to operate a proven model?",
+            "options": [
+              "Corporations",
+              "Customers",
+              "Existing businesses",
+              "Franchises"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Franchising lets you buy the rights to use a business model that already works.",
+            "reference": "Unit 2, Session 6 - Franchising"
+          },
+          {
+            "type": "single",
+            "question": "What is a potential drawback of franchising to the franchisees?",
+            "options": [
+              "Brand recognition",
+              "Flexibility",
+              "Limited control",
+              "Reduced support"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Franchisees must follow the franchisor's rules, so they have less freedom and control over their business.",
+            "reference": "Unit 2, Session 6 - Disadvantages of Franchising"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a financial resource?",
+            "options": [
+              "Cash",
+              "Debtors",
+              "Creditors",
+              "Overdraft"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Creditors are people you owe money to (liability). Cash, debtors, and overdraft are financial resources.",
+            "reference": "Unit 2, Session 4 - Financial Resources"
+          },
+          {
+            "type": "single",
+            "question": "Which resources are intangible? I. Innovation and ideas II. Human resources III. Quality of product IV. Equipment and location V. Brand names and knowledge",
+            "options": [
+              "I and V",
+              "I, II and V",
+              "I, II, III and V",
+              "I, III and V"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Intangible resources are things you cannot touch: ideas, people skills, brand names, and knowledge.",
+            "reference": "Unit 2, Session 4 - Tangible vs Intangible Resources"
+          },
+          {
+            "type": "single",
+            "question": "How many respondents typically make up a focus group?",
+            "options": [
+              "5 to 11",
+              "6 to 12",
+              "7 to 13",
+              "8 to 14"
+            ],
+            "correctAnswer": "D",
+            "explanation": "A focus group normally has between 8 and 14 people for good discussion and control.",
+            "reference": "Unit 2, Session 2 - Focus Groups"
+          }
+        ]
+      }
+    }
+  ]
+}

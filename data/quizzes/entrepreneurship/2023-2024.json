@@ -1,0 +1,275 @@
+{
+  "subject": "Entrepreneurship",
+  "academicYear": "2023/2024",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Portfolio entrepreneurs are known for ______.",
+            "options": [
+              "creating intricate handmade products.",
+              "focusing solely on one large-scale enterprise.",
+              "managing a diverse range of business ventures.",
+              "providing freelance services in multiple industries."
+            ],
+            "correctAnswer": "C",
+            "explanation": "Portfolio means collection. Portfolio entrepreneurs own and manage several different businesses at the same time.",
+            "reference": "Unit 1, Session 2 - Types of Entrepreneurs (Portfolio Entrepreneur)"
+          },
+          {
+            "type": "single",
+            "question": "The sequence of activities, stages, and steps that individuals or groups undertake to create, develop, and manage a new business venture is referred to as ______.",
+            "options": [
+              "entrepreneurial process",
+              "entrepreneurship",
+              "feasibility analysis",
+              "opportunity"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The entrepreneurial process is the step-by-step journey of starting and growing a new business.",
+            "reference": "Unit 1, Session 4 - The Entrepreneurial Process"
+          },
+          {
+            "type": "single",
+            "question": "The characteristic of an individual that causes consistent patterns in that individual's behaviour over time is referred to as ______.",
+            "options": [
+              "Attitude",
+              "Believe",
+              "Norms",
+              "Personality"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Personality is what makes you act in the same ways again and again over time.",
+            "reference": "Unit 1, Session 2 - Personality Characteristics of Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Which combination of psychological traits is likely to result in a successful entrepreneur?",
+            "options": [
+              "High need for achievement, internal locus of control, and calculated risk-taking.",
+              "High need for achievement, internal locus of control, and reckless risk-taking.",
+              "Low need for achievement, external locus of control, and impulsive decision-making.",
+              "Low need for achievement, external locus of control, and risk aversion."
+            ],
+            "correctAnswer": "A",
+            "explanation": "Successful entrepreneurs want to achieve goals, believe in themselves, and take smart risks, not reckless ones.",
+            "reference": "Unit 1, Session 2 - Psychological Traits of Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "The ideal numbers for a focus group discussion are between ______ participants.",
+            "options": [
+              "10 and 12",
+              "5 and 11",
+              "7 and 12",
+              "8 and 14"
+            ],
+            "correctAnswer": "D",
+            "explanation": "A focus group should have between 8 and 14 people for good discussion and control.",
+            "reference": "Unit 2, Session 2 - Focus Groups"
+          },
+          {
+            "type": "single",
+            "question": "All the following are sources of generating entrepreneurial ideas except ______.",
+            "options": [
+              "customers",
+              "existing companies",
+              "focus group",
+              "government agencies"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A focus group is a method, not a source. Sources are places like customers, companies, and government agencies.",
+            "reference": "Unit 2, Session 2 - Sources of Business Ideas"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary purpose of feasibility analysis in the context of developing business ideas? To ______.",
+            "options": [
+              "create a marketing strategy",
+              "determine legal requirements",
+              "evaluate the potential success and viability",
+              "secure funding"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Feasibility analysis helps you check if your business idea can actually succeed before you invest too much.",
+            "reference": "Unit 2, Session 3 - Feasibility Analysis"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a primary audience for a business plan?",
+            "options": [
+              "Current competitors.",
+              "Current employees.",
+              "Potential customers.",
+              "Potential investors."
+            ],
+            "correctAnswer": "A",
+            "explanation": "Competitors are not your audience. You write a business plan for yourself, employees, customers, and investors.",
+            "reference": "Unit 3, Session 1 - Audience of a Business Plan"
+          },
+          {
+            "type": "single",
+            "question": "Which psychological trait is characterized by a strong desire to excel, set challenging goals, and take personal responsibility for success or failure?",
+            "options": [
+              "High need for achievement",
+              "External locus of Control",
+              "Proactive personality",
+              "Risk-taking propensity"
+            ],
+            "correctAnswer": "A",
+            "explanation": "High need for achievement means you want to do well, set tough goals, and own your successes and failures.",
+            "reference": "Unit 1, Session 2 - Need for Achievement"
+          },
+          {
+            "type": "single",
+            "question": "The marginalization of individuals or groups of individuals from the core of society is termed as ______.",
+            "options": [
+              "between things",
+              "locus of control",
+              "negative displacement",
+              "perception of desirability"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Negative displacement is when people are pushed out from the center of society and become entrepreneurs.",
+            "reference": "Unit 1, Session 3 - Sociological Approaches (Negative Displacement)"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a primary goal of brainstorming in entrepreneurship?",
+            "options": [
+              "Critiquing immediately",
+              "Generating a large quantity of diverse ideas",
+              "Limiting participants",
+              "Selecting first idea"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The goal of brainstorming is to get as many different ideas as possible, no matter how wild.",
+            "reference": "Unit 2, Session 2 - Brainstorming Technique"
+          },
+          {
+            "type": "single",
+            "question": "Environmental factors determining entrepreneurial activities include ______. I. Technical II. Economic III. Geographical IV. Political V. Socio-cultural",
+            "options": [
+              "I and II only",
+              "I, II, IV and V only",
+              "II, III and V only",
+              "II, IV and V only"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The main environmental factors are technical, economic, political, and socio-cultural. Geographical is not listed as a main one.",
+            "reference": "Unit 1, Session 4 - Environmental Influences on Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "What typically happens in a buy-out?",
+            "options": [
+              "Existing management purchases the business",
+              "Outside party buys the firm",
+              "Assets sold",
+              "Forced sale"
+            ],
+            "correctAnswer": "A",
+            "explanation": "A buy-out happens when the current managers buy the business they already work for.",
+            "reference": "Unit 2, Session 5 - Buy-Out"
+          },
+          {
+            "type": "single",
+            "question": "Which option minimizes risk by involving both existing and outside management?",
+            "options": [
+              "BIMBO",
+              "Buy-in",
+              "Buy-out",
+              "Outright purchase"
+            ],
+            "correctAnswer": "A",
+            "explanation": "BIMBO combines inside managers and outside investors, which spreads and reduces the risk.",
+            "reference": "Unit 2, Session 5 - BIMBO"
+          },
+          {
+            "type": "single",
+            "question": "Which is not a typical source for searching businesses for sale?",
+            "options": [
+              "Business brokers",
+              "Industry contacts",
+              "Newspapers",
+              "Real estate agents"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Real estate agents sell property, not businesses. You use brokers, contacts, and newspapers to find businesses for sale.",
+            "reference": "Unit 2, Session 5 - Searching for Businesses for Sale"
+          },
+          {
+            "type": "single",
+            "question": "Which type of venture aims at moderate growth while maintaining autonomy and control?",
+            "options": [
+              "High-growth ventures",
+              "Lifestyle ventures",
+              "Public/private placements",
+              "Small profitable ventures"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Lifestyle ventures focus on being your own boss and having control, with moderate growth, not huge expansion.",
+            "reference": "Unit 1, Session 5 - Ronstadt Classification of Ventures"
+          },
+          {
+            "type": "single",
+            "question": "What should a buyer consider when evaluating financial condition? The ______.",
+            "options": [
+              "Location",
+              "Competitors",
+              "Overall profitability",
+              "Customer base"
+            ],
+            "correctAnswer": "C",
+            "explanation": "When looking at financial condition, the most important thing is overall profitability, how much money the business makes.",
+            "reference": "Unit 2, Session 5 - Evaluating a Business Financially"
+          },
+          {
+            "type": "single",
+            "question": "Which is a disadvantage of buying an existing business?",
+            "options": [
+              "Decrease in market value",
+              "Guaranteed profitability",
+              "Increase in brand reputation",
+              "Potential ill will from previous owner"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Potential ill will means customers or workers might dislike the business because of the previous owner.",
+            "reference": "Unit 2, Session 5 - Disadvantages of Buying Existing Businesses"
+          },
+          {
+            "type": "single",
+            "question": "What advantage does a franchisee gain in product acceptance?",
+            "options": [
+              "Greater control",
+              "Limited options",
+              "Reduced resource expenditure",
+              "Uncertainty in credibility"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Since the brand is already known, the franchisee spends less money on marketing and building customer trust.",
+            "reference": "Unit 2, Session 6 - Advantages of Franchising"
+          },
+          {
+            "type": "single",
+            "question": "What is one primary purpose of a business plan? To ______.",
+            "options": [
+              "determine the viability of the venture in a market",
+              "entertain investors",
+              "serve as history",
+              "replace daily planning"
+            ],
+            "correctAnswer": "A",
+            "explanation": "A business plan helps you find out if your business can survive and succeed in the market.",
+            "reference": "Unit 3, Session 1 - Importance of Business Plan"
+          }
+        ]
+      }
+    }
+  ]
+}

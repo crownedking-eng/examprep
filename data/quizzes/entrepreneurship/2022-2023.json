@@ -1,0 +1,538 @@
+{
+  "subject": "Entrepreneurship",
+  "academicYear": "2022/2023",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Individuals who currently have minority or majority ownership stakes in two or more independent businesses that are either new, purchased and/or inherited can be classified as ______ entrepreneur.",
+            "options": [
+              "Novice",
+              "Serial",
+              "Nascent Portfolio",
+              "Portfolio"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Portfolio means collection. A portfolio entrepreneur owns multiple businesses at the same time.",
+            "reference": "Unit 1, Session 2 - Types of Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "The predisposition to have particular beliefs, attitude and behavior represented is ______.",
+            "options": [
+              "Culture",
+              "Personality",
+              "Norms",
+              "Character"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Personality is what makes you have certain beliefs, attitudes, and ways of acting.",
+            "reference": "Unit 1, Session 2 - Entrepreneurial Personality"
+          },
+          {
+            "type": "single",
+            "question": "The gap in the market that represents the possibility of doing something new, different and better and so the chance to create value is referred to as ______.",
+            "options": [
+              "Opportunity",
+              "Idea",
+              "Resource",
+              "Niche"
+            ],
+            "correctAnswer": "A",
+            "explanation": "An opportunity is a gap in the market where you can do something new and create value for customers.",
+            "reference": "Unit 1, Session 2 - Opportunity Identification"
+          },
+          {
+            "type": "single",
+            "question": "Individuals who believe that what happens to them is a result of fate, chance, or forces beyond their control is said to have ______.",
+            "options": [
+              "Risk-taking propensity",
+              "High need for achievement",
+              "Internal locus of control",
+              "External locus of control"
+            ],
+            "correctAnswer": "D",
+            "explanation": "External locus means you think outside forces like luck or fate control what happens to you.",
+            "reference": "Unit 1, Session 2 - Locus of Control"
+          },
+          {
+            "type": "single",
+            "question": "Environmental factors such as the population, interest rate and inflation that influence business activities can be classified under ______.",
+            "options": [
+              "Political environment",
+              "Legal environment",
+              "Socio-cultural environment",
+              "Economic environment"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Population, interest rates, and inflation are all economic factors that affect businesses.",
+            "reference": "Unit 2, Session 1 - Business Environment"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a component of a competitive market?",
+            "options": [
+              "The taste and preferences of consumers",
+              "The availability of substitute product",
+              "The intensity of competition within the industry",
+              "The ease with which firms can enter the industry"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Taste and preferences are part of socio-culture, not the competitive market. Competitive market looks at rivals, substitutes, and entry barriers.",
+            "reference": "Unit 2, Session 1 - Competitive Environment"
+          },
+          {
+            "type": "single",
+            "question": "The following are roles of small businesses to economic development except ______.",
+            "options": [
+              "They contribute to forward and backward linkages",
+              "The indigenous technology is abandoned",
+              "They make efficient use of scarce factors",
+              "They make efficient use of scarce factors"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Small businesses do not abandon local technology. They actually use and improve it.",
+            "reference": "Unit 1, Session 1 - Role of Small Businesses in Development"
+          },
+          {
+            "type": "single",
+            "question": "The following are advantages of starting your own business except ______.",
+            "options": [
+              "Creation of the owner",
+              "Overcoming barriers of entry",
+              "Clean Sheet",
+              "Control of the owners"
+            ],
+            "correctAnswer": "B",
+            "explanation": "New businesses face barriers, they do not automatically overcome them. The other options are real advantages.",
+            "reference": "Unit 1, Session 4 - Advantages of Starting a Business"
+          },
+          {
+            "type": "single",
+            "question": "The required number of participants in a focus group discussion ranges from ______.",
+            "options": [
+              "5 to 11",
+              "8 to 11",
+              "8 to 14",
+              "5 to 14"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A focus group should have between 8 and 14 people for good discussion and control.",
+            "reference": "Unit 2, Session 2 - Focus Groups"
+          },
+          {
+            "type": "single",
+            "question": "Which phase of a new venture lasts until the venture is terminated or no longer controlled by the entrepreneur?",
+            "options": [
+              "Start-up",
+              "Pre-start up",
+              "Post Start-up",
+              "Idea generation"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The post start-up phase covers everything after launch, including growth and the end of the business.",
+            "reference": "Unit 2, Session 3 - Phases of Venture Creation"
+          },
+          {
+            "type": "single",
+            "question": "A business agreement in which a company grants others the right and license to sell a product or service is referred to as ______.",
+            "options": [
+              "Partnership",
+              "Franchising",
+              "Agency",
+              "Wholesaling"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Franchising is when a company gives someone else the right to sell its products.",
+            "reference": "Unit 2, Session 6 - Meaning of Franchising"
+          },
+          {
+            "type": "single",
+            "question": "Business plan can be triggered by all the following events except ______.",
+            "options": [
+              "Business purchase",
+              "Start Up",
+              "Ongoing review",
+              "Minor decisions"
+            ],
+            "correctAnswer": "D",
+            "explanation": "You write a business plan for big things like starting a business or buying one, not for small daily choices.",
+            "reference": "Unit 3, Session 1 - When Business Plans Are Needed"
+          },
+          {
+            "type": "single",
+            "question": "The following are options available to the entrepreneur to be involved in existing business except ______.",
+            "options": [
+              "Buy-in",
+              "Outright purchase",
+              "Management Buy-out",
+              "Buy-in Management buy-out"
+            ],
+            "correctAnswer": "D",
+            "explanation": "BIMBO is a special case. The normal options are buy-in, buy-out, and outright purchase.",
+            "reference": "Unit 2, Session 5 - Options for Small Business Buyers"
+          },
+          {
+            "type": "single",
+            "question": "A business is said to have a goodwill if the business starts with no backlog of problems.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "False. Starting with no problems is called a clean sheet. Goodwill means good reputation with customers.",
+            "reference": "Unit 1, Session 4 - Clean Sheet and Goodwill"
+          },
+          {
+            "type": "single",
+            "question": "Advantages of buying existing business include the following except ______. I. Insider knowledge II. Existing track record III. Not all my own work IV. Buying market share V. Potential ill will",
+            "options": [
+              "I, II and V",
+              "II, III and IV",
+              "III and V",
+              "III, IV and V"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Not all my own work and potential ill will are disadvantages, not advantages. The others are real advantages.",
+            "reference": "Unit 2, Session 5 - Advantages of Buying Existing Business"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a source of new business idea?",
+            "options": [
+              "Brainstorming",
+              "Existing business",
+              "Government agencies",
+              "Customers"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Brainstorming is a method to come up with ideas, not a source. Sources are places like customers and existing businesses.",
+            "reference": "Unit 2, Session 2 - Sources of Business Ideas"
+          },
+          {
+            "type": "single",
+            "question": "Trade name franchising provides the franchisee with a complete business format.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "False. Trade name franchising only gives you the right to use the brand name. Pure franchising gives the complete format.",
+            "reference": "Unit 2, Session 6 - Types of Franchising"
+          },
+          {
+            "type": "single",
+            "question": "Which among the following are not advantages of franchising to the franchisee? I. Management training and support II. Franchise fees and profit sharing III. Less freedom IV. Knowledge of the market V. Standardized quality",
+            "options": [
+              "I, IV and V",
+              "II and IV",
+              "I, II and III",
+              "I and III"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Franchise fees and profit sharing are costs you pay. Market knowledge is not a direct advantage to the franchisee.",
+            "reference": "Unit 2, Session 6 - Advantages and Disadvantages of Franchising"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not one of the control elements in a business plan?",
+            "options": [
+              "Inventory control",
+              "Disbursement",
+              "Inventory control",
+              "Marketing control"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Disbursement just means paying money out. It is not listed as a control element like inventory or marketing control.",
+            "reference": "Unit 3, Session 6 - Control Measures in Business Plans"
+          },
+          {
+            "type": "single",
+            "question": "According to Hisrich and Peters, business plans may fail due to ______. I. Unreasonable goals II. Goals not measurable III. Lack of commitment IV. No experience",
+            "options": [
+              "I, II, III only",
+              "I and III only",
+              "I, II, III and IV",
+              "I only"
+            ],
+            "correctAnswer": "C",
+            "explanation": "All four cause business plan failure: goals that are not reasonable, goals you cannot measure, not being committed, and having no experience.",
+            "reference": "Unit 3, Session 3 - Causes of Business Plan Failure"
+          }
+        ]
+      }
+    },
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "What differentiates opportunist entrepreneurs from traditional entrepreneurs?",
+            "options": [
+              "Opportunist entrepreneurs focus solely on profit, while traditional entrepreneurs prioritize social impact.",
+              "Opportunist entrepreneurs are quick to adapt to changing circumstances, whereas traditional entrepreneurs follow a fixed business model.",
+              "Opportunist entrepreneurs exclusively pursue large-scale ventures, while traditional entrepreneurs engage in small businesses.",
+              "Opportunist entrepreneurs always work independently, while traditional entrepreneurs prefer partnerships."
+            ],
+            "correctAnswer": "B",
+            "explanation": "Opportunist entrepreneurs are flexible and quick to change. Traditional entrepreneurs stick to a fixed plan.",
+            "reference": "Unit 1, Session 2 - Types of Entrepreneurs (Opportunist Entrepreneur)"
+          },
+          {
+            "type": "single",
+            "question": "What term is used to describe individuals who are in the early stages of preparing to start a new business?",
+            "options": [
+              "Serial entrepreneurs",
+              "Novice entrepreneurs",
+              "Nascent entrepreneurs",
+              "Portfolio entrepreneurs"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Nascent means just beginning. Nascent entrepreneurs are getting ready to start a business but have not launched yet.",
+            "reference": "Unit 1, Session 2 - Nascent Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "What distinguishes novice entrepreneurs from portfolio entrepreneurs?",
+            "options": [
+              "Limited financial resources",
+              "Strong industry connections",
+              "Extensive market research",
+              "Lack of entrepreneurial experience"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Novice entrepreneurs have no prior experience. Portfolio entrepreneurs own multiple businesses, so they have experience.",
+            "reference": "Unit 1, Session 2 - Novice vs Portfolio Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Miss Eunice Agyei's political exit and movement into business represents which sociological perspective?",
+            "options": [
+              "Negative Displacement",
+              "Positive push",
+              "Between Things",
+              "Perception of desirability"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Between things means people who leave one role (like politics) and move into business because they are in transition.",
+            "reference": "Unit 1, Session 3 - Sociological Approaches (Between Things)"
+          },
+          {
+            "type": "single",
+            "question": "An individual who believes they have the skills, resources, and opportunity to run a business experiences ______.",
+            "options": [
+              "Positive Pull",
+              "Positive Push",
+              "Perception of Desirability",
+              "Perception of Feasibility"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Perception of feasibility means you believe you can actually do it because you have the skills, resources, and chance.",
+            "reference": "Unit 1, Session 3 - Perception of Feasibility"
+          },
+          {
+            "type": "single",
+            "question": "Kwesi trained as a carpenter and started his own shop with apprentices. Kwesi is ______.",
+            "options": [
+              "Craft entrepreneur",
+              "Nascent entrepreneur",
+              "Novice entrepreneur",
+              "Opportunist entrepreneur"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Craft entrepreneurs use their hands-on skills like carpentry to start a business.",
+            "reference": "Unit 1, Session 2 - Craft Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Which involves showing a preliminary product/service to customers to gauge interest?",
+            "options": [
+              "Usability testing",
+              "Concept testing",
+              "Product testing",
+              "Feasibility testing"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Concept testing means showing an early version or description of your product to see if customers like it.",
+            "reference": "Unit 2, Session 2 - Concept Testing"
+          },
+          {
+            "type": "single",
+            "question": "Which section of a business plan includes competitors and target customers?",
+            "options": [
+              "Financial Projections",
+              "Company Description",
+              "Market Analysis",
+              "Market Strategy"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The market analysis section looks at your customers, competitors, and the industry trends.",
+            "reference": "Unit 3, Session 2 - Market Analysis Section"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a primary audience for a business plan?",
+            "options": [
+              "Customers",
+              "Competitors",
+              "Potential investors and lenders",
+              "Current employees"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Competitors are not your audience. You write a business plan for yourself, your team, your investors, and your lenders.",
+            "reference": "Unit 3, Session 1 - Audience of a Business Plan"
+          },
+          {
+            "type": "single",
+            "question": "Which section of a Full Business Plan contains organizational structure analysis?",
+            "options": [
+              "Competitive analysis",
+              "Marketing plan",
+              "Operations plan",
+              "Creativity plan"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The operations plan explains your management structure, staff, and how the business will run day to day.",
+            "reference": "Unit 3, Session 2 - Operations Plan"
+          },
+          {
+            "type": "single",
+            "question": "Who is a social entrepreneur?",
+            "options": [
+              "Maximizes profit only",
+              "Starts social media businesses",
+              "Addresses welfare and environmental issues",
+              "Works in entertainment"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A social entrepreneur uses business to solve social problems like poverty or pollution, not just to make profit.",
+            "reference": "Unit 1, Session 1 - Social Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "What is the importance of entrepreneurship in economic development?",
+            "options": [
+              "Hinders growth",
+              "Creates jobs and stimulates innovation",
+              "Increases low quality",
+              "Discourages foreign investment"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Entrepreneurship helps the economy by creating jobs and bringing new ideas and products.",
+            "reference": "Unit 1, Session 1 - Entrepreneurship and Economic Development"
+          },
+          {
+            "type": "single",
+            "question": "Which trait is associated with successful entrepreneurs?",
+            "options": [
+              "Avoid risks",
+              "Depend on luck",
+              "Embrace challenges and take calculated risks",
+              "Follow trends blindly"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Successful entrepreneurs face challenges head on and take smart, calculated risks.",
+            "reference": "Unit 1, Session 2 - Entrepreneurial Traits"
+          },
+          {
+            "type": "single",
+            "question": "Which is an example of an entrepreneur?",
+            "options": [
+              "Accountant in firm",
+              "Public teacher",
+              "Engineer employee",
+              "Individual starting food delivery service"
+            ],
+            "correctAnswer": "D",
+            "explanation": "An entrepreneur starts and owns their own business. An employee works for someone else.",
+            "reference": "Unit 1, Session 1 - Meaning of Entrepreneur"
+          },
+          {
+            "type": "single",
+            "question": "An entrepreneur is known for what portfolio?",
+            "options": [
+              "Creating handmade products",
+              "Managing diverse business ventures",
+              "Freelancing",
+              "Company Description"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A portfolio entrepreneur manages several different businesses all at the same time.",
+            "reference": "Unit 1, Session 2 - Portfolio Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Primary goal of brainstorming?",
+            "options": [
+              "Select first idea",
+              "Generate many diverse ideas",
+              "Criticize immediately",
+              "Limit participants"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The goal of brainstorming is to come up with as many different ideas as possible, no matter how wild.",
+            "reference": "Unit 2, Session 2 - Brainstorming Technique"
+          },
+          {
+            "type": "single",
+            "question": "What source involves buying rights to operate a proven business model?",
+            "options": [
+              "Existing businesses",
+              "Franchises",
+              "Corporations",
+              "Customers"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Franchising lets you buy the rights to use a business model that already works.",
+            "reference": "Unit 2, Session 6 - Franchising as Idea Source"
+          },
+          {
+            "type": "single",
+            "question": "Personality represents predisposition to beliefs, attitudes and behaviours.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "True. Personality is what makes you tend to have certain beliefs, attitudes, and ways of acting.",
+            "reference": "Unit 1, Session 2 - Personality"
+          },
+          {
+            "type": "single",
+            "question": "Entrepreneurs with internal locus of control believe that ______.",
+            "options": [
+              "Luck controls success",
+              "External factors have limited impact",
+              "Government determines success",
+              "Collaboration is everything"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Internal locus means you believe your own actions control your success, so outside factors do not matter as much.",
+            "reference": "Unit 1, Session 2 - Internal Locus of Control"
+          },
+          {
+            "type": "single",
+            "question": "Why conduct a feasibility analysis before committing to a business idea?",
+            "options": [
+              "Attract customers immediately",
+              "Create business plan",
+              "Identify risks and challenges",
+              "Secure bank loan"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Feasibility analysis helps you see the risks and problems before you spend too much time and money.",
+            "reference": "Unit 2, Session 3 - Feasibility Analysis"
+          }
+        ]
+      }
+    }
+  ]
+}

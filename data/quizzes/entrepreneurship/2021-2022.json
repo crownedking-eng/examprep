@@ -1,0 +1,544 @@
+{
+  "subject": "Entrepreneurship",
+  "academicYear": "2021/2022",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following is not a factor that affects the entrepreneurship process?",
+            "options": [
+              "Psychological factors",
+              "Situational factors",
+              "Sociological factors",
+              "Cultural factors"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The book says three factors affect entrepreneurship: psychological, sociological, and situational. Cultural is not one of them.",
+            "reference": "Unit 1, Session 3 - Factors that Influence the Entrepreneurial Process"
+          },
+          {
+            "type": "single",
+            "question": "All the following are forces in the external environment of business except ______.",
+            "options": [
+              "Technological factors",
+              "Customers",
+              "Political factors",
+              "Legal factors"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Customers are not a macro-environment force. The book focuses on political, legal, technological, economic, and socio-cultural forces.",
+            "reference": "Anit 1, Session 4 - External Environment of Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "Kwame Gyan, a successful entrepreneur believes that what he has achieved is as a result of his hard work, perseverance and dedication. Kwame is said to have ______ locus of control.",
+            "options": [
+              "Internal",
+              "External",
+              "Personal",
+              "Positive"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Internal locus means you believe your own hard work and effort control your success, not luck.",
+            "reference": "Unit 1, Session 2 - Locus of Control"
+          },
+          {
+            "type": "single",
+            "question": "The marginalisation of individuals or groups of individuals from the core of society is termed as ______.",
+            "options": [
+              "Negative displacement",
+              "Positive displacement",
+              "Stereotyping",
+              "Prejudice"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Negative displacement happens when people are pushed out of society's center and start businesses to survive.",
+            "reference": "Unit 1, Session 3 - Sociological Influences on Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "The entrepreneur is the individual or team that leads and develops the venture. Respectively, which best describes the processes he goes through to build a venture?",
+            "options": [
+              "Opportunity, organization, and resources",
+              "Opportunity, resources, and organization",
+              "Organization, opportunity, and resources",
+              "Resources, organization, and opportunity"
+            ],
+            "correctAnswer": "B",
+            "explanation": "First find an opportunity, then gather resources, then build the organization. That is the correct order.",
+            "reference": "Unit 1, Session 2 - The Entrepreneurial Process"
+          },
+          {
+            "type": "single",
+            "question": "Kwesi pursued a carpentry and joinery programme at Biriwa NVTI. Upon completion of his programme, he acquired some tools and a facility and started his own carpentry shop and now has two apprentices working with him. Kwesi can be classified as ______.",
+            "options": [
+              "Craft entrepreneur",
+              "Nascent entrepreneur",
+              "Novice entrepreneur",
+              "Opportunist entrepreneur"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Craft entrepreneurs use their hands-on skills like carpentry to start a business.",
+            "reference": "Unit 1, Session 2 - Types of Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "In the locus-of-control theory, people who believe that's for the most part, the future is theirs to control through their own efforts are said to have ______.",
+            "options": [
+              "Interior locus of control",
+              "Exterior locus of control",
+              "Internal locus of control",
+              "External locus of control"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Internal locus means you believe you control your own future through your efforts.",
+            "reference": "Unit 1, Session 2 - Psychological Characteristics of Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "Which phase of a new venture begins with initiation of sales activity and the delivery of product and services and ends when the business is firmly established and beyond short-term threats survival?",
+            "options": [
+              "Start up phase",
+              "Pre Start-up phase",
+              "Mid start-up phase",
+              "Post Start-up phase"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The start-up phase begins when you make your first sales and ends when the business is stable and safe.",
+            "reference": "Unit 2, Session 3 - Phases of Venture Creation"
+          },
+          {
+            "type": "single",
+            "question": "Under Ronstadt (1985) classification of growth, ventures that appear to have independence, autonomy and control as they are primary driving forces are classified as ______.",
+            "options": [
+              "Small profitable ventures",
+              "Life style ventures",
+              "High growth ventures",
+              "Profitable ventures"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Lifestyle ventures are about being your own boss and having control, not about getting huge profits.",
+            "reference": "nit 1, Session 4 - Growth Orientation of Ventures (Ronstadt)"
+          },
+          {
+            "type": "single",
+            "question": "Buying into an existing firm and become part owner or shareholder with those that already exist can be termed as ______.",
+            "options": [
+              "Buy out",
+              "Buy in management buy out",
+              "Buy in",
+              "Outright purchase"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Buy-in means you buy a share of an existing company and become a part owner with the current owners.",
+            "reference": "Unit 2, Session 5 - Options for Small Business Buyers"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not one of the advantages of buying existing business?",
+            "options": [
+              "Overcoming barriers to market entry",
+              "Potential ill will",
+              "Insider knowledge",
+              "Buying market share"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Ill will means customers or workers dislike the business. That is a disadvantage, not an advantage.",
+            "reference": "Unit 2, Session 5 - Advantages and Disadvantages of Buying a Business"
+          },
+          {
+            "type": "single",
+            "question": "A business agreement in which a company grants other the right and license to sell a product or service and possibly to use the business system developed by the company is referred to as ______.",
+            "options": [
+              "Partnership",
+              "Franchising",
+              "Agency",
+              "Wholesaling"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Franchising is when a company lets someone else sell its products and use its way of doing business.",
+            "reference": "Unit 2, Session 6 - Meaning of Franchising"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not one of the characteristics of a firm resources?",
+            "options": [
+              "Market exist for them",
+              "They have value",
+              "They cannot be consumed",
+              "They can only be used once"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Resources can be used many times. Saying they can only be used once is wrong.",
+            "reference": "Unit 4, Session 1 - Nature and Characteristics of Business Resources"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not one of the factors to be considered when assessing the credit worthiness of a firm?",
+            "options": [
+              "Capacity",
+              "Guarantee",
+              "Factoring",
+              "Circumstance"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Factoring is a way to get money, not a way to check if a business is creditworthy.",
+            "reference": "Unit 6, Session 2 - Assessing Credit Worthiness"
+          },
+          {
+            "type": "single",
+            "question": "According to Hirsch and Peters, which is the largest source for new business idea?",
+            "options": [
+              "Research and development",
+              "Government agencies",
+              "Consumers",
+              "Existing Companies"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Consumers are the biggest source of new business ideas. Listen to what customers want.",
+            "reference": "Unit 2, Session 2 - Sources of Business Ideas"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a method of generating new business idea?",
+            "options": [
+              "Distribution channel",
+              "Problem inventory analysis",
+              "Brainstorming",
+              "Focus group"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Distribution channels are a source of ideas, not a method. Methods include brainstorming and focus groups.",
+            "reference": "Unit 2, Session 2 - Idea Generation Techniques"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a psychological approach to entrepreneurship?",
+            "options": [
+              "Perception of desirability",
+              "Need for achievement",
+              "Locus of Control",
+              "Risk taking propensity"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Perception of desirability is about the situation, not psychology. The others are psychological traits.",
+            "reference": "Unit 1, Session 3 - Situational Characteristics"
+          },
+          {
+            "type": "single",
+            "question": "All the following are approaches used to examine the entrepreneurial process, except ______.",
+            "options": [
+              "Sociological approach",
+              "Scientific approach",
+              "Psychological approach",
+              "Situational approach"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The book uses psychological, sociological, and situational approaches. Scientific approach is not used.",
+            "reference": "Unit 1, Session 3 - Approaches to Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "Which section of a business plan establishes a favorable first impression of the owners and the business, and succeed in securing financing?",
+            "options": [
+              "Introductory page",
+              "Industry analysis",
+              "Executive Summary",
+              "Production Plan"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The Executive Summary is the first thing people read. It must impress them to get your business funded.",
+            "reference": "Unit 3, Session 2 - Components of a Business Plan"
+          },
+          {
+            "type": "single",
+            "question": "Which type of franchising can also be referred to as Business format?",
+            "options": [
+              "Trade name franchising",
+              "Product distribution Franchising",
+              "Pure franchising",
+              "Dealership franchising"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Pure franchising gives you the complete business system, so it is also called business format franchising.",
+            "reference": "Unit 2, Session 6 - Types of Franchising"
+          }
+        ]
+      }
+    },
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "The components of the entrepreneurial process are ______.",
+            "options": [
+              "Entrepreneur, opportunity, finance and resources",
+              "Entrepreneur, ideas, resource and opportunity",
+              "Entrepreneur, opportunity, resource and profit",
+              "Entrepreneur, opportunity, resource and organization"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The four parts are: the entrepreneur, the opportunity, the resources, and the organization you build.",
+            "reference": "Unit 1, Session 2 The Entrepreneurial Process"
+          },
+          {
+            "type": "single",
+            "question": "The written outline of the entrepreneur's proposed venture, it's operational and financial details, its marketing opportunities and strategy, and its managers skill is referred to as ______.",
+            "options": [
+              "Strategic Plan",
+              "Mission statement",
+              "Business Plan",
+              "Feasibility Study"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A business plan is a written document that covers everything about your business: operations, money, marketing, and skills.",
+            "reference": "Unit 3, Session 1 - Meaning of a Business Plan"
+          },
+          {
+            "type": "single",
+            "question": "A part of a business plan that is written last but is always placed at the beginning of the plan is the ______.",
+            "options": [
+              "marketing plan",
+              "production plan",
+              "executive summary",
+              "appendices"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The executive summary sums up the whole plan. You write it last but put it first so readers see it right away.",
+            "reference": "Unit 3, Session 2 - Structure of the Business Plan"
+          },
+          {
+            "type": "single",
+            "question": "Kwame Ntow, a successful entrepreneur believes that what he has achieved as a result of his hard work, perseverance and dedication. Kwame is said to have ______ locus of control.",
+            "options": [
+              "Internal",
+              "External",
+              "Personal",
+              "Positive"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Internal locus means you believe your hard work and dedication control your success, not luck.",
+            "reference": "Unit 1, Session 2 - Locus of Control"
+          },
+          {
+            "type": "single",
+            "question": "The marginalization of individual or group from the core of society is termed as ______.",
+            "options": [
+              "Stereotyping",
+              "Positive pull",
+              "External locus of control",
+              "Negative displacement"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Negative displacement is when people are pushed out from the center of society and become entrepreneurs.",
+            "reference": "Unit 1, Session 3 - Sociological Influences on Entrepreneurship"
+          },
+          {
+            "type": "single",
+            "question": "An individual with no prior ownership experience but currently owns equity in a business is referred to as ______.",
+            "options": [
+              "Nascent Entrepreneur",
+              "Novice Entrepreneur",
+              "Serial Entrepreneur",
+              "Portfolio Entrepreneur"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Novice means beginner. A novice entrepreneur owns a business for the first time with no past experience.",
+            "reference": "Unit 1, Session 2 - Types of Entrepreneurs"
+          },
+          {
+            "type": "single",
+            "question": "The following are roles of the entrepreneur in business except that they ______.",
+            "options": [
+              "Combine economic factors",
+              "Enhance economic efficiency",
+              "Do not accept uncertainty",
+              "Maximize investors returns"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Entrepreneurs DO accept uncertainty and risk. Saying they do not accept it is the wrong answer.",
+            "reference": "Unit 1, Session 1 - Role of Entrepreneurs in the Economy"
+          },
+          {
+            "type": "single",
+            "question": "Which stage of a new venture starts at the initiation of sales activities and the delivery of products and services and ends when the business is firmly established?",
+            "options": [
+              "post start-up phase",
+              "pre-start-up phase",
+              "start-up phase",
+              "All of the above"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The start-up phase begins with first sales and ends when the business is stable and no longer in danger.",
+            "reference": "Unit 2, Session 3 - Phases of Venture Creation"
+          },
+          {
+            "type": "single",
+            "question": "Who should write the business plan?",
+            "options": [
+              "The entrepreneur",
+              "The investor",
+              "The manager",
+              "All of the above"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The entrepreneur knows the business best, so they should write the plan. Others can help but not take over.",
+            "reference": "Unit 3, Session 1 - Responsibility for Preparing the Business Plan"
+          },
+          {
+            "type": "single",
+            "question": "The purchase of a business, or a significant part of it, by its current management is referred to as ______.",
+            "options": [
+              "Buy-in",
+              "Buy-out",
+              "Outright purchase",
+              "Buy-in Management Buy-out (BIMBO)"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Buy-out happens when the current managers buy the business they already work for.",
+            "reference": "Unit 2, Session 5 - Options for Small Business Buyers"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not one of the importance of the business plan?",
+            "options": [
+              "It helps determine the viability of the venture",
+              "It provides guidance to the entrepreneur",
+              "It serves as a reference to the competitors",
+              "It helps obtain finance"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A business plan is for you, your team, and your investors, not for your competitors to read.",
+            "reference": "Unit 3, Session 1 - Importance of Business Planning"
+          },
+          {
+            "type": "single",
+            "question": "Arrange the procedures for buying an existing business (Owens, 1990). I. Prepare a list of potential candidates II. Investigate and evaluate candidates III. Explore financing options IV. Ensure smooth transition V. Analyze your skills, abilities and interest",
+            "options": [
+              "I, II, III, IV and V",
+              "V, I, II, III and IV",
+              "IV, I, II, III and V",
+              "III, I, II, IV and V"
+            ],
+            "correctAnswer": "B",
+            "explanation": "First analyze yourself, then list candidates, investigate them, find money, and finally make the transition smooth.",
+            "reference": "Unit 2, Session 5 - Buying an Existing Business"
+          },
+          {
+            "type": "single",
+            "question": "The following are advantages of starting your own small business, except ______.",
+            "options": [
+              "Creation of the owners",
+              "Clean sheets",
+              "Hard, lonely work",
+              "Satisfaction of the owner"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Hard, lonely work is a disadvantage, not an advantage. It is one of the bad parts of starting a business.",
+            "reference": "Unit 1, Session 4 - Advantages and Disadvantages of Small Business"
+          },
+          {
+            "type": "single",
+            "question": "The following are disadvantages of starting your own small business, except ______.",
+            "options": [
+              "Less funds required",
+              "Unproven idea",
+              "Barriers to entry",
+              "No track record"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Needing less money is a good thing (advantage), not a bad thing (disadvantage).",
+            "reference": "Unit 1, Session 4 - Advantages and Disadvantages of Small Business"
+          },
+          {
+            "type": "single",
+            "question": "The critical factors of Pre-start-Up and start-Up Phases include: I. Relative uniqueness II. Relative investment size III. Availability of products",
+            "options": [
+              "I, II, and III",
+              "I and II",
+              "II and III",
+              "I and III"
+            ],
+            "correctAnswer": "A",
+            "explanation": "All three factors matter in the early phases: how unique your idea is, how much money you need, and if products are available.",
+            "reference": "Unit 2, Session 3 - Critical Factors in Venture Creation"
+          },
+          {
+            "type": "single",
+            "question": "The following are sources of new ideas except:",
+            "options": [
+              "Brainstorming",
+              "Customers",
+              "Existing business",
+              "Research and development"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Brainstorming is a method or technique, not a source. Sources are customers, existing businesses, and R&D.",
+            "reference": "Unit 2, Session 2 - Sources of Business Ideas"
+          },
+          {
+            "type": "single",
+            "question": "The process of setting up your own business starts with ______.",
+            "options": [
+              "acquisition of resources",
+              "identification of opportunity",
+              "leading and directing the organisation",
+              "managing people"
+            ],
+            "correctAnswer": "B",
+            "explanation": "You cannot start a business until you first spot an opportunity. That is always the first step.",
+            "reference": "Unit 1, Session 2 - The Entrepreneurial Process"
+          },
+          {
+            "type": "single",
+            "question": "The characteristics of an individual that cause consistent patterns in behaviour overtime can be referred to as ______.",
+            "options": [
+              "habit",
+              "attitude",
+              "behaviour",
+              "personality"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Personality is what makes you act in steady, predictable ways over time.",
+            "reference": "Unit 1, Session 2 - Entrepreneurial Personality"
+          },
+          {
+            "type": "single",
+            "question": "According to Ronstadt (1985) classification of ventures, a venture that appear to have independence come and autonomy, and control as their primary driving forces and neither large scale more profits are deemed importance beyond providing a sufficient and comfortable living for the entrepreneur is termed as ______.",
+            "options": [
+              "Small profitable venture",
+              "Life style ventures",
+              "High profitable venture",
+              "High-growth venture"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Lifestyle ventures focus on being your own boss and living comfortably, not on getting huge profits or growth.",
+            "reference": "Unit 1, Session 4 - Growth Orientation of Ventures"
+          },
+          {
+            "type": "single",
+            "question": "A business agreement in which a company grants others the right and license to sell a product or service and possibly to use the business system developed by the company is referred to as ______.",
+            "options": [
+              "Partnership",
+              "Company",
+              "Franchising",
+              "Joint Venture"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Franchising is when a company lets someone else sell its products and use its way of doing business.",
+            "reference": "Unit 2, Session 6 - Meaning of Franchising"
+          }
+        ]
+      }
+    }
+  ]
+}
