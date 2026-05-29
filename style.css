@@ -1923,3 +1923,52 @@ div.q-text {
   color: var(--ink);
   line-height: 1.6;
 }
+
+/* ─── STATS TAB BAR ──────────────────────────────────────────────────────── */
+.stats-tab-bar {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 4px;
+}
+
+.stats-tab-btn {
+  flex: 1;
+  padding: 9px 6px;
+  border-radius: calc(var(--radius) - 2px);
+  border: none;
+  background: transparent;
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--ink-3);
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+
+.stats-tab-btn:hover:not(.active) {
+  background: var(--surface);
+  color: var(--ink-2);
+}
+
+.stats-tab-btn.active {
+  background: var(--surface);
+  color: var(--accent);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+[data-theme="dark"] .stats-tab-btn.active {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+/* Empty panel state inside a tab */
+.stats-tab-empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--ink-3);
+}

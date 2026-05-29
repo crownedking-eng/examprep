@@ -845,6 +845,30 @@ function buildWrittenPool(subjectId) {
   return pool;
 }
 
+function buildQuizPool(subjectId) {
+  const subject = DATA.subjects.find((s) => s.id === subjectId);
+  if (!subject) return [];
+  const pool = [];
+  for (const year of subject.years) {
+    if (!year.semesters) continue;
+    year.semesters.forEach((sem, si) => {
+      if (!sem.quiz?.questions?.length) return;
+      sem.quiz.questions.forEach((q, qi) => {
+        pool.push({
+          q,
+          item: { type: "single" },
+          yearLabel: year.label,
+          semesterLabel: sem.semester,
+          yearId: year.id,
+          semesterIdx: si,
+          quizIdx: qi,
+        });
+      });
+    });
+  }
+  return pool;
+}
+
 async function loadAllYears(subjectId, onDone) {
   const subject = DATA.subjects.find((s) => s.id === subjectId);
   if (!subject) { onDone(); return; }
@@ -1754,7 +1778,7 @@ function renderQuizReview() {
     <div class="feedback-box">
       <div class="feedback-label">${isCorrect ? "✅ You got this right" : "❌ You got this wrong"}</div>
       <p class="feedback-exp">${q.explanation ?? ""}</p>
-      <p class="feedback-ref">📖 ${q.ref ?? ""}</p>
+      <p class="feedback-ref">?? ${q.ref ?? ""}</p>
     </div>`;
 
   const hasPrev = globalIdx > 0;
@@ -1824,9 +1848,10 @@ function renderPracticeConfig() {
       <div class="practice-section">
         <h3 class="practice-section-title">Question Type</h3>
         <div class="practice-opts">
-          ${typeBtn("mcq", "Section A (MCQ)", "📝")}
-          ${typeBtn("written", "Section B (Written)", "✍️")}
-          ${typeBtn("both", "Both Sections", "📚")}
+          ${typeBtn("mcq",     "Section A (MCQ)",         "📝")}
+          ${typeBtn("written", "Section B (Written)",     "✍️")}
+          ${typeBtn("quiz",    "Mid-Semester Quiz",       "🎯")}
+          ${typeBtn("both",    "Section A + B (Mixed)",   "📚")}
         </div>
       </div>
 
@@ -2211,11 +2236,184 @@ function renderBookmarks() {
 
 // ─── STATS DASHBOARD ────────────────────────────────────────────────────────
 function renderStatsDashboard() {
-  const stats = state.stats ?? emptyStats();
-  const agg = stats.aggregates ?? calcAggregates(stats.sessions ?? []);
-  const sessions = stats.sessions ?? [];
+  const examStats  = state.stats      ?? emptyStats();
+  const quizStats  = state.quizStats  ?? emptyStats();
 
-  if (!sessions.length) {
+  // Exam sessions = section + practice (everything NOT quiz)
+  const examSessions = examStats.sessions  ?? [];
+  const quizSessions = quizStats.sessions  ?? [];
+  const hasAnyData   = examSessions.length > 0 || quizSessions.length > 0;
+
+  const activeTab = state.statsTab ?? "general";
+
+  // ── helpers ──────────────────────────────────────────────────────────────
+  function tabBtn(val, label) {
+    const active = activeTab === val;
+    return `<button class="stats-tab-btn${active ? " active" : ""}"
+      data-stats-tab="${val}">${label}</button>`;
+  }
+
+  function sessionRows(list, limit) {
+    return list.slice(0, limit).map((r) => {
+      const isAbandoned = r.abandoned === true;
+      const cls         = isAbandoned ? "amber" : scoreColorCls(r.score);
+      const dateStr     = formatSessionDate(r.timestamp);
+      const icon        = r.type === "practice" ? "🎯" : r.type === "quiz" ? "🏅" : "📝";
+      const desc        = r.type === "practice"
+        ? `Practice · ${r.subjectTitle}`
+        : `${r.subjectTitle}${r.semesterLabel ? " · " + r.semesterLabel : ""}`;
+      const badge   = isAbandoned
+        ? `<span class="session-abandoned-badge">Abandoned · ${r.questionsAttempted ?? "?"} answered</span>`
+        : "";
+      const scoreEl = isAbandoned
+        ? `<div class="session-score score-amber">—</div>`
+        : `<div class="session-score score-${cls}">${r.score}%</div>`;
+      return `
+        <div class="session-row${isAbandoned ? " session-row-abandoned" : ""}">
+          <div class="session-left">
+            <div class="session-date">${icon} ${dateStr}</div>
+            <div class="session-desc">${desc}</div>
+            ${badge}
+          </div>
+          ${scoreEl}
+        </div>`;
+    }).join("");
+  }
+
+  function summaryGrid(agg) {
+    const cls = scoreColorCls(agg.completedAverage);
+    return `
+      <div class="stats-grid stats-grid-2x2">
+        <div class="stat-card">
+          <div class="stat-value">${agg.completedSessions}</div>
+          <div class="stat-label">Completed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value score-${cls}">${agg.completedAverage}%</div>
+          <div class="stat-label">Avg Score</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">${agg.totalQuestionsAnswered}</div>
+          <div class="stat-label">Questions</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value${agg.abandonedSessions > 0 ? " score-amber" : ""}">${agg.abandonedSessions}</div>
+          <div class="stat-label">Abandoned</div>
+        </div>
+      </div>`;
+  }
+
+  function trendChart(agg) {
+    const activeDays = agg.byDay.filter((d) => d.count > 0).slice(-14);
+    if (activeDays.length < 2) return "";
+    const bars = activeDays.map((d) => {
+      const h   = Math.max(4, Math.round((d.average / 100) * 120));
+      const cls = scoreColorCls(d.average);
+      const lbl = d.date.slice(5);
+      return `
+        <div class="bar-col" title="${lbl}: ${d.average}% (${d.count} session${d.count !== 1 ? "s" : ""})">
+          <div class="bar-score">${d.average}%</div>
+          <div class="bar bar-${cls}" style="height:${h}px"></div>
+          <div class="bar-label">${lbl}</div>
+        </div>`;
+    }).join("");
+    return `
+      <div class="chart-card">
+        <div class="chart-title">Score Trend — Recent Sessions</div>
+        <div class="bar-chart">${bars}</div>
+      </div>`;
+  }
+
+  function subjectBreakdown(agg) {
+    const rows = Object.values(agg.bySubject).map((s) => {
+      const cls  = scoreColorCls(s.average);
+      const subj = DATA.subjects.find((d) => d.id === s.subjectId);
+      const icon = subj?.icon ?? "📚";
+      return `
+        <div class="subj-row">
+          <div class="subj-icon">${icon}</div>
+          <div class="subj-info">
+            <div class="subj-header">
+              <span class="subj-name">${s.subjectTitle}</span>
+              <span class="subj-score score-${cls}">${s.average}%</span>
+            </div>
+            <div class="subj-meta">${s.sessions} session${s.sessions !== 1 ? "s" : ""} · ${s.questions} questions</div>
+            <div class="progress-bar-bg" style="margin-top:6px">
+              <div class="progress-bar-fill pf-${cls}" style="width:${s.average}%"></div>
+            </div>
+          </div>
+        </div>`;
+    }).join("");
+    if (!rows) return "";
+    return `
+      <div class="stats-section">
+        <div class="stats-section-title">By Subject</div>
+        <div class="stats-card subj-list">${rows}</div>
+      </div>`;
+  }
+
+  function emptyPanel(msg) {
+    return `<div class="stats-tab-empty">
+      <div class="stats-empty-icon" style="font-size:2rem;opacity:0.4">📭</div>
+      <p class="stats-empty-sub">${msg}</p>
+    </div>`;
+  }
+
+  // ── Tab panel content ─────────────────────────────────────────────────────
+  const tabBar = `
+    <div class="stats-tab-bar">
+      ${tabBtn("general",  "General")}
+      ${tabBtn("quiz",     "Mid-Sem Quiz")}
+      ${tabBtn("exam",     "End-Of-Sem Exam")}
+    </div>`;
+
+  let panelHTML = "";
+
+  if (activeTab === "general") {
+    // All sessions merged for overview
+    const allSessions = [...examSessions, ...quizSessions]
+      .sort((a, b) => b.timestamp - a.timestamp);
+    const allAgg = calcAggregates(allSessions);
+    if (!allSessions.length) {
+      panelHTML = emptyPanel("Complete any quiz or exam session to see your overall progress here.");
+    } else {
+      panelHTML = summaryGrid(allAgg) + trendChart(allAgg) + subjectBreakdown(allAgg) + `
+        <div class="stats-section">
+          <div class="stats-section-title">Recent Activity</div>
+          <div class="stats-card">${sessionRows(allSessions, 10)}</div>
+        </div>`;
+    }
+  } else if (activeTab === "quiz") {
+    const agg = quizStats.aggregates ?? calcAggregates(quizSessions);
+    if (!quizSessions.length) {
+      panelHTML = emptyPanel("No Mid-Semester Quiz sessions yet. Complete a quiz or practise using the Quiz question type.");
+    } else {
+      panelHTML = summaryGrid(agg) + trendChart(agg) + subjectBreakdown(agg) + `
+        <div class="stats-section">
+          <div class="stats-section-title">Quiz Sessions</div>
+          <div class="stats-card">${sessionRows(quizSessions, 10)}</div>
+        </div>`;
+    }
+  } else {
+    // "exam" — section A exams and practice (non-quiz)
+    const examAgg = examStats.aggregates ?? calcAggregates(examSessions);
+    if (!examSessions.length) {
+      panelHTML = emptyPanel("No End-of-Semester Exam sessions yet. Complete a Section A session or a practice session.");
+    } else {
+      panelHTML = summaryGrid(examAgg) + trendChart(examAgg) + subjectBreakdown(examAgg) + `
+        <div class="stats-section">
+          <div class="stats-section-title">Exam Sessions</div>
+          <div class="stats-card">${sessionRows(examSessions, 10)}</div>
+        </div>`;
+    }
+  }
+
+  const footer = `
+    <div class="stats-footer">
+      <button class="reset-stats-btn" id="btn-reset-stats">Reset Statistics</button>
+    </div>`;
+
+  if (!hasAnyData) {
     return `
       <header class="top-bar">
         <button class="back-btn" data-goto="subjects">← Back</button>
@@ -2227,116 +2425,11 @@ function renderStatsDashboard() {
         <div class="stats-empty">
           <div class="stats-empty-icon">📈</div>
           <p class="stats-empty-title">No data yet</p>
-          <p class="stats-empty-sub">Complete a Section A quiz or a Practice session to start tracking your progress.</p>
+          <p class="stats-empty-sub">Complete a Section A quiz, a Mid-Semester Quiz, or a Practice session to start tracking your progress.</p>
         </div>
       </main>
       ${renderBottomNav()}`;
   }
-
-  const avgCls = scoreColorCls(agg.completedAverage);
-  const summaryCards = `
-    <div class="stats-grid stats-grid-2x2">
-      <div class="stat-card">
-        <div class="stat-value">${agg.completedSessions}</div>
-        <div class="stat-label">Completed</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value score-${avgCls}">${agg.completedAverage}%</div>
-        <div class="stat-label">Avg Score</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">${agg.totalQuestionsAnswered}</div>
-        <div class="stat-label">Questions</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value${agg.abandonedSessions > 0 ? " score-amber" : ""}">${agg.abandonedSessions}</div>
-        <div class="stat-label">Abandoned</div>
-      </div>
-    </div>`;
-
-  const activeDays = agg.byDay.filter((d) => d.count > 0).slice(-14);
-  let chartHTML = "";
-  if (activeDays.length >= 2) {
-    const bars = activeDays.map((d) => {
-      const h = Math.max(4, Math.round((d.average / 100) * 120));
-      const cls = scoreColorCls(d.average);
-      const label = d.date.slice(5);
-      return `
-        <div class="bar-col" title="${label}: ${d.average}% (${d.count} session${d.count !== 1 ? "s" : ""})">
-          <div class="bar-score">${d.average}%</div>
-          <div class="bar bar-${cls}" style="height:${h}px"></div>
-          <div class="bar-label">${label}</div>
-        </div>`;
-    }).join("");
-
-    chartHTML = `
-      <div class="chart-card">
-        <div class="chart-title">Score Trend — Recent Sessions</div>
-        <div class="bar-chart">${bars}</div>
-      </div>`;
-  }
-
-  const subjRows = Object.values(agg.bySubject).map((s) => {
-    const cls = scoreColorCls(s.average);
-    const subj = DATA.subjects.find((d) => d.id === s.subjectId);
-    const icon = subj?.icon ?? "📚";
-    return `
-      <div class="subj-row">
-        <div class="subj-icon">${icon}</div>
-        <div class="subj-info">
-          <div class="subj-header">
-            <span class="subj-name">${s.subjectTitle}</span>
-            <span class="subj-score score-${cls}">${s.average}%</span>
-          </div>
-          <div class="subj-meta">${s.sessions} session${s.sessions !== 1 ? "s" : ""} · ${s.questions} questions</div>
-          <div class="progress-bar-bg" style="margin-top:6px">
-            <div class="progress-bar-fill pf-${cls}" style="width:${s.average}%"></div>
-          </div>
-        </div>
-      </div>`;
-  }).join("");
-
-  const subjectSection = `
-    <div class="stats-section">
-      <div class="stats-section-title">By Subject</div>
-      <div class="stats-card subj-list">${subjRows}</div>
-    </div>`;
-
-  const recentRows = sessions.slice(0, 8).map((r) => {
-    const isAbandoned = r.abandoned === true;
-    const cls = isAbandoned ? "amber" : scoreColorCls(r.score);
-    const dateStr = formatSessionDate(r.timestamp);
-    const typeIcon = r.type === "practice" ? "🎯" : "📝";
-    const desc = r.type === "practice"
-      ? `Practice · ${r.subjectTitle}`
-      : `${r.subjectTitle}${r.semesterLabel ? " · " + r.semesterLabel : ""}`;
-    const badge = isAbandoned
-      ? `<span class="session-abandoned-badge">Abandoned · ${r.questionsAttempted ?? "?"} answered</span>`
-      : "";
-    const scoreEl = isAbandoned
-      ? `<div class="session-score score-amber">—</div>`
-      : `<div class="session-score score-${cls}">${r.score}%</div>`;
-    return `
-      <div class="session-row${isAbandoned ? " session-row-abandoned" : ""}">
-        <div class="session-left">
-          <div class="session-date">${typeIcon} ${dateStr}</div>
-          <div class="session-desc">${desc}</div>
-          ${badge}
-        </div>
-        ${scoreEl}
-      </div>`;
-  }).join("");
-
-  const recentSection = `
-    <div class="stats-section">
-      <div class="stats-section-title">Recent Sessions</div>
-      <div class="stats-card">${recentRows}</div>
-    </div>`;
-
-  const footer = `
-    <div class="stats-footer">
-      <button class="reset-stats-btn" id="btn-reset-stats">Reset Statistics</button>
-    </div>`;
 
   return `
     <header class="top-bar">
@@ -2346,10 +2439,8 @@ function renderStatsDashboard() {
     </header>
     <main class="screen">
       <h1 class="screen-title">Statistics</h1>
-      ${summaryCards}
-      ${chartHTML}
-      ${subjectSection}
-      ${recentSection}
+      ${tabBar}
+      ${panelHTML}
       ${footer}
     </main>
     ${renderBottomNav()}`;
@@ -2566,6 +2657,9 @@ function bindEvents() {
       if (type === "written" || type === "both") {
         buildWrittenPool(state.subjectId).forEach((e) => pool.push({ ...e, pType: "written" }));
       }
+      if (type === "quiz") {
+        buildQuizPool(state.subjectId).forEach((e) => pool.push({ ...e, pType: "mcq" }));
+      }
 
       pool = shuffleArray(pool);
       if (count > 0) pool = pool.slice(0, count);
@@ -2615,33 +2709,40 @@ function bindEvents() {
     pracNextBtn.addEventListener("click", () => {
       const isLast = pracNextBtn.dataset.isLast === "true";
       if (isLast) {
-        const pool = state.practicePool ?? [];
+        const pool    = state.practicePool ?? [];
         const answers = state.practiceAnswers ?? [];
-        const mcqQ = pool.filter((e) => e.pType === "mcq");
-        const mcqAns = answers.filter((_, i) => pool[i]?.pType === "mcq");
+        const mcqQ    = pool.filter((e) => e.pType === "mcq");
+        const mcqAns  = answers.filter((_, i) => pool[i]?.pType === "mcq");
         const mcqCorr = mcqAns.filter((a) => a?.correct).length;
-        const subj = DATA.subjects.find((s) => s.id === state.subjectId);
+        const subj    = DATA.subjects.find((s) => s.id === state.subjectId);
+        const isQuizPractice = (state.practiceCfg?.type ?? "mcq") === "quiz";
+
         const practSession = {
-          id: makeSessionId(),
-          timestamp: Date.now(),
-          type: "practice",
-          subjectId: state.subjectId ?? "",
-          subjectTitle: subj?.title ?? "",
+          id:             makeSessionId(),
+          timestamp:      Date.now(),
+          type:           isQuizPractice ? "quiz" : "practice",
+          subjectId:      state.subjectId ?? "",
+          subjectTitle:   subj?.title ?? "",
           totalQuestions: mcqQ.length,
           correctAnswers: mcqCorr,
-          score: mcqQ.length > 0 ? Math.round((mcqCorr / mcqQ.length) * 100) : 0,
+          score:          mcqQ.length > 0 ? Math.round((mcqCorr / mcqQ.length) * 100) : 0,
+          completed:      true,
+          abandoned:      false,
+          questionsAttempted: mcqQ.length,
         };
-        const updatedStats = addSessionToStats(state.stats, practSession);
-        state = saveState({
-          screen: "practiceScore",
-          mcqSessionActive: false,
-          stats: updatedStats,
-        });
+
+        let savePayload = { screen: "practiceScore", mcqSessionActive: false };
+        if (isQuizPractice) {
+          savePayload.quizStats = addSessionToStats(state.quizStats, practSession);
+        } else {
+          savePayload.stats = addSessionToStats(state.stats, practSession);
+        }
+        state = saveState(savePayload);
         render();
       } else {
         const nextIdx = (state.practiceIndex ?? 0) + 1;
         state = saveState({
-          practiceIndex: nextIdx,
+          practiceIndex:       nextIdx,
           practiceSelectedOpt: undefined,
           practiceAnswerShown: false,
         });
@@ -2762,12 +2863,20 @@ function bindEvents() {
       showConfirmDialog(
         "Reset all statistics? This cannot be undone.",
         () => {
-          state = saveState({ stats: emptyStats() });
+          state = saveState({ stats: emptyStats(), quizStats: emptyStats() });
           render();
         }
       );
     });
   }
+
+  // Stats tab switcher
+  app.querySelectorAll("[data-stats-tab]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state = saveState({ statsTab: btn.dataset.statsTab });
+      render();
+    });
+  });
 
   app.querySelectorAll("[data-subject]").forEach((el) => {
     el.addEventListener("click", () =>
