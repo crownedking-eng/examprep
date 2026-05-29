@@ -1,0 +1,271 @@
+{
+  "subject": "Project Management",
+  "academicYear": "2023/2024",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following best describes the competencies required by project managers in order to achieve effective project management?",
+            "options": [
+              "Knowledge, performance and personal",
+              "Leadership, team building and motivational",
+              "Communication, influencing and decision making",
+              "Political, cultural awareness and trust"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Project managers need three types of competence: knowledge (what they know), performance (what they can do), and personal (how they behave).",
+            "reference": "Unit 1, Session 5 – Project Manager Competencies"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is NOT considered a stakeholder of a project?",
+            "options": [
+              "Customers",
+              "End users",
+              "Contractors",
+              "Project rivals"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Stakeholders are people who affect or are affected by the project. Rivals are competitors outside the project, not stakeholders.",
+            "reference": "Unit 5, Session 1 – Stakeholder Identification"
+          },
+          {
+            "type": "single",
+            "question": "Disagreement on issues concerning the project through which parties involved perceive it as a threat to their needs, interests or concerns are referred to as project ______.",
+            "options": [
+              "Communication",
+              "Conflicts",
+              "Decision",
+              "Rivals"
+            ],
+            "correctAnswer": "B",
+            "explanation": "When people see project issues as threats to what they need or care about, that creates project conflict.",
+            "reference": "Unit 4, Session 3 – Conflict in Project Teams"
+          },
+          {
+            "type": "single",
+            "question": "Project vision conflict arises when two different groups of workers do not work efficiently due to their differences.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Vision conflicts happen when people have different goals or values, which makes them work less efficiently together.",
+            "reference": "Unit 4, Session 3 – Types of Conflict"
+          },
+          {
+            "type": "single",
+            "question": "An approach to conflict that involves a party to either physically or psychologically remove himself/herself from the conflict is referred to as ______.",
+            "options": [
+              "Accommodation",
+              "Avoidance",
+              "Collaboration",
+              "Compromise"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Avoidance means walking away from the conflict, either by leaving physically or just mentally checking out.",
+            "reference": "Unit 4, Session 4 – Conflict Resolution Styles"
+          },
+          {
+            "type": "single",
+            "question": "Obtaining information from prospective sellers on how projects needs can be met is referred to as ______.",
+            "options": [
+              "Procurement planning",
+              "Project procurement",
+              "Solicitation",
+              "Source selection"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Solicitation means asking potential sellers for bids, quotes, or proposals on how they can meet your project needs.",
+            "reference": "Unit 2, Session 5 – Procurement Process"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following factors is said to influence demand fluctuation?",
+            "options": [
+              "Disruption",
+              "Seasonality",
+              "Uncertain lead time",
+              "Vague price information"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Demand changes because of seasonality, taxes, price changes, and availability. Seasonality is a main cause.",
+            "reference": "Unit 2, Session 6 – Procurement Risk Management"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following best describes the consequences one is likely to experience when project scope is incompletely defined?",
+            "options": [
+              "Leads to schedule slips and cost overruns",
+              "Leads to unnecessary work and confusion",
+              "Results in scope creep",
+              "Results in misrepresentation in requirements and design"
+            ],
+            "correctAnswer": "A",
+            "explanation": "When scope is not fully defined, you get wrong estimates and rework, which cause schedule delays and cost overruns.",
+            "reference": "Unit 3, Session 1 – Scope Management Problems"
+          },
+          {
+            "type": "single",
+            "question": "Ambiguity in scope management often results in ______.",
+            "options": [
+              "unnecessary work and confusion",
+              "scope creep",
+              "misrepresentation in requirements and design",
+              "Schedule slips"
+            ],
+            "correctAnswer": "A",
+            "explanation": "When scope is unclear or vague, people get confused and end up doing work that is not needed.",
+            "reference": "Unit 3, Session 2 – Scope Definition Issues"
+          },
+          {
+            "type": "single",
+            "question": "Being transient in project scope definition often results in ______.",
+            "options": [
+              "unnecessary work and confusion",
+              "scope creep",
+              "misrepresentation in requirements and design",
+              "schedule slips"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Transient means always changing. When scope keeps changing, it leads to scope creep where the project grows bigger than planned.",
+            "reference": "Unit 3, Session 3 – Scope Control and Scope Creep"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following statement(s) best describes the nature of a project?\nI. It is commenced and never completed.\nII. The duration is short.\nIII. The outcome created by the project is automatically short.\nIV. Outcome is unique.",
+            "options": [
+              "I and II only",
+              "II only",
+              "III and IV only",
+              "IV only"
+            ],
+            "correctAnswer": "D",
+            "explanation": "I is false (projects end). II is false (projects can be long). III is false (outcomes can last forever). Only IV is correct because every project creates something unique.",
+            "reference": "Unit 1, Session 2 – Nature and Characteristics of Projects"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following circumstances will mark the end of a project?",
+            "options": [
+              "Termination because objectives cannot be met",
+              "When a new product is developed",
+              "When safety and risk controls are addressed",
+              "When the project is considered a temporal one"
+            ],
+            "correctAnswer": "A",
+            "explanation": "A project ends when objectives are achieved OR when it is terminated because objectives cannot be met.",
+            "reference": "Unit 1, Session 2 – Project Closure and Termination"
+          },
+          {
+            "type": "single",
+            "question": "The following are considered as importance of a project, except ______.",
+            "options": [
+              "increasing complex and technical products",
+              "increasing economic periods",
+              "making activities in the project shorter than expected",
+              "realizing the concerns of shareholders"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Projects help handle complex products, speed up work, and satisfy shareholders. Making economic periods longer is not a benefit of projects.",
+            "reference": "Unit 1, Session 3 – Importance of Project Management"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following activities is the last step to undertake in managing projects?",
+            "options": [
+              "Addressing stakeholders' needs",
+              "Balancing competing constraints",
+              "Identification of requirements",
+              "Setting up communications"
+            ],
+            "correctAnswer": "B",
+            "explanation": "First you find requirements, then address stakeholder needs, then set up communication. The final step is balancing constraints like time, cost, and scope.",
+            "reference": "Unit 1, Session 6 – Nature of Projects and Project Management"
+          },
+          {
+            "type": "single",
+            "question": "The three most important traditional constraints of project management referred to as the triple constraints consists of ______.",
+            "options": [
+              "budget, schedule and scope",
+              "standards, risk and time",
+              "scope, efficiency and effectiveness",
+              "quality, standards and scope"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The triple constraints are Scope, Time (Schedule), and Cost (Budget).",
+            "reference": "Unit 1, Session 4 – Triple Constraint"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a key feature of the second phase of the project life cycle?",
+            "options": [
+              "A business case is made",
+              "Activities are outlined",
+              "Opportunities are identified",
+              "Monitoring and controlling deliverables"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The second phase is Planning. In planning, you outline all the activities that need to be done.",
+            "reference": "Unit 1, Session 2 – Project Life Cycle"
+          },
+          {
+            "type": "single",
+            "question": "Project termination type where the needed resources to execute the projects are either lacking or inadequately available is referred to as ______.",
+            "options": [
+              "Project starvation",
+              "Termination by extinction",
+              "Termination by addition",
+              "Termination by integration"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Starvation happens when resources are slowly taken away until the project cannot continue and dies.",
+            "reference": "Unit 5, Session 4 – Project Termination Types"
+          },
+          {
+            "type": "single",
+            "question": "Advertising, shipping and utilities are examples of project overhead cost.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. These are indirect costs that support the project but cannot be traced to one specific task.",
+            "reference": "Unit 2, Session 2 – Indirect and Overhead Costs"
+          },
+          {
+            "type": "single",
+            "question": "Total labour cost of a project is realized by ______.",
+            "options": [
+              "adding all cost associated with labour",
+              "dividing overhead cost with direct labour cost",
+              "multiplying direct labour rate by total labour hours",
+              "multiplying salaries with total labour hours"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Labour cost is calculated by multiplying the hourly rate by the total number of hours worked.",
+            "reference": "Unit 2, Session 1 – Labour Cost Estimation"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following are examples of short-term project funding?\nI. Bank overdrafts\nII. Loans\nIII. Sale and leaseback\nIV. Retained profit",
+            "options": [
+              "I only",
+              "I and II only",
+              "II and III only",
+              "I and IV only"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Only bank overdraft is short-term. Loans, sale and leaseback, and retained profits are long-term funding sources.",
+            "reference": "Unit 2, Session 4 – Sources of Project Finance"
+          }
+        ]
+      }
+    }
+  ]
+}

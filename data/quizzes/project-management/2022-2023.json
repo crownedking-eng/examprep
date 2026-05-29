@@ -1,0 +1,269 @@
+{
+  "subject": "Project Management",
+  "academicYear": "2022/2023",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following examples of the daily life of a typical organisation can be likened to a project?\nI. A company organising a street carnival within a short period\nII. An organisation organising a field advertisement within a few days\nIII. An organisation undertaking an activity that possesses a unique outcome\nIV. An organisation trying to stay in existence in perpetuity",
+            "options": [
+              "I and IV only",
+              "II only",
+              "I, II and III only",
+              "II and IV only"
+            ],
+            "correctAnswer": "C",
+            "explanation": "I, II, and III are projects because they are temporary and unique. IV is ongoing operations, not a project.",
+            "reference": "Unit 1, Session 1 – Meaning and Characteristics of a Project"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following best describes the interpersonal skills required by project managers?\nI. Leadership\nII. Team building\nIII. Communication\nIV. Building trust",
+            "options": [
+              "I only",
+              "I and II only",
+              "I, II, III only",
+              "I, II, III and IV"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All four are interpersonal skills. Project managers need leadership, team building, communication, and trust building.",
+            "reference": "Unit 4, Session 1 – Interpersonal Skills of the Project Manager"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following are examples of short-term project funding?\nI. Bank overdrafts\nII. Loans\nIII. Sale and leaseback\nIV. Retained profit",
+            "options": [
+              "I only",
+              "I and II only",
+              "II and III only",
+              "I and IV only"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Bank overdrafts and loans are short-term funding. Sale and leaseback and retained profits are long-term.",
+            "reference": "Unit 2, Session 4 – Sources of Project Finance"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following are among the responsibilities of the project sponsor to the project board?\nI. Provide leadership on culture and values\nII. Ensures continuity of sponsorship\nIII. Provide assurance, feedback and lessons learnt\nIV. Focus on realisation of project benefits and recommend opportunities to optimise cost",
+            "options": [
+              "I only",
+              "II and III only",
+              "I, II, and III only",
+              "I, II, III and IV"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All four are sponsor responsibilities. The sponsor leads on culture, keeps sponsorship going, gives feedback, and focuses on benefits and cost savings.",
+            "reference": "Unit 1, Session 5 – Roles of the Project Sponsor and Board"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is an example of a project?\nI. Developing a new product, service or result\nII. Introducing a new product to a new market\nIII. Conducting research whose outcome will be recorded\nIV. Developing or acquiring a new or modified information system",
+            "options": [
+              "I only",
+              "I, II only",
+              "I, II, and III only",
+              "I, II, III and IV"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All four are projects. Each involves temporary work with a unique outcome.",
+            "reference": "Unit 1, Session 1 – Examples of Projects"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is TRUE about projects?\nI. Every project has specific starting and ending points\nII. The duration of projects is perpetual\nIII. Projects are permanent in nature\nIV. The lifecycle of the outcome is automatically short",
+            "options": [
+              "I, and II",
+              "I and IV",
+              "III and IV",
+              "II and III"
+            ],
+            "correctAnswer": "B",
+            "explanation": "I is true (projects have start and end). IV is true (the project itself is short, not the outcome). II and III are false because projects are temporary.",
+            "reference": "Unit 1, Session 1 – Characteristics of Projects"
+          },
+          {
+            "type": "single",
+            "question": "Which type of project termination occurs when needed resources are lacking or inadequate?",
+            "options": [
+              "Addition",
+              "Extinction",
+              "Starvation",
+              "Integration"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Starvation happens when resources are slowly taken away until the project cannot continue and dies.",
+            "reference": "Unit 5, Session 4 – Types of Project Termination"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not considered a cause of project delays?",
+            "options": [
+              "Closure",
+              "Scope change",
+              "Design errors",
+              "Deliberate action"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Closure ends a project, it does not delay it. Scope changes, design errors, and deliberate actions can all cause delays.",
+            "reference": "Unit 3, Session 4 – Causes of Project Delays"
+          },
+          {
+            "type": "single",
+            "question": "Project cost associated with hiring and paying the various classification of workers involved in developing the project is classified as service cost.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Labour costs for hiring and paying workers are classified as service costs in project accounting.",
+            "reference": "Unit 2, Session 1 – Classification of Project Costs"
+          },
+          {
+            "type": "single",
+            "question": "The indirect cost associated with a project includes the following except:",
+            "options": [
+              "Advertising",
+              "Depreciation of equipment",
+              "Insurance",
+              "Materials"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Materials are direct costs. Advertising, depreciation, and insurance are indirect or overhead costs.",
+            "reference": "Unit 2, Session 2 – Direct and Indirect Costs"
+          },
+          {
+            "type": "single",
+            "question": "A project vision conflict arises when ______.",
+            "options": [
+              "there are differences in stakeholders' opinions and understanding of the overall outcome",
+              "two different workers do not work efficiently",
+              "workers are unable to work as team players",
+              "project members misapply requirements"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Vision conflict happens when stakeholders have different opinions about what the project should achieve.",
+            "reference": "Unit 4, Session 3 – Project Vision Conflict"
+          },
+          {
+            "type": "single",
+            "question": "A conflict resolution approach which involves physically or psychologically removing oneself from the conflict is referred to as ______.",
+            "options": [
+              "Avoidance",
+              "Accommodation",
+              "Compromise",
+              "Collaboration"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Avoidance means walking away from the conflict, either by leaving physically or just mentally checking out.",
+            "reference": "Unit 4, Session 4 – Conflict Resolution Styles"
+          },
+          {
+            "type": "single",
+            "question": "Total direct labour cost is calculated as ______.",
+            "options": [
+              "The product of direct labour rate and total labour hours",
+              "Total fixed cost × labour rate",
+              "Market analysis × labour cost",
+              "Sales cost + logistics + labour"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Labour cost is calculated by multiplying the hourly rate by the total number of hours worked.",
+            "reference": "Unit 2, Session 1 – Labour Cost Estimation"
+          },
+          {
+            "type": "single",
+            "question": "Project variable cost accelerates or varies throughout the Project Life cycle whereas project fixed cost does not vary with respect to their usage throughout the project life cycle.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Variable costs change with activity level. Fixed costs stay the same no matter how much work you do.",
+            "reference": "Unit 2, Session 3 – Fixed and Variable Costs"
+          },
+          {
+            "type": "single",
+            "question": "Advertising, shipping, salaries and insurance are examples of ______.",
+            "options": [
+              "Accelerated cost",
+              "Corporate cost",
+              "Direct cost",
+              "Overhead cost"
+            ],
+            "correctAnswer": "D",
+            "explanation": "These are overhead (indirect) costs because they support the project but cannot be traced to one specific task.",
+            "reference": "Unit 2, Session 2 – Overhead Costs"
+          },
+          {
+            "type": "single",
+            "question": "The process of aggregating the estimated cost of individual activities or web packages to establish an authorized cost-based line of which project expenditures will be measured is referred to as ______.",
+            "options": [
+              "Project cost control",
+              "Project cost budgeting",
+              "Project cost estimating",
+              "Project overheads"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Cost budgeting means adding up all the individual cost estimates to create an approved budget baseline.",
+            "reference": "Unit 2, Session 2 – Cost Budgeting"
+          },
+          {
+            "type": "single",
+            "question": "Bank overdrafts and loans are examples of short-term project funding.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "A",
+            "explanation": "False. Overdraft is short-term, but loans are generally long-term. So the statement as a whole is false.",
+            "reference": "Unit 2, Session 4 – Project Funding Sources"
+          },
+          {
+            "type": "single",
+            "question": "When parties to a conflict come to an agreement through yielding or conforming to the positions of others, cooperating in an effort to create harmony, even at the expense of their own ideas and values, which of the following best describes the conflict resolution approach adopted?",
+            "options": [
+              "Accommodation",
+              "Competition",
+              "Compromise",
+              "Collaboration"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Accommodation means giving in to others to keep peace, even if you have to sacrifice your own ideas.",
+            "reference": "Unit 4, Session 4 – Conflict Resolution Approaches"
+          },
+          {
+            "type": "single",
+            "question": "The face of the Project Life cycle which involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase is referred to as ______.",
+            "options": [
+              "Execution",
+              "Initiation",
+              "Planning",
+              "Closure"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Planning is where you make detailed plans that confirm the scope and specifications from the initiation phase.",
+            "reference": "Unit 1, Session 2 – Project Life Cycle Phases"
+          },
+          {
+            "type": "single",
+            "question": "Which of the classification of procurement risk management are influenced by factors such as seasonality, taxation, products availability and price?",
+            "options": [
+              "Disruption risks",
+              "Demand fluctuation",
+              "Uncertain lead time",
+              "Unreliable yield"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Demand fluctuation risk is affected by seasonality, taxes, product availability, and price changes.",
+            "reference": "Unit 2, Session 6 – Procurement Risk Management"
+          }
+        ]
+      }
+    }
+  ]
+}

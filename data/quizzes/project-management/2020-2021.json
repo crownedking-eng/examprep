@@ -1,1 +1,269 @@
-
+{
+  "subject": "Project Management",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "The responsibilities of the project manager at the organisational level includes the following, except ______.",
+            "options": [
+              "Controlling budgets",
+              "Creating overall project plan and forms project team members",
+              "Linking between the strategy and project team",
+              "Sharing progress reports with the sponsors and all stakeholders"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Controlling budgets is an operational level task, not an organisational level responsibility. The others are about strategy and linking the project to the organisation.",
+            "reference": "Unit 1, Session 3 – Roles and Responsibilities of the Project Manager"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following best describe the interpersonal skills required by project managers?\ni. Leadership\nii. Team building\niii. Communication\niv. Building trust",
+            "options": [
+              "I only",
+              "I and II only",
+              "I, II, III only",
+              "I, II, III and IV"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All four are interpersonal skills. Project managers need leadership, team building, communication, and trust building to work well with people.",
+            "reference": "Unit 4, Session 1 – Interpersonal Skills of the Project Manager"
+          },
+          {
+            "type": "single",
+            "question": "Project vision conflicts arise due to the differences in stakeholders' opinion and understanding of the overall outcome of the project.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. When stakeholders have different opinions about what the project should achieve, vision conflicts happen.",
+            "reference": "Unit 4, Session 3 – Types of Conflict"
+          },
+          {
+            "type": "single",
+            "question": "The conflict resolution approach where the person involved either physically or psychologically removes himself or herself from the conflict is referred to as ______.",
+            "options": [
+              "Accommodation",
+              "Avoidance",
+              "Compromise",
+              "Competition"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Avoidance means leaving the conflict, either by walking away physically or just mentally checking out.",
+            "reference": "Unit 4, Session 4 – Conflict Resolution Styles"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a key feature of the second phase of the project life cycle?",
+            "options": [
+              "A business case is made for the project",
+              "Activities are outlined",
+              "Opportunities are identified",
+              "Monitoring and controlling deliverables"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The second phase is Planning. In planning, you outline all the activities that need to be done.",
+            "reference": "Unit 1, Session 2 – Project Life Cycle"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following factors is said to influence demand fluctuation?",
+            "options": [
+              "Disruption",
+              "Seasonality",
+              "Uncertain lead time",
+              "Vague price information"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Demand changes because of seasonality, taxes, price changes, and availability. Seasonality is a main cause of demand fluctuation.",
+            "reference": "Unit 2, Session 6 – Procurement Risk Classification"
+          },
+          {
+            "type": "single",
+            "question": "Which best describes the consequences when project scope is incompletely defined?",
+            "options": [
+              "Leads to schedule slips and cost overruns",
+              "Leads to unnecessary work and confusion",
+              "Results in scope creep",
+              "Results in misrepresentation in requirements and design"
+            ],
+            "correctAnswer": "A",
+            "explanation": "When scope is not fully defined, you get wrong estimates and rework, which cause schedule delays and cost overruns.",
+            "reference": "Unit 3, Session 1 – Scope Management Problems"
+          },
+          {
+            "type": "single",
+            "question": "Ambiguity in scope management often leads to ______.",
+            "options": [
+              "unnecessary work and confusion",
+              "scope creep",
+              "misrepresentation in requirements and design",
+              "schedule slips"
+            ],
+            "correctAnswer": "A",
+            "explanation": "When scope is unclear or vague, people get confused and end up doing work that is not needed.",
+            "reference": "Unit 3, Session 2 – Scope Definition Issues"
+          },
+          {
+            "type": "single",
+            "question": "Project scope that is not collaboratively prepared often results in ______.",
+            "options": [
+              "unnecessary work and confusion",
+              "scope creep",
+              "misrepresentation in requirements and design",
+              "schedule slips"
+            ],
+            "correctAnswer": "C",
+            "explanation": "If scope is made without involving everyone, the requirements and design will not correctly represent what stakeholders need.",
+            "reference": "Unit 3, Session 2 – Collaborative Scope Planning"
+          },
+          {
+            "type": "single",
+            "question": "Being transient in project scope definition often leads to ______.",
+            "options": [
+              "unnecessary work and confusion",
+              "scope creep",
+              "misrepresentation in requirements and design",
+              "schedule slips"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Transient means always changing. When scope keeps changing, it leads to scope creep, where the project grows bigger than planned.",
+            "reference": "Unit 3, Session 3 – Scope Control and Scope Creep"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following examples of the daily life of a typical organization can be likened to a project?\ni. Organising a street carnival\nii. Organising a short-term advertisement\niii. Undertaking an activity with a unique outcome\niv. Trying to stay in existence in perpetuity",
+            "options": [
+              "I and IV only",
+              "II only",
+              "I, II and III only",
+              "II, III and IV only"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Projects are temporary and unique. A carnival, a short ad campaign, and any activity with a unique outcome fit. Trying to stay in existence forever is operations, not a project.",
+            "reference": "Unit 1, Session 1 – Characteristics of a Project"
+          },
+          {
+            "type": "single",
+            "question": "Which best explains the temporary nature of a project?",
+            "options": [
+              "The longevity of a project must be specified.",
+              "The duration is not specified.",
+              "Commencement is not known.",
+              "Only the ending is known."
+            ],
+            "correctAnswer": "A",
+            "explanation": "A project is temporary because it has a clear start and end. You must specify how long it will last.",
+            "reference": "Unit 1, Session 1 – Temporary Nature of Projects"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is an example of an active stakeholder of a project?",
+            "options": [
+              "Competitors",
+              "Persons indirectly affected",
+              "Project coordinators",
+              "Public authorities"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Active stakeholders are directly involved in the project work. Project coordinators are active stakeholders.",
+            "reference": "Unit 5, Session 1 – Stakeholder Classification"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is generally considered a project?",
+            "options": [
+              "Organisation trying to stay afloat",
+              "Conducting research with recorded outcome",
+              "Managing a product",
+              "Protecting sales territory"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Research has a clear start, end, and unique outcome, so it is a project. The others are ongoing operations.",
+            "reference": "Unit 1, Session 1 – Examples of Projects"
+          },
+          {
+            "type": "single",
+            "question": "Scope, cost and risk are the most important traditional constraints of project management.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "A",
+            "explanation": "False. The traditional triple constraints are Scope, Time, and Cost. Risk is not one of the original three.",
+            "reference": "Unit 1, Session 4 – Triple Constraint"
+          },
+          {
+            "type": "single",
+            "question": "Project termination type where the needed resources to execute the project and either lacking or inadequately available is referred to as ______.",
+            "options": [
+              "Project starvation",
+              "Termination by extinction",
+              "Termination by addition",
+              "Termination by integration"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Starvation is when resources are slowly taken away until the project cannot continue and dies.",
+            "reference": "Unit 5, Session 4 – Project Termination Types"
+          },
+          {
+            "type": "single",
+            "question": "Advertising, shipping and utilities are examples of project overhead cost.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. These are indirect costs that support the project but cannot be traced to one specific task.",
+            "reference": "Unit 2, Session 2 – Indirect and Overhead Costs"
+          },
+          {
+            "type": "single",
+            "question": "Total labour cost of a project is realized by ______.",
+            "options": [
+              "adding all labour costs",
+              "dividing overhead with direct labour",
+              "multiplying direct labour rate by total labour hours",
+              "multiplying salaries with hours"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Labour cost is calculated by multiplying the hourly rate by the total number of hours worked.",
+            "reference": "Unit 2, Session 1 – Labour Cost Estimation"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following are examples of short-term project funding?\ni. Bank overdrafts\nii. Loans\niii. Sale and leaseback\niv. Retained profit",
+            "options": [
+              "I only",
+              "I and II only",
+              "II and III only",
+              "I and IV only"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Bank overdrafts and loans are short-term funding. Sale and leaseback and retained profits are long-term.",
+            "reference": "Unit 2, Session 5 – Sources of Project Funding"
+          },
+          {
+            "type": "single",
+            "question": "Obtaining information from prospective sellers on how project needs can be met is referred to as ______.",
+            "options": [
+              "Procurement planning",
+              "Project procurement",
+              "Solicitation",
+              "Source selection"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Solicitation means asking potential sellers for bids, quotes, or proposals on how they can meet your project needs.",
+            "reference": "Unit 2, Session 5 – Procurement Process"
+          }
+        ]
+      }
+    }
+  ]
+}

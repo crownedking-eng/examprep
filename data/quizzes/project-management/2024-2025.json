@@ -1,0 +1,265 @@
+{
+  "subject": "Project Management",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following factors is said to influence demand fluctuation?",
+            "options": [
+              "Disruption",
+              "Seasonality",
+              "Uncertain lead time",
+              "Vague price information"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Demand changes because of seasonality, taxes, price changes, and availability. Seasonality is a main cause.",
+            "reference": "Unit 2, Session 6 – Procurement Risk and Demand Fluctuation"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following best describes the competencies required by project managers to achieve effective project management?",
+            "options": [
+              "Knowledge, performance and personal",
+              "Leadership, team building and motivational",
+              "Communication, influencing and decision making",
+              "Political, cultural awareness and trust"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Project managers need three types of competence: knowledge (what they know), performance (what they can do), and personal (how they behave).",
+            "reference": "Unit 1, Session 5 – Project Manager Competencies"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not considered a stakeholder of a project?",
+            "options": [
+              "Customers",
+              "End users",
+              "Contractors",
+              "Project rivals"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Stakeholders are people who affect or are affected by the project. Rivals are competitors outside the project, not stakeholders.",
+            "reference": "Unit 5, Session 1 – Stakeholder Identification"
+          },
+          {
+            "type": "single",
+            "question": "Disagreement on issues concerning the project through which parties involved perceive it as a threat to their needs, interests or concerns are referred to as project ______.",
+            "options": [
+              "Communication",
+              "Conflicts",
+              "Decision",
+              "Rivals"
+            ],
+            "correctAnswer": "B",
+            "explanation": "When people see project issues as threats to what they need or care about, that creates project conflict.",
+            "reference": "Unit 4, Session 3 – Conflict in Project Management"
+          },
+          {
+            "type": "single",
+            "question": "Project vision conflicts arise when two different groups of workers do not work efficiently due to their differences.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Vision conflicts happen when people have different goals or values, which makes them work less efficiently together.",
+            "reference": "Unit 4, Session 3 – Types of Conflict"
+          },
+          {
+            "type": "single",
+            "question": "An approach to conflict that involves a party either physically or psychologically removing himself/herself from the conflict is referred to as ______.",
+            "options": [
+              "Accommodation",
+              "Avoidance",
+              "Collaboration",
+              "Compromise"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Avoidance means walking away from the conflict, either by leaving physically or just mentally checking out.",
+            "reference": "Unit 4, Session 4 – Conflict Resolution Styles"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following tools is commonly used to track project delays?",
+            "options": [
+              "Gantt charts",
+              "Word documents",
+              "Social media reports",
+              "Personal notes"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Gantt charts show task schedules and progress, making it easy to see when delays happen.",
+            "reference": "Unit 3, Session 4 – Scheduling Tools (Gantt Charts)"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a component of project cost management?",
+            "options": [
+              "Cost estimation",
+              "Cost budgeting",
+              "Cost financing",
+              "Cost control"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Cost financing is about getting money, not managing costs. The three components are estimation, budgeting, and control.",
+            "reference": "Unit 2, Session 1 – Project Cost Management Processes"
+          },
+          {
+            "type": "single",
+            "question": "The process of determining the financial resources required for a project is called Cost ______.",
+            "options": [
+              "budgeting",
+              "estimation",
+              "allocation",
+              "tracking"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Cost estimation means figuring out how much money the project will need before you start.",
+            "reference": "Unit 2, Session 1 – Cost Estimation"
+          },
+          {
+            "type": "single",
+            "question": "What is the purpose of a project budget? To ______.",
+            "options": [
+              "track employee performance",
+              "determine the maximum allowable project costs",
+              "eliminate unexpected costs",
+              "ensure unlimited funding"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A budget sets the approved cost limit for the project. It tells you the maximum you can spend.",
+            "reference": "Unit 2, Session 3 – Cost Budgeting"
+          },
+          {
+            "type": "single",
+            "question": "What is the main objective of cost control in a project? To ______.",
+            "options": [
+              "increase project costs",
+              "ensure the project stays within the approved budget",
+              "eliminate all project risks",
+              "avoid stakeholder involvement"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Cost control watches spending to make sure the project does not go over the approved budget.",
+            "reference": "Unit 2, Session 3 – Cost Control"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following best describes a fixed cost in project management? A ______.",
+            "options": [
+              "cost that remains unchanged regardless of project activity level",
+              "cost that varies with production output",
+              "cost incurred only at project completion",
+              "cost that cannot be tracked"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Fixed costs stay the same no matter how much work you do, like rent or insurance.",
+            "reference": "Unit 2, Session 2 – Fixed and Variable Costs"
+          },
+          {
+            "type": "single",
+            "question": "The total cost of a project includes ______ costs.",
+            "options": [
+              "only direct",
+              "only indirect",
+              "both direct and indirect",
+              "only fixed"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Project total cost includes both direct costs (labour, materials) and indirect costs (overhead like insurance, utilities).",
+            "reference": "Unit 2, Session 2 – Project Cost Classification"
+          },
+          {
+            "type": "single",
+            "question": "A cost overrun in a project occurs when, the ______.",
+            "options": [
+              "project is completed under budget",
+              "project exceeds the allocated budget",
+              "cost baseline is revised",
+              "project scope decreases"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Cost overrun means you spent more money than you planned in the budget.",
+            "reference": "Unit 2, Session 3 – Cost Overruns"
+          },
+          {
+            "type": "single",
+            "question": "Direct costs are expenses that cannot be traced directly to a specific project activity.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "A",
+            "explanation": "False. Direct costs CAN be traced to specific activities (like labour or materials). Indirect costs cannot.",
+            "reference": "Unit 2, Session 2 – Direct and Indirect Costs"
+          },
+          {
+            "type": "single",
+            "question": "Cost variance (CV) is the difference between the planned cost and the actual cost of work performed.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Cost variance = Planned cost minus Actual cost. It tells you if you are over or under budget.",
+            "reference": "Unit 2, Session 3 – Cost Variance Analysis"
+          },
+          {
+            "type": "single",
+            "question": "Fixed costs change as the level of project work increases or decreases.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "A",
+            "explanation": "False. Fixed costs stay the same. Variable costs change when work levels change.",
+            "reference": "Unit 2, Session 2 – Fixed vs Variable Costs"
+          },
+          {
+            "type": "single",
+            "question": "If a project exceeds its budget, the best solution is to immediately reduce the project scope.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "A",
+            "explanation": "False. First, analyse the problem and control costs. Cutting scope without thinking can hurt project goals.",
+            "reference": "Unit 2, Session 3 – Cost Control and Corrective Actions"
+          },
+          {
+            "type": "single",
+            "question": "If a supplier fails to deliver materials on time, causing a delay, this is an example of ______ delay.",
+            "options": [
+              "internal",
+              "external",
+              "managerial",
+              "avoidable"
+            ],
+            "correctAnswer": "B",
+            "explanation": "External delay comes from outside the project organisation, like a supplier failing to deliver.",
+            "reference": "Unit 3, Session 5 – Causes of Project Delays"
+          },
+          {
+            "type": "single",
+            "question": "A project schedule should be monitored and controlled using _______.",
+            "options": [
+              "budget allocation",
+              "project timeline reviews and performance tracking",
+              "stakeholder opinions only",
+              "delaying tasks intentionally to create flexibility"
+            ],
+            "correctAnswer": "B",
+            "explanation": "You monitor and control a schedule by reviewing timelines and tracking how well the team is performing.",
+            "reference": "Unit 3, Session 4 – Schedule Monitoring and Control"
+          }
+        ]
+      }
+    }
+  ]
+}

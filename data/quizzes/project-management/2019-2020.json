@@ -1,0 +1,269 @@
+{
+  "subject": "Project Management",
+  "academicYear": "2019/2020",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following statement(s) best describe the nature of a project?\nI. It is commenced and never completed\nII. The duration is short\nIII. The outcome created by the project is automatically short\nIV. Outcome is unique",
+            "options": [
+              "I and II only",
+              "II only",
+              "III and IV only",
+              "IV only"
+            ],
+            "correctAnswer": "D",
+            "explanation": "A project ends, so I is wrong. Projects can be long, so II is wrong. Outcomes can last forever, so III is wrong. Only IV is correct because every project creates something unique.",
+            "reference": "Unit 1, Session 1 – Meaning and Characteristics of a Project"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following circumstances will mark the end of a project?",
+            "options": [
+              "When a new product is developed",
+              "When safety and risk controls are addressed",
+              "When the project is considered as a temporal one",
+              "When the project is considered as a temporary one"
+            ],
+            "correctAnswer": "D",
+            "explanation": "A project is temporary, meaning it has a clear start and end. Once objectives are met or stopped, the project ends.",
+            "reference": "Unit 1, Session 2 – Project Life Cycle"
+          },
+          {
+            "type": "single",
+            "question": "The following are considered as importance of a project, EXCEPT ______.",
+            "options": [
+              "increasing complex and technical products",
+              "increasing economic periods",
+              "making activities in the project shorter than expected",
+              "realizing the concerns of shareholders"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Projects help handle complex products, speed up work, and satisfy shareholders. Making economic periods longer is not a benefit of projects.",
+            "reference": "Unit 1, Session 3 – Importance of Project Management"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following activities is the last step to undertake in managing projects?",
+            "options": [
+              "Addressing stakeholder needs",
+              "Balancing competing constraints",
+              "Identification of requirements",
+              "Setting up communication"
+            ],
+            "correctAnswer": "B",
+            "explanation": "First you find requirements, then address stakeholder needs, then set up communication. The final step is balancing constraints like time, cost, and scope.",
+            "reference": "Unit 1, Session 6 – Nature of Projects and Project Management"
+          },
+          {
+            "type": "single",
+            "question": "The three most important traditional constraints of project management referred to as the triple constraints consists of ______.",
+            "options": [
+              "budget, schedule and scope",
+              "standards, risk and time",
+              "scope, efficiency and effectiveness",
+              "quality, standards and scope"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The triple constraints are Scope, Time (Schedule), and Cost (Budget). These three are the classic project management constraints.",
+            "reference": "Unit 1, Session 4 – Project Constraints"
+          },
+          {
+            "type": "single",
+            "question": "Which best describes competencies required by project managers in order to achieve effective project management?",
+            "options": [
+              "Knowledge, performance and personal",
+              "Leadership, team building and motivational",
+              "Communication, influencing and decision making",
+              "Political, cultural awareness and trust"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Project managers need three types of competence: knowledge (what they know), performance (what they can do), and personal (how they behave).",
+            "reference": "Unit 1, Session 5 – Project Manager Competencies"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is NOT considered a stakeholder of a project?",
+            "options": [
+              "Customers",
+              "End-users",
+              "Contractors",
+              "Project rivals"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Stakeholders are people who affect or are affected by the project. Rivals are competitors outside the project, not stakeholders.",
+            "reference": "Unit 5, Session 1 – Stakeholder Identification"
+          },
+          {
+            "type": "single",
+            "question": "Disagreement on issues concerning the project through which parties involved perceive it as a threat to their needs, interests or concerns are referred to as ______.",
+            "options": [
+              "communication conflicts",
+              "decision",
+              "rivalry",
+              "rivals"
+            ],
+            "correctAnswer": "A",
+            "explanation": "When people see project issues as threats to what they need or care about, that creates communication conflict.",
+            "reference": "Unit 4, Session 3 – Conflict in Project Teams"
+          },
+          {
+            "type": "single",
+            "question": "Project vision conflicts arises when workers do not work efficiently due to differences.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Vision conflicts happen when people have different goals, values, or beliefs, which makes them work less efficiently together.",
+            "reference": "Unit 4, Session 3 – Types of Conflict"
+          },
+          {
+            "type": "single",
+            "question": "An approach where a party either physically or psychologically removes himself/herself from the conflict is called ______.",
+            "options": [
+              "accommodation",
+              "avoidance",
+              "collaboration",
+              "compromise"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Avoidance means walking away from the conflict, either by leaving physically or just mentally checking out.",
+            "reference": "Unit 4, Session 4 – Conflict Resolution Styles"
+          },
+          {
+            "type": "single",
+            "question": "When parties to a conflict coming to an agreement through yielding or conforming to the positions of others, cooperation in an effort to create harmony, even at the expense of their own ideas and values, which of the following best describes the conflict resolution approach adopted?",
+            "options": [
+              "Accommodation",
+              "Competition",
+              "Compromise",
+              "Collaboration"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Accommodation means giving in to others just to keep the peace, even if you have to sacrifice your own ideas.",
+            "reference": "Unit 4, Session 4 – Conflict Resolution Approaches"
+          },
+          {
+            "type": "single",
+            "question": "The phase of Project Life cycle which involves the development of detailed plans to confirm the specifications in the project scope defined as the initial phase is referred to as ______.",
+            "options": [
+              "execution",
+              "initiation",
+              "planning",
+              "closure"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The planning phase is where you make detailed plans that confirm the scope and specifications from the initial phase.",
+            "reference": "Unit 1, Session 5 – Project Life Cycle Phases"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following types of project termination occurs when the needed resources to execute the projects by the project organization is lacking or inadequate?",
+            "options": [
+              "Addition",
+              "Extinction",
+              "Integration",
+              "Starvation"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Starvation happens when resources are slowly taken away until the project cannot continue and dies.",
+            "reference": "Unit 5, Session 4 – Project Termination"
+          },
+          {
+            "type": "single",
+            "question": "Which following is NOT considered as a cause of project delays?",
+            "options": [
+              "Closure",
+              "Scope change",
+              "Design errors",
+              "Deliberate action"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Closure ends a project, so it does not cause delays. Scope changes, design errors, and deliberate actions can all cause delays.",
+            "reference": "Unit 3, Session 4 – Causes of Project Delays"
+          },
+          {
+            "type": "single",
+            "question": "Project cost associated with hiring and paying the various classification of workers involved in developing the project is classified as a service cost.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Labour costs for hiring and paying workers are classified as service costs in project accounting.",
+            "reference": "Unit 2, Session 1 – Project Cost Classification"
+          },
+          {
+            "type": "single",
+            "question": "Indirect cost associated with the project include the following EXCEPT ______.",
+            "options": [
+              "advertising",
+              "depreciation",
+              "insurance",
+              "materials"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Materials are direct costs because you can trace them to a specific task. Advertising, depreciation, and insurance are indirect costs.",
+            "reference": "Unit 2, Session 2 – Direct and Indirect Costs"
+          },
+          {
+            "type": "single",
+            "question": "Unplanned costs incurred when steps are taken to speed up the project's completion and referred to as ______.",
+            "options": [
+              "expedited costs",
+              "fixed costs",
+              "variable costs",
+              "normal costs"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Expedited costs are extra unplanned costs you pay when you try to finish a project faster than planned.",
+            "reference": "Unit 2, Session 3 – Cost Behaviour"
+          },
+          {
+            "type": "single",
+            "question": "Business angels, are examples of short-term project funding sources.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "A",
+            "explanation": "False. Business angels invest money for the long term, not short term. They are not short-term funding sources.",
+            "reference": "Unit 2, Session 4 – Project Funding Sources"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is NOT an example of long-term sources of project funding?",
+            "options": [
+              "Venture Capital",
+              "Bank overdraft",
+              "Retained Profits",
+              "Share Capital"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Bank overdraft is short-term borrowing. Venture capital, retained profits, and share capital are long-term funding sources.",
+            "reference": "Unit 2, Session 4 – Long-term Funding"
+          },
+          {
+            "type": "single",
+            "question": "Which of the classification of procurement risk management are influenced by factors such as seasonality, taxation, products availability and price?",
+            "options": [
+              "Disruption risks",
+              "Demand fluctuation",
+              "Uncertain lead time",
+              "Unreliable yield"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Demand fluctuation risk is affected by seasonality, taxes, product availability, and price changes.",
+            "reference": "Unit 2, Session 6 – Procurement Risk Management"
+          }
+        ]
+      }
+    }
+  ]
+}

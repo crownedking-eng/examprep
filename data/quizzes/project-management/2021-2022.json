@@ -1,0 +1,269 @@
+{
+  "subject": "Project Management",
+  "academicYear": "2021/2022",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following are among the responsibilities of the project sponsor to the project board?\nI. Provide leadership on culture and values\nII. Ensures continuity of sponsorship\nIII. Provide assurance, feedback and lessons learnt\nIV. Focus on realisation of project benefits and recommend opportunities to optimize cost",
+            "options": [
+              "I only",
+              "I and III only",
+              "I, II, and III only",
+              "I, II, III and IV"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All four are sponsor responsibilities. The sponsor leads on culture, keeps sponsorship going, gives feedback, and focuses on project benefits and cost savings.",
+            "reference": "Unit 1, Session 5 – Roles of the Project Sponsor and Board"
+          },
+          {
+            "type": "single",
+            "question": "At the organisational level, the project manager's responsibility includes managing project budgetary spend.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "A",
+            "explanation": "False. Managing the budget is an operational or project level responsibility, not an organisational level one.",
+            "reference": "Unit 1, Session 5 – Organisational Responsibilities of the Project Manager"
+          },
+          {
+            "type": "single",
+            "question": "A project vision conflict arises when ______.",
+            "options": [
+              "there are differences in stakeholders' opinion and understanding of the overall outcome of the project",
+              "two different workers do not work efficiently",
+              "workers are unable to work as team players",
+              "project members misapply project requirement due to ineffective communication"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Vision conflict happens when stakeholders see the project outcome differently and cannot agree on what the project should achieve.",
+            "reference": "Unit 4, Session 3 – Project Vision Conflict"
+          },
+          {
+            "type": "single",
+            "question": "A conflict resolution approach which involves physical or psychological removing oneself from the conflict is referred to as _________.",
+            "options": [
+              "Avoidance",
+              "Accommodation",
+              "Compromise",
+              "Collaboration"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Avoidance means walking away from the conflict, either by leaving physically or just mentally checking out.",
+            "reference": "Unit 4, Session 4 – Conflict Resolution Styles"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a characteristic of the project initiation cycle stage?",
+            "options": [
+              "Detailed plan to confirm the specifications in the project scope is developed",
+              "Business problem or opportunity is identified",
+              "Final deliverables are released to the customer",
+              "Project resources are reintegrated within the organisation's structure"
+            ],
+            "correctAnswer": "B",
+            "explanation": "In initiation, you identify the business problem or opportunity that the project will address.",
+            "reference": "Unit 1, Session 2 – Project Life Cycle: Initiation"
+          },
+          {
+            "type": "single",
+            "question": "Bank overdrafts and loans are examples of short-term project funding.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Both bank overdrafts and loans are considered short-term sources of project funding.",
+            "reference": "Unit 2, Session 4 – Sources of Project Finance"
+          },
+          {
+            "type": "single",
+            "question": "When parties to a conflict coming to an agreement through yielding or conforming to the positions of others, cooperation in an effort to create harmony, even at the expense of their own ideas and values, which of the following best describes the conflict resolution approach adopted?",
+            "options": [
+              "Accommodation",
+              "Competition",
+              "Compromise",
+              "Collaboration"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Accommodation means giving in to others to keep peace, even if you have to sacrifice your own ideas.",
+            "reference": "Unit 4, Session 4 – Conflict Resolution Approaches"
+          },
+          {
+            "type": "single",
+            "question": "The phase of project life cycle which involves the development of detailed plans to confirm the specifications in the project scope defined at the initial phase is referred to as",
+            "options": [
+              "Execution",
+              "Initiation",
+              "Planning",
+              "Closure"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Planning is where you make detailed plans that confirm the scope and specifications from the initiation phase.",
+            "reference": "Unit 1, Session 2 – Project Life Cycle: Planning"
+          },
+          {
+            "type": "single",
+            "question": "Which off the classification of procurement risk is influenced by factors such as seasonality, taxation, product availability and price?",
+            "options": [
+              "Disruption risks",
+              "Demand fluctuation",
+              "Uncertain lead time",
+              "Unreliable yield"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Demand fluctuation risk is affected by seasonality, taxes, product availability, and price changes.",
+            "reference": "Unit 2, Session 6 – Procurement Risk Management"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not considered as a cause of project delays?",
+            "options": [
+              "Closure",
+              "Scope change",
+              "Design errors",
+              "Deliberate action"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Closure ends a project, it does not delay it. Scope change, design errors, and deliberate actions can all cause delays.",
+            "reference": "Unit 3, Session 4 – Causes of Project Delays"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is true about projects?\nI. Every project has a specific starting and ending points\nII. The duration of projects is perpetual\nIII. Projects are permanent in nature\nIV. The lifecycle of the product, servicer or outcome created by the project is automatically short",
+            "options": [
+              "I, and II",
+              "I and IV",
+              "III and IV",
+              "II and III"
+            ],
+            "correctAnswer": "B",
+            "explanation": "I is true (projects have start and end). IV is true (the project itself is short, not the outcome). II and III are false because projects are temporary, not perpetual or permanent.",
+            "reference": "Unit 1, Session 2 – Nature and Characteristics of Projects"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is an example of a project?\nI. Developing a new product\nII. Introducing new product to a new market\nIII. Conducting research\nIV. Developing a new information system",
+            "options": [
+              "I only",
+              "I, II only",
+              "I, II, and III only",
+              "I, II, III and IV"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All four are projects. Each involves temporary work with a unique outcome.",
+            "reference": "Unit 1, Session 1 – Examples of Projects"
+          },
+          {
+            "type": "single",
+            "question": "An active stakeholder of a project includes the following except?",
+            "options": [
+              "Public authorities",
+              "Project coordinator",
+              "Project manager",
+              "Project team"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Public authorities are usually external or passive stakeholders. The project coordinator, manager, and team are actively involved in the project work.",
+            "reference": "Unit 5, Session 1 – Stakeholder Classification"
+          },
+          {
+            "type": "single",
+            "question": "Which is the initial step that must be taken when managing a project?",
+            "options": [
+              "Addressing stakeholder concerns",
+              "Balancing competing constraints",
+              "Identification of project requirements or needs",
+              "Setting up communications"
+            ],
+            "correctAnswer": "C",
+            "explanation": "You must first identify what the project needs or requires before you can do anything else.",
+            "reference": "Unit 1, Session 3 – Project Management Process"
+          },
+          {
+            "type": "single",
+            "question": "Which are the three most important traditional constraints of project management?",
+            "options": [
+              "Time, schedule and cost",
+              "Time, budget and scope",
+              "Cost, budget and scope",
+              "Schedule, budget and cost"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The triple constraints are Time, Cost (Budget), and Scope.",
+            "reference": "Unit 1, Session 4 – Triple Constraint"
+          },
+          {
+            "type": "single",
+            "question": "A project termination type where the resources needed by the project organization or by the project manager to execute the project is lacking or inadequate or unavailable is referred to as termination by ______.",
+            "options": [
+              "starvation",
+              "extinction",
+              "addition",
+              "integration"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Starvation happens when resources are slowly taken away until the project cannot continue and dies.",
+            "reference": "Unit 5, Session 4 – Project Termination Types"
+          },
+          {
+            "type": "single",
+            "question": "Total direct labour cost is calculated as ______.",
+            "options": [
+              "The product of direct labour rate and total labour hours",
+              "Total fixed cost multiplied by labour rate",
+              "Market analysis × labour cost",
+              "Sales cost + logistics + labour"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Labour cost is calculated by multiplying the hourly rate by the total number of hours worked.",
+            "reference": "Unit 2, Session 1 – Labour Cost Estimation"
+          },
+          {
+            "type": "single",
+            "question": "Project variable cost accelerate or very throughout the Project Life cycle whereas project fixed cost does not vary with respect to their usage throughout the project life cycle.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Variable costs change with activity level. Fixed costs stay the same no matter how much work you do.",
+            "reference": "Unit 2, Session 3 – Fixed and Variable Costs"
+          },
+          {
+            "type": "single",
+            "question": "Advertising, shipping, salaries and insurance are examples of ______.",
+            "options": [
+              "Accelerated cost",
+              "Corporate cost",
+              "Direct cost",
+              "Overhead cost"
+            ],
+            "correctAnswer": "D",
+            "explanation": "These are overhead (indirect) costs because they support the project but cannot be traced to one specific task.",
+            "reference": "Unit 2, Session 2 – Overhead Costs"
+          },
+          {
+            "type": "single",
+            "question": "The process of aggregating the estimated cost of individual activities or work packages to establish an authorized cost-based line of which project expenditures will be measured against it referred to as ______.",
+            "options": [
+              "Project cost control",
+              "Project cost budgeting",
+              "Project cost estimating",
+              "Project overheads"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Cost budgeting means adding up all the individual cost estimates to create an approved budget baseline.",
+            "reference": "Unit 2, Session 2 – Cost Budgeting Process"
+          }
+        ]
+      }
+    }
+  ]
+}
