@@ -659,36 +659,51 @@ function addSessionToStats(statsIn, session) {
 }
 
 function calcAggregates(sessions) {
-  const totalSessions = sessions.length;
-  const completed = sessions.filter((r) => r.completed !== false);
-  const abandoned = sessions.filter((r) => r.abandoned === true);
+  // Guard: ensure every session has the numeric fields we reduce over.
+  // Old records saved before the completed/questionsAttempted fields were
+  // added may be missing them; treat them as completed with full questions.
+  const safe = sessions.map((r) => ({
+    ...r,
+    totalQuestions:     Number(r.totalQuestions)  || 0,
+    correctAnswers:     Number(r.correctAnswers)   || 0,
+    score:              Number(r.score)            || 0,
+    completed:          r.completed  !== false,
+    abandoned:          r.abandoned  === true,
+  }));
 
-  const totalQuestions = sessions.reduce((s, r) => s + r.totalQuestions, 0);
-  const totalCorrect = sessions.reduce((s, r) => s + r.correctAnswers, 0);
-  const overallAverage = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+  const totalSessions = safe.length;
+  const completed = safe.filter((r) => r.completed);
+  const abandoned  = safe.filter((r) => r.abandoned);
 
-  const compQ = completed.reduce((s, r) => s + r.totalQuestions, 0);
+  const totalQuestions  = safe.reduce((s, r) => s + r.totalQuestions, 0);
+  const totalCorrect    = safe.reduce((s, r) => s + r.correctAnswers, 0);
+  const overallAverage  = totalQuestions > 0
+    ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+
+  const compQ    = completed.reduce((s, r) => s + r.totalQuestions, 0);
   const compCorr = completed.reduce((s, r) => s + r.correctAnswers, 0);
   const completedAverage = compQ > 0 ? Math.round((compCorr / compQ) * 100) : 0;
 
   const bySubject = {};
   completed.forEach((r) => {
+    if (!r.subjectId) return;
     if (!bySubject[r.subjectId]) {
       bySubject[r.subjectId] = {
-        subjectId: r.subjectId, subjectTitle: r.subjectTitle,
+        subjectId: r.subjectId, subjectTitle: r.subjectTitle ?? "",
         sessions: 0, questions: 0, correct: 0, average: 0, abandonedCount: 0,
       };
     }
     const b = bySubject[r.subjectId];
     b.sessions++;
     b.questions += r.totalQuestions;
-    b.correct += r.correctAnswers;
-    b.average = b.questions > 0 ? Math.round((b.correct / b.questions) * 100) : 0;
+    b.correct   += r.correctAnswers;
+    b.average    = b.questions > 0 ? Math.round((b.correct / b.questions) * 100) : 0;
   });
   abandoned.forEach((r) => {
+    if (!r.subjectId) return;
     if (!bySubject[r.subjectId]) {
       bySubject[r.subjectId] = {
-        subjectId: r.subjectId, subjectTitle: r.subjectTitle,
+        subjectId: r.subjectId, subjectTitle: r.subjectTitle ?? "",
         sessions: 0, questions: 0, correct: 0, average: 0, abandonedCount: 0,
       };
     }
@@ -698,23 +713,27 @@ function calcAggregates(sessions) {
   const byDay = [];
   const now = Date.now();
   for (let i = 29; i >= 0; i--) {
-    const d = new Date(now - i * 86400000);
+    const d    = new Date(now - i * 86400000);
     const dStr = d.toISOString().slice(0, 10);
-    const dayC = completed.filter((r) => new Date(r.timestamp).toISOString().slice(0, 10) === dStr);
-    const dTot = dayC.reduce((s, r) => s + r.totalQuestions, 0);
+    const dayC = completed.filter(
+      (r) => new Date(r.timestamp).toISOString().slice(0, 10) === dStr
+    );
+    const dTot  = dayC.reduce((s, r) => s + r.totalQuestions, 0);
     const dCorr = dayC.reduce((s, r) => s + r.correctAnswers, 0);
     byDay.push({
-      date: dStr,
-      count: dayC.length,
-      abandoned: abandoned.filter((r) => new Date(r.timestamp).toISOString().slice(0, 10) === dStr).length,
+      date:      dStr,
+      count:     dayC.length,
+      abandoned: abandoned.filter(
+        (r) => new Date(r.timestamp).toISOString().slice(0, 10) === dStr
+      ).length,
       average: dTot > 0 ? Math.round((dCorr / dTot) * 100) : 0,
     });
   }
 
   return {
     totalSessions,
-    completedSessions: completed.length,
-    abandonedSessions: abandoned.length,
+    completedSessions:      completed.length,
+    abandonedSessions:      abandoned.length,
     totalQuestionsAnswered: totalQuestions,
     totalCorrect,
     overallAverage,
@@ -2239,10 +2258,28 @@ function renderStatsDashboard() {
   const examStats  = state.stats      ?? emptyStats();
   const quizStats  = state.quizStats  ?? emptyStats();
 
-  // Exam sessions = section + practice (everything NOT quiz)
   const examSessions = examStats.sessions  ?? [];
   const quizSessions = quizStats.sessions  ?? [];
   const hasAnyData   = examSessions.length > 0 || quizSessions.length > 0;
+
+  // ── Early return: no data yet ─────────────────────────────────────────────
+  if (!hasAnyData) {
+    return `
+      <header class="top-bar">
+        <button class="back-btn" data-goto="subjects">← Back</button>
+        <div class="logo">ExamPrep</div>
+        ${topBarRight(false)}
+      </header>
+      <main class="screen">
+        <h1 class="screen-title">Statistics</h1>
+        <div class="stats-empty">
+          <div class="stats-empty-icon">📈</div>
+          <p class="stats-empty-title">No data yet</p>
+          <p class="stats-empty-sub">Complete a Section A quiz, a Mid-Semester Quiz, or a Practice session to start tracking your progress.</p>
+        </div>
+      </main>
+      ${renderBottomNav()}`;
+  }
 
   const activeTab = state.statsTab ?? "general";
 
@@ -2412,24 +2449,6 @@ function renderStatsDashboard() {
     <div class="stats-footer">
       <button class="reset-stats-btn" id="btn-reset-stats">Reset Statistics</button>
     </div>`;
-
-  if (!hasAnyData) {
-    return `
-      <header class="top-bar">
-        <button class="back-btn" data-goto="subjects">← Back</button>
-        <div class="logo">ExamPrep</div>
-        ${topBarRight(false)}
-      </header>
-      <main class="screen">
-        <h1 class="screen-title">Statistics</h1>
-        <div class="stats-empty">
-          <div class="stats-empty-icon">📈</div>
-          <p class="stats-empty-title">No data yet</p>
-          <p class="stats-empty-sub">Complete a Section A quiz, a Mid-Semester Quiz, or a Practice session to start tracking your progress.</p>
-        </div>
-      </main>
-      ${renderBottomNav()}`;
-  }
 
   return `
     <header class="top-bar">
@@ -2733,7 +2752,7 @@ function bindEvents() {
 
         let savePayload = { screen: "practiceScore", mcqSessionActive: false };
         if (isQuizPractice) {
-          savePayload.quizStats = addSessionToStats(state.quizStats, practSession);
+          savePayload.quizStats = addSessionToStats(state.quizStats ?? emptyStats(), practSession);
         } else {
           savePayload.stats = addSessionToStats(state.stats, practSession);
         }
