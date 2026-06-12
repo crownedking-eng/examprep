@@ -1,6 +1,76 @@
 {
   "subjects": [
     {
+      "id": "business-ethics",
+      "title": "Business Ethics and Corporate Governance",
+      "code": "SBU 406D",
+      "icon": "🏛️",
+      "years": [
+        { "id": "2019-2020", "label": "2019 / 2020", "file": "exams/business-ethics/2019-2020.json", "quizFile": "quizzes/business-ethics/2019-2020.json" },
+        { "id": "2020-2021", "label": "2020 / 2021", "file": "exams/business-ethics/2020-2021.json", "quizFile": "quizzes/business-ethics/2020-2021.json" },
+        { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/business-ethics/2021-2022.json", "quizFile": "quizzes/business-ethics/2021-2022.json" },
+        { "id": "2022-2023", "label": "2022 / 2023", "file": "exams/business-ethics/2022-2023.json", "quizFile": "quizzes/business-ethics/2022-2023.json" },
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "exams/business-ethics/2023-2024.json", "quizFile": "quizzes/business-ethics/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "exams/business-ethics/2024-2025.json", "quizFile": "quizzes/business-ethics/2024-2025.json" }
+      ]
+    },
+    {
+      "id": "strategic-management",
+      "title": "Strategic Management",
+      "code": "SBU 402D",
+      "icon": "🧮",
+      "years": [
+        { "id": "2019-2020", "label": "2019 / 2020", "file": "exams/strategic-management/2019-2020.json", "quizFile": "quizzes/strategic-management/2019-2020.json" },
+        { "id": "2020-2021", "label": "2020 / 2021", "file": "exams/strategic-management/2020-2021.json", "quizFile": "quizzes/strategic-management/2020-2021.json" },
+        { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/strategic-management/2021-2022.json", "quizFile": "quizzes/strategic-management/2021-2022.json" },
+        { "id": "2022-2023", "label": "2022 / 2023", "file": "exams/strategic-management/2022-2023.json", "quizFile": "quizzes/strategic-management/2022-2023.json" },
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "exams/strategic-management/2023-2024.json", "quizFile": "quizzes/strategic-management/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "exams/strategic-management/2024-2025.json", "quizFile": "quizzes/strategic-management/2024-2025.json" }
+      ]
+    },
+    {
+      "id": "international-procurement",
+      "title": "International Procurement",
+      "code": "PCM 406D",
+      "icon": "🗺️",
+      "years": [
+        { "id": "2019-2020", "label": "2019 / 2020", "file": "exams/international-procurement/2019-2020.json", "quizFile": "quizzes/international-procurement/2019-2020.json" },
+        { "id": "2020-2021", "label": "2020 / 2021", "file": "exams/international-procurement/2020-2021.json", "quizFile": "quizzes/international-procurement/2020-2021.json" },
+        { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/international-procurement/2021-2022.json", "quizFile": "quizzes/international-procurement/2021-2022.json" },
+        { "id": "2022-2023", "label": "2022 / 2023", "file": "exams/international-procurement/2022-2023.json", "quizFile": "quizzes/international-procurement/2022-2023.json" },
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "exams/international-procurement/2023-2024.json", "quizFile": "quizzes/international-procurement/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "exams/international-procurement/2024-2025.json", "quizFile": "quizzes/international-procurement/2024-2025.json" }
+      ]
+    },
+    {
+      "id": "procurement-audit",
+      "title": "Procurement Audit and Investigation",
+      "code": "PCM 476D",
+      "icon": "🔍",
+      "years": [
+        { "id": "2019-2020", "label": "2019 / 2020", "file": "exams/procurement-audit/2019-2020.json", "quizFile": "quizzes/procurement-audit/2019-2020.json" },
+        { "id": "2020-2021", "label": "2020 / 2021", "file": "exams/procurement-audit/2020-2021.json", "quizFile": "quizzes/procurement-audit/2020-2021.json" },
+        { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/procurement-audit/2021-2022.json", "quizFile": "quizzes/procurement-audit/2021-2022.json" },
+        { "id": "2022-2023", "label": "2022 / 2023", "file": "exams/procurement-audit/2022-2023.json", "quizFile": "quizzes/procurement-audit/2022-2023.json" },
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "exams/procurement-audit/2023-2024.json", "quizFile": "quizzes/procurement-audit/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "exams/procurement-audit/2024-2025.json", "quizFile": "quizzes/procurement-audit/2024-2025.json" }
+      ]
+    },
+    {
+      "id": "strategic-scm",
+      "title": "Strategic Supply Chain Management",
+      "code": "PCM 400D",
+      "icon": "🔗",
+      "years": [
+        { "id": "2019-2020", "label": "2019 / 2020", "file": "exams/strategic-scm/2019-2020.json", "quizFile": "quizzes/strategic-scm/2019-2020.json" },
+        { "id": "2020-2021", "label": "2020 / 2021", "file": "exams/strategic-scm/2020-2021.json", "quizFile": "quizzes/strategic-scm/2020-2021.json" },
+        { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/strategic-scm/2021-2022.json", "quizFile": "quizzes/strategic-scm/2021-2022.json" },
+        { "id": "2022-2023", "label": "2022 / 2023", "file": "exams/strategic-scm/2022-2023.json", "quizFile": "quizzes/strategic-scm/2022-2023.json" },
+        { "id": "2023-2024", "label": "2023 / 2024", "file": "exams/strategic-scm/2023-2024.json", "quizFile": "quizzes/strategic-scm/2023-2024.json" },
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "exams/strategic-scm/2024-2025.json", "quizFile": "quizzes/strategic-scm/2024-2025.json" }
+      ]
+    },
+    {
       "id": "entrepreneurship",
       "title": "Entrepreneurship",
       "code": "SBU 408D",
