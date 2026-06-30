@@ -1,0 +1,265 @@
+{
+  "subject": "Business Ethics and Corporate Governance",
+  "academicYear": "2021/2022",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "The following symptoms can indicate poor corporate governance except",
+            "options": [
+              "Principal-agent problem",
+              "Moral hazard",
+              "Lack of dependent scrutiny",
+              "Lack of adequate control function"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The symptoms are principal-agent problem, moral hazard, lack of independent scrutiny, and lack of adequate control function. 'Lack of dependent scrutiny' is wrong - it should be 'independent scrutiny.'",
+            "reference": "Unit 1, Session 1, 1.3 - Challenges or Symptoms/Risks of poor corporate governance in an Organization"
+          },
+          {
+            "type": "single",
+            "question": "______ refers to contemporary organizational standards, principles, sets of values and norms that govern the actions and behavior of an individual in the business organization.",
+            "options": [
+              "Corporate governance",
+              "Business ethics",
+              "Ethics",
+              "Ethical principles"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Business ethics refers to the standards, principles, values, and norms that guide behavior in business. This is the exact definition given.",
+            "reference": "Unit 1, Session 2, 2.2 - Corporate Governance and Business Ethics"
+          },
+          {
+            "type": "single",
+            "question": "______ spreads as trade barriers fall and economies of scale and experience grow.",
+            "options": [
+              "Market globalization",
+              "Cost globalization",
+              "Government policy",
+              "International competition"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Cost globalization happens when trade barriers fall and economies of scale grow. This reduces costs globally.",
+            "reference": "Unit 2, Session 5, 5.4 - Cost Globalisation"
+          },
+          {
+            "type": "single",
+            "question": "Which one of the following adapts totally to local environments?",
+            "options": [
+              "Ethnocentrism",
+              "Polycentrism",
+              "Geocentrism",
+              "Regiocentrism"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Polycentrism adapts almost totally to local environments. Companies set up independent local subsidiaries.",
+            "reference": "Unit 2, Session 5, 5.10 - Polycentrism"
+          },
+          {
+            "type": "single",
+            "question": "The key pillars of corporate governance includes the following except",
+            "options": [
+              "Dependent assurance",
+              "Leadership",
+              "Transparency",
+              "Professionalism"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The pillars include transparency, equity, honesty, integrity, responsiveness, efficiency, professionalism, accountability, leadership, and independent assurance. 'Dependent assurance' is wrong - it should be 'independent assurance.'",
+            "reference": "Unit 1, Session 1, 1.1 - Key Pillars of Corporate Governance"
+          },
+          {
+            "type": "single",
+            "question": "Managers can promote ethics successfully through ______",
+            "options": [
+              "Support by middle managers of a strong ethical climate",
+              "Ethics codes and not having training programs",
+              "Unprotecting whistleblowers",
+              "Gratifying ethical behavior"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Managers promote ethics through top manager support, ethics codes and training, and rewarding ethical behavior. 'Gratifying' means rewarding, which is correct.",
+            "reference": "Unit 1, Session 2, 2.3 - Managing Ethics in the Workplace"
+          },
+          {
+            "type": "single",
+            "question": "Whose work noted 'Monopoly is the natural opposite of competition and competition is the vital force which animates the collective being: to destroy it, if such a supposition were possible, would be to kill society'?",
+            "options": [
+              "Mindeli",
+              "Pipiya",
+              "Kinsella",
+              "Proudhon"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Proudhon made this statement about monopoly and competition.",
+            "reference": "Unit 1, Session 2, 2.4 - International issues"
+          },
+          {
+            "type": "single",
+            "question": "In Ghana, many anti-corruption bodies and laws have been established by both NGOs and the government over the years to stem corruption promote ethical behavior in both the private and public sectors. Which of the following is not among these anti-corruption bodies?",
+            "options": [
+              "Commission on Human Rights and Administrative Justice",
+              "Economic and Organization Crime Office (EOCO)",
+              "National Anti-corruption Action Plan",
+              "Ghana Anti-Corruption Coalition (GACC)"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The bodies are CHRAJ, EOCO (Economic and Organised Crime Office), GACC, and National Anti-Corruption Action Plan. 'Economic and Organization Crime Office' is the wrong name - it should be 'Economic and Organised Crime Office.'",
+            "reference": "Unit 1, Session 3, 3.1 - Efforts to Promote High Ethical Standards in Ghana"
+          },
+          {
+            "type": "single",
+            "question": "______ takes a much more 'organic' view of the organization, imbuing it with 'life' of its own, in keeping with the notion of a separate legal personage.",
+            "options": [
+              "Stewardship theory",
+              "Stakeholder theory",
+              "Agency theory",
+              "Transaction cost theory"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Stakeholder theory takes an organic view of the organization. It sees the company as having its own life, like a separate legal person.",
+            "reference": "Unit 1, Session 4, 4.3 - Stakeholder Theory"
+          },
+          {
+            "type": "single",
+            "question": "Taking responsibility for actions, probably when there is encouragement from special interest groups is known as ______.",
+            "options": [
+              "Accommodation strategy",
+              "Reactive strategy",
+              "Proactive strategy",
+              "Defence strategy"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Accommodation strategy means taking responsibility when encouraged by special interest groups or when government might step in.",
+            "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
+          },
+          {
+            "type": "single",
+            "question": "Porter identifies four principal determinants of national competitive advantage. Which of the following is not one of these determinants?",
+            "options": [
+              "Factor conditions",
+              "Firm strategy structure and rivalry",
+              "Supply conditions",
+              "Related and supporting industries"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The four determinants are factor conditions, demand conditions, firm strategy structure and rivalry, and related and supporting industries. Supply conditions is not one of them.",
+            "reference": "Unit 2, Session 5, 5.12 - Strategy formation"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a category of risk in international business?",
+            "options": [
+              "Political risk",
+              "Business risk",
+              "Currency risk",
+              "Profit expatriation risk"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The categories are political risk, business risk, currency risk, and profit repatriation risk. 'Profit expatriation risk' is wrong - it should be 'profit repatriation risk.'",
+            "reference": "Unit 2, Session 6, 6.1 - Market selection"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following regarding corporate governance is not correct?",
+            "options": [
+              "It encompasses practically some sphere of management, from action plans and internal controls to performance measurement and corporate disclosure.",
+              "It is the oversight role of shareholders, board of directors, government, and other international organizations on the activities of management.",
+              "It refers specifically to the set of rules, controls and resolutions put in place to dictate corporate behavior.",
+              "It is a system of rules, practices and processes by which a firm is directed and controlled."
+            ],
+            "correctAnswer": "A",
+            "explanation": "The correct statement says 'practically every sphere of management,' not 'some sphere.' The wording in option A is wrong.",
+            "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+          },
+          {
+            "type": "single",
+            "question": "The main areas of the OECD corporate governance principles include the following except:",
+            "options": [
+              "Disclosure and transparency",
+              "Ensuring the basis of an effective corporate governance framework",
+              "Encouraging businesses based in different countries to cooperate",
+              "The role of stakeholders in corporate governance"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The five OECD areas are: effective framework, shareholder rights, equitable treatment, stakeholder role, disclosure, and board responsibilities. Encouraging cross-border cooperation is not one of them.",
+            "reference": "Unit 1, Session 6, 6.2 - The OECD Principles of Corporate Governance"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a reason why firms move to foreign markets according to Ohmae?",
+            "options": [
+              "Customer",
+              "Company",
+              "Control needs",
+              "Country"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Ohmae's five Cs are Customer, Company, Competition, Currency, and Country. Control needs is not one of them.",
+            "reference": "Unit 2, Session 6, 6.2 - Ohmae offers five reasons for globalisation"
+          },
+          {
+            "type": "single",
+            "question": "Companies face four types of additional cost when they invest in workforce diversity policies.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The four costs are legal compliance costs, cash costs, opportunity costs, and business risks. This is stated clearly in the material.",
+            "reference": "Unit 3, Session 3, 3.2 - Costs of diversity"
+          },
+          {
+            "type": "single",
+            "question": "One of the purpose of the compensation committee of the Board of Directors is to support the chairman in ensuring the board functions efficiently and effectively.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Supporting the chairman is the role of the company secretary, not the compensation committee. The compensation committee handles executive pay and incentives.",
+            "reference": "Unit 3, Session 4, 4.1 - Company Secretary"
+          },
+          {
+            "type": "single",
+            "question": "Each member of the compensation committee will be an 'outside director' as defined in Section 163(m) of the Internal Revenue Code of 1986, as amended ('IRC').",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The correct section is Section 162(m), not 163(m). The material clearly states 'Section 162(m) of the Internal Revenue Code of 1986.'",
+            "reference": "Unit 3, Session 6, 6.1 - The Compensation Committee Membership and Appointment"
+          },
+          {
+            "type": "single",
+            "question": "Bartlett and Ghoshal find that the pressures driving globalization exist independently of the need for local responsiveness; and that both vary from industry to industry.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Bartlett and Ghoshal state that globalization pressures and local responsiveness needs exist independently. Both vary by industry.",
+            "reference": "Unit 2, Session 6, 6.3 - Designs for Global Businesses"
+          },
+          {
+            "type": "single",
+            "question": "Firms always carry out social audits.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Firms sometimes carry out social audits. Whether they do depends on how much social responsibility is part of their corporate philosophy.",
+            "reference": "Unit 2, Session 3, 3.2 - The social audit"
+          }
+        ]
+      }
+    }
+  ]
+}

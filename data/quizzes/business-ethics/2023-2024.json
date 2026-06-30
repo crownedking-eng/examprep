@@ -1,0 +1,271 @@
+{
+  "subject": "Business Ethics and Corporate Governance",
+  "academicYear": "2023/2024",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Accountability is generally a major theme in all governance frameworks.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Accountability is a major theme in all governance frameworks. This is stated clearly in the material.",
+            "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+          },
+          {
+            "type": "single",
+            "question": "The form of applied or professional ethics, that examines ethical principles and moral or ethical problems that can arise in a business environment is referred to as",
+            "options": [
+              "Professional Ethics",
+              "Corporate Ethics",
+              "Corporate Governance",
+              "Ethical Principle"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Business ethics (also called corporate ethics) examines ethical problems in business. This matches the definition given.",
+            "reference": "Unit 1, Session 2, 2.1 - Business Ethics"
+          },
+          {
+            "type": "single",
+            "question": "Relatively permanent and deeply held underlying beliefs and attitudes that help determine a person behavior is known as",
+            "options": [
+              "Belief System",
+              "Virtue",
+              "Attitude",
+              "Values"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Values are relatively permanent and deeply held beliefs that guide behavior. This is the exact definition in the material.",
+            "reference": "Unit 1, Session 2, 2.1 - Business Ethics"
+          },
+          {
+            "type": "single",
+            "question": "The corporate governance theory which aims to ensure that managers pursue effectively shareholders best interest is ______ theory.",
+            "options": [
+              "stakeholders",
+              "stewardship",
+              "shareholders",
+              "agency"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Agency theory aims to ensure managers pursue shareholders' best interests. It uses performance pay and monitoring.",
+            "reference": "Unit 1, Session 4, 4.4 - Agency Theory"
+          },
+          {
+            "type": "single",
+            "question": "Which corporate governance theory stipulate that Management will be opportunistic? ______ theory.",
+            "options": [
+              "Agency",
+              "Stewardship",
+              "Stakeholders",
+              "Transactions Cost"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Transaction cost theory states that managers will be opportunistic. They organise transactions for their own convenience.",
+            "reference": "Unit 1, Session 4, 4.5 - Transaction Cost Theory"
+          },
+          {
+            "type": "single",
+            "question": "All the following are the main areas of the OECD Corporate Governance Principles except ______.",
+            "options": [
+              "the right of shareholders",
+              "the responsibility of the chairman of the board",
+              "equitable treatment of shareholders",
+              "the role of stakeholders in corporate Governance"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The OECD areas include shareholder rights, equitable treatment, stakeholder role, disclosure, and board responsibilities. 'Responsibility of the chairman' is not one of the main areas.",
+            "reference": "Unit 1, Session 6, 6.2 - The OECD Principles of Corporate Governance"
+          },
+          {
+            "type": "single",
+            "question": "A way in which companies take responsibility for the social and environmental impacts of their business operations is referred to as ______ responsibility.",
+            "options": [
+              "Social",
+              "Corporate Social",
+              "Corporate",
+              "Social Corporate"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Corporate Social Responsibility (CSR) is how companies take responsibility for their social and environmental impacts. This is the full term.",
+            "reference": "Unit 2, Session 1, 1.3 - Corporate Citizenship & Corporate Social Responsibility"
+          },
+          {
+            "type": "single",
+            "question": "Which component of CSR expect an organization to do what is right, just and fair?",
+            "options": [
+              "Ethical",
+              "Legal",
+              "Economic",
+              "Philanthropic"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Ethical responsibility means doing what is right, just, and fair. It goes beyond what the law requires.",
+            "reference": "Unit 2, Session 1, 1.3 - CSR has four components of responsibility"
+          },
+          {
+            "type": "single",
+            "question": "The pyramid for CSR is in order of ______.",
+            "options": [
+              "Economic, Legal, Ethical, Philanthropic",
+              "Philanthropic, ethical, legal, economic",
+              "Legal, economic, Ethical, Philanthropic",
+              "Economic, Ethical, Legal, and Philanthropic"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The CSR pyramid goes from bottom to top: Economic, Legal, Ethical, Philanthropic. This is the correct order.",
+            "reference": "Unit 2, Session 1, 1.3 - Pyramid of Corporate Social Responsibility"
+          },
+          {
+            "type": "single",
+            "question": "An organizations obligation to maximize positive stakeholders' benefits while minimizing effect of its action is termed as ______ responsibility.",
+            "options": [
+              "Social",
+              "Corporate",
+              "Corporate Social",
+              "Social Corporate"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Corporate Social Responsibility is the obligation to maximize positive stakeholder benefits and minimize negative effects. This is the definition.",
+            "reference": "Unit 2, Session 2, 2.2 - Corporate Social Responsibility"
+          },
+          {
+            "type": "single",
+            "question": "Equal opportunity statement is one of the basic elements of CSR",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Equal opportunities statements are listed as basic elements of CSR. They show commitment to fairness.",
+            "reference": "Unit 2, Session 2, 2.3 - Basic Elements of Corporate Social Responsibility"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is one of the Corporate Responsibility stances?",
+            "options": [
+              "Law biding",
+              "Concern for others",
+              "Philanthropic",
+              "Laissez-faire"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The four stances are Laissez-faire, Enlightened self-interest, Multiple stakeholder obligations, and Shaper of society. Laissez-faire is one of them.",
+            "reference": "Unit 2, Session 2, 2.4 - Corporate Social Responsibility Stances"
+          },
+          {
+            "type": "single",
+            "question": "A strategy which a business follows where it is prepared to take full responsibility for its actions is known to be a ______ strategy.",
+            "options": [
+              "Defense",
+              "Accountability",
+              "Proactive",
+              "Reactive"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Proactive strategy means taking full responsibility before being forced. The company acts voluntarily and early.",
+            "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
+          },
+          {
+            "type": "single",
+            "question": "ABC limited involves in a strategy to minimize or avoid additional obligation arising from a particular problem, which strategy is ABC limited using?",
+            "options": [
+              "Defense Strategy",
+              "Proactive Strategy",
+              "Accountability Strategy",
+              "Reactive Strategy"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Defence strategy means minimising or avoiding additional obligations. The company tries to do the bare minimum.",
+            "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
+          },
+          {
+            "type": "single",
+            "question": "All the following are issues to consider in relation to sustainability and the triple bottom line except ______",
+            "options": [
+              "Environmental Issue",
+              "Social Dimension",
+              "Economic Issue",
+              "Environmental quality"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The three areas are environmental quality, social dimension, and economic issues. 'Environmental Issue' is too vague - the correct term is 'Environmental quality.'",
+            "reference": "Unit 2, Session 4, 4.1 - Sustainability and Strategy"
+          },
+          {
+            "type": "single",
+            "question": "Ohmae offers five reasons for globalization, which of the following is not one of the reasons?",
+            "options": [
+              "Customer",
+              "Company",
+              "Country",
+              "Co-workers"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Ohmae's five Cs are Customer, Company, Competition, Currency, and Country. Co-workers is not one of them.",
+            "reference": "Unit 2, Session 6, 6.2 - Ohmae offers five reasons for globalisation"
+          },
+          {
+            "type": "single",
+            "question": "The main aim of ______ is to develop a full marketing capability and offer products suited to local requirements.",
+            "options": [
+              "Global Company",
+              "Oversee Branch",
+              "Oversee Production",
+              "Insiderisation"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Insiderisation means setting up full functional organisations overseas. The aim is to offer products suited to local needs.",
+            "reference": "Unit 2, Session 6, 6.1 - International Strategy Choices"
+          },
+          {
+            "type": "single",
+            "question": "In international business, the risk that arises from the possibility that the business idea itself might be flawed is termed as a / an ______ risk.",
+            "options": [
+              "Currency",
+              "Political",
+              "Profit",
+              "Business"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Business risk arises when the business idea itself might be flawed. It exists in all markets but is bigger internationally.",
+            "reference": "Unit 2, Session 6, 6.1 - Market selection"
+          },
+          {
+            "type": "single",
+            "question": "______ occurs where a firm's goods are sold by other organizations who can offer greater market knowledge export.",
+            "options": [
+              "Direct",
+              "Indirect",
+              "Complementary",
+              "Intermediary"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Indirect exporting happens when other organisations sell the firm's goods. These organisations have better market knowledge.",
+            "reference": "Unit 2, Session 6, 6.4 - Modes of entry to foreign markets"
+          },
+          {
+            "type": "single",
+            "question": "The purpose of having ______ Directors is to provide unbiased and impartial perspective on issues to the board.",
+            "options": [
+              "Independent",
+              "General",
+              "Outside",
+              "Responsible"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Outside directors provide unbiased and impartial perspectives. They are not part of the management team.",
+            "reference": "Unit 3, Session 1, 1.3 - Outside directors"
+          }
+        ]
+      }
+    }
+  ]
+}
