@@ -1,0 +1,275 @@
+{
+  "subject": "Business Strategic Management",
+  "academicYear": "2019/2020",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "An organization resource is valuable when it",
+            "options": [
+              "is scarce",
+              "is not durable",
+              "has substitute",
+              "can be imitated"
+            ],
+            "correctAnswer": "A",
+            "explanation": "A resource is valuable if it is scarce. Scarcity makes it hard for competitors to get, giving the firm an advantage.",
+            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+          },
+          {
+            "type": "single",
+            "question": "Multinationalization starts with",
+            "options": [
+              "licensing of patents to foreign firms",
+              "exporting of products",
+              "establishing sales organizations aboard",
+              "establishing foreign manufacturing facilities"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Companies begin their journey to becoming multinational by exporting. It is the simplest and cheapest way to enter foreign markets.",
+            "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+          },
+          {
+            "type": "single",
+            "question": "Industry and competitive analysis ends with ______",
+            "options": [
+              "interpreting competitive signals",
+              "identifying opportunities",
+              "determine the key success factors",
+              "analysing the forces of competition"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The final step is to figure out the key success factors. These are the things a company must do well to win in its industry.",
+            "reference": "Unit 3, Session 2, 2.2 - Purpose and Contributions of Industry and Competitive Analysis"
+          },
+          {
+            "type": "single",
+            "question": "The use of discounts, credit card and preferential financial arrangement for customers is ______",
+            "options": [
+              "Price competition",
+              "Merges and takeovers",
+              "Government intervention",
+              "Clocking-in"
+            ],
+            "correctAnswer": "A",
+            "explanation": "These are tools used to compete on price. They make buying cheaper or easier, which attracts customers away from competitors.",
+            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is an example of intangible asset?",
+            "options": [
+              "Raw material",
+              "Computers",
+              "Brand name",
+              "Bank balance"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Intangible assets are things you cannot touch or see. A brand name, reputation, and patents are all examples of intangible assets.",
+            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+          },
+          {
+            "type": "single",
+            "question": "The first stage in strategic planning is ______.",
+            "options": [
+              "Implementation",
+              "formulation",
+              "evaluation",
+              "control"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Strategic planning begins with formulation. This is where you design and select the strategies to achieve your goals.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "An example of non-financial benefit of strategic management is ______.",
+            "options": [
+              "reduced resistance change",
+              "profitability",
+              "increased productivity",
+              "improved sales"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Reduced resistance to change is a non-financial benefit. It makes employees more willing to accept new ways of working.",
+            "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
+          },
+          {
+            "type": "single",
+            "question": "How a firm will compete in selected product-market arena is determined by a manager at ______.",
+            "options": [
+              "supply level",
+              "strategic level",
+              "functional level",
+              "corporate level"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Business-level managers decide how the firm will compete. They figure out the best way to win in a specific market.",
+            "reference": "Unit 1, Session 4, 4.2 - Business Level"
+          },
+          {
+            "type": "single",
+            "question": "Devising policies is part of strategy ______.",
+            "options": [
+              "review",
+              "implementation",
+              "formulation",
+              "evaluation"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Policies are created to guide actions. This happens during strategy implementation, not during formulation.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "Setting organizational mission on the basis of need to change is ______.",
+            "options": [
+              "targeting",
+              "role-model",
+              "internal transformation",
+              "common enemy"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Internal transformation means changing from within. The mission is set to guide the organisation through this change process.",
+            "reference": "Unit 2, Session 1, 1.1 - Developing the Organisation's Strategic Vision and Mission"
+          },
+          {
+            "type": "single",
+            "question": "The percentage of total funds that are provided by creditors versus by owners is a measure of ______.",
+            "options": [
+              "inventory turnover",
+              "earning per share",
+              "debt of equity ratio",
+              "current ratio"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The debt-to-equity ratio shows how much creditors have provided compared to owners. It measures the company's financial leverage.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "Inbound logistics does not include ______.",
+            "options": [
+              "shipping",
+              "raw material",
+              "fuel",
+              "energy"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Shipping is part of outbound logistics, not inbound. Inbound logistics covers receiving, storing, and managing inputs.",
+            "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+          },
+          {
+            "type": "single",
+            "question": "The use of the assets of a company to acquire additional operating assets is ______.",
+            "options": [
+              "Licence/agreement",
+              "Joint venture",
+              "Importing/exporting",
+              "Direct investment"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Direct investment means using company money to buy or build assets. This shows the strongest commitment to a foreign market.",
+            "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+          },
+          {
+            "type": "single",
+            "question": "The basic resources of an organization can be categorized into ______.",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "B",
+            "explanation": "There are three basic types of organisational resources. These are tangible assets, intangible assets, and organisational capabilities.",
+            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+          },
+          {
+            "type": "single",
+            "question": "Beliefs, values and attitudes are examples of ______.",
+            "options": [
+              "social forces",
+              "political forces",
+              "legal forces",
+              "economic forces"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Beliefs, values, and attitudes are social factors. They shape how people live, work, and consume products.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "Setting a mission statement on the basis of the utility of a firm's products is based on ______.",
+            "options": [
+              "dissolution of divergent views",
+              "declaration of social responsibility",
+              "declaration of attitude",
+              "customer orientation"
+            ],
+            "correctAnswer": "D",
+            "explanation": "A customer-oriented mission focuses on the product's usefulness. It answers the question: 'What value do we provide to customers?'",
+            "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+          },
+          {
+            "type": "single",
+            "question": "The last step in strategic management process is ______.",
+            "options": [
+              "review and evaluation",
+              "identifying mission",
+              "establishing objectives",
+              "allocating of resources"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The final stage is strategy evaluation. Managers review performance and take corrective action.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "A board of directors which plays the leading role in strategic management is described as ______.",
+            "options": [
+              "rubber stamp",
+              "phantom",
+              "minimal review",
+              "catalyst"
+            ],
+            "correctAnswer": "D",
+            "explanation": "A catalyst board takes the leading role. They actively participate in strategy decisions.",
+            "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
+          },
+          {
+            "type": "single",
+            "question": "Social contract categorises obligations between the organization and society into ______.",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The social contract has three types of obligations. These are obligations to individuals, to groups, and to government.",
+            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+          },
+          {
+            "type": "single",
+            "question": "The responsibility of busines to produce goods and services is ______.",
+            "options": [
+              "Legal",
+              "Ethical",
+              "Economic",
+              "Discretionary"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The economic responsibility is to produce goods and services. This creates value and generates profit for owners.",
+            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+          }
+        ]
+      }
+    }
+  ]
+}

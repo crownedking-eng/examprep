@@ -1,0 +1,275 @@
+{
+  "subject": "Business Strategic Management",
+  "academicYear": "2023/2024",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "A financial benefit of strategic management is ______.",
+            "options": [
+              "increase in profit",
+              "reduced resistance to change",
+              "increase in profitability",
+              "improved problem prevention capabilities"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Profitability is a financial benefit. Strategic management helps companies become more profitable over time.",
+            "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
+          },
+          {
+            "type": "single",
+            "question": "Strategic decisions developed around operators, finance, marketing and research and development are ______ level.",
+            "options": [
+              "corporate",
+              "business",
+              "functional",
+              "operational"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Functional level decisions focus on specific areas. These include production, finance, marketing, and R&D.",
+            "reference": "Unit 1, Session 4, 4.3 - Functional Level"
+          },
+          {
+            "type": "single",
+            "question": "Strategic management based on the major divisions of an organization occurs at the ______ level.",
+            "options": [
+              "corporate",
+              "business",
+              "functional",
+              "operational"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Business level strategy focuses on major divisions. These are called Strategic Business Units (SBUs).",
+            "reference": "Unit 1, Session 4, 4.2 - Business Level"
+          },
+          {
+            "type": "single",
+            "question": "An unfavorable condition in a firm's external environment is a/an ______.",
+            "options": [
+              "strength",
+              "threat",
+              "weakness",
+              "opportunity"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A threat is an unfavourable factor outside the company. It is something the firm must protect itself from.",
+            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+          },
+          {
+            "type": "single",
+            "question": "The ability of an organization to meet its short term obligations is measured by ______ ratio.",
+            "options": [
+              "activity",
+              "leverage",
+              "liquidity",
+              "profitability"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Liquidity ratio measures ability to pay short-term debts. It shows if the company has enough cash to cover immediate bills.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "The level of unemployment is an example of a factor in the ______ environment.",
+            "options": [
+              "economic",
+              "legal",
+              "political",
+              "social"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Unemployment is an economic factor. High unemployment means less spending power in the economy.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "The first activity in strategic formulation is ______.",
+            "options": [
+              "allocation of resources",
+              "establishing objectives",
+              "establishment of mission",
+              "evaluation and control"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Strategy formulation starts with establishing the mission. This gives the company its purpose and direction.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "The levels of strategy can be divided into ______.",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Strategy has three levels. These are corporate, business, and functional.",
+            "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+          },
+          {
+            "type": "single",
+            "question": "According to Archie Carrol, managers of business organizations have ______ responsibilities.",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Carroll says managers have four responsibilities. These are economic, legal, ethical, and discretionary.",
+            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+          },
+          {
+            "type": "single",
+            "question": "An element in a mission statement which reflects a firm's commitment towards economic objectives is ______.",
+            "options": [
+              "customers",
+              "profitability",
+              "product",
+              "technology"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Profitability shows commitment to economic objectives. It is one of the nine components of a mission statement.",
+            "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+          },
+          {
+            "type": "single",
+            "question": "The last activity in strategic evaluation is ______.",
+            "options": [
+              "measuring performance",
+              "reviewing external factors",
+              "taking corrective actions",
+              "establishing objectives"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Taking corrective actions is the final step in evaluation. This fixes problems found during performance review.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "An example of social factor is ______.",
+            "options": [
+              "exchange rate",
+              "demographic",
+              "product technique",
+              "interest rate"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Demographics are social factors. They include population characteristics like age and health.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "The competitive forces can be categorized into ______.",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Porter identifies five competitive forces. These determine industry competition.",
+            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
+          },
+          {
+            "type": "single",
+            "question": "Primary activities in the value chain ends with ______.",
+            "options": [
+              "inbound logistics",
+              "marketing and sales",
+              "service",
+              "outbound logistics"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Service is the final primary activity. It covers after-sale support for customers.",
+            "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+          },
+          {
+            "type": "single",
+            "question": "Decisions made by Board of Directors is at the ______ level.",
+            "options": [
+              "business unit",
+              "corporate",
+              "functional",
+              "operational"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The Board of Directors works at the corporate level. They are the highest decision-making authority.",
+            "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+          },
+          {
+            "type": "single",
+            "question": "Changes in government priorities and legislation programme refers to ______ factors.",
+            "options": [
+              "economic",
+              "political",
+              "socio-cultural",
+              "technological"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Political factors include government changes and legislation. These affect how businesses operate.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Political Forces)"
+          },
+          {
+            "type": "single",
+            "question": "The responsibilities of a business organization can be classified into ______ categories.",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Business responsibilities fall into four categories. These are economic, legal, ethical, and discretionary.",
+            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+          },
+          {
+            "type": "single",
+            "question": "______ ratios are used to measure the efficiency of an organization.",
+            "options": [
+              "Activity",
+              "Gearing",
+              "Liquidity",
+              "Profitability"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Activity ratios measure operational efficiency. They show how well the company uses its assets.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "Voluntary obligations a company assumes is ______.",
+            "options": [
+              "economic",
+              "ethical",
+              "discretionary",
+              "legal"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Discretionary responsibilities are voluntary. They include philanthropy and community support.",
+            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+          },
+          {
+            "type": "single",
+            "question": "A favorable condition in an organization's internal environment is ______.",
+            "options": [
+              "strength",
+              "threat",
+              "weakness",
+              "opportunity"
+            ],
+            "correctAnswer": "A",
+            "explanation": "A strength is a favourable factor inside the company. It is something the organisation is good at.",
+            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+          }
+        ]
+      }
+    }
+  ]
+}

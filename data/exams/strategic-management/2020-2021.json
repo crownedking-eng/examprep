@@ -1,0 +1,275 @@
+{
+  "subject": "Business Strategic Management",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "The most visible and public part of the strategic management process is ______.",
+            "options": [
+              "core value",
+              "mission statement",
+              "objective",
+              "vision statement"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The mission statement is the most public part of strategic management. It tells everyone what the company stands for and aims to achieve.",
+            "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+          },
+          {
+            "type": "single",
+            "question": "An element in a mission statement which tells where the firm competes is ______.",
+            "options": [
+              "customers",
+              "market",
+              "product",
+              "technology"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The market element of a mission statement identifies where the firm competes. It defines the geographic or customer segments the company targets.",
+            "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+          },
+          {
+            "type": "single",
+            "question": "To increase overall sales in order to decrease the risk of business failure as an objective reflects ______.",
+            "options": [
+              "corporate image",
+              "market growth",
+              "profitability",
+              "survival"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Market growth means increasing total sales. Growing sales helps spread risk and makes the business more stable.",
+            "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+          },
+          {
+            "type": "single",
+            "question": "The discretionary obligation of a business to society is ______.",
+            "options": [
+              "economic responsibility",
+              "ethical responsibility",
+              "legal responsibility",
+              "social responsibility"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Discretionary responsibilities are voluntary actions like philanthropy. They are also called social responsibilities.",
+            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+          },
+          {
+            "type": "single",
+            "question": "The pressure exerted by special interest groups in society to control business practices is",
+            "options": [
+              "competitive influence",
+              "ethical influence",
+              "legal influence",
+              "political influence"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Political influence comes from special interest groups. They use lobbying and pressure to control business behaviour.",
+            "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Political Influences)"
+          },
+          {
+            "type": "single",
+            "question": "The rate at which a firm's resources, capabilities depreciate or become obsolete is ______",
+            "options": [
+              "durability",
+              "imitability",
+              "scarce",
+              "substitutability"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Durability measures how long a resource stays useful. Technology can make a core competency obsolete quickly.",
+            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+          },
+          {
+            "type": "single",
+            "question": "A favourable situation in a firm's environment is ______ .",
+            "options": [
+              "opportunity",
+              "strength",
+              "threat",
+              "weakness"
+            ],
+            "correctAnswer": "A",
+            "explanation": "An opportunity is a favourable factor in the external environment.",
+            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+          },
+          {
+            "type": "single",
+            "question": "The value chain recognizes that customer value is derived from ______ sources.",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Customer value comes from three sources. These are activities that differentiate the product, lower its costs, and meet customer needs quickly.",
+            "reference": "Unit 3, Session 5, 5.1 - The Concept of Value Chain"
+          },
+          {
+            "type": "single",
+            "question": "Primary activities in the value chain begins with ______ inbound logistics.",
+            "options": [
+              "marketing and sales",
+              "operations",
+              "operations",
+              "outbound logistics"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Inbound logistics is the first primary activity. It covers receiving, storing, and managing inputs from suppliers.",
+            "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+          },
+          {
+            "type": "single",
+            "question": "Establishing foreign manufacturing facilities occur at the ______ stage of multinationalization.",
+            "options": [
+              "second",
+              "third",
+              "fourth",
+              "fifth"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A company establishes foreign manufacturing facilities at Stage IV. This is the fourth step in becoming a multinational company.",
+            "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+          },
+          {
+            "type": "single",
+            "question": "As a systematic process, strategic management starts with ______.",
+            "options": [
+              "analysis of the internal environment",
+              "assessment of external environment",
+              "establishing a business mission statement",
+              "development of annual objectives"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Strategic management starts with establishing the mission statement. This provides the foundation for all other activities.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "An example of financial benefit from strategic management is ______.",
+            "options": [
+              "increased employee productivity",
+              "increased profitability",
+              "reduced resistance to change",
+              "understanding of competitor's strategies"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Increased profitability is a financial benefit. Strategic management helps organisations become more profitable over time.",
+            "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
+          },
+          {
+            "type": "single",
+            "question": "The top level of decision making hierarchy of an organization is ______.",
+            "options": [
+              "business unit level",
+              "corporate level",
+              "functional level",
+              "operational level"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The corporate level is at the top of the hierarchy. It consists of the board of directors and chief executives.",
+            "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+          },
+          {
+            "type": "single",
+            "question": "An activity at the evaluation stage of strategic management is ______.",
+            "options": [
+              "allocation resources",
+              "devising policies",
+              "establishing objectives",
+              "measuring performance"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Measuring performance is an evaluation activity. It helps the firm track progress against its goals.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "The overall goal of an organization is its ______.",
+            "options": [
+              "core value",
+              "mission",
+              "objective",
+              "vision"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The mission is the overall goal of the organisation. It gives direction and purpose to all decisions and actions.",
+            "reference": "Unit 2, Session 1, 1.1 - Developing the Organisation's Strategic Vision and Mission"
+          },
+          {
+            "type": "single",
+            "question": "The ethical standard requiring business organizations to act in a way that results in the greatest good to the greatest number is the ______.",
+            "options": [
+              "golden rule",
+              "professional ethic",
+              "tv test",
+              "utilitarian principle"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The utilitarian principle says to act for the greatest good for the greatest number. It is one of the five ethical standards.",
+            "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Ethical Influences)"
+          },
+          {
+            "type": "single",
+            "question": "Patents, trademarks and copyright are factors under the",
+            "options": [
+              "economic forces",
+              "political forces",
+              "social forces",
+              "technological forces"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Patents and copyrights are part of the technological environment. They protect new products and production methods.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Technological Forces)"
+          },
+          {
+            "type": "single",
+            "question": "An example of demographic force is",
+            "options": [
+              "exchange rate",
+              "health standards",
+              "production technique",
+              "interest rate"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Health standards are a demographic force. Demographics include population characteristics like health and education levels.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "The forces of competition can be categorized into",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Porter identifies five forces of competition. These determine how intense competition is in an industry.",
+            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
+          },
+          {
+            "type": "single",
+            "question": "A determinant of bargaining power of suppliers is",
+            "options": [
+              "buyer switching cost",
+              "brand identity",
+              "differentiation of inputs",
+              "performance of substitutes"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Differentiation of inputs gives suppliers power. If inputs are unique, suppliers can charge higher prices.",
+            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition (Bargaining Power of Suppliers)"
+          }
+        ]
+      }
+    }
+  ]
+}
