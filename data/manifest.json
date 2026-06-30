@@ -20,6 +20,7 @@
       "code": "SBU 402D",
       "icon": "🧮",
       "years": [
+        { "id": "2018-2019", "label": "2018 / 2019", "file": "exams/strategic-management/2018-2019.json", "quizFile": "quizzes/strategic-management/2018-2019.json" },
         { "id": "2019-2020", "label": "2019 / 2020", "file": "exams/strategic-management/2019-2020.json", "quizFile": "quizzes/strategic-management/2019-2020.json" },
         { "id": "2020-2021", "label": "2020 / 2021", "file": "exams/strategic-management/2020-2021.json", "quizFile": "quizzes/strategic-management/2020-2021.json" },
         { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/strategic-management/2021-2022.json", "quizFile": "quizzes/strategic-management/2021-2022.json" },
@@ -31,10 +32,9 @@
     {
       "id": "international-procurement",
       "title": "International Procurement",
-      "code": "PCM 406D",
+      "code": "PCM 405D",
       "icon": "🗺️",
       "years": [
-        { "id": "2019-2020", "label": "2019 / 2020", "file": "exams/international-procurement/2019-2020.json", "quizFile": "quizzes/international-procurement/2019-2020.json" },
         { "id": "2020-2021", "label": "2020 / 2021", "file": "exams/international-procurement/2020-2021.json", "quizFile": "quizzes/international-procurement/2020-2021.json" },
         { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/international-procurement/2021-2022.json", "quizFile": "quizzes/international-procurement/2021-2022.json" },
         { "id": "2022-2023", "label": "2022 / 2023", "file": "exams/international-procurement/2022-2023.json", "quizFile": "quizzes/international-procurement/2022-2023.json" },
@@ -45,10 +45,9 @@
     {
       "id": "procurement-audit",
       "title": "Procurement Audit and Investigation",
-      "code": "PCM 476D",
+      "code": "PCM 406D",
       "icon": "🔍",
       "years": [
-        { "id": "2019-2020", "label": "2019 / 2020", "file": "exams/procurement-audit/2019-2020.json", "quizFile": "quizzes/procurement-audit/2019-2020.json" },
         { "id": "2020-2021", "label": "2020 / 2021", "file": "exams/procurement-audit/2020-2021.json", "quizFile": "quizzes/procurement-audit/2020-2021.json" },
         { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/procurement-audit/2021-2022.json", "quizFile": "quizzes/procurement-audit/2021-2022.json" },
         { "id": "2022-2023", "label": "2022 / 2023", "file": "exams/procurement-audit/2022-2023.json", "quizFile": "quizzes/procurement-audit/2022-2023.json" },
@@ -59,10 +58,9 @@
     {
       "id": "strategic-scm",
       "title": "Strategic Supply Chain Management",
-      "code": "PCM 400D",
+      "code": "PCM 402D",
       "icon": "🔗",
       "years": [
-        { "id": "2019-2020", "label": "2019 / 2020", "file": "exams/strategic-scm/2019-2020.json", "quizFile": "quizzes/strategic-scm/2019-2020.json" },
         { "id": "2020-2021", "label": "2020 / 2021", "file": "exams/strategic-scm/2020-2021.json", "quizFile": "quizzes/strategic-scm/2020-2021.json" },
         { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/strategic-scm/2021-2022.json", "quizFile": "quizzes/strategic-scm/2021-2022.json" },
         { "id": "2022-2023", "label": "2022 / 2023", "file": "exams/strategic-scm/2022-2023.json", "quizFile": "quizzes/strategic-scm/2022-2023.json" },
