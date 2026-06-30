@@ -9,7 +9,7 @@ https://crownedking-eng.github.io/examprep/
 - Multiple academic years (2019-2020 to 2025-2026)
 - Section A: Multiple Choice Questions with explanations
 - Section B: Case studies with structured answers and key facts
-- Mid-Semester Quizzes: 20 Multiple Choice Questions in selected years
+- Mid-Semester Quizzes: 20 Multiple Choice Questions in select years
 - Search/Filter button
 - Bookmark feature for questions to be reviewed later
 - Progress tracking with local storage
@@ -23,6 +23,8 @@ https://crownedking-eng.github.io/examprep/
 - Sustainable Procurement (PCM 401D) - 6 academic years
 - Risk Management (PCM 403D) - 6 academic years
 - Lean and Six Sigma (PCM 409D) - 3 academic years
+- Business Ethics and Governance (SBU  406D) - 6 academic years
+- Strategic Management (SBU 402D) - 7 academic years
 
 ## How to Use
 1. Select a subject
