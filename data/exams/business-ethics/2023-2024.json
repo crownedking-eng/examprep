@@ -1,1 +1,655 @@
-
+{
+  "subject": "Business Ethics and Corporate Governance",
+  "subjectCode": "SBU 406D",
+  "academicYear": "2023/2024",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "There are four main forms of executive compensation, which among the following is not a form of executive compensation.",
+          "options": [
+            "A. Miscellaneous compensation",
+            "B. Basic salary",
+            "C. Executive stock options",
+            "D. Long-term incentives"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The four main forms are basic salary, performance bonuses, stock options, and long-term incentives. Miscellaneous compensation is an extra category, not one of the four main forms.",
+          "reference": "Unit 5, Session 1, 1.1 - Components of Executive Compensation & Incentives"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is one of the three main competitive market that help to align management's interest with that of the shareholders?",
+          "options": [
+            "A. Money market",
+            "B. Stock exchange market",
+            "C. Financial market",
+            "D. Product market"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The three main competitive markets are the managerial-labour market, capital market, and product market. Product market punishes bad performance through lost sales and possible failure.",
+          "reference": "Unit 4, Session 1, 1.2 - External Governance Mechanisms"
+        },
+        {
+          "type": "single",
+          "question": "The board of directors has five main duties, which of the following is not part of the duties?",
+          "options": [
+            "A. Fiduciary duty",
+            "B. Stewardship duty",
+            "C. Duty of care",
+            "D. Duty of supervision"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The five main duties are fiduciary duty, duties of loyalty and fair dealing, duty of care, duty not to entrench, and duty of supervision. Stewardship is a theory, not a board duty.",
+          "reference": "Unit 4, Session 6, 6.2 - Five (5) Main Duties of the Board"
+        },
+        {
+          "type": "single",
+          "question": "The duty to exercise due diligence in making decision is termed as ______.",
+          "options": [
+            "A. Fiduciary duty",
+            "B. Duty of supervision",
+            "C. Duty of care",
+            "D. Duty not to entrench"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Duty of care means directors must make decisions carefully and with good effort. They must use their skills and knowledge properly.",
+          "reference": "Unit 4, Session 6, 6.2 - Five (5) Main Duties of the Board"
+        },
+        {
+          "type": "single",
+          "question": "Which model of CEO succession is preferable when the company lacks sufficient internal candidates? ______ model.",
+          "options": [
+            "A. External candidate",
+            "B. Inside-outside",
+            "C. President",
+            "D. Horse race"
+          ],
+          "correctAnswer": "A",
+          "explanation": "External candidate model is best when there are not enough good internal people. An outsider brings proven CEO experience from another company.",
+          "reference": "Unit 5, Session 2, 2.2 - Models of CEO Succession"
+        },
+        {
+          "type": "single",
+          "question": "In ______ model of CEO succession, the firm develops a forward-looking profile that lays out the skills and experiences required of the next CEO based on the future need of the president.",
+          "options": [
+            "A. External candidate",
+            "B. Horse race",
+            "C. Inside-outside",
+            "D. President"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Inside-outside model creates a skills profile first. Then internal and external candidates are compared against that profile.",
+          "reference": "Unit 5, Session 2, 2.2 - Models of CEO Succession"
+        },
+        {
+          "type": "single",
+          "question": "An outgoing CEO based on their behavior, may categorized as all the following except ______.",
+          "options": [
+            "A. the aggressor",
+            "B. the capitulator",
+            "C. active advisor",
+            "D. faithful server"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The six types are Active Advisor, Aggressor, Passive Aggressor, Capitulator, Hopeful Saviour, and Power Blocker. Faithful server is not one of them.",
+          "reference": "Unit 5, Session 4, 4.2 - Outgoing CEO Categorisation Based on Their Behaviour"
+        },
+        {
+          "type": "single",
+          "question": "An institutional investor is just a subset of institutional shareholders.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This is backwards. Institutional shareholder is a subset of institutional investors. Institutional investors include bond holders, loan holders, and other interests too.",
+          "reference": "Unit 5, Session 5, 5.2 - Who are Institutional Shareholders and Investors?"
+        },
+        {
+          "type": "single",
+          "question": "Any unlawful or improper behavior that seeks to gain an advantage through illegitimate means is referred to as ______.",
+          "options": [
+            "A. Corruption",
+            "B. Fraud",
+            "C. Bribery",
+            "D. Self-dealing"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Corruption is the broad term for using office or power to get an unfair advantage. It covers many types of bad behaviour.",
+          "reference": "Unit 6, Session 1, 1.1 - Corruption, Fraud & Bribery"
+        },
+        {
+          "type": "single",
+          "question": "The practice of giving favors to close friends often by hiring them is known as ______.",
+          "options": [
+            "A. Self-dealing",
+            "B. Favoritism",
+            "C. Nepotism",
+            "D. Relativism"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Nepotism means favouring relatives and close friends, like giving them jobs. Self-dealing is different — it is acting for your own benefit.",
+          "reference": "Unit 6, Session 1, 1.4 - Conflict of Interest – Definition"
+        },
+        {
+          "type": "single",
+          "question": "All the following are key players in the Anglo-American model except ______.",
+          "options": [
+            "A. Shareholders",
+            "B. Employees",
+            "C. Management",
+            "D. Board of directors"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The three major players in the corporate governance triangle are management, shareholders, and board of directors. Employees are not one of the three main players in this model.",
+          "reference": "Unit 1, Session 5, 5.2 - Models of Corporate Governance"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a factor to consider when determining compensation level.",
+          "options": [
+            "A. Firm size",
+            "B. Key performance indicator",
+            "C. Internationalization",
+            "D. The level of experience"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The four factors are firm size, performance record and prospects, internationalisation, and key performance indicators. Level of experience is not listed as a main factor.",
+          "reference": "Unit 5, Session 1, 1.2 - Determining compensation level"
+        },
+        {
+          "type": "single",
+          "question": "The fourth stage of the conflict management process is ______.",
+          "options": [
+            "A. intentions",
+            "B. behavior",
+            "C. outcome",
+            "D. incompatibility"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The five stages are: 1) Potential Opposition, 2) Cognition and Personalization, 3) Intentions, 4) Behavior, and 5) Outcomes. Behavior is stage four.",
+          "reference": "Unit 6, Session 6, 6.4 - Conflict Management Process"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a corporate governance theory?",
+          "options": [
+            "A. Fiduciary theory",
+            "B. Agency theory",
+            "C. Transaction cost",
+            "D. Stewardship theory"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The four main theories are Agency, Stewardship, Stakeholder, and Transaction Cost. Fiduciary theory is not listed as a corporate governance theory.",
+          "reference": "Unit 1, Session 4, 4.1 to 4.5 - Corporate Governance Theories"
+        },
+        {
+          "type": "single",
+          "question": "The moral principles that govern a person's behavior or the conducting of an activity is known as ______.",
+          "options": [
+            "A. virtue",
+            "B. attitude",
+            "C. values",
+            "D. ethics"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Ethics are standards of right and wrong that influence behaviour. Values are beliefs, but ethics are the principles guiding actions.",
+          "reference": "Unit 1, Session 2, 2.1 - Business Ethics"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a characteristic of an effective chairperson.",
+          "options": [
+            "A. Scheduling Meetings",
+            "B. Planning agendas",
+            "C. A clear sense of direction",
+            "D. Distributing materials"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Characteristics are: good communication, clear sense of direction, business acumen, ability to get to key issues, and gaining shareholder confidence. Scheduling meetings and distributing materials are responsibilities, not characteristics.",
+          "reference": "Unit 3, Session 2, 2.1 - Characteristics of an Effective Chairperson"
+        },
+        {
+          "type": "single",
+          "question": "Having a board that consist of more than one 'type' of person is known as ______.",
+          "options": [
+            "A. Board Size",
+            "B. Board Representation",
+            "C. Board Diversity",
+            "D. Lead Board"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Board diversity means including different types of people — different gender, ethnicity, experience, age, and perspective.",
+          "reference": "Unit 3, Session 3, 3.2 - Board Diversity"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is the cost of investing in workforce diversity?\nI. Cost of legal compliance\nII. Cash cost of diversity\nIII. Opportunity cost\nIV. Cost of competition",
+          "options": [
+            "A. I and II only",
+            "B. I and IV only",
+            "C. I, II and III only",
+            "D. I, II, III and IV"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The four costs are: legal compliance costs, cash costs, opportunity costs, and business risks. Cost of competition is not one of them.",
+          "reference": "Unit 3, Session 3, 3.2 - Costs of diversity"
+        },
+        {
+          "type": "single",
+          "question": "When setting up compensation package, companies consider all the following component except ______.",
+          "options": [
+            "A. Salary and Wage",
+            "B. Work Experience",
+            "C. Bonuses",
+            "D. Retirement plans"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Components include salary, bonuses, long-term incentives, health insurance, retirement plans, time off, and miscellaneous. Work experience is not a compensation component.",
+          "reference": "Unit 3, Session 5, 5.1 - Components of Compensation"
+        },
+        {
+          "type": "single",
+          "question": "In Uniliver Company LTD, Mr. Yeboah is part of the committee typically in charge of leading the C.E.O succession planning process, which committee is Mr. Yeboah a member of?",
+          "options": [
+            "A. Governance Committee",
+            "B. Nomination Committee",
+            "C. Audit Committee",
+            "D. Remuneration Committee"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Nominating Committee identifies and evaluates new directors. It also leads CEO succession planning.",
+          "reference": "Unit 3, Session 6, 6.5 - Board nominating committees"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Define Corporate Governance?",
+                "marks": 2,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "Corporate governance is the system that controls and directs a company.",
+                  "mainPoints": [
+                    {
+                      "heading": "Rules and Processes",
+                      "detail": "It includes rules, practices, and processes for running a firm."
+                    },
+                    {
+                      "heading": "Balancing Interests",
+                      "detail": "It balances the interests of shareholders, management, and other stakeholders."
+                    }
+                  ],
+                  "conclusion": "Good corporate governance helps a company achieve its goals ethically and effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+                }
+              },
+              {
+                "label": "B",
+                "question": "The principles of corporate governance in Ghana are based on the principles published by the Organization for Economic Co-operation and Development (OECD) and the commonwealth Association for corporate Governance. Explain the five broad areas of OECD principles.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "OECD principles are a global benchmark for good corporate governance. They cover five main areas.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Rights of shareholders",
+                      "detail": "Shareholders must be able to vote at company meetings. They can elect and remove board members. They must get timely and accurate company information."
+                    },
+                    {
+                      "heading": "2. Equitable treatment of shareholders",
+                      "detail": "All shareholders in the same class must be treated equally. This includes minority and foreign shareholders. No unfair barriers to cross-border shareholding."
+                    },
+                    {
+                      "heading": "3. Role of stakeholders in corporate governance",
+                      "detail": "Stakeholders' rights must be protected by law. Employees and other stakeholders can freely report unethical behaviour. Performance-enhancing employee participation should be allowed."
+                    },
+                    {
+                      "heading": "4. Disclosure and transparency",
+                      "detail": "Companies must share timely and accurate information. This includes financial situation, risks, and governance policies. Good disclosure helps investors make better decisions."
+                    },
+                    {
+                      "heading": "5. Responsibilities of the board",
+                      "detail": "The board guides company strategy and monitors management. Board members must act in good faith and with due care. They must treat all shareholders fairly and exercise independent judgement."
+                    }
+                  ],
+                  "conclusion": "These five areas help governments and companies build trusted and effective corporate governance systems.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 6, 6.2 - The OECD Principles of Corporate Governance"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain the various strategies for Social Responsibility.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Companies can respond to social responsibility in four different ways. Each strategy shows a different level of commitment.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Proactive strategy",
+                      "detail": "Company takes full responsibility before being forced. Example: recalling a faulty product before anyone gets hurt."
+                    },
+                    {
+                      "heading": "2. Reactive strategy",
+                      "detail": "Company lets the problem continue. Only acts when the public or government finds out."
+                    },
+                    {
+                      "heading": "3. Defence strategy",
+                      "detail": "Company tries to avoid extra responsibility. It minimises obligations and does the bare minimum."
+                    },
+                    {
+                      "heading": "4. Accommodation strategy",
+                      "detail": "Company accepts responsibility when pressured. This happens when special interest groups push for change. Or when the company fears government intervention."
+                    }
+                  ],
+                  "conclusion": "Proactive is the most responsible approach, while reactive is the least responsible.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "A company secretary is a strategic position of considerable influence at the heart of governance operation within an organization. Mention four core competences of company secretary.",
+                "marks": 4,
+                "commandWord": "Mention",
+                "answer": {
+                  "introduction": "A company secretary needs specific skills and knowledge to do the job well. These are called core competences.",
+                  "mainPoints": [
+                    {
+                      "heading": "Core Competence 1",
+                      "detail": "Understanding the company's business thoroughly"
+                    },
+                    {
+                      "heading": "Core Competence 2",
+                      "detail": "Having basic knowledge of corporate and securities law"
+                    },
+                    {
+                      "heading": "Core Competence 3",
+                      "detail": "Demonstrating executive presence with solid communication skills"
+                    },
+                    {
+                      "heading": "Core Competence 4",
+                      "detail": "Being sensitive to what the CEO and directors think and feel"
+                    }
+                  ],
+                  "conclusion": "These competences help the company secretary support the board and manage governance effectively.",
+                  "otherPossibleAnswers": "Alternative competences: Reading signals on the horizon and providing early warnings; Being detail-oriented, flexible, and creative",
+                  "reference": "Unit 3, Session 4, 4.1 - Core Competences of a Secretary"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain five alternative mechanisms to mitigate the operation of the board of directors.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Boards face governance problems that can harm the company. Five mechanisms help reduce these problems.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Partial concentration of ownership",
+                      "detail": "One or a few large investors hold significant shares. They have power and incentive to monitor management closely."
+                    },
+                    {
+                      "heading": "2. Hostile takeovers and proxy voting contests",
+                      "detail": "Outside buyers can take over underperforming companies. Proxy contests let shareholders vote out bad directors."
+                    },
+                    {
+                      "heading": "3. Delegation to the board of directors",
+                      "detail": "The board gets concentrated control to oversee management. This gives directors clear authority to act."
+                    },
+                    {
+                      "heading": "4. Executive compensation contracts",
+                      "detail": "Bonuses and stock options align manager interests with shareholders. Managers get rewarded for good performance."
+                    },
+                    {
+                      "heading": "5. Fiduciary duties and class-action suits",
+                      "detail": "CEOs have clear legal duties to shareholders. Lawsuits can block bad decisions or claim compensation."
+                    }
+                  ],
+                  "conclusion": "These mechanisms work together to protect shareholder interests and improve governance.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 3, 3.1 - Operations of Board of Directors"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Discuss the types of activities that are classified as conflicts of interest.",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Certain activities create situations where personal interest clashes with duty. These are conflict of interest activities.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Nepotism",
+                      "detail": "Giving favours to relatives and close friends. Often means hiring family members without proper process."
+                    },
+                    {
+                      "heading": "2. Self-dealing",
+                      "detail": "Someone in a trusted position acts for their own benefit. They put personal gain ahead of the organisation's interest."
+                    },
+                    {
+                      "heading": "3. Outside employment or business interests",
+                      "detail": "An official has a second job or business. That outside interest may affect their official decisions."
+                    },
+                    {
+                      "heading": "4. Gifts and hospitality",
+                      "detail": "Accepting valuable gifts from people who want favours. Even without wrongdoing, it creates a perceived conflict."
+                    }
+                  ],
+                  "conclusion": "These activities are not always illegal, but they create risk and damage trust.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1, 1.4 - Types of activities that can create a possible conflict of interest"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "What Is Business Ethics.",
+                "marks": 2,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "Business ethics is about right and wrong in business decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "Study of Proper Practices",
+                      "detail": "It studies proper business policies and practices."
+                    },
+                    {
+                      "heading": "Key Issues Covered",
+                      "detail": "It covers issues like governance, bribery, discrimination, and social responsibility."
+                    }
+                  ],
+                  "conclusion": "Business ethics helps companies maintain good relationships with all their stakeholders.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 2, 2.1 - Business Ethics"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four Strategies for Managing Conflicts.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Companies need clear strategies to handle workplace conflicts. These four strategies help maintain the right amount of conflict.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Keep moderate substantive conflict for non-routine tasks",
+                      "detail": "Complex tasks need some healthy disagreement. Different ideas lead to better solutions."
+                    },
+                    {
+                      "heading": "2. Minimise substantive conflict for routine tasks",
+                      "detail": "Simple daily tasks need clear rules and smooth processes. Too much disagreement slows things down."
+                    },
+                    {
+                      "heading": "3. Minimise affective conflict for all tasks",
+                      "detail": "Personal anger and emotion hurt teamwork. These conflicts must be reduced for both routine and non-routine work."
+                    },
+                    {
+                      "heading": "4. Help members choose the right conflict handling style",
+                      "detail": "Different situations need different approaches. Train staff to match styles like integrating, obliging, or compromising to each situation."
+                    }
+                  ],
+                  "conclusion": "Good conflict management means knowing how much conflict is helpful and how to handle it.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 6, 6.3 - Conflict Management Strategy"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Discuss the following Corporate Governance Theories\ni. Stewardship theory\nii. Stakeholder theory\niii. Agency theory\niv. Transactional cost theory",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "These four theories explain how companies should be governed and how managers should act.",
+                  "mainPoints": [
+                    {
+                      "heading": "i. Stewardship theory",
+                      "detail": "Managers act as careful stewards of company assets. They naturally work for the good of the organisation. Good governance needs active participation from all members."
+                    },
+                    {
+                      "heading": "ii. Stakeholder theory",
+                      "detail": "Management has a duty to everyone connected to the company. This includes owners, employees, customers, suppliers, and the community. The company serves wider society, not just shareholders."
+                    },
+                    {
+                      "heading": "iii. Agency theory",
+                      "detail": "Managers may act in their own self-interest, not the company's. There is a contract between owners (principals) and managers (agents). Good governance uses performance pay and monitoring to align interests."
+                    },
+                    {
+                      "heading": "iv. Transaction cost theory",
+                      "detail": "How a company is organised affects its control over transactions. Companies keep activities inside to reduce uncertainty. Managers can be opportunistic and need proper oversight."
+                    }
+                  ],
+                  "conclusion": "Each theory offers a different view of human behaviour and governance needs. Most companies use a mix of these ideas.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.1 to 4.5 - Corporate Governance Theories"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "What are the composition of the Board Independence?",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Board independence has several parts. Each part helps the board act without undue influence from management.",
+                  "mainPoints": [
+                    {
+                      "heading": "Component 1",
+                      "detail": "Independent committees"
+                    },
+                    {
+                      "heading": "Component 2",
+                      "detail": "Board size and board diversity"
+                    },
+                    {
+                      "heading": "Component 3",
+                      "detail": "Company secretary"
+                    },
+                    {
+                      "heading": "Component 4",
+                      "detail": "Chairperson of the Board"
+                    }
+                  ],
+                  "conclusion": "When these elements work together, the board can provide fair and objective oversight.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 2, 2.1 - Board independence composition"
+                }
+              },
+              {
+                "label": "B",
+                "question": "In determining the compensation level in an organization, certain factors must be considered. In four points, outline those factors.",
+                "marks": 4,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Companies do not set pay randomly. They look at four main factors to decide compensation levels.",
+                  "mainPoints": [
+                    {
+                      "heading": "Factor 1",
+                      "detail": "Firm size – larger firms usually pay more."
+                    },
+                    {
+                      "heading": "Factor 2",
+                      "detail": "Performance record and prospects – past results and future challenges matter."
+                    },
+                    {
+                      "heading": "Factor 3",
+                      "detail": "Internationalisation – pay must work across different countries."
+                    },
+                    {
+                      "heading": "Factor 4",
+                      "detail": "Key Performance Indicators – what measures truly drive shareholder value."
+                    }
+                  ],
+                  "conclusion": "These factors help the compensation committee set fair and motivating pay levels.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.2 - Determining compensation level"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain the criteria for selecting and approving new CEO in an organization.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Choosing a new CEO is one of the board's most important jobs. The process follows clear steps and criteria.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Create a skills and experience profile",
+                      "detail": "Look at the future needs of the company. Identify what professional background and personal qualities are needed. Use this profile as a yardstick for all candidates."
+                    },
+                    {
+                      "heading": "2. Rank viable candidates",
+                      "detail": "Compare both internal and external candidates against the profile. List them in order of preference."
+                    },
+                    {
+                      "heading": "3. Select the most preferred candidate",
+                      "detail": "Choose the best match from the ranked list."
+                    },
+                    {
+                      "heading": "4. Full board voting",
+                      "detail": "The full board votes to approve or reject the selection."
+                    },
+                    {
+                      "heading": "5. Plan the transition",
+                      "detail": "Have open and honest talks between the new CEO and the board. Discuss how management and board will interact. Talk about expectations, communication needs, and what worked or did not work before."
+                    }
+                  ],
+                  "conclusion": "Good CEO selection uses a clear profile, fair comparison, and smooth transition planning.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 3, 3.3 and 3.4 - Creating a skill and experience profile, Selection and Approval of the New CEO"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "subject": "Business Ethics and Corporate Governance",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "The board is tasked with making the following important decisions except",
+            "options": [
+              "corporate officer appointments",
+              "independent assurances",
+              "executive compensations",
+              "dividend policy"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The board makes decisions on officer appointments, executive compensation, and dividend policy. Independent assurances is a pillar of corporate governance, not a decision the board makes.",
+            "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following regarding corporate governance is not correct?",
+            "options": [
+              "It encompasses practically some sphere of management, from action plans and internal controls to performance measurement and corporate disclosure.",
+              "It is the oversight role of shareholders, board of directors, government, and other international organizations on the activities of management.",
+              "It refers specifically to the set of rules, controls and resolutions put in place to dictate corporate behavior.",
+              "It is a system of rules, practices and processes by which a firm is directed and controlled."
+            ],
+            "correctAnswer": "A",
+            "explanation": "The correct statement says 'practically every sphere of management,' not 'some sphere.' The wording in option A is wrong.",
+            "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+          },
+          {
+            "type": "single",
+            "question": "A(n) ______ is a problem, situation, or opportunity requiring an individual, group or organization to choose among several actions that must be evaluated as right or wrong.",
+            "options": [
+              "ethical dilemma",
+              "ethics",
+              "ethical issue",
+              "business ethics"
+            ],
+            "correctAnswer": "C",
+            "explanation": "An ethical issue is a situation where someone must choose between actions judged as right or wrong. This is the definition given in the material.",
+            "reference": "Unit 1, Session 2, 2.1 - Business Ethics"
+          },
+          {
+            "type": "single",
+            "question": "Ethics programs convey corporate values, often using ______.",
+            "options": [
+              "ethics training programs",
+              "codes and policies",
+              "practical tools and information",
+              "ethics enforcement mechanisms"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Ethics programs use codes and policies to guide decisions and behavior. They convey the company's values through these documents.",
+            "reference": "Unit 1, Session 3, 2.3 - Managing Ethics in the Workplace"
+          },
+          {
+            "type": "single",
+            "question": "One of the following is not a key player in the Anglo-US model.",
+            "options": [
+              "Directors",
+              "Management",
+              "Government agencies",
+              "Shareholders"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The three major players in the Anglo-US model are management, directors, and shareholders. Government agencies are not a key player.",
+            "reference": "Unit 1, Session 5, 5.1 - Corporate Governance Development worldwide - Corporate Governance - Country Study"
+          },
+          {
+            "type": "single",
+            "question": "The main areas of the OECD corporate governance principles include the following except ______.",
+            "options": [
+              "disclosure and transparency",
+              "ensuring the basis of an effective corporate governance framework",
+              "encouraging businesses based in different countries to cooperate",
+              "the role of stakeholders in corporate governance"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The five OECD areas are: effective framework, shareholder rights, equitable treatment, stakeholder role, disclosure, and board responsibilities. Encouraging cross-border cooperation is not one of them.",
+            "reference": "Unit 1, Session 6, 6.2 - The OECD Principles of Corporate Governance"
+          },
+          {
+            "type": "single",
+            "question": "Financial stakeholders are those with a financial relationship with the organization and are interested in how the organization behaves.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Financial stakeholders have a financial relationship. But 'interest stakeholders' are the ones interested in how the organization behaves. The statement mixes the two types.",
+            "reference": "Unit 2, Session 1, 1.1 - Stakeholders"
+          },
+          {
+            "type": "single",
+            "question": "The four components of social responsibility include ______.",
+            "options": [
+              "Ethical, moral, social and economic",
+              "Legal, philanthropic, economic and ethical",
+              "Legal, moral, ethical and economical",
+              "Philanthropic, justice, economic and ethical"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The four components are economic, legal, ethical, and philanthropic. This is the correct order and wording.",
+            "reference": "Unit 2, Session 1, 1.3 - CSR has four components of responsibility"
+          },
+          {
+            "type": "single",
+            "question": "The view that there can be a long-term benefit to shareholders from well-managed relationships with other stakeholders refers to which of the following stances of corporate responsibility?",
+            "options": [
+              "Laissez-faire",
+              "Enlightened self-interest",
+              "Multiple stakeholder obligations",
+              "Shaper of society"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Enlightened self-interest means looking after stakeholders because it benefits shareholders in the long run. It is a long-term view.",
+            "reference": "Unit 2, Session 2, 2.4 - Corporate Social Responsibility Stances"
+          },
+          {
+            "type": "single",
+            "question": "The following are strategies for social responsibility except ______.",
+            "options": [
+              "reactive",
+              "social",
+              "defence",
+              "accommodation"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The four strategies are proactive, reactive, defence, and accommodation. 'Social' is not one of them.",
+            "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
+          },
+          {
+            "type": "single",
+            "question": "Ethnocentrism relates to home country orientation as regiocentrism recognizes regional differences.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Ethnocentrism is home country orientation. Regiocentrism recognizes regional differences. This is correct.",
+            "reference": "Unit 2, Session 5, 5.11 - Geocentrism and Regiocentrism"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a reason why firms move to foreign markets according to Ohmae?",
+            "options": [
+              "Customer",
+              "Company",
+              "Control needs",
+              "Country"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Ohmae's five Cs are Customer, Company, Competition, Currency, and Country. Control needs is not one of them.",
+            "reference": "Unit 2, Session 6, 6.2 - Ohmae offers five reasons for globalisation"
+          },
+          {
+            "type": "single",
+            "question": "A corporate board that has a majority of outside directors who are not affiliated with the top executives of the firm and have minimal or no business dealings with the company to avoid potential conflicts of interest is termed as ______.",
+            "options": [
+              "Lead independent board",
+              "Board independence",
+              "Independent board",
+              "Lead board"
+            ],
+            "correctAnswer": "C",
+            "explanation": "An independent board has a majority of outside directors with no ties to executives. This matches the definition exactly.",
+            "reference": "Unit 3, Session 2, 2.1 - Definition of Board Independence"
+          },
+          {
+            "type": "single",
+            "question": "A director is considered independent if the director ______.",
+            "options": [
+              "is a substantial shareholder of the corporate body",
+              "is a significant supplier of customer",
+              "has not been employed by the corporate body in an executive capacity for the previous three years",
+              "is not a professional advisor or consultant to the corporate body"
+            ],
+            "correctAnswer": "C",
+            "explanation": "An independent director must not have been an executive in the last three years. Options A, B, and D describe people who are NOT independent.",
+            "reference": "Unit 3, Session 2, 2.1 - Definition of Board Independence"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is responsible for ensuring that an organization complies with standard financial and legal practice and maintains high standards of corporate governance?",
+            "options": [
+              "Board of directors",
+              "Shareholders",
+              "CEO",
+              "Company secretary"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The company secretary is responsible for ensuring compliance and maintaining high governance standards. This is their primary role.",
+            "reference": "Unit 3, Session 4, 4.1 - Company Secretary"
+          },
+          {
+            "type": "single",
+            "question": "Company secretaries work across all sectors in a range of different organizations except for the not-for-profit sector.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Company secretaries work in private companies, public sector, AND the not-for-profit sector. The statement says 'except' which is wrong.",
+            "reference": "Unit 3, Session 4, 4.1 - Where do Company Secretaries Work?"
+          },
+          {
+            "type": "single",
+            "question": "One of the following is a component of compensation",
+            "options": [
+              "Time off and rigid schedules",
+              "Retirement plans",
+              "Short-term incentives",
+              "Homogenous compensation"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Components of compensation include salary, bonuses, long-term incentives, health insurance, and retirement plans. Retirement plans are a clear component.",
+            "reference": "Unit 3, Session 5, 5.1 - Components of Compensation"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not part of the main types of board committees?",
+            "options": [
+              "Nominating Committee",
+              "Remuneration Committee",
+              "Risk-management Committee",
+              "Board Audit Committee"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The main types are Audit, Remuneration/Compensation, and Nominating committees. Risk-management is an additional committee, not a main type.",
+            "reference": "Unit 3, Session 6, 6.5 - Types of Board committees"
+          },
+          {
+            "type": "single",
+            "question": "A decision tool with which managers recognize, assess and address the needs of different stakeholders, allowing the firm to achieve competitive advantage while acting as a good corporate citizen is known as ______.",
+            "options": [
+              "Shared Value Framework",
+              "Stakeholder Impact Analysis",
+              "Multiple Stakeholder Obligations",
+              "Commercial Necessity"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Stakeholder Impact Analysis helps managers recognize, assess, and address stakeholder needs. This matches the definition exactly.",
+            "reference": "Unit 2, Session 1, 1.1 - Stakeholder Impact Analysis"
+          },
+          {
+            "type": "single",
+            "question": "A customer asked for a product from your shop today. After telling him the price, he said he could not afford it. You know he could get it cheaper from a competitor. You are faced with the issue of whether to tell him about your competitor or let him go without getting what he needs. Which of the following best describes your situation?",
+            "options": [
+              "Ethical dilemma",
+              "Ethics",
+              "Ethical issue",
+              "Business ethics"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is an ethical dilemma because you have to choose between two alternatives. Both options have merit and there is no clear right answer.",
+            "reference": "Unit 1, Session 3, 3.6 - Highlights: Ethics Tools: Resolving Ethical Dilemmas"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "subject": "Business Ethics and Corporate Governance",
+  "academicYear": "2022/2023",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following statement about corporate governance is not true?",
+            "options": [
+              "Ensure adherence to and satisfaction with the strategic objectives of the organization, thus aiding effective management.",
+              "Maintain the independence of those who scrutinise the behaviour of the organization and its senior executive managers.",
+              "Fulfill responsibilities to all stakeholders and maximize potential conflicts of interest between the owners, managers, and the wider stakeholder community.",
+              "Promote integrity that is straightforward dealing and completeness."
+            ],
+            "correctAnswer": "C",
+            "explanation": "Corporate governance should minimize conflicts of interest, not maximize them. The statement in option C is backwards.",
+            "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+          },
+          {
+            "type": "single",
+            "question": "The following are symptoms of poor corporate governance in an organization except ______.",
+            "options": [
+              "Misleading accounts and information",
+              "Emphasis on short-term profitability",
+              "Lack of dependent scrutiny",
+              "Lack of involvement of the board"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The symptom is 'lack of independent scrutiny,' not 'dependent scrutiny.' The word 'dependent' makes this option wrong.",
+            "reference": "Unit 1, Session 1, 1.3 - Challenges or Symptoms/Risks of poor corporate governance in an Organization"
+          },
+          {
+            "type": "single",
+            "question": "Managers can promote ethics successfully in the workplace by ______.",
+            "options": [
+              "Supporting a strong ethical climate",
+              "Establishing ethical codes and training programs",
+              "Protecting whistleblowers",
+              "All of the above"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All three methods are correct ways to promote ethics: support from top managers, ethics codes and training, and protecting whistleblowers.",
+            "reference": "Unit 1, Session 2, 2.3 - Managing Ethics in the Workplace"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is/are the benefits of managing ethics in the workplace?\nI. Help maintain a moral course in turbulent times.\nII. Ensure that policies are legal.\nIII. Helps cultivate strong teamwork and productivity.",
+            "options": [
+              "I",
+              "II",
+              "III",
+              "I, II and III"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All three are benefits of managing ethics. Ethics programs help during change, ensure policies are legal, and build strong teams.",
+            "reference": "Unit 1, Session 3, 3.2 - Ten Benefits of Managing Ethics in the Workplace"
+          },
+          {
+            "type": "single",
+            "question": "All the following are examples of ethics tools employed in organizations except ______.",
+            "options": [
+              "Culture",
+              "Policies and procedures",
+              "Code of conduct",
+              "Code of ethics"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Ethics tools include codes of ethics, codes of conduct, and policies and procedures. Culture is the environment where ethics operates, not a tool itself.",
+            "reference": "Unit 1, Session 6, 6.5 - Codes of Behaviour - Developing Codes of Ethics"
+          },
+          {
+            "type": "single",
+            "question": "A decision tool with which managers can recognize, assess, and address the needs of different persons, groups, or organizations interested in a firm, allowing the firm to achieve competitive advantage while acting as a good corporate citizen is termed as ______.",
+            "options": [
+              "Shareholders analysis",
+              "Stakeholder impact analysis",
+              "Social audit",
+              "Environment analysis"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Stakeholder Impact Analysis helps managers recognize, assess, and address stakeholder needs. This matches the definition exactly.",
+            "reference": "Unit 2, Session 1, 1.1 - Stakeholder Impact Analysis"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following corporate responsibility stances is of the view that an organization's only responsibilities are the short-term interests of shareholders and to make profit, pay taxes and provide jobs?",
+            "options": [
+              "Shaper of society",
+              "Laissez-faire",
+              "Enlightened self-interest",
+              "Multiple stakeholder obligations"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Laissez-faire stance says the only responsibilities are short-term shareholder interests, profit, taxes, and jobs. It does the minimum required by law.",
+            "reference": "Unit 2, Session 2, 2.4 - Corporate Social Responsibility Stances"
+          },
+          {
+            "type": "single",
+            "question": "A company that discovers a fault in a product and recalls the product without being forced to, before any injury or damage is caused, is employing ______.",
+            "options": [
+              "Reactive strategy",
+              "Proactive strategy",
+              "Defence strategy",
+              "Accommodation strategy"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Proactive strategy means taking full responsibility before being forced. The company acted quickly and voluntarily to protect customers.",
+            "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
+          },
+          {
+            "type": "single",
+            "question": "Ethical consumerism argues that individual consumers make purchasing decisions based on personal interests without considering the interests of society and the environment.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Ethical consumerism means consumers consider society and the environment too. They may boycott companies that use sweatshops or child labour.",
+            "reference": "Unit 2, Session 4, 4.2 - Ethical Consumerism"
+          },
+          {
+            "type": "single",
+            "question": "A Company that focuses on its domestic market, sees exports as secondary to domestic marketing, and also ignores any inter-country differences which exist is employing?",
+            "options": [
+              "Ethnocentrism",
+              "Polycentrism",
+              "Geocentrism",
+              "Regiocentrism"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Ethnocentrism is a home country orientation. The company focuses on domestic markets and ignores differences between countries.",
+            "reference": "Unit 2, Session 5, 5.9 - Ethnocentrism"
+          },
+          {
+            "type": "single",
+            "question": "Ohmae's reasons why companies are moving towards the global stage of trading include the following except ______.",
+            "options": [
+              "for diseconomies of scale",
+              "for market convergence",
+              "to exploit both absolute and comparative advantage",
+              "for prestige and competitiveness"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Companies move globally for economies of scale, not diseconomies. The five Cs are Customer, Company, Competition, Currency, and Country.",
+            "reference": "Unit 2, Session 6, 6.2 - Ohmae offers five reasons for globalisation"
+          },
+          {
+            "type": "single",
+            "question": "What type of exporting occurs when one producing organization uses its own established international marketing channels to market the products of another producer as well as its own?",
+            "options": [
+              "Indirect exporting",
+              "Direct exporting",
+              "Complementary exporting",
+              "Supplementary exporting"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Complementary exporting (also called piggy back exporting) happens when one company uses its channels to sell another company's products too.",
+            "reference": "Unit 2, Session 6, 6.4 - Modes of entry to foreign markets"
+          },
+          {
+            "type": "single",
+            "question": "The Chairperson of a company is accountable to the Board and acts as a direct liaison between the Board and the management of the company, through the Chief Executive Officer.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The Chairperson is accountable to the Board and acts as a liaison between the Board and management through the CEO. This is stated in the material.",
+            "reference": "Unit 3, Session 1, 1.1 - Chairperson of the Board"
+          },
+          {
+            "type": "single",
+            "question": "All the following are characteristics of an effective Chairperson except ______.",
+            "options": [
+              "arouse sense of direction",
+              "good communication skills",
+              "business acumen",
+              "None of the above"
+            ],
+            "correctAnswer": "D",
+            "explanation": "All the options listed are characteristics of an effective Chairperson. They include good communication, clear sense of direction, and business acumen.",
+            "reference": "Unit 3, Session 2, 2.1 - Characteristics of an Effective Chairperson"
+          },
+          {
+            "type": "single",
+            "question": "Board diversity brings new perspectives, a move towards the potential 'group think' mentality that can occur when like-minded people discuss issues and make decisions.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Board diversity moves AWAY FROM groupthink, not towards it. Diversity helps avoid groupthink by bringing different perspectives.",
+            "reference": "Unit 3, Session 3, 3.2 - Board Diversity"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a function performed by a company's secretary?",
+            "options": [
+              "Advising directors and officers",
+              "Maintaining key corporate documents and records",
+              "Supervising stock transfers",
+              "Recording financial transactions"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Recording financial transactions is not a company secretary function. Their duties include advising directors, maintaining documents, and supervising stock transfers.",
+            "reference": "Unit 3, Session 4, 4.1 - Functions of a Company Secretary"
+          },
+          {
+            "type": "single",
+            "question": "When setting up employees' compensation packages, managers consider the following components except ______.",
+            "options": [
+              "health insurance",
+              "time off and flexible schedules",
+              "company's profit target",
+              "retirement plans"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Compensation components include salary, bonuses, health insurance, retirement plans, and time off. Company profit target is not a compensation component.",
+            "reference": "Unit 3, Session 5, 5.1 - Components of Compensation"
+          },
+          {
+            "type": "single",
+            "question": "A contract between managers and shareholders that aims at enticing managers to take all decisions that favour shareholders' interests is referred to as ______.",
+            "options": [
+              "Co-aligning",
+              "Bonding",
+              "Agency",
+              "None of the above"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Bonding is a contract that punishes or rewards managers to align their interests with shareholders. This is the definition given in the material.",
+            "reference": "Unit 1, Session 1, 1.1 - Bonding"
+          },
+          {
+            "type": "single",
+            "question": "The establishment of an organization's mission and vision is the responsibility of ______.",
+            "options": [
+              "Shareholders",
+              "Chief Executive Officer",
+              "Board of directors",
+              "Governance committee"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The board of directors establishes the organization's mission and purpose. They set the direction for the company.",
+            "reference": "Unit 3, Session 1, 1.1 - Chairperson of the Board"
+          },
+          {
+            "type": "single",
+            "question": "The board is expected to provide both advisory and oversight functions. In an advisory capacity, the board is expected to monitor management and ensure that it is acting diligently in the interests of shareholders.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Monitoring management is an oversight function, not advisory. Advisory means consulting with management on strategy and direction.",
+            "reference": "Unit 3, Session 3, 3.1 - Operations of Board of Directors"
+          }
+        ]
+      }
+    }
+  ]
+}
