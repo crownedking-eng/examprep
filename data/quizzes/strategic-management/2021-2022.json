@@ -1,0 +1,275 @@
+{
+  "subject": "Business Strategic Management",
+  "academicYear": "2021/2022",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Taxation and unemployment are examples of ______ force.",
+            "options": [
+              "economic",
+              "legal",
+              "political",
+              "social"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Taxation and unemployment are economic factors. They affect how much money people have to spend and how businesses operate.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "The responsibility of a business organization can be classified into ______ categories.",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "C",
+            "explanation": "According to Archie Carroll, businesses have four responsibilities. These are economic, legal, ethical, and discretionary.",
+            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+          },
+          {
+            "type": "single",
+            "question": "All of the following are responsibilities of Board of Directors except ______.",
+            "options": [
+              "controlling the use of assets",
+              "hiring Chief Executive Officer",
+              "initiating strategic planning",
+              "supervising operative core"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The board supervises top management, not operative employees. Supervising operatives is a management function.",
+            "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
+          },
+          {
+            "type": "single",
+            "question": "A favourable situation in a firm's external environments is ______.",
+            "options": [
+              "opportunity",
+              "strength",
+              "threat",
+              "weakness"
+            ],
+            "correctAnswer": "A",
+            "explanation": "An opportunity is a favourable factor outside the company. It is a positive situation the firm can use to its advantage.",
+            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+          },
+          {
+            "type": "single",
+            "question": "Multinationalization begins with ______.",
+            "options": [
+              "establishment of foreign manufacturing facilities",
+              "establishment of sales organizations",
+              "exports of products",
+              "increase in use of patents in foreign firms"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Companies begin going global by exporting products. It is the simplest and cheapest route into foreign markets.",
+            "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+          },
+          {
+            "type": "single",
+            "question": "The strategic management process has ______ stages.",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Strategic management has three main stages. These are strategy formulation, strategy implementation, and strategy evaluation.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "Strategy formulation starts with ______.",
+            "options": [
+              "choosing among alternative strategies",
+              "establishing a business mission",
+              "establishing objective",
+              "SWOT Analysis"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Strategy formulation begins with establishing the mission. The mission gives the company its purpose and direction.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "The strategic management process ends with ______.",
+            "options": [
+              "allocating resources",
+              "establishing objectives",
+              "evaluation and control",
+              "identifying mission"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Evaluation and control is the final stage. Managers review performance and make corrections as needed.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "Beliefs, values and attitudes are examples of factors in the ______ environment.",
+            "options": [
+              "economic",
+              "legal",
+              "political",
+              "social"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Beliefs, values, and attitudes are social factors. They are part of the social and cultural environment.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "Organizational sources can be categorized into",
+            "options": [
+              "two",
+              "three",
+              "four",
+              "five"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Organisational resources fall into three categories. These are tangible assets, intangible assets, and organisational capabilities.",
+            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+          },
+          {
+            "type": "single",
+            "question": "A resource is valuable if it",
+            "options": [
+              "Can be imitated",
+              "has substitutes",
+              "is not durable",
+              "is scarce"
+            ],
+            "correctAnswer": "D",
+            "explanation": "A valuable resource is scarce. Scarcity makes it hard for competitors to get.",
+            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+          },
+          {
+            "type": "single",
+            "question": "A ratio used to measure long term solvency of an organization is",
+            "options": [
+              "activity",
+              "gearing",
+              "legal",
+              "profitability"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Gearing (or debt-to-equity) measures long-term solvency. It shows how much debt the company has compared to owner's equity.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
+          },
+          {
+            "type": "single",
+            "question": "The first of the critical tasks of strategic management is",
+            "options": [
+              "Assessment of the organization's external environment",
+              "conducting an analysis of the organization's internal environment",
+              "developing annual objectives",
+              "formulation of the organization's mission"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The first critical task is to formulate the mission. This provides the foundation for all other strategic activities.",
+            "reference": "Unit 1, Session 1, 1.2 - The Critical Tasks of Strategic Management"
+          },
+          {
+            "type": "single",
+            "question": "Top of the decision making hierarchy of an organization is",
+            "options": [
+              "Business level",
+              "Corporate level",
+              "Functional level",
+              "Operational level"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The corporate level is at the top of the hierarchy. It consists of the board of directors and chief executives.",
+            "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+          },
+          {
+            "type": "single",
+            "question": "Mobilizing employees and managers to put strategies into action is",
+            "options": [
+              "strategy evaluation",
+              "strategy formulation",
+              "strategy implementation",
+              "strategy revision"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Implementation means mobilising employees to put strategies into action. This is the second stage of strategic management.",
+            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+          },
+          {
+            "type": "single",
+            "question": "National, regional and local legislation are examples of ______ influence in business.",
+            "options": [
+              "competitive",
+              "ethical",
+              "legal",
+              "political"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Legislation is a legal influence. Laws at all levels of government regulate business practices.",
+            "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Legal Influences)"
+          },
+          {
+            "type": "single",
+            "question": "A person acting in the way he would expect others to act towards him affects the ______.",
+            "options": [
+              "golden rule",
+              "professional ethic",
+              "TV test",
+              "utilitarian principle"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The Golden Rule is 'treat others as you want to be treated.' This is a standard for ethical behaviour.",
+            "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Ethical Influences)"
+          },
+          {
+            "type": "single",
+            "question": "Changes in governments and their priorities and legislation programme refers to ______.",
+            "options": [
+              "economic factors",
+              "political factors",
+              "socio-cultural factors",
+              "technological factors"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Political factors relate to changes in governments. They include legislation programmes and government priorities.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Political Forces)"
+          },
+          {
+            "type": "single",
+            "question": "All the following factors influence bargaining power of buyers except ______.",
+            "options": [
+              "ability to backward integrate",
+              "brand identity",
+              "substitute products",
+              "switching cost"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Brand identity influences rivalry among competitors, not buyer power. Buyer power is affected by switching costs, substitutes, and integration ability.",
+            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
+          },
+          {
+            "type": "single",
+            "question": "A regulatory agency in Ghana responsible for developing policy to promote worker safety and health and investigate infractions is ______.",
+            "options": [
+              "Forestry Commission",
+              "Ghana Standards Authority",
+              "Labour Commission",
+              "Public Utilities Regulatory Commission"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The Labour Commission handles worker safety and health. They also investigate workplace violations and infractions.",
+            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Political Forces)"
+          }
+        ]
+      }
+    }
+  ]
+}
