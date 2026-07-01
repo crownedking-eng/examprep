@@ -1,0 +1,275 @@
+{
+  "subject": "Procurement Audit",
+  "academicYear": "2021/2022",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following is not part of the Principles of Public Procurement Audit?",
+            "options": [
+              "Reasonability",
+              "Fairness",
+              "Integrity",
+              "Openness"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The key principles are transparency, integrity, economy, openness, fairness, competition, and accountability. Reasonability is not one of them.",
+            "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Evaluation of employee functions during the purchasing process is known as ______",
+            "options": [
+              "Assessment Review",
+              "Internal process review",
+              "Vendor evaluation",
+              "Selection review"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The audit reviews how employees do their jobs. This includes checking if they follow rules and use proper approvals. That is the internal process review.",
+            "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "The ratio between an output gained from the business and an input to run a business operation is known as ______",
+            "options": [
+              "Production",
+              "Margin gains",
+              "Operational efficiency",
+              "Business operational gains"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Operational efficiency is the ratio of output to input. It shows how well a business uses its resources.",
+            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "In risk management, there are two types of events. Which of the following is one of them?",
+            "options": [
+              "Opportunities",
+              "Programs",
+              "Risk assessment",
+              "Risk planning"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Negative events are risks. Positive events are opportunities. So opportunities is the other type of event.",
+            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Negative events can be classified as",
+            "options": [
+              "Problems",
+              "Losses",
+              "Risks",
+              "Failures"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Negative events are classified as risks. Positive events are classified as opportunities.",
+            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "What is the second issue to be considered after the basic discussions with the client in the planning of procurement audit?",
+            "options": [
+              "Interim procurement records",
+              "Ask about recent developments",
+              "Review of audit documentation",
+              "Acknowledgment from client"
+            ],
+            "correctAnswer": "C",
+            "explanation": "After discussing the engagement, the auditor reviews existing audit documentation. This helps build the audit plan.",
+            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+          },
+          {
+            "type": "single",
+            "question": "A risk arising from carrying out audit work is known as",
+            "options": [
+              "Exposure risk",
+              "Audit risk",
+              "Physical risk",
+              "Work risk"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Audit risk is the risk that arises directly from performing audit work. It is the risk of giving an inappropriate opinion.",
+            "reference": "Unit 2, Session 2, 2.1 - What is Audit Risk?"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following risk depends on the types of business?",
+            "options": [
+              "Control risk",
+              "Avoidable risk",
+              "Inherent risk",
+              "Detection risk"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Inherent risk is the risk of misstatement due to the type of business. It depends on the industry or environment the company operates in.",
+            "reference": "Unit 2, Session 2, 2.1 - Types of Audit Risk"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not an advantage of an audit risk approach?",
+            "options": [
+              "Control risk may not include all factors.",
+              "More efficiency way of conducting an audit.",
+              "The auditors are able to provide justification for the work carried.",
+              "This approach helps the auditors to identify high-risk."
+            ],
+            "correctAnswer": "A",
+            "explanation": "Option A is a disadvantage. It points out a limitation of the model. The other options are all advantages of using the audit risk approach.",
+            "reference": "Unit 2, Session 2, 2.1 - Advantages and Disadvantages of the audit risk approach"
+          },
+          {
+            "type": "single",
+            "question": "Organisations that employ the change agent model view ______.",
+            "options": [
+              "Auditors as secondary part of the organization's resource strategy",
+              "Auditors as an integral part of the organization's human resource strategy",
+              "Shareholders as an integral part of the organization's resource strategy",
+              "Top management as an integral part of the organization's resource strategy"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The change agent model sees auditors as a key part of the human resource strategy. They are viewed as corporate change agents.",
+            "reference": "Unit 2, Session 3, 3.1 - Staffing"
+          },
+          {
+            "type": "single",
+            "question": "Audit procedures is also referred to as ______.",
+            "options": [
+              "Audit programs",
+              "Audit directions",
+              "Audit tools",
+              "Audit assertions"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Audit procedures and audit programs mean the same thing. They are the steps auditors follow to get evidence.",
+            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+          },
+          {
+            "type": "single",
+            "question": "Audit partners need to approve an audit plan and audit procedures before ______.",
+            "options": [
+              "Setting the audit strategy",
+              "The audit team could perform their testing",
+              "The audit team could develop the procedure",
+              "Setting the auditing path"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The audit plan and procedures must be approved first. Then the audit team can perform their testing.",
+            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+          },
+          {
+            "type": "single",
+            "question": "All the following are professional and legal requirements for procurement auditing except ______.",
+            "options": [
+              "Professional code of integrity",
+              "Professional code of objectivity",
+              "Professional code of independence",
+              "Professional code of personal self"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The professional codes are integrity, objectivity, independence, and confidentiality. 'Personal self' is not a real code.",
+            "reference": "Unit 2, Session 5, 5.1 - Professional and Legal Requirements for Procurement Auditing"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following principles suggest that information on the Procurement Audit must be made available to all Public Procurement stakeholders?",
+            "options": [
+              "Transparency",
+              "Fairness",
+              "Openness",
+              "Integrity"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Transparency means making information available to all stakeholders. It is about openness and visibility.",
+            "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is part of the elements to be considered when embarking on an audit planning?",
+            "options": [
+              "Letter of engagement",
+              "Ethical clearance",
+              "Audit",
+              "Independence"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The size and complexity of the company is a key consideration in audit planning. It helps the auditor know how much work to do.",
+            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+          },
+          {
+            "type": "single",
+            "question": "The risk that auditor's substantive procedures do not detect a misstatement that exist in an account balance that could be material is called",
+            "options": [
+              "Control risk",
+              "Detection risk",
+              "Inherent risk",
+              "Accountable risk"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Detection risk is the chance that audit tests fail to find a material misstatement.",
+            "reference": "Unit 2, Session 2, 2.1 - Types of Audit Risk"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not part of the audit procedures?",
+            "options": [
+              "Inspection",
+              "Recalculation",
+              "Observation",
+              "Booting"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The five audit procedures are analytical review, inquiry, observation, inspection, and recalculation. Booting is not a standard audit procedure.",
+            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+          },
+          {
+            "type": "single",
+            "question": "Information or data that is used or collected by auditors as part of their audit works to conclude their opinion on whether or not financial statements are prepared in all material respect and in accordance with the applicable financial framework is called?",
+            "options": [
+              "Audit evidence",
+              "Audit transparency",
+              "Inspection",
+              "Audit inquiry"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Audit evidence is all the information auditors collect. They use it to form their opinion on the financial statements.",
+            "reference": "Unit 2, Session 4, 4.1 - Audit Evidence"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following refers to verification or vouching documents?",
+            "options": [
+              "Inspection",
+              "Recalculation",
+              "Observation",
+              "Reassurance"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Inspection means examining documents. This is also called verification or vouching.",
+            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a component of the fraud triangle?",
+            "options": [
+              "Rationalization",
+              "Pressure",
+              "Philosophy",
+              "Opportunity"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The fraud triangle has three components: incentive (pressure), opportunity, and rationalization. Philosophy is not part of it.",
+            "reference": "Unit 3, Session 1, 1.3 - The fraud triangle"
+          }
+        ]
+      }
+    }
+  ]
+}

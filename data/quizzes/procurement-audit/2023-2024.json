@@ -1,0 +1,271 @@
+{
+  "subject": "Procurement Audit",
+  "academicYear": "2023/2024",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "The fundamental principles of public procurement audit include the following except ______.",
+            "options": [
+              "Integrity",
+              "Accountability",
+              "Transparency",
+              "Value"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The principles are transparency, integrity, economy, openness, fairness, competition, and accountability. Value is not one of them.",
+            "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following are components of the procurement audit?\nI. Purchase order review\nII. Internal segregation\nIII. Vendor evaluation and selection review\nIV. Findings and suggestions",
+            "options": [
+              "I, II and III only",
+              "I, III and IV only",
+              "II, III and IV only",
+              "I, II and IV only"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The components are purchase order review, vendor evaluation and selection review, and findings and suggestions. Internal segregation is not a component.",
+            "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Procurement audit is a management process that reviews different contracts and contracting processes to determine the completeness of the procurement process from the plan procurement management process through to the control procurement.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Procurement audit reviews contracts and processes from planning to control. It checks for completeness, efficacy, and accuracy.",
+            "reference": "Unit 1, Session 1, 1.1 - What is Procurement Audit?"
+          },
+          {
+            "type": "single",
+            "question": "The significance of procurement audit is to ______.",
+            "options": [
+              "help a company in legal suit",
+              "ensure that the procurement records are prepared in accordance with the procurement law",
+              "promote reduction of the procurement internal controls",
+              "ensure that directors fulfill their statutory obligation and act with fraud on the part of employees"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Procurement audit ensures records follow procurement laws. It strengthens internal controls and helps prevent fraud.",
+            "reference": "Unit 1, Session 1, 1.2 - Significance of procurement audit"
+          },
+          {
+            "type": "single",
+            "question": "The following are documents used in the procurement audit process except ______.",
+            "options": [
+              "Vendor list",
+              "RFQs/RFPs",
+              "Receiving documents",
+              "Insert"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Vendor list, RFQs/RFPs, and receiving documents are all used. 'Insert' is not a real procurement document.",
+            "reference": "Unit 1, Session 4, 4.1 - Documents Used in Procurement Audit Process"
+          },
+          {
+            "type": "single",
+            "question": "The following are drivers for procurement audit except ______.",
+            "options": [
+              "process and operational efficiency gains",
+              "risk management",
+              "randomization review",
+              "improved compliance"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The drivers are process and operational efficiency gains, risk management, and improved compliance. Randomization review is not a driver.",
+            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Which are the elements to be considered in preparing a procurement plan?\nI. Size and complexity of the company\nII. The commercial environment in which it operates\nIII. The procedural approach\nIV. The reporting requirements to which it is subject to",
+            "options": [
+              "I, II, III and IV only",
+              "I, III and IV only",
+              "I, II and IV only",
+              "I, II and III only"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The considerations are size and complexity, commercial environment, method of processing transactions, and reporting requirements. Procedural approach is not listed.",
+            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+          },
+          {
+            "type": "single",
+            "question": "Control risk is that misstatement will occur due to environmental influence and the nature or type of company and the nature of individual transaction or balance.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This describes inherent risk. Control risk is the risk that internal controls will fail to prevent or detect a misstatement.",
+            "reference": "Unit 2, Session 2, 2.1 - Types of Audit Risk"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following are Audit procedures?\nI. Analytical review\nII. Booking\nIII. Observation\nIV. Inspection\nV. Recalculation",
+            "options": [
+              "I, II, IV and V only",
+              "I, II, III, and IV only",
+              "I, II, and IV only",
+              "I, III, IV and V only"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The five audit procedures are analytical review, inquiry, observation, inspection, and recalculation. Booking is not a standard procedure.",
+            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+          },
+          {
+            "type": "single",
+            "question": "Evaluation of employee functions during the purchasing process is known as ______.",
+            "options": [
+              "Assessment review",
+              "Internal process review",
+              "Vendor evaluation",
+              "Selection review"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The audit reviews how employees do their jobs. This is the internal process review.",
+            "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "The ratio between an output gained from the business and an input to run a business operation is known as ______.",
+            "options": [
+              "Production",
+              "Margin gains",
+              "Operational efficiency",
+              "Business operational gains"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Operational efficiency is the ratio of output to input. It measures how well a business uses its resources.",
+            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "A risk arising from carrying out audit work is known as ______ risk.",
+            "options": [
+              "Exposure",
+              "Audit",
+              "Physical",
+              "Work"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Audit risk is the risk that comes directly from doing audit work.",
+            "reference": "Unit 2, Session 2, 2.1 - What is Audit Risk?"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following risk depends on the types of business? ______ risk.",
+            "options": [
+              "Control",
+              "Avoidable",
+              "Inherent",
+              "Detection"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Inherent risk is the risk of misstatement due to the type of business. It depends on the industry.",
+            "reference": "Unit 2, Session 2, 2.1 - Types of Audit Risk"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not an advantage of an audit risk approach?",
+            "options": [
+              "Control risk may not include all factors",
+              "More efficiency way of conducting an audit",
+              "The auditors are able to provide justification for the work carried.",
+              "This approach helps the auditors to identify high-risk"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Option A is a disadvantage. It points out a limitation of the model. The other options are all advantages.",
+            "reference": "Unit 2, Session 2, 2.1 - Advantages and Disadvantages of the audit risk approach"
+          },
+          {
+            "type": "single",
+            "question": "Audit procedures is also referred to as audit",
+            "options": [
+              "programs",
+              "directions",
+              "tools",
+              "assertions"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Audit procedures are also called audit programs. They are the steps auditors follow.",
+            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+          },
+          {
+            "type": "single",
+            "question": "All the following are professional and legal requirements for procurement auditing except professional code of ______.",
+            "options": [
+              "integrity",
+              "objectivity",
+              "independence",
+              "personal self"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The professional codes are integrity, objectivity, independence, and confidentiality. 'Personal self' is not a real code.",
+            "reference": "Unit 2, Session 5, 5.1 - Professional and Legal Requirements for Procurement Auditing"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is part of the elements to be considered when embarking on an audit planning?",
+            "options": [
+              "Letter of engagement",
+              "Ethical clearance",
+              "Letter of assurance",
+              "Size and complexity of the company"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The size and complexity of the company is a key consideration in audit planning.",
+            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+          },
+          {
+            "type": "single",
+            "question": "The risk that auditor's substantive procedures do not detect a misstatement that exist in an account balance that could be material is called ______ risk.",
+            "options": [
+              "Control",
+              "Detection",
+              "Inherent",
+              "Accountable"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Detection risk is the chance that audit tests fail to find a material misstatement.",
+            "reference": "Unit 2, Session 2, 2.1 - Types of Audit Risk"
+          },
+          {
+            "type": "single",
+            "question": "Information or data that is used or collected by auditors as part of their audit works to conclude their opinion on whether or not financial statements are prepared in all material respect and in accordance with the applicable financial framework is called ______.",
+            "options": [
+              "Audit evidence",
+              "Audit transparency",
+              "Inspection",
+              "Audit inquiry"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Audit evidence is all the information auditors collect to form their opinion.",
+            "reference": "Unit 2, Session 4, 4.1 - Audit Evidence"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a component of the fraud triangle?",
+            "options": [
+              "Rationalization",
+              "Pressure",
+              "Philosophy",
+              "Opportunity"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The fraud triangle has three components: incentive (pressure), opportunity, and rationalization. Philosophy is not part of it.",
+            "reference": "Unit 3, Session 1, 1.3 - The fraud triangle"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "subject": "Procurement Audit",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following is not a primary objective of procurement audit?",
+            "options": [
+              "Eliminates fraud",
+              "Reduces errors",
+              "Reduces waste in the supply chain",
+              "Facilitates effective bargain"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Procurement audit helps to eliminate fraud, errors, and waste. A bargain is not a primary goal; the audit is about finding problems, not getting good deals.",
+            "reference": "Unit 1, Session 1, 1.2 - Significance of procurement audit"
+          },
+          {
+            "type": "single",
+            "question": "Procurement planning is a process of doing a job in a systematic and methodical manner. Define planning in an orderly manner using:\nI. What to do\nII. When to do\nIII. How to do and\nIV. Who will do",
+            "options": [
+              "I, II, III and IV",
+              "I, II, IV and III",
+              "I, III, II, and IV",
+              "I, I, III, and IV"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Planning defines what to do, how to do it, when to do it, and who will do it. The order given in the options is A.",
+            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+          },
+          {
+            "type": "single",
+            "question": "A deliberate deception to secure unfair or unlawful gain procurement process is termed as ______",
+            "options": [
+              "Misrepresentation",
+              "Dishonesty",
+              "Fraud",
+              "Nondisclosure"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Fraud is defined as deliberate deception to secure an unfair or unlawful gain.",
+            "reference": "Unit 3, Session 1, 1.1 - Procurement fraud"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following procurement principles emphasizes the need for public servants to manage public funds with care and due diligence so that prices paid for goods, services and works are acceptable?",
+            "options": [
+              "Integrity",
+              "Economy",
+              "Transparency",
+              "Openness"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The principle of economy is about managing public funds with care and due diligence to get acceptable prices. It focuses on value for money.",
+            "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Audit risk may manifest in any one of the following except ______",
+            "options": [
+              "not gathering appropriate audit evidence",
+              "being deliberately misled by those providing the evidence",
+              "misinterpreting",
+              "being diligent"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Audit risk arises from not gathering evidence, being misled, or misinterpreting evidence. Being diligent is the opposite of a risk; it prevents those problems.",
+            "reference": "Unit 2, Session 2, 2.1 - What is Audit Risk?"
+          },
+          {
+            "type": "single",
+            "question": "Bid rigging occurs when ______",
+            "options": [
+              "the competitors to a contract decide on a winner amongst themselves so that all other suppliers, except the winner they have chosen, intentionally quotes an amount which is higher to artificially make the winner's quotation competitive",
+              "two or more suppliers agree to not compete genuinely with each other so that one supplier may have an automatic chance of being selected for the contract",
+              "some competitors who ordinarily would submit a successful tender or quotation intentionally agree not to tender so that the one they have agreed on already, wins the contract",
+              "supplier or tenderer intentionally withdraws its successful and winning tender to facilitate the winning of the contract by another competitor"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Bid rigging is a general term for when suppliers agree not to compete. Options A, C, and D are specific types of bid rigging (cover bid, bid suppression, and bid withdrawal).",
+            "reference": "Unit 3, Session 2, 2.2 - Fraud at the Pre-contract award stage"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is the foremost element or component of procurement audit process?",
+            "options": [
+              "Vendor evaluation and selection review",
+              "Internal process review",
+              "Purchaser order review",
+              "Findings and suggestions"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The procurement process starts with a purchase order. The audit first reviews a sample of these orders for accuracy. It is the first component.",
+            "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "The regulation of organisational activities so that some targeted elements of performance remain within acceptable limits can be described as?",
+            "options": [
+              "Staffing",
+              "Control",
+              "Directing",
+              "Supervision"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Control is defined as the regulation of organizational activities to keep performance within acceptable limits.",
+            "reference": "Unit 2, Session 3, 3.2 - Controlling"
+          },
+          {
+            "type": "single",
+            "question": "A fraud report is essential for decision making on future occurrences of the phenomenon. Which of the following is not a feature of a fraud report?",
+            "options": [
+              "Simple and factual",
+              "Provide recommendations for corrective action to be taken",
+              "The language used to write the report must be easily understood",
+              "Include indirect quotes where appropriate to highlight the findings."
+            ],
+            "correctAnswer": "D",
+            "explanation": "A good report uses direct quotes, not indirect ones, to highlight findings. The other options are all key features of a good investigation report.",
+            "reference": "Unit 3, Session 3, 3.2 - Techniques and Steps for Fraud Investigation"
+          },
+          {
+            "type": "single",
+            "question": "A commercial document and first official offer issued by a buyer to a seller indicating types, quantities, and agreed prices for products or services is called ______.",
+            "options": [
+              "Vendor list",
+              "Purchase order",
+              "Receiving documents",
+              "Purchase manual"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A purchase order (PO) is the first official offer from a buyer. It shows the types, quantities, and agreed prices for goods.",
+            "reference": "Unit 1, Session 4, 4.1 - Documents Used in Procurement Audit Process"
+          },
+          {
+            "type": "single",
+            "question": "The evidence that provides information sufficient to support the reasonable belief that a particular act or omission has occurred is called ______ evidence.",
+            "options": [
+              "Adequate",
+              "Sufficient",
+              "Focus",
+              "Reliable"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Adequate evidence means you have enough information to reasonably believe an act or omission happened.",
+            "reference": "Unit 3, Session 4, 4.6.2 - Debarment of supplier or contractor"
+          },
+          {
+            "type": "single",
+            "question": "The ratio between an output gained from the business and an input to run a business operation is called ______.",
+            "options": [
+              "Operational efficiency",
+              "Innovation",
+              "Speed and agility",
+              "Operational effectiveness"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Operational efficiency is defined as the ratio between the output gained from the business and the input used to run it.",
+            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Procurement auditing should be carried out professionally with respect to care, diligence and expedition and with proper regard for the technical and professional standards.",
+            "options": [
+              "Skills",
+              "Bias",
+              "Preference",
+              "First come basis"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The professional code emphasizes 'Due Skill, Care and Competence.' Auditing requires respect for technical and professional standards through skill.",
+            "reference": "Unit 2, Session 5, 5.1 - Professional and Legal Requirements for Procurement Auditing"
+          },
+          {
+            "type": "single",
+            "question": "Which kind of behaviour put up by an employee can raise a flag about a possible fraud occurrence?",
+            "options": [
+              "Employee living below his or her means.",
+              "Employee who spends within what he is paid by the organisation.",
+              "Employee has no close association with a contractor or supplier.",
+              "Employee has excessive power and control."
+            ],
+            "correctAnswer": "D",
+            "explanation": "Behavioural red flags include living beyond means, having a close association with a supplier, and having excessive power and control.",
+            "reference": "Unit 3, Session 5, 5.10 - Behaviour red flags"
+          },
+          {
+            "type": "single",
+            "question": "An individual or group that either is harmed by, or benefits from, the company or whose rights can be violated, or have to be respected, by the company is called ______.",
+            "options": [
+              "Transaction expert",
+              "Controller",
+              "Stakeholder",
+              "Seniors"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A stakeholder is an individual or group that can be harmed by or benefit from the company, or whose rights can be affected.",
+            "reference": "Unit 1, Session 6, 6.1 - Definition"
+          },
+          {
+            "type": "single",
+            "question": "A procurement auditor is required to ensure that he/she ______.",
+            "options": [
+              "exercises personal and organizational biases",
+              "applies the varied and unique standards of evaluation to all the suppliers",
+              "resists undue political pressure in decision-making",
+              "exercises absolute discretionary power or authority"
+            ],
+            "correctAnswer": "C",
+            "explanation": "An auditor must demonstrate integrity. This includes resisting undue political pressure in decision-making.",
+            "reference": "Unit 2, Session 6, 6.1 - Rules of Professional Conduct for Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "A dedicated hotline through which employees can report all suspicious conducts by others within and outside the organisation is called ______.",
+            "options": [
+              "Emergency contact line",
+              "Whistle blowing",
+              "Public address system",
+              "Suggestion box"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A dedicated hotline for reporting suspicious conduct is a form of whistle-blowing.",
+            "reference": "Unit 3, Session 6, 6.1 - Dealing with Procurement Fraud"
+          },
+          {
+            "type": "single",
+            "question": "The important document that contains all the information for ordering the needed item in an organisation is called ______.",
+            "options": [
+              "Vendor book",
+              "Purchase order",
+              "Crosscheck",
+              "Order letter"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A purchase order is the document that contains all the vital information for ordering an item.",
+            "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "An outline of procedures to be followed by auditors to obtain an audit evidence that enables them express their opinion concerning the financial statements can be referred to as ______.",
+            "options": [
+              "Audit report",
+              "Audit program",
+              "Audit scope",
+              "Audit approach"
+            ],
+            "correctAnswer": "B",
+            "explanation": "An audit program is an outline of procedures to be followed to arrive at an opinion on the financial statements.",
+            "reference": "Unit 2, Session 1, 2.2 - Audit Program"
+          },
+          {
+            "type": "single",
+            "question": "When a supplier or tenderer intentionally withdraws its winning tender to facilitate the winning of the contract by another competitor, that supplier is engaging in what we call ______.",
+            "options": [
+              "Cover bid",
+              "Non-conforming bids",
+              "Bid withdrawal",
+              "Bid rotation"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Bid withdrawal is when a supplier intentionally withdraws a winning bid to let another competitor win.",
+            "reference": "Unit 3, Session 2, 2.2 - Fraud at the Pre-contract award stage"
+          }
+        ]
+      }
+    }
+  ]
+}
