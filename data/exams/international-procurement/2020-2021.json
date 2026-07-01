@@ -1,0 +1,267 @@
+{
+  "subject": "International Procurement",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Procurement activities can be split into two distinct categories known as",
+            "options": [
+              "direct procurement and indirect procurement",
+              "direct and indirect spend",
+              "make or buy",
+              "inhouse or outsource"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The book says procurement spend is split into direct and indirect spend. Direct spend is for production-related items. Indirect spend is for operating resources.",
+            "reference": "Unit 1, Session 1, 1.1 - Define Procurement"
+          },
+          {
+            "type": "single",
+            "question": "All the following are factors to consider when undertaking international procurement except",
+            "options": [
+              "time to market and vendor responsiveness",
+              "culture and language",
+              "low-priced raw material",
+              "product quality"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Low-priced raw material is a reason for global sourcing, not a factor to consider before doing it. The main factors are product quality, vendor responsiveness, and culture/language.",
+            "reference": "Unit 1, Session 2, 2.1 - Factors to Consider when Undertaken International Procurement"
+          },
+          {
+            "type": "single",
+            "question": "The main parties to international procurement transactions are the following except",
+            "options": [
+              "courier",
+              "exporter",
+              "shipping company",
+              "importer"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The book lists the main parties as the exporter, the importer, and the carrier. The carrier is the shipping company. A courier is not listed as a main party.",
+            "reference": "Unit 1, Session 3, 3.3 - Parties Involve in International Procurement"
+          },
+          {
+            "type": "single",
+            "question": "Sourcing is identified as a subsection of the procurement process. Whereas procurement is concerned with the logistics of acquiring materials, sourcing focuses on finding the best and least expensive suppliers for goods.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is true. Procurement is the whole process of getting goods. Sourcing is a part of it that focuses on finding the best suppliers.",
+            "reference": "Unit 1, Session 1, 1.2 - Sourcing and Procurement"
+          },
+          {
+            "type": "single",
+            "question": "The 3P's in the procurement management process include",
+            "options": [
+              "People, planet and profit",
+              "People, process and paperwork",
+              "People, plant and product",
+              "People, planet and paperwork"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The book states the 3 Ps are People, Process, and Paperwork. These are the key parts of every procurement management process.",
+            "reference": "Unit 3, Session 1, 1.2 - Three (3) Ps' of the Procurement Management Process"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following are barriers to international sourcing?",
+            "options": [
+              "Perceived Value",
+              "Quality Control",
+              "Better value for money",
+              "Production scheduling"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Production scheduling can be a barrier because late orders cause problems. Perceived value, quality control, and better value are benefits of international sourcing, not barriers.",
+            "reference": "Unit 1, Session 4, 4.1 - Barriers to International Sourcing"
+          },
+          {
+            "type": "single",
+            "question": "In a globalized economy, the business environment plays an important role in almost all business enterprises. The importance of the business environment is to help understand\nI. Internal Environment\nII. Market Conditions\nIII. Economic System\nIV. Procurement Outcomes",
+            "options": [
+              "I, II and III",
+              "I, IV and III",
+              "I, II and IV",
+              "II and III"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The book says the business environment helps you understand the internal environment, market conditions, and economic systems. Procurement outcomes are not listed as one of its main purposes.",
+            "reference": "Unit 2, Session 1, 2.2 - Significance of Business Environment"
+          },
+          {
+            "type": "single",
+            "question": "When developing a technical specification, the focus is more on functionality and outcome for the user including fast, convenience and cost-saving.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is false. A technical specification describes the technical properties, like dimensions and weight. A functionality (or performance) specification focuses on outcomes like speed and convenience.",
+            "reference": "Unit 3, Session 3, 3.1.2 - Types of specifications"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a factor that influences the international procurement process?",
+            "options": [
+              "Procurement plan",
+              "Location of suppliers",
+              "Evaluation methods",
+              "Size of the organization"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The book lists factors like business strategy, size, location, structure, and the presence of a procurement officer. The size of the organization is a specific factor mentioned.",
+            "reference": "Unit 3, Session 1, 1.3 - Factors influencing the choice of an International Procurement Process"
+          },
+          {
+            "type": "single",
+            "question": "All the following are the importance of planning international procurement except it",
+            "options": [
+              "ensures effective decision-making through the identification and specification of need/product requirements",
+              "establishes standards by identifying the organizational product needs and requirements",
+              "increases the uncertainty within the procurement process",
+              "ensures effective and timely solicitation of offers and award of contracts"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Planning reduces uncertainty, it does not increase it. The other options are all correct benefits of planning, such as helping with decisions and standards.",
+            "reference": "Unit 3, Session 2, 2.1 - Planning in International Procurement"
+          },
+          {
+            "type": "single",
+            "question": "The following are all factors to consider when selecting a supplier from the international market except",
+            "options": [
+              "understanding the different supplier types",
+              "determining your criteria",
+              "outlining your selection process",
+              "the location of the supplier"
+            ],
+            "correctAnswer": "D",
+            "explanation": "While location can be a general factor, the book's specific list of steps for supplier selection includes understanding types, determining criteria, and outlining the process. It doesn't list location as a primary factor in that section.",
+            "reference": "Unit 1, Session 2, 2.2 - Factors to Consider when Selecting a Supplier from the International Market"
+          },
+          {
+            "type": "single",
+            "question": "The first thing in international procurement when planning solicitation is to",
+            "options": [
+              "specify the requirement",
+              "identify potential suppliers",
+              "call for quotations",
+              "invite tenders"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The first step in solicitation planning is to create a specification and document your product requirements. You do this before you can find suppliers or ask for quotes.",
+            "reference": "Unit 3, Session 3, 3.1 - Procurement Specification"
+          },
+          {
+            "type": "single",
+            "question": "During the solicitation process, all pre-qualified and shortlisted suppliers are invited to bid.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is true. After pre-qualification, only the suppliers who made the shortlist are invited to submit their proposals or bids.",
+            "reference": "Unit 3, Session 4, 4.1 - Solicitation"
+          },
+          {
+            "type": "single",
+            "question": "Under which condition is the use of request for quotations best in international procurement?",
+            "options": [
+              "When there are few suppliers in the market",
+              "When the value of procurement is high",
+              "The products or services required are well defined",
+              "The items are bottleneck items"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The book says RFQs are used for low-dollar purchases and well-defined products. It is best when the product or service is simple and clearly described.",
+            "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+          },
+          {
+            "type": "single",
+            "question": "The major difference between an Invitation To Bid (ITB) and a Request For Quotation (RFQ) is that the former may offer alternative approaches to providing the required product or service whilst in RFQ, suppliers submit an offer to provide a product or service strictly as it is described in the quotation documents.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is false. The description given is for an RFP (Request for Proposals), not an ITB. An ITB is like an RFQ and requires strict adherence to the description.",
+            "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+          },
+          {
+            "type": "single",
+            "question": "In international procurement, selecting the type of competition depends on all of the following except",
+            "options": [
+              "value of the procurement",
+              "the market conditions",
+              "knowledge of the market",
+              "availability of suppliers"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The book says the type of competition depends on the value, market conditions, and knowledge of the market. Availability of suppliers is not listed as a factor for choosing a competition type.",
+            "reference": "Unit 3, Session 4, 4.3 - Selecting the Type of Competition"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following methods of evaluating suppliers is used when several sources supply the same goods or services, thus, permit cross-comparisons?",
+            "options": [
+              "Linear averaging",
+              "A weighted point evaluation system",
+              "Weighted scoring system",
+              "An average point evaluation system"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The weighted point evaluation system is used when multiple suppliers offer the same goods. It allows you to compare them easily by assigning points to different criteria.",
+            "reference": "Unit 3, Session 5, 5.4.2 - Weighted Point Evaluation Systems"
+          },
+          {
+            "type": "single",
+            "question": "The two monitoring methods used in international procurement are",
+            "options": [
+              "direct and indirect observation",
+              "inspections and destructive test",
+              "internal and external monitoring",
+              "sensory and dimensional checks"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The book clearly states there are two monitoring methods: direct observation (like physical inspection) and indirect observation (like checking progress reports).",
+            "reference": "Unit 3, Session 6, 6.2.1 - Monitoring methods"
+          },
+          {
+            "type": "single",
+            "question": "Which type of procurement contract is appropriate in exceptional circumstances such as conditions of high risk or where costs cannot be determined in advance with sufficient accuracy?",
+            "options": [
+              "Fixed lump sum contract",
+              "Unit price contract",
+              "Fixed price contract",
+              "Cost reimbursable contract"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The cost-reimbursable contract is recommended for high-risk situations where costs can't be estimated accurately. The buyer pays for the actual cost plus a fee.",
+            "reference": "Unit 3, Session 6, 6.1.2 - Types of contracts"
+          },
+          {
+            "type": "single",
+            "question": "Based on Kotler and Keller's classification of buyer-supplier relationship, which type of relationship is where the seller adapts to meet the customer's needs without expecting much adaptation or change in exchange?",
+            "options": [
+              "Mutually adaptive",
+              "Collaborative",
+              "Customer is king",
+              "Barebones"
+            ],
+            "correctAnswer": "C",
+            "explanation": "In the 'Customer is king' relationship, the seller adapts a lot to meet the customer's needs. The seller does not expect the buyer to adapt much in return.",
+            "reference": "Unit 3, Session 6, 6.3 - Managing Relationships with Vendors"
+          }
+        ]
+      }
+    }
+  ]
+}
