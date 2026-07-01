@@ -18,19 +18,19 @@ https://crownedking-eng.github.io/examprep/
 - PWA feature for local installation
 
 ## Subjects Available
+- Business Ethics and Governance (SBU  406D) - 6 academic years
+- Strategic Management (SBU 402D) - 7 academic years
 - Entrepreneurship (SBU 408D) - 7 academic years
 - Project Management (SBU 405) - 7 academic years
 - Sustainable Procurement (PCM 401D) - 6 academic years
 - Risk Management (PCM 403D) - 6 academic years
 - Lean and Six Sigma (PCM 409D) - 3 academic years
-- Business Ethics and Governance (SBU  406D) - 6 academic years
-- Strategic Management (SBU 402D) - 7 academic years
 
 ## How to Use
 1. Select a subject
 2. Choose academic year
 3. Select semester
-4. Practice Section A (MCQ) or Section B (Written)
+4. Practice Mid-Semester MCQ quiz, Section A (MCQ) or Section B (Written)
 
 ## Live Demo
 https://crownedking-eng.github.io/examprep/
