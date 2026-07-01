@@ -1,0 +1,269 @@
+{
+  "subject": "Strategic Supply Chain Management",
+  "academicYear": "2020/2021",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Logistics is the part of a supply chain involved with the forward and reverse flow of ______.",
+            "options": [
+              "information",
+              "goods",
+              "cash",
+              "All of the above"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Logistics manages the flow of materials, information, and funds. All three are part of the process, so 'All of the above' is correct.",
+            "reference": "Unit 3, Session 3, 3.5 - The Flows in Logistics and The Performance Measures in Logistics"
+          },
+          {
+            "type": "single",
+            "question": "What is the sequence of the five levels of supply chain evolution according to Wisner et. al. (2008)?",
+            "options": [
+              "Total Business System - Inter-Enterprise - Functional - Intra-enterprise- External",
+              "Inter-Enterprise - Functional - Intra-enterprise- External - Total Business System",
+              "Functional-Intra-enterprise - Inter-Enterprise - External - Total Business System",
+              "External - Total Business System - Inter-Enterprise - Functional - Intra-enterprise"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The correct order is: Functional, then Intra-enterprise, then Inter-Enterprise, then External, and finally Total Business System. Remember the sequence as: Start internally, then collaborate with partners, then look at the entire business system.",
+            "reference": "Unit 2, Session 1, 1.2 - The Five levels of Supply Chain Evolution"
+          },
+          {
+            "type": "single",
+            "question": "The demand distortion that travels upstream in the supply chain from the retailer through to the wholesaler and manufacture due to the variance of orders which may be larger than that of sales is called ______.",
+            "options": [
+              "Reverse supply chain",
+              "Reverse logistics",
+              "Net chain analysis",
+              "Bullwhip effect"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The Bullwhip Effect happens when small changes in customer demand create larger and larger order fluctuations as you move up the supply chain. This causes inefficiency.",
+            "reference": "Unit 1, Session 1, 1.4 - Obstacles That Prevent Implementation of SCM Strategies and Operations"
+          },
+          {
+            "type": "single",
+            "question": "The major decision areas in supply chain management are ______",
+            "options": [
+              "planning, production, distribution, inventory",
+              "location, production, scheduling, inventory",
+              "location, production, distribution, marketing",
+              "location, production, distribution, inventory"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The main strategic decisions are Location, Production, Distribution, and Inventory. These are the core areas managers must decide on to build an effective supply chain.",
+            "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a party involved in the strategic planning?",
+            "options": [
+              "Transportation",
+              "Supply chain analyst",
+              "Procurement",
+              "Facility location"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The parties involved are Procurement, Production, Facility Location, Transportation, and Customer Allocation. A 'Supply chain analyst' is not listed as a specific party in the strategic planning process.",
+            "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
+          },
+          {
+            "type": "single",
+            "question": "The three categories of supply chain relationship feature all but one of the following ______",
+            "options": [
+              "Vertical",
+              "Horizontal",
+              "Full Collaboration",
+              "Diagonal"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The three categories of relationships are Vertical, Horizontal, and Full Collaboration. 'Diagonal' is not one of the defined categories.",
+            "reference": "Unit 1, Session 6, 6.2 - The Types of SCM Relationships"
+          },
+          {
+            "type": "single",
+            "question": "The process, where purchasing and procuring activities are conducted via the internet and is also known as 'buy side' platform of the business supply chain.",
+            "options": [
+              "E-procurement",
+              "E-business",
+              "E-supply",
+              "E-commerce"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is the definition of E-procurement. It involves using the internet for purchasing and is considered the 'buy side' of the supply chain.",
+            "reference": "Unit 2, Session 6, 6.2 - E-Procurement"
+          },
+          {
+            "type": "single",
+            "question": "The material that moves from suppliers to an organisation's receiving area is called inward transport.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This statement is correct. The movement of materials from suppliers into the organisation is known as Inward Transport or Inbound Logistics.",
+            "reference": "Unit 3, Session 3, 3.3 - Activities of Logistics"
+          },
+          {
+            "type": "single",
+            "question": "Supply chain management is a narrow concept than logistics management.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is False. SCM is actually a broader concept than logistics. Logistics is a key activity within the larger supply chain.",
+            "reference": "Unit 3, Session 3 - Logistics, warehousing, and transportation"
+          },
+          {
+            "type": "single",
+            "question": "In a logistics activity in supply chain, the flow of information is also associated with the flow of materials.",
+            "options": [
+              "False",
+              "True"
+            ],
+            "correctAnswer": "B",
+            "explanation": "True. Information flow is essential and linked to the physical flow of materials. It's needed for coordination, tracking, and communication across the chain.",
+            "reference": "Unit 3, Session 3, 3.3.11 - Communication"
+          },
+          {
+            "type": "single",
+            "question": "The cross-functional approach that efficiently manages business activities and integrates various players in the entire supply chain is known as ______.",
+            "options": [
+              "Supply chain management",
+              "Supply chain",
+              "Supply",
+              "Logistics management"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is the definition of Supply Chain Management (SCM). It's a cross-functional approach that integrates all players to manage the entire chain efficiently.",
+            "reference": "Unit 1, Session 1, 1.3 - Definition of Supply Chain Management"
+          },
+          {
+            "type": "single",
+            "question": "The term supply management is broader than the purchasing function because it includes ______.",
+            "options": [
+              "operations/production",
+              "negotiating enforceable contracts",
+              "marketing",
+              "managing relationships with suppliers"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Supply management goes beyond just purchasing. It involves managing relationships with suppliers, which is a key part of supplier relationship management.",
+            "reference": "Unit 1, Session 2, 2.2.6 - Supplier Relationship Management"
+          },
+          {
+            "type": "single",
+            "question": "The logistics network that consists of suppliers, manufacturing centres, warehouses, distribution centres, retail outlets, customers as well as raw materials, work-in-process inventory and finished products that flow between the facilities is referred to as ______.",
+            "options": [
+              "Supply chain management",
+              "Supply chain",
+              "Logistics management",
+              "Logistics"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is the definition of a Supply Chain. It's the network of all the entities and the flow of materials and products between them.",
+            "reference": "Unit 1, Session 1, 1.2 - Definition of Supply Chain"
+          },
+          {
+            "type": "single",
+            "question": "What is the sequence of a typical manufacturing supply chain?",
+            "options": [
+              "Supplier–Storage-manufacturing–storage-retailer–distributor–customer",
+              "Supplier–Storage-manufacturing–storage-distributor-retailer–customer",
+              "Supplier–Storage-manufacturing–distributor–storage-retailer–customer",
+              "Storage–Supplier–manufacturing–storage–distributor–retailer–customer"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The correct sequence is: Supplier, then Storage, then Manufacturing, then Storage, then Distributor, then Retailer, and finally the Customer.",
+            "reference": "Unit 1, Session 1, 1.2 - Definition of Supply Chain"
+          },
+          {
+            "type": "single",
+            "question": "The main purpose of supply chain management is to ______.",
+            "options": [
+              "provide customer satisfaction",
+              "integrate supply and demand management",
+              "increase production",
+              "improve quality of a product"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The core purpose is to integrate supply and demand management. This ensures the right products are available at the right time and place while minimizing costs.",
+            "reference": "Unit 1, Session 2, 2.2.3 - Demand Management"
+          },
+          {
+            "type": "single",
+            "question": "The logistics activity that deals with storing materials and keeping them in good condition with proper packaging is known as ______.",
+            "options": [
+              "Warehousing",
+              "Material Handling",
+              "Logistics",
+              "Cross docking"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is Warehousing (or Stores). Its main function is to look after stored materials, maintain their condition, and package them properly.",
+            "reference": "Unit 3, Session 3, 3.3.4 - Warehousing or Stores"
+          },
+          {
+            "type": "single",
+            "question": "The distinctive value-creating skills, capabilities, and resources which add value for the customer and are scarce and difficult for competitors to imitate, and are flexible for future needs are termed as ______.",
+            "options": [
+              "Value creation",
+              "Value",
+              "Core Competence",
+              "Competence"
+            ],
+            "correctAnswer": "C",
+            "explanation": "This is the definition of Core Competence. These are unique strengths that give a company a competitive advantage because they are hard for others to copy.",
+            "reference": "Unit 1, Session 4, 4.2.2 - Core competencies"
+          },
+          {
+            "type": "single",
+            "question": "All but one of the following is among the Ohmae's Three C's",
+            "options": [
+              "Customer",
+              "Corporation",
+              "Competition",
+              "Competence"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The 'Three Cs' are Customer, Corporation, and Competition. 'Competence' is not one of them; it is a separate concept related to a company's skills.",
+            "reference": "Unit 1, Session 4, 4.3 - The Ohmae's Three Cs"
+          },
+          {
+            "type": "single",
+            "question": "The worth of a product or service, which may be measured in two ways; the cost and customers willingness to pay for the cost of the item is termed ______.",
+            "options": [
+              "Value",
+              "Stock control",
+              "Outsourcing",
+              "Cost leadership"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This defines Value. It is based on what it costs to produce and what a customer is willing to pay for it.",
+            "reference": "Unit 1, Session 4, 4.4 - Porter's Generic Strategy for Competitive Advantage Value and Added Value"
+          },
+          {
+            "type": "single",
+            "question": "According to porter's generic strategic for competitive advantage which of the following is not part of his identified three generic strategies ______ strategy.",
+            "options": [
+              "Turnaround",
+              "Focus",
+              "Differentiation",
+              "Cost leadership"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Porter's three generic strategies are Cost Leadership, Differentiation, and Focus. 'Turnaround' is not one of the strategies he identified.",
+            "reference": "Unit 1, Session 4, 4.4.1 - The Three Generic Strategies"
+          }
+        ]
+      }
+    }
+  ]
+}

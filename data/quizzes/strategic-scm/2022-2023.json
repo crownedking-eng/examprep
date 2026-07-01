@@ -1,0 +1,275 @@
+{
+  "subject": "Strategic Supply Chain Management",
+  "academicYear": "2022/2023",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "In strategic supply chain management, what does the term cross-functional mean?",
+            "options": [
+              "Collaborating with competitors",
+              "Focusing solely on one aspect of the supply chain",
+              "Investing various departments within a firm to work together",
+              "Overlooking the needs of customers"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Cross-functional means different departments working together. SCM integrates various business functions to manage the whole chain efficiently.",
+            "reference": "Unit 1, Session 1, 1.3 - Definition of Supply Chain Management"
+          },
+          {
+            "type": "single",
+            "question": "Listed below are some benefits of strategic supply chain management except",
+            "options": [
+              "improved profitability",
+              "increased operational costs",
+              "lower customer satisfaction",
+              "reduced need for collaboration"
+            ],
+            "correctAnswer": "C",
+            "explanation": "SCM aims to improve customer satisfaction, not lower it. Lower customer satisfaction is not a benefit; it is a negative outcome.",
+            "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+          },
+          {
+            "type": "single",
+            "question": "What is the key focus of day-to-day decisions in supply chain management (SCM)?",
+            "options": [
+              "Information flow management",
+              "Minimizing costs and risks",
+              "Quarterly and yearly updates",
+              "Strategic planning and corporate strategy"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Day-to-day decisions focus on minimizing costs and risks. They are operational decisions that keep the supply chain running smoothly.",
+            "reference": "Unit 1, Session 1, 1.3 - Definition of Supply Chain Management"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is the commonest obstacle that can hinder the successful implementation of supply chain management (SCM) strategies and operations?",
+            "options": [
+              "Marketing challenges",
+              "Rapid globalization",
+              "Resistance to change",
+              "Strong supplier relationships"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Resistance to change is a common obstacle. People often resist new processes and systems, which can block SCM implementation.",
+            "reference": "Unit 1, Session 1, 1.4 - Obstacles That Prevent Implementation of SCM Strategies and Operations"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following supply chain process objectives reflects a set of activities responsible for making the actual product, establishing the manufacturing flexibility required to adequately serve the markets and designing the production system to meet cycle-time requirements?",
+            "options": [
+              "Customer service management",
+              "Manufacturing flow management",
+              "Product development and commercialization",
+              "Returns management"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is the definition of Manufacturing Flow Management. It covers making the product and designing the production system.",
+            "reference": "Unit 1, Session 2, 2.2.5 - Manufacturing Flow Management"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following parties in a strategic supply chain planning team determines a set of suppliers to select and the volume of raw materials to acquire?",
+            "options": [
+              "Customer Allocation",
+              "Facility Location",
+              "Procurement",
+              "Production"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Procurement is responsible for selecting suppliers and deciding how much raw material to buy. This is a core part of their role.",
+            "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a primary challenge faced by supply chain managers in inventory management?",
+            "options": [
+              "Accurate demand forecasting",
+              "Balancing the cost of holding inventory with the risk of stockouts",
+              "Dealing with supply chain complexity",
+              "Managing supplier relationships"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The main challenge is balancing holding costs against the risk of running out of stock. This is the core trade-off in inventory management.",
+            "reference": "Unit 3, Session 2, 2.2 - Inventory Management and Its Objectives"
+          },
+          {
+            "type": "single",
+            "question": "The contribution of strategic supply chain management to business strategy includes all the following except achieving competitive strategy through",
+            "options": [
+              "Developing competitive competencies",
+              "Omance's 3Cs model",
+              "Porter's generic strategies",
+              "Strategic planning"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The name is 'Ohmae's Three Cs,' not 'Omance's.' This is likely a typo, but the model is correctly named in the material.",
+            "reference": "Unit 1, Session 4, 4.3 - The Ohmae's Three Cs"
+          },
+          {
+            "type": "single",
+            "question": "Which of Porter's generic strategies targets activities to a selected segment of the market either by providing goods or services at the lowest cost to that segment or by providing a differentiated product or service for the needs of that segment?",
+            "options": [
+              "Cost leadership",
+              "Customer satisfaction",
+              "Differentiation",
+              "Focus"
+            ],
+            "correctAnswer": "D",
+            "explanation": "This is the definition of the Focus strategy. It targets a specific market segment, either with low cost or differentiation.",
+            "reference": "Unit 1, Session 4, 4.4.1 - The Three Generic Strategies"
+          },
+          {
+            "type": "single",
+            "question": "In the framework for developing information technology for effective supply chain management, the component that focuses on top management participation, long term business plan, and new market creation is known as ______.",
+            "options": [
+              "E-commerce",
+              "Knowledge And Information Technology Management",
+              "Strategic Planning of Information Technology",
+              "Virtual Enterprise"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Strategic Planning of IT involves top management and long-term planning. It is a key component of the IT framework for SCM.",
+            "reference": "Unit 1, Session 5, 5.2 - Information Technology (IT) In the Supply Chain"
+          },
+          {
+            "type": "single",
+            "question": "An effective supply chain requires managers to establish and form closer and long-term relationships with all supply chain players. The type of supply chain relationships which requires a business arrangement between firms that occupy both vertical and parallel positions in a supply chain is known as ______ relationship.",
+            "options": [
+              "Full collaboration",
+              "Horizontal",
+              "Parallel",
+              "Vertical"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Full Collaboration is a relationship that combines both vertical and horizontal linkages. It involves firms in both types of positions.",
+            "reference": "Unit 1, Session 6, 6.2 - The Types of SCM Relationships"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a key strategy for improving supply chain relationships and collaboration?",
+            "options": [
+              "Foster trust, transparency, and open communication among partners",
+              "Implementing strict penalties for non-compliance",
+              "Increasing competition among supply chain partners",
+              "Reducing communication with suppliers"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Trust, transparency, and open communication are key to improving relationships. These build strong, lasting partnerships.",
+            "reference": "Unit 1, Session 6, 6.3 - Improving Supply Chain Relationship"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following levels of supply chain evolution focuses on the functional or processes in a supply chain?",
+            "options": [
+              "Enterprise integration",
+              "Corporate excellence and partner collaboration",
+              "Value chain collaboration",
+              "Full network connectivity"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The first level is Enterprise Integration. It focuses on the basic functions or processes within a supply chain.",
+            "reference": "Unit 2, Session 1, 1.2 - The Five levels of Supply Chain Evolution"
+          },
+          {
+            "type": "single",
+            "question": "What is the primary objective of the Just-in-time (JIT) approach in strategic supply chain management?",
+            "options": [
+              "Increasing buffer stock for all components",
+              "Maximizing inventory levels",
+              "Minimizing production efficiency",
+              "Reducing lead times and minimizing inventory"
+            ],
+            "correctAnswer": "D",
+            "explanation": "JIT aims to reduce lead times and minimize inventory. Materials arrive just when they are needed, which reduces waste and storage costs.",
+            "reference": "Unit 2, Session 5, 5.1.1 - Just-in-time (JIT)"
+          },
+          {
+            "type": "single",
+            "question": "In strategic supply chain management, what is the primary focus of Customer Relationship Management (CRM)?",
+            "options": [
+              "Enhancing customer satisfaction and loyalty",
+              "Maximizing inventory turnover",
+              "Minimizing supplier costs",
+              "Reducing lead times"
+            ],
+            "correctAnswer": "A",
+            "explanation": "CRM focuses on improving customer satisfaction and loyalty. It manages interactions with current and future customers.",
+            "reference": "Unit 2, Session 5, 5.1.2 - Customer Relationship Management (CRM)"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following reflect the primary characteristic of e-procurement?",
+            "options": [
+              "Conducting purchasing activities offline",
+              "Enhancing traditional procurement methods",
+              "Reducing supplier relationships",
+              "Utilizing the internet for purchasing and procurement"
+            ],
+            "correctAnswer": "D",
+            "explanation": "E-procurement uses the internet for purchasing activities. It is a 'buy side' platform of the supply chain.",
+            "reference": "Unit 2, Session 6, 6.2 - E-Procurement"
+          },
+          {
+            "type": "single",
+            "question": "Any global e-supply chain management strategies should be able to address the challenges that the e-procurement process faces such as the following except",
+            "options": [
+              "Decelerate execution times",
+              "Preventing unauthorized purchasing and procurement activities",
+              "Reducing cost",
+              "Tracking in real-time all expenses and variations"
+            ],
+            "correctAnswer": "A",
+            "explanation": "E-procurement aims to accelerate execution times, not decelerate them. Slowing down is a problem, not a challenge to overcome.",
+            "reference": "Unit 2, Session 6, 6.2 - E-Procurement"
+          },
+          {
+            "type": "single",
+            "question": "All the following are benefits derived from the successful implementation of e-procurement except reduce ______.",
+            "options": [
+              "Asset disposal options",
+              "Inventories and off-contract buying",
+              "Procurement transactions",
+              "Transportation cost"
+            ],
+            "correctAnswer": "A",
+            "explanation": "E-procurement improves asset disposal options, it doesn't reduce them. The other options are all benefits of e-procurement.",
+            "reference": "Unit 2, Session 6, 6.2 - E-Procurement"
+          },
+          {
+            "type": "single",
+            "question": "In the context of strategic supply chain management, the objective of inventory management includes all the following except ______.",
+            "options": [
+              "Allow flexibility in production scheduling",
+              "Ensure availability of supply at all times",
+              "Increase financial investment in inventories",
+              "Reduce surplus stock"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Inventory management aims to balance costs. Increasing investment is not a goal; companies want to minimize holding costs while meeting demand.",
+            "reference": "Unit 3, Session 2, 2.2 - Inventory Management and Its Objectives"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a key advantage of fostering strategic alliances within supply chains?",
+            "options": [
+              "Encouraging competition among partners",
+              "Enhancing supply chain efficiency and cost reduction",
+              "Isolating supply chain operations from external factors",
+              "Limiting collaboration with partners"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Strategic alliances improve efficiency and reduce costs. Partners work together to streamline operations and remove waste.",
+            "reference": "Unit 3, Session 4, 4.3 - Benefits of the Strategic Alliances"
+          }
+        ]
+      }
+    }
+  ]
+}

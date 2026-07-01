@@ -1,0 +1,275 @@
+{
+  "subject": "Strategic Supply Chain Management",
+  "academicYear": "2021/2022",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "The process of efficiently overseeing the constant flow of goods of materials into and out of an existing inventory is known as ______.",
+            "options": [
+              "logistics management",
+              "inventory management",
+              "supply chain",
+              "supply chain management"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Inventory management is the process of overseeing the flow of goods into and out of inventory. This is its definition.",
+            "reference": "Unit 3, Session 2, 2.2 - Inventory Management and Its Objectives"
+          },
+          {
+            "type": "single",
+            "question": "Items extracted from the ground, such as minerals, ores and petroleum are classified under which heading of inventory.",
+            "options": [
+              "Assemblies",
+              "Components",
+              "Raw materials",
+              "Work in progress"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Raw materials are the basic inputs that come from natural resources. Minerals and ores are a classic example of raw materials.",
+            "reference": "Unit 3, Session 2, 2.3.1 - Raw Materials"
+          },
+          {
+            "type": "single",
+            "question": "The type of partly-finished output, which is not yet ready for sale to customers refers to ______.",
+            "options": [
+              "raw materials",
+              "work in progress",
+              "components",
+              "assemblies"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Work-in-Progress (WIP) is inventory that is partly finished. It is not yet ready to be sold.",
+            "reference": "Unit 3, Session 2, 2.3.3 - WIP: Work-in-progress or in-process inventories"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a reason firms hold inventory?",
+            "options": [
+              "To meet anticipated customer demand",
+              "To smoothen production.",
+              "To protect against stock outs",
+              "To build up inventory"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Companies hold inventory for specific reasons like meeting demand, smoothing production, and avoiding stock-outs. Simply 'building up inventory' is not a strategic reason, it is a result of the other reasons.",
+            "reference": "Unit 3, Session 2, 2.4 - Why Do Firms Keep Inventory?"
+          },
+          {
+            "type": "single",
+            "question": "A type of demand where although the demand rate varies, it varies about a constant average over time is referred to",
+            "options": [
+              "dependent demand",
+              "independent demand",
+              "sporadic demand",
+              "stable demand"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Stable demand is the pattern where demand fluctuates but stays around a constant average. It doesn't show a long-term increase or decrease.",
+            "reference": "Unit 3, Session 2, 2.5.2 - Stable"
+          },
+          {
+            "type": "single",
+            "question": "The function that performs the movement and storage of materials from the suppliers to customers is called",
+            "options": [
+              "logistics management",
+              "logistics",
+              "supply chain",
+              "supply chain management"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Logistics is the function responsible for moving and storing materials. It covers the flow from suppliers to customers.",
+            "reference": "Unit 3, Session 3, 3.2 - Role of Logistics"
+          },
+          {
+            "type": "single",
+            "question": "The delivery of a product from the departure area and hand over to the customer is termed as",
+            "options": [
+              "outward transport",
+              "inward transport",
+              "physical distribution",
+              "packaging"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Outward transport is the delivery of the product from the departure area to the customer. It's the outbound movement of finished goods.",
+            "reference": "Unit 3, Session 3, 3.3 - Activities of Logistics"
+          },
+          {
+            "type": "single",
+            "question": "The logistics systems are made up of the following subsystems except the",
+            "options": [
+              "procurement system",
+              "distribution system",
+              "production system",
+              "strategic level management system"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The three subsystems of logistics are Procurement, Production, and Distribution. 'Strategic level management system' is not one of them.",
+            "reference": "Unit 3, Session 3, 3.4 - The Logistics Systems"
+          },
+          {
+            "type": "single",
+            "question": "Activities related to the movement of end-of-life or end-of-use products (waste) from their point of consumption to the point of production for the purpose of capturing value from the waste, or proper disposal is referred to",
+            "options": [
+              "product return",
+              "recycling",
+              "refurbishment",
+              "reverse logistics"
+            ],
+            "correctAnswer": "D",
+            "explanation": "This is the definition of Reverse Logistics. It involves moving waste or used products back up the supply chain for value capture or proper disposal.",
+            "reference": "Unit 3, Session 3, 3.8 - Reverse Logistics"
+          },
+          {
+            "type": "single",
+            "question": "A supply strategy which enhances revenue by responding rapidly to emerging market needs, and increasing revenue per unit by capturing the higher margins available to first or early movers into the market is termed as ______ strategy.",
+            "options": [
+              "agile",
+              "channel focused",
+              "customer customized",
+              "lean"
+            ],
+            "correctAnswer": "A",
+            "explanation": "An agile strategy focuses on speed and flexibility to respond to new market needs. This allows companies to be first movers and capture higher margins.",
+            "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+          },
+          {
+            "type": "single",
+            "question": "The cross-functional approach that efficiently manages business activities and integrates various players in the entire supply chain is known as ______.",
+            "options": [
+              "Logistics management",
+              "Supply",
+              "Supply-chain",
+              "Supply chain management"
+            ],
+            "correctAnswer": "D",
+            "explanation": "This is the definition of Supply Chain Management (SCM). It's a cross-functional approach that integrates all players.",
+            "reference": "Unit 1, Session 1, 1.3 - Definition of Supply Chain Management"
+          },
+          {
+            "type": "single",
+            "question": "The term supply management is broader than the purchasing function because it includes ______.",
+            "options": [
+              "marketing",
+              "operations/production",
+              "managing relationships with suppliers",
+              "negotiating enforceable contracts"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Supply management goes beyond purchasing to include managing supplier relationships. This is a key part of supplier relationship management.",
+            "reference": "Unit 1, Session 2, 2.2.6 - Supplier Relationship Management"
+          },
+          {
+            "type": "single",
+            "question": "The logistics network that consists of suppliers, manufacturing centres, warehouses, distribution centres, retail outlets, customers as well as raw materials, work-in-process inventory and finished products that flow between the facilities is referred to as ______.",
+            "options": [
+              "Logistics",
+              "Logistics management",
+              "Supply chain",
+              "Supply chain management"
+            ],
+            "correctAnswer": "C",
+            "explanation": "This describes a Supply Chain. It's the network of entities and the flow of materials between them.",
+            "reference": "Unit 1, Session 1, 1.2 - Definition of Supply Chain"
+          },
+          {
+            "type": "single",
+            "question": "What is the sequence of a typical manufacturing supply chain?",
+            "options": [
+              "Storage → Supplier → manufacturing → storage → distributor → retailer → customer",
+              "Supplier → Storage → manufacturing → distributor → storage → retailer → customer",
+              "Supplier → Storage → manufacturing → storage → retailer → distributor → customer",
+              "Supplier → Storage → manufacturing → storage → distributor → retailer → customer"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The correct sequence is: Supplier, Storage, Manufacturing, Storage, Distributor, Retailer, Customer.",
+            "reference": "Unit 1, Session 1, 1.2 - Definition of Supply Chain"
+          },
+          {
+            "type": "single",
+            "question": "The main purpose of supply chain management is to ______.",
+            "options": [
+              "improve quality of a product",
+              "increase production",
+              "integrate supply and demand management",
+              "provide customer satisfaction"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The main purpose is to integrate supply and demand management. This ensures products are available when and where they are needed.",
+            "reference": "Unit 1, Session 2, 2.2.3 - Demand Management"
+          },
+          {
+            "type": "single",
+            "question": "Logistics is the part of a supply chain involved with the forward and reverse flow of ______",
+            "options": [
+              "cash",
+              "goods",
+              "information",
+              "all of the above"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Logistics manages the flow of materials, information, and funds. All three are part of the process.",
+            "reference": "Unit 3, Session 3, 3.5 - The Flows in Logistics and The Performance Measures in Logistics"
+          },
+          {
+            "type": "single",
+            "question": "What is the sequence of the five levels of supply chain evolution according to Wisner et. al. (2008)?",
+            "options": [
+              "External→Total Business System - Inter-Enterprise - Functional - Intra-enterprise",
+              "Functional-Intra-enterprise - Inter-Enterprise - External - Total Business System",
+              "Inter-Enterprise - Functional - Intra-enterprise- External - Total Business System",
+              "Total Business System - Inter-Enterprise - Functional - Intra-enterprise- External"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The correct order is: Functional, Intra-enterprise, Inter-Enterprise, External, Total Business System. It moves from internal focus to full network connectivity.",
+            "reference": "Unit 2, Session 1, 1.2 - The Five levels of Supply Chain Evolution"
+          },
+          {
+            "type": "single",
+            "question": "The demand distortion that travels upstream in the supply chain from the retailer through to the wholesaler and manufacturer due to the variance of orders which may be larger than that of sales is called ______",
+            "options": [
+              "Billwhip effect",
+              "Net chain analysis",
+              "Reverse logistics",
+              "Reverse supply chain"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The Bullwhip Effect is when small changes in customer demand cause larger order swings as you move upstream. It causes inefficiency.",
+            "reference": "Unit 1, Session 1, 1.4 - Obstacles That Prevent Implementation of SCM Strategies and Operations"
+          },
+          {
+            "type": "single",
+            "question": "The major decision areas in supply chain management are ______",
+            "options": [
+              "location, production, distribution, inventory",
+              "location, production, distribution, marketing",
+              "location, production, scheduling, inventory",
+              "planning, production, distribution, inventory"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The major strategic decision areas are Location, Production, Distribution, and Inventory. These are the core areas managers decide on.",
+            "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a party involved in the strategic planning?",
+            "options": [
+              "Facility location",
+              "Procurement",
+              "Supply chain analyst",
+              "Transportation"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The strategic planning parties are Procurement, Production, Facility Location, Transportation, and Customer Allocation. A 'Supply chain analyst' is not a listed party.",
+            "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
+          }
+        ]
+      }
+    }
+  ]
+}
