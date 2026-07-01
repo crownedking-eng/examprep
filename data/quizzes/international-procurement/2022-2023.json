@@ -1,0 +1,267 @@
+{
+  "subject": "International Procurement",
+  "academicYear": "2022/2023",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which type of contract does the supplier agree to perform the work for one fixed price, regardless of the ultimate cost?",
+            "options": [
+              "Unit price contract",
+              "Fixed sum contract",
+              "Cost-reimbursable contract",
+              "Fixed lump sum contract"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The book calls it a fixed lump sum contract. The price is set and does not change even if costs go up.",
+            "reference": "Unit 3, Session 6, 6.1.2 - Types of contracts"
+          },
+          {
+            "type": "single",
+            "question": "Which monitoring method requires checking progress reports from many observers, technical reviews, performance indicators and audits?",
+            "options": [
+              "Direct observation",
+              "Inspection",
+              "Indirect observation",
+              "Dimensional checks"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Indirect observation uses reports and reviews. You are not physically present but check information from others.",
+            "reference": "Unit 3, Session 6, 6.2.1 - Monitoring methods"
+          },
+          {
+            "type": "single",
+            "question": "Specifications are classified as good when they have all the following qualities except ......",
+            "options": [
+              "Encourage innovation",
+              "Foster supplier interest",
+              "Clear and complex requirements",
+              "Better engage with the market"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Good specifications should be clear and simple, not complex. Complex requirements make things difficult for suppliers.",
+            "reference": "Unit 3, Session 3, 3.1.1 - Qualities of a good specification"
+          },
+          {
+            "type": "single",
+            "question": "During the supplier selection process, what characteristics do buyers need to look for to determine the best supplier?\nI. Value for money\nII. Integrity\nIII. Trustworthy\nIV. Monetary guarantee",
+            "options": [
+              "I and III",
+              "I, III and IV",
+              "II and IV",
+              "I, II and III"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Integrity is not listed as a supplier characteristic. The key traits are value for money, being trustworthy, and having monetary guarantee.",
+            "reference": "Unit 1, Session 2, 2.3 - Knowing Supplier Characteristics"
+          },
+          {
+            "type": "single",
+            "question": "All the following are reasons why companies decide to enter international markets except ______.",
+            "options": [
+              "accessibility of raw materials",
+              "lack of home-grown labour",
+              "reciprocation of service",
+              "increase innovation"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The book mentions cheap labour abroad, not a lack of home-grown labour. The other options are all valid reasons to enter international markets.",
+            "reference": "Unit 1, Session 3, 3.2 - International Market Sourcing"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a factor that causes commercial risk in international trade?",
+            "options": [
+              "Lack of knowledge about foreign markets",
+              "Changes in exchange rates",
+              "Longer transit time",
+              "Varying situations to be handled, not anticipated before export"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Changes in exchange rates affect price realization, but the book lists it separately. The main causes of commercial risk are lack of knowledge, product inadaptability, long transit time, and unexpected situations.",
+            "reference": "Unit 1, Session 5, 5.2 - Nature of Risk different in International Trade"
+          },
+          {
+            "type": "single",
+            "question": "The business environment is affected by many economic factors. Which of the following factors do not form part of such factors?",
+            "options": [
+              "Money and Banking",
+              "Demand and Supply",
+              "Economic Growth and Development",
+              "Bilateral Trade Agreements"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Bilateral trade agreements are part of political/legal systems, not economic factors. Money, banking, demand/supply, and economic growth are all economic factors.",
+            "reference": "Unit 2, Session 4, 4.2 - Economic Factors affecting Business Environment"
+          },
+          {
+            "type": "single",
+            "question": "Business environment analysis is advantageous in the following ways except ______.",
+            "options": [
+              "identification of threats",
+              "presence of a strategic approach",
+              "helps in achieving objectives",
+              "forecasting the future"
+            ],
+            "correctAnswer": "B",
+            "explanation": "A lack of strategic approach is a disadvantage, not an advantage. The advantages include identifying threats, achieving objectives, and forecasting.",
+            "reference": "Unit 2, Session 6, 6.1 - Advantages of Business Environment Analysis and 6.2 - Disadvantages of Environment Business Analysis"
+          },
+          {
+            "type": "single",
+            "question": "The choice of international procurement process is dependent on the following factors except ______.",
+            "options": [
+              "process",
+              "business strategy",
+              "organisational structure",
+              "type of company and industry"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Process is one of the 3 Ps of procurement management, not a factor influencing the choice of process. The others are listed as influencing factors.",
+            "reference": "Unit 3, Session 1, 1.3 - Factors influencing the choice of an International Procurement Process"
+          },
+          {
+            "type": "single",
+            "question": "What type of specification is also known as conformance specification?",
+            "options": [
+              "Functional specification",
+              "Technical specification",
+              "Performance specification",
+              "None performance"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Technical specification is also called conformance specification. It describes the technical details like dimensions and weight.",
+            "reference": "Unit 3, Session 3, 3.1.2 - Types of specifications"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following does not form part of the criteria for shortlisting suppliers for a procurement activity?",
+            "options": [
+              "Legislative requirement",
+              "Technical capacity and experience",
+              "Location of the supplier",
+              "The monetary value of the procurement activity"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Location is not listed as a shortlisting criterion. The book lists monetary value, market share, legislative requirements, technical capacity, and ethical principles.",
+            "reference": "Unit 3, Session 3, 3.3 - Short Listing Suppliers"
+          },
+          {
+            "type": "single",
+            "question": "When selecting the type of competition, which of the following should be considered by the buying organisation?\nI. Value of the procurement\nII. Market conditions\nIII. Knowledge of the market",
+            "options": [
+              "Only",
+              "Only",
+              "Only",
+              "I, II and III"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The book says the type of competition depends on the value of the procurement, market conditions, and knowledge of the market. So all three are correct.",
+            "reference": "Unit 3, Session 4, 4.3 - Selecting the Type of Competition"
+          },
+          {
+            "type": "single",
+            "question": "Which type of evaluation method is used when several sources supply the same goods or services, thus, permitting cross-comparisons?",
+            "options": [
+              "Weighted point evaluation system",
+              "Weighted scoring system",
+              "Linear averaging",
+              "Weighted average system"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The weighted point evaluation system is used when multiple suppliers offer the same products. It allows for easy comparison.",
+            "reference": "Unit 3, Session 5, 5.4.2 - Weighted Point Evaluation Systems"
+          },
+          {
+            "type": "single",
+            "question": "Based on Kotler and Kelleer's (2012) classification of the buyer-supplier relationship, which of the following forms part of the eight categories\nI. Basic buying and selling\nII. Bare bones\nIII. Customer is king",
+            "options": [
+              "Only",
+              "Only",
+              "Only",
+              "I, II and III"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The book lists all three of these categories. Basic buying and selling, bare bones, and customer is king are all part of the eight types.",
+            "reference": "Unit 3, Session 6, 6.3 - Managing Relationships with Vendors"
+          },
+          {
+            "type": "single",
+            "question": "What category of procurement spending ranges from standardised items like office supplies and machine lubricants to complex and costly products and services like heavy equipment, consulting services, and outsourcing services?",
+            "options": [
+              "Indirect procurement",
+              "Direct procurement",
+              "Intermediate procurement",
+              "Service procurement"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Indirect procurement is for non-production items. This includes everything from simple office supplies to complex consulting services.",
+            "reference": "Unit 1, Session 1, 1.1 - Define Procurement"
+          },
+          {
+            "type": "single",
+            "question": "Procurement, whether carried out in the local or international terrain comprise of 3 Ps. Which of the following is not part of the three Ps in procurement management?",
+            "options": [
+              "Paper",
+              "People",
+              "Planet",
+              "Process"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The 3 Ps are People, Process, and Paperwork. Planet is not part of the procurement management model.",
+            "reference": "Unit 3, Session 1, 1.2 - Three (3) Ps' of the Procurement Management Process"
+          },
+          {
+            "type": "single",
+            "question": "In a request for proposal (RFP), suppliers submit an offer to provide a product or service strictly as described in the solicitation documents, whilst in an invitation to bid (ITB), suppliers may offer alternative approaches to delivering the required product or service.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is the wrong way round. In ITB, suppliers follow the description strictly. In RFP, suppliers can offer alternative, innovative approaches.",
+            "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+          },
+          {
+            "type": "single",
+            "question": "Contract administration is the last stage in the international procurement process.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is false. Contract close-out is the last stage. Contract administration comes before close-out.",
+            "reference": "Unit 3, Session 1, 1.4 - The International Procurement Process"
+          },
+          {
+            "type": "single",
+            "question": "Inspection as a monitoring method involves the use of an inspector's eyes, ears, and other senses in making a personal judgment.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is true. Sensory checks are part of inspection and rely on the inspector's sight, hearing, and other senses.",
+            "reference": "Unit 3, Session 6, 6.2.1 - Monitoring methods"
+          },
+          {
+            "type": "single",
+            "question": "Request for quotations (RFQs) are used for high dollar value purchases and well-defined products and services.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "B",
+            "explanation": "RFQs are used for low dollar value purchases, not high value. The statement about well-defined products is correct, but the value part is wrong.",
+            "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+          }
+        ]
+      }
+    }
+  ]
+}

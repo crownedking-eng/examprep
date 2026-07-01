@@ -1,0 +1,267 @@
+{
+  "subject": "International Procurement",
+  "academicYear": "2021/2022",
+  "semesters": [
+    {
+      "semester": "Semester I",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "All the following are factors that procurement entities need to consider when undertaking international procurement except ......",
+            "options": [
+              "Product quality",
+              "Time to market and responsiveness of vendor",
+              "The type of goods to be procured",
+              "Culture and language"
+            ],
+            "correctAnswer": "C",
+            "explanation": "Product quality, vendor responsiveness, and culture/language are all key factors. The type of goods is not listed as a main factor to consider before procuring internationally.",
+            "reference": "Unit 1, Session 2, 2.1 - Factors to Consider when Undertaken International Procurement"
+          },
+          {
+            "type": "single",
+            "question": "During supplier selection process, what are the characteristics buyers need to look out for to determine the best supplier?\nI. Value for money\nII. Integrity\nIII. Trustworthy\nIV. Monetary guarantee",
+            "options": [
+              "I and III",
+              "I, II and IV",
+              "II and IV",
+              "I, II and III"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Integrity is not listed as a specific characteristic in the book. The key traits are value for money, being trustworthy, and having monetary guarantee.",
+            "reference": "Unit 1, Session 2, 2.3 - Knowing Supplier Characteristics"
+          },
+          {
+            "type": "single",
+            "question": "According Lysons and Farrington (2012), the process of acquiring goods, works and services covering both acquisitions from third parties and from in-house is known as ......",
+            "options": [
+              "Outsourcing",
+              "Procurement",
+              "Sourcing",
+              "International procurement"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Lysons and Farrington define procurement as the process of acquiring goods, works, and services. This includes getting them from outside or inside the company.",
+            "reference": "Unit 1, Session 1, 1.1 - Define Procurement"
+          },
+          {
+            "type": "single",
+            "question": "What category of procurement spend ranges from standardized items like office supplies and machine lubricants to complex and costly products and services like heavy equipment, consulting services, and outsourcing services?",
+            "options": [
+              "Direct procurement",
+              "Indirect procurement",
+              "Intermediate procurement",
+              "None of the above"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Indirect procurement covers non-production items. This includes office supplies, lubricants, consulting, and outsourcing services.",
+            "reference": "Unit 1, Session 1, 1.1 - Define Procurement"
+          },
+          {
+            "type": "single",
+            "question": "The procurement strategy that aims to take advantage of global efficiencies for the delivery of goods and services and has become a strategic sourcing in today's competitive setting is called ______.",
+            "options": [
+              "Foreign sourcing",
+              "Outsourcing",
+              "Offshoring",
+              "Global sourcing"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Global sourcing is a strategy to use worldwide efficiencies. It has become a key strategic sourcing approach in today's competitive world.",
+            "reference": "Unit 1, Session 3, 3.1 - Global Sourcing"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a reason why companies source from international market?",
+            "options": [
+              "Work practices",
+              "Availability of cheap labour",
+              "Accessibility of raw materials",
+              "Reciprocity of service"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Work practices is a disadvantage of international sourcing, not a reason to do it. The other options are all positive reasons to source globally.",
+            "reference": "Unit 1, Session 6, 6.2 - Disadvantages of international sourcing"
+          },
+          {
+            "type": "single",
+            "question": "The sum total of all individuals, institutions and other forces that are outside the control of a business enterprise but the business still depends upon them as they affect the overall performance and sustainability of the business is referred to as ______.",
+            "options": [
+              "Business environment",
+              "Industry forces",
+              "External stakeholders",
+              "External forces"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is the definition of the business environment. It includes all outside individuals, institutions, and forces that affect the business.",
+            "reference": "Unit 2, Session 1, 2.1 - Business Environment"
+          },
+          {
+            "type": "single",
+            "question": "Procurement, whether carried out in the local or international terrain comprise of 3 Ps'. Which of the following is not part of the three Ps in procurement management?",
+            "options": [
+              "Paper",
+              "Planet",
+              "People",
+              "Process"
+            ],
+            "correctAnswer": "B",
+            "explanation": "The 3 Ps are People, Process, and Paperwork. Planet is not part of this procurement management model.",
+            "reference": "Unit 3, Session 1, 1.2 - Three (3) Ps' of the Procurement Management Process"
+          },
+          {
+            "type": "single",
+            "question": "What name is given to a contract where the supplier agrees to supply goods/services/works at fixed unit prices and the final price is dependent on the quantities needed to carry out the work?",
+            "options": [
+              "Lump sum contract",
+              "Fixed price contract",
+              "Unit price contract",
+              "Cost reimbursable contract"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A unit price contract uses fixed rates per unit. The final total price depends on how many units are actually needed.",
+            "reference": "Unit 3, Session 6, 6.1.2 - Types of contracts"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following factors is not a factor that influences the choice of international procurement process?",
+            "options": [
+              "Type of company and industry",
+              "Business strategy",
+              "The nature of suppliers' business environment",
+              "Organisational structure"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The book lists company type, business strategy, and organisational structure. The nature of the supplier's environment is not mentioned as a factor influencing the buyer's procurement process.",
+            "reference": "Unit 3, Session 1, 1.3 - Factors influencing the choice of an International Procurement Process"
+          },
+          {
+            "type": "single",
+            "question": "Source selection is the fourth stage in international procurement process and is done after solicitation planning.",
+            "options": [
+              "True statement",
+              "False statement"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is false. Source selection is the fifth stage, not the fourth. It comes after solicitation and before contract administration.",
+            "reference": "Unit 3, Session 1, 1.4 - The International Procurement Process"
+          },
+          {
+            "type": "single",
+            "question": "All the following are factors that trigger need recognition for a new product with the organisation except ______.",
+            "options": [
+              "Enhancing and motivating employees",
+              "Change in organization culture",
+              "Building organization image",
+              "Competitiveness of marketplace"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Competitiveness of the marketplace is an external factor, not an internal one. The others are internal needs that trigger a need for a new product.",
+            "reference": "Unit 3, Session 2, 2.2 - Problem/Need Recognition"
+          },
+          {
+            "type": "single",
+            "question": "A statement of the requirements to be satisfied in the supply of a product or service is called ______.",
+            "options": [
+              "Quotation",
+              "Tender criteria",
+              "Specification",
+              "Conformance"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A specification is a statement of what is required for a product or service. It defines the needs that the supplier must meet.",
+            "reference": "Unit 3, Session 3, 3.1 - Procurement Specification"
+          },
+          {
+            "type": "single",
+            "question": "During solicitation in international procurement process, only suppliers who have passed the prequalification criteria are shortlisted and invited to bid.",
+            "options": [
+              "True statement",
+              "False Statement"
+            ],
+            "correctAnswer": "A",
+            "explanation": "This is true. The purpose of pre-qualification is to create a shortlist. Only those on the shortlist are invited to submit bids.",
+            "reference": "Unit 3, Session 4, 4.1 - Solicitation"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a method of solicitation in procurement used for low-value purchases and well-defined products and services?",
+            "options": [
+              "Invitation to bid",
+              "Open tendering",
+              "Request for proposals",
+              "Request for quotations"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Request for Quotations (RFQ) is used for low-value items. It works best when the product or service is simple and clearly defined.",
+            "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+          },
+          {
+            "type": "single",
+            "question": "The type of competition that restricts competition to a short list of suppliers selected in a non-discriminatory manner from rosters, prequalification and market research is referred to as ______.",
+            "options": [
+              "Restrictive international competition",
+              "Open international competition",
+              "Restrictive international tendering",
+              "Limited international competition"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Limited international competition restricts the bidding to a shortlist of chosen suppliers. The selection must be done fairly without discrimination.",
+            "reference": "Unit 3, Session 4, 4.3 - Selecting the Type of Competition"
+          },
+          {
+            "type": "single",
+            "question": "The evaluation method that uses specific quantitative performance factors to evaluate supplier performance in supplier selection process is termed as ______.",
+            "options": [
+              "Linear averaging",
+              "Weighted scoring system",
+              "Cumulative scoring method",
+              "Weighted point evaluation system"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Linear averaging uses quantitative factors like quality, service, and price. It is the most common evaluation method.",
+            "reference": "Unit 3, Session 5, 5.4.3 - Linear Averaging"
+          },
+          {
+            "type": "single",
+            "question": "The type of contract where the supplier agrees to perform the work for one fixed price, regardless of the ultimate cost is called ______.",
+            "options": [
+              "Fixed contract",
+              "Fixed sum contract",
+              "Fixed lump sum contract",
+              "Fixed price contract"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The book uses the term fixed lump sum contract. The price is agreed upfront and does not change even if the supplier's costs go up.",
+            "reference": "Unit 3, Session 6, 6.1.2 - Types of contracts"
+          },
+          {
+            "type": "single",
+            "question": "Cost-reimbursable contracts are contracts recommended for low-risk conditions or where costs cannot be determined in advance with sufficient accuracy.",
+            "options": [
+              "True statement",
+              "False statement"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is false. Cost-reimbursable contracts are for high-risk conditions. They are used when costs are very uncertain.",
+            "reference": "Unit 3, Session 6, 6.1.2 - Types of contracts"
+          },
+          {
+            "type": "single",
+            "question": "Functional specification is also termed conformance specification and is a traditional procurement specification method that describes the technical properties and characteristics of the product or service required.",
+            "options": [
+              "True statement",
+              "False statement"
+            ],
+            "correctAnswer": "B",
+            "explanation": "This is false. Technical specification is the same as conformance specification. Functional specification is different and focuses on the outcome.",
+            "reference": "Unit 3, Session 3, 3.1.2 - Types of specifications"
+          }
+        ]
+      }
+    }
+  ]
+}
