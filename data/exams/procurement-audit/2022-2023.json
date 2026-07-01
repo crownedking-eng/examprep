@@ -1,1 +1,271 @@
-
+{
+  "subject": "Procurement Audit",
+  "academicYear": "2022/2023",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "quiz": {
+        "title": "Mid-Semester Quiz",
+        "description": "20 multiple choice questions covering Units 1-3",
+        "questions": [
+          {
+            "type": "single",
+            "question": "Which of the following is not part of the principles of public procurement audit?",
+            "options": [
+              "Vendor evaluation",
+              "Transparency",
+              "Integrity",
+              "Openness"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The principles are transparency, integrity, economy, openness, fairness, competition, and accountability. Vendor evaluation is a process, not a principle.",
+            "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Which of the principles of the public procurement audit state that, anyone involve in the procurement process is responsible for his or her actions and decision with respect to the procurement audit?",
+            "options": [
+              "Fairness",
+              "Openness",
+              "Transparency",
+              "Accountability"
+            ],
+            "correctAnswer": "D",
+            "explanation": "Accountability means everyone involved is responsible for their actions and decisions.",
+            "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "All the following are the components of procurement audit except",
+            "options": [
+              "purchase order review",
+              "internal process review",
+              "selection review",
+              "economy review"
+            ],
+            "correctAnswer": "D",
+            "explanation": "The components are purchase order review, vendor evaluation and selection review, internal process review, and findings and suggestions. Economy review is not one of them.",
+            "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "The full meaning of RFQ is?",
+            "options": [
+              "Request for question",
+              "Request for quote",
+              "Review for quotation",
+              "Re-evaluation for quote"
+            ],
+            "correctAnswer": "B",
+            "explanation": "RFQ stands for Request for Quote. It is a document asking vendors to bid on an item.",
+            "reference": "Unit 1, Session 4, 4.1 - Documents Used in Procurement Audit Process"
+          },
+          {
+            "type": "single",
+            "question": "The identification, evaluation and prioritization of risks followed by coordinated and economical application of resources to minimize, monitor, and control the probability or impact of unfortunate events or to maximize the realization of opportunities is known as ______.",
+            "options": [
+              "Risk management",
+              "Risk assessment",
+              "Auditing",
+              "Probability management"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Risk management is the process of identifying, evaluating, and prioritizing risks. It then uses resources to control them.",
+            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not part of external stakeholders?",
+            "options": [
+              "Budget Lovers",
+              "Suppliers",
+              "Government",
+              "Agencies"
+            ],
+            "correctAnswer": "A",
+            "explanation": "External stakeholders include suppliers, government, and its agencies. Budget owners are internal stakeholders.",
+            "reference": "Unit 1, Session 6, 6.2 - Categories of Stakeholders"
+          },
+          {
+            "type": "single",
+            "question": "The process of doing an auditing job in a systematic and methodological manner is known as ______.",
+            "options": [
+              "Audit management",
+              "Audit planning",
+              "Audit controlling",
+              "Audit analysis"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Audit planning is doing the job in a systematic and methodical way.",
+            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+          },
+          {
+            "type": "single",
+            "question": "The exact form and nature of audit planning should be governed by the following considerations except the ______.",
+            "options": [
+              "size and complexity of the company",
+              "commercial environment in which it operates",
+              "scope of analysis",
+              "method of pressing transactions"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The considerations are size and complexity, commercial environment, method of processing transactions, and reporting requirements. Scope of analysis is not listed.",
+            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+          },
+          {
+            "type": "single",
+            "question": "The audit flow chart includes the following except ______.",
+            "options": [
+              "ethical clearance from previous auditor",
+              "letter of engagement",
+              "acknowledgement from client",
+              "interim records"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The audit flow steps include letter of engagement, acknowledgement from client, and interim records. Ethical clearance is not part of this flow.",
+            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following programs outline the procedures to be followed in order to arrive at an opinion concerning the financial statement of a company?",
+            "options": [
+              "Audit program",
+              "Training program",
+              "Accounting program",
+              "Staffing program"
+            ],
+            "correctAnswer": "A",
+            "explanation": "An audit program outlines the procedures to follow. It helps the auditor arrive at an opinion.",
+            "reference": "Unit 2, Session 1, 2.2 - Audit Program"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is a feature of audit program?",
+            "options": [
+              "It is a systematic approach to audit",
+              "Makes the work almost mechanical and unrigid",
+              "Gives rigidity of approach and encourages initiatives",
+              "Discourages and enhances personal initiatives"
+            ],
+            "correctAnswer": "A",
+            "explanation": "A key feature of an audit program is that it is a systematic approach to the audit.",
+            "reference": "Unit 2, Session 1, 2.2 - Audit Program"
+          },
+          {
+            "type": "single",
+            "question": "The risk arising from carrying out audit work is referred to as ______",
+            "options": [
+              "Audit risk",
+              "Audit analysis",
+              "Audit assessment",
+              "Audited risk"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Audit risk is the risk that comes directly from doing audit work.",
+            "reference": "Unit 2, Session 2, 2.1 - What is Audit Risk?"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not a benefit of audit program?",
+            "options": [
+              "Avoid duplication of work",
+              "Enhances the efficiency of the audit",
+              "Gives unclear set of instruction to audit staff",
+              "Provide up-to-date records"
+            ],
+            "correctAnswer": "C",
+            "explanation": "A good audit program gives clear instructions. Unclear instructions are a limitation, not a benefit.",
+            "reference": "Unit 2, Session 1, 2.2 - Audit Program"
+          },
+          {
+            "type": "single",
+            "question": "All the following are types of an audit risk except ______",
+            "options": [
+              "Inherent risk",
+              "Control risk",
+              "Deduction risk",
+              "Detection risk"
+            ],
+            "correctAnswer": "C",
+            "explanation": "The three types of audit risk are inherent, control, and detection risk. Deduction risk is not one of them.",
+            "reference": "Unit 2, Session 2, 2.1 - Types of Audit Risk"
+          },
+          {
+            "type": "single",
+            "question": "The risk that auditor's substantive procedures do not detect a misstatement that exist in an account balance or class of transactions that could be material either individually or when aggregated with misstatement in other balance is called ______.",
+            "options": [
+              "Inherent risk",
+              "Detection risk",
+              "Control risk",
+              "Planning risk"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Detection risk is the chance that audit tests fail to find a material misstatement.",
+            "reference": "Unit 2, Session 2, 2.1 - Types of Audit Risk"
+          },
+          {
+            "type": "single",
+            "question": "Risk is not always bad as it is advocated.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Risk is not always bad. Some risks are opportunities, and risk management helps the organization progress.",
+            "reference": "Unit 2, Session 2, 2.1 - Advantages and Disadvantages of the audit risk approach"
+          },
+          {
+            "type": "single",
+            "question": "The information or data that is used or collected by the auditors as part of their audit work to conclude their opinion on whether or not financial statements are prepared in all material respect and in accordance with the applicable financial frameworks is known as?",
+            "options": [
+              "Audit profile",
+              "Audit evidence",
+              "Audit report",
+              "Research report"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Audit evidence is the information auditors collect to form their opinion.",
+            "reference": "Unit 2, Session 4, 4.1 - Audit Evidence"
+          },
+          {
+            "type": "single",
+            "question": "Which of the following is not an example of an audit evidence?",
+            "options": [
+              "Financial statement",
+              "Financial budget",
+              "Bank statement",
+              "Payrolls listing"
+            ],
+            "correctAnswer": "B",
+            "explanation": "Audit evidence includes financial statements, bank statements, and payroll listings. A financial budget is a plan, not evidence of past transactions.",
+            "reference": "Unit 2, Session 4, 4.1 - Audit Evidence"
+          },
+          {
+            "type": "single",
+            "question": "The audit evidence could be physical or non-physical",
+            "options": [
+              "True",
+              "False"
+            ],
+            "correctAnswer": "A",
+            "explanation": "Audit evidence can be physical (like assets) or non-physical (like documents and emails).",
+            "reference": "Unit 2, Session 4, 4.1 - Audit Evidence"
+          },
+          {
+            "type": "single",
+            "question": "A model or framework used mostly in auditing to explain the motivation behind a person's decision to commit fraud is known as ______.",
+            "options": [
+              "The fraud triangle",
+              "The fraud opportunity",
+              "The Freedom triangle",
+              "Rationalization"
+            ],
+            "correctAnswer": "A",
+            "explanation": "The fraud triangle explains why someone commits fraud. It has three parts: incentive, opportunity, and rationalization.",
+            "reference": "Unit 3, Session 1, 1.3 - The fraud triangle"
+          }
+        ]
+      }
+    }
+  ]
+}
