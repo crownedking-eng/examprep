@@ -18,11 +18,11 @@ https://crownedking-eng.github.io/examprep/
 - PWA feature for local installation
 
 ## Subjects Available
-- Business Ethics and Governance (SBU  406D) - 6 academic years
-- Strategic Management (SBU 402D) - 7 academic years
-- International Procurement (PCM 402D) - 4 academic years
-- Procurement Audit and Investigation (PCM 405D) - 4 academic years
-- Strategic Supply Chain Management (PCM 402D) - 4 academic years 
+- Business Ethics and Governance (SBU  406D) - 7 academic years
+- Strategic Management (SBU 402D) - 8 academic years
+- International Procurement (PCM 402D) - 5 academic years
+- Procurement Audit and Investigation (PCM 405D) - 5 academic years
+- Strategic Supply Chain Management (PCM 402D) - 5 academic years 
 - Entrepreneurship (SBU 408D) - 7 academic years
 - Project Management (SBU 405) - 7 academic years
 - Sustainable Procurement (PCM 401D) - 6 academic years
