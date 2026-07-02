@@ -9,7 +9,7 @@ https://crownedking-eng.github.io/examprep/
 - Multiple academic years (2019-2020 to 2025-2026)
 - Section A: Multiple Choice Questions with explanations
 - Section B: Case studies with structured answers and key facts
-- Mid-Semester Quizzes: 20 Multiple Choice Questions in select years
+- Mid-Semester Quizzes: 20 Multiple Choice Questions in some selected years
 - Search/Filter button
 - Bookmark feature for questions to be reviewed later
 - Progress tracking with local storage
