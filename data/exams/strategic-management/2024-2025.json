@@ -1,0 +1,525 @@
+{
+  "subject": "Strategic Management",
+  "subjectCode": "SBU 402D",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The levels of strategy can be divided into ______.",
+          "options": [
+            "A. two",
+            "B. three",
+            "C. four",
+            "D. five"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic management has three levels. These are corporate, business, and functional.",
+          "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+        },
+        {
+          "type": "single",
+          "question": "Organizational resource is valuable when it ______.",
+          "options": [
+            "A. can be initiated",
+            "B. has substitute",
+            "C. is not durable",
+            "D. is scarce"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A valuable resource is scarce. Scarcity makes it hard for competitors to get.",
+          "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+        },
+        {
+          "type": "single",
+          "question": "A good organizational objective should have all of the following qualities except ______.",
+          "options": [
+            "A. attainable",
+            "B. fixed",
+            "C. flexible",
+            "D. specific"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Good objectives follow the SMART criteria. They should not be rigid and should allow for adaptation when needed.",
+          "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+        },
+        {
+          "type": "single",
+          "question": "The end points of an organization's mission are its ______.",
+          "options": [
+            "A. action plan",
+            "B. objectives",
+            "C. policies",
+            "D. strategy"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Objectives are specific targets the organisation aims to reach. They are the measurable end results of the mission.",
+          "reference": "Unit 2, Session 3, 3.1 - Establishing Organisational Objectives"
+        },
+        {
+          "type": "single",
+          "question": "As a systematic process, strategic management starts with ______.",
+          "options": [
+            "A. analysis of the internal environment",
+            "B. assessment of external environment",
+            "C. establishing a business mission statement",
+            "D. development of annual objectives"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Strategic management begins with establishing the mission. This gives the organisation its purpose and direction.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        },
+        {
+          "type": "single",
+          "question": "Patents, trademarks and copyrights are examples of ______ factors.",
+          "options": [
+            "A. economic",
+            "B. political",
+            "C. social",
+            "D. technological"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Patents and copyrights are part of the technological environment. They protect new products and production methods.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Technological Forces)"
+        },
+        {
+          "type": "single",
+          "question": "The stage in the product life cycle where sales grow rapidly is ______.",
+          "options": [
+            "A. introduction",
+            "B. growth",
+            "C. maturity",
+            "D. decline"
+          ],
+          "correctAnswer": "B",
+          "explanation": "In the growth stage, the product is well known and sales grow rapidly. Many new competitors enter the market.",
+          "reference": "Unit 6, Session 1, 1.2 - Marketing Issues (The Product Life Cycle)"
+        },
+        {
+          "type": "single",
+          "question": "Communicating with customers, the general public and others through some form of advertising, public relations and personal selling is ______ planning.",
+          "options": [
+            "A. price",
+            "B. product",
+            "C. distribution",
+            "D. promotion"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Promotion planning involves communicating with customers. This includes advertising and public relations.",
+          "reference": "Unit 6, Session 1, 1.2 - Marketing Issues"
+        },
+        {
+          "type": "single",
+          "question": "A company with operations in different countries uses ______ structure.",
+          "options": [
+            "A. functional",
+            "B. geographic",
+            "C. matrix",
+            "D. product"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A geographic structure is used for different countries. It organises activities by location.",
+          "reference": "Unit 5, Session 4, 4.1 - Basic Structure for Organizational Design"
+        },
+        {
+          "type": "single",
+          "question": "A dimension of quality which relates to how well a service is provided is ______.",
+          "options": [
+            "A. durability",
+            "B. performance",
+            "C. reliability",
+            "D. service after sale"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Performance relates to how well a product performs or a service is provided. It is one of seven quality dimensions.",
+          "reference": "Unit 6, Session 1, 1.3 - Operations Issues (Quality and Total Quality Management)"
+        },
+        {
+          "type": "single",
+          "question": "A forecast of assets and liabilities for a selected future date is ______.",
+          "options": [
+            "A. break-even analysis",
+            "B. cash budget",
+            "C. investment appraisal",
+            "D. proforma statement"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Proforma statements forecast assets and liabilities. They help plan for future financial positions.",
+          "reference": "Unit 6, Session 2, 2.1 - Financial Issues (Financial Management Tools)"
+        },
+        {
+          "type": "single",
+          "question": "A non-financial control in a company is ______.",
+          "options": [
+            "A. growth in revenue",
+            "B. return on equity",
+            "C. number of defective products",
+            "D. trends in profit"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The number of defective products is a non-financial control. It measures quality, not money.",
+          "reference": "Unit 6, Session 5, 5.4 - Non-Financial Controls"
+        },
+        {
+          "type": "single",
+          "question": "The consulting firm, McKinsey and Company's framework for evaluating strategy has ______ elements.",
+          "options": [
+            "A. four",
+            "B. five",
+            "C. six",
+            "D. seven"
+          ],
+          "correctAnswer": "D",
+          "explanation": "McKinsey's 7-S Framework has seven elements. These include strategy, structure, systems, style, staff, skills, and shared values.",
+          "reference": "Unit 6, Session 6, 6.3 - McKinsey's 7-S Framework"
+        },
+        {
+          "type": "single",
+          "question": "The last step in Lewin's model for managing changes is ______.",
+          "options": [
+            "A. changing",
+            "B. moving",
+            "C. refreezing",
+            "D. unfreezing"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Refreezing is the final step of Lewin's model. The desirable performance becomes the permanent way of doing things.",
+          "reference": "Unit 6, Session 6, 6.4 - Meaning of Managing Change"
+        },
+        {
+          "type": "single",
+          "question": "Consistency of performance of a product is ______.",
+          "options": [
+            "A. durability",
+            "B. perceived quality",
+            "C. reliability",
+            "D. special feature"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Reliability relates to consistency of performance. Can the product always perform as expected?",
+          "reference": "Unit 6, Session 1, 1.3 - Operations Issues (Quality and Total Quality Management)"
+        },
+        {
+          "type": "single",
+          "question": "A generic strategy which appeals to a broad spectrum of customers by being the overall low-cost or product differentiation is ______.",
+          "options": [
+            "A. focused strategy band on low-cost",
+            "B. best-cost provider strategy",
+            "C. low-cost provider strategy",
+            "D. broad differentiation strategy"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A low-cost provider strategy appeals to a broad customer base. The firm aims to be the overall low-cost producer.",
+          "reference": "Unit 4, Session 1, 1.2 - Generic Strategies"
+        },
+        {
+          "type": "single",
+          "question": "Porter (1985) identified ______ generic strategies.",
+          "options": [
+            "A. two",
+            "B. three",
+            "C. four",
+            "D. five"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Porter identified five generic strategies. These include low-cost, differentiation, and focus strategies.",
+          "reference": "Unit 4, Session 1, 1.2 - Generic Strategies"
+        },
+        {
+          "type": "single",
+          "question": "A strategy which seeks increased sales by improving or modifying present products in existing customer group is ______.",
+          "options": [
+            "A. market development",
+            "B. product development",
+            "C. vertical integration",
+            "D. horizontal integration"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Product development means improving or modifying existing products. This encourages current customers to buy more.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        },
+        {
+          "type": "single",
+          "question": "Introducing present products into new geographic areas is ______.",
+          "options": [
+            "A. market development",
+            "B. market penetration",
+            "C. product development",
+            "D. concentric diversification"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Market development means entering new geographic areas. It introduces existing products to new regions.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        },
+        {
+          "type": "single",
+          "question": "Selling all of a company's assets, in parts, for their tangible worth is ______.",
+          "options": [
+            "A. divestiture",
+            "B. liquidation",
+            "C. pruning",
+            "D. retrenchment"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Liquidation means selling all company assets in parts. It is a recognition of defeat and used to minimise losses.",
+          "reference": "Unit 4, Session 2, 2.4 - Defensive/Harvesting Strategies"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four components of mission statements.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "A mission statement includes several key components.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customers",
+                      "detail": "Defines who the organisation serves."
+                    },
+                    {
+                      "heading": "Products or services",
+                      "detail": "Specifies what the organisation offers."
+                    },
+                    {
+                      "heading": "Markets",
+                      "detail": "Indicates where the organisation competes."
+                    },
+                    {
+                      "heading": "Technology",
+                      "detail": "Identifies the technological approaches used."
+                    }
+                  ],
+                  "conclusion": "These components define what the company does and who it serves.",
+                  "otherPossibleAnswers": "Concern for survival, growth, and profitability. Philosophy. Self-concept. Concern for public image. Concern for employees.",
+                  "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Identify four areas in which a company can set objectives, giving an example in each case.",
+                "marks": 12,
+                "commandWord": "Identify",
+                "answer": {
+                  "introduction": "Companies set objectives in several key areas to guide performance.",
+                  "mainPoints": [
+                    {
+                      "heading": "Profitability",
+                      "detail": "Example: \"Increase net profit by 15% this year.\""
+                    },
+                    {
+                      "heading": "Market Share",
+                      "detail": "Example: \"Gain 5% more market share in the next 12 months.\""
+                    },
+                    {
+                      "heading": "Customer Service",
+                      "detail": "Example: \"Achieve a 95% customer satisfaction rating.\""
+                    },
+                    {
+                      "heading": "Employee Development",
+                      "detail": "Example: \"Train all staff on new systems by the end of the quarter.\""
+                    }
+                  ],
+                  "conclusion": "Objectives in these areas help the company achieve its overall mission.",
+                  "otherPossibleAnswers": "Growth. Innovation. Social Responsibility.",
+                  "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Outline four dimensions of strategic issues in an organization.",
+                "marks": 8,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Strategic issues are important decisions that affect the organisation's future.",
+                  "mainPoints": [
+                    {
+                      "heading": "They require top-management decisions",
+                      "detail": "Top managers have the broad view needed for major strategic decisions."
+                    },
+                    {
+                      "heading": "They require large amounts of resources",
+                      "detail": "Strategic decisions commit substantial money, people, and assets."
+                    },
+                    {
+                      "heading": "They affect long-term prosperity",
+                      "detail": "Once a firm commits to a strategy, its image and position are tied to it."
+                    },
+                    {
+                      "heading": "They are future oriented",
+                      "detail": "Strategic decisions are based on forecasts, not just current facts."
+                    }
+                  ],
+                  "conclusion": "Strategic issues are major decisions that shape the company's future.",
+                  "otherPossibleAnswers": "They have multifunctional consequences. They require considering the external environment.",
+                  "reference": "Unit 1, Session 2, 2.1 - Typical Strategic Issues"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain three problems associated with the implementation of strategies.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Implementing strategies can be difficult for many reasons.",
+                  "mainPoints": [
+                    {
+                      "heading": "Strategy and structure may not match",
+                      "detail": "Products may need to be managed independently but the structure is different. This creates conflict and confusion."
+                    },
+                    {
+                      "heading": "Information systems may be inadequate",
+                      "detail": "Managers may not know what is really happening. This makes it hard to monitor progress."
+                    },
+                    {
+                      "heading": "Change creates uncertainty and risk",
+                      "detail": "New skills may be needed but managers are reluctant to change. People fear the unknown and resist new ways."
+                    }
+                  ],
+                  "conclusion": "These problems can make strategy implementation difficult and slow.",
+                  "otherPossibleAnswers": "Management systems may be outdated. Managers may agree to changes but not implement them.",
+                  "reference": "Unit 6, Session 4, 4.1 - Problems of Successful Implementation of Strategies"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State five primary activities and three secondary activities in the value chain.",
+                "marks": 8,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "The value chain divides activities into primary and support categories.",
+                  "mainPoints": [
+                    {
+                      "heading": "Primary Activities",
+                      "detail": "1. Inbound logistics\n2. Operations\n3. Outbound logistics\n4. Marketing and sales\n5. Service"
+                    },
+                    {
+                      "heading": "Secondary (Support) Activities",
+                      "detail": "1. General administration\n2. Human resource management\n3. Research, technology, and systems development"
+                    }
+                  ],
+                  "conclusion": "Primary activities create the product, while secondary activities support them.",
+                  "otherPossibleAnswers": "Procurement.",
+                  "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain three finance functions which are useful in strategic management.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Finance functions help managers implement and control strategies.",
+                  "mainPoints": [
+                    {
+                      "heading": "Financing and Investments",
+                      "detail": "This involves supervising cash and raising additional funds. It also includes investing in projects like equipment and marketing."
+                    },
+                    {
+                      "heading": "Accounting and Control",
+                      "detail": "This maintains financial records and controls activities. It manages payroll, tax matters, and inventory."
+                    },
+                    {
+                      "heading": "Forecasting and Long-Term Planning",
+                      "detail": "This forecasts costs, capital needs, and returns on investment. It uses data to plan future operations."
+                    }
+                  ],
+                  "conclusion": "These functions help the company manage its financial resources effectively.",
+                  "otherPossibleAnswers": "Pricing. Credit and collections.",
+                  "reference": "Unit 6, Session 2, 2.1 - Financial Issues"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four responsibilities of the Board of Directors.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "The Board of Directors has important responsibilities in the organisation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Setting corporate strategy and overall direction",
+                      "detail": "The board helps guide the company's long-term path."
+                    },
+                    {
+                      "heading": "Hiring and firing the CEO and top management",
+                      "detail": "Succession planning is a key board responsibility."
+                    },
+                    {
+                      "heading": "Controlling, monitoring, and supervising top management",
+                      "detail": "The board checks management's performance."
+                    },
+                    {
+                      "heading": "Reviewing and approving the use of resources",
+                      "detail": "The board ensures resources are used properly."
+                    }
+                  ],
+                  "conclusion": "The board protects shareholder interests and guides the company.",
+                  "otherPossibleAnswers": "Guarding corporate assets. Maintaining the firm's public image.",
+                  "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Getting the right people into the right jobs at the right time is very important to managers. Explain four human resource functions involved in getting the right people for the right job.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Human resource functions help get the right people into the right jobs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Recruiting and Hiring",
+                      "detail": "This involves finding and selecting qualified employees. Firms must attract people with the right skills."
+                    },
+                    {
+                      "heading": "Training and Development",
+                      "detail": "This teaches employees new skills. Training helps workers add value to the organisation."
+                    },
+                    {
+                      "heading": "Coaching and Evaluation",
+                      "detail": "This involves day-to-day guidance and feedback. Managers monitor progress and provide correction."
+                    },
+                    {
+                      "heading": "Career Planning",
+                      "detail": "This helps employees develop skills for the future. The company provides opportunities for growth and learning."
+                    }
+                  ],
+                  "conclusion": "These functions ensure the organisation has the talent it needs.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 3, 3.2 - Human Resource Strategies"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

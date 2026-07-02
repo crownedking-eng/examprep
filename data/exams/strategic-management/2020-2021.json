@@ -1,272 +1,565 @@
 {
-  "subject": "Business Strategic Management",
+  "subject": "Strategic Management",
+  "subjectCode": "SBU 402",
   "academicYear": "2020/2021",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The roadmap of a company's future especially the direction it is headed is",
+          "options": [
+            "A. objective",
+            "B. mission",
+            "C. goal",
+            "D. vision"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A vision is a road map of the company's future. It shows the direction the company is heading.",
+          "reference": "Unit 2, Session 1, 1.1 - Developing the Organisation's Strategic Vision and Mission"
+        },
+        {
+          "type": "single",
+          "question": "The component of a mission statement that defines where the firm competes is",
+          "options": [
+            "A. customers",
+            "B. market",
+            "C. product",
+            "D. technology"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The market component tells where the firm competes. It defines the geographic or customer segments the company targets.",
+          "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+        },
+        {
+          "type": "single",
+          "question": "A business objective stated as \"to increase overall sales to decrease the risk of business failure\" is ______",
+          "options": [
+            "A. corporate image",
+            "B. market growth",
+            "C. profit maximization",
+            "D. survival"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Increasing overall sales reflects a market growth objective. Growing sales helps reduce the risk of failure.",
+          "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+        },
+        {
+          "type": "single",
+          "question": "A feature of an objective that makes it useful is ______",
+          "options": [
+            "A. achievable",
+            "B. measurable",
+            "C. relevant",
+            "D. specificity"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Measurable means you can track progress. This makes the objective useful because you know when you have reached it.",
+          "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+        },
+        {
+          "type": "single",
+          "question": "The responsibility of a business to follow the generally held beliefs and how to act in a society is ______",
+          "options": [
+            "A. economic",
+            "B. discretionary",
+            "C. ethical",
+            "D. legal"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Ethical responsibility means following society's beliefs about right and wrong. It goes beyond what the law requires.",
+          "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+        },
+        {
+          "type": "single",
+          "question": "Providing a safe work environment is social responsibility concern of",
+          "options": [
+            "A. consumers",
+            "B. employees",
+            "C. environment",
+            "D. society"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Providing a safe work environment is a responsibility toward employees. Workers deserve a safe place to work.",
+          "reference": "Unit 2, Session 6, 6.1 - Specific Areas of Social Responsibility"
+        },
+        {
+          "type": "single",
+          "question": "Acting in the way you would expect others to act toward you reflects",
+          "options": [
+            "A. golden rule",
+            "B. professional ethic",
+            "C. tv principle",
+            "D. utilitarian principle"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The Golden Rule is \"treat others as you want to be treated.\" This is a standard for ethical behaviour.",
+          "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Ethical Influences)"
+        },
+        {
+          "type": "single",
+          "question": "An example of a social force is",
+          "options": [
+            "A. exchange rates",
+            "B. economic growth",
+            "C. health standards",
+            "D. unemployment levels"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Health standards are a social force. They reflect population wellbeing and living conditions.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
+        },
+        {
+          "type": "single",
+          "question": "Threat of new entrants include",
+          "options": [
+            "A. brand identity",
+            "B. differentiation of inputs",
+            "C. supplier concentration",
+            "D. buyer volume"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Brand identity is a barrier to entry. Strong brands make it harder for new firms to enter the market.",
+          "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
+        },
+        {
+          "type": "single",
+          "question": "A limitation or deficiency in one or more resources in comparison to competitors that impede an organization's effective performance is",
+          "options": [
+            "A. opportunity",
+            "B. strength",
+            "C. threat",
+            "D. weakness"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A weakness is a limitation or deficiency inside the company. It holds the organisation back compared to competitors.",
+          "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+        },
+        {
+          "type": "single",
+          "question": "A major unfavourable situation in an organisation's environment is",
+          "options": [
+            "A. opportunity",
+            "B. strength",
+            "C. threat",
+            "D. weakness"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A threat is an unfavourable situation outside the company. It is something the firm must protect itself from.",
+          "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+        },
+        {
+          "type": "single",
+          "question": "Quality assurance is an example of",
+          "options": [
+            "A. marketing and sales",
+            "B. operations",
+            "C. outbound logistic",
+            "D. service"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Quality assurance is part of operations. It ensures products meet quality standards during production.",
+          "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+        },
+        {
+          "type": "single",
+          "question": "Legal and regulatory affairs are activities under",
+          "options": [
+            "A. general administration",
+            "B. human resource management",
+            "C. operations",
+            "D. systems development"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Legal and regulatory affairs are part of general administration. This is a support activity in the value chain.",
+          "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+        },
+        {
+          "type": "single",
+          "question": "The first stage of multinationalization is",
+          "options": [
+            "A. exporting",
+            "B. joint venture",
+            "C. licensing",
+            "D. wholly owned assembly"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Exporting is the first stage of multinationalization. It is the simplest way to enter foreign markets.",
+          "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+        },
+        {
+          "type": "single",
+          "question": "A strategic business unit with low market share and low market growth is a",
+          "options": [
+            "A. cash cow",
+            "B. dog",
+            "C. question mark",
+            "D. star"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A dog has low market share and low growth. These units often become cash traps.",
+          "reference": "Unit 4, Session 4, 4.2 - Boston Consulting Group Matrix"
+        },
+        {
+          "type": "single",
+          "question": "The stage in a product's life cycle where the product is widely known and sales grow rapidly is",
+          "options": [
+            "A. decline",
+            "B. growth",
+            "C. maturity",
+            "D. introduction"
+          ],
+          "correctAnswer": "B",
+          "explanation": "In the growth stage, the product is well known and sales grow rapidly. Many new competitors enter the market.",
+          "reference": "Unit 6, Session 1, 1.2 - Marketing Issues (The Product Life Cycle)"
+        },
+        {
+          "type": "single",
+          "question": "According to Michael Porter, generic strategies are ______",
+          "options": [
+            "A. three",
+            "B. four",
+            "C. five",
+            "D. six"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Porter identified five generic strategies. These include low-cost, differentiation, and focus strategies.",
+          "reference": "Unit 4, Session 1, 1.2 - Generic Strategies"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "The most visible and public part of the strategic management process is ______.",
-            "options": [
-              "core value",
-              "mission statement",
-              "objective",
-              "vision statement"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The mission statement is the most public part of strategic management. It tells everyone what the company stands for and aims to achieve.",
-            "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+            "label": "Question 1",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four non-financial benefits organization derive from strategic management.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Non-financial benefits help the organisation work better and grow stronger.",
+                  "mainPoints": [
+                    {
+                      "heading": "Enhanced awareness of environmental threats",
+                      "detail": "Managers become more alert to risks outside the company."
+                    },
+                    {
+                      "heading": "Improved understanding of competitors' strategies",
+                      "detail": "The firm can better predict what rivals will do."
+                    },
+                    {
+                      "heading": "Increased employee productivity",
+                      "detail": "Workers become more efficient and effective."
+                    },
+                    {
+                      "heading": "Reduced resistance to change",
+                      "detail": "Employees become more willing to accept new ways of working."
+                    }
+                  ],
+                  "conclusion": "These benefits help the organisation build a stronger competitive position.",
+                  "otherPossibleAnswers": "Clearer understanding of performance-reward relationships. Enhanced problem prevention capabilities.",
+                  "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Identify and explain the levels of strategic management.",
+                "marks": 12,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Strategic management is carried out at three levels in an organisation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Corporate Level",
+                      "detail": "This is the highest level of decision-making. It includes the board of directors and chief executives. They decide which businesses the firm should be in."
+                    },
+                    {
+                      "heading": "Business Level",
+                      "detail": "This is the middle level of decision-making. Business managers decide how to compete in each market. They set objectives for individual divisions or SBUs."
+                    },
+                    {
+                      "heading": "Functional Level",
+                      "detail": "This is the lowest level of decision-making. Functional managers develop short-term strategies. They focus on areas like production, finance, and marketing."
+                    }
+                  ],
+                  "conclusion": "Each level has different responsibilities but works together to achieve the organisation's goals.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.1, 4.2, 4.3 - Corporate Level, Business Level, Functional Level"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "An element in a mission statement which tells where the firm competes is ______.",
-            "options": [
-              "customers",
-              "market",
-              "product",
-              "technology"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The market element of a mission statement identifies where the firm competes. It defines the geographic or customer segments the company targets.",
-            "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+            "label": "Question 2",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four reasons to justify the need for written mission statement for an organization.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "A written mission statement is important for guiding the organisation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Ensures unanimity of purpose within the organisation",
+                      "detail": "Everyone works toward the same goals."
+                    },
+                    {
+                      "heading": "Provides a basis for allocating resources",
+                      "detail": "The mission helps decide where to put money and effort."
+                    },
+                    {
+                      "heading": "Establishes a general tone or organisational climate",
+                      "detail": "It sets the culture and values of the company."
+                    },
+                    {
+                      "heading": "Serves as a focal point for individuals",
+                      "detail": "People can identify with the organisation's purpose and direction."
+                    }
+                  ],
+                  "conclusion": "A clear mission statement helps the organisation stay focused and unified.",
+                  "otherPossibleAnswers": "Facilitates translation of objectives into work structure. Specifies purposes for assessment and control.",
+                  "reference": "Unit 2, Session 1, 1.2 - The Importance of a Mission Statement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "List four components of a mission statement.",
+                "marks": 4,
+                "commandWord": "List",
+                "answer": {
+                  "introduction": "A mission statement includes several key components.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customers",
+                      "detail": "Defines who the organisation serves."
+                    },
+                    {
+                      "heading": "Products or services",
+                      "detail": "Specifies what the organisation offers."
+                    },
+                    {
+                      "heading": "Markets",
+                      "detail": "Indicates where the organisation competes."
+                    },
+                    {
+                      "heading": "Technology",
+                      "detail": "Identifies the technological approaches used."
+                    }
+                  ],
+                  "conclusion": "These components define what the company does and who it serves.",
+                  "otherPossibleAnswers": "Concern for survival, growth, and profitability. Philosophy. Self-concept. Concern for public image. Concern for employees.",
+                  "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain four features of a good organisational objective.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Good organisational objectives follow the SMART criteria.",
+                  "mainPoints": [
+                    {
+                      "heading": "Specific",
+                      "detail": "The objective should state clearly what you want to achieve. It should leave no room for confusion."
+                    },
+                    {
+                      "heading": "Measurable",
+                      "detail": "The objective must be easy to measure. You should know when you have reached it."
+                    },
+                    {
+                      "heading": "Achievable",
+                      "detail": "The objective must be realistic with available resources. Do not set targets that are impossible to reach."
+                    },
+                    {
+                      "heading": "Time-bound",
+                      "detail": "The objective must have a clear deadline. Otherwise, it is impossible to measure success."
+                    }
+                  ],
+                  "conclusion": "SMART objectives help the organisation focus and achieve its goals.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "To increase overall sales in order to decrease the risk of business failure as an objective reflects ______.",
-            "options": [
-              "corporate image",
-              "market growth",
-              "profitability",
-              "survival"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Market growth means increasing total sales. Growing sales helps spread risk and makes the business more stable.",
-            "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "What is a multinational company?",
+                "marks": 4,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "A multinational company operates in more than one country.",
+                  "mainPoints": [
+                    {
+                      "heading": "It has significant operations in multiple countries",
+                      "detail": "The company investing is the parent company. The other country is called the host country."
+                    },
+                    {
+                      "heading": "It develops a unified strategy",
+                      "detail": "A multinational company develops a unified strategy for all its operations."
+                    }
+                  ],
+                  "conclusion": "A multinational company thinks and acts globally.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State three reasons for rising international expansion of business operations.",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Many companies expand internationally for several key reasons.",
+                  "mainPoints": [
+                    {
+                      "heading": "To capitalise on growth opportunities",
+                      "detail": "Companies find new customers and markets overseas. This helps them grow faster."
+                    },
+                    {
+                      "heading": "To take advantage of cost differences",
+                      "detail": "Different countries have different resource costs. Companies can save money by operating in cheaper locations."
+                    },
+                    {
+                      "heading": "To gain economies of scale",
+                      "detail": "Bigger markets mean larger production runs. This lowers costs per unit and increases profits."
+                    }
+                  ],
+                  "conclusion": "These reasons help companies grow and compete better globally.",
+                  "otherPossibleAnswers": "To protect the home base market from foreign competitors.",
+                  "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain each of the following strategies:",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Growth strategies help firms expand their operations and market presence.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market Penetration",
+                      "detail": "This is a growth strategy using existing products in existing markets. It seeks to increase market share for current products through greater marketing efforts, such as more sales people or more advertising."
+                    },
+                    {
+                      "heading": "Market Development",
+                      "detail": "This means entering new geographic areas with existing products. It introduces present products to new areas, which can mean new regions or new countries. International expansion is a common form."
+                    },
+                    {
+                      "heading": "Product Development",
+                      "detail": "This means creating new products for existing markets. It involves offering new or improved products for the current customer base. It keeps the product line fresh and competitive."
+                    },
+                    {
+                      "heading": "Concentric Diversification",
+                      "detail": "This means adding related new products. The new products are related to existing ones and may use similar technology or marketing. It spreads risk while staying in familiar areas."
+                    }
+                  ],
+                  "conclusion": "Each growth strategy offers different ways for firms to expand their business.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The discretionary obligation of a business to society is ______.",
-            "options": [
-              "economic responsibility",
-              "ethical responsibility",
-              "legal responsibility",
-              "social responsibility"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Discretionary responsibilities are voluntary actions like philanthropy. They are also called social responsibilities.",
-            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
-          },
-          {
-            "type": "single",
-            "question": "The pressure exerted by special interest groups in society to control business practices is",
-            "options": [
-              "competitive influence",
-              "ethical influence",
-              "legal influence",
-              "political influence"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Political influence comes from special interest groups. They use lobbying and pressure to control business behaviour.",
-            "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Political Influences)"
-          },
-          {
-            "type": "single",
-            "question": "The rate at which a firm's resources, capabilities depreciate or become obsolete is ______",
-            "options": [
-              "durability",
-              "imitability",
-              "scarce",
-              "substitutability"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Durability measures how long a resource stays useful. Technology can make a core competency obsolete quickly.",
-            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
-          },
-          {
-            "type": "single",
-            "question": "A favourable situation in a firm's environment is ______ .",
-            "options": [
-              "opportunity",
-              "strength",
-              "threat",
-              "weakness"
-            ],
-            "correctAnswer": "A",
-            "explanation": "An opportunity is a favourable factor in the external environment.",
-            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
-          },
-          {
-            "type": "single",
-            "question": "The value chain recognizes that customer value is derived from ______ sources.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Customer value comes from three sources. These are activities that differentiate the product, lower its costs, and meet customer needs quickly.",
-            "reference": "Unit 3, Session 5, 5.1 - The Concept of Value Chain"
-          },
-          {
-            "type": "single",
-            "question": "Primary activities in the value chain begins with ______ inbound logistics.",
-            "options": [
-              "marketing and sales",
-              "operations",
-              "operations",
-              "outbound logistics"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Inbound logistics is the first primary activity. It covers receiving, storing, and managing inputs from suppliers.",
-            "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
-          },
-          {
-            "type": "single",
-            "question": "Establishing foreign manufacturing facilities occur at the ______ stage of multinationalization.",
-            "options": [
-              "second",
-              "third",
-              "fourth",
-              "fifth"
-            ],
-            "correctAnswer": "C",
-            "explanation": "A company establishes foreign manufacturing facilities at Stage IV. This is the fourth step in becoming a multinational company.",
-            "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
-          },
-          {
-            "type": "single",
-            "question": "As a systematic process, strategic management starts with ______.",
-            "options": [
-              "analysis of the internal environment",
-              "assessment of external environment",
-              "establishing a business mission statement",
-              "development of annual objectives"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Strategic management starts with establishing the mission statement. This provides the foundation for all other activities.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "An example of financial benefit from strategic management is ______.",
-            "options": [
-              "increased employee productivity",
-              "increased profitability",
-              "reduced resistance to change",
-              "understanding of competitor's strategies"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Increased profitability is a financial benefit. Strategic management helps organisations become more profitable over time.",
-            "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
-          },
-          {
-            "type": "single",
-            "question": "The top level of decision making hierarchy of an organization is ______.",
-            "options": [
-              "business unit level",
-              "corporate level",
-              "functional level",
-              "operational level"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The corporate level is at the top of the hierarchy. It consists of the board of directors and chief executives.",
-            "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
-          },
-          {
-            "type": "single",
-            "question": "An activity at the evaluation stage of strategic management is ______.",
-            "options": [
-              "allocation resources",
-              "devising policies",
-              "establishing objectives",
-              "measuring performance"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Measuring performance is an evaluation activity. It helps the firm track progress against its goals.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "The overall goal of an organization is its ______.",
-            "options": [
-              "core value",
-              "mission",
-              "objective",
-              "vision"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The mission is the overall goal of the organisation. It gives direction and purpose to all decisions and actions.",
-            "reference": "Unit 2, Session 1, 1.1 - Developing the Organisation's Strategic Vision and Mission"
-          },
-          {
-            "type": "single",
-            "question": "The ethical standard requiring business organizations to act in a way that results in the greatest good to the greatest number is the ______.",
-            "options": [
-              "golden rule",
-              "professional ethic",
-              "tv test",
-              "utilitarian principle"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The utilitarian principle says to act for the greatest good for the greatest number. It is one of the five ethical standards.",
-            "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Ethical Influences)"
-          },
-          {
-            "type": "single",
-            "question": "Patents, trademarks and copyright are factors under the",
-            "options": [
-              "economic forces",
-              "political forces",
-              "social forces",
-              "technological forces"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Patents and copyrights are part of the technological environment. They protect new products and production methods.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Technological Forces)"
-          },
-          {
-            "type": "single",
-            "question": "An example of demographic force is",
-            "options": [
-              "exchange rate",
-              "health standards",
-              "production technique",
-              "interest rate"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Health standards are a demographic force. Demographics include population characteristics like health and education levels.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "The forces of competition can be categorized into",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Porter identifies five forces of competition. These determine how intense competition is in an industry.",
-            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
-          },
-          {
-            "type": "single",
-            "question": "A determinant of bargaining power of suppliers is",
-            "options": [
-              "buyer switching cost",
-              "brand identity",
-              "differentiation of inputs",
-              "performance of substitutes"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Differentiation of inputs gives suppliers power. If inputs are unique, suppliers can charge higher prices.",
-            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition (Bargaining Power of Suppliers)"
+            "label": "Question 4",
+            "totalMarks": 12,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four ways in which policies aid the implementation of a firm's strategy.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Policies help guide behaviour during strategy implementation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Establish indirect control over independent action",
+                      "detail": "They guide decisions without direct supervision."
+                    },
+                    {
+                      "heading": "Promote uniform handling of similar activities",
+                      "detail": "This reduces favouritism and discrimination."
+                    },
+                    {
+                      "heading": "Ensure quicker decisions",
+                      "detail": "Standard answers save time on recurring problems."
+                    },
+                    {
+                      "heading": "Reduce uncertainty in daily decision-making",
+                      "detail": "This provides a foundation for coordinated efforts."
+                    }
+                  ],
+                  "conclusion": "Policies make strategy implementation smoother and more consistent.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.3 - Developing and Communicating Concise Policies"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State two factors that influence the extent of centralization or decentralization.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Several factors affect how much authority is centralised or decentralised.",
+                  "mainPoints": [
+                    {
+                      "heading": "The size of the organisation",
+                      "detail": "Larger organisations tend to decentralise more."
+                    },
+                    {
+                      "heading": "Geographic location of operations",
+                      "detail": "Distant locations often need more local decision-making."
+                    }
+                  ],
+                  "conclusion": "These factors help managers decide the right balance of centralisation.",
+                  "otherPossibleAnswers": "Homogeneity of products and services. Technology of the tasks involved. Speed needed for decisions. Stability of the external environment.",
+                  "reference": "Unit 5, Session 3, 3.2 - Determinants of Extent of Centralization and Decentralization"
+                }
+              },
+              {
+                "label": "C",
+                "question": "With the aid of a suitable diagram, explain functional organization structure.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The functional structure groups activities by business function.",
+                  "mainPoints": [
+                    {
+                      "heading": "Activities are grouped by function",
+                      "detail": "Common functions are marketing, finance, and production."
+                    },
+                    {
+                      "heading": "Used by small firms and larger firms with limited products",
+                      "detail": "It works well when products are few and related."
+                    },
+                    {
+                      "heading": "More suitable in a stable environment",
+                      "detail": "The structure is generally centralised."
+                    },
+                    {
+                      "heading": "The strategic leader controls corporate and competitive strategies",
+                      "detail": "They make the key decisions for the organisation."
+                    }
+                  ],
+                  "conclusion": "The functional structure is simple and efficient for stable businesses.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.1 - Basic Structure for Organizational Design"
+                }
+              }
+            ]
           }
         ]
       }

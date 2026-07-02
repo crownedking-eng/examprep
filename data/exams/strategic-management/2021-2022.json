@@ -1,272 +1,630 @@
 {
-  "subject": "Business Strategic Management",
+  "subject": "Strategic Management",
+  "subjectCode": "SBU 402D",
   "academicYear": "2021/2022",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "An unprofitable strategic business unit is ______.",
+          "options": [
+            "A. cash cow",
+            "B. dog",
+            "C. problem child",
+            "D. star"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A dog has low market share and low growth. These units are often unprofitable and become cash traps.",
+          "reference": "Unit 4, Session 4, 4.2 - Boston Consulting Group Matrix"
+        },
+        {
+          "type": "single",
+          "question": "The main levels of strategic management can divided into ______.",
+          "options": [
+            "A. two",
+            "B. three",
+            "C. four",
+            "D. five"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic management has three levels. These are corporate, business, and functional.",
+          "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+        },
+        {
+          "type": "single",
+          "question": "All of the following are factors of strategic issues except they ______.",
+          "options": [
+            "A. affect the firm's long-term prosperity",
+            "B. relate to the short-term",
+            "C. require large amount of the firm's resources",
+            "D. require management support"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic issues focus on the long-term, not short-term. They affect the company's future prosperity.",
+          "reference": "Unit 1, Session 2, 2.1 - Typical Strategic Issues"
+        },
+        {
+          "type": "single",
+          "question": "A non-financial benefit from strategic management is ______.",
+          "options": [
+            "A. improvement in productivity",
+            "B. improvements in sales",
+            "C. increased profitability",
+            "D. minimizes ill effects of changes"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Improved productivity is a non-financial benefit. It helps the company work more efficiently.",
+          "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is an activity under strategic management?",
+          "options": [
+            "A. analyzing the external environment",
+            "B. choosing among alternatives",
+            "C. establishing a business mission",
+            "D. establishing annual objectives"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Analysing the external environment is a key strategic management activity. It helps identify opportunities and threats.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        },
+        {
+          "type": "single",
+          "question": "A component of firm's mission statement which indicates where it competes is ______.",
+          "options": [
+            "A. customer",
+            "B. market",
+            "C. self concept",
+            "D. technology"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The market component tells where the firm competes. It defines the geographic or customer segments the company targets.",
+          "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+        },
+        {
+          "type": "single",
+          "question": "A mission statement focusing superior leadership, compensation on the basis of performance and opportunity for growth reflects ______.",
+          "options": [
+            "A. concern for employees",
+            "B. concern for growth",
+            "C. customers",
+            "D. services"
+          ],
+          "correctAnswer": "A",
+          "explanation": "These factors relate to how the company treats its workers. This shows concern for employees.",
+          "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+        },
+        {
+          "type": "single",
+          "question": "A target that an organization is attempting to reach is ______.",
+          "options": [
+            "A. mission",
+            "B. objective",
+            "C. policy",
+            "D. strategy"
+          ],
+          "correctAnswer": "B",
+          "explanation": "An objective is a specific target. It is what the organisation aims to achieve.",
+          "reference": "Unit 2, Session 3, 3.1 - Establishing Organisational Objectives"
+        },
+        {
+          "type": "single",
+          "question": "An operational objective reflects the objective is ______.",
+          "options": [
+            "A. achievable",
+            "B. consistent",
+            "C. measurable",
+            "D. specific"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Measurable means you can track progress. This makes the objective useful because you know when you have reached it.",
+          "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+        },
+        {
+          "type": "single",
+          "question": "A business objective expressed in terms of volume of sales is about ______.",
+          "options": [
+            "A. customer service",
+            "B. financial resources",
+            "C. market",
+            "D. product"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Sales volume relates to the market. It shows how much the company is selling in its target market.",
+          "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+        },
+        {
+          "type": "single",
+          "question": "Voluntary obligations business organizations assume are ______ responsibilities.",
+          "options": [
+            "A. discretionary",
+            "B. economic",
+            "C. ethical",
+            "D. social"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Discretionary responsibilities are voluntary. They include charitable giving and community support.",
+          "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+        },
+        {
+          "type": "single",
+          "question": "Changes in governments and their priorities and legislation programmes are ______.",
+          "options": [
+            "A. economic",
+            "B. political",
+            "C. social",
+            "D. technological"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Political factors include government changes and legislation. These affect how businesses operate.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Political Forces)"
+        },
+        {
+          "type": "single",
+          "question": "A strategy that seeks increased sales by improving or modifying present products within existing customer groups is ______.",
+          "options": [
+            "A. diversification",
+            "B. market development",
+            "C. market penetration",
+            "D. product development"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Product development means improving or modifying existing products. This encourages current customers to buy more.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        },
+        {
+          "type": "single",
+          "question": "Selling all of a company's assets, in parts, for their tangible worth is ______.",
+          "options": [
+            "A. diversification",
+            "B. liquidation",
+            "C. pruning",
+            "D. retrenchment"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Liquidation means selling all company assets in parts. It is a recognition of defeat and used to minimise losses.",
+          "reference": "Unit 4, Session 2, 2.4 - Defensive/Harvesting Strategies"
+        },
+        {
+          "type": "single",
+          "question": "Guidelines for managers actions are ______.",
+          "options": [
+            "A. objectives",
+            "B. policies",
+            "C. strategies",
+            "D. tactics"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Policies are guidelines for decision-making. They tell managers how to handle specific situations.",
+          "reference": "Unit 5, Session 1, 1.3 - Developing and Communicating Concise Policies"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following organization structure can provide both technological expertise within functions and horizontal coordination by product line?",
+          "options": [
+            "A. functional",
+            "B. geographic",
+            "C. matrix",
+            "D. product"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The matrix structure combines functional and product structures. It provides both technical expertise and product coordination.",
+          "reference": "Unit 5, Session 4, 4.1 - Basic Structure for Organizational Design"
+        },
+        {
+          "type": "single",
+          "question": "An example of organizational policies and practices as sources of ineffective performance is ______.",
+          "options": [
+            "A. excessive workload",
+            "B. financial worries",
+            "C. unclear reporting relationships",
+            "D. union-management conflict"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Unclear reporting relationships are a policy issue. Poor policies can make performance ineffective.",
+          "reference": "Unit 6, Session 4, 4.1 - Problems of Successful Implementation of Strategies"
+        },
+        {
+          "type": "single",
+          "question": "The first stage in strategic management is ______.",
+          "options": [
+            "A. control",
+            "B. evaluation",
+            "C. formulation",
+            "D. implementation"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Formulation is the first stage. It involves designing and selecting strategies.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        },
+        {
+          "type": "single",
+          "question": "Policies are established during strategy ______.",
+          "options": [
+            "A. control",
+            "B. evaluation",
+            "C. formulation",
+            "D. implementation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Policies are established during implementation. They guide managers in putting strategies into action.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        },
+        {
+          "type": "single",
+          "question": "The easiest, cheapest and most commonly used route into a new foreign market is ______.",
+          "options": [
+            "A. exporting",
+            "B. joint venture",
+            "C. licensing",
+            "D. wholly owned overseas operation"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Exporting is the easiest and cheapest market entry method. It is the most common route into foreign markets.",
+          "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "Taxation and unemployment are examples of ______ force.",
-            "options": [
-              "economic",
-              "legal",
-              "political",
-              "social"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Taxation and unemployment are economic factors. They affect how much money people have to spend and how businesses operate.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
+            "label": "Question 1",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "What is strategic management?",
+                "marks": 4,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "Strategic management is the process of setting and achieving organisational goals.",
+                  "mainPoints": [
+                    {
+                      "heading": "It involves formulating, implementing, and evaluating decisions",
+                      "detail": "These decisions help the organisation achieve its objectives."
+                    },
+                    {
+                      "heading": "It focuses on integrating different business functions",
+                      "detail": "Strategic management coordinates all parts of the organisation toward common goals."
+                    }
+                  ],
+                  "conclusion": "Strategic management helps the organisation succeed in the long run.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1, 1.1 - The Meaning of Strategic Management"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Outline three features of typical strategic issues in organizations.",
+                "marks": 6,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Strategic issues are important decisions that affect the organisation's future.",
+                  "mainPoints": [
+                    {
+                      "heading": "They require top-management decisions",
+                      "detail": "Top managers have the broad view needed for major strategic decisions."
+                    },
+                    {
+                      "heading": "They require large amounts of resources",
+                      "detail": "Strategic decisions commit substantial money, people, and assets."
+                    },
+                    {
+                      "heading": "They affect long-term prosperity",
+                      "detail": "Once a firm commits to a strategy, its image and position are tied to it."
+                    }
+                  ],
+                  "conclusion": "Strategic issues are major decisions that shape the company's future.",
+                  "otherPossibleAnswers": "They are future oriented. They have multifunctional consequences. They require considering the external environment.",
+                  "reference": "Unit 1, Session 2, 2.1 - Typical Strategic Issues"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State four non-financial benefits of strategic management to organizations.",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Non-financial benefits help the organisation work better and grow stronger.",
+                  "mainPoints": [
+                    {
+                      "heading": "Enhanced awareness of environmental threats",
+                      "detail": "Managers become more alert to risks outside the company."
+                    },
+                    {
+                      "heading": "Improved understanding of competitors' strategies",
+                      "detail": "The firm can better predict what rivals will do."
+                    },
+                    {
+                      "heading": "Increased employee productivity",
+                      "detail": "Workers become more efficient and effective."
+                    },
+                    {
+                      "heading": "Reduced resistance to change",
+                      "detail": "Employees become more willing to accept new ways of working."
+                    }
+                  ],
+                  "conclusion": "These benefits help the organisation build a stronger competitive position.",
+                  "otherPossibleAnswers": "Clearer understanding of performance-reward relationships. Enhanced problem prevention capabilities.",
+                  "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The responsibility of a business organization can be classified into ______ categories.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "C",
-            "explanation": "According to Archie Carroll, businesses have four responsibilities. These are economic, legal, ethical, and discretionary.",
-            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+            "label": "Question 2",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "List four components of a mission statement.",
+                "marks": 4,
+                "commandWord": "List",
+                "answer": {
+                  "introduction": "A mission statement includes several key components.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customers",
+                      "detail": "Defines who the organisation serves."
+                    },
+                    {
+                      "heading": "Products or services",
+                      "detail": "Specifies what the organisation offers."
+                    },
+                    {
+                      "heading": "Markets",
+                      "detail": "Indicates where the organisation competes."
+                    },
+                    {
+                      "heading": "Technology",
+                      "detail": "Identifies the technological approaches used."
+                    }
+                  ],
+                  "conclusion": "These components define what the company does and who it serves.",
+                  "otherPossibleAnswers": "Concern for survival, growth, and profitability. Philosophy. Self-concept. Concern for public image. Concern for employees.",
+                  "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Write an example of how organizational objectives can be stated for each of the following:",
+                "marks": 6,
+                "commandWord": "Write example",
+                "answer": {
+                  "introduction": "Objectives for different areas focus on specific targets.",
+                  "mainPoints": [
+                    {
+                      "heading": "Markets",
+                      "detail": "\"Increase market share by 10% in the next two years.\" or \"Expand into three new African countries by 2024.\""
+                    },
+                    {
+                      "heading": "Physical facilities",
+                      "detail": "\"Build a new factory to increase production capacity by 30%.\" or \"Upgrade all office equipment within the next 12 months.\""
+                    },
+                    {
+                      "heading": "Customer service",
+                      "detail": "\"Achieve a 90% customer satisfaction rating this year.\" or \"Respond to all customer complaints within 24 hours.\""
+                    }
+                  ],
+                  "conclusion": "These examples show how to make objectives specific and measurable.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.1 - Establishing Organisational Objectives"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State five concerns businesses should have for their employees.",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Businesses have important responsibilities toward their employees.",
+                  "mainPoints": [
+                    {
+                      "heading": "Employees must be paid a fair wage",
+                      "detail": "Workers deserve compensation that matches their contribution."
+                    },
+                    {
+                      "heading": "The work environment must be safe",
+                      "detail": "Employees should not face unnecessary health or safety risks."
+                    },
+                    {
+                      "heading": "Workers must be treated fairly without discrimination",
+                      "detail": "Hiring and promotion should be based on merit."
+                    },
+                    {
+                      "heading": "Employees should have opportunities for growth",
+                      "detail": "Training and development help workers advance."
+                    },
+                    {
+                      "heading": "Workers should be respected and valued",
+                      "detail": "Companies should create a positive work culture."
+                    }
+                  ],
+                  "conclusion": "These concerns help create a motivated and loyal workforce.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.1 - Specific Areas of Social Responsibility"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "All of the following are responsibilities of Board of Directors except ______.",
-            "options": [
-              "controlling the use of assets",
-              "hiring Chief Executive Officer",
-              "initiating strategic planning",
-              "supervising operative core"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The board supervises top management, not operative employees. Supervising operatives is a management function.",
-            "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
+            "label": "Question 3",
+            "totalMarks": 18,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain each of the following internationally oriented strategies:",
+                "marks": 9,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Companies use different strategies to enter foreign markets.",
+                  "mainPoints": [
+                    {
+                      "heading": "Direct investment",
+                      "detail": "This means building or buying operations in a foreign country. It shows the fullest commitment to a foreign market. The company can build a new facility from scratch or acquire an existing firm. This gives the company full control over operations."
+                    },
+                    {
+                      "heading": "Exporting",
+                      "detail": "This means selling products to foreign countries. It is the easiest and cheapest way to enter foreign markets. It represents the initial stage of internationalisation. The company ships products to customers abroad."
+                    },
+                    {
+                      "heading": "Joint venture",
+                      "detail": "This is a partnership between two or more firms. The firms create a separate organisation together. They share ownership of the new entity. It helps reduce costs and risks in new markets and can be used to enter foreign markets."
+                    }
+                  ],
+                  "conclusion": "Each strategy offers different levels of commitment and risk.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain two advantages of global diversification.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Global diversification means spreading business across different countries.",
+                  "mainPoints": [
+                    {
+                      "heading": "It reduces risk through geographic spread",
+                      "detail": "If one country's economy is weak, others may be strong."
+                    },
+                    {
+                      "heading": "It provides access to new growth opportunities",
+                      "detail": "Different markets have different growth rates and needs."
+                    }
+                  ],
+                  "conclusion": "Global diversification makes the business more stable and profitable.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Distinguish between charity principle and stewardship principle.",
+                "marks": 5,
+                "commandWord": "Distinguish",
+                "answer": {
+                  "introduction": "These are two principles guiding business social responsibility.",
+                  "mainPoints": [
+                    {
+                      "heading": "Charity principle means giving voluntarily to help others",
+                      "detail": "The company chooses to support good causes."
+                    },
+                    {
+                      "heading": "Stewardship principle means managing resources for the public good",
+                      "detail": "The company has a duty to protect resources for society."
+                    },
+                    {
+                      "heading": "Charity is optional while stewardship is a broader responsibility",
+                      "detail": "Charity is optional and discretionary, while stewardship is seen as a duty to manage resources well for the public good."
+                    }
+                  ],
+                  "conclusion": "Charity is voluntary giving, while stewardship is a duty to manage resources well.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "A favourable situation in a firm's external environments is ______.",
-            "options": [
-              "opportunity",
-              "strength",
-              "threat",
-              "weakness"
-            ],
-            "correctAnswer": "A",
-            "explanation": "An opportunity is a favourable factor outside the company. It is a positive situation the firm can use to its advantage.",
-            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
-          },
-          {
-            "type": "single",
-            "question": "Multinationalization begins with ______.",
-            "options": [
-              "establishment of foreign manufacturing facilities",
-              "establishment of sales organizations",
-              "exports of products",
-              "increase in use of patents in foreign firms"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Companies begin going global by exporting products. It is the simplest and cheapest route into foreign markets.",
-            "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
-          },
-          {
-            "type": "single",
-            "question": "The strategic management process has ______ stages.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Strategic management has three main stages. These are strategy formulation, strategy implementation, and strategy evaluation.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "Strategy formulation starts with ______.",
-            "options": [
-              "choosing among alternative strategies",
-              "establishing a business mission",
-              "establishing objective",
-              "SWOT Analysis"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Strategy formulation begins with establishing the mission. The mission gives the company its purpose and direction.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "The strategic management process ends with ______.",
-            "options": [
-              "allocating resources",
-              "establishing objectives",
-              "evaluation and control",
-              "identifying mission"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Evaluation and control is the final stage. Managers review performance and make corrections as needed.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "Beliefs, values and attitudes are examples of factors in the ______ environment.",
-            "options": [
-              "economic",
-              "legal",
-              "political",
-              "social"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Beliefs, values, and attitudes are social factors. They are part of the social and cultural environment.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "Organizational sources can be categorized into",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Organisational resources fall into three categories. These are tangible assets, intangible assets, and organisational capabilities.",
-            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
-          },
-          {
-            "type": "single",
-            "question": "A resource is valuable if it",
-            "options": [
-              "Can be imitated",
-              "has substitutes",
-              "is not durable",
-              "is scarce"
-            ],
-            "correctAnswer": "D",
-            "explanation": "A valuable resource is scarce. Scarcity makes it hard for competitors to get.",
-            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
-          },
-          {
-            "type": "single",
-            "question": "A ratio used to measure long term solvency of an organization is",
-            "options": [
-              "activity",
-              "gearing",
-              "legal",
-              "profitability"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Gearing (or debt-to-equity) measures long-term solvency. It shows how much debt the company has compared to owner's equity.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "The first of the critical tasks of strategic management is",
-            "options": [
-              "Assessment of the organization's external environment",
-              "conducting an analysis of the organization's internal environment",
-              "developing annual objectives",
-              "formulation of the organization's mission"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The first critical task is to formulate the mission. This provides the foundation for all other strategic activities.",
-            "reference": "Unit 1, Session 1, 1.2 - The Critical Tasks of Strategic Management"
-          },
-          {
-            "type": "single",
-            "question": "Top of the decision making hierarchy of an organization is",
-            "options": [
-              "Business level",
-              "Corporate level",
-              "Functional level",
-              "Operational level"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The corporate level is at the top of the hierarchy. It consists of the board of directors and chief executives.",
-            "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
-          },
-          {
-            "type": "single",
-            "question": "Mobilizing employees and managers to put strategies into action is",
-            "options": [
-              "strategy evaluation",
-              "strategy formulation",
-              "strategy implementation",
-              "strategy revision"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Implementation means mobilising employees to put strategies into action. This is the second stage of strategic management.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "National, regional and local legislation are examples of ______ influence in business.",
-            "options": [
-              "competitive",
-              "ethical",
-              "legal",
-              "political"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Legislation is a legal influence. Laws at all levels of government regulate business practices.",
-            "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Legal Influences)"
-          },
-          {
-            "type": "single",
-            "question": "A person acting in the way he would expect others to act towards him affects the ______.",
-            "options": [
-              "golden rule",
-              "professional ethic",
-              "TV test",
-              "utilitarian principle"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The Golden Rule is 'treat others as you want to be treated.' This is a standard for ethical behaviour.",
-            "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Ethical Influences)"
-          },
-          {
-            "type": "single",
-            "question": "Changes in governments and their priorities and legislation programme refers to ______.",
-            "options": [
-              "economic factors",
-              "political factors",
-              "socio-cultural factors",
-              "technological factors"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Political factors relate to changes in governments. They include legislation programmes and government priorities.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Political Forces)"
-          },
-          {
-            "type": "single",
-            "question": "All the following factors influence bargaining power of buyers except ______.",
-            "options": [
-              "ability to backward integrate",
-              "brand identity",
-              "substitute products",
-              "switching cost"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Brand identity influences rivalry among competitors, not buyer power. Buyer power is affected by switching costs, substitutes, and integration ability.",
-            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
-          },
-          {
-            "type": "single",
-            "question": "A regulatory agency in Ghana responsible for developing policy to promote worker safety and health and investigate infractions is ______.",
-            "options": [
-              "Forestry Commission",
-              "Ghana Standards Authority",
-              "Labour Commission",
-              "Public Utilities Regulatory Commission"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The Labour Commission handles worker safety and health. They also investigate workplace violations and infractions.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Political Forces)"
+            "label": "Question 4",
+            "totalMarks": 14,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four advantages of organizational policies.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Policies are guidelines that help managers make decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "They control decisions without direct supervision",
+                      "detail": "Policies limit discretion and guide behaviour clearly."
+                    },
+                    {
+                      "heading": "They promote uniform handling of activities",
+                      "detail": "This reduces favouritism and discrimination."
+                    },
+                    {
+                      "heading": "They ensure quicker decisions",
+                      "detail": "Standard answers to common problems save time."
+                    },
+                    {
+                      "heading": "They reduce uncertainty in daily decisions",
+                      "detail": "This provides a foundation for coordinated efforts."
+                    }
+                  ],
+                  "conclusion": "Policies make organisations run more efficiently and consistently.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.3 - Developing and Communicating Concise Policies"
+                }
+              },
+              {
+                "label": "B",
+                "question": "With the aid of a diagram, explain functional organization structure.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The functional structure groups activities by business function.",
+                  "mainPoints": [
+                    {
+                      "heading": "Activities are grouped by function",
+                      "detail": "Common functions are marketing, finance, and production."
+                    },
+                    {
+                      "heading": "Used by small firms and larger firms with limited products",
+                      "detail": "It works well when products are few and related."
+                    },
+                    {
+                      "heading": "More suitable in a stable environment",
+                      "detail": "The structure is generally centralised."
+                    },
+                    {
+                      "heading": "The strategic leader controls corporate and competitive strategies",
+                      "detail": "They make the key decisions for the organisation."
+                    }
+                  ],
+                  "conclusion": "The functional structure is simple and efficient for stable businesses.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.1 - Basic Structure for Organizational Design"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State four problems managers face when implementing strategic management.",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Implementing strategic management can be challenging for managers.",
+                  "mainPoints": [
+                    {
+                      "heading": "Strategy and structure may not match",
+                      "detail": "Products may need to be managed independently but the structure is different."
+                    },
+                    {
+                      "heading": "Information systems may be inadequate",
+                      "detail": "Managers may not know what is really happening."
+                    },
+                    {
+                      "heading": "Change creates uncertainty and risk",
+                      "detail": "New skills may be needed but managers are reluctant to change."
+                    },
+                    {
+                      "heading": "Management systems may be outdated",
+                      "detail": "Compensation and communication systems may not suit new strategies."
+                    }
+                  ],
+                  "conclusion": "These problems can make strategy implementation difficult.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 4, 4.1 - Problems of Successful Implementation of Strategies"
+                }
+              }
+            ]
           }
         ]
       }

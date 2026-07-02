@@ -1,272 +1,560 @@
 {
-  "subject": "Business Strategic Management",
+  "subject": "Strategic Management",
+  "subjectCode": "SBU 402D",
   "academicYear": "2023/2024",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Communication of a company with its target market is part of ______.",
+          "options": [
+            "A. distribution",
+            "B. product",
+            "C. promotion",
+            "D. price"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Promotion involves communicating with customers. This includes advertising and public relations.",
+          "reference": "Unit 6, Session 1, 1.2 - Marketing Issues"
+        },
+        {
+          "type": "single",
+          "question": "An example of commonly used financial measure of the extent to which a firm can meet its short-term obligations is ______.",
+          "options": [
+            "A. inventory turnover",
+            "B. current ratio",
+            "C. net operating margin",
+            "D. earnings per share"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The current ratio measures short-term solvency. It shows if the company can pay its short-term debts.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
+        },
+        {
+          "type": "single",
+          "question": "A company which operates in different territories uses ______ structure.",
+          "options": [
+            "A. geographic",
+            "B. product",
+            "C. functional",
+            "D. matrix"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A geographic structure is used for different territories. It organises activities by location.",
+          "reference": "Unit 5, Session 4, 4.1 - Basic Structure for Organizational Design"
+        },
+        {
+          "type": "single",
+          "question": "A resource is valuable if it ______.",
+          "options": [
+            "A. is scarce",
+            "B. has substitutes",
+            "C. can be imitated",
+            "D. is not durable"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A valuable resource is scarce. Scarcity makes it hard for competitors to get.",
+          "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+        },
+        {
+          "type": "single",
+          "question": "Pressure exerted by special interest groups in society to control business practices is an example of ______ influence.",
+          "options": [
+            "A. competitive",
+            "B. ethical",
+            "C. legal",
+            "D. political"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Political influence comes from special interest groups. They use pressure to control business practices.",
+          "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Political Influences)"
+        },
+        {
+          "type": "single",
+          "question": "Beliefs and attitudes are example of factors in the ______ environment.",
+          "options": [
+            "A. economic",
+            "B. social",
+            "C. political",
+            "D. legal"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Beliefs and attitudes are social factors. They are part of the social and cultural environment.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
+        },
+        {
+          "type": "single",
+          "question": "An unprofitable business unit is described as a ______.",
+          "options": [
+            "A. cash cow",
+            "B. dog",
+            "C. problem child",
+            "D. star"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A dog has low market share and low growth. These units are often unprofitable.",
+          "reference": "Unit 4, Session 4, 4.2 - Boston Consulting Group Matrix"
+        },
+        {
+          "type": "single",
+          "question": "Tracking strategy once it has been implemented, detecting any problem areas, and making any necessary adjustment is ______.",
+          "options": [
+            "A. control",
+            "B. execution",
+            "C. formulation",
+            "D. initiation"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Control involves tracking strategy after implementation. It detects problems and makes adjustments.",
+          "reference": "Unit 6, Session 5, 5.2 - Strategic Controls"
+        },
+        {
+          "type": "single",
+          "question": "The procurement and transformation of raw materials into products is ______.",
+          "options": [
+            "A. marketing",
+            "B. operation",
+            "C. promotion",
+            "D. pricing"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Operations involves procurement and transformation. It turns raw materials into finished products.",
+          "reference": "Unit 6, Session 1, 1.3 - Operations Issues"
+        },
+        {
+          "type": "single",
+          "question": "The product life cycle typically has ______ stages.",
+          "options": [
+            "A. two",
+            "B. three",
+            "C. four",
+            "D. five"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The product life cycle has four stages. These are introduction, growth, maturity, and decline.",
+          "reference": "Unit 6, Session 1, 1.2 - Marketing Issues (The Product Life Cycle)"
+        },
+        {
+          "type": "single",
+          "question": "An organizational structure suitable for a project environment is ______.",
+          "options": [
+            "A. functional",
+            "B. geographic",
+            "C. matrix",
+            "D. product"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The matrix structure works well for projects. It combines functional and product structures.",
+          "reference": "Unit 5, Session 4, 4.1 - Basic Structure for Organizational Design"
+        },
+        {
+          "type": "single",
+          "question": "Changes in governments and their priorities and legislation programme are examples of factors in the ______ environment.",
+          "options": [
+            "A. economic",
+            "B. social",
+            "C. political",
+            "D. legal"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Political factors include government changes and legislation. These affect how businesses operate.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Political Forces)"
+        },
+        {
+          "type": "single",
+          "question": "The most commonly used mode of entry into foreign market is ______.",
+          "options": [
+            "A. exporting",
+            "B. franchising",
+            "C. joint venture",
+            "D. licensing"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Exporting is the most common market entry method. It is the easiest and cheapest route.",
+          "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+        },
+        {
+          "type": "single",
+          "question": "Voluntary obligations carried out by business organizations are ______.",
+          "options": [
+            "A. discretionary",
+            "B. economic",
+            "C. ethical",
+            "D. social"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Discretionary responsibilities are voluntary. They include charitable giving and community support.",
+          "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+        },
+        {
+          "type": "single",
+          "question": "When a firm concentrates on a narrow buyer segment and outcompetes rivals by serving niche market at a lower cost than rivals, it is employing a ______.",
+          "options": [
+            "A. focused strategy based on lower cost",
+            "B. low cost provider strategy",
+            "C. focused strategy based on differentiation",
+            "D. broad differentiation strategy"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A focused low-cost strategy serves a narrow segment. The firm aims to be the lowest cost in that niche.",
+          "reference": "Unit 4, Session 1, 1.2 - Generic Strategies"
+        },
+        {
+          "type": "single",
+          "question": "An organizational structure suitable in a stable environment with centralized corporate strategies is ______.",
+          "options": [
+            "A. functional",
+            "B. geographic",
+            "C. matrix",
+            "D. product"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The functional structure works well in stable environments. It is generally centralised.",
+          "reference": "Unit 5, Session 4, 4.1 - Basic Structure for Organizational Design"
+        },
+        {
+          "type": "single",
+          "question": "The first activity in the strategic management process is ______.",
+          "options": [
+            "A. allocating resources",
+            "B. establishing a business mission",
+            "C. establishing annual objectives",
+            "D. reviewing internal and external factors"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic management begins with establishing the mission. This gives the organisation its purpose and direction.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        },
+        {
+          "type": "single",
+          "question": "A harvesting strategy which involves selling a division or part of an organization is ______.",
+          "options": [
+            "A. divestment",
+            "B. pruning",
+            "C. liquidation",
+            "D. turn around"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Divestment means selling a division or part. This generates funds for other strategies.",
+          "reference": "Unit 4, Session 2, 2.4 - Defensive/Harvesting Strategies"
+        },
+        {
+          "type": "single",
+          "question": "When a company adds new unrelated products or services, it is pursuing ______.",
+          "options": [
+            "A. concentric diversification",
+            "B. conglomerate diversification",
+            "C. horizontal integration",
+            "D. vertical integration"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Conglomerate diversification adds unrelated products. This is the most risky type of diversification.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        },
+        {
+          "type": "single",
+          "question": "The acquisition of a company which supplies a firm with inputs of raw materials is ______.",
+          "options": [
+            "A. concentric diversification",
+            "B. conglomerate diversification",
+            "C. horizontal integration",
+            "D. vertical integration"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Vertical integration means acquiring a supplier. This gives the firm more control over inputs.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "A financial benefit of strategic management is ______.",
-            "options": [
-              "increase in profit",
-              "reduced resistance to change",
-              "increase in profitability",
-              "improved problem prevention capabilities"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Profitability is a financial benefit. Strategic management helps companies become more profitable over time.",
-            "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
+            "label": "Question 1",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Outline four dimensions of strategic decisions.",
+                "marks": 4,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Strategic decisions have key characteristics that make them important.",
+                  "mainPoints": [
+                    {
+                      "heading": "They require top-management decisions",
+                      "detail": "Top managers have the broad view needed for major strategic decisions."
+                    },
+                    {
+                      "heading": "They require large amounts of resources",
+                      "detail": "Strategic decisions commit substantial money, people, and assets."
+                    },
+                    {
+                      "heading": "They affect long-term prosperity",
+                      "detail": "Once a firm commits to a strategy, its image and position are tied to it."
+                    },
+                    {
+                      "heading": "They are future oriented",
+                      "detail": "Strategic decisions are based on forecasts, not just current facts."
+                    }
+                  ],
+                  "conclusion": "These dimensions make strategic decisions different from routine decisions.",
+                  "otherPossibleAnswers": "They have multifunctional consequences. They require considering the external environment.",
+                  "reference": "Unit 1, Session 2, 2.1 - Typical Strategic Issues"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State two activities under each of the following stages of the strategic management process:",
+                "marks": 12,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "The strategic management process has three main stages, each with key activities.",
+                  "mainPoints": [
+                    {
+                      "heading": "Strategic Formulation",
+                      "detail": "Activities include establishing the business mission, which gives the company its purpose and direction, and conducting analysis to match internal and external factors, which helps identify the best strategy."
+                    },
+                    {
+                      "heading": "Strategic Implementation",
+                      "detail": "Activities include establishing annual objectives, which breaks long-term goals into short-term targets, and devising policies, which guide managers in implementing the strategy."
+                    },
+                    {
+                      "heading": "Strategic Evaluation",
+                      "detail": "Activities include reviewing internal and external factors, which checks if the strategy is still relevant, and measuring performance, which compares actual results to targets."
+                    }
+                  ],
+                  "conclusion": "These activities help the organisation design, implement, and monitor its strategies.",
+                  "otherPossibleAnswers": "Formulation: Establishing long-term objectives, Choosing among alternative strategies. Implementation: Allocating resources. Evaluation: Taking corrective actions.",
+                  "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Strategic decisions developed around operators, finance, marketing and research and development are ______ level.",
-            "options": [
-              "corporate",
-              "business",
-              "functional",
-              "operational"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Functional level decisions focus on specific areas. These include production, finance, marketing, and R&D.",
-            "reference": "Unit 1, Session 4, 4.3 - Functional Level"
+            "label": "Question 2",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "What is a mission statement?",
+                "marks": 4,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "A mission statement defines the organisation's purpose and direction.",
+                  "mainPoints": [
+                    {
+                      "heading": "It is the overall goal of the organisation",
+                      "detail": "It provides a sense of direction for all levels."
+                    },
+                    {
+                      "heading": "It guides decision-making and planning",
+                      "detail": "The mission statement helps everyone understand what the company stands for."
+                    }
+                  ],
+                  "conclusion": "A mission statement tells everyone what the company stands for.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 1, 1.1 - Developing the Organisation's Strategic Vision and Mission"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State six components of mission statements.",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "A mission statement includes several key components.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customers",
+                      "detail": "Defines who the organisation serves."
+                    },
+                    {
+                      "heading": "Products or services",
+                      "detail": "Specifies what the organisation offers."
+                    },
+                    {
+                      "heading": "Markets",
+                      "detail": "Indicates where the organisation competes."
+                    },
+                    {
+                      "heading": "Technology",
+                      "detail": "Identifies the technological approaches used."
+                    },
+                    {
+                      "heading": "Philosophy",
+                      "detail": "States the basic beliefs, values, and ethics of the company."
+                    },
+                    {
+                      "heading": "Concern for public image",
+                      "detail": "Shows how the company wants to be perceived by the public."
+                    }
+                  ],
+                  "conclusion": "These components define what the company does and who it serves.",
+                  "otherPossibleAnswers": "Concern for survival, growth, and profitability. Self-concept. Concern for employees.",
+                  "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain four responsibilities of managers of business as outlined by Archie Carroll.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Carroll says businesses have four main responsibilities to society.",
+                  "mainPoints": [
+                    {
+                      "heading": "Economic Responsibility",
+                      "detail": "This is the most basic responsibility. Firms must produce goods and services of value. This generates profit for owners."
+                    },
+                    {
+                      "heading": "Legal Responsibility",
+                      "detail": "Businesses must obey the laws of the land. Laws define what is acceptable behaviour."
+                    },
+                    {
+                      "heading": "Ethical Responsibility",
+                      "detail": "Firms must follow society's moral beliefs. People expect businesses to act ethically."
+                    },
+                    {
+                      "heading": "Discretionary Responsibility",
+                      "detail": "These are voluntary actions the company chooses. Examples include charitable giving and community support."
+                    }
+                  ],
+                  "conclusion": "These four responsibilities show how businesses should contribute to society.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Strategic management based on the major divisions of an organization occurs at the ______ level.",
-            "options": [
-              "corporate",
-              "business",
-              "functional",
-              "operational"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Business level strategy focuses on major divisions. These are called Strategic Business Units (SBUs).",
-            "reference": "Unit 1, Session 4, 4.2 - Business Level"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain each of the following terms as used in strategic management: I. Strength, II. Weakness, III. Opportunity, IV. Threat",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "SWOT analysis uses four key terms to analyse the organisation's position.",
+                  "mainPoints": [
+                    {
+                      "heading": "Strength",
+                      "detail": "A strength is something the organisation does well. It is a skill or characteristic that enhances competitiveness. It arises from the company's resources and competencies. Examples include skilled workforce and strong brand."
+                    },
+                    {
+                      "heading": "Weakness",
+                      "detail": "A weakness is a limitation inside the organisation. It is a deficiency compared to competitors. It impedes effective organisational performance. Examples include weak finances or poorly trained staff."
+                    },
+                    {
+                      "heading": "Opportunity",
+                      "detail": "An opportunity is a favourable situation outside the company. It is a major favourable condition in the environment that the firm can take advantage of. Examples include technological changes or new markets."
+                    },
+                    {
+                      "heading": "Threat",
+                      "detail": "A threat is an unfavourable situation outside the company. It is a major unfavourable condition in the environment that the firm must protect itself from. Examples include new competitors or changing regulations."
+                    }
+                  ],
+                  "conclusion": "These four elements help the organisation understand its internal and external environment.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Outline four different forms a company can take to engage in multinational operations.",
+                "marks": 8,
+                "commandWord": "Outline",
+                "answer": {
+                  "introduction": "Companies can enter foreign markets in several ways.",
+                  "mainPoints": [
+                    {
+                      "heading": "Exporting products to foreign countries",
+                      "detail": "This is the easiest and cheapest method."
+                    },
+                    {
+                      "heading": "Licensing use of patents to foreign firms",
+                      "detail": "The company allows others to use its technology."
+                    },
+                    {
+                      "heading": "Establishing sales organisations abroad",
+                      "detail": "The company sets up its own sales offices."
+                    },
+                    {
+                      "heading": "Establishing foreign manufacturing facilities",
+                      "detail": "The company builds factories in other countries."
+                    }
+                  ],
+                  "conclusion": "Each form represents a different level of international commitment.",
+                  "otherPossibleAnswers": "Joint ventures with foreign partners. Wholly owned overseas production.",
+                  "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "An unfavorable condition in a firm's external environment is a/an ______.",
-            "options": [
-              "strength",
-              "threat",
-              "weakness",
-              "opportunity"
-            ],
-            "correctAnswer": "B",
-            "explanation": "A threat is an unfavourable factor outside the company. It is something the firm must protect itself from.",
-            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
-          },
-          {
-            "type": "single",
-            "question": "The ability of an organization to meet its short term obligations is measured by ______ ratio.",
-            "options": [
-              "activity",
-              "leverage",
-              "liquidity",
-              "profitability"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Liquidity ratio measures ability to pay short-term debts. It shows if the company has enough cash to cover immediate bills.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "The level of unemployment is an example of a factor in the ______ environment.",
-            "options": [
-              "economic",
-              "legal",
-              "political",
-              "social"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Unemployment is an economic factor. High unemployment means less spending power in the economy.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "The first activity in strategic formulation is ______.",
-            "options": [
-              "allocation of resources",
-              "establishing objectives",
-              "establishment of mission",
-              "evaluation and control"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Strategy formulation starts with establishing the mission. This gives the company its purpose and direction.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "The levels of strategy can be divided into ______.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Strategy has three levels. These are corporate, business, and functional.",
-            "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
-          },
-          {
-            "type": "single",
-            "question": "According to Archie Carrol, managers of business organizations have ______ responsibilities.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Carroll says managers have four responsibilities. These are economic, legal, ethical, and discretionary.",
-            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
-          },
-          {
-            "type": "single",
-            "question": "An element in a mission statement which reflects a firm's commitment towards economic objectives is ______.",
-            "options": [
-              "customers",
-              "profitability",
-              "product",
-              "technology"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Profitability shows commitment to economic objectives. It is one of the nine components of a mission statement.",
-            "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
-          },
-          {
-            "type": "single",
-            "question": "The last activity in strategic evaluation is ______.",
-            "options": [
-              "measuring performance",
-              "reviewing external factors",
-              "taking corrective actions",
-              "establishing objectives"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Taking corrective actions is the final step in evaluation. This fixes problems found during performance review.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "An example of social factor is ______.",
-            "options": [
-              "exchange rate",
-              "demographic",
-              "product technique",
-              "interest rate"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Demographics are social factors. They include population characteristics like age and health.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "The competitive forces can be categorized into ______.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Porter identifies five competitive forces. These determine industry competition.",
-            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
-          },
-          {
-            "type": "single",
-            "question": "Primary activities in the value chain ends with ______.",
-            "options": [
-              "inbound logistics",
-              "marketing and sales",
-              "service",
-              "outbound logistics"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Service is the final primary activity. It covers after-sale support for customers.",
-            "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
-          },
-          {
-            "type": "single",
-            "question": "Decisions made by Board of Directors is at the ______ level.",
-            "options": [
-              "business unit",
-              "corporate",
-              "functional",
-              "operational"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The Board of Directors works at the corporate level. They are the highest decision-making authority.",
-            "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
-          },
-          {
-            "type": "single",
-            "question": "Changes in government priorities and legislation programme refers to ______ factors.",
-            "options": [
-              "economic",
-              "political",
-              "socio-cultural",
-              "technological"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Political factors include government changes and legislation. These affect how businesses operate.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Political Forces)"
-          },
-          {
-            "type": "single",
-            "question": "The responsibilities of a business organization can be classified into ______ categories.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Business responsibilities fall into four categories. These are economic, legal, ethical, and discretionary.",
-            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
-          },
-          {
-            "type": "single",
-            "question": "______ ratios are used to measure the efficiency of an organization.",
-            "options": [
-              "Activity",
-              "Gearing",
-              "Liquidity",
-              "Profitability"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Activity ratios measure operational efficiency. They show how well the company uses its assets.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "Voluntary obligations a company assumes is ______.",
-            "options": [
-              "economic",
-              "ethical",
-              "discretionary",
-              "legal"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Discretionary responsibilities are voluntary. They include philanthropy and community support.",
-            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
-          },
-          {
-            "type": "single",
-            "question": "A favorable condition in an organization's internal environment is ______.",
-            "options": [
-              "strength",
-              "threat",
-              "weakness",
-              "opportunity"
-            ],
-            "correctAnswer": "A",
-            "explanation": "A strength is a favourable factor inside the company. It is something the organisation is good at.",
-            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+            "label": "Question 4",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four advantages of policies in a business organisation.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Policies are guidelines that help managers make decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "They control decisions without direct supervision",
+                      "detail": "Policies limit discretion and guide behaviour clearly."
+                    },
+                    {
+                      "heading": "They promote uniform handling of activities",
+                      "detail": "This reduces favouritism and discrimination."
+                    },
+                    {
+                      "heading": "They ensure quicker decisions",
+                      "detail": "Standard answers to common problems save time."
+                    },
+                    {
+                      "heading": "They reduce uncertainty in daily decisions",
+                      "detail": "This provides a foundation for coordinated efforts."
+                    }
+                  ],
+                  "conclusion": "Policies make organisations run more efficiently and consistently.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.3 - Developing and Communicating Concise Policies"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain three concentration strategies used by companies.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Concentration strategies focus on growing within the current business.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market Penetration",
+                      "detail": "The firm increases market share in existing markets. This uses greater marketing efforts such as more sales people or more advertising."
+                    },
+                    {
+                      "heading": "Market Development",
+                      "detail": "The firm introduces existing products to new areas. This can mean entering new geographic markets or new regions. International expansion is a common form."
+                    },
+                    {
+                      "heading": "Product Development",
+                      "detail": "The firm creates new or improved products for current markets. This encourages current customers to buy more and keeps the product line fresh and competitive."
+                    }
+                  ],
+                  "conclusion": "These strategies help the firm grow without leaving its core business.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+                }
+              }
+            ]
           }
         ]
       }

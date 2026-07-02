@@ -1,272 +1,542 @@
 {
-  "subject": "Business Strategic Management",
+  "subject": "Strategic Management",
+  "subjectCode": "SBU 402D",
   "academicYear": "2018/2019",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The ethical standard - act in a way that results in the greatest good for the greatest number is the ______.",
+          "options": [
+            "A. golden rule",
+            "B. utilitarian rule",
+            "C. professional ethics",
+            "D. Tv set"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The utilitarian principle says to act for the greatest good for the greatest number. This is one of five ethical standards.",
+          "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Ethical Influences)"
+        },
+        {
+          "type": "single",
+          "question": "Attitudes and opinions of consumers are ______.",
+          "options": [
+            "A. economic factors",
+            "B. social factors",
+            "C. political factors",
+            "D. legal factors"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Consumer attitudes and opinions are social factors. They shape how people behave as customers.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
+        },
+        {
+          "type": "single",
+          "question": "The ability and ways of combining assets, people and process constitutes ______.",
+          "options": [
+            "A. tangible assets",
+            "B. intangible assets",
+            "C. organisational capabilities",
+            "D. core competences"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Organisational capabilities are the skills to combine assets and people. They turn inputs into valuable outputs.",
+          "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+        },
+        {
+          "type": "single",
+          "question": "Determining who actually gets the profit created by a resource is ______.",
+          "options": [
+            "A. imitability",
+            "B. appropriability",
+            "C. sustainability",
+            "D. durability"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Appropriability is about who gets the profit from a resource. It determines who benefits from the value created.",
+          "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+        },
+        {
+          "type": "single",
+          "question": "Financial ratios which measure the extent to which a firm has been financed by debt are referred to as ______.",
+          "options": [
+            "A. liquidity",
+            "B. leverage"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Leverage ratios measure how much debt the company has. They show the extent of creditor financing.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
+        },
+        {
+          "type": "single",
+          "question": "An SBU with low market share and low market growth can be considered as",
+          "options": [
+            "A. dog",
+            "B. cash cow",
+            "C. question market",
+            "D. star"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A dog has low market share and low growth. These units often become cash traps.",
+          "reference": "Unit 4, Session 4, 4.2 - Boston Consulting Group Matrix"
+        },
+        {
+          "type": "single",
+          "question": "Business unit strength can be influenced by all of the following factors except",
+          "options": [
+            "A. market share held",
+            "B. profitability",
+            "C. competitive position",
+            "D. size of market"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Size of market affects industry attractiveness, not business unit strength. Strength includes internal factors like market share and profitability.",
+          "reference": "Unit 4, Session 5, 5.1 - Planning Grid"
+        },
+        {
+          "type": "single",
+          "question": "The life cycle approach to strategy analysis uses the following factors except",
+          "options": [
+            "A. industry maturity and competitive position",
+            "B. relative market share and market growth",
+            "C. business unit share and market growth",
+            "D. competitive advantage and competitive scope"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The life cycle approach uses industry maturity and competitive position. Competitive advantage and scope are used in Porter's generic strategies.",
+          "reference": "Unit 4, Session 4, 4.2 - Boston Consulting Group Matrix"
+        },
+        {
+          "type": "single",
+          "question": "Pricing decision is influenced by all the following factors except",
+          "options": [
+            "A. discounting",
+            "B. budget",
+            "C. strategies",
+            "D. type of channel"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Discounting is a pricing technique, not a factor that influences pricing decisions. Factors include budget, strategies, and channel type.",
+          "reference": "Unit 6, Session 1, 1.2 - Marketing Issues (Pricing)"
+        },
+        {
+          "type": "single",
+          "question": "The dimension of quality which relates to the life of a product is referred to as",
+          "options": [
+            "A. performance",
+            "B. reliability",
+            "C. durability",
+            "D. conformance"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Durability relates to how long a product lasts. It is one of seven dimensions of quality.",
+          "reference": "Unit 6, Session 1, 1.3 - Operations Issues (Quality and Total Quality Management)"
+        },
+        {
+          "type": "single",
+          "question": "The last step in strategy formulation is",
+          "options": [
+            "A. choosing among alternative strategies",
+            "B. establishing annual objectives",
+            "C. allocating resource",
+            "D. establishing a business mission"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Strategy formulation ends with choosing among alternative strategies. This is the final decision-making step.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        },
+        {
+          "type": "single",
+          "question": "The first level of strategic management is ______.",
+          "options": [
+            "A. corporate level",
+            "B. business level",
+            "C. functional level",
+            "D. operational level"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The corporate level is the highest level of strategic management. It sets the overall direction for the whole company.",
+          "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+        },
+        {
+          "type": "single",
+          "question": "An approach to meeting organisational mission by older organizations that need to change themselves is ______.",
+          "options": [
+            "A. targeting",
+            "B. role model",
+            "C. internal transformation",
+            "D. common enemy"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Internal transformation means changing from within. Older organisations use this approach to renew themselves.",
+          "reference": "Unit 2, Session 1, 1.1 - Developing the Organisation's Strategic Vision and Mission"
+        },
+        {
+          "type": "single",
+          "question": "A board of directors with high degree of involvement in strategic management is referred to as /practices ______.",
+          "options": [
+            "A. catalyst",
+            "B. normal participation",
+            "C. phantom",
+            "D. active participation"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A catalyst board is highly involved in strategy. They play a leading role in strategic decisions.",
+          "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
+        },
+        {
+          "type": "single",
+          "question": "The responsibility of initiating strategic management rests with ______.",
+          "options": [
+            "A. top management",
+            "B. middle management",
+            "C. lower level management",
+            "D. operative core"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Top management initiates strategic management. They have the authority and broad view needed for strategy.",
+          "reference": "Unit 1, Session 2, 2.1 - Typical Strategic Issues"
+        },
+        {
+          "type": "single",
+          "question": "Strong brand name is an example of a/an ______.",
+          "options": [
+            "A. strength",
+            "B. threat",
+            "C. opportunity",
+            "D. weakness"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A strong brand name is an internal strength. It gives the company a competitive advantage.",
+          "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+        },
+        {
+          "type": "single",
+          "question": "Inspection and inventory management are activities in ______.",
+          "options": [
+            "A. inbound logistics",
+            "B. operations",
+            "C. outboard logistics",
+            "D. service"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Inbound logistics covers receiving and storing inputs. Inspection and inventory management are part of this.",
+          "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+        },
+        {
+          "type": "single",
+          "question": "Support activities in the value chain analysis do not include ______.",
+          "options": [
+            "A. operations",
+            "B. human resource management",
+            "C. procurement",
+            "D. general administration"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Operations is a primary activity, not a support activity. Support activities include HR, procurement, and administration.",
+          "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+        },
+        {
+          "type": "single",
+          "question": "The initial step in internationalisation of business operations is ______.",
+          "options": [
+            "A. exporting",
+            "B. licensing",
+            "C. joint venture",
+            "D. foreign manufacturing facility"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Exporting is the first step to internationalisation. It is the simplest way to enter foreign markets.",
+          "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+        },
+        {
+          "type": "single",
+          "question": "Adding new unrelated products or services is ______.",
+          "options": [
+            "A. conglomerate diversification",
+            "B. concentric diversification",
+            "C. retrenchment",
+            "D. horizontal diversification"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Conglomerate diversification adds unrelated products. This is the most risky type of diversification.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "Organisational resources can be grouped into ______.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Resources are assets that help an organisation operate and compete. There are three main types: tangible, intangible, and organisational capabilities.",
-            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+            "label": "Question 1",
+            "totalMarks": 12,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four (4) activities in strategy formulation.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Strategy formulation is the process of designing and selecting strategies.",
+                  "mainPoints": [
+                    {
+                      "heading": "Establishing the organisation's mission",
+                      "detail": "This is the foundational step that defines the organisation's purpose and direction."
+                    },
+                    {
+                      "heading": "Conducting research to find key internal and external factors",
+                      "detail": "This involves gathering information about the organisation's internal capabilities and external environment."
+                    },
+                    {
+                      "heading": "Performing analysis to match internal factors with external factors",
+                      "detail": "This analysis helps identify strategic opportunities and threats by aligning internal strengths and weaknesses with external conditions."
+                    },
+                    {
+                      "heading": "Setting long-term objectives for the organisation",
+                      "detail": "These objectives provide measurable targets that guide the organisation's strategic direction."
+                    }
+                  ],
+                  "conclusion": "These activities help the organisation design effective strategies.",
+                  "otherPossibleAnswers": "Choosing among alternative strategies.",
+                  "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four (4) dimensions of strategic issues.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Strategic issues are important decisions that affect the organisation's future.",
+                  "mainPoints": [
+                    {
+                      "heading": "They require top-management decisions",
+                      "detail": "Top managers have the broad view needed for major strategic decisions."
+                    },
+                    {
+                      "heading": "They require large amounts of resources",
+                      "detail": "Strategic decisions commit substantial money, people, and assets."
+                    },
+                    {
+                      "heading": "They affect long-term prosperity",
+                      "detail": "Once a firm commits to a strategy, its image and position are tied to it."
+                    },
+                    {
+                      "heading": "They are future oriented",
+                      "detail": "Strategic decisions are based on forecasts, not just current facts."
+                    }
+                  ],
+                  "conclusion": "Strategic issues are major decisions that shape the company's future.",
+                  "otherPossibleAnswers": "They have multifunctional consequences. They require considering the external environment.",
+                  "reference": "Unit 1, Session 2, 2.1 - Typical Strategic Issues"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The levels of strategy can be divided into ______.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Strategy is created and managed at three levels in an organisation. These are the corporate, business, and functional levels.",
-            "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+            "label": "Question 2",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Differentiate between ethical responsibility and discretionary responsibility of business.",
+                "marks": 4,
+                "commandWord": "Differentiate",
+                "answer": {
+                  "introduction": "Ethical and discretionary responsibilities are two of Carroll's four business responsibilities.",
+                  "mainPoints": [
+                    {
+                      "heading": "Ethical responsibilities follow society's beliefs",
+                      "detail": "People expect businesses to act according to accepted moral values."
+                    },
+                    {
+                      "heading": "Discretionary responsibilities are voluntary actions",
+                      "detail": "These include philanthropy and community support."
+                    },
+                    {
+                      "heading": "Expectations differ between the two",
+                      "detail": "Many people expect ethical responsibilities to be fulfilled, while few people expect discretionary responsibilities to be met."
+                    }
+                  ],
+                  "conclusion": "Ethical responsibilities are expected by society, while discretionary responsibilities are purely voluntary.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain two (2) areas of social responsibility concern of business to each of the following stakeholders.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Businesses have social responsibilities toward different stakeholder groups.",
+                  "mainPoints": [
+                    {
+                      "heading": "Consumers",
+                      "detail": "Products must be safe and well designed. Companies should not sell dangerous or faulty products. Advertising must be clear and honest. Firms should not deceive customers with false claims."
+                    },
+                    {
+                      "heading": "Employees",
+                      "detail": "Employees must be paid a fair wage. Workers deserve compensation that matches their contribution. The work environment must be safe. Employees should not face unnecessary health or safety risks."
+                    },
+                    {
+                      "heading": "Environment",
+                      "detail": "Air and water pollution must be controlled. Firms should not harm the environment with unclean emissions. Products should be biodegradable or recyclable. Companies should reduce waste and environmental damage."
+                    },
+                    {
+                      "heading": "Society in general",
+                      "detail": "Firms should support minority and community enterprises. This includes buying from or subcontracting to them. Donations should help education, art, and health. Companies should contribute to community development."
+                    }
+                  ],
+                  "conclusion": "Businesses must treat all stakeholders with fairness and responsibility.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.1 - Specific Areas of Social Responsibility"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "According to Archie Carrol, managers of business organisations have responsibilities.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Carroll says business managers have four main responsibilities. These are economic, legal, ethical, and discretionary.",
-            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+            "label": "Question 3",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain two (2) generic strategies.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Generic strategies are core ideas for how a firm can compete.",
+                  "mainPoints": [
+                    {
+                      "heading": "Low-cost provider strategy",
+                      "detail": "The firm aims to be the overall low-cost producer. This appeals to a broad group of customers."
+                    },
+                    {
+                      "heading": "Broad differentiation strategy",
+                      "detail": "The firm makes its product different from rivals. This appeals to customers who value special features."
+                    }
+                  ],
+                  "conclusion": "These strategies help firms gain a competitive advantage.",
+                  "otherPossibleAnswers": "Best-cost provider strategy. Focused low-cost strategy. Focused differentiation strategy.",
+                  "reference": "Unit 4, Session 1, 1.2 - Generic Strategies"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain two (2) concentration strategies.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Concentration strategies focus on growing within the current business.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market penetration",
+                      "detail": "The firm increases market share in existing markets. This uses greater marketing efforts."
+                    },
+                    {
+                      "heading": "Market development",
+                      "detail": "The firm introduces existing products to new areas. This can mean entering new geographic markets."
+                    }
+                  ],
+                  "conclusion": "These strategies help the firm grow without leaving its current business.",
+                  "otherPossibleAnswers": "Product development.",
+                  "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State four (4) guidelines that help determine what makes a resource valuable.",
+                "marks": 8,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "A resource is valuable when it helps the firm compete effectively.",
+                  "mainPoints": [
+                    {
+                      "heading": "The resource is scarce",
+                      "detail": "Scarcity makes it hard for competitors to get."
+                    },
+                    {
+                      "heading": "The resource is durable",
+                      "detail": "It does not become obsolete quickly."
+                    },
+                    {
+                      "heading": "The resource is hard to imitate",
+                      "detail": "Competitors find it difficult to copy."
+                    },
+                    {
+                      "heading": "The resource has no substitutes",
+                      "detail": "Nothing else can easily replace it."
+                    }
+                  ],
+                  "conclusion": "These guidelines help identify resources that create competitive advantage.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The last activity in strategy formulation is ______.",
-            "options": [
-              "choosing among alternatives strategies",
-              "establishing a business mission",
-              "establishing objectives",
-              "SWOT analysis"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Strategy formulation is a series of steps. The final step is to choose the best strategy from the different options available.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "A favourable condition in a firm's external environment is a/an ______.",
-            "options": [
-              "strength",
-              "threat",
-              "weakness",
-              "opportunity"
-            ],
-            "correctAnswer": "D",
-            "explanation": "An opportunity is a positive factor outside the company. It is a favourable situation the firm can use to its advantage.",
-            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
-          },
-          {
-            "type": "single",
-            "question": "A good organisational objective should have all of the following qualities except ______.",
-            "options": [
-              "attainable",
-              "fixed",
-              "flexible",
-              "specific"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Good objectives follow the SMART criteria. They should be specific, measurable, achievable, relevant, and time-bound. They must not be rigid and should allow for adaptation when needed.",
-            "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
-          },
-          {
-            "type": "single",
-            "question": "The ability of an organisation to meet its short term obligations is measured by ______.",
-            "options": [
-              "activity ratio",
-              "leverage ratio",
-              "liquidity ratio",
-              "profitability ratio"
-            ],
-            "correctAnswer": "C",
-            "explanation": "A liquidity ratio measures if a company has enough cash to pay its short-term debts. It shows the firm's ability to cover immediate bills.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "Taxation and interest rates are examples of factors in the ______ environment.",
-            "options": [
-              "economic",
-              "legal",
-              "political",
-              "social"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Economic forces include factors like tax rates and interest rates. They affect how much consumers spend and how businesses operate.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "The first activity in the strategic management process is ______.",
-            "options": [
-              "allocation of resources",
-              "establishing objectives",
-              "establishment of mission",
-              "evaluation and control"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The strategic management process starts with the organisation's mission. A clear mission gives the company its purpose and direction.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "A road map of a company's future is its ______.",
-            "options": [
-              "Objective",
-              "Policy",
-              "Strategy",
-              "Vision"
-            ],
-            "correctAnswer": "D",
-            "explanation": "A strategic vision is a picture of a company's future. It shows the path the business wants to take and the position it aims for.",
-            "reference": "Unit 2, Session 1, 1.1 - Developing the Organisation's Strategic Vision and Mission"
-          },
-          {
-            "type": "single",
-            "question": "Board of Directors perform the following roles except ______.",
-            "options": [
-              "firing of Chief Executive Officer",
-              "hiring of Chief Executive Officer",
-              "initiating strategies with much involvement",
-              "supervising operatives"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The board focuses on top management. They hire and fire the CEO. They also oversee the company's strategy. Supervising operative-level employees is a management job, not a board responsibility.",
-            "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
-          },
-          {
-            "type": "single",
-            "question": "A board of directors with much involvement in strategic management is described as ______.",
-            "options": [
-              "catalyst",
-              "minimal review",
-              "phantom",
-              "rubber stamp"
-            ],
-            "correctAnswer": "A",
-            "explanation": "A catalyst board is very active. They take a strong role in the strategic management process. They are the most involved type of board.",
-            "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
-          },
-          {
-            "type": "single",
-            "question": "Organisational resource is valuable when it ______.",
-            "options": [
-              "can be initiated",
-              "has substitutes",
-              "is not durable",
-              "is scarce"
-            ],
-            "correctAnswer": "D",
-            "explanation": "A resource is valuable if it is scarce. Scarcity means it is not easy to find, making it a competitive advantage for the firm that has it.",
-            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
-          },
-          {
-            "type": "single",
-            "question": "An effective mission statement ______.",
-            "options": [
-              "is defined by its regulators",
-              "will be focused on products",
-              "will be focused on customers",
-              "will have an internal force"
-            ],
-            "correctAnswer": "C",
-            "explanation": "An effective mission statement defines who the customers are. The company exists to serve its customers, so the mission must focus on them.",
-            "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
-          },
-          {
-            "type": "single",
-            "question": "A board of directors continuum provides ______ types of boards based on degree of involvement in strategic management.",
-            "options": [
-              "three",
-              "four",
-              "five",
-              "six"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The board of directors' continuum is a scale. It shows different levels of board involvement. There are four types described.",
-            "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
-          },
-          {
-            "type": "single",
-            "question": "The least active board of directors are described as ______.",
-            "options": [
-              "Catalyst",
-              "Normal participation",
-              "Phantom",
-              "Rubber stamp"
-            ],
-            "correctAnswer": "C",
-            "explanation": "A phantom board is the least active type. They exist in name only and do not participate in strategy. They are almost completely passive.",
-            "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
-          },
-          {
-            "type": "single",
-            "question": "The type of planning that provides a road map for entire organisation is ______ planning.",
-            "options": [
-              "Management",
-              "Operational",
-              "Strategic",
-              "Tactical"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Strategic planning sets the long-term direction for the whole organisation. It is the master plan that guides all lower-level activities.",
-            "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
-          },
-          {
-            "type": "single",
-            "question": "The end points of an organisation's mission are its ______.",
-            "options": [
-              "action plan",
-              "objectives",
-              "policies",
-              "strategy"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The mission is the overarching purpose. Objectives are specific targets the organisation aims to reach. They are the measurable end results of the mission.",
-            "reference": "Unit 2, Session 3, 3.1 - Establishing Organisational Objectives"
-          },
-          {
-            "type": "single",
-            "question": "An unfavourable condition in an organisation's internal environment is a/an ______.",
-            "options": [
-              "strength",
-              "threat",
-              "weakness",
-              "opportunity"
-            ],
-            "correctAnswer": "C",
-            "explanation": "A weakness is a negative factor inside the company. It is a limitation or deficiency that holds the organisation back.",
-            "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
-          },
-          {
-            "type": "single",
-            "question": "Strategic management should be initiated by ______.",
-            "options": [
-              "lower level management",
-              "middle level management",
-              "operational level management",
-              "top management"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Strategic management requires top management involvement. They have the authority and broad view needed to make big decisions.",
-            "reference": "Unit 1, Session 2, 2.1 - Typical Strategic Issues"
+            "label": "Question 4",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four (4) advantages of written policies.",
+                "marks": 8,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Policies are guidelines that help managers make decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "They control decisions without direct supervision",
+                      "detail": "Policies limit discretion and guide behaviour clearly."
+                    },
+                    {
+                      "heading": "They promote uniform handling of activities",
+                      "detail": "This reduces favouritism and discrimination."
+                    },
+                    {
+                      "heading": "They ensure quicker decisions",
+                      "detail": "Standard answers to common problems save time."
+                    },
+                    {
+                      "heading": "They reduce uncertainty in daily decisions",
+                      "detail": "This provides a foundation for coordinated efforts."
+                    }
+                  ],
+                  "conclusion": "Policies make organisations run more efficiently and consistently.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.3 - Developing and Communicating Concise Policies"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Identify and explain three (3) financial control tools.",
+                "marks": 8,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Financial control tools help managers monitor and manage company finances.",
+                  "mainPoints": [
+                    {
+                      "heading": "Cash Budget",
+                      "detail": "This shows expected cash inflows and outflows. It helps identify cash needs for strategy implementation."
+                    },
+                    {
+                      "heading": "Proforma Statements",
+                      "detail": "These forecast assets, liabilities, and income. They help plan for future financial positions."
+                    },
+                    {
+                      "heading": "Break-Even Analysis",
+                      "detail": "This shows the effect of output volume on profits. It helps determine the sales level needed to avoid losses."
+                    }
+                  ],
+                  "conclusion": "These tools help managers control financial performance effectively.",
+                  "otherPossibleAnswers": "Investment Appraisal Techniques. Lease versus Buy Analysis.",
+                  "reference": "Unit 6, Session 2, 2.1 - Financial Issues (Financial Management Tools)"
+                }
+              }
+            ]
           }
         ]
       }

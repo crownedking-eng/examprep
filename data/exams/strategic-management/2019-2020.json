@@ -1,272 +1,530 @@
 {
-  "subject": "Business Strategic Management",
+  "subject": "Strategic Management",
+  "subjectCode": "SBU 402",
   "academicYear": "2019/2020",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "When a company pursue a few segment of the overall market and aims to be lowest cost company, it is following a ______.",
+          "options": [
+            "A. focused differentiation strategy",
+            "B. focused low cost strategy",
+            "C. low-cost provider strategy",
+            "D. broad differentiation strategy"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A focused low-cost strategy serves a narrow market segment. The firm aims to be the lowest cost company in that segment.",
+          "reference": "Unit 4, Session 1, 1.2 - Generic Strategies"
+        },
+        {
+          "type": "single",
+          "question": "An example of concentration strategy is ______.",
+          "options": [
+            "A. market penetration",
+            "B. horizontal integration",
+            "C. liquidation",
+            "D. conglomerate"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Market penetration is a concentration strategy. It focuses on growing within the current business.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        },
+        {
+          "type": "single",
+          "question": "A leading strategic business unit in an expanding industry is a ______.",
+          "options": [
+            "A. star",
+            "B. question mark",
+            "C. cash cow",
+            "D. dog"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A star has high market share in a high-growth industry. Stars are the best profit and investment opportunities.",
+          "reference": "Unit 4, Session 4, 4.2 - Boston Consulting Group Matrix"
+        },
+        {
+          "type": "single",
+          "question": "The basic form of organizational design is ______.",
+          "options": [
+            "A. functional",
+            "B. entrepreneurial",
+            "C. geographic",
+            "D. product"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The functional structure is the most basic organizational design. It groups activities by function like marketing and finance.",
+          "reference": "Unit 5, Session 4, 4.1 - Basic Structure for Organizational Design"
+        },
+        {
+          "type": "single",
+          "question": "Performing analyses to match internal with external forces is part of ______.",
+          "options": [
+            "A. strategy evaluation",
+            "B. strategy implementation",
+            "C. strategy formulation",
+            "D. strategy review"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Strategy formulation involves analysing and matching internal and external factors. This helps design the best strategy.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        },
+        {
+          "type": "single",
+          "question": "The forces of competition do not include ______.",
+          "options": [
+            "A. threat of new entrants",
+            "B. bargaining power of buyers",
+            "C. rivalry among existing competitors",
+            "D. exchange rates"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Exchange rates are economic factors, not competitive forces. Porter's five forces are the main competitive forces.",
+          "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
+        },
+        {
+          "type": "single",
+          "question": "Wheelen and Hunger (2006) identified ______ steps in the resource-based approach to strategy analysis.",
+          "options": [
+            "A. two",
+            "B. three",
+            "C. four",
+            "D. five"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The resource-based approach has five steps. These include identifying resources and combining them into capabilities.",
+          "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+        },
+        {
+          "type": "single",
+          "question": "An example of marketing activity is ______.",
+          "options": [
+            "A. quality assurance",
+            "B. order processing",
+            "C. dealer support",
+            "D. equipment maintenance"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Dealer support is a marketing and sales activity. It helps promote and sell products to customers.",
+          "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+        },
+        {
+          "type": "single",
+          "question": "According to Pearce and Robinson (2003) there are ______ basic resources.",
+          "options": [
+            "A. two",
+            "B. three",
+            "C. four",
+            "D. five"
+          ],
+          "correctAnswer": "B",
+          "explanation": "There are three basic types of resources. These are tangible assets, intangible assets, and organisational capabilities.",
+          "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+        },
+        {
+          "type": "single",
+          "question": "The last of the six stages of Multinationalization is ______.",
+          "options": [
+            "A. export of products to foreign countries",
+            "B. establishment of sales organizations abroad",
+            "C. establishment of foreign manufacturing facilities",
+            "D. ownership of corporate stocks"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Stage VI is multinationalizing ownership of corporate stock. This is the final stage of becoming multinational.",
+          "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+        },
+        {
+          "type": "single",
+          "question": "An objective of a business to increase sales reflects ______.",
+          "options": [
+            "A. market share",
+            "B. market growth",
+            "C. profit maximization",
+            "D. survival"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Increasing sales reflects a market growth objective. The firm aims to grow its total sales volume.",
+          "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+        },
+        {
+          "type": "single",
+          "question": "A set of written and unwritten rules and assumptions about behaviour is ______.",
+          "options": [
+            "A. social contract",
+            "B. social responsibility",
+            "C. social obligation",
+            "D. social welfare"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A social contract is a set of rules and assumptions about behaviour. It defines obligations between business and society.",
+          "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+        },
+        {
+          "type": "single",
+          "question": "Self-regulation of business conduct is ______.",
+          "options": [
+            "A. competitive influence",
+            "B. ethical influence",
+            "C. legal influence",
+            "D. political influence"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Ethical influence involves self-regulation of business conduct. Companies make decisions based on moral standards.",
+          "reference": "Unit 2, Session 6, 6.2 - Influences on the Social Responsibility of Business (Ethical Influences)"
+        },
+        {
+          "type": "single",
+          "question": "An example of social or cultural factor is ______.",
+          "options": [
+            "A. environmental protection",
+            "B. labour law",
+            "C. health standard",
+            "D. unemployment"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Health standards are social or cultural factors. They reflect population wellbeing and lifestyle conditions.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
+        },
+        {
+          "type": "single",
+          "question": "A group of companies that offer products that satisfy similar customers' needs is a/an ______.",
+          "options": [
+            "A. served market",
+            "B. industry",
+            "C. organization",
+            "D. association"
+          ],
+          "correctAnswer": "B",
+          "explanation": "An industry is a group of companies. They all offer products that meet similar customer needs.",
+          "reference": "Unit 3, Session 2, 2.2 - Purpose and Contributions of Industry and Competitive Analysis"
+        },
+        {
+          "type": "single",
+          "question": "The process of strategic management starts with ______.",
+          "options": [
+            "A. assessment of organization's external environment",
+            "B. analysis of the organization's internal environment",
+            "C. formulation of organization's mission",
+            "D. development of annual objectives"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Strategic management begins with formulating the mission. This gives the organisation its purpose and direction.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        },
+        {
+          "type": "single",
+          "question": "All of the following are dimensions of strategic issues except ______.",
+          "options": [
+            "A. they require top-management support",
+            "B. the issues are future-oriented",
+            "C. they affect the firms short term prosperity",
+            "D. they require consideration of the firms external environment"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Strategic issues affect long-term prosperity, not short-term. They commit the firm to actions over many years.",
+          "reference": "Unit 1, Session 2, 2.1 - Typical Strategic Issues"
+        },
+        {
+          "type": "single",
+          "question": "A financial benefit of strategic management is ______.",
+          "options": [
+            "A. enhanced awareness of environmental threat",
+            "B. reduced resistance to change",
+            "C. enhanced profitability",
+            "D. clearer understanding of performance reward relationship"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Enhanced profitability is a financial benefit. Strategic management helps companies become more profitable over time.",
+          "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
+        },
+        {
+          "type": "single",
+          "question": "Formulating of strategies and setting of objectives are performed at the ______.",
+          "options": [
+            "A. corporate level",
+            "B. business level",
+            "C. functional level",
+            "D. operational level"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Corporate level managers formulate strategies and set objectives. They direct the whole organisation.",
+          "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+        },
+        {
+          "type": "single",
+          "question": "Strategy evaluation does not include ______.",
+          "options": [
+            "A. renewing internal and external factors",
+            "B. taking corrective actions",
+            "C. devising policies",
+            "D. measuring performance"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Devising policies is part of strategy implementation, not evaluation. Evaluation focuses on monitoring and correcting.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "An organization resource is valuable when it",
-            "options": [
-              "is scarce",
-              "is not durable",
-              "has substitute",
-              "can be imitated"
-            ],
-            "correctAnswer": "A",
-            "explanation": "A resource is valuable if it is scarce. Scarcity makes it hard for competitors to get, giving the firm an advantage.",
-            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
+            "label": "Question 1",
+            "totalMarks": 12,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Identify and explain the levels of Strategic Management.",
+                "marks": 6,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Strategic management happens at three levels in an organisation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Corporate Level",
+                      "detail": "This is the highest level of decision-making. It includes the board of directors and chief executives. They determine which businesses the firm should be in."
+                    },
+                    {
+                      "heading": "Business Level",
+                      "detail": "This is the middle level of decision-making. Business managers decide how to compete in each market. They set objectives for individual divisions or SBUs."
+                    },
+                    {
+                      "heading": "Functional Level",
+                      "detail": "This is the lowest level of decision-making. Functional managers develop short-term strategies. They focus on areas like production, finance, and marketing."
+                    }
+                  ],
+                  "conclusion": "Each level has different responsibilities but works together to achieve the organisation's goals.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.1, 4.2, 4.3 - Corporate Level, Business Level, Functional Level"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four (4) guidelines for effective Strategic Management.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Effective strategic management requires following certain guidelines.",
+                  "mainPoints": [
+                    {
+                      "heading": "Keep the process simple and non-routine",
+                      "detail": "Avoid using complex jargon and planning language. The process should encourage learning, not just control."
+                    },
+                    {
+                      "heading": "Vary assignments and team members regularly",
+                      "detail": "This prevents routine and predictable behaviour. Changing settings helps stimulate creativity."
+                    },
+                    {
+                      "heading": "Emphasise word-oriented plans",
+                      "detail": "Managers should express strategy in a few sentences. If they cannot, they do not understand the strategy."
+                    },
+                    {
+                      "heading": "Build a culture that understands strategic management",
+                      "detail": "Everyone should know the purpose of strategic planning. Do not let technicians take over the process."
+                    }
+                  ],
+                  "conclusion": "These guidelines help strategic management remain effective and flexible.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 6, 6.2 - Important Guidelines for Effective Strategic Management"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Multinationalization starts with",
-            "options": [
-              "licensing of patents to foreign firms",
-              "exporting of products",
-              "establishing sales organizations aboard",
-              "establishing foreign manufacturing facilities"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Companies begin their journey to becoming multinational by exporting. It is the simplest and cheapest way to enter foreign markets.",
-            "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+            "label": "Question 2",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Describe in four (4) ways how objectives are important to an organisation.",
+                "marks": 8,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Objectives are targets that guide the organisation's activities.",
+                  "mainPoints": [
+                    {
+                      "heading": "Provide direction and purpose",
+                      "detail": "Objectives tell the organisation what it wants to achieve. This gives meaning to everyone's work."
+                    },
+                    {
+                      "heading": "Drive decision-making and strategy",
+                      "detail": "Objectives help managers choose the right strategies. They guide the decision-making process."
+                    },
+                    {
+                      "heading": "Provide a way to measure performance",
+                      "detail": "Objectives set clear targets to aim for. Managers can see if the organisation is successful."
+                    },
+                    {
+                      "heading": "Motivate employees",
+                      "detail": "Clear objectives give people something to work toward. This encourages better performance and teamwork."
+                    }
+                  ],
+                  "conclusion": "Objectives are essential for planning, motivating, and controlling the organisation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four (4) responsibilities of businesses as expressed by Carroll.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Carroll says businesses have four main responsibilities to society.",
+                  "mainPoints": [
+                    {
+                      "heading": "Economic Responsibility",
+                      "detail": "This is the most basic responsibility. Firms must produce goods and services of value. This generates profit for owners and value for society."
+                    },
+                    {
+                      "heading": "Legal Responsibility",
+                      "detail": "Businesses must obey the laws of the land. Laws define what is acceptable business behaviour."
+                    },
+                    {
+                      "heading": "Ethical Responsibility",
+                      "detail": "Firms must follow society's moral beliefs. People expect businesses to act ethically. This goes beyond what the law requires."
+                    },
+                    {
+                      "heading": "Discretionary Responsibility",
+                      "detail": "These are voluntary actions the company chooses to take. Examples include charitable giving and community support. Society does not expect these obligations."
+                    }
+                  ],
+                  "conclusion": "These four responsibilities show how businesses should contribute to society.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Industry and competitive analysis ends with ______",
-            "options": [
-              "interpreting competitive signals",
-              "identifying opportunities",
-              "determine the key success factors",
-              "analysing the forces of competition"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The final step is to figure out the key success factors. These are the things a company must do well to win in its industry.",
-            "reference": "Unit 3, Session 2, 2.2 - Purpose and Contributions of Industry and Competitive Analysis"
+            "label": "Question 3",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain three (3) reasons to justify industry and competitive analysis.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Industry and competitive analysis helps companies understand their business environment.",
+                  "mainPoints": [
+                    {
+                      "heading": "Identify and select the competitive arena",
+                      "detail": "It helps define the industry and served market. This positions the company to find its customers and competitors."
+                    },
+                    {
+                      "heading": "Identify business opportunities",
+                      "detail": "Thorough analysis uncovers new trends and market niches. The company can then serve these new opportunities."
+                    },
+                    {
+                      "heading": "Produce a benchmark for evaluation",
+                      "detail": "It provides a standard to compare against competitors. This helps develop the skills needed for success."
+                    }
+                  ],
+                  "conclusion": "Industry analysis is essential for developing effective strategies.",
+                  "otherPossibleAnswers": "Shorten response time to competitors' moves.",
+                  "reference": "Unit 3, Session 2, 2.2 - Purpose and Contributions of Industry and Competitive Analysis"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain each of the following strategies:",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Growth strategies help firms expand their operations and market presence.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market Penetration",
+                      "detail": "This is a growth strategy using existing products in existing markets. It seeks to increase market share for current products through greater marketing efforts, such as more sales people or more advertising."
+                    },
+                    {
+                      "heading": "Market Development",
+                      "detail": "This means entering new geographic areas with existing products. It introduces present products to new areas, which can mean new regions or new countries. International expansion is a common form."
+                    },
+                    {
+                      "heading": "Product Development",
+                      "detail": "This means creating new products for existing markets. It involves offering new or improved products for the current customer base. It keeps the product line fresh and competitive."
+                    },
+                    {
+                      "heading": "Concentric Diversification",
+                      "detail": "This means adding related new products. The new products are related to existing ones and may use similar technology or marketing. It spreads risk while staying in familiar areas."
+                    }
+                  ],
+                  "conclusion": "Each growth strategy offers different ways for firms to expand their business.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The use of discounts, credit card and preferential financial arrangement for customers is ______",
-            "options": [
-              "Price competition",
-              "Merges and takeovers",
-              "Government intervention",
-              "Clocking-in"
-            ],
-            "correctAnswer": "A",
-            "explanation": "These are tools used to compete on price. They make buying cheaper or easier, which attracts customers away from competitors.",
-            "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is an example of intangible asset?",
-            "options": [
-              "Raw material",
-              "Computers",
-              "Brand name",
-              "Bank balance"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Intangible assets are things you cannot touch or see. A brand name, reputation, and patents are all examples of intangible assets.",
-            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
-          },
-          {
-            "type": "single",
-            "question": "The first stage in strategic planning is ______.",
-            "options": [
-              "Implementation",
-              "formulation",
-              "evaluation",
-              "control"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Strategic planning begins with formulation. This is where you design and select the strategies to achieve your goals.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "An example of non-financial benefit of strategic management is ______.",
-            "options": [
-              "reduced resistance change",
-              "profitability",
-              "increased productivity",
-              "improved sales"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Reduced resistance to change is a non-financial benefit. It makes employees more willing to accept new ways of working.",
-            "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
-          },
-          {
-            "type": "single",
-            "question": "How a firm will compete in selected product-market arena is determined by a manager at ______.",
-            "options": [
-              "supply level",
-              "strategic level",
-              "functional level",
-              "corporate level"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Business-level managers decide how the firm will compete. They figure out the best way to win in a specific market.",
-            "reference": "Unit 1, Session 4, 4.2 - Business Level"
-          },
-          {
-            "type": "single",
-            "question": "Devising policies is part of strategy ______.",
-            "options": [
-              "review",
-              "implementation",
-              "formulation",
-              "evaluation"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Policies are created to guide actions. This happens during strategy implementation, not during formulation.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "Setting organizational mission on the basis of need to change is ______.",
-            "options": [
-              "targeting",
-              "role-model",
-              "internal transformation",
-              "common enemy"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Internal transformation means changing from within. The mission is set to guide the organisation through this change process.",
-            "reference": "Unit 2, Session 1, 1.1 - Developing the Organisation's Strategic Vision and Mission"
-          },
-          {
-            "type": "single",
-            "question": "The percentage of total funds that are provided by creditors versus by owners is a measure of ______.",
-            "options": [
-              "inventory turnover",
-              "earning per share",
-              "debt of equity ratio",
-              "current ratio"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The debt-to-equity ratio shows how much creditors have provided compared to owners. It measures the company's financial leverage.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Economic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "Inbound logistics does not include ______.",
-            "options": [
-              "shipping",
-              "raw material",
-              "fuel",
-              "energy"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Shipping is part of outbound logistics, not inbound. Inbound logistics covers receiving, storing, and managing inputs.",
-            "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
-          },
-          {
-            "type": "single",
-            "question": "The use of the assets of a company to acquire additional operating assets is ______.",
-            "options": [
-              "Licence/agreement",
-              "Joint venture",
-              "Importing/exporting",
-              "Direct investment"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Direct investment means using company money to buy or build assets. This shows the strongest commitment to a foreign market.",
-            "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
-          },
-          {
-            "type": "single",
-            "question": "The basic resources of an organization can be categorized into ______.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "B",
-            "explanation": "There are three basic types of organisational resources. These are tangible assets, intangible assets, and organisational capabilities.",
-            "reference": "Unit 3, Session 3, 3.1 - A Resource-Based Approach to Organisational Analysis"
-          },
-          {
-            "type": "single",
-            "question": "Beliefs, values and attitudes are examples of ______.",
-            "options": [
-              "social forces",
-              "political forces",
-              "legal forces",
-              "economic forces"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Beliefs, values, and attitudes are social factors. They shape how people live, work, and consume products.",
-            "reference": "Unit 3, Session 1, 1.2 - Key External Forces (Social and Demographic Forces)"
-          },
-          {
-            "type": "single",
-            "question": "Setting a mission statement on the basis of the utility of a firm's products is based on ______.",
-            "options": [
-              "dissolution of divergent views",
-              "declaration of social responsibility",
-              "declaration of attitude",
-              "customer orientation"
-            ],
-            "correctAnswer": "D",
-            "explanation": "A customer-oriented mission focuses on the product's usefulness. It answers the question: 'What value do we provide to customers?'",
-            "reference": "Unit 2, Session 2, 2.1 - Components of a Mission Statement"
-          },
-          {
-            "type": "single",
-            "question": "The last step in strategic management process is ______.",
-            "options": [
-              "review and evaluation",
-              "identifying mission",
-              "establishing objectives",
-              "allocating of resources"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The final stage is strategy evaluation. Managers review performance and take corrective action.",
-            "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
-          },
-          {
-            "type": "single",
-            "question": "A board of directors which plays the leading role in strategic management is described as ______.",
-            "options": [
-              "rubber stamp",
-              "phantom",
-              "minimal review",
-              "catalyst"
-            ],
-            "correctAnswer": "D",
-            "explanation": "A catalyst board takes the leading role. They actively participate in strategy decisions.",
-            "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
-          },
-          {
-            "type": "single",
-            "question": "Social contract categorises obligations between the organization and society into ______.",
-            "options": [
-              "two",
-              "three",
-              "four",
-              "five"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The social contract has three types of obligations. These are obligations to individuals, to groups, and to government.",
-            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
-          },
-          {
-            "type": "single",
-            "question": "The responsibility of busines to produce goods and services is ______.",
-            "options": [
-              "Legal",
-              "Ethical",
-              "Economic",
-              "Discretionary"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The economic responsibility is to produce goods and services. This creates value and generates profit for owners.",
-            "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+            "label": "Question 4",
+            "totalMarks": 16,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Describe the sequence of growth strategy of firms.",
+                "marks": 8,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Chandler observed a common sequence of growth for American firms.",
+                  "mainPoints": [
+                    {
+                      "heading": "Volume expansion",
+                      "detail": "This is the first growth strategy. It creates a need for an administrative office to handle more volume."
+                    },
+                    {
+                      "heading": "Geographic expansion",
+                      "detail": "This is the second growth strategy. Firms open multiple field units in different locations. They perform the same functions in new areas."
+                    },
+                    {
+                      "heading": "Vertical integration",
+                      "detail": "This is the third growth strategy. Firms stay in the same industry but add more functions. They control more steps in the production process."
+                    },
+                    {
+                      "heading": "Product diversification",
+                      "detail": "This is the final growth strategy. Firms enter new industries where they can use existing resources."
+                    }
+                  ],
+                  "conclusion": "This sequence shows how firms grow and develop over time.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.2 - Sequence of Growth Strategy of Firms"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four (4) human resource functions involved in getting the right people into the right jobs in the right time.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Human resource functions help get the right people in the right jobs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Recruiting and Hiring",
+                      "detail": "This involves finding and selecting qualified employees. Firms must attract people with the right skills."
+                    },
+                    {
+                      "heading": "Training and Development",
+                      "detail": "This teaches employees new skills. Training helps workers add value to the organisation."
+                    },
+                    {
+                      "heading": "Coaching and Evaluation",
+                      "detail": "This involves day-to-day guidance and feedback. Managers monitor progress and provide correction."
+                    },
+                    {
+                      "heading": "Career Planning",
+                      "detail": "This helps employees develop skills for the future. The company provides opportunities for growth and learning."
+                    }
+                  ],
+                  "conclusion": "These functions ensure the organisation has the talent it needs.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 3, 3.2 - Human Resource Strategies"
+                }
+              }
+            ]
           }
         ]
       }
