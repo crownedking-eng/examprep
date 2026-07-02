@@ -1,264 +1,556 @@
 {
   "subject": "International Procurement",
+  "subjectCode": "PCM 405D",
   "academicYear": "2022/2023",
   "semesters": [
     {
       "semester": "Semester I",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The sum total of all individuals, institutions and other forces that are outside the control of a business enterprise but the business still depends upon them as they affect the overall performance and sustainability of the business is referred to as ______.",
+          "options": [
+            "A. industry forces",
+            "B. external stakeholders",
+            "C. business environment",
+            "D. external forces"
+          ],
+          "correctAnswer": "C",
+          "explanation": "This is the definition of business environment. It includes all outside forces that affect a business but are outside its control.",
+          "reference": "Unit 2, Session 1, 2.1 - Business Environment"
+        },
+        {
+          "type": "single",
+          "question": "All the following are factors that trigger the need for recognition of a new product within the organisation, except ______.",
+          "options": [
+            "A. enhancing and motivating employees",
+            "B. change in organisation culture",
+            "C. building organisation image",
+            "D. competitiveness of marketplace"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Competitiveness of the marketplace is an external factor. The others are internal needs that trigger a need for a new product.",
+          "reference": "Unit 3, Session 2, 2.2 - Problem/Need Recognition"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a method of solicitation in procurement used for low-value purchases and well-defined products and services?",
+          "options": [
+            "A. Invitation to Bid",
+            "B. Open tendering",
+            "C. Request for proposals",
+            "D. Request for quotations"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Request for Quotations (RFQ) is used for low-value items. It works best when the product is simple and clearly defined.",
+          "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+        },
+        {
+          "type": "single",
+          "question": "What type of specification is also known as conformance specification?",
+          "options": [
+            "A. Functional specification",
+            "B. Technical specification",
+            "C. Performance specification",
+            "D. None performance"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Technical specification is also called conformance specification. It describes technical details like dimensions and weight.",
+          "reference": "Unit 3, Session 3, 3.1.2 - Types of specifications"
+        },
+        {
+          "type": "single",
+          "question": "Which type of evaluation method is used when several sources supply the same goods or services, thus, permitting cross-comparisons?",
+          "options": [
+            "A. Weighted point evaluation system",
+            "B. Weighted scoring system",
+            "C. Linear averaging",
+            "D. Weighted average system"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The weighted point evaluation system is used when multiple suppliers offer the same goods. It allows for easy comparison.",
+          "reference": "Unit 3, Session 5, 5.4.2 - Weighted Point Evaluation Systems"
+        },
+        {
+          "type": "single",
+          "question": "When selecting the type of competition, which of the following should be considered by the buying organisation?\nI. Value of the procurement\nII. Market conditions\nIII. Knowledge of the market",
+          "options": [
+            "A. I only",
+            "B. II only",
+            "C. III only",
+            "D. I, II and III"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The book says the type of competition depends on the value of procurement, market conditions, and knowledge of the market. All three are correct.",
+          "reference": "Unit 3, Session 4, 4.3 - Selecting the Type of Competition"
+        },
+        {
+          "type": "single",
+          "question": "All the following are reasons why companies decide to go global and enter international markets except ______.",
+          "options": [
+            "A. Accessibility of raw materials",
+            "B. Lack of home-grown labour",
+            "C. Reciprocation of service",
+            "D. Increase innovation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The book mentions cheap labour abroad, not a lack of home-grown labour. The other options are all valid reasons.",
+          "reference": "Unit 1, Session 3, 3.2 - International Market Sourcing"
+        },
+        {
+          "type": "single",
+          "question": "Which monitoring method requires checking progress reports from many observers, technical reviews, performance indicators and audits?",
+          "options": [
+            "A. Direct observation",
+            "B. Inspection",
+            "C. Indirect observation",
+            "D. Dimensional checks"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Indirect observation uses reports and reviews from others. You are not physically present but check information from documents.",
+          "reference": "Unit 3, Session 6, 6.2.1 - Monitoring methods"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a way of mitigating financial risk in international procurement?",
+          "options": [
+            "A. Take all complaints and inquiries seriously",
+            "B. Limiting personal guarantees",
+            "C. Put in place the right business structure",
+            "D. Get the right insurance policies"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Taking complaints seriously is for mitigating legal risk, not financial risk. The other options are ways to mitigate financial risk.",
+          "reference": "Unit 6, Session 4, 4.1 - Financial Risks and 4.2 - Legal Risks"
+        },
+        {
+          "type": "single",
+          "question": "The payment method that involves purchasing an invoice from an exporter in one country and collecting it later from his buyer in another country is known as ______.",
+          "options": [
+            "A. Banker's draft",
+            "B. Cross-border factoring",
+            "C. Letter of credit",
+            "D. Factoring"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Cross-border factoring is when a factor buys an invoice from an exporter. The factor collects the payment later from the buyer in another country.",
+          "reference": "Unit 6, Session 1, 1.2 - Cross-Border Factoring"
+        },
+        {
+          "type": "single",
+          "question": "What is the first international shipping document exchanged in international procurement?",
+          "options": [
+            "A. Packing list",
+            "B. Commercial invoice",
+            "C. Proforma invoice",
+            "D. Bill of lading"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The proforma invoice is the first document exchanged. It is sent as a quote to the buyer before the order is confirmed.",
+          "reference": "Unit 5, Session 1, 1.1 - Types of International Shipping Documents"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not covered under all risk coverage cargo insurance?",
+          "options": [
+            "A. Cargo abandonment",
+            "B. Infestation",
+            "C. Sinking",
+            "D. Customs rejection"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Sinking is covered under Free From Particular Average (FPA) coverage, not all risk coverage. All risk covers cargo abandonment, infestation, and customs rejection.",
+          "reference": "Unit 5, Session 2, 2.4 - Benefits of Cargo Insurance"
+        },
+        {
+          "type": "single",
+          "question": "The risk affecting supply chains in international procurement when the regulatory environment changes in response to a new government or increasing awareness of inequitable social conditions is known as ______.",
+          "options": [
+            "A. Socio-political risk",
+            "B. Commercial risk",
+            "C. Environmental risk",
+            "D. Human behaviour risk"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Socio-political risk happens when the regulatory environment changes due to new governments or social conditions. This affects supply chains.",
+          "reference": "Unit 6, Session 4, 4.4 - Socio-Political Risks"
+        },
+        {
+          "type": "single",
+          "question": "The type of competition that restricts competition to a short list of suppliers selected in a non-discriminatory manner from rosters, prequalification and market research is referred to as ______.",
+          "options": [
+            "A. restrictive international competition",
+            "B. open international competition",
+            "C. restrictive international tendering",
+            "D. limited international competition"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Limited international competition restricts bidding to a shortlist of chosen suppliers. The selection is done fairly without discrimination.",
+          "reference": "Unit 3, Session 4, 4.3 - Selecting the Type of Competition"
+        },
+        {
+          "type": "single",
+          "question": "Which type of contract does the supplier agree to perform the work for one fixed price, regardless of the ultimate cost?",
+          "options": [
+            "A. Unit price contract",
+            "B. Fixed sum contract",
+            "C. Cost-reimbursable contract",
+            "D. Fixed lump sum contract"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The book calls it a fixed lump sum contract. The price is set and does not change even if costs go up.",
+          "reference": "Unit 3, Session 6, 6.1.2 - Types of contracts"
+        },
+        {
+          "type": "single",
+          "question": "In international procurement, the proforma invoice specifies all the following except ______.",
+          "options": [
+            "A. the buyer and seller in the transaction",
+            "B. the seller's bank details",
+            "C. a detailed description of goods",
+            "D. the price"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The proforma invoice does not include the seller's bank details. It includes buyer and seller info, product description, price, payment terms, and delivery details.",
+          "reference": "Unit 5, Session 1, 1.1 - Types of International Shipping Documents"
+        },
+        {
+          "type": "single",
+          "question": "Inspection as a monitoring method involves the use of an inspector's eyes, ears, and other senses in making a personal judgment.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "This is true. Sensory checks are part of inspection and rely on the inspector's sight, hearing, and other senses.",
+          "reference": "Unit 3, Session 6, 6.2.1 - Monitoring methods"
+        },
+        {
+          "type": "single",
+          "question": "In a request for proposal (RFP), suppliers submit an offer to provide a product or service strictly as described in the solicitation documents. In an invitation to bid (ITB), suppliers may offer alternative approaches to delivering the required product or service.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This is the wrong way round. In ITB, suppliers follow the description strictly. In RFP, suppliers can offer alternative approaches.",
+          "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+        },
+        {
+          "type": "single",
+          "question": "One advantage of the telegraphic payment system is that it is the quickest way to transfer funds.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "This is true. Telegraphic transfers are one of the quickest methods of executing payments abroad.",
+          "reference": "Unit 6, Session 3, 3.3 - Telegraphic Payment"
+        },
+        {
+          "type": "single",
+          "question": "The process where an impartial third-party assist disputing parties in resolving conflict through the use of specialised communication and negotiation techniques is termed as mediation.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "This is true. This is the definition of mediation. A neutral third party helps the disputing sides communicate and find a resolution.",
+          "reference": "Unit 5, Session 6, 6.1 - Introduction"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "Which type of contract does the supplier agree to perform the work for one fixed price, regardless of the ultimate cost?",
-            "options": [
-              "Unit price contract",
-              "Fixed sum contract",
-              "Cost-reimbursable contract",
-              "Fixed lump sum contract"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The book calls it a fixed lump sum contract. The price is set and does not change even if costs go up.",
-            "reference": "Unit 3, Session 6, 6.1.2 - Types of contracts"
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain two factors to consider when undertaking international procurement.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Companies must consider several factors before buying from other countries. Here are two key factors.",
+                  "mainPoints": [
+                    {
+                      "heading": "Product quality",
+                      "detail": "The quality of goods affects the entire business. Poor quality leads to returns and unhappy customers. It also costs money to handle bad products. Good quality products are essential for a successful supply chain."
+                    },
+                    {
+                      "heading": "Time to market and vendor responsiveness",
+                      "detail": "How fast a supplier responds is very important. If your competitor gets products faster, you lose market share. Suppliers must be able to make changes and increase production when needed."
+                    }
+                  ],
+                  "conclusion": "These factors show why careful consideration is needed before international procurement. Poor planning in these areas can hurt the business.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 2, 2.1 - Factors to Consider when Undertaken International Procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Enumerate four factors to consider when selecting suppliers for international procurement.",
+                "marks": 4,
+                "commandWord": "Enumerate",
+                "answer": {
+                  "introduction": "Choosing the right supplier is very important. Here are four key factors to consider.",
+                  "mainPoints": [
+                    {
+                      "heading": "Recognize the value of good suppliers",
+                      "detail": "Good suppliers are vital for your business. They provide essential goods and services. They can also give market information and help with marketing."
+                    },
+                    {
+                      "heading": "Understand the different supplier types",
+                      "detail": "Businesses deal with different types of suppliers. These include tradespeople, distributors, importers, and manufacturers. Each type needs to be managed differently."
+                    },
+                    {
+                      "heading": "Determine your criteria",
+                      "detail": "You must know your requirements before assessing bids. Common criteria include price, quality, and delivery time. You may also have special requirements like payment methods and guarantees."
+                    },
+                    {
+                      "heading": "Outline your selection process",
+                      "detail": "Use a formal process instead of ad hoc decisions. This ensures you address every criterion. For complex purchases, you might ask for proposals or tenders."
+                    }
+                  ],
+                  "conclusion": "Following these steps helps you find the right supplier. It leads to better products and stronger business relationships.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 2, 2.2 - Factors to Consider when Selecting a Supplier from the International Market"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain any five ways disputes between companies can be resolved in international transactions.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Disputes in international business can be settled without going to court. Here are five ways to resolve disagreements.",
+                  "mainPoints": [
+                    {
+                      "heading": "Negotiation",
+                      "detail": "The parties talk directly to settle their differences. They try to reach a compromise without outside help. This is the simplest and quickest method."
+                    },
+                    {
+                      "heading": "Mediation",
+                      "detail": "A neutral third party helps the disputing sides communicate. The mediator does not impose a solution. The parties must agree to the settlement voluntarily."
+                    },
+                    {
+                      "heading": "Conciliation",
+                      "detail": "This is similar to mediation. A conciliator meets with both parties together and separately. The goal is to find a resolution to their differences."
+                    },
+                    {
+                      "heading": "Arbitration",
+                      "detail": "A neutral person serves as a judge. Both sides present their case and evidence. The arbitrator's decision is binding and enforceable in court."
+                    },
+                    {
+                      "heading": "Litigation",
+                      "detail": "This is going to court. A judge or jury weighs the evidence and makes a ruling. It is the most formal and expensive option."
+                    }
+                  ],
+                  "conclusion": "These methods give companies choices for resolving disputes. The best choice depends on the situation and relationship between the parties.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 6, 6.1 - Introduction"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Which monitoring method requires checking progress reports from many observers, technical reviews, performance indicators and audits?",
-            "options": [
-              "Direct observation",
-              "Inspection",
-              "Indirect observation",
-              "Dimensional checks"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Indirect observation uses reports and reviews. You are not physically present but check information from others.",
-            "reference": "Unit 3, Session 6, 6.2.1 - Monitoring methods"
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Using relevant examples, explain the types of trade agreements.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Trade agreements are deals between nations on trade terms. There are three main types.",
+                  "mainPoints": [
+                    {
+                      "heading": "Bilateral trade agreement",
+                      "detail": "This is an agreement between two nations. It gives them favoured trading status with each other. It removes tariffs and other trade taxes. Example: The US-Canada Free Trade Agreement."
+                    },
+                    {
+                      "heading": "Unilateral trade agreement",
+                      "detail": "This is a trade treaty that one nation imposes alone. It does not involve other countries. For example, a country might lift tariffs on imports from all partners without expecting anything in return."
+                    },
+                    {
+                      "heading": "Multilateral trade agreement",
+                      "detail": "This is an agreement among three or more nations. It reduces tariffs and makes trade easier. These agreements are complex because many countries are involved. Example: The European Union (EU) or ECOWAS."
+                    }
+                  ],
+                  "conclusion": "These agreements help countries trade more easily. They remove barriers and promote economic growth between nations.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.1 - Types of Trade Agreements and 4.2 - Examples of Trade Agreements"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain two advantages and two disadvantages of trade agreements.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Trade agreements have both good and bad effects. Here are two advantages and two disadvantages.",
+                  "mainPoints": [
+                    {
+                      "heading": "Advantage - Increased economic growth",
+                      "detail": "Trade agreements increase trade between countries. This boosts economic growth. For example, NAFTA was estimated to increase US economic growth by up to 0.5% a year."
+                    },
+                    {
+                      "heading": "Advantage - More dynamic business climate",
+                      "detail": "Without free trade, countries protect domestic industries. This makes them non-competitive. Removing protection motivates companies to become global competitors."
+                    },
+                    {
+                      "heading": "Disadvantage - Increased outsourcing of jobs",
+                      "detail": "Reducing tariffs allows companies to move to other countries. Imports from low-cost countries compete with domestic goods. This can cause job losses in some industries."
+                    },
+                    {
+                      "heading": "Disadvantage - Crowd out domestic industries",
+                      "detail": "Emerging markets often rely on farming. These small farms cannot compete with subsidized agribusiness in developed countries. This forces people to leave their farms and look for city jobs."
+                    }
+                  ],
+                  "conclusion": "Trade agreements bring economic benefits but can also cause job losses. Countries must manage these effects carefully.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.3 - Benefits of Trade Agreement and 4.4 - Disadvantages"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Specifications are classified as good when they have all the following qualities except ......",
-            "options": [
-              "Encourage innovation",
-              "Foster supplier interest",
-              "Clear and complex requirements",
-              "Better engage with the market"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Good specifications should be clear and simple, not complex. Complex requirements make things difficult for suppliers.",
-            "reference": "Unit 3, Session 3, 3.1.1 - Qualities of a good specification"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four barriers to international sourcing.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Barriers are problems that make international sourcing difficult. Here are four main barriers.",
+                  "mainPoints": [
+                    {
+                      "heading": "Time differences",
+                      "detail": "When your supplier is on the other side of the world, they sleep while you work. You can lose days waiting for answers. This causes delays and problems."
+                    },
+                    {
+                      "heading": "Language barriers",
+                      "detail": "Suppliers may not speak your language fluently. They may not ask for explanations if they don't understand. This can lead to mistakes and confusion."
+                    },
+                    {
+                      "heading": "Quality expectations",
+                      "detail": "If you rely only on overseas suppliers to check quality, you won't know about problems until goods arrive. You can prevent this by doing inspections before goods leave the country."
+                    },
+                    {
+                      "heading": "Production scheduling",
+                      "detail": "Orders can be late because of poor planning. Suppliers may have to pay penalties. They may need to ship by air instead of sea, which costs more."
+                    }
+                  ],
+                  "conclusion": "These barriers show why international sourcing needs careful planning. Understanding them helps companies prepare and avoid problems.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.1 - Barriers to International Sourcing"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain five strategies firms can use to manage price volatility in international procurement.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Price volatility means prices change unpredictably. Companies need strategies to manage this risk. Here are five strategies.",
+                  "mainPoints": [
+                    {
+                      "heading": "Re-examine supplier contracts",
+                      "detail": "Review supply agreements to reduce risk. Consider sharing price risk with suppliers. A good approach is collar pricing which shares risk fairly between both sides."
+                    },
+                    {
+                      "heading": "Re-evaluate sales contracts",
+                      "detail": "Fixed long-term contracts can cause losses if raw material costs rise. Consider cost indexing so prices rise or fall with material costs. This passes some risk to customers."
+                    },
+                    {
+                      "heading": "Make it yourself",
+                      "detail": "Manufacture some materials in-house instead of buying. This gives you a steady supply at a stable price. It also protects trade secrets and quality."
+                    },
+                    {
+                      "heading": "Find alternative sources of materials",
+                      "detail": "Develop alternative materials for your products. This may require research and development spending. It helps reduce dependence on volatile suppliers."
+                    },
+                    {
+                      "heading": "Implement financial hedging",
+                      "detail": "Buy futures or options on the underlying commodity. This lets you lock in current prices for future purchases. This offsets risk from price changes."
+                    }
+                  ],
+                  "conclusion": "These strategies help companies protect themselves from unpredictable price changes. Using a mix of approaches gives the best protection.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.2 - Strategies of Managing Price Volatility"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "During the supplier selection process, what characteristics do buyers need to look for to determine the best supplier?\nI. Value for money\nII. Integrity\nIII. Trustworthy\nIV. Monetary guarantee",
-            "options": [
-              "I and III",
-              "I, III and IV",
-              "II and IV",
-              "I, II and III"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Integrity is not listed as a supplier characteristic. The key traits are value for money, being trustworthy, and having monetary guarantee.",
-            "reference": "Unit 1, Session 2, 2.3 - Knowing Supplier Characteristics"
-          },
-          {
-            "type": "single",
-            "question": "All the following are reasons why companies decide to enter international markets except ______.",
-            "options": [
-              "accessibility of raw materials",
-              "lack of home-grown labour",
-              "reciprocation of service",
-              "increase innovation"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The book mentions cheap labour abroad, not a lack of home-grown labour. The other options are all valid reasons to enter international markets.",
-            "reference": "Unit 1, Session 3, 3.2 - International Market Sourcing"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is not a factor that causes commercial risk in international trade?",
-            "options": [
-              "Lack of knowledge about foreign markets",
-              "Changes in exchange rates",
-              "Longer transit time",
-              "Varying situations to be handled, not anticipated before export"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Changes in exchange rates affect price realization, but the book lists it separately. The main causes of commercial risk are lack of knowledge, product inadaptability, long transit time, and unexpected situations.",
-            "reference": "Unit 1, Session 5, 5.2 - Nature of Risk different in International Trade"
-          },
-          {
-            "type": "single",
-            "question": "The business environment is affected by many economic factors. Which of the following factors do not form part of such factors?",
-            "options": [
-              "Money and Banking",
-              "Demand and Supply",
-              "Economic Growth and Development",
-              "Bilateral Trade Agreements"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Bilateral trade agreements are part of political/legal systems, not economic factors. Money, banking, demand/supply, and economic growth are all economic factors.",
-            "reference": "Unit 2, Session 4, 4.2 - Economic Factors affecting Business Environment"
-          },
-          {
-            "type": "single",
-            "question": "Business environment analysis is advantageous in the following ways except ______.",
-            "options": [
-              "identification of threats",
-              "presence of a strategic approach",
-              "helps in achieving objectives",
-              "forecasting the future"
-            ],
-            "correctAnswer": "B",
-            "explanation": "A lack of strategic approach is a disadvantage, not an advantage. The advantages include identifying threats, achieving objectives, and forecasting.",
-            "reference": "Unit 2, Session 6, 6.1 - Advantages of Business Environment Analysis and 6.2 - Disadvantages of Environment Business Analysis"
-          },
-          {
-            "type": "single",
-            "question": "The choice of international procurement process is dependent on the following factors except ______.",
-            "options": [
-              "process",
-              "business strategy",
-              "organisational structure",
-              "type of company and industry"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Process is one of the 3 Ps of procurement management, not a factor influencing the choice of process. The others are listed as influencing factors.",
-            "reference": "Unit 3, Session 1, 1.3 - Factors influencing the choice of an International Procurement Process"
-          },
-          {
-            "type": "single",
-            "question": "What type of specification is also known as conformance specification?",
-            "options": [
-              "Functional specification",
-              "Technical specification",
-              "Performance specification",
-              "None performance"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Technical specification is also called conformance specification. It describes the technical details like dimensions and weight.",
-            "reference": "Unit 3, Session 3, 3.1.2 - Types of specifications"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following does not form part of the criteria for shortlisting suppliers for a procurement activity?",
-            "options": [
-              "Legislative requirement",
-              "Technical capacity and experience",
-              "Location of the supplier",
-              "The monetary value of the procurement activity"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Location is not listed as a shortlisting criterion. The book lists monetary value, market share, legislative requirements, technical capacity, and ethical principles.",
-            "reference": "Unit 3, Session 3, 3.3 - Short Listing Suppliers"
-          },
-          {
-            "type": "single",
-            "question": "When selecting the type of competition, which of the following should be considered by the buying organisation?\nI. Value of the procurement\nII. Market conditions\nIII. Knowledge of the market",
-            "options": [
-              "Only",
-              "Only",
-              "Only",
-              "I, II and III"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The book says the type of competition depends on the value of the procurement, market conditions, and knowledge of the market. So all three are correct.",
-            "reference": "Unit 3, Session 4, 4.3 - Selecting the Type of Competition"
-          },
-          {
-            "type": "single",
-            "question": "Which type of evaluation method is used when several sources supply the same goods or services, thus, permitting cross-comparisons?",
-            "options": [
-              "Weighted point evaluation system",
-              "Weighted scoring system",
-              "Linear averaging",
-              "Weighted average system"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The weighted point evaluation system is used when multiple suppliers offer the same products. It allows for easy comparison.",
-            "reference": "Unit 3, Session 5, 5.4.2 - Weighted Point Evaluation Systems"
-          },
-          {
-            "type": "single",
-            "question": "Based on Kotler and Kelleer's (2012) classification of the buyer-supplier relationship, which of the following forms part of the eight categories\nI. Basic buying and selling\nII. Bare bones\nIII. Customer is king",
-            "options": [
-              "Only",
-              "Only",
-              "Only",
-              "I, II and III"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The book lists all three of these categories. Basic buying and selling, bare bones, and customer is king are all part of the eight types.",
-            "reference": "Unit 3, Session 6, 6.3 - Managing Relationships with Vendors"
-          },
-          {
-            "type": "single",
-            "question": "What category of procurement spending ranges from standardised items like office supplies and machine lubricants to complex and costly products and services like heavy equipment, consulting services, and outsourcing services?",
-            "options": [
-              "Indirect procurement",
-              "Direct procurement",
-              "Intermediate procurement",
-              "Service procurement"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Indirect procurement is for non-production items. This includes everything from simple office supplies to complex consulting services.",
-            "reference": "Unit 1, Session 1, 1.1 - Define Procurement"
-          },
-          {
-            "type": "single",
-            "question": "Procurement, whether carried out in the local or international terrain comprise of 3 Ps. Which of the following is not part of the three Ps in procurement management?",
-            "options": [
-              "Paper",
-              "People",
-              "Planet",
-              "Process"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The 3 Ps are People, Process, and Paperwork. Planet is not part of the procurement management model.",
-            "reference": "Unit 3, Session 1, 1.2 - Three (3) Ps' of the Procurement Management Process"
-          },
-          {
-            "type": "single",
-            "question": "In a request for proposal (RFP), suppliers submit an offer to provide a product or service strictly as described in the solicitation documents, whilst in an invitation to bid (ITB), suppliers may offer alternative approaches to delivering the required product or service.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "This is the wrong way round. In ITB, suppliers follow the description strictly. In RFP, suppliers can offer alternative, innovative approaches.",
-            "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
-          },
-          {
-            "type": "single",
-            "question": "Contract administration is the last stage in the international procurement process.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "This is false. Contract close-out is the last stage. Contract administration comes before close-out.",
-            "reference": "Unit 3, Session 1, 1.4 - The International Procurement Process"
-          },
-          {
-            "type": "single",
-            "question": "Inspection as a monitoring method involves the use of an inspector's eyes, ears, and other senses in making a personal judgment.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "A",
-            "explanation": "This is true. Sensory checks are part of inspection and rely on the inspector's sight, hearing, and other senses.",
-            "reference": "Unit 3, Session 6, 6.2.1 - Monitoring methods"
-          },
-          {
-            "type": "single",
-            "question": "Request for quotations (RFQs) are used for high dollar value purchases and well-defined products and services.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "RFQs are used for low dollar value purchases, not high value. The statement about well-defined products is correct, but the value part is wrong.",
-            "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain two risks affecting supply chains in international procurement and suggest two ways of mitigating each risk.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Supply chains face many risks when operating internationally. Here are two major risks and how to handle them.",
+                  "mainPoints": [
+                    {
+                      "heading": "Financial Risks",
+                      "detail": "What it is: This includes budget overruns, exchange rate changes, or supplier bankruptcy. Unexpected costs can harm the business."
+                    },
+                    {
+                      "heading": "Mitigation for Financial Risks - 1",
+                      "detail": "Get the right insurance policies. This protects you from financial losses."
+                    },
+                    {
+                      "heading": "Mitigation for Financial Risks - 2",
+                      "detail": "Put in place the right business structure. This helps limit personal guarantees and financial exposure."
+                    },
+                    {
+                      "heading": "Cargo Risks",
+                      "detail": "What it is: Goods can be damaged, stolen, or lost during transit. Risks include storms, collisions, theft, and fire."
+                    },
+                    {
+                      "heading": "Mitigation for Cargo Risks - 1",
+                      "detail": "Know the minimum security guidelines. Follow best practices for protecting shipments."
+                    },
+                    {
+                      "heading": "Mitigation for Cargo Risks - 2",
+                      "detail": "Ensure the contracts are clear. Make sure responsibility for loss or damage is clearly defined."
+                    }
+                  ],
+                  "conclusion": "Understanding risks and having a mitigation plan helps keep supply chains running smoothly. Preparation is key to avoiding major problems.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 4, 4.1 - Financial Risks and 4.5 - Cargo Risks"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Describe the two types of specifications with relevant examples.",
+                "marks": 8,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "Specifications define what you need from a supplier. There are two main types: technical and functional.",
+                  "mainPoints": [
+                    {
+                      "heading": "Technical specification",
+                      "detail": "This describes the technical properties of the product. It includes things like dimensions, weight, and materials. It is also called conformance specification. Example: A steel beam must be 5 metres long and weigh 200 kilograms."
+                    },
+                    {
+                      "heading": "Functional specification",
+                      "detail": "This focuses on the outcome and what the product should do. It describes functionality like being fast or convenient. It is also called performance specification. Example: A machine must be able to cut 100 pieces per hour and be easy to use."
+                    }
+                  ],
+                  "conclusion": "Technical specifications describe the product itself. Functional specifications describe what the product should do. Both are important for clear communication with suppliers.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 3, 3.1.2 - Types of specifications"
+                }
+              }
+            ]
           }
         ]
       }
