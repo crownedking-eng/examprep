@@ -1,264 +1,544 @@
 {
   "subject": "Business Ethics and Corporate Governance",
+  "subjectCode": "SBU 406D",
   "academicYear": "2022/2023",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The following include drivers associated with the increasing demand for the development of governance except ______.",
+          "options": [
+            "A. several high-profile corporate scandals and collapses of companies.",
+            "B. the different treatment of domestic and foreign investors, both in terms of reporting and associated rights/dividends.",
+            "C. issues concerning financial reporting",
+            "D. the language barrier in globalization"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The drivers are corporate scandals, differential treatment of investors, and financial reporting issues. Language barrier is not mentioned as a driver.",
+          "reference": "Unit 1, Session 1, 1.2 - The Driving Forces of Corporate Governance Development"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is synonymous with ethics?",
+          "options": [
+            "A. Virtues",
+            "B. Morality",
+            "C. Rules of conduct",
+            "D. Virtues and Rules of conduct"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Ethics is synonymous with morality. Both refer to moral principles that guide behaviour.",
+          "reference": "Unit 1, Session 2, 2.1 - Business Ethics"
+        },
+        {
+          "type": "single",
+          "question": "The circumstances in which you have to decide whether to pursue a course of action that may benefit you or your organization but is unethical is known as ethical ______.",
+          "options": [
+            "A. conflict",
+            "B. dilemma",
+            "C. issue",
+            "D. indecisive"
+          ],
+          "correctAnswer": "B",
+          "explanation": "An ethical dilemma is a situation where you must choose between options, and one option may benefit you but is unethical.",
+          "reference": "Unit 1, Session 2, 2.1 - Business Ethics"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following types of social responsibility of a manager involves economic development that meets the needs of the present without compromising the ability of future generations to meet their own needs?",
+          "options": [
+            "A. Sustainability responsibility",
+            "B. Philanthropic responsibility",
+            "C. Economic responsibility",
+            "D. Legal responsibility"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Sustainability means economic development that meets present needs without harming future generations.",
+          "reference": "Unit 2, Session 1, 1.3 - Corporate Citizenship & Corporate Social Responsibility"
+        },
+        {
+          "type": "single",
+          "question": "Organizations that adopt shaper of society as a corporate responsibility stance ensure that society benefits from their actions is more important than financial and other stakeholder interests.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Shaper of society stance means the organisation actively shapes society. Social benefit is more important than financial interests.",
+          "reference": "Unit 2, Session 2, 2.4 - Corporate Social Responsibility Stances"
+        },
+        {
+          "type": "single",
+          "question": "Despite Friedman's arguments against Corporate Social Responsibility, there are several reasons why CSR can be strategically beneficial for businesses, including ______.\nI. Enhances a business's reputation\nII. Socially responsible businesses can operate for longer in society\nIII. Socially responsible firms can attract a higher calibre of staff\nIV. Socially responsible firms incur high environmental cost",
+          "options": [
+            "A. I, II and III only",
+            "B. II, III and IV only",
+            "C. I, III and IV only",
+            "D. I, II and IV only"
+          ],
+          "correctAnswer": "A",
+          "explanation": "CSR enhances reputation, helps businesses survive longer, and attracts better staff. High environmental cost is a negative, not a benefit.",
+          "reference": "Unit 2, Session 2, 2.6 - Arguments in Favour of Corporate Social Responsibility"
+        },
+        {
+          "type": "single",
+          "question": "Which strategy for social responsibility involves allowing a situation to continue unresolved until the public, government, or consumer groups find out about it?",
+          "options": [
+            "A. Reactive strategy",
+            "B. Proactive strategy",
+            "C. Defence strategy",
+            "D. Accommodation strategy"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Reactive strategy means letting the problem continue until others find out. The company only acts when forced.",
+          "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
+        },
+        {
+          "type": "single",
+          "question": "The type of orientation in the management of international business where a company believes that each country is unique and therefore establishes largely independent local subsidiaries and decentralizes its marketing management is known as ______.",
+          "options": [
+            "A. Ethnocentrism",
+            "B. Geocentrism",
+            "C. Regiocentrism",
+            "D. Polycentrism"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Polycentrism believes each country is unique. It sets up independent local subsidiaries and decentralises management.",
+          "reference": "Unit 2, Session 5, 5.10 - Polycentrism"
+        },
+        {
+          "type": "single",
+          "question": "Michael Porter's \"The Competitive Advantage of Nations,\" suggests that some nations' industries are more internationally competitive than others. Which of the following is not a principal determinant of a country's competitive advantage?",
+          "options": [
+            "A. Factor conditions",
+            "B. Demand conditions",
+            "C. Supply conditions",
+            "D. Related and supporting industries"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The four determinants are factor conditions, demand conditions, firm strategy structure and rivalry, and related and supporting industries. Supply conditions is not one.",
+          "reference": "Unit 2, Session 5, 5.12 - Strategy formation"
+        },
+        {
+          "type": "single",
+          "question": "In international trade, the category of risk that arises from the possibility that the business idea itself might be flawed resulting from failure to understand the market is termed as ______ risk.",
+          "options": [
+            "A. Market",
+            "B. Profit repatriation",
+            "C. Business",
+            "D. Currency"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Business risk arises when the business idea itself might be flawed. It comes from failure to understand the market.",
+          "reference": "Unit 2, Session 6, 6.1 - Market selection"
+        },
+        {
+          "type": "single",
+          "question": "The strategy employed by a firm to enter a foreign market by sacrificing its core competency to satisfy the local market/consumers is termed as ______.",
+          "options": [
+            "A. International strategy",
+            "B. Transnational strategy",
+            "C. Global standardization",
+            "D. Multi-domestic strategy"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Multi-domestic strategy means moving abroad but sacrificing core competency to satisfy local consumers.",
+          "reference": "Unit 2, Session 6, 6.4 - Modes of entry to foreign markets"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a responsibility of the Chairperson of a company?",
+          "options": [
+            "A. Act as a liaison between management and the Board",
+            "B. Supervise the operations of employees",
+            "C. Provide independent advice and counsel to the CEO",
+            "D. Review and sign minutes of Board meetings"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Supervising employee operations is management's role, not the Chairperson's. The Chairperson focuses on board leadership.",
+          "reference": "Unit 3, Session 1, 1.1 - Chairperson of the Board"
+        },
+        {
+          "type": "single",
+          "question": "A director is considered independent if the director ______.",
+          "options": [
+            "A. is a professional adviser to the corporate body",
+            "B. has a significant contractual relationship with the corporate body",
+            "C. has been employed by the corporate body in an executive capacity",
+            "D. None of the above"
+          ],
+          "correctAnswer": "D",
+          "explanation": "An independent director is NOT a professional adviser, has NO significant contractual relationship, and has NOT been an executive in the last three years.",
+          "reference": "Unit 3, Session 2, 2.1 - Definition of Board Independence"
+        },
+        {
+          "type": "single",
+          "question": "In establishing boards, companies must consider having representations from the following groups except ______.",
+          "options": [
+            "A. company debtors",
+            "B. politically connected persons",
+            "C. employees",
+            "D. financial experts"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Companies consider bankers, financial experts, politically connected persons, and employee representation. Company debtors are not mentioned.",
+          "reference": "Unit 3, Session 3, 3.1 - Board Representation"
+        },
+        {
+          "type": "single",
+          "question": "All the following are components of rules and regulations, an external governance mechanism, except ______.",
+          "options": [
+            "A. board of directors",
+            "B. accounting standards",
+            "C. legal tradition",
+            "D. enforcement of regulations"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Board of directors is an internal mechanism, not part of rules and regulations. The components are legal tradition, accounting standards, and enforcement.",
+          "reference": "Unit 4, Session 1, 1.2 - External Governance Mechanisms"
+        },
+        {
+          "type": "single",
+          "question": "The board of directors in performing their fiduciary duty enhances the shareholder wealth and simultaneously pursues the creation of firm value in the long run.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Fiduciary duty means enhancing shareholder wealth and pursuing long-term firm value. This is the director's main function.",
+          "reference": "Unit 4, Session 6, 6.2 - Five (5) Main Duties of the Board"
+        },
+        {
+          "type": "single",
+          "question": "Perquisites are other amenities purchased or provided by the company which include personal use of the company car, club memberships, and a home or apartment.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Perquisites are amenities like company car, club memberships, and housing. This is the correct definition.",
+          "reference": "Unit 5, Session 1, 1.1 - Components of Executive Compensation & Incentives"
+        },
+        {
+          "type": "single",
+          "question": "The following are factors management considers when determining compensation level except ______.",
+          "options": [
+            "A. internationalization",
+            "B. firm size",
+            "C. performance record and prospects",
+            "D. stock options"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Stock options are a form of compensation, not a factor for determining compensation level. The factors are firm size, performance, and internationalisation.",
+          "reference": "Unit 5, Session 1, 1.2 - Determining compensation level"
+        },
+        {
+          "type": "single",
+          "question": "The model of CEO succession whereby the firm develops a forward-looking profile that lays out the skills and experiences required of the next CEO based on the future needs of the president is termed as ______ model.",
+          "options": [
+            "A. Inside-Outside",
+            "B. Horse race",
+            "C. External candidate",
+            "D. President and/or Chief Operating Officer"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Inside-Outside model creates a skills profile first. Then candidates are compared against that profile.",
+          "reference": "Unit 5, Session 2, 2.2 - Models of CEO Succession"
+        },
+        {
+          "type": "single",
+          "question": "The conflict management style that may be used when the potential dysfunctional effect of confronting the other party outweighs the benefits of the resolution of conflict is termed as ______ style.",
+          "options": [
+            "A. Dominating",
+            "B. Avoiding",
+            "C. Obliging",
+            "D. Compromising"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Avoiding style is used when confronting someone would cause more harm than good. It is better to avoid the conflict.",
+          "reference": "Unit 6, Session 6, 6.1 - Conflict Management Styles"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "Which of the following statement about corporate governance is not true?",
-            "options": [
-              "Ensure adherence to and satisfaction with the strategic objectives of the organization, thus aiding effective management.",
-              "Maintain the independence of those who scrutinise the behaviour of the organization and its senior executive managers.",
-              "Fulfill responsibilities to all stakeholders and maximize potential conflicts of interest between the owners, managers, and the wider stakeholder community.",
-              "Promote integrity that is straightforward dealing and completeness."
-            ],
-            "correctAnswer": "C",
-            "explanation": "Corporate governance should minimize conflicts of interest, not maximize them. The statement in option C is backwards.",
-            "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "In the interests of maintaining public confidence in public institutions, the guidelines reflect the fact that public officials may be expected to observe in particular certain core principles in dealing with conflict-of-interest matters to promote integrity in the performance of official duties and responsibilities.\nExplain four core principles for managing conflict of interest in public institutions.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Public officials must follow core principles when dealing with conflicts of interest. These principles protect public trust.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Serving the public interest",
+                      "detail": "Officials must make decisions based on law and policy. They must not consider personal gain. They must avoid private interests that could compromise decisions. They must not misuse inside information for private advantage."
+                    },
+                    {
+                      "heading": "2. Supporting transparency and scrutiny",
+                      "detail": "Officials must act in a way that can bear public scrutiny. They must disclose private interests appropriately. They must ensure consistency in resolving conflicts. They must promote scrutiny of their conflict management."
+                    },
+                    {
+                      "heading": "3. Promoting individual responsibility and personal example",
+                      "detail": "Officials must arrange their private affairs to prevent conflicts. They must accept responsibility for identifying and resolving conflicts. They must act as examples to other officials and the public. They must demonstrate commitment to integrity."
+                    },
+                    {
+                      "heading": "4. Engendering an organizational culture intolerant of conflicts of interest",
+                      "detail": "Organizations must provide adequate management policies. They must encourage disclosure and discussion of conflicts. They must protect disclosures from misuse. They must provide guidance and training."
+                    }
+                  ],
+                  "conclusion": "These principles help public institutions maintain integrity and public confidence.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 4, 4.4 - Core Principles for Managing Conflict of Interest"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain the following terms;\nI. Corruption\nII. Bribery\nIII. Conflict of interest\nIV. Nepotism",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "These are key terms related to unethical behaviour. Understanding them helps prevent misconduct.",
+                  "mainPoints": [
+                    {
+                      "heading": "I. Corruption",
+                      "detail": "Any unlawful or improper behaviour to gain advantage. Includes illegitimate use of office. Allocates resources unfairly and inefficiently."
+                    },
+                    {
+                      "heading": "II. Bribery",
+                      "detail": "Giving or receiving payment to influence someone's behaviour. One common form is a 'kickback.' Both are corrupt practices."
+                    },
+                    {
+                      "heading": "III. Conflict of interest",
+                      "detail": "Conflict between public duty and private interest. Private interests could improperly influence official duties. Can be actual, potential, or perceived."
+                    },
+                    {
+                      "heading": "IV. Nepotism",
+                      "detail": "Giving favours to relatives and close friends. Often means hiring family members without proper process. Creates conditions for conflict of interest."
+                    }
+                  ],
+                  "conclusion": "These terms describe different forms of unethical behaviour that damage trust and integrity.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1, 1.1 - Corruption, Fraud & Bribery and 1.4 - Conflict of Interest"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The following are symptoms of poor corporate governance in an organization except ______.",
-            "options": [
-              "Misleading accounts and information",
-              "Emphasis on short-term profitability",
-              "Lack of dependent scrutiny",
-              "Lack of involvement of the board"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The symptom is 'lack of independent scrutiny,' not 'dependent scrutiny.' The word 'dependent' makes this option wrong.",
-            "reference": "Unit 1, Session 1, 1.3 - Challenges or Symptoms/Risks of poor corporate governance in an Organization"
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Board members are the fiduciaries who steer the organization towards a sustainable future by adopting sound, ethical, and legal governance and financial management policies, as well as by making sure the nonprofit has adequate resources to advance its mission.\nExplain five main duties performed by the board in steering the organization towards a sustainable future.",
+                "marks": 15,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The board has five main duties. These help steer the organisation toward a sustainable future.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Fiduciary duty",
+                      "detail": "Legal obligation to act in the best interest of others. Director must be trustworthy and loyal to shareholders. Main function is enhancing shareholder wealth and firm value."
+                    },
+                    {
+                      "heading": "2. Duties of loyalty and fair dealing",
+                      "detail": "Ensure activities advance the organisation's mission. Recognise and disclose conflicts of interest. Make decisions in the best interest of the corporation."
+                    },
+                    {
+                      "heading": "3. Duty of care",
+                      "detail": "Exercise due diligence in making decisions. Use skills, experience, and knowledge properly. Delegate functions or use specialists when needed."
+                    },
+                    {
+                      "heading": "4. Duty not to entrench",
+                      "detail": "Objective assessment of the company situation. Openness to possible solutions. Readiness to take crucial decisions, especially in poor performance."
+                    },
+                    {
+                      "heading": "5. Duty of supervision",
+                      "detail": "Oversee the performance of employees. Monitor progress and ability on assigned duties. Supervise management activities to serve shareholder interests."
+                    }
+                  ],
+                  "conclusion": "These five duties ensure the board acts responsibly and guides the organisation sustainably.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 6, 6.2 - Five (5) Main Duties of the Board"
+                }
+              },
+              {
+                "label": "B",
+                "question": "In establishing boards, companies will ideally consider having representations from the following groups: bankers, financial experts, politically connected persons, and employee representation. Discuss the essential roles played by different groups in the composition of company boards.",
+                "marks": 5,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Different groups bring unique value to boards. Each plays an essential role.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Bankers on the Board",
+                      "detail": "Bring expertise on capital structure and financing. Have industry knowledge from serving similar clients. Provide monitoring expertise from a creditor perspective."
+                    },
+                    {
+                      "heading": "2. Financial Experts on Board",
+                      "detail": "Have experience as professional accountants or auditors. Understand accounting principles and financial statements. Improve governance quality through financial oversight."
+                    },
+                    {
+                      "heading": "3. Politically Connected Persons",
+                      "detail": "Help secure government contracts. Improve relationships with regulators. Investors often view them favourably."
+                    },
+                    {
+                      "heading": "4. Employee Representation",
+                      "detail": "Ensures employees participate in workplace decisions. Covers work rules, safety standards, and benefits. Improves internal relations and reduces disputes."
+                    }
+                  ],
+                  "conclusion": "Each group brings different skills and perspectives to the board.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 3, 3.1 - Board Representation"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Managers can promote ethics successfully in the workplace by ______.",
-            "options": [
-              "Supporting a strong ethical climate",
-              "Establishing ethical codes and training programs",
-              "Protecting whistleblowers",
-              "All of the above"
-            ],
-            "correctAnswer": "D",
-            "explanation": "All three methods are correct ways to promote ethics: support from top managers, ethics codes and training, and protecting whistleblowers.",
-            "reference": "Unit 1, Session 2, 2.3 - Managing Ethics in the Workplace"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Debates about the place of governance are founded on four differing views/theories associated with the ownership and management of organizations. Discuss each theory.",
+                "marks": 12,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "There are four main corporate governance theories. Each offers a different view of how companies should be governed.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Stewardship theory",
+                      "detail": "Managers act as careful stewards of company assets. They naturally work for the good of the organisation. Good governance needs active participation from all members."
+                    },
+                    {
+                      "heading": "2. Stakeholder theory",
+                      "detail": "Management has a duty to everyone connected to the company. This includes owners, employees, customers, suppliers, and the community. The company serves wider society, not just shareholders."
+                    },
+                    {
+                      "heading": "3. Agency theory",
+                      "detail": "Managers may act in their own self-interest. There is a contract between owners (principals) and managers (agents). Good governance uses performance pay and monitoring to align interests."
+                    },
+                    {
+                      "heading": "4. Transaction cost theory",
+                      "detail": "How a company is organised affects its control over transactions. Companies keep activities inside to reduce uncertainty. Managers can be opportunistic and need proper oversight."
+                    }
+                  ],
+                  "conclusion": "Each theory explains different aspects of governance. Most companies use a mix of these ideas.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.1 to 4.5 - Corporate Governance Theories"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss the four distinct strategies employed by organizations in the context of social responsibility.\nI. Proactive strategy\nII. Reactive strategy\nIII. Defence strategy\nIV. Accommodation strategy",
+                "marks": 8,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Companies use four different strategies for social responsibility. Each shows a different level of commitment.",
+                  "mainPoints": [
+                    {
+                      "heading": "I. Proactive strategy",
+                      "detail": "Company takes full responsibility before being forced. Example: recalling a faulty product before anyone gets hurt. This is the most responsible approach."
+                    },
+                    {
+                      "heading": "II. Reactive strategy",
+                      "detail": "Company lets the problem continue. Only acts when the public or government finds out. This is the least responsible approach."
+                    },
+                    {
+                      "heading": "III. Defence strategy",
+                      "detail": "Company tries to avoid extra responsibility. It minimises obligations and does the bare minimum. The company tries to protect itself rather than act responsibly."
+                    },
+                    {
+                      "heading": "IV. Accommodation strategy",
+                      "detail": "Company accepts responsibility when pressured. This happens when special interest groups push for change. Or when the company fears government intervention."
+                    }
+                  ],
+                  "conclusion": "Proactive is the most responsible approach, while reactive is the least responsible.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Which of the following is/are the benefits of managing ethics in the workplace?\nI. Help maintain a moral course in turbulent times.\nII. Ensure that policies are legal.\nIII. Helps cultivate strong teamwork and productivity.",
-            "options": [
-              "I",
-              "II",
-              "III",
-              "I, II and III"
-            ],
-            "correctAnswer": "D",
-            "explanation": "All three are benefits of managing ethics. Ethics programs help during change, ensure policies are legal, and build strong teams.",
-            "reference": "Unit 1, Session 3, 3.2 - Ten Benefits of Managing Ethics in the Workplace"
-          },
-          {
-            "type": "single",
-            "question": "All the following are examples of ethics tools employed in organizations except ______.",
-            "options": [
-              "Culture",
-              "Policies and procedures",
-              "Code of conduct",
-              "Code of ethics"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Ethics tools include codes of ethics, codes of conduct, and policies and procedures. Culture is the environment where ethics operates, not a tool itself.",
-            "reference": "Unit 1, Session 6, 6.5 - Codes of Behaviour - Developing Codes of Ethics"
-          },
-          {
-            "type": "single",
-            "question": "A decision tool with which managers can recognize, assess, and address the needs of different persons, groups, or organizations interested in a firm, allowing the firm to achieve competitive advantage while acting as a good corporate citizen is termed as ______.",
-            "options": [
-              "Shareholders analysis",
-              "Stakeholder impact analysis",
-              "Social audit",
-              "Environment analysis"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Stakeholder Impact Analysis helps managers recognize, assess, and address stakeholder needs. This matches the definition exactly.",
-            "reference": "Unit 2, Session 1, 1.1 - Stakeholder Impact Analysis"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following corporate responsibility stances is of the view that an organization's only responsibilities are the short-term interests of shareholders and to make profit, pay taxes and provide jobs?",
-            "options": [
-              "Shaper of society",
-              "Laissez-faire",
-              "Enlightened self-interest",
-              "Multiple stakeholder obligations"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Laissez-faire stance says the only responsibilities are short-term shareholder interests, profit, taxes, and jobs. It does the minimum required by law.",
-            "reference": "Unit 2, Session 2, 2.4 - Corporate Social Responsibility Stances"
-          },
-          {
-            "type": "single",
-            "question": "A company that discovers a fault in a product and recalls the product without being forced to, before any injury or damage is caused, is employing ______.",
-            "options": [
-              "Reactive strategy",
-              "Proactive strategy",
-              "Defence strategy",
-              "Accommodation strategy"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Proactive strategy means taking full responsibility before being forced. The company acted quickly and voluntarily to protect customers.",
-            "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
-          },
-          {
-            "type": "single",
-            "question": "Ethical consumerism argues that individual consumers make purchasing decisions based on personal interests without considering the interests of society and the environment.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Ethical consumerism means consumers consider society and the environment too. They may boycott companies that use sweatshops or child labour.",
-            "reference": "Unit 2, Session 4, 4.2 - Ethical Consumerism"
-          },
-          {
-            "type": "single",
-            "question": "A Company that focuses on its domestic market, sees exports as secondary to domestic marketing, and also ignores any inter-country differences which exist is employing?",
-            "options": [
-              "Ethnocentrism",
-              "Polycentrism",
-              "Geocentrism",
-              "Regiocentrism"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Ethnocentrism is a home country orientation. The company focuses on domestic markets and ignores differences between countries.",
-            "reference": "Unit 2, Session 5, 5.9 - Ethnocentrism"
-          },
-          {
-            "type": "single",
-            "question": "Ohmae's reasons why companies are moving towards the global stage of trading include the following except ______.",
-            "options": [
-              "for diseconomies of scale",
-              "for market convergence",
-              "to exploit both absolute and comparative advantage",
-              "for prestige and competitiveness"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Companies move globally for economies of scale, not diseconomies. The five Cs are Customer, Company, Competition, Currency, and Country.",
-            "reference": "Unit 2, Session 6, 6.2 - Ohmae offers five reasons for globalisation"
-          },
-          {
-            "type": "single",
-            "question": "What type of exporting occurs when one producing organization uses its own established international marketing channels to market the products of another producer as well as its own?",
-            "options": [
-              "Indirect exporting",
-              "Direct exporting",
-              "Complementary exporting",
-              "Supplementary exporting"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Complementary exporting (also called piggy back exporting) happens when one company uses its channels to sell another company's products too.",
-            "reference": "Unit 2, Session 6, 6.4 - Modes of entry to foreign markets"
-          },
-          {
-            "type": "single",
-            "question": "The Chairperson of a company is accountable to the Board and acts as a direct liaison between the Board and the management of the company, through the Chief Executive Officer.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The Chairperson is accountable to the Board and acts as a liaison between the Board and management through the CEO. This is stated in the material.",
-            "reference": "Unit 3, Session 1, 1.1 - Chairperson of the Board"
-          },
-          {
-            "type": "single",
-            "question": "All the following are characteristics of an effective Chairperson except ______.",
-            "options": [
-              "arouse sense of direction",
-              "good communication skills",
-              "business acumen",
-              "None of the above"
-            ],
-            "correctAnswer": "D",
-            "explanation": "All the options listed are characteristics of an effective Chairperson. They include good communication, clear sense of direction, and business acumen.",
-            "reference": "Unit 3, Session 2, 2.1 - Characteristics of an Effective Chairperson"
-          },
-          {
-            "type": "single",
-            "question": "Board diversity brings new perspectives, a move towards the potential 'group think' mentality that can occur when like-minded people discuss issues and make decisions.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Board diversity moves AWAY FROM groupthink, not towards it. Diversity helps avoid groupthink by bringing different perspectives.",
-            "reference": "Unit 3, Session 3, 3.2 - Board Diversity"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is not a function performed by a company's secretary?",
-            "options": [
-              "Advising directors and officers",
-              "Maintaining key corporate documents and records",
-              "Supervising stock transfers",
-              "Recording financial transactions"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Recording financial transactions is not a company secretary function. Their duties include advising directors, maintaining documents, and supervising stock transfers.",
-            "reference": "Unit 3, Session 4, 4.1 - Functions of a Company Secretary"
-          },
-          {
-            "type": "single",
-            "question": "When setting up employees' compensation packages, managers consider the following components except ______.",
-            "options": [
-              "health insurance",
-              "time off and flexible schedules",
-              "company's profit target",
-              "retirement plans"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Compensation components include salary, bonuses, health insurance, retirement plans, and time off. Company profit target is not a compensation component.",
-            "reference": "Unit 3, Session 5, 5.1 - Components of Compensation"
-          },
-          {
-            "type": "single",
-            "question": "A contract between managers and shareholders that aims at enticing managers to take all decisions that favour shareholders' interests is referred to as ______.",
-            "options": [
-              "Co-aligning",
-              "Bonding",
-              "Agency",
-              "None of the above"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Bonding is a contract that punishes or rewards managers to align their interests with shareholders. This is the definition given in the material.",
-            "reference": "Unit 1, Session 1, 1.1 - Bonding"
-          },
-          {
-            "type": "single",
-            "question": "The establishment of an organization's mission and vision is the responsibility of ______.",
-            "options": [
-              "Shareholders",
-              "Chief Executive Officer",
-              "Board of directors",
-              "Governance committee"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The board of directors establishes the organization's mission and purpose. They set the direction for the company.",
-            "reference": "Unit 3, Session 1, 1.1 - Chairperson of the Board"
-          },
-          {
-            "type": "single",
-            "question": "The board is expected to provide both advisory and oversight functions. In an advisory capacity, the board is expected to monitor management and ensure that it is acting diligently in the interests of shareholders.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Monitoring management is an oversight function, not advisory. Advisory means consulting with management on strategy and direction.",
-            "reference": "Unit 3, Session 3, 3.1 - Operations of Board of Directors"
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Despite Friedman's arguments against corporate social responsibility, there are several reasons why CSR can be strategically beneficial for businesses.\nEnumerate five arguments for corporate social responsibility in the global context.",
+                "marks": 15,
+                "commandWord": "Enumerate",
+                "answer": {
+                  "introduction": "There are strong arguments for CSR. These show how social responsibility benefits businesses globally.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Customer expectations",
+                      "detail": "Consumers expect businesses to act responsibly. Customers prefer responsibly sourced products. CSR can help boost sales. It provides opportunities for new markets and products."
+                    },
+                    {
+                      "heading": "2. Brand name and reputation",
+                      "detail": "Being socially responsible enhances a business's reputation. Customers prefer dealing with responsible businesses. CSR can be a source of differentiation."
+                    },
+                    {
+                      "heading": "3. Lower environmental costs",
+                      "detail": "Efficient energy usage lowers emissions and costs. Firms can achieve a lower cost base. Voluntary regulation is less costly than fines later."
+                    },
+                    {
+                      "heading": "4. Trading opportunities",
+                      "detail": "Irresponsible firms may find it harder to attract partners. They may lose support from nations and communities. Good CSR opens trading opportunities."
+                    },
+                    {
+                      "heading": "5. Access to staff",
+                      "detail": "Firms with good working conditions attract better staff. High quality staff create competitive advantage. Good reputation helps recruit and retain talent."
+                    }
+                  ],
+                  "conclusion": "These arguments show CSR is not just ethical but also strategically beneficial.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 2, 2.6 - Arguments in Favour of Corporate Social Responsibility"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State three advantages and two disadvantages of employing a wholly-owned subsidiaries strategy in entering a foreign market?",
+                "marks": 5,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Wholly-owned subsidiaries mean full ownership of overseas operations. This strategy has both advantages and disadvantages.",
+                  "mainPoints": [
+                    {
+                      "heading": "Advantage 1",
+                      "detail": "The firm does not have to share profits with partners."
+                    },
+                    {
+                      "heading": "Advantage 2",
+                      "detail": "The firm does not have to share or delegate decision-making."
+                    },
+                    {
+                      "heading": "Advantage 3",
+                      "detail": "The firm is able to operate completely integrated international systems."
+                    },
+                    {
+                      "heading": "Disadvantage 1",
+                      "detail": "The investment needed prevents some firms from setting up operations overseas."
+                    },
+                    {
+                      "heading": "Disadvantage 2",
+                      "detail": "Some overseas governments discourage or prohibit 100% foreign ownership."
+                    }
+                  ],
+                  "conclusion": "This strategy offers full control but requires significant resources and faces local challenges.",
+                  "otherPossibleAnswers": "Alternative advantages: The firm gains a more varied experience from overseas production. Alternative disadvantages: Suitable managers may be difficult to recruit at home or abroad. The firm forgoes the benefits of a local partner's market knowledge.",
+                  "reference": "Unit 2, Session 6, 6.4 - Wholly owned overseas production"
+                }
+              }
+            ]
           }
         ]
       }

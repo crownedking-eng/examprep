@@ -1,0 +1,569 @@
+{
+  "subject": "Business Ethics and Corporate Governance",
+  "subjectCode": "SBU 406/406D",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Which of the following is not typically a responsibility of the board of directors in corporate governance?",
+          "options": [
+            "A. Approving dividend policy",
+            "B. Overseeing compensation of officers",
+            "C. Managing daily operational logistics",
+            "D. Appointing corporate officers"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The board handles strategic decisions like dividends, compensation, and appointments. Daily operational logistics is management's job, not the board's.",
+          "reference": "Unit 4, Session 3, 3.1 - Operations of Board of Directors"
+        },
+        {
+          "type": "single",
+          "question": "What is a key benefit for businesses that improve the efficiency of their energy usage, according to the arguments for corporate social responsibility?",
+          "options": [
+            "A. Higher product prices",
+            "B. Lower cost base through efficient resource use",
+            "C. Increased employee turnover",
+            "D. Reduced need for stakeholder engagement"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Improving energy efficiency lowers costs. This helps firms achieve competitive advantage.",
+          "reference": "Unit 2, Session 2, 2.6 - Arguments in Favour of Corporate Social Responsibility"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is most closely associated with the 'post-conventional' level of moral development?",
+          "options": [
+            "A. Following rules to avoid punishment",
+            "B. Seeking approval from others",
+            "C. Acting according to internal values",
+            "D. Meeting legal requirements"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Post-conventional level means being guided by internal values. People at this level follow their own moral principles.",
+          "reference": "Unit 1, Session 2, 2.1 - Three Levels of Moral Development"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not listed as a skill required for a company secretary?",
+          "options": [
+            "A. Analytical and problem-solving skills",
+            "B. Ability to work with numerical information",
+            "C. Advanced engineering knowledge",
+            "D. Management skills"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Company secretaries need analytical skills, numerical ability, and management skills. Advanced engineering knowledge is not required.",
+          "reference": "Unit 3, Session 4, 4.1 - Skills of company secretary"
+        },
+        {
+          "type": "single",
+          "question": "According to the text, which ethical principle requires executives to avoid using information learned in confidence for personal advantage?",
+          "options": [
+            "A. Honesty",
+            "B. Loyalty",
+            "C. Promise-keeping",
+            "D. Integrity"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Loyalty requires that executives do not use confidential information for personal gain. They must be faithful to their company.",
+          "reference": "Unit 1, Session 2, 2.3 - Ethical Principles for Business Executives"
+        },
+        {
+          "type": "single",
+          "question": "What is a major theme in all governance frameworks, as highlighted in the text?",
+          "options": [
+            "A. Innovation",
+            "B. Accountability",
+            "C. Expansion",
+            "D. Profit maximization"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Accountability is a major theme in all governance frameworks. It is central to good governance.",
+          "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a symptom of the principal-agent problem in organizations?",
+          "options": [
+            "A. Equal distribution of income",
+            "B. Conflict of interests due to asymmetries in incomes",
+            "C. Direct communication between all employees",
+            "D. Elimination of management hierarchies"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The principal-agent problem involves conflict of interest. This happens because of differences in income and interests between groups.",
+          "reference": "Unit 1, Session 1, 1.3 - Challenges or Symptoms/Risks of poor corporate governance"
+        },
+        {
+          "type": "single",
+          "question": "What is the main purpose of the Compensation Board Committee regarding the CEO?",
+          "options": [
+            "A. Approving all company purchases",
+            "B. Evaluating CEO performance and determining compensation",
+            "C. Managing employee grievances",
+            "D. Overseeing marketing campaigns"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Compensation Committee evaluates CEO performance and determines their compensation. This is their main role.",
+          "reference": "Unit 3, Session 6, 6.2 - Responsibilities of Compensation Board Committee"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is considered a key pillar of corporate governance?",
+          "options": [
+            "A. Product innovation",
+            "B. Independent assurance",
+            "C. Aggressive sales tactics",
+            "D. Centralized control"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Independent assurance is one of the key pillars of corporate governance. It helps ensure objectivity.",
+          "reference": "Unit 1, Session 1, 1.1 - Key Pillars of Corporate Governance"
+        },
+        {
+          "type": "single",
+          "question": "What is a global expectation from consumers regarding business behavior?",
+          "options": [
+            "A. Maximizing short-term profits",
+            "B. Acting in a socially responsible manner",
+            "C. Reducing product variety",
+            "D. Limiting transparency"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Consumers globally expect businesses to act in socially responsible ways. This is a growing global expectation.",
+          "reference": "Unit 2, Session 2, 2.6 - Arguments in Favour of Corporate Social Responsibility"
+        },
+        {
+          "type": "single",
+          "question": "A key mechanism for ensuring independent oversight by a board of directors, is the practice of ______.",
+          "options": [
+            "A. Having the CEO also serve as the chairperson of the board.",
+            "B. Requiring non-executive directors to meet regularly in executive sessions without management present",
+            "C. Relying solely on internal auditors for all performance information",
+            "D. Mandating that all board resolutions are passed by a simple majority vote"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Executive sessions without management let non-executive directors discuss candidly. This ensures independent oversight.",
+          "reference": "Unit 4, Session 3, 3.1 - Operations of Board of Directors"
+        },
+        {
+          "type": "single",
+          "question": "An executive who feels torn because the demands of being a dedicated parent are incompatible with the expectations of being a corporation president is experiencing what specific type of conflict?",
+          "options": [
+            "A. Intra-sender conflict",
+            "B. Approach-Avoidance conflict",
+            "C. Inter-role conflict",
+            "D. Avoidance-Avoidance conflict"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Inter-role conflict occurs when two different roles have inconsistent expectations. Here, parent and president roles conflict.",
+          "reference": "Unit 6, Session 2, 2.4 - Role Conflict"
+        },
+        {
+          "type": "single",
+          "question": "A significant problem associated with annual bonus plans, even when tied to performance metrics, is that they can ______.",
+          "options": [
+            "A. be too complex for accounting departments to administer effectively",
+            "B. be less effective than offering non-financial rewards like company cars",
+            "C. provide an incentive for managers to manipulate results to achieve short-term targets",
+            "D. eliminate the need for boards to set long-term corporate goals"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Bonus plans can encourage managers to manipulate accounting results. They focus on short-term targets.",
+          "reference": "Unit 5, Session 1, 1.5 - Problems Associated with Bonus Plans"
+        },
+        {
+          "type": "single",
+          "question": "The primary function of a proxy advisory firm is to ______.",
+          "options": [
+            "A. directly purchase large blocks of shares in a company to force a change in management",
+            "B. legally represent the company's management at the annual general meeting",
+            "C. provide research and voting recommendations to institutional shareholders",
+            "D. set the final compensation packages for the board of directors"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Proxy advisory firms provide research and voting recommendations. They help institutional shareholders make informed votes.",
+          "reference": "Unit 5, Session 6, 6.2 - Proxy Advisory Firms"
+        },
+        {
+          "type": "single",
+          "question": "According to the core principles for managing conflicts of interest, a public official is expected to ______.",
+          "options": [
+            "A. use their position to gain a minor private advantage if it also benefits the public",
+            "B. prioritize the policy interests of their political party above impartiality",
+            "C. keep their private financial interests confidential to ensure personal privacy",
+            "D. dispose of or restrict private interests that could compromise their official duties"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Public officials must dispose of or restrict private interests that could compromise official duties. This protects integrity.",
+          "reference": "Unit 6, Session 4, 4.4 - Core Principles for Managing Conflict of Interest"
+        },
+        {
+          "type": "single",
+          "question": "What is the key distinction in the potential influence between institutional and individual shareholders?",
+          "options": [
+            "A. Individual investors are legally barred from attending company general meetings",
+            "B. Institutional investors can wield significant influence due to their large pool of resources and shareholdings",
+            "C. Only individual shareholders are truly concerned with shaping the long-term direction of a company",
+            "D. Institutional investors are a legal subset of individual investors"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Institutional investors own large shareholdings. They have the resources to influence company decisions.",
+          "reference": "Unit 5, Session 5, 5.3 - Institutional investors' vs individual investors"
+        },
+        {
+          "type": "single",
+          "question": "Bribery is distinct from other forms of corruption because it specifically involves ______.",
+          "options": [
+            "A. the act of offering something of value with the intent to improperly influence behavior",
+            "B. any financial transaction that occurs between a company and a public official",
+            "C. the act of an employee misusing company assets for their own personal gain",
+            "D. a conflict that arises when a person has two competing professional loyalties"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Bribery means offering something valuable to influence behavior. It is a specific corrupt act.",
+          "reference": "Unit 6, Session 1, 1.3 - Bribery"
+        },
+        {
+          "type": "single",
+          "question": "A primary concern with using stock options as a form of long-term executive incentive is that they ______.",
+          "options": [
+            "A. are too difficult for executives to understand and therefore provide no motivation",
+            "B. may encourage executives to engage in excessively risky projects to increase the stock price",
+            "C. typically cause the company's stock price to decline when they are issued",
+            "D. guarantee a fixed income for executives regardless of company performance"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Stock options can encourage executives to take excessive risks. They want to boost the stock price.",
+          "reference": "Unit 5, Session 1, 1.6 - Problems associated with long-term incentives"
+        },
+        {
+          "type": "single",
+          "question": "The board of directors' role in relation to corporate strategy is best described as ______.",
+          "options": [
+            "A. taking full responsibility for the day-to-day development and implementation of strategy",
+            "B. focusing exclusively on financial oversight while leaving strategy entirely to management",
+            "C. advising and providing corporate oversight on strategy, but not developing it themselves",
+            "D. ensuring the company's strategy is kept confidential from all shareholders"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The board advises on strategy and provides oversight. They do not develop the strategy themselves.",
+          "reference": "Unit 4, Session 5, 5.2 - Some Key Characteristics of an Effective Board"
+        },
+        {
+          "type": "single",
+          "question": "In the context of conflict of interest, what does \"serving the public interest\" require from public officials?",
+          "options": [
+            "A. Making decisions based on personal relationships",
+            "B. Placing public duty above personal gain",
+            "C. Avoiding all forms of public disclosure",
+            "D. Prioritizing private business opportunities"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Serving the public interest means placing public duty above personal gain. Officials must be disinterested.",
+          "reference": "Unit 6, Session 4, 4.4 - Core Principles for Managing Conflict of Interest"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss five pillars of Corporate Governance.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Corporate governance is built on several key pillars. These guide how companies should operate.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Transparency",
+                      "detail": "Companies must be open about their activities. Information should be clear and accessible. This builds trust with stakeholders."
+                    },
+                    {
+                      "heading": "2. Equity",
+                      "detail": "All shareholders must be treated fairly. Minority shareholders deserve equal rights. No unfair advantages should exist."
+                    },
+                    {
+                      "heading": "3. Honesty and Integrity",
+                      "detail": "Directors must act with moral values. They should be straightforward in all dealings. This creates a culture of trust."
+                    },
+                    {
+                      "heading": "4. Accountability",
+                      "detail": "Directors must answer for their decisions. They are responsible to shareholders. This ensures proper oversight."
+                    },
+                    {
+                      "heading": "5. Leadership",
+                      "detail": "Directors must set a positive example. They should create an ethical environment. Good leadership promotes good governance."
+                    }
+                  ],
+                  "conclusion": "These pillars help companies achieve good governance and build stakeholder trust.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1, 1.1 - Key Pillars of Corporate Governance"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss the four theories of Corporate Governance.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "There are four main corporate governance theories. Each offers a different view of how companies should be governed.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Stewardship theory",
+                      "detail": "Managers act as careful stewards of company assets. They naturally work for the good of the organisation. Good governance needs active participation from all members."
+                    },
+                    {
+                      "heading": "2. Stakeholder theory",
+                      "detail": "Management has a duty to everyone connected to the company. This includes owners, employees, customers, suppliers, and the community. The company serves wider society, not just shareholders."
+                    },
+                    {
+                      "heading": "3. Agency theory",
+                      "detail": "Managers may act in their own self-interest. There is a contract between owners (principals) and managers (agents). Good governance uses performance pay and monitoring to align interests."
+                    },
+                    {
+                      "heading": "4. Transaction cost theory",
+                      "detail": "How a company is organised affects its control over transactions. Companies keep activities inside to reduce uncertainty. Managers can be opportunistic and need proper oversight."
+                    }
+                  ],
+                  "conclusion": "Each theory explains different aspects of governance. Most companies use a mix of these ideas.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.1 to 4.5 - Corporate Governance Theories"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain five main duties of Board of Directors.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The board has five main duties. These guide its work and decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Fiduciary duty",
+                      "detail": "Legal obligation to act in the best interest of others. Director must be trustworthy and loyal to shareholders. Main function is enhancing shareholder wealth."
+                    },
+                    {
+                      "heading": "2. Duties of loyalty and fair dealing",
+                      "detail": "Ensure activities advance the organisation's mission. Recognise and disclose conflicts of interest. Make decisions in the best interest of the corporation."
+                    },
+                    {
+                      "heading": "3. Duty of care",
+                      "detail": "Exercise due diligence in making decisions. Use skills, experience, and knowledge properly. Delegate functions or use specialists when needed."
+                    },
+                    {
+                      "heading": "4. Duty not to entrench",
+                      "detail": "Objective assessment of the company situation. Openness to possible solutions. Readiness to take crucial decisions, especially in poor performance."
+                    },
+                    {
+                      "heading": "5. Duty of supervision",
+                      "detail": "Oversee the performance of employees. Monitor progress and ability on assigned duties. Supervise management activities to serve shareholder interests."
+                    }
+                  ],
+                  "conclusion": "These five duties ensure the board acts responsibly and protects shareholder interests.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 6, 6.2 - Five (5) Main Duties of the Board"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain five skills required by a company secretary.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Company secretaries need specific skills to do their job well. These skills help them support the board effectively.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Good communication skills",
+                      "detail": "Both verbal and written communication are important. They must convey information clearly. They work with people at all levels."
+                    },
+                    {
+                      "heading": "2. Interpersonal skills",
+                      "detail": "They must work well with diverse people. This includes board members and staff. Building relationships is key to the role."
+                    },
+                    {
+                      "heading": "3. Attention to detail",
+                      "detail": "They must be organised and thorough. Small errors can have big consequences. Accuracy is essential in their work."
+                    },
+                    {
+                      "heading": "4. Analytical and problem-solving skills",
+                      "detail": "They must work with numerical information. They need to solve problems effectively. Analytical thinking helps them make good decisions."
+                    },
+                    {
+                      "heading": "5. A sound grasp of corporate governance",
+                      "detail": "They must understand governance principles. This helps them advise the board properly. Knowledge of legal requirements is important."
+                    }
+                  ],
+                  "conclusion": "These skills help the company secretary perform their duties effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 4, 4.1 - Skills of company secretary"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Examine any five conflict management styles.",
+                "marks": 10,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "There are five main styles for handling interpersonal conflict. Each works in different situations.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Integrating style",
+                      "detail": "Useful for complex problems requiring new ideas. Synthesis of different perspectives is needed. Works well for strategic issues and long-range planning."
+                    },
+                    {
+                      "heading": "2. Obliging style",
+                      "detail": "Useful when one party is not familiar with the issues. Used when the other party is right. Appropriate when preserving the relationship is important."
+                    },
+                    {
+                      "heading": "3. Dominating style",
+                      "detail": "Useful for routine matters or when speed is needed. Used when the issues are important to one party. Effective for dealing with unpopular courses of action."
+                    },
+                    {
+                      "heading": "4. Avoiding style",
+                      "detail": "Used when confronting would cause more harm than good. Appropriate for trivial or minor issues. Useful when a cooling-off period is needed."
+                    },
+                    {
+                      "heading": "5. Compromising style",
+                      "detail": "Useful when goals are mutually exclusive. Works when parties are equally powerful. Used when consensus cannot be reached."
+                    }
+                  ],
+                  "conclusion": "Good managers match the right style to each situation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 6, 6.1 - Conflict Management Styles"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain five arguments in favor of Corporate social responsibility.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "There are strong arguments for CSR. These show how social responsibility benefits businesses.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Customer expectations",
+                      "detail": "Consumers expect businesses to act responsibly. Customers prefer responsibly sourced products. CSR can help boost sales."
+                    },
+                    {
+                      "heading": "2. Brand name and reputation",
+                      "detail": "Being socially responsible enhances reputation. Customers prefer dealing with responsible businesses. CSR can be a source of differentiation."
+                    },
+                    {
+                      "heading": "3. Lower environmental costs",
+                      "detail": "Efficient energy usage lowers emissions and costs. Firms can achieve a lower cost base. Voluntary regulation is less costly than fines later."
+                    },
+                    {
+                      "heading": "4. Access to staff",
+                      "detail": "Firms with good conditions attract better staff. High quality staff create competitive advantage. Good reputation helps recruit and retain talent."
+                    },
+                    {
+                      "heading": "5. Sustainable business",
+                      "detail": "Socially responsible businesses can operate longer. They build trust with stakeholders. This leads to more stable cash flows."
+                    }
+                  ],
+                  "conclusion": "These arguments show CSR is not just ethical but also strategically beneficial.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 2, 2.6 - Arguments in Favour of Corporate Social Responsibility"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the following groups of CEOs based on their behavior in the succession process;\nI. Active Advisor\nII. The Aggressor\nIII. The Hopeful Saviour\nIV. The Power Blocker\nV. The Capitulator",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Outgoing CEOs can behave in different ways during succession. Understanding these types helps manage transitions.",
+                  "mainPoints": [
+                    {
+                      "heading": "I. Active Advisor",
+                      "detail": "The CEO accepts it is time to step down. They provide insight but do not overstep. They limit opinions to when solicited. They trust the board to make the right decision."
+                    },
+                    {
+                      "heading": "II. The Aggressor",
+                      "detail": "The CEO tries to influence selection openly. They play 'nice' but then try to steer selection. They undermine other candidates. They take a strong position and try to force their favoured outcome."
+                    },
+                    {
+                      "heading": "III. The Hopeful Saviour",
+                      "detail": "The CEO does not really want to retire. They promote successors in their own likeness. They may promote someone less capable. They hope the successor will fail so they can return."
+                    },
+                    {
+                      "heading": "IV. The Power Blocker",
+                      "detail": "The CEO also does not want to leave. They throw up obstacles to slow the process. They are more aggressive than the Hopeful Saviour. They overtly try to block the process."
+                    },
+                    {
+                      "heading": "V. The Capitulator",
+                      "detail": "When the board is close to a decision, they change their mind. They request to stay longer. This forces the board to choose between present and future. A non-executive director must firmly inform them the board is moving forward."
+                    }
+                  ],
+                  "conclusion": "Understanding these behaviours helps boards manage succession transitions effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.2 - Outgoing CEO Categorisation Based on Their Behaviour"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Examine five ethical principles for business executives.",
+                "marks": 10,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Business executives must follow key ethical principles. These guide their behaviour and decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Honesty",
+                      "detail": "Executives must be truthful in all dealings. They should not mislead or deceive others. This builds trust with stakeholders."
+                    },
+                    {
+                      "heading": "2. Integrity",
+                      "detail": "They must do what is right even under pressure. They should be principled and honourable. They must not sacrifice principle for convenience."
+                    },
+                    {
+                      "heading": "3. Promise-keeping and trustworthiness",
+                      "detail": "They must be trustworthy and candid. They should fulfill promises and commitments. They should not interpret agreements technically to escape obligations."
+                    },
+                    {
+                      "heading": "4. Loyalty",
+                      "detail": "They must be faithful to their company. They should not use confidential information for personal gain. They must avoid conflicts of interest."
+                    },
+                    {
+                      "heading": "5. Fairness",
+                      "detail": "They must be just and fair in all dealings. They should not exercise power arbitrarily. They must be open-minded and accept diversity."
+                    }
+                  ],
+                  "conclusion": "These principles help executives maintain high ethical standards.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 2, 2.3 - Ethical Principles for Business Executives"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

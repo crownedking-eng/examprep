@@ -1,262 +1,412 @@
 {
   "subject": "Business Ethics and Corporate Governance",
+  "subjectCode": "SBU 406D",
   "academicYear": "2021/2022",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Which component of responsibility views CSR as corporate citizenship?",
+          "options": [
+            "A. Economic responsibility",
+            "B. Legal responsibility",
+            "C. Ethical responsibility",
+            "D. Philanthropic responsibility"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Philanthropic responsibility is about being a good corporate citizen. It includes charitable donations and supporting local communities.",
+          "reference": "Unit 2, Session 1, 1.3 - CSR has four components of responsibility"
+        },
+        {
+          "type": "single",
+          "question": "______ involves developing strategies so that the company only uses resources at a rate that allows them to be replenished such that the needs of the current generation can be met without compromising the needs of the future generations.",
+          "options": [
+            "A. Corporate Social Responsibility",
+            "B. Sustainability",
+            "C. Social Audit",
+            "D. Strategic planning"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Sustainability means using resources at a rate that allows them to be replenished. It meets current needs without harming future generations.",
+          "reference": "Unit 2, Session 1, 1.3 - Corporate Citizenship & Corporate Social Responsibility"
+        },
+        {
+          "type": "single",
+          "question": "Factors encouraging the globalization of world trade include the following except ______.",
+          "options": [
+            "A. financial factors",
+            "B. country or continent connections",
+            "C. markets trading in international commodities",
+            "D. insiderisation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Insiderisation is a stage in global business evolution, not a factor encouraging globalization. The factors include financial factors, country connections, and international commodity markets.",
+          "reference": "Unit 2, Session 6, 6.2 - Ohmae offers five reasons for globalisation"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a guideline for managing ethics at the workplace?",
+          "options": [
+            "A. Recognize that managing ethics is not a process",
+            "B. The bottom line of an ethics program is accomplishing preferred behaviours in the workplace",
+            "C. The best way to handle ethical dilemmas is to encourage their occurrence in the first place",
+            "D. Make ethics decisions in groups, and make decisions private, as appropriate"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The bottom line of an ethics program is achieving preferred behaviours. Options A, C, and D have incorrect wording.",
+          "reference": "Unit 1, Session 3, 3.3 - Eight Guidelines for Managing Ethics in the Workplace"
+        },
+        {
+          "type": "single",
+          "question": "______ introduced measures to protect investors from further corporate disasters by implementing reporting procedures aimed at increasing the accuracy of disclosures and the openness of corporations.",
+          "options": [
+            "A. Sarbanes-Oxley Act of 2002",
+            "B. German Corporate Governance Code",
+            "C. French Corporate Governance",
+            "D. Enron scandal"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The Sarbanes-Oxley Act of 2002 was introduced after Enron and WorldCom. It increased disclosure requirements and corporate openness.",
+          "reference": "Unit 1, Session 5, 5.1 - Corporate Governance Development worldwide"
+        },
+        {
+          "type": "single",
+          "question": "Who observed that there is neither a separate ethics of business nor is one needed?",
+          "options": [
+            "A. Milton Friedman",
+            "B. Mintzberg",
+            "C. Henry Fayol",
+            "D. Peter Drucker"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Peter Drucker observed that there is no separate ethics of business. Personal ethics should cover all business situations.",
+          "reference": "Unit 1, Session 6, 6.5 - Codes of Behaviour - Developing Codes of Ethics"
+        },
+        {
+          "type": "single",
+          "question": "Which one of the following adapts totally to local environments?",
+          "options": [
+            "A. Ethnocentrism",
+            "B. Polycentrism",
+            "C. Geocentrism",
+            "D. Regiocentrism"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Polycentrism adapts almost totally to local environments. Companies set up independent local subsidiaries.",
+          "reference": "Unit 2, Session 5, 5.10 - Polycentrism"
+        },
+        {
+          "type": "single",
+          "question": "One of the following is a characteristic of an effective chairperson.",
+          "options": [
+            "A. Business acumen and inability to bring people together",
+            "B. Ability not to gain shareholders confidence",
+            "C. Ability to get key issues quickly",
+            "D. Good communication and poor listening skills"
+          ],
+          "correctAnswer": "C",
+          "explanation": "An effective chairperson has the ability to get to key issues quickly. The other options have negative wording.",
+          "reference": "Unit 3, Session 2, 2.1 - Characteristics of an Effective Chairperson"
+        },
+        {
+          "type": "single",
+          "question": "The law is the key starting point for any business. Most leading businesses also have their own statement of Business Principles which set out their core values and standards. In Anglo American's case this is called ______.",
+          "options": [
+            "A. Philosophy of Business",
+            "B. Good Citizenship",
+            "C. Fiduciary responsibility",
+            "D. Codes of practice"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Anglo American calls its statement of Business Principles 'Good Citizenship.' This sets out their core values and standards.",
+          "reference": "Unit 1, Session 6, 6.5 - Codes of Behaviour - Developing Codes of Ethics"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a skill of company secretary?",
+          "options": [
+            "A. Incentive bonus, including the specific goals and amount",
+            "B. Team working skills",
+            "C. A sound grasp of corporate governance issues",
+            "D. A commercial frame of mind"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Incentive bonus and goals are compensation matters, not company secretary skills. Skills include team working, governance knowledge, and commercial mindset.",
+          "reference": "Unit 3, Session 4, 4.1 - Skills of company secretary"
+        },
+        {
+          "type": "single",
+          "question": "______ is principally dependent on prior experience in similar markets, language and cultural understanding.",
+          "options": [
+            "A. Market attractiveness",
+            "B. Competitive advantage",
+            "C. Risk",
+            "D. Market selection"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Competitive advantage depends on prior experience, language, and cultural understanding. These factors help a company succeed internationally.",
+          "reference": "Unit 2, Session 6, 6.1 - Market selection"
+        },
+        {
+          "type": "single",
+          "question": "Physical environmental conditions are important for strategic planning such as the following except ______.",
+          "options": [
+            "A. Logistics",
+            "B. Disasters",
+            "C. Government",
+            "D. Marketing"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Physical environmental conditions include resource inputs, logistics, government, and disasters. Marketing is not one of them.",
+          "reference": "Unit 2, Session 3, 3.4 - Strategic planning and green concerns"
+        },
+        {
+          "type": "single",
+          "question": "The view that there can be a long-term benefit to shareholders from well-managed relationships with other stakeholders refers to which of the following stances of corporate responsibility?",
+          "options": [
+            "A. Laissez-faire",
+            "B. Enlightened self-interest",
+            "C. Multiple stakeholder obligations",
+            "D. Shaper of society"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Enlightened self-interest means looking after stakeholders because it benefits shareholders in the long run.",
+          "reference": "Unit 2, Session 2, 2.4 - Corporate Social Responsibility Stances"
+        },
+        {
+          "type": "single",
+          "question": "The Governance committee is responsible for evaluating the company's governance structure and processes and recommending improvements when appropriate. Which of the following is not a composition of the board governance committees?",
+          "options": [
+            "A. It should be made up of two or more members",
+            "B. It should be made up of independent directors",
+            "C. Members need to have a thorough understanding of governance practices.",
+            "D. Depending on the size, the governance committee can be made up of two or more members."
+          ],
+          "correctAnswer": "D",
+          "explanation": "This option repeats information from option A. The key point is that the committee should be made up of independent directors.",
+          "reference": "Unit 3, Session 6, 6.5 - Board Governance committees"
+        },
+        {
+          "type": "single",
+          "question": "There are three main competitive markets that help to align management's interest with that of shareholders. Which of the following is not part of the main competitive markets?",
+          "options": [
+            "A. Labour market",
+            "B. Managerial-labour market",
+            "C. Capital market",
+            "D. Product market"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The three markets are managerial-labour market, capital market, and product market. 'Labour market' is too general.",
+          "reference": "Unit 4, Session 1, 1.2 - External Governance Mechanisms"
+        },
+        {
+          "type": "single",
+          "question": "Risk involves an analysis of political stability, the possibility of government intervention and similar external influences.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Political risk involves analysing political stability and government intervention. This is part of the three criteria for market evaluation.",
+          "reference": "Unit 2, Session 6, 6.1 - Market selection"
+        },
+        {
+          "type": "single",
+          "question": "Ohmae suggested there are three reasons why companies are moving towards the global stage.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Ohmae suggested five reasons, not three. They are Customer, Company, Competition, Currency, and Country.",
+          "reference": "Unit 2, Session 6, 6.2 - Ohmae offers five reasons for globalisation"
+        },
+        {
+          "type": "single",
+          "question": "Values are systems of moral and ethical beliefs that guide the behaviours, and decisions of a business organization and the individuals within that organization.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This describes business ethics, not values. Values are relatively permanent beliefs that help determine behaviour.",
+          "reference": "Unit 1, Session 2, 2.1 - Business Ethics"
+        },
+        {
+          "type": "single",
+          "question": "Three significant government committees were commissioned during the 1990s in response to the increased need for good corporate governance in light of several corporate scandals.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The three committees were Cadbury, Greenbury, and Hampel. They responded to corporate scandals in the UK.",
+          "reference": "Unit 1, Session 5, 5.1 - UK"
+        },
+        {
+          "type": "single",
+          "question": "Role overload can be classified as quantitative and qualitative.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Role overload has two types: quantitative (too much work) and qualitative (work that is too demanding).",
+          "reference": "Unit 6, Session 2, 2.4 - Role Overload and Underload"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "The following symptoms can indicate poor corporate governance except",
-            "options": [
-              "Principal-agent problem",
-              "Moral hazard",
-              "Lack of dependent scrutiny",
-              "Lack of adequate control function"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The symptoms are principal-agent problem, moral hazard, lack of independent scrutiny, and lack of adequate control function. 'Lack of dependent scrutiny' is wrong - it should be 'independent scrutiny.'",
-            "reference": "Unit 1, Session 1, 1.3 - Challenges or Symptoms/Risks of poor corporate governance in an Organization"
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the following:\nA. The active advisor\nB. The aggressor\nC. The passive aggressor\nD. The Capitulator\nE. The hopeful savior",
+                "marks": 20,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Outgoing CEOs can behave in different ways during succession. There are six categories based on their behaviour.",
+                  "mainPoints": [
+                    {
+                      "heading": "A. The Active Advisor",
+                      "detail": "The sitting CEO accepts it is time to step down. They provide thoughtful insight but do not overstep. They limit opinions to when they are solicited. They trust the board to make the right decision."
+                    },
+                    {
+                      "heading": "B. The Aggressor",
+                      "detail": "The CEO tries to influence the selection decision openly. They play 'nice' but then try to steer selection. They undermine other candidates in the process. They take a strong position and try to force their favoured outcome."
+                    },
+                    {
+                      "heading": "C. The Passive Aggressor",
+                      "detail": "The CEO tries to influence the selection covertly. They subtly undermine certain candidates. They appear as an advisor, not manipulative. If undetected, the board may need to start over."
+                    },
+                    {
+                      "heading": "D. The Capitulator",
+                      "detail": "When the board is close to a decision, the CEO changes their mind. They request to stay longer. This forces the board to choose between present and future leadership. A non-executive director must firmly inform them the board is moving forward."
+                    },
+                    {
+                      "heading": "E. The Hopeful Saviour",
+                      "detail": "The CEO does not really want to retire. They promote successors in their own likeness. They might promote someone less capable. They hope the successor will fail so they can return to 'save' the company."
+                    }
+                  ],
+                  "conclusion": "Understanding these behaviours helps the board manage succession transitions effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.2 - Outgoing CEO Categorisation Based on Their Behaviour"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "______ refers to contemporary organizational standards, principles, sets of values and norms that govern the actions and behavior of an individual in the business organization.",
-            "options": [
-              "Corporate governance",
-              "Business ethics",
-              "Ethics",
-              "Ethical principles"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Business ethics refers to the standards, principles, values, and norms that guide behavior in business. This is the exact definition given.",
-            "reference": "Unit 1, Session 2, 2.2 - Corporate Governance and Business Ethics"
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Examine four of the responsibilities of the board.",
+                "marks": 20,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "The board has many important responsibilities. Here are four key ones.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Establishing the Organisation's Mission and Purpose",
+                      "detail": "The board sets the vision and mission. The vision is what the organisation wants to achieve. The mission is the action plan to accomplish the vision. Everything the board does centres around these. The board should incorporate perspectives from all members."
+                    },
+                    {
+                      "heading": "2. Selecting, Supporting, and Reviewing the Executive Director",
+                      "detail": "The board vets and selects the Executive Director. They work collaboratively with the Executive Director. The board reviews performance on an annual basis. Board members may serve on a committee for this review."
+                    },
+                    {
+                      "heading": "3. Organisational Planning",
+                      "detail": "Board members spend most time on planning. They monitor products, services, and programs. They review strategic plans and whether goals are being met. They keep up with competitors and developments."
+                    },
+                    {
+                      "heading": "4. Monitoring and Managing Financial Resources",
+                      "detail": "Board members should learn to read financial statements. They do not need to be accounting experts. They should know how much money comes in and goes out. They have collective responsibility for fiscal expenditures."
+                    }
+                  ],
+                  "conclusion": "These responsibilities help the board guide and control the organisation effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 4, 4.1 - General Board Responsibilities"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "______ spreads as trade barriers fall and economies of scale and experience grow.",
-            "options": [
-              "Market globalization",
-              "Cost globalization",
-              "Government policy",
-              "International competition"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Cost globalization happens when trade barriers fall and economies of scale grow. This reduces costs globally.",
-            "reference": "Unit 2, Session 5, 5.4 - Cost Globalisation"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss the four theories of Corporate Governance.",
+                "marks": 20,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "There are four main corporate governance theories. Each offers a different view of how companies should be governed.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Stewardship theory",
+                      "detail": "Managers act as careful stewards of company assets. They naturally work for the good of the organisation. Good governance needs active participation from all members."
+                    },
+                    {
+                      "heading": "2. Stakeholder theory",
+                      "detail": "Management has a duty to everyone connected to the company. This includes owners, employees, customers, suppliers, and the community. The company serves wider society, not just shareholders."
+                    },
+                    {
+                      "heading": "3. Agency theory",
+                      "detail": "Managers may act in their own self-interest. There is a contract between owners (principals) and managers (agents). Good governance uses performance pay and monitoring to align interests."
+                    },
+                    {
+                      "heading": "4. Transaction cost theory",
+                      "detail": "How a company is organised affects its control over transactions. Companies keep activities inside to reduce uncertainty. Managers can be opportunistic and need proper oversight."
+                    }
+                  ],
+                  "conclusion": "Each theory explains different aspects of governance. Most companies use a mix of these ideas.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.1 to 4.5 - Corporate Governance Theories"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Which one of the following adapts totally to local environments?",
-            "options": [
-              "Ethnocentrism",
-              "Polycentrism",
-              "Geocentrism",
-              "Regiocentrism"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Polycentrism adapts almost totally to local environments. Companies set up independent local subsidiaries.",
-            "reference": "Unit 2, Session 5, 5.10 - Polycentrism"
-          },
-          {
-            "type": "single",
-            "question": "The key pillars of corporate governance includes the following except",
-            "options": [
-              "Dependent assurance",
-              "Leadership",
-              "Transparency",
-              "Professionalism"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The pillars include transparency, equity, honesty, integrity, responsiveness, efficiency, professionalism, accountability, leadership, and independent assurance. 'Dependent assurance' is wrong - it should be 'independent assurance.'",
-            "reference": "Unit 1, Session 1, 1.1 - Key Pillars of Corporate Governance"
-          },
-          {
-            "type": "single",
-            "question": "Managers can promote ethics successfully through ______",
-            "options": [
-              "Support by middle managers of a strong ethical climate",
-              "Ethics codes and not having training programs",
-              "Unprotecting whistleblowers",
-              "Gratifying ethical behavior"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Managers promote ethics through top manager support, ethics codes and training, and rewarding ethical behavior. 'Gratifying' means rewarding, which is correct.",
-            "reference": "Unit 1, Session 2, 2.3 - Managing Ethics in the Workplace"
-          },
-          {
-            "type": "single",
-            "question": "Whose work noted 'Monopoly is the natural opposite of competition and competition is the vital force which animates the collective being: to destroy it, if such a supposition were possible, would be to kill society'?",
-            "options": [
-              "Mindeli",
-              "Pipiya",
-              "Kinsella",
-              "Proudhon"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Proudhon made this statement about monopoly and competition.",
-            "reference": "Unit 1, Session 2, 2.4 - International issues"
-          },
-          {
-            "type": "single",
-            "question": "In Ghana, many anti-corruption bodies and laws have been established by both NGOs and the government over the years to stem corruption promote ethical behavior in both the private and public sectors. Which of the following is not among these anti-corruption bodies?",
-            "options": [
-              "Commission on Human Rights and Administrative Justice",
-              "Economic and Organization Crime Office (EOCO)",
-              "National Anti-corruption Action Plan",
-              "Ghana Anti-Corruption Coalition (GACC)"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The bodies are CHRAJ, EOCO (Economic and Organised Crime Office), GACC, and National Anti-Corruption Action Plan. 'Economic and Organization Crime Office' is the wrong name - it should be 'Economic and Organised Crime Office.'",
-            "reference": "Unit 1, Session 3, 3.1 - Efforts to Promote High Ethical Standards in Ghana"
-          },
-          {
-            "type": "single",
-            "question": "______ takes a much more 'organic' view of the organization, imbuing it with 'life' of its own, in keeping with the notion of a separate legal personage.",
-            "options": [
-              "Stewardship theory",
-              "Stakeholder theory",
-              "Agency theory",
-              "Transaction cost theory"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Stakeholder theory takes an organic view of the organization. It sees the company as having its own life, like a separate legal person.",
-            "reference": "Unit 1, Session 4, 4.3 - Stakeholder Theory"
-          },
-          {
-            "type": "single",
-            "question": "Taking responsibility for actions, probably when there is encouragement from special interest groups is known as ______.",
-            "options": [
-              "Accommodation strategy",
-              "Reactive strategy",
-              "Proactive strategy",
-              "Defence strategy"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Accommodation strategy means taking responsibility when encouraged by special interest groups or when government might step in.",
-            "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
-          },
-          {
-            "type": "single",
-            "question": "Porter identifies four principal determinants of national competitive advantage. Which of the following is not one of these determinants?",
-            "options": [
-              "Factor conditions",
-              "Firm strategy structure and rivalry",
-              "Supply conditions",
-              "Related and supporting industries"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The four determinants are factor conditions, demand conditions, firm strategy structure and rivalry, and related and supporting industries. Supply conditions is not one of them.",
-            "reference": "Unit 2, Session 5, 5.12 - Strategy formation"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is not a category of risk in international business?",
-            "options": [
-              "Political risk",
-              "Business risk",
-              "Currency risk",
-              "Profit expatriation risk"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The categories are political risk, business risk, currency risk, and profit repatriation risk. 'Profit expatriation risk' is wrong - it should be 'profit repatriation risk.'",
-            "reference": "Unit 2, Session 6, 6.1 - Market selection"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following regarding corporate governance is not correct?",
-            "options": [
-              "It encompasses practically some sphere of management, from action plans and internal controls to performance measurement and corporate disclosure.",
-              "It is the oversight role of shareholders, board of directors, government, and other international organizations on the activities of management.",
-              "It refers specifically to the set of rules, controls and resolutions put in place to dictate corporate behavior.",
-              "It is a system of rules, practices and processes by which a firm is directed and controlled."
-            ],
-            "correctAnswer": "A",
-            "explanation": "The correct statement says 'practically every sphere of management,' not 'some sphere.' The wording in option A is wrong.",
-            "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
-          },
-          {
-            "type": "single",
-            "question": "The main areas of the OECD corporate governance principles include the following except:",
-            "options": [
-              "Disclosure and transparency",
-              "Ensuring the basis of an effective corporate governance framework",
-              "Encouraging businesses based in different countries to cooperate",
-              "The role of stakeholders in corporate governance"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The five OECD areas are: effective framework, shareholder rights, equitable treatment, stakeholder role, disclosure, and board responsibilities. Encouraging cross-border cooperation is not one of them.",
-            "reference": "Unit 1, Session 6, 6.2 - The OECD Principles of Corporate Governance"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is not a reason why firms move to foreign markets according to Ohmae?",
-            "options": [
-              "Customer",
-              "Company",
-              "Control needs",
-              "Country"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Ohmae's five Cs are Customer, Company, Competition, Currency, and Country. Control needs is not one of them.",
-            "reference": "Unit 2, Session 6, 6.2 - Ohmae offers five reasons for globalisation"
-          },
-          {
-            "type": "single",
-            "question": "Companies face four types of additional cost when they invest in workforce diversity policies.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The four costs are legal compliance costs, cash costs, opportunity costs, and business risks. This is stated clearly in the material.",
-            "reference": "Unit 3, Session 3, 3.2 - Costs of diversity"
-          },
-          {
-            "type": "single",
-            "question": "One of the purpose of the compensation committee of the Board of Directors is to support the chairman in ensuring the board functions efficiently and effectively.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Supporting the chairman is the role of the company secretary, not the compensation committee. The compensation committee handles executive pay and incentives.",
-            "reference": "Unit 3, Session 4, 4.1 - Company Secretary"
-          },
-          {
-            "type": "single",
-            "question": "Each member of the compensation committee will be an 'outside director' as defined in Section 163(m) of the Internal Revenue Code of 1986, as amended ('IRC').",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The correct section is Section 162(m), not 163(m). The material clearly states 'Section 162(m) of the Internal Revenue Code of 1986.'",
-            "reference": "Unit 3, Session 6, 6.1 - The Compensation Committee Membership and Appointment"
-          },
-          {
-            "type": "single",
-            "question": "Bartlett and Ghoshal find that the pressures driving globalization exist independently of the need for local responsiveness; and that both vary from industry to industry.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Bartlett and Ghoshal state that globalization pressures and local responsiveness needs exist independently. Both vary by industry.",
-            "reference": "Unit 2, Session 6, 6.3 - Designs for Global Businesses"
-          },
-          {
-            "type": "single",
-            "question": "Firms always carry out social audits.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Firms sometimes carry out social audits. Whether they do depends on how much social responsibility is part of their corporate philosophy.",
-            "reference": "Unit 2, Session 3, 3.2 - The social audit"
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four driving forces of corporate governance development.",
+                "marks": 20,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Several forces have driven the development of corporate governance. These have shaped rules and practices worldwide.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. High-profile corporate scandals",
+                      "detail": "Scandals like Enron and WorldCom damaged public trust. They forced governments to take action. New laws and codes were introduced. Companies had to improve their governance practices."
+                    },
+                    {
+                      "heading": "2. Increasing internationalisation and globalisation",
+                      "detail": "Investors began investing outside their home countries. They demanded better governance standards. Free movement of capital promoted governance. Investors acted in their own self-interest."
+                    },
+                    {
+                      "heading": "3. Differential treatment of domestic and foreign investors",
+                      "detail": "Investors faced different treatment in different countries. Reporting and rights varied between markets. This caused investors to demand parity of treatment. Equal treatment became a key principle."
+                    },
+                    {
+                      "heading": "4. Issues concerning financial reporting",
+                      "detail": "Investors raised concerns about financial reporting. Many debates and lawsuits focused on this area. Accurate reporting became a priority. Transparency became a key requirement."
+                    }
+                  ],
+                  "conclusion": "These driving forces have shaped modern corporate governance practices and continue to influence development.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1, 1.2 - The Driving Forces of Corporate Governance Development"
+                }
+              }
+            ]
           }
         ]
       }

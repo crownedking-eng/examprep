@@ -1,270 +1,730 @@
 {
   "subject": "Business Ethics and Corporate Governance",
+  "subjectCode": "SBU 406",
   "academicYear": "2019/2020",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Corporate bodies' decision use or disregard social audit strategies depends on the degree to which social responsibility is part of the ______.",
+          "options": [
+            "A. Business philosophy",
+            "B. Social philosophy",
+            "C. Environmental philosophy",
+            "D. Corporate philosophy"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Whether a company uses a social audit depends on how much social responsibility is part of its corporate philosophy.",
+          "reference": "Unit 2, Session 3, 3.2 - The social audit"
+        },
+        {
+          "type": "single",
+          "question": "The scope of functions, the limits of authority and the terms of reference of the board should be delineated ______.",
+          "options": [
+            "A. from the top",
+            "B. from the bottom",
+            "C. in writing",
+            "D. inversely"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The terms of reference, scope of functions, and limits of authority of board committees should be clearly written down.",
+          "reference": "Unit 4, Session 2, 2.5 - Committees in General"
+        },
+        {
+          "type": "single",
+          "question": "The cases of Enron, Arthur Anderson and WorldCom are some of the drivers of corporate governance in which of the following countries?",
+          "options": [
+            "A. Japan",
+            "B. South Africa",
+            "C. USA",
+            "D. Asia"
+          ],
+          "correctAnswer": "C",
+          "explanation": "These scandals happened in the USA. They led to the Sarbanes-Oxley Act.",
+          "reference": "Unit 1, Session 5, 5.1 - Corporate Governance Development worldwide - Corporate Governance - Country Study"
+        },
+        {
+          "type": "single",
+          "question": "The special restriction on the age at which one qualifies to be a director of a company is contained in which of the following documents?",
+          "options": [
+            "A. Companies Code",
+            "B. Asset Register",
+            "C. Risk Assessment register",
+            "D. Corporate regulations"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Age restrictions for directors are specified in the Companies Code 1963 or the statute under which the corporation was incorporated.",
+          "reference": "Unit 4, Session 2, 2.3 - Term and Age Limits"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not one of the key external mechanisms to corporate governance?",
+          "options": [
+            "A. Legal tradition",
+            "B. Enforcement of Regulations",
+            "C. Rules and Regulation",
+            "D. Societal and cultural values"
+          ],
+          "correctAnswer": "D",
+          "explanation": "External mechanisms include legal tradition, accounting standards, enforcement of regulations, and rules and regulations. Societal and cultural values are an influencing factor, not a key mechanism.",
+          "reference": "Unit 4, Session 1, 1.2 - External Governance Mechanisms"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an internal mechanisms for ensuring corporate governance in businesses?",
+          "options": [
+            "A. Board of Managers",
+            "B. Ownership structure",
+            "C. Executive Compensation",
+            "D. Bonding"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Internal mechanisms include Board of Directors (not Board of Managers), Ownership structure, Executive Compensation, and Bonding.",
+          "reference": "Unit 4, Session 1, 1.1 - Internal Governance Mechanisms"
+        },
+        {
+          "type": "single",
+          "question": "The ______ conflict management style is the most appropriate when the goals of the conflicting parties are mutually exclusive.",
+          "options": [
+            "A. Compromising",
+            "B. Avoiding",
+            "C. Obstructing",
+            "D. Dominating"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Compromising style is useful when goals are mutually exclusive. It works when parties are equally powerful and at an impasse.",
+          "reference": "Unit 6, Session 6, 6.1 - Conflict Management Styles"
+        },
+        {
+          "type": "single",
+          "question": "An organisation's obligation to minimize positive stakeholder benefits while maximizing the negative effects of its actions is termed as Corporate Social Responsibility.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This is backwards. CSR means maximizing positive benefits and minimizing negative effects.",
+          "reference": "Unit 2, Session 2, 2.2 - Corporate Social Responsibility"
+        },
+        {
+          "type": "single",
+          "question": "An ethics program seeks to accomplish mutually beneficial working ______ in the workplace.",
+          "options": [
+            "A. values",
+            "B. tenets",
+            "C. behaviour",
+            "D. norms"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The bottom line of an ethics program is accomplishing preferred behaviours in the workplace.",
+          "reference": "Unit 1, Session 3, 3.3 - Eight Guidelines for Managing Ethics in the Workplace"
+        },
+        {
+          "type": "single",
+          "question": "Management engaging in the strictest approach to controlling the exercise of private interests may conflict with other ______.",
+          "options": [
+            "A. rights",
+            "B. methods",
+            "C. practices",
+            "D. public officers' resignation"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A too-strict approach may conflict with other rights. The material states this clearly.",
+          "reference": "Unit 6, Session 4, 4.2 - Managing Conflict of Interest"
+        },
+        {
+          "type": "single",
+          "question": "The receipts, which are either stocks or money, stipulated in the employment agreement under the contractual agreement excludes?",
+          "options": [
+            "A. Directors' Golden agreement",
+            "B. Severance agreement",
+            "C. Post retirement agreement",
+            "D. Consulting agreement"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Contractual agreements include severance, post-retirement consulting, and golden parachutes. 'Directors' Golden agreement' is not the correct term.",
+          "reference": "Unit 5, Session 1, 1.1 - Components of Executive Compensation & Incentives"
+        },
+        {
+          "type": "single",
+          "question": "Businesses are likely to enjoy ______ in situations where trade barriers fall and economies of scale and experiences grow.",
+          "options": [
+            "A. Global sovereignty",
+            "B. Market globalization",
+            "C. Cost sovereignty",
+            "D. Cost globalization"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Cost globalization happens when trade barriers fall and economies of scale grow.",
+          "reference": "Unit 2, Session 5, 5.4 - Cost Globalisation"
+        },
+        {
+          "type": "single",
+          "question": "Proxy advisory firms perform all the following but the ______ function.",
+          "options": [
+            "A. management",
+            "B. provision of services to shareholders",
+            "C. research",
+            "D. analysis of proposals"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Proxy firms provide services, research, and analysis. Management is not a function they perform.",
+          "reference": "Unit 5, Session 6, 6.2 - Proxy Advisory Firms"
+        },
+        {
+          "type": "single",
+          "question": "The best strategy to handle the ______ philosophy at the workplace, is by ensuring its zero percent rate of occurrence.",
+          "options": [
+            "A. ethics",
+            "B. ethical judgements",
+            "C. ethical dilemma",
+            "D. ethical philosophies"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The best way to handle ethical dilemmas is to avoid them completely. Prevention is better than cure.",
+          "reference": "Unit 1, Session 3, 3.3 - Eight Guidelines for Managing Ethics in the Workplace"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a type of institutional investor?",
+          "options": [
+            "A. Hedge funds",
+            "B. Pension funds",
+            "C. Endowment funds",
+            "D. Denationalized funds"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The six types are endowment funds, commercial banks, mutual funds, hedge funds, pension funds, and insurance companies. Denationalized funds is not one.",
+          "reference": "Unit 5, Session 6, 6.1 - Institutional Investors and Proxy Voting"
+        },
+        {
+          "type": "single",
+          "question": "Scholars and management of businesses are to note that there is the possibility of conflict of interest emerging from ______.",
+          "options": [
+            "A. all sides of the equation",
+            "B. one side of the equation only",
+            "C. the third-party side of the equation",
+            "D. both side of the equation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Conflict of interest only appears on one side of the equation. In bribery, the bribe-taker abuses their position.",
+          "reference": "Unit 6, Session 1, 1.1 - Corruption, Fraud & Bribery"
+        },
+        {
+          "type": "single",
+          "question": "Prospective shareholders of companies often have the right to buy shares in the future at a fixed exercise price, generally equal to the stock price on the grant date. This arrangement is known as ______.",
+          "options": [
+            "A. Future swaps",
+            "B. Future stock grant",
+            "C. Stock grant",
+            "D. Stock options"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Stock options give the right to buy shares in the future at a fixed exercise price. This matches the definition.",
+          "reference": "Unit 5, Session 1, 1.1 - Components of Executive Compensation & Incentives"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not the main form of compensation?",
+          "options": [
+            "A. Accounting-based-performance bonuses",
+            "B. Executive accounting options",
+            "C. Basic salary",
+            "D. Long-term incentives"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The four main forms are basic salary, accounting-based performance bonuses, executive stock options, and long-term incentives. 'Executive accounting options' is not real.",
+          "reference": "Unit 4, Session 1, 1.1 - Internal Governance Mechanisms"
+        },
+        {
+          "type": "single",
+          "question": "Businesses failure to understand that market expose them to a risk known as ______ risk.",
+          "options": [
+            "A. Profit repatriation",
+            "B. Business repatriation",
+            "C. Business currency",
+            "D. Business"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Business risk arises from the possibility that the business idea itself might be flawed. It comes from failure to understand the market.",
+          "reference": "Unit 2, Session 6, 6.1 - Market selection"
+        },
+        {
+          "type": "single",
+          "question": "Good corporate governance in a corporate setting is the sole responsibility of the ______.",
+          "options": [
+            "A. Board of Auditors",
+            "B. Board of directors",
+            "C. Management Board",
+            "D. Independent directors"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The primary responsibility for ensuring good corporate governance lies with the board of directors.",
+          "reference": "Unit 1, Session 6, 6.4 - Primary Responsibility for Corporate Governance"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "The coverage for the internal mechanisms of corporate governance excludes",
-            "options": [
-              "Board of Managers",
-              "Ownership structure",
-              "Executive Compensation",
-              "Bonding"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Internal mechanisms include Board of Directors, Ownership structure, Executive Compensation, and Bonding. Board of Managers is not mentioned as an internal mechanism in Units 1-3.",
-            "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the following;\ni. Stewardship theory\nii. Stakeholder theory\niii. Agency theory\niv. Transaction cost theory",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "These four theories explain how companies should be governed and how managers should act.",
+                  "mainPoints": [
+                    {
+                      "heading": "i. Stewardship theory",
+                      "detail": "Managers act as careful stewards of company assets. They naturally work for the good of the organisation. Good governance needs active participation from all members."
+                    },
+                    {
+                      "heading": "ii. Stakeholder theory",
+                      "detail": "Management has a duty to everyone connected to the company. This includes owners, employees, customers, suppliers, and the community. The company serves wider society, not just shareholders."
+                    },
+                    {
+                      "heading": "iii. Agency theory",
+                      "detail": "Managers may act in their own self-interest. There is a contract between owners (principals) and managers (agents). Good governance uses performance pay and monitoring to align interests."
+                    },
+                    {
+                      "heading": "iv. Transaction cost theory",
+                      "detail": "How a company is organised affects its control over transactions. Companies keep activities inside to reduce uncertainty. Managers can be opportunistic and need proper oversight."
+                    }
+                  ],
+                  "conclusion": "Each theory offers a different view of human behaviour and governance needs.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.1 to 4.5 - Corporate Governance Theories"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State four (4) principal duties of the board.",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "The board has several principal duties. These are its key responsibilities.",
+                  "mainPoints": [
+                    {
+                      "heading": "Duty 1",
+                      "detail": "Strategic guidance of the corporate body in line with business objectives."
+                    },
+                    {
+                      "heading": "Duty 2",
+                      "detail": "Overseeing the management and conduct of the business."
+                    },
+                    {
+                      "heading": "Duty 3",
+                      "detail": "Identifying risk and implementing systems that manage risk."
+                    },
+                    {
+                      "heading": "Duty 4",
+                      "detail": "Succession planning and appointing, training, and replacing senior management."
+                    }
+                  ],
+                  "conclusion": "These duties help the board guide and control the company effectively.",
+                  "otherPossibleAnswers": "Alternative duty: Overseeing internal control systems; Maintaining the corporate body's communications and information dissemination policy.",
+                  "reference": "Unit 1, Session 6, 6.4 - Principle Duties of the Board"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Enumerate any four (4) corporate social responsibility stances.",
+                "marks": 4,
+                "commandWord": "Enumerate",
+                "answer": {
+                  "introduction": "Companies take different stances on social responsibility. Each shows a different level of commitment.",
+                  "mainPoints": [
+                    {
+                      "heading": "Stance 1",
+                      "detail": "Laissez-faire - only short-term shareholder interests matter."
+                    },
+                    {
+                      "heading": "Stance 2",
+                      "detail": "Enlightened self-interest - long-term benefit comes from good stakeholder relationships."
+                    },
+                    {
+                      "heading": "Stance 3",
+                      "detail": "Multiple stakeholder obligations - accept expectations of all stakeholders."
+                    },
+                    {
+                      "heading": "Stance 4",
+                      "detail": "Shaper of society - actively shape society for the better."
+                    }
+                  ],
+                  "conclusion": "These stances range from doing the minimum to actively shaping society.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 2, 2.4 - Corporate Social Responsibility Stances"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Describe labour market for CEOs.",
+                "marks": 4,
+                "commandWord": "Describe",
+                "answer": {
+                  "introduction": "The labour market for CEOs matches available supply with demand for executives.",
+                  "mainPoints": [
+                    {
+                      "heading": "Information Flow",
+                      "detail": "Information must be available on corporate needs and individual skills."
+                    },
+                    {
+                      "heading": "CEO Evaluation and Pricing",
+                      "detail": "When efficient, the board can evaluate and price CEO talent properly. This leads to better hiring decisions and fair compensation."
+                    },
+                    {
+                      "heading": "Managerial Discipline",
+                      "detail": "It increases discipline on managerial behaviour. Managers work harder because poor performance can mean losing their job."
+                    }
+                  ],
+                  "conclusion": "An efficient labour market improves governance quality and limits self-interested behaviour.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.1 - Labour Market for CEOs"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The main forms of compensation reflect options which do not include",
-            "options": [
-              "Basic salary",
-              "Accounting-based-performance bonuses",
-              "Executive accounting options",
-              "Long-term incentives"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The four main forms are basic salary, accounting-based performance bonuses, executive stock options, and long-term incentives. 'Executive accounting options' is not a real form of compensation.",
-            "reference": "Unit 3, Session 5, 5.1 - Components of Compensation"
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain proxy voting.",
+                "marks": 3,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Proxy voting lets shareholders vote without attending meetings in person.",
+                  "mainPoints": [
+                    {
+                      "heading": "Delegation of Voting Power",
+                      "detail": "A shareholder delegates voting power to a representative. The representative is called a 'proxy'."
+                    },
+                    {
+                      "heading": "Ballot Process",
+                      "detail": "Shareholders receive proxy ballots and information booklets by mail. They can vote on issues like electing directors or approving mergers."
+                    }
+                  ],
+                  "conclusion": "Proxy voting makes it easier for shareholders to participate in company decisions.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 6, 6.2 - Proxy Voting"
+                }
+              },
+              {
+                "label": "B",
+                "question": "What are the compositions of the board independence?",
+                "marks": 4,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Board independence has several parts. Each part helps the board act without undue influence.",
+                  "mainPoints": [
+                    {
+                      "heading": "Component 1",
+                      "detail": "Independent committees"
+                    },
+                    {
+                      "heading": "Component 2",
+                      "detail": "Board size and board diversity"
+                    },
+                    {
+                      "heading": "Component 3",
+                      "detail": "Company secretary"
+                    },
+                    {
+                      "heading": "Component 4",
+                      "detail": "Chairperson of the Board"
+                    }
+                  ],
+                  "conclusion": "These elements work together to provide fair and objective oversight.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 2, 2.1 - Board independence composition"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Identify four (4) representatives that companies must consider when establishing boards.",
+                "marks": 8,
+                "commandWord": "Identify",
+                "answer": {
+                  "introduction": "Companies should consider having different types of representatives on their boards. Each brings unique value.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Bankers",
+                      "detail": "Bring expertise on capital structure and financing. Have industry knowledge from serving similar clients. Provide monitoring expertise from a creditor perspective."
+                    },
+                    {
+                      "heading": "2. Financial experts",
+                      "detail": "Have experience as professional accountants or auditors. Understand accounting principles and financial statements. Improve governance quality through financial oversight."
+                    },
+                    {
+                      "heading": "3. Politically connected persons",
+                      "detail": "Help secure government contracts. Improve relationships with regulators. Investors often view them favourably."
+                    },
+                    {
+                      "heading": "4. Employee representation",
+                      "detail": "Ensures employees participate in workplace decisions. Covers work rules, safety standards, and benefits. Improves internal relations and reduces disputes."
+                    }
+                  ],
+                  "conclusion": "Each type of representative brings different skills and perspectives to the board.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 3, 3.1 - Board Representation"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Identify five (5) criteria for selecting and approving new CEO?",
+                "marks": 5,
+                "commandWord": "Identify",
+                "answer": {
+                  "introduction": "Choosing a new CEO is one of the board's most important jobs. The process follows clear criteria.",
+                  "mainPoints": [
+                    {
+                      "heading": "Criterion 1",
+                      "detail": "Create a skills and experience profile for the potential CEO."
+                    },
+                    {
+                      "heading": "Criterion 2",
+                      "detail": "Rank viable candidates against the profile."
+                    },
+                    {
+                      "heading": "Criterion 3",
+                      "detail": "Select the most preferred candidate."
+                    },
+                    {
+                      "heading": "Criterion 4",
+                      "detail": "Full board voting to approve the selection."
+                    },
+                    {
+                      "heading": "Criterion 5",
+                      "detail": "Plan the transition with open and honest dialogue. Discuss how management and board will interact. Talk about expectations and communication needs."
+                    }
+                  ],
+                  "conclusion": "Good CEO selection uses clear criteria and smooth transition planning.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 3, 3.3 and 3.4 - Creating a skill and experience profile, Selection and Approval of the New CEO"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "One of the key external mechanism to corporate governance presents options which mainly excludes",
-            "options": [
-              "Legal tradition",
-              "Societal and cultural values",
-              "Enforcement of Regulations",
-              "Rules and Regulations"
-            ],
-            "correctAnswer": "B",
-            "explanation": "External mechanisms include legal tradition, accounting standards, enforcement of regulations, and rules and regulations. Societal and cultural values are mentioned separately as an influencing factor, not a key external mechanism.",
-            "reference": "Unit 1, Session 1, 1.1 - Understanding Corporate Governance"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain three (3) of the responsibilities of the board.",
+                "marks": 9,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The board has many important responsibilities. Here are three key ones.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Establishing the Organisation's Mission and Purpose",
+                      "detail": "The board sets the vision and mission. The vision is what the organisation wants to achieve. The mission is the action plan to accomplish the vision. Everything the board does centres around these."
+                    },
+                    {
+                      "heading": "2. Selecting, Supporting, and Reviewing the Executive Director",
+                      "detail": "The board vets and selects the Executive Director. They work collaboratively with the Executive Director. The board reviews performance on an annual basis."
+                    },
+                    {
+                      "heading": "3. Organisational Planning",
+                      "detail": "Board members spend most time on planning. They monitor products, services, and programs. They review strategic plans and whether goals are being met. They keep up with competitors and developments."
+                    }
+                  ],
+                  "conclusion": "These responsibilities help the board guide and control the organisation effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 4, 4.1 - General Board Responsibilities"
+                }
+              },
+              {
+                "label": "B",
+                "question": "What do you understand by 'external search process'?",
+                "marks": 3,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "External search process means looking outside the company for a new CEO.",
+                  "mainPoints": [
+                    {
+                      "heading": "When Used",
+                      "detail": "Used when internal candidates are not sufficient."
+                    },
+                    {
+                      "heading": "How It Works",
+                      "detail": "External consultants or recruiters help find candidates. Well-connected consultants access information about many executives. They provide qualitative information about reputation and cultural fit."
+                    }
+                  ],
+                  "conclusion": "External search helps find proven leaders from outside the company.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 4, 4.3 - The External Search Process"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain any two (2) the types of activities that are classified as conflict of interest.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Certain activities create situations where personal interest clashes with duty. These are conflict of interest activities.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Nepotism",
+                      "detail": "Giving favours to relatives and close friends. Often means hiring family members without proper process."
+                    },
+                    {
+                      "heading": "2. Self-dealing",
+                      "detail": "Someone in a trusted position acts for their own benefit. They put personal gain ahead of the organisation's interest."
+                    }
+                  ],
+                  "conclusion": "These activities create risk and damage trust, even if not always illegal.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1, 1.4 - Types of activities that can create a possible conflict of interest"
+                }
+              },
+              {
+                "label": "D",
+                "question": "Mention four (4) roles of shareholders.",
+                "marks": 4,
+                "commandWord": "Mention",
+                "answer": {
+                  "introduction": "Shareholders are the financial supporters of a company. They play key roles in corporate governance.",
+                  "mainPoints": [
+                    {
+                      "heading": "Role 1",
+                      "detail": "Attending general meetings."
+                    },
+                    {
+                      "heading": "Role 2",
+                      "detail": "Reviewing company accounts."
+                    },
+                    {
+                      "heading": "Role 3",
+                      "detail": "Deliberating on annual reports."
+                    },
+                    {
+                      "heading": "Role 4",
+                      "detail": "Electing and removing directors."
+                    }
+                  ],
+                  "conclusion": "These roles help shareholders participate in governing the company.",
+                  "otherPossibleAnswers": "Alternative role: Using voting rights to elect or remove directors.",
+                  "reference": "Unit 5, Session 5, 5.4 - The Role of Shareholders"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The driving forces in the development of corporate governance did not focus on",
-            "options": [
-              "High profile corporate scandals",
-              "Significant affluence",
-              "differential treatment of domestic and foreign investors",
-              "increasing internationalisation and globalization"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The driving forces are corporate scandals, differential treatment of investors, and increasing internationalisation. Significant affluence is not listed as a driving force.",
-            "reference": "Unit 1, Session 1, 1.2 - The Driving Forces of Corporate Governance Development"
-          },
-          {
-            "type": "single",
-            "question": "The absolute prevention of its occurrence in the work is seen to be the ultimate way to handle this philosophy.",
-            "options": [
-              "Ethics",
-              "Ethical philosophies",
-              "Ethical Judgements",
-              "Ethical dilemma"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The best way to handle ethical dilemmas is to avoid them in the first place. Prevention is better than trying to fix problems later.",
-            "reference": "Unit 1, Session 3, 3.3 - Eight Guidelines for Managing Ethics in the Workplace"
-          },
-          {
-            "type": "single",
-            "question": "The way the company is organised or governed determines its control over transactions. This defines the term ______.",
-            "options": [
-              "Stakeholder theory",
-              "Stewardship theory",
-              "Transaction cost theory",
-              "Transactional agency theory"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Transaction cost theory says that how a company is organised affects its control over transactions. Companies keep activities inside to reduce uncertainty.",
-            "reference": "Unit 1, Session 4, 4.5 - Transaction Cost Theory"
-          },
-          {
-            "type": "single",
-            "question": "Which pair of the terms below aims to ensure that managers effectively pursue shareholders' best interests?",
-            "options": [
-              "Transactional agency theory and cost theory",
-              "Shareholder theory and Value theory",
-              "Agency theory and Transactional cost theory",
-              "Transactional and Agency theory"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Both agency theory and transaction cost theory aim to make managers work for shareholders' best interests. They use different approaches but have the same goal.",
-            "reference": "Unit 1, Session 4, 4.4 - Agency Theory and 4.5 - Transaction Cost Theory"
-          },
-          {
-            "type": "single",
-            "question": "Active management, close relationships between auditors and clients and Enron, Arthur Anderson and WorldCom are some of the drivers of corporate governance in ______.",
-            "options": [
-              "Japan",
-              "South Africa",
-              "USA",
-              "Asia"
-            ],
-            "correctAnswer": "C",
-            "explanation": "These drivers are specifically mentioned for the USA. The Enron and WorldCom scandals led to the Sarbanes-Oxley Act in the US.",
-            "reference": "Unit 1, Session 5, 5.1 - Corporate Governance Development worldwide - Corporate Governance - Country Study"
-          },
-          {
-            "type": "single",
-            "question": "______ spreads as trade barriers fall and economies of scale and experiences grow.",
-            "options": [
-              "Global competition",
-              "Market globalization",
-              "Government activity and policy",
-              "Cost globalization"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Cost globalization happens when trade barriers come down and companies can achieve economies of scale. This reduces costs and spreads globally.",
-            "reference": "Unit 2, Session 5, 5.4 - Cost Globalisation"
-          },
-          {
-            "type": "single",
-            "question": "An organisations' obligation to minimize positive stakeholder benefits while maximizing the negative effects of its actions is Corporate Social Responsibility.",
-            "options": [
-              "True",
-              "False"
-            ],
-            "correctAnswer": "B",
-            "explanation": "This statement is backwards. CSR means maximizing positive benefits and minimizing negative effects. The question has the wording reversed.",
-            "reference": "Unit 2, Session 2, 2.2 - Corporate Social Responsibility"
-          },
-          {
-            "type": "single",
-            "question": "Glitz Surprise Co. discovers a fault in a product and recalls the product without being forced to, before any injury or damage is caused. Which strategy of social responsibility is being employed by this company?",
-            "options": [
-              "Reactive strategy",
-              "Accommodation strategy",
-              "Defense strategy",
-              "Proactive strategy"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Proactive strategy means taking full responsibility before being forced. The company acted quickly and voluntarily to protect customers.",
-            "reference": "Unit 2, Session 3, 3.1 - Strategies for Social Responsibility"
-          },
-          {
-            "type": "single",
-            "question": "The use or the neglect of social audit depends on the degree to which social responsibility is part of the ______.",
-            "options": [
-              "Business philosophy",
-              "Corporate philosophy",
-              "Social philosophy",
-              "Environmental philosophy"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Whether a company uses a social audit depends on how much social responsibility is part of its corporate philosophy. It must be built into the company's culture.",
-            "reference": "Unit 2, Session 3, 3.2 - The social audit"
-          },
-          {
-            "type": "single",
-            "question": "Corporate reporting and performance measurement considerations are often based towards ______.",
-            "options": [
-              "Short term perspectives",
-              "Medium term perspectives",
-              "Long term perspectives",
-              "Strategic perspectives"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Companies often focus on short-term results because they report yearly and face pressure from shareholders. This can hurt long-term sustainability.",
-            "reference": "Unit 2, Session 4, 4.3 - Short- or Long-Term Focus"
-          },
-          {
-            "type": "single",
-            "question": "______ often requires significant short-term costs to secure a sometimes-uncertain long-term benefit.",
-            "options": [
-              "Corporate governance",
-              "Ethical favouritism",
-              "Social Business standardization",
-              "Sustainability"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Sustainability needs investment now for uncertain future benefits. Companies must spend money today to protect the environment and society later.",
-            "reference": "Unit 2, Session 4 - Introduction"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following mentioned below describes largely independent local subsidiaries and decentralizes its operations to management?",
-            "options": [
-              "Regio-centrism",
-              "Polycentrism",
-              "Geo-centrism",
-              "De-centrism"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Polycentrism means adapting to local environments. Companies set up independent local subsidiaries and decentralise management.",
-            "reference": "Unit 2, Session 5, 5.10 - Polycentrism"
-          },
-          {
-            "type": "single",
-            "question": "______ is not unique to international marketing, but firms might be exposed to more sources of risk arising from failures to understand the market.",
-            "options": [
-              "Profit repatriation risk",
-              "Business risk",
-              "Currency risk",
-              "Political-risk"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Business risk exists in all markets. But international firms face more risks because they may not understand the local market well.",
-            "reference": "Unit 2, Session 6, 6.1 - Market selection"
-          },
-          {
-            "type": "single",
-            "question": "The main components of responsibility for Corporate Social Responsibility excludes ______.",
-            "options": [
-              "Environmental responsibility",
-              "Legal responsibility",
-              "Philanthropic responsibility",
-              "Ethical responsibility"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The four components are economic, legal, ethical, and philanthropic. Environmental responsibility is not listed as one of the four main components.",
-            "reference": "Unit 2, Session 1, 1.3 - CSR has four components of responsibility"
-          },
-          {
-            "type": "single",
-            "question": "The cost involved in the separation of ownership and control of a business is known as ______.",
-            "options": [
-              "Cost globalization",
-              "Cost realization",
-              "Agency cost",
-              "Business cost"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Agency cost is the cost that comes from separating ownership and control. It happens because managers and shareholders may have different interests.",
-            "reference": "Unit 1, Session 5, 5.1 - The Anglo-American Model"
-          },
-          {
-            "type": "single",
-            "question": "The bottom line of an ethics program is accomplishing preferred ______ in the workplace.",
-            "options": [
-              "Values",
-              "Tenets",
-              "Behaviour",
-              "Norms"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The most important outcome of an ethics program is getting the right behaviours. Values and codes mean nothing unless people actually behave ethically.",
-            "reference": "Unit 1, Session 3, 3.3 - Eight Guidelines for Managing Ethics in the Workplace"
-          },
-          {
-            "type": "single",
-            "question": "The primary responsibility for ensuring that good corporate governance prevails lies with the ______ of the corporate body.",
-            "options": [
-              "Auditors",
-              "Board of directors",
-              "Management",
-              "Independent directors"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The board of directors has primary responsibility for good corporate governance. They are accountable to shareholders and must ensure proper oversight.",
-            "reference": "Unit 1, Session 6, 6.4 - Primary Responsibility for Corporate Governance"
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Identify the five (5) main duties of the board.",
+                "marks": 10,
+                "commandWord": "Identify",
+                "answer": {
+                  "introduction": "The board has five main duties. These guide its work and decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "1. Fiduciary duty",
+                      "detail": "Legal obligation to act in the best interest of others. Director must be trustworthy and loyal to shareholders. Main function is enhancing shareholder wealth."
+                    },
+                    {
+                      "heading": "2. Duties of loyalty and fair dealing",
+                      "detail": "Ensure activities advance the organisation's mission. Recognise and disclose conflicts of interest. Make decisions in the best interest of the corporation."
+                    },
+                    {
+                      "heading": "3. Duty of care",
+                      "detail": "Exercise due diligence in making decisions. Use skills, experience, and knowledge properly. Delegate functions or use specialists when needed."
+                    },
+                    {
+                      "heading": "4. Duty not to entrench",
+                      "detail": "Objective assessment of the company situation. Openness to possible solutions. Readiness to take crucial decisions, especially in poor performance."
+                    },
+                    {
+                      "heading": "5. Duty of supervision",
+                      "detail": "Oversee the performance of employees. Monitor progress and ability on assigned duties. Supervise management activities to serve shareholder interests."
+                    }
+                  ],
+                  "conclusion": "These five duties ensure the board acts responsibly and protects shareholder interests.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 6, 6.2 - Five (5) Main Duties of the Board"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State six (6) basic elements of corporate social responsibility.",
+                "marks": 6,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Corporate social responsibility has several basic elements. These show what companies should do.",
+                  "mainPoints": [
+                    {
+                      "heading": "Element 1",
+                      "detail": "Staff development via training and education."
+                    },
+                    {
+                      "heading": "Element 2",
+                      "detail": "Equal opportunities statements."
+                    },
+                    {
+                      "heading": "Element 3",
+                      "detail": "Written anti-discrimination policies."
+                    },
+                    {
+                      "heading": "Element 4",
+                      "detail": "Commitment to reporting on CSR."
+                    },
+                    {
+                      "heading": "Element 5",
+                      "detail": "Policies for restricting the use of child labour by suppliers."
+                    },
+                    {
+                      "heading": "Element 6",
+                      "detail": "Policies on fair trade."
+                    }
+                  ],
+                  "conclusion": "These elements show how companies can be good corporate citizens.",
+                  "otherPossibleAnswers": "Alternative element: Commitment to the protection of the local community.",
+                  "reference": "Unit 2, Session 2, 2.3 - Basic Elements of Corporate Social Responsibility"
+                }
+              },
+              {
+                "label": "C",
+                "question": "List four (4) types of role conflict.",
+                "marks": 4,
+                "commandWord": "List",
+                "answer": {
+                  "introduction": "Role conflict happens when someone must perform contradictory roles. There are four main types.",
+                  "mainPoints": [
+                    {
+                      "heading": "Type 1",
+                      "detail": "Intra sender Conflict - one role sender gives contradictory instructions."
+                    },
+                    {
+                      "heading": "Type 2",
+                      "detail": "Inter sender Conflict - different role senders demand inconsistent behaviours."
+                    },
+                    {
+                      "heading": "Type 3",
+                      "detail": "Inter role Conflict - two or more roles have inconsistent expectations."
+                    },
+                    {
+                      "heading": "Type 4",
+                      "detail": "Intra role (Person-Role) Conflict - role requirements conflict with personal values."
+                    }
+                  ],
+                  "conclusion": "These four types show how role conflicts can arise in organisations.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 2, 2.4 - Role Conflict"
+                }
+              }
+            ]
           }
         ]
       }
