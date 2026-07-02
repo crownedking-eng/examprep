@@ -1,0 +1,629 @@
+{
+  "subject": "Strategic Supply Chain Management",
+  "subjectCode": "PCM402",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "A supply strategy which enhances revenue by responding rapidly to emerging market needs, and increasing revenue per unit by capturing the higher margins available to first or early movers into the market is termed as ______ strategy",
+          "options": [
+            "A. Agile",
+            "B. Channel focused",
+            "C. Customer customized",
+            "D. Lean"
+          ],
+          "correctAnswer": "A",
+          "explanation": "An agile strategy focuses on speed and flexibility. It helps companies capture higher margins by being first to market.",
+          "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "Organisations can leverage their relationships with key suppliers to promote ethical, environmental and social sustainability through the following except ______",
+          "options": [
+            "A. leveraging of key resources to enhance shareholder value and return on investment",
+            "B. the development of reverse logistics capabilities",
+            "C. the improvement in recycling, emission controls, pollution prevention and sound environmental practices",
+            "D. the monitoring and improvement of employment and conditions for workers in the supply chain"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Enhancing shareholder value is not a sustainability activity. The other options focus on environmental or social practices.",
+          "reference": "Unit 3, Session 3, 3.8 - Reverse Logistics"
+        },
+        {
+          "type": "single",
+          "question": "Collaboration is an admirable business objective but is proven to be difficult to attain, as evidenced by high-profile contractual disputes. Collaborative approaches have been shown to deliver a wide range of benefits, which enhance competitiveness and performance. Which of the following is not a benefit of collaboration?",
+          "options": [
+            "A. Better Cost Management",
+            "B. Innovative business practices",
+            "C. Improved supply chain performance",
+            "D. Competition"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Competition is the opposite of collaboration. It is not a benefit of working together with partners.",
+          "reference": "Unit 4, Session 1, 1.3 - Collaborative business relationships"
+        },
+        {
+          "type": "single",
+          "question": "According to Ohmae's 3Cs Model, sustainable competitive advantage arises from the balance among ______.",
+          "options": [
+            "A. Customer, Competition, and Corporation",
+            "B. Cost, Capacity, and Collaboration",
+            "C. Capital, Coordination, and Control",
+            "D. Culture, Communication, and Company"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Ohmae's Three Cs are Customer, Competition, and Corporation. These factors must be balanced for competitive advantage.",
+          "reference": "Unit 1, Session 4, 4.3 - The Ohmae's Three Cs"
+        },
+        {
+          "type": "single",
+          "question": "Core competencies refer to ______.",
+          "options": [
+            "A. outsourced non-critical activities",
+            "B. distinctive skills and capabilities that are difficult for competitors to imitate",
+            "C. temporary marketing campaigns",
+            "D. common departmental practices"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Core competencies are unique strengths that are hard to copy. They create value for customers and are flexible for future needs.",
+          "reference": "Unit 1, Session 4, 4.2.2 - Core competencies"
+        },
+        {
+          "type": "single",
+          "question": "In Porter's Generic Strategies, a company that produces unique products and charges premium prices is pursuing ______.",
+          "options": [
+            "A. cost-leadership",
+            "B. differentiation",
+            "C. focus",
+            "D. standardization"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Differentiation means offering unique products. Customers are willing to pay premium prices for this uniqueness.",
+          "reference": "Unit 1, Session 4, 4.4.1 - The Three Generic Strategies"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following activities is part of strategic supply chain planning?",
+          "options": [
+            "A. Determining facility locations and distribution channels",
+            "B. Recording daily inventory counts",
+            "C. Preparing marketing slogans",
+            "D. Processing payroll"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Strategic planning involves major decisions like facility locations. It reflects the overall corporate strategy.",
+          "reference": "Unit 1, Session 1, 1.3 - Definition of Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "The bulwhip effect in a supply chain results from ______.",
+          "options": [
+            "A. increased cooperation among suppliers",
+            "B. distorted demand information as it moves upstream",
+            "C. standardized procurement practices",
+            "D. low product variety"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Bullwhip Effect is caused by distorted demand information. Small changes in demand create larger swings upstream.",
+          "reference": "Unit 1, Session 1, 1.4 - Obstacles That Prevent Implementation of SCM Strategies and Operations"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best describes e-sourcing? The ______.",
+          "options": [
+            "A. use of digital platforms to identify, evaluate, and select suppliers",
+            "B. outsourcing of production functions",
+            "C. electronic payment system",
+            "D. management of product returns"
+          ],
+          "correctAnswer": "A",
+          "explanation": "E-sourcing uses digital platforms to find and select suppliers. It helps compare factors like delivery time and quality.",
+          "reference": "Unit 6, Session 5, 5.1 - E-Sourcing"
+        },
+        {
+          "type": "single",
+          "question": "Coca-Cola collaborates closely with local bottlers to ensure quality and distribution efficiency. This illustrates ______.",
+          "options": [
+            "A. strategic partnership in the supply chain",
+            "B. vertical disintegration",
+            "C. price competition",
+            "D. outsourcing failure"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Close collaboration with partners is a strategic partnership. It helps ensure quality and efficiency.",
+          "reference": "Unit 3, Session 4 - Developing Strategic alliance in supply chains"
+        },
+        {
+          "type": "single",
+          "question": "When Toyota shares its production technology with suppliers to improve component quality, it is practicing ______.",
+          "options": [
+            "A. supplier development",
+            "B. supplier elimination",
+            "C. market diversification",
+            "D. cost leadership"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Supplier development involves helping suppliers improve. Sharing technology is a form of this practice.",
+          "reference": "Unit 4, Session 1 - Planning relationship procurement"
+        },
+        {
+          "type": "single",
+          "question": "A Ghanaian retailer using RFID technology to track inventory is demonstrating ______.",
+          "options": [
+            "A. strategic planning",
+            "B. financial forecasting",
+            "C. application of technology for supply visibility",
+            "D. marketing innovation"
+          ],
+          "correctAnswer": "C",
+          "explanation": "RFID provides real-time visibility of inventory. This is a technological application for supply chain tracking.",
+          "reference": "Unit 3, Session 1, 1.2.3 - Inventory"
+        },
+        {
+          "type": "single",
+          "question": "When a firm outsources its transport operations to a logistics provider to reduce costs, it is making a ______.",
+          "options": [
+            "A. make-or-buy decision",
+            "B. corporate diversification move",
+            "C. supplier replacement",
+            "D. vertical acquisition"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Outsourcing is a make-or-buy decision. The company decides to buy a service rather than make it internally.",
+          "reference": "Unit 5, Session 2, 2.1 - Selecting a Subcontractor"
+        },
+        {
+          "type": "single",
+          "question": "Failure to align supply chain strategy with corporate goals often results in ______.",
+          "options": [
+            "A. enhanced synergy",
+            "B. stable performance",
+            "C. process misalignment and inefficiency",
+            "D. lower coordination costs"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Misalignment causes process problems and inefficiency. Supply chain strategy must match corporate goals.",
+          "reference": "Unit 1, Session 2 - Linking Strategy Development to Supply Chains"
+        },
+        {
+          "type": "single",
+          "question": "The lean supply chain approach can increase risk when ______.",
+          "options": [
+            "A. demand is stable and predictable",
+            "B. supply disruptions occur due to minimal inventory buffers",
+            "C. suppliers are co-located",
+            "D. the product life cycle is long"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Lean supply chains have minimal inventory buffers. This increases risk when supply disruptions occur.",
+          "reference": "Unit 1, Session 1, 1.4 - Obstacles That Prevent Implementation of SCM Strategies and Operations"
+        },
+        {
+          "type": "single",
+          "question": "If a company focuses solely on price when selecting suppliers, it may experience ______.",
+          "options": [
+            "A. higher product quality",
+            "B. increased disruptions due to unreliable partners",
+            "C. improved customer loyalty",
+            "D. greater innovation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Focusing only on price can lead to unreliable suppliers. This causes disruptions in the supply chain.",
+          "reference": "Unit 4, Session 1 - Planning relationship procurement"
+        },
+        {
+          "type": "single",
+          "question": "A firm combining ERP and EDI systems to manage procurement achieves ______.",
+          "options": [
+            "A. market segmentation",
+            "B. vertical diversification",
+            "C. digital supply chain integration",
+            "D. cost leadership"
+          ],
+          "correctAnswer": "C",
+          "explanation": "ERP and EDI integrate procurement digitally. They enable information sharing across the supply chain.",
+          "reference": "Unit 1, Session 5 - Information Systems Application to Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "A global supply chain mitigates risk from geopolitical disruptions by ______.",
+          "options": [
+            "A. diversifying suppliers across regions",
+            "B. centralizing all suppliers in one country",
+            "C. reducing safety stock levels",
+            "D. outsourcing risk management functions"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Diversifying suppliers across regions reduces risk. If one region faces disruption, others can supply.",
+          "reference": "Unit 1, Session 1, 1.4 - Obstacles That Prevent Implementation of SCM Strategies and Operations"
+        },
+        {
+          "type": "single",
+          "question": "The ultimate purpose of strategic supply chain management is to ______.",
+          "options": [
+            "A. align supply chain activities with corporate strategy to deliver long-term competitive advantage",
+            "B. cut costs in logistics only",
+            "C. increase advertising budgets",
+            "D. focus solely on supplier audits"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The purpose of SCM is to align with corporate strategy. This delivers long-term competitive advantage.",
+          "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best defines a supply chain?",
+          "options": [
+            "A. A single company's production system",
+            "B. Logistics network integrating suppliers, manufacturers, and customers",
+            "C. A warehouse inventory management system",
+            "D. A marketing distribution plan"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A supply chain is a network of suppliers, manufacturers, and customers. It includes all the facilities and flows between them.",
+          "reference": "Unit 1, Session 1, 1.2 - Definition of Supply Chain"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain how value creation occurs within a supply chain.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Value creation is the main goal of SCM. It involves making products and services more valuable to customers.",
+                  "mainPoints": [
+                    {
+                      "heading": "Meeting Customer Needs",
+                      "detail": "Value is created when products meet customer needs better than competitors."
+                    },
+                    {
+                      "heading": "Customer Measurement",
+                      "detail": "Customers measure value by comparing quality, price, and service."
+                    },
+                    {
+                      "heading": "Effective Activities",
+                      "detail": "Organisations create value by performing activities more effectively than rivals."
+                    },
+                    {
+                      "heading": "Stages in the Supply Chain",
+                      "detail": "The supply chain adds value at every stage from raw materials to final customer."
+                    }
+                  ],
+                  "conclusion": "Value creation is achieved through effective integration and focus on customer needs.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4 - Contribution of SCM to corporate and business Strategy"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Identify and explain the three elements of Ohmae's Three Cs Model and how each contributes to competitive advantage.",
+                "marks": 6,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Ohmae's Three Cs model provides a strategic framework for achieving competitive advantage.",
+                  "mainPoints": [
+                    {
+                      "heading": "Corporation",
+                      "detail": "The company must understand its own strengths. It focuses on areas where it can beat competitors."
+                    },
+                    {
+                      "heading": "Customer",
+                      "detail": "The company must understand customer needs. Customer interests should come before shareholder interests."
+                    },
+                    {
+                      "heading": "Competition",
+                      "detail": "The company must study its rivals. It can compete through cost efficiency or flexibility."
+                    }
+                  ],
+                  "conclusion": "Balancing these three factors helps companies achieve sustainable competitive advantage.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4 - Contribution of SCM to corporate and business Strategy"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain four ways in which the practice of supply chain management contributes to innovation and organisational performance.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "SCM drives innovation and performance through collaboration and integration with partners.",
+                  "mainPoints": [
+                    {
+                      "heading": "Supplier Involvement in Product Development",
+                      "detail": "Suppliers bring new ideas and technologies to the product development process."
+                    },
+                    {
+                      "heading": "Information Sharing",
+                      "detail": "Partners share data that leads to new solutions and better decision-making."
+                    },
+                    {
+                      "heading": "Collaborative Planning",
+                      "detail": "Joint planning leads to new ways of working and innovative processes."
+                    },
+                    {
+                      "heading": "Continuous Improvement",
+                      "detail": "Partners work together to improve processes and drive innovation."
+                    }
+                  ],
+                  "conclusion": "SCM contributes to innovation and performance through effective collaboration.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4 - Contribution of SCM to corporate and business Strategy"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Michael Porter proposed that firms may achieve competitive advantage through two main strategies. State and explain these strategies.",
+                "marks": 8,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Porter identified two main strategies for achieving competitive advantage: cost leadership and differentiation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Cost Leadership",
+                      "detail": "The company aims to be the lowest-cost producer. This allows it to offer lower prices than competitors."
+                    },
+                    {
+                      "heading": "Differentiation",
+                      "detail": "The company offers unique products or services. Customers pay a premium for this uniqueness."
+                    }
+                  ],
+                  "conclusion": "Both strategies can be effective depending on the market and the company's capabilities.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.4 - Porter's Generic Strategy for Competitive Advantage Value and Added Value"
+                }
+              },
+              {
+                "label": "B",
+                "question": "With relevant examples, explain the Just-in-Time (JIT) inventory management system and its impact on operational efficiency.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Just-in-Time (JIT) is an inventory management system where materials arrive just when they are needed.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition of JIT",
+                      "detail": "JIT means materials arrive just when they are needed for production."
+                    },
+                    {
+                      "heading": "Example",
+                      "detail": "A car manufacturer receives parts just before they are assembled. This reduces inventory storage costs."
+                    },
+                    {
+                      "heading": "Impact on Efficiency",
+                      "detail": "JIT reduces waste, lowers inventory costs, and improves quality. It also increases flexibility and responsiveness."
+                    }
+                  ],
+                  "conclusion": "JIT improves operational efficiency by minimising waste and inventory costs.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.1.1 - Just-in-time (JIT)"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Suggest three managerial strategies that can improve collaboration among supply chain partners.",
+                "marks": 6,
+                "commandWord": "Suggest",
+                "answer": {
+                  "introduction": "Collaboration among supply chain partners is essential for success. Managers can use several strategies to improve it.",
+                  "mainPoints": [
+                    {
+                      "heading": "Build Trust",
+                      "detail": "Trust is essential for long-term relationships. It enables information sharing and joint problem-solving."
+                    },
+                    {
+                      "heading": "Share Information",
+                      "detail": "Partners should share forecasts and plans. This helps everyone make better decisions."
+                    },
+                    {
+                      "heading": "Establish Joint Goals",
+                      "detail": "Partners should agree on common objectives. This aligns their efforts and improves performance."
+                    }
+                  ],
+                  "conclusion": "These strategies help build stronger, more collaborative supply chain relationships.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 6 - Supply Chain Relationships"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "In four points, explain how E-Procurement overcomes inefficiencies in the manual procurement process.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "E-procurement uses technology to automate purchasing and overcome manual inefficiencies.",
+                  "mainPoints": [
+                    {
+                      "heading": "Faster Processing",
+                      "detail": "Automation speeds up the entire purchasing process."
+                    },
+                    {
+                      "heading": "Reduced Costs",
+                      "detail": "Electronic systems lower transaction costs."
+                    },
+                    {
+                      "heading": "Better Control",
+                      "detail": "Real-time tracking prevents unauthorized purchases."
+                    },
+                    {
+                      "heading": "Improved Accuracy",
+                      "detail": "Electronic data entry reduces errors from manual paperwork."
+                    }
+                  ],
+                  "conclusion": "E-procurement makes purchasing faster, cheaper, and more accurate.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6 - From Traditional procurement to E-Procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Kraljic proposed four categories of suppliers: strategic, bottleneck, leverage, and non-critical. Suggest one appropriate strategy for managing each of these supplier types.",
+                "marks": 8,
+                "commandWord": "Suggest",
+                "answer": {
+                  "introduction": "Kraljic's matrix categorizes suppliers based on their importance and risk. Each category requires a different management strategy.",
+                  "mainPoints": [
+                    {
+                      "heading": "Strategic Suppliers",
+                      "detail": "Build long-term partnerships and share information. Collaborate on product development."
+                    },
+                    {
+                      "heading": "Bottleneck Suppliers",
+                      "detail": "Ensure supply continuity. Develop alternative sources if possible."
+                    },
+                    {
+                      "heading": "Leverage Suppliers",
+                      "detail": "Negotiate for best prices. Use competitive bidding to get the best deals."
+                    },
+                    {
+                      "heading": "Non-critical Suppliers",
+                      "detail": "Keep transactions simple. Use standard purchase orders and procedures."
+                    }
+                  ],
+                  "conclusion": "Different strategies are needed for different supplier types to ensure value for money.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2 - Models of supplier relationships"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Using an example, explain how supplier relationship management (SRM) enhances supply chain competitiveness.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Supplier Relationship Management (SRM) builds strong partnerships with key suppliers to enhance competitiveness.",
+                  "mainPoints": [
+                    {
+                      "heading": "How SRM Enhances Competitiveness",
+                      "detail": "SRM builds strong relationships with key suppliers, leading to better quality and lower costs."
+                    },
+                    {
+                      "heading": "Example",
+                      "detail": "Toyota works closely with its suppliers to improve quality and reduce costs. This creates competitive advantage through better products and lower costs."
+                    }
+                  ],
+                  "conclusion": "SRM creates competitive advantage through better products and lower costs.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1 - Planning relationship procurement"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four factors that influence global sourcing decisions in strategic supply chain management.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Global sourcing decisions are influenced by several factors that companies must consider carefully.",
+                  "mainPoints": [
+                    {
+                      "heading": "Cost",
+                      "detail": "Companies source globally to save money. They look for cheaper labour and materials."
+                    },
+                    {
+                      "heading": "Quality",
+                      "detail": "Some countries offer better quality products. Companies source from these locations."
+                    },
+                    {
+                      "heading": "Availability",
+                      "detail": "Some materials are only available in certain countries. Companies must source globally to get them."
+                    },
+                    {
+                      "heading": "Strategic Reasons",
+                      "detail": "Companies source globally to improve supply security. They find alternative suppliers in different countries."
+                    }
+                  ],
+                  "conclusion": "These factors must be balanced to make effective global sourcing decisions.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1 - Global and international procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss three key risks associated with global sourcing and propose ways to mitigate each.",
+                "marks": 6,
+                "commandWord": "Discuss and propose",
+                "answer": {
+                  "introduction": "Global sourcing involves several risks that must be identified and managed effectively.",
+                  "mainPoints": [
+                    {
+                      "heading": "Currency Fluctuations",
+                      "detail": "Exchange rates can change, affecting costs.\nMitigation: Use hedging strategies. This protects against currency changes."
+                    },
+                    {
+                      "heading": "Cultural Differences",
+                      "detail": "Different business practices can cause misunderstandings.\nMitigation: Train staff in cross-cultural communication. Learn about local customs."
+                    },
+                    {
+                      "heading": "Geopolitical Disruptions",
+                      "detail": "Political events can disrupt supply.\nMitigation: Diversify suppliers across regions. This reduces dependence on any one country."
+                    }
+                  ],
+                  "conclusion": "Effective risk management is essential for successful global sourcing.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1 - Global and international procurement"
+                }
+              },
+              {
+                "label": "C",
+                "question": "In three points, explain how technology (e.g., ERP, RFID, EDI) can support strategic supply chain objectives.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Technology plays a critical role in achieving strategic supply chain objectives.",
+                  "mainPoints": [
+                    {
+                      "heading": "ERP (Enterprise Resource Planning)",
+                      "detail": "Integrates data across the organisation. This improves coordination and decision-making."
+                    },
+                    {
+                      "heading": "RFID (Radio Frequency Identification)",
+                      "detail": "Provides real-time visibility of inventory. This reduces stockouts and improves planning."
+                    },
+                    {
+                      "heading": "EDI (Electronic Data Interchange)",
+                      "detail": "Enables electronic information exchange. This speeds up transactions and reduces errors."
+                    }
+                  ],
+                  "conclusion": "These technologies enable better coordination and efficiency in the supply chain.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5 - Information Systems Application to Supply Chain Management"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

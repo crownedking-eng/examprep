@@ -1,272 +1,547 @@
 {
   "subject": "Strategic Supply Chain Management",
+  "subjectCode": "PCM 402D",
   "academicYear": "2022/2023",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "A supply strategy which enhances revenue by responding rapidly to emerging market needs, and increasing revenue per unit by capturing the higher margins available to first or early movers into the market is termed as ______ strategy",
+          "options": [
+            "A. Agile",
+            "B. Channel focused",
+            "C. Customer customized",
+            "D. Lean"
+          ],
+          "correctAnswer": "A",
+          "explanation": "An agile strategy focuses on speed and flexibility. It helps companies respond quickly to new market needs and capture higher margins.",
+          "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following points is not considered as potential risk of outsourcing?",
+          "options": [
+            "A. Ineffective management",
+            "B. Loss of confidentiality",
+            "C. Supplier complacency",
+            "D. Innovation"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Innovation is a benefit of outsourcing, not a risk. The risks include ineffective management, loss of confidentiality, and supplier complacency.",
+          "reference": "Unit 5, Session 2, 2.1 - Selecting a Subcontractor"
+        },
+        {
+          "type": "single",
+          "question": "Organisations can leverage their relationships with key suppliers to promote ethical, environmental and social sustainability through the following except ______.",
+          "options": [
+            "A. leveraging of key resources to enhance shareholder value and return on investment",
+            "B. the development of reverse logistics capabilities",
+            "C. the improvement in recycling, emission controls, pollution prevention and sound environmental practices",
+            "D. the monitoring and improvement of employment and conditions for workers in the supply chain"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Enhancing shareholder value is not a sustainability activity. The other options focus on environmental or social sustainability.",
+          "reference": "Unit 3, Session 3, 3.8 - Reverse Logistics"
+        },
+        {
+          "type": "single",
+          "question": "Collaboration is an admirable business objective but is proven to be difficult to attain, as evidenced by high-profile contractual disputes. Collaborative approaches have been shown to deliver a wide range of benefits, which enhance competitiveness and performance. Which of the following is not a benefit of collaboration?",
+          "options": [
+            "A. Better Cost Management",
+            "B. Innovative business practices",
+            "C. Improved supply chain performance",
+            "D. Competition"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Competition is the opposite of collaboration. It is not a benefit of working together with partners.",
+          "reference": "Unit 4, Session 1, 1.3 - Collaborative business relationships"
+        },
+        {
+          "type": "single",
+          "question": "What is the main advantage of using a Supply Chain Management (SCM) software?",
+          "options": [
+            "A. Managing employee schedules",
+            "B. Enhancing product design",
+            "C. Integrating and optimizing various supply chain processes",
+            "D. Conducting market research"
+          ],
+          "correctAnswer": "C",
+          "explanation": "SCM software integrates and optimises supply chain processes. It helps coordinate activities across the entire chain.",
+          "reference": "Unit 1, Session 5, 5.2 - Information Technology (IT) In the Supply Chain"
+        },
+        {
+          "type": "single",
+          "question": "A strategic relationship model where there is a commitment by customers and suppliers, regardless of size, to a long-term relationship based on a clear mutually agreed objective to strive for world class capability and effectiveness is termed as?",
+          "options": [
+            "A. Customer relationship management",
+            "B. Partnership sourcing",
+            "C. Supplier development",
+            "D. Supplier relationship management"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Partnership sourcing involves long-term commitment. Both parties work together to achieve world-class performance.",
+          "reference": "Unit 4, Session 2, 2.1 - The Cox Model"
+        },
+        {
+          "type": "single",
+          "question": "The process of analysing, planning and controlling an organisation's relationships, in order to be able to leverage the more important of those relationships to long term benefit of the organisation, in line with its directional (corporate) and competitive strategies is termed as ______.",
+          "options": [
+            "A. Customer relationship management",
+            "B. Strategic relationship management",
+            "C. Supplier development",
+            "D. Supplier relationship management"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic relationship management analyses and plans key relationships. It aims to benefit the organisation in the long term.",
+          "reference": "Unit 4, Session 1, 1.1 - Relationship procurement and procurement relationships"
+        },
+        {
+          "type": "single",
+          "question": "What is the primary goal of collaborative relationships in the supply chain?",
+          "options": [
+            "A. Maximizing individual profits",
+            "B. Achieving mutual benefits and shared objectives",
+            "C. Eliminating competitors",
+            "D. Focusing solely on cost reduction"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Collaboration aims for mutual benefits and shared objectives. Both parties work together for common goals.",
+          "reference": "Unit 4, Session 1, 1.3 - Collaborative business relationships"
+        },
+        {
+          "type": "single",
+          "question": "How does a strategic partnership differ from a transactional relationship in the supply chain?",
+          "options": [
+            "A. Strategic partnerships involve short-term goals, while transactional relationships are long-term.",
+            "B. Transactional relationships emphasize collaboration, while strategic partnerships focus on individual success.",
+            "C. Strategic partnerships involve a long-term commitment and shared risks and rewards.",
+            "D. Transactional relationships are exclusively focused on cost-cutting measures."
+          ],
+          "correctAnswer": "C",
+          "explanation": "Strategic partnerships are long-term with shared risks and rewards. Transactional relationships are short-term and focus on individual transactions.",
+          "reference": "Unit 4, Session 1, 1.2 - Differences between transactional, relationship procurements, and contractual requirements"
+        },
+        {
+          "type": "single",
+          "question": "In a Supplier Preferencing Model, which customer is seen as highly desirable and valuable for suppliers who will want to establish long term mutually profitable relationships with them if possible?",
+          "options": [
+            "A. Nuisance",
+            "B. Exploitable",
+            "C. Development",
+            "D. Core"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Core customers are the most desirable. Suppliers want to build long-term, profitable relationships with them.",
+          "reference": "Unit 4, Session 2, 2.1 - The Cox Model"
+        },
+        {
+          "type": "single",
+          "question": "The best strategic choice for organisations competing in price sensitive market is ______.",
+          "options": [
+            "A. Cost leadership",
+            "B. Differentiation",
+            "C. Divestiture",
+            "D. Diversification"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Cost leadership is the best strategy in price sensitive markets. The company aims to be the lowest-cost producer.",
+          "reference": "Unit 1, Session 4, 4.4.1 - The Three Generic Strategies"
+        },
+        {
+          "type": "single",
+          "question": "One way a buying organization may protect itself against fluctuating commodity prices are through traded options. It is sometimes erroneously said that 'put' and 'call' options are opposite sides of the same transaction. An option conferring the right to buy is known as ______ option.",
+          "options": [
+            "A. Call",
+            "B. Pull",
+            "C. Push",
+            "D. Put"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A Call option gives the right to buy. It protects the buyer against rising commodity prices.",
+          "reference": "Unit 5, Session 6, 6.3 - Traded options"
+        },
+        {
+          "type": "single",
+          "question": "A procurement strategy in which a business buys goods and services from international markets across geopolitical boundaries to save money by taking advantage of cheaper raw materials or skilled labour from low-cost countries is commonly referred to as ______ sourcing.",
+          "options": [
+            "A. Worldwide",
+            "B. Global",
+            "C. International",
+            "D. Trans-national"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Global sourcing involves buying across borders to save money. It uses cheaper materials or labour from other countries.",
+          "reference": "Unit 6, Session 1, 1.2 - Global sourcing/procurement"
+        },
+        {
+          "type": "single",
+          "question": "The external environmental exerts an important influence on the organisation in the following ways except ______.",
+          "options": [
+            "A. being the source of resources",
+            "B. containing stakeholders",
+            "C. presenting competition",
+            "D. presenting threats and opportunities"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The external environment provides resources, presents competition, and brings threats and opportunities. 'Containing stakeholders' is not listed as a direct influence.",
+          "reference": "Unit 1, Session 3, 3.3 - Challenges Faced by Supply Chain Managers"
+        },
+        {
+          "type": "single",
+          "question": "In strategy formulation, strategic planners need to identify, understand and target their strategies in relation to ______ and ______.",
+          "options": [
+            "A. direct competitors, markets",
+            "B. distributors, suppliers",
+            "C. shareholders, debenture holders",
+            "D. suppliers, buyers"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Strategic planners focus on direct competitors and markets. This helps them target their strategies effectively.",
+          "reference": "Unit 1, Session 4, 4.1 - Competitive advantage as a purpose of strategic planning"
+        },
+        {
+          "type": "single",
+          "question": "A type of change that is often given to a reactive approach, responding to disruptive change in the environment, crisis or the need for a completely new paradigm is termed as ______ change.",
+          "options": [
+            "A. Evolutionary",
+            "B. Incremental",
+            "C. Planned",
+            "D. Revolutionary"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Revolutionary change is a response to crises or major disruptions. It is a big, sudden shift, not gradual.",
+          "reference": "Unit 4, Session 6, 6.1 - Reasons for termination"
+        },
+        {
+          "type": "single",
+          "question": "The sourcing approach which involves development of an international supply network from which the company's sourcing requirements can flexibly be met in a competitive and co-ordinated way is known as ______.",
+          "options": [
+            "A. global sourcing",
+            "B. international sourcing",
+            "C. local sourcing",
+            "D. Offshoring"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Global sourcing develops an international supply network. It coordinates sourcing flexibly and competitively.",
+          "reference": "Unit 6, Session 1, 1.2 - Global sourcing/procurement"
+        },
+        {
+          "type": "single",
+          "question": "The five \"right objectives\" of purchasing are ______.",
+          "options": [
+            "A. Agent, Supplier, Contract, Price, Quantity",
+            "B. Cost, Service, Specs, Time, Quantity",
+            "C. Place, Time, Price, Ethics, Contract",
+            "D. Quality, Quantity, Price, Time, Place"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The five rights are Quality, Quantity, Price, Time, and Place. These are the key objectives of purchasing.",
+          "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "What role does technology play in managing a global supply chain network?",
+          "options": [
+            "A. Facilitating real-time communication and coordination",
+            "B. Hindering communication between nodes",
+            "C. Introducing unnecessary complexity",
+            "D. Isolating nodes from each other"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Technology enables real-time communication and coordination. This is essential for managing global supply chains.",
+          "reference": "Unit 1, Session 5, 5.1 - The need for IS applications in the Supply Chain"
+        },
+        {
+          "type": "single",
+          "question": "How does JIT contribute to reducing production costs? By ______.",
+          "options": [
+            "A. encouraging large batch production",
+            "B. increasing inventory holding costs",
+            "C. minimizing the need for excess inventory and storage space",
+            "D. emphasizing long production runs"
+          ],
+          "correctAnswer": "C",
+          "explanation": "JIT reduces costs by minimising excess inventory and storage space. Materials arrive just when they are needed.",
+          "reference": "Unit 2, Session 5, 5.1.1 - Just-in-time (JIT)"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "In strategic supply chain management, what does the term cross-functional mean?",
-            "options": [
-              "Collaborating with competitors",
-              "Focusing solely on one aspect of the supply chain",
-              "Investing various departments within a firm to work together",
-              "Overlooking the needs of customers"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Cross-functional means different departments working together. SCM integrates various business functions to manage the whole chain efficiently.",
-            "reference": "Unit 1, Session 1, 1.3 - Definition of Supply Chain Management"
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "In five points each, explain how procurement function can contribute to strategic and operational performance of the organisation?",
+                "marks": 20,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The procurement function plays a key role in both strategic and operational performance. It helps the organisation achieve its goals.",
+                  "mainPoints": [
+                    {
+                      "heading": "Strategic Contributions",
+                      "detail": "Cost reduction: Procurement finds cheaper suppliers and negotiates better prices. This improves profitability.\nSupplier relationships: Procurement builds strong partnerships with key suppliers. This ensures reliable supply and quality.\nInnovation: Procurement involves suppliers in product development. This brings new ideas and technologies.\nRisk management: Procurement identifies and manages supply risks. This protects the organisation from disruptions.\nCompetitive advantage: Procurement supports the company's strategy. It helps achieve cost leadership or differentiation."
+                    },
+                    {
+                      "heading": "Operational Contributions",
+                      "detail": "Inventory management: Procurement ensures the right materials are available. This prevents stockouts and production delays.\nQuality control: Procurement sources high-quality materials. This reduces defects and improves customer satisfaction.\nEfficiency: Procurement automates processes using e-procurement. This speeds up purchasing and reduces paperwork.\nSupply continuity: Procurement maintains reliable supply sources. This keeps production running smoothly.\nCost control: Procurement monitors spending and identifies savings. This helps control operational costs."
+                    }
+                  ],
+                  "conclusion": "Procurement is vital for both strategy and day-to-day operations. It helps the organisation compete effectively and run efficiently.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 2 - Linking Strategy Development to Supply Chains; Unit 2, Session 6 - From Traditional procurement to E-Procurement"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Listed below are some benefits of strategic supply chain management except",
-            "options": [
-              "improved profitability",
-              "increased operational costs",
-              "lower customer satisfaction",
-              "reduced need for collaboration"
-            ],
-            "correctAnswer": "C",
-            "explanation": "SCM aims to improve customer satisfaction, not lower it. Lower customer satisfaction is not a benefit; it is a negative outcome.",
-            "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+            "label": "Question 2",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "PESTLE is an acronym for Political, Economic, Sociological, Technological, Legal and Environmental and it is a tool for analysing a business's external environment. Assess the role of these forces as a source of threat and opportunity for supply chains.",
+                "marks": 10,
+                "commandWord": "Assess",
+                "answer": {
+                  "introduction": "PESTLE analysis helps understand the external environment. It identifies threats and opportunities for the supply chain.",
+                  "mainPoints": [
+                    {
+                      "heading": "Political Forces",
+                      "detail": "Government policies can create opportunities (e.g., trade agreements) or threats (e.g., sanctions)."
+                    },
+                    {
+                      "heading": "Economic Forces",
+                      "detail": "Economic growth is an opportunity; recession is a threat to demand."
+                    },
+                    {
+                      "heading": "Sociological Forces",
+                      "detail": "Changing consumer preferences can create opportunities for new products or threaten existing ones."
+                    },
+                    {
+                      "heading": "Technological Forces",
+                      "detail": "New technologies can create opportunities for efficiency or threaten existing processes."
+                    },
+                    {
+                      "heading": "Legal Forces",
+                      "detail": "New regulations can create compliance costs or opportunities for better practices."
+                    },
+                    {
+                      "heading": "Environmental Forces",
+                      "detail": "Sustainability trends create opportunities for green products and threats for polluting ones."
+                    }
+                  ],
+                  "conclusion": "PESTLE analysis helps supply chains prepare for external changes and adapt their strategies accordingly.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 3, 3.4 - Drivers of internal and external risks"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Why do organizations commit the resources and time to evaluate suppliers before making a supplier selection decision?",
+                "marks": 5,
+                "commandWord": "Why",
+                "answer": {
+                  "introduction": "Supplier evaluation is a critical step in the sourcing process. It helps organizations make informed selection decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "To Ensure Quality and Reliability",
+                      "detail": "Evaluation checks if suppliers can meet required quality standards and deliver consistently."
+                    },
+                    {
+                      "heading": "To Reduce Risk",
+                      "detail": "Good evaluation prevents choosing unreliable or risky suppliers."
+                    },
+                    {
+                      "heading": "To Find the Best Value",
+                      "detail": "Evaluation compares price, quality, and service to identify the best overall value."
+                    },
+                    {
+                      "heading": "To Build Long-term Relationships",
+                      "detail": "Good evaluation helps find partners suitable for future collaboration."
+                    }
+                  ],
+                  "conclusion": "Supplier evaluation is essential for making good sourcing decisions and reducing supply chain risks.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1 - Planning relationship procurement"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Discuss two sources of information available to a buyer when seeking information about potential sources of supply.",
+                "marks": 5,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Buyers have several sources of information to find potential suppliers. These sources help them make informed decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "Supplier Websites",
+                      "detail": "Companies provide information about their products, capabilities, and contact details on their websites."
+                    },
+                    {
+                      "heading": "Industry Directories",
+                      "detail": "These list suppliers by category and provide basic information about their products and services."
+                    }
+                  ],
+                  "conclusion": "Using multiple information sources helps buyers find the best suppliers for their needs.",
+                  "otherPossibleAnswers": "Trade shows: Buyers can meet suppliers and see products in person. Referrals: Other companies can recommend reliable suppliers.",
+                  "reference": "Unit 4, Session 1 - Planning relationship procurement"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "What is the key focus of day-to-day decisions in supply chain management (SCM)?",
-            "options": [
-              "Information flow management",
-              "Minimizing costs and risks",
-              "Quarterly and yearly updates",
-              "Strategic planning and corporate strategy"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Day-to-day decisions focus on minimizing costs and risks. They are operational decisions that keep the supply chain running smoothly.",
-            "reference": "Unit 1, Session 1, 1.3 - Definition of Supply Chain Management"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "In two points, explain how E-Procurement overcomes the inefficiencies in the manual procurement process.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "E-procurement uses technology to automate purchasing processes and overcome manual inefficiencies.",
+                  "mainPoints": [
+                    {
+                      "heading": "Faster Processing",
+                      "detail": "Automation speeds up the entire purchasing process."
+                    },
+                    {
+                      "heading": "Reduced Costs",
+                      "detail": "Electronic systems lower transaction costs and reduce paperwork."
+                    }
+                  ],
+                  "conclusion": "E-procurement makes purchasing faster, cheaper, and more accurate.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6 - From Traditional procurement to E-Procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Purchasing portfolios such as one proposed by Peter Kraljic is usually adapted as a tool to segment the supply base. Kraljic proposed four categories of suppliers: strategic, bottleneck, leverage and routine. Each of these categories requires a unique procurement management approach to ensure value for money.\n\ni. Explain each of these categories highlighting the characteristics of each.\nii. Suggest one strategy each for managing suppliers in each category.",
+                "marks": 16,
+                "commandWord": "Explain, Suggest",
+                "answer": {
+                  "introduction": "Kraljic's matrix helps classify suppliers for better management. Each category requires a different approach.",
+                  "mainPoints": [
+                    {
+                      "heading": "Strategic Suppliers",
+                      "detail": "These are high impact, high risk. They provide critical materials. Strong collaboration is needed."
+                    },
+                    {
+                      "heading": "Bottleneck Suppliers",
+                      "detail": "These are low impact, high risk. They supply unique items. Supply continuity is the main concern."
+                    },
+                    {
+                      "heading": "Leverage Suppliers",
+                      "detail": "These are high impact, low risk. They supply high-value items with many alternatives. Price negotiation is key."
+                    },
+                    {
+                      "heading": "Routine Suppliers",
+                      "detail": "These are low impact, low risk. They supply standard items. Simple transaction processes are enough."
+                    },
+                    {
+                      "heading": "Management Strategies",
+                      "detail": "Strategic: Build long-term partnerships and involve them in product development.\nBottleneck: Ensure supply continuity. Develop alternative sources if possible.\nLeverage: Negotiate hard for the best prices and terms. Use competitive bidding.\nRoutine: Use standard procedures. Keep transactions simple and efficient."
+                    }
+                  ],
+                  "conclusion": "Kraljic's matrix helps tailor supplier management to each category for better value and performance.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2 - Models of supplier relationships"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Which of the following is the commonest obstacle that can hinder the successful implementation of supply chain management (SCM) strategies and operations?",
-            "options": [
-              "Marketing challenges",
-              "Rapid globalization",
-              "Resistance to change",
-              "Strong supplier relationships"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Resistance to change is a common obstacle. People often resist new processes and systems, which can block SCM implementation.",
-            "reference": "Unit 1, Session 1, 1.4 - Obstacles That Prevent Implementation of SCM Strategies and Operations"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following supply chain process objectives reflects a set of activities responsible for making the actual product, establishing the manufacturing flexibility required to adequately serve the markets and designing the production system to meet cycle-time requirements?",
-            "options": [
-              "Customer service management",
-              "Manufacturing flow management",
-              "Product development and commercialization",
-              "Returns management"
-            ],
-            "correctAnswer": "B",
-            "explanation": "This is the definition of Manufacturing Flow Management. It covers making the product and designing the production system.",
-            "reference": "Unit 1, Session 2, 2.2.5 - Manufacturing Flow Management"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following parties in a strategic supply chain planning team determines a set of suppliers to select and the volume of raw materials to acquire?",
-            "options": [
-              "Customer Allocation",
-              "Facility Location",
-              "Procurement",
-              "Production"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Procurement is responsible for selecting suppliers and deciding how much raw material to buy. This is a core part of their role.",
-            "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is a primary challenge faced by supply chain managers in inventory management?",
-            "options": [
-              "Accurate demand forecasting",
-              "Balancing the cost of holding inventory with the risk of stockouts",
-              "Dealing with supply chain complexity",
-              "Managing supplier relationships"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The main challenge is balancing holding costs against the risk of running out of stock. This is the core trade-off in inventory management.",
-            "reference": "Unit 3, Session 2, 2.2 - Inventory Management and Its Objectives"
-          },
-          {
-            "type": "single",
-            "question": "The contribution of strategic supply chain management to business strategy includes all the following except achieving competitive strategy through",
-            "options": [
-              "Developing competitive competencies",
-              "Omance's 3Cs model",
-              "Porter's generic strategies",
-              "Strategic planning"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The name is 'Ohmae's Three Cs,' not 'Omance's.' This is likely a typo, but the model is correctly named in the material.",
-            "reference": "Unit 1, Session 4, 4.3 - The Ohmae's Three Cs"
-          },
-          {
-            "type": "single",
-            "question": "Which of Porter's generic strategies targets activities to a selected segment of the market either by providing goods or services at the lowest cost to that segment or by providing a differentiated product or service for the needs of that segment?",
-            "options": [
-              "Cost leadership",
-              "Customer satisfaction",
-              "Differentiation",
-              "Focus"
-            ],
-            "correctAnswer": "D",
-            "explanation": "This is the definition of the Focus strategy. It targets a specific market segment, either with low cost or differentiation.",
-            "reference": "Unit 1, Session 4, 4.4.1 - The Three Generic Strategies"
-          },
-          {
-            "type": "single",
-            "question": "In the framework for developing information technology for effective supply chain management, the component that focuses on top management participation, long term business plan, and new market creation is known as ______.",
-            "options": [
-              "E-commerce",
-              "Knowledge And Information Technology Management",
-              "Strategic Planning of Information Technology",
-              "Virtual Enterprise"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Strategic Planning of IT involves top management and long-term planning. It is a key component of the IT framework for SCM.",
-            "reference": "Unit 1, Session 5, 5.2 - Information Technology (IT) In the Supply Chain"
-          },
-          {
-            "type": "single",
-            "question": "An effective supply chain requires managers to establish and form closer and long-term relationships with all supply chain players. The type of supply chain relationships which requires a business arrangement between firms that occupy both vertical and parallel positions in a supply chain is known as ______ relationship.",
-            "options": [
-              "Full collaboration",
-              "Horizontal",
-              "Parallel",
-              "Vertical"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Full Collaboration is a relationship that combines both vertical and horizontal linkages. It involves firms in both types of positions.",
-            "reference": "Unit 1, Session 6, 6.2 - The Types of SCM Relationships"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is a key strategy for improving supply chain relationships and collaboration?",
-            "options": [
-              "Foster trust, transparency, and open communication among partners",
-              "Implementing strict penalties for non-compliance",
-              "Increasing competition among supply chain partners",
-              "Reducing communication with suppliers"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Trust, transparency, and open communication are key to improving relationships. These build strong, lasting partnerships.",
-            "reference": "Unit 1, Session 6, 6.3 - Improving Supply Chain Relationship"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following levels of supply chain evolution focuses on the functional or processes in a supply chain?",
-            "options": [
-              "Enterprise integration",
-              "Corporate excellence and partner collaboration",
-              "Value chain collaboration",
-              "Full network connectivity"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The first level is Enterprise Integration. It focuses on the basic functions or processes within a supply chain.",
-            "reference": "Unit 2, Session 1, 1.2 - The Five levels of Supply Chain Evolution"
-          },
-          {
-            "type": "single",
-            "question": "What is the primary objective of the Just-in-time (JIT) approach in strategic supply chain management?",
-            "options": [
-              "Increasing buffer stock for all components",
-              "Maximizing inventory levels",
-              "Minimizing production efficiency",
-              "Reducing lead times and minimizing inventory"
-            ],
-            "correctAnswer": "D",
-            "explanation": "JIT aims to reduce lead times and minimize inventory. Materials arrive just when they are needed, which reduces waste and storage costs.",
-            "reference": "Unit 2, Session 5, 5.1.1 - Just-in-time (JIT)"
-          },
-          {
-            "type": "single",
-            "question": "In strategic supply chain management, what is the primary focus of Customer Relationship Management (CRM)?",
-            "options": [
-              "Enhancing customer satisfaction and loyalty",
-              "Maximizing inventory turnover",
-              "Minimizing supplier costs",
-              "Reducing lead times"
-            ],
-            "correctAnswer": "A",
-            "explanation": "CRM focuses on improving customer satisfaction and loyalty. It manages interactions with current and future customers.",
-            "reference": "Unit 2, Session 5, 5.1.2 - Customer Relationship Management (CRM)"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following reflect the primary characteristic of e-procurement?",
-            "options": [
-              "Conducting purchasing activities offline",
-              "Enhancing traditional procurement methods",
-              "Reducing supplier relationships",
-              "Utilizing the internet for purchasing and procurement"
-            ],
-            "correctAnswer": "D",
-            "explanation": "E-procurement uses the internet for purchasing activities. It is a 'buy side' platform of the supply chain.",
-            "reference": "Unit 2, Session 6, 6.2 - E-Procurement"
-          },
-          {
-            "type": "single",
-            "question": "Any global e-supply chain management strategies should be able to address the challenges that the e-procurement process faces such as the following except",
-            "options": [
-              "Decelerate execution times",
-              "Preventing unauthorized purchasing and procurement activities",
-              "Reducing cost",
-              "Tracking in real-time all expenses and variations"
-            ],
-            "correctAnswer": "A",
-            "explanation": "E-procurement aims to accelerate execution times, not decelerate them. Slowing down is a problem, not a challenge to overcome.",
-            "reference": "Unit 2, Session 6, 6.2 - E-Procurement"
-          },
-          {
-            "type": "single",
-            "question": "All the following are benefits derived from the successful implementation of e-procurement except reduce ______.",
-            "options": [
-              "Asset disposal options",
-              "Inventories and off-contract buying",
-              "Procurement transactions",
-              "Transportation cost"
-            ],
-            "correctAnswer": "A",
-            "explanation": "E-procurement improves asset disposal options, it doesn't reduce them. The other options are all benefits of e-procurement.",
-            "reference": "Unit 2, Session 6, 6.2 - E-Procurement"
-          },
-          {
-            "type": "single",
-            "question": "In the context of strategic supply chain management, the objective of inventory management includes all the following except ______.",
-            "options": [
-              "Allow flexibility in production scheduling",
-              "Ensure availability of supply at all times",
-              "Increase financial investment in inventories",
-              "Reduce surplus stock"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Inventory management aims to balance costs. Increasing investment is not a goal; companies want to minimize holding costs while meeting demand.",
-            "reference": "Unit 3, Session 2, 2.2 - Inventory Management and Its Objectives"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is a key advantage of fostering strategic alliances within supply chains?",
-            "options": [
-              "Encouraging competition among partners",
-              "Enhancing supply chain efficiency and cost reduction",
-              "Isolating supply chain operations from external factors",
-              "Limiting collaboration with partners"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Strategic alliances improve efficiency and reduce costs. Partners work together to streamline operations and remove waste.",
-            "reference": "Unit 3, Session 4, 4.3 - Benefits of the Strategic Alliances"
+            "label": "Question 4",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "GIDM Outsourcing Decision",
+              "fullText": "Outsourcing has become a way to increase an organization's flexibility to meet rapidly changing market conditions, focus on core competencies and develop competitive advantage. As a result, the need for procurement and supply management has intensified and positioned supply managers as agents of strategic change critical to supply chain success. GIDM is a multi-national firm with headquarters in Ghana. The company deals in the sale and distribution of mechanized products for agricultural, waste management and other engineering works. Due to its rapid expansion in its logistics activities, the company plans to outsource its transportation and distribution aspects of their supply chain and has already made plans for potential service providers.",
+              "keyFacts": [
+                "GIDM is a multi-national firm with headquarters in Ghana.",
+                "The company deals in mechanized products for agricultural, waste management, and engineering works.",
+                "GIDM is experiencing rapid expansion in logistics activities.",
+                "The company plans to outsource transportation and distribution functions.",
+                "Potential service providers have already been identified.",
+                "Outsourcing is seen as a way to increase flexibility and focus on core competencies."
+              ]
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Advance four reasons for or against the proposed outsourcing strategy.",
+                "marks": 8,
+                "commandWord": "Advance",
+                "answer": {
+                  "introduction": "Outsourcing means hiring external companies to handle certain activities. GIDM is considering outsourcing its transportation and distribution.",
+                  "mainPoints": [
+                    {
+                      "heading": "Reasons For Outsourcing",
+                      "detail": "Cost reduction: External providers may be cheaper and more efficient.\nFocus on core business: GIDM can focus on selling and distributing its products.\nAccess to expertise: Transport companies have specialist skills and equipment.\nFlexibility: Outsourcing allows GIDM to scale operations up or down quickly."
+                    },
+                    {
+                      "heading": "Reasons Against Outsourcing",
+                      "detail": "Loss of control: GIDM may have less control over delivery quality and timing.\nSecurity risks: Sensitive business information may be shared.\nHidden costs: Contracts may have additional fees not considered.\nDependence: GIDM could become too dependent on external providers."
+                    }
+                  ],
+                  "conclusion": "GIDM must carefully weigh the potential benefits against the risks before making a decision.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.1 - Selecting a Subcontractor"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Should GIDM consider local or international outsourcing? Justify your answer.",
+                "marks": 4,
+                "commandWord": "Justify",
+                "answer": {
+                  "introduction": "GIDM needs to decide whether to outsource locally or internationally for transportation and distribution.",
+                  "mainPoints": [
+                    {
+                      "heading": "Recommendation",
+                      "detail": "Local outsourcing is probably better for GIDM."
+                    },
+                    {
+                      "heading": "Justification",
+                      "detail": "Transportation is a local activity. Local providers understand Ghanaian roads, regulations, and traffic conditions. They can respond faster to local issues. International providers may be more expensive and unfamiliar with local conditions."
+                    }
+                  ],
+                  "conclusion": "Given the nature of transportation services, local outsourcing is more practical and cost-effective.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.1 - Selecting a Subcontractor"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Examine two benefits and two risks of outsourcing as a competitive sourcing strategy.",
+                "marks": 8,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Outsourcing can bring many benefits but also carries risks. It is a strategic decision that requires careful analysis.",
+                  "mainPoints": [
+                    {
+                      "heading": "Benefits of Outsourcing",
+                      "detail": "Cost savings: External providers often have lower costs due to economies of scale.\nAccess to skills: Providers have specialist expertise that the company lacks."
+                    },
+                    {
+                      "heading": "Risks of Outsourcing",
+                      "detail": "Quality issues: The external provider may not meet required standards.\nContract problems: Disputes can arise over contract terms and delivery schedules."
+                    }
+                  ],
+                  "conclusion": "Outsourcing can be a powerful competitive strategy when managed properly, but companies must carefully assess risks.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.1 - Selecting a Subcontractor"
+                }
+              }
+            ]
           }
         ]
       }

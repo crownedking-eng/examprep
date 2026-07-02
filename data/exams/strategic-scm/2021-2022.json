@@ -1,272 +1,638 @@
 {
   "subject": "Strategic Supply Chain Management",
+  "subjectCode": "PCM 402D",
   "academicYear": "2021/2022",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The movement of materials into an organization from suppliers is known as ______.",
+          "options": [
+            "A. Inbound logistics",
+            "B. Outbound logistics",
+            "C. Outward logistics",
+            "D. Transportation"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Inbound logistics is the movement of materials from suppliers into the organisation. It is also called inward logistics.",
+          "reference": "Unit 3, Session 3, 3.2 - Role of Logistics"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a component of trust?",
+          "options": [
+            "A. Capability",
+            "B. Equality",
+            "C. Honesty",
+            "D. Obedience"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The components of trust are truth, equality, faithfulness, honesty, and capability. Obedience is not one of them.",
+          "reference": "Unit 4, Session 3, 3.2 - Components of trust"
+        },
+        {
+          "type": "single",
+          "question": "The aim of moving materials efficiently with short journeys and appropriate equipment is known as ______.",
+          "options": [
+            "A. Material handling",
+            "B. Order picking",
+            "C. Packaging",
+            "D. Stock control"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Material handling is about moving materials efficiently. It uses short journeys and the right equipment.",
+          "reference": "Unit 3, Session 3, 3.3.6 - Material handling"
+        },
+        {
+          "type": "single",
+          "question": "The movement of materials from the organization to customers is termed as ______.",
+          "options": [
+            "A. Inbound logistics",
+            "B. Inward logistics",
+            "C. Outward logistics",
+            "D. Transportation"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Outward logistics is the movement of materials from the organisation to customers. It is also called outbound logistics.",
+          "reference": "Unit 3, Session 3, 3.2 - Role of Logistics"
+        },
+        {
+          "type": "single",
+          "question": "Conflict that exists between the members of a department or a group or between the subgroups that consists of a large group resulting in structural relationship, goal, task or process is known as ______ conflict.",
+          "options": [
+            "A. Intergroup conflict",
+            "B. Interpersonal conflict",
+            "C. Intragroup conflict",
+            "D. Intrapersonal conflict"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Intragroup conflict happens within a department or group. It can involve subgroups or members of the same team.",
+          "reference": "Unit 4, Session 5, 5.2 - Nature of buyer-supplier conflicts"
+        },
+        {
+          "type": "single",
+          "question": "One way in which a buying organization may protect itself against fluctuating commodity prices are through traded options. It is sometimes erroneously said that 'put' and 'call' options are opposite sides of the same transaction. An option conferring the right to buy is known as ______.",
+          "options": [
+            "A. Call option",
+            "B. Pull option",
+            "C. Push option",
+            "D. Put option"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A Call option gives the right to buy. It protects the buyer against rising prices.",
+          "reference": "Unit 5, Session 6, 6.3 - Traded options"
+        },
+        {
+          "type": "single",
+          "question": "The integration and coordination of procurement requirements across the worldwide business unit -looking at common items, strategic and is part of the corporate plan is commonly referred to as ______.",
+          "options": [
+            "A. Global Procurement",
+            "B. Global Sourcing",
+            "C. International procurement",
+            "D. International Purchasing"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Global Sourcing integrates and coordinates procurement across worldwide business units. It is strategic and part of the corporate plan.",
+          "reference": "Unit 6, Session 1, 1.2 - Global sourcing/procurement"
+        },
+        {
+          "type": "single",
+          "question": "A logistics network that consists of suppliers, manufacturing centres, warehousing, distribution centres, retail outlets, customers as well as raw materials, work-in-progress inventory and finished products that flow between ______. (ilities is termed ______).",
+          "options": [
+            "A. Logistics",
+            "B. Logistics management",
+            "C. Supply chain",
+            "D. Supply chain management"
+          ],
+          "correctAnswer": "C",
+          "explanation": "This is the definition of a Supply Chain. It is the network of facilities and the flow of materials between them.",
+          "reference": "Unit 1, Session 1, 1.2 - Definition of Supply Chain"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a driver of external risk?",
+          "options": [
+            "A. Accounting contracts",
+            "B. Intellectual Capital",
+            "C. Interest rates",
+            "D. Liquidity and cash flow"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Interest rates are an external financial risk. They are outside the organisation's control.",
+          "reference": "Unit 5, Session 3, 3.4 - Drivers of internal and external risks"
+        },
+        {
+          "type": "single",
+          "question": "The process of efficiently overseeing the constant flow of goods of materials into and out of an existing inventory is known as ______.",
+          "options": [
+            "A. logistics management",
+            "B. inventory management",
+            "C. supply chain",
+            "D. supply chain management"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This is the definition of Inventory Management. It is about overseeing the flow of goods in and out of inventory.",
+          "reference": "Unit 3, Session 2, 2.2 - Inventory Management and Its Objectives"
+        },
+        {
+          "type": "single",
+          "question": "The purchasing pattern or demand distribution which is characterised by large transaction and uncertainty in demand overtime is termed as ______ demand.",
+          "options": [
+            "A. Seasonal",
+            "B. Sporadic",
+            "C. Stable",
+            "D. Trends"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Sporadic or random demand has large transactions and uncertainty. It includes periods of zero demand followed by surges.",
+          "reference": "Unit 3, Session 2, 2.5.1 - Random or sporadic or intermittent"
+        },
+        {
+          "type": "single",
+          "question": "The form of countertrade in which there is a transfer of unused or unusable credit balance in one country to overcome an imbalance of money by a trading partner in another country is termed ______.",
+          "options": [
+            "A. Buy-back",
+            "B. Counter purchase",
+            "C. Offset",
+            "D. Switch trading"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Switch trading transfers unused credit balances. A third party buys the credits to overcome imbalances.",
+          "reference": "Unit 6, Session 3, 3.1 - Countertrade"
+        },
+        {
+          "type": "single",
+          "question": "The logistics activity that protects the materials from damage during the shifting or moving of materials is called ______.",
+          "options": [
+            "A. Inward transports",
+            "B. Material handling",
+            "C. Packaging",
+            "D. Stock control"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Packaging protects materials from damage during movement. It is an important logistics activity.",
+          "reference": "Unit 3, Session 3, 3.3.8 - Packaging"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a characteristic of a successful project management?",
+          "options": [
+            "A. Competent project manager",
+            "B. Complexity and ambiguity",
+            "C. Feedback capabilities",
+            "D. Top management support"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Complexity and ambiguity are not characteristics of successful project management. They are challenges to overcome.",
+          "reference": "Unit 5, Session 1, 1.4 - Characteristics of successful project management"
+        },
+        {
+          "type": "single",
+          "question": "The activity related to the movement of end-of-life or end-of-use products (waste) from their point of consumption to the point of production to capture value from the waste or proper disposal is termed as ______.",
+          "options": [
+            "A. Logistics performance measure",
+            "B. Recycle",
+            "C. Reuse",
+            "D. Reverse logistics"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Reverse logistics moves waste products back up the supply chain. This captures value or ensures proper disposal.",
+          "reference": "Unit 3, Session 3, 3.8 - Reverse Logistics"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a factor of the Kenichi Ohmae 3C model?",
+          "options": [
+            "A. Competence",
+            "B. Competition",
+            "C. Corporation",
+            "D. Customer"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The Three Cs are Customer, Corporation, and Competition. Competence is not one of the factors.",
+          "reference": "Unit 1, Session 4, 4.3 - The Ohmae's Three Cs"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an example of a risk identification technique?",
+          "options": [
+            "A. Brainstorming",
+            "B. Network Analysis",
+            "C. Questionnaire",
+            "D. Scenario Analysis"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Network Analysis is a project planning technique. It is not a risk identification technique.",
+          "reference": "Unit 5, Session 3, 3.2 - Risk identification techniques - examples"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a risk analysis technique?",
+          "options": [
+            "A. Business Continuity planning",
+            "B. Event tree analysis",
+            "C. Real option modelling",
+            "D. Scenario modelling"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Scenario Analysis is a risk identification technique. Scenario Modelling is not listed as a risk analysis technique.",
+          "reference": "Unit 5, Session 3, 3.3 - Risk analysis methods and techniques - examples"
+        },
+        {
+          "type": "single",
+          "question": "Buying is a term used to describe the purchase or acquisition of an item or service that's paid for via an exchange of money or another asset. supply chain management involves buying the goods and services that enable an organization to operate profitably and ethically. Which of these is not a buying technique commonly used in commodities trading?",
+          "options": [
+            "A. Budget Buying",
+            "B. Dynamic Programming",
+            "C. Indifference price",
+            "D. Time Budgeting"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Indifference pricing is a concept, not a buying technique. The techniques are time budgeting, cost averaging/budget buying, and dynamic programming.",
+          "reference": "Unit 5, Session 6, 6.1 - Some Buying techniques in commodities trading"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a driver of internal risk?",
+          "options": [
+            "A. Accounting contracts",
+            "B. Intellectual Capital",
+            "C. Interest rates",
+            "D. Liquidity and cash flow"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Interest rates are an external risk driver. The others are internal risk drivers.",
+          "reference": "Unit 5, Session 3, 3.4 - Drivers of internal and external risks"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "The process of efficiently overseeing the constant flow of goods of materials into and out of an existing inventory is known as ______.",
-            "options": [
-              "logistics management",
-              "inventory management",
-              "supply chain",
-              "supply chain management"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Inventory management is the process of overseeing the flow of goods into and out of inventory. This is its definition.",
-            "reference": "Unit 3, Session 2, 2.2 - Inventory Management and Its Objectives"
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "What is Cross-docking?",
+                "marks": 2,
+                "commandWord": "What",
+                "answer": {
+                  "introduction": "Cross-docking is a logistics procedure that eliminates storage and order picking.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition of Cross-docking",
+                      "detail": "Cross-docking is a logistics procedure that eliminates storage and order picking."
+                    },
+                    {
+                      "heading": "How It Works",
+                      "detail": "Products are received at a distribution centre and shipped out quickly without being stored."
+                    }
+                  ],
+                  "conclusion": "Cross-docking reduces handling costs and speeds up delivery.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 2, 2.2 - Cross Docking in supply chain"
+                }
+              },
+              {
+                "label": "B",
+                "question": "An arrangement of different autonomous entities to achieve common objectives, where competition and teamwork exist in the market environment is identified as strategic alliance. Identify and explain the stages of strategic alliance in supply chain management.",
+                "marks": 10,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Strategic alliances are collaborative arrangements between autonomous entities. They involve four key stages in supply chain management.",
+                  "mainPoints": [
+                    {
+                      "heading": "Alliance Conceptualisation",
+                      "detail": "Firms decide a collaborative arrangement is needed. They explore alternatives to current management."
+                    },
+                    {
+                      "heading": "Alliance Pursuance",
+                      "detail": "The decision to form an alliance is made. Operational and strategic considerations are evaluated."
+                    },
+                    {
+                      "heading": "Alliance Confirmation",
+                      "detail": "Partners are selected and confirmed. This requires 'the right decision at the right place.'"
+                    },
+                    {
+                      "heading": "Alliance Implementation/Continuity",
+                      "detail": "The alliance is put into action. Performance is assessed to decide if it continues or ends."
+                    }
+                  ],
+                  "conclusion": "Each stage is critical for the success of a strategic alliance in supply chain management.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 5, 5.2 - The Stages of Strategic Alliance in Supply Chain Management"
+                }
+              },
+              {
+                "label": "C",
+                "question": "State and explain any four activities in the logistics system in the supply chains of organisations",
+                "marks": 8,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Logistics involves several key activities that ensure the smooth flow of materials through the supply chain.",
+                  "mainPoints": [
+                    {
+                      "heading": "Procurement",
+                      "detail": "Finding suppliers, negotiating terms, and managing delivery."
+                    },
+                    {
+                      "heading": "Inward Transport",
+                      "detail": "Moving materials from suppliers to the receiving area."
+                    },
+                    {
+                      "heading": "Warehousing",
+                      "detail": "Storing materials and keeping them in good condition."
+                    },
+                    {
+                      "heading": "Material Handling",
+                      "detail": "Moving materials efficiently with the right equipment."
+                    }
+                  ],
+                  "conclusion": "These activities work together to ensure efficient logistics operations.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 3, 3.3 - Activities of Logistics"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Items extracted from the ground, such as minerals, ores and petroleum are classified under which heading of inventory.",
-            "options": [
-              "Assemblies",
-              "Components",
-              "Raw materials",
-              "Work in progress"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Raw materials are the basic inputs that come from natural resources. Minerals and ores are a classic example of raw materials.",
-            "reference": "Unit 3, Session 2, 2.3.1 - Raw Materials"
+            "label": "Question 2",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Supply chain is not a simple chain of business to manage, coupled with problems associated with one-to-one or business-to-business dealings. Supply chain managers are faced with a number of challenges. State and explain any four challenges supply chain managers face in the management of supply chains of organisations.",
+                "marks": 8,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Managing a supply chain is complex. Managers face many challenges that require careful attention.",
+                  "mainPoints": [
+                    {
+                      "heading": "Difficulty Establishing Good Strategies",
+                      "detail": "New products create new supply chains. Strategies can clash and must be aligned with company goals."
+                    },
+                    {
+                      "heading": "Cost of the System",
+                      "detail": "Designing and operating a supply chain with minimal costs is very difficult."
+                    },
+                    {
+                      "heading": "System Maintenance",
+                      "detail": "Maintaining service levels while keeping costs low is a constant challenge."
+                    },
+                    {
+                      "heading": "Uncertainty and Risk",
+                      "detail": "Demand, travel times, and equipment breakdowns are unpredictable. Outsourcing and lean manufacturing can increase risk."
+                    }
+                  ],
+                  "conclusion": "Supply chain managers must navigate these challenges while maintaining efficiency and service levels.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 3, 3.3 - Challenges Faced by Supply Chain Managers"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Kenichi Ohmae focuses on three key success factors for competitive advantage. Identify and explain these key factors in achieving competitive advantage.",
+                "marks": 6,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Ohmae's Three Cs model identifies three key factors that companies must focus on to achieve competitive advantage.",
+                  "mainPoints": [
+                    {
+                      "heading": "Corporation",
+                      "detail": "The company must maximise its strengths compared to competitors. It should focus on its best functions."
+                    },
+                    {
+                      "heading": "Customer",
+                      "detail": "The company must understand and satisfy customer needs. Customer interests should come before shareholder interests."
+                    },
+                    {
+                      "heading": "Competition",
+                      "detail": "The company can compete through differentiation in areas like purchasing, design, and sales."
+                    }
+                  ],
+                  "conclusion": "Balancing these three factors is essential for long-term competitive advantage.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 4, 4.3 - The Ohmae's Three Cs"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Supply chain management relationship can be categorized into three main categories as vertical relationship management, horizontal relationship management and full collaboration relationship management. Explain each of the following relationship category in supply chain relationship management.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Supply chain relationships can be categorized into three main types. Each type involves different levels of integration.",
+                  "mainPoints": [
+                    {
+                      "heading": "Vertical Relationships",
+                      "detail": "Traditional links between firms in the chain. Examples are retailers, distributors, manufacturers, and suppliers."
+                    },
+                    {
+                      "heading": "Horizontal Relationships",
+                      "detail": "Business arrangements between firms in parallel positions. They are at the same level of the chain."
+                    },
+                    {
+                      "heading": "Full Collaboration",
+                      "detail": "Business arrangements that combine both vertical and parallel positions. This is the most integrated type."
+                    }
+                  ],
+                  "conclusion": "Understanding these relationship types helps organizations choose the right level of integration.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 6, 6.2 - The Types of SCM Relationships"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The type of partly-finished output, which is not yet ready for sale to customers refers to ______.",
-            "options": [
-              "raw materials",
-              "work in progress",
-              "components",
-              "assemblies"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Work-in-Progress (WIP) is inventory that is partly finished. It is not yet ready to be sold.",
-            "reference": "Unit 3, Session 2, 2.3.3 - WIP: Work-in-progress or in-process inventories"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the philosophical concept of just-in-time (JIT) in supply chain management.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Just-in-time (JIT) is a philosophy that aims to eliminate waste and improve efficiency in supply chain management.",
+                  "mainPoints": [
+                    {
+                      "heading": "Core Concept",
+                      "detail": "JIT means materials are ordered and delivered just before they are needed."
+                    },
+                    {
+                      "heading": "Origins",
+                      "detail": "It was developed by Toyota to reduce waste and improve quality."
+                    },
+                    {
+                      "heading": "Waste Elimination",
+                      "detail": "The system helps organise, plan, and control production effectively. It minimises waste in time, labour, and storage space."
+                    },
+                    {
+                      "heading": "Benefits",
+                      "detail": "Companies become more responsive to customer orders. Benefits include better communication, more flexibility, and higher quality."
+                    }
+                  ],
+                  "conclusion": "JIT is a powerful philosophy that focuses on continuous improvement and waste reduction.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.1.1 - Just-in-time (JIT)"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State and explain any four differences between traditional and electronic procurement.",
+                "marks": 8,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Traditional and electronic procurement differ in several key aspects, particularly in cost focus and process automation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Cost Focus",
+                      "detail": "Traditional procurement reduces unit prices. E-procurement reduces transaction costs."
+                    },
+                    {
+                      "heading": "Contract Management",
+                      "detail": "Traditional procurement minimises contract staff. E-procurement automates processes."
+                    },
+                    {
+                      "heading": "Planning",
+                      "detail": "Traditional procurement plans supply. E-procurement plans and forecasts demand."
+                    },
+                    {
+                      "heading": "Customer Focus",
+                      "detail": "Traditional procurement supports existing customers. E-procurement helps establish new customers."
+                    }
+                  ],
+                  "conclusion": "E-procurement offers significant advantages over traditional methods in terms of cost and efficiency.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6 - From Traditional procurement to E-Procurement"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Define the following terms as used in inventory management:\ni. Components and Parts\nii. Maintenance, repairs, and operating inventories\niii. Capital goods",
+                "marks": 6,
+                "commandWord": "Define",
+                "answer": {
+                  "introduction": "Inventory management involves classifying different types of inventory. Each type serves a specific purpose.",
+                  "mainPoints": [
+                    {
+                      "heading": "Components and Parts",
+                      "detail": "These are items that are assembled into final products. They are part of raw materials or sub-assemblies."
+                    },
+                    {
+                      "heading": "Maintenance, Repairs, and Operating Inventories",
+                      "detail": "These include spare parts and supplies. They are used to maintain and repair equipment."
+                    },
+                    {
+                      "heading": "Capital Goods",
+                      "detail": "These are equipment and assets that are not used up quickly. They have long useful lives and depreciate over time."
+                    }
+                  ],
+                  "conclusion": "Proper classification of inventory is essential for effective inventory management.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 2, 2.3 - Classifications and Types of Inventory"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Which of the following is not a reason firms hold inventory?",
-            "options": [
-              "To meet anticipated customer demand",
-              "To smoothen production.",
-              "To protect against stock outs",
-              "To build up inventory"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Companies hold inventory for specific reasons like meeting demand, smoothing production, and avoiding stock-outs. Simply 'building up inventory' is not a strategic reason, it is a result of the other reasons.",
-            "reference": "Unit 3, Session 2, 2.4 - Why Do Firms Keep Inventory?"
-          },
-          {
-            "type": "single",
-            "question": "A type of demand where although the demand rate varies, it varies about a constant average over time is referred to",
-            "options": [
-              "dependent demand",
-              "independent demand",
-              "sporadic demand",
-              "stable demand"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Stable demand is the pattern where demand fluctuates but stays around a constant average. It doesn't show a long-term increase or decrease.",
-            "reference": "Unit 3, Session 2, 2.5.2 - Stable"
-          },
-          {
-            "type": "single",
-            "question": "The function that performs the movement and storage of materials from the suppliers to customers is called",
-            "options": [
-              "logistics management",
-              "logistics",
-              "supply chain",
-              "supply chain management"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Logistics is the function responsible for moving and storing materials. It covers the flow from suppliers to customers.",
-            "reference": "Unit 3, Session 3, 3.2 - Role of Logistics"
-          },
-          {
-            "type": "single",
-            "question": "The delivery of a product from the departure area and hand over to the customer is termed as",
-            "options": [
-              "outward transport",
-              "inward transport",
-              "physical distribution",
-              "packaging"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Outward transport is the delivery of the product from the departure area to the customer. It's the outbound movement of finished goods.",
-            "reference": "Unit 3, Session 3, 3.3 - Activities of Logistics"
-          },
-          {
-            "type": "single",
-            "question": "The logistics systems are made up of the following subsystems except the",
-            "options": [
-              "procurement system",
-              "distribution system",
-              "production system",
-              "strategic level management system"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The three subsystems of logistics are Procurement, Production, and Distribution. 'Strategic level management system' is not one of them.",
-            "reference": "Unit 3, Session 3, 3.4 - The Logistics Systems"
-          },
-          {
-            "type": "single",
-            "question": "Activities related to the movement of end-of-life or end-of-use products (waste) from their point of consumption to the point of production for the purpose of capturing value from the waste, or proper disposal is referred to",
-            "options": [
-              "product return",
-              "recycling",
-              "refurbishment",
-              "reverse logistics"
-            ],
-            "correctAnswer": "D",
-            "explanation": "This is the definition of Reverse Logistics. It involves moving waste or used products back up the supply chain for value capture or proper disposal.",
-            "reference": "Unit 3, Session 3, 3.8 - Reverse Logistics"
-          },
-          {
-            "type": "single",
-            "question": "A supply strategy which enhances revenue by responding rapidly to emerging market needs, and increasing revenue per unit by capturing the higher margins available to first or early movers into the market is termed as ______ strategy.",
-            "options": [
-              "agile",
-              "channel focused",
-              "customer customized",
-              "lean"
-            ],
-            "correctAnswer": "A",
-            "explanation": "An agile strategy focuses on speed and flexibility to respond to new market needs. This allows companies to be first movers and capture higher margins.",
-            "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
-          },
-          {
-            "type": "single",
-            "question": "The cross-functional approach that efficiently manages business activities and integrates various players in the entire supply chain is known as ______.",
-            "options": [
-              "Logistics management",
-              "Supply",
-              "Supply-chain",
-              "Supply chain management"
-            ],
-            "correctAnswer": "D",
-            "explanation": "This is the definition of Supply Chain Management (SCM). It's a cross-functional approach that integrates all players.",
-            "reference": "Unit 1, Session 1, 1.3 - Definition of Supply Chain Management"
-          },
-          {
-            "type": "single",
-            "question": "The term supply management is broader than the purchasing function because it includes ______.",
-            "options": [
-              "marketing",
-              "operations/production",
-              "managing relationships with suppliers",
-              "negotiating enforceable contracts"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Supply management goes beyond purchasing to include managing supplier relationships. This is a key part of supplier relationship management.",
-            "reference": "Unit 1, Session 2, 2.2.6 - Supplier Relationship Management"
-          },
-          {
-            "type": "single",
-            "question": "The logistics network that consists of suppliers, manufacturing centres, warehouses, distribution centres, retail outlets, customers as well as raw materials, work-in-process inventory and finished products that flow between the facilities is referred to as ______.",
-            "options": [
-              "Logistics",
-              "Logistics management",
-              "Supply chain",
-              "Supply chain management"
-            ],
-            "correctAnswer": "C",
-            "explanation": "This describes a Supply Chain. It's the network of entities and the flow of materials between them.",
-            "reference": "Unit 1, Session 1, 1.2 - Definition of Supply Chain"
-          },
-          {
-            "type": "single",
-            "question": "What is the sequence of a typical manufacturing supply chain?",
-            "options": [
-              "Storage → Supplier → manufacturing → storage → distributor → retailer → customer",
-              "Supplier → Storage → manufacturing → distributor → storage → retailer → customer",
-              "Supplier → Storage → manufacturing → storage → retailer → distributor → customer",
-              "Supplier → Storage → manufacturing → storage → distributor → retailer → customer"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The correct sequence is: Supplier, Storage, Manufacturing, Storage, Distributor, Retailer, Customer.",
-            "reference": "Unit 1, Session 1, 1.2 - Definition of Supply Chain"
-          },
-          {
-            "type": "single",
-            "question": "The main purpose of supply chain management is to ______.",
-            "options": [
-              "improve quality of a product",
-              "increase production",
-              "integrate supply and demand management",
-              "provide customer satisfaction"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The main purpose is to integrate supply and demand management. This ensures products are available when and where they are needed.",
-            "reference": "Unit 1, Session 2, 2.2.3 - Demand Management"
-          },
-          {
-            "type": "single",
-            "question": "Logistics is the part of a supply chain involved with the forward and reverse flow of ______",
-            "options": [
-              "cash",
-              "goods",
-              "information",
-              "all of the above"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Logistics manages the flow of materials, information, and funds. All three are part of the process.",
-            "reference": "Unit 3, Session 3, 3.5 - The Flows in Logistics and The Performance Measures in Logistics"
-          },
-          {
-            "type": "single",
-            "question": "What is the sequence of the five levels of supply chain evolution according to Wisner et. al. (2008)?",
-            "options": [
-              "External→Total Business System - Inter-Enterprise - Functional - Intra-enterprise",
-              "Functional-Intra-enterprise - Inter-Enterprise - External - Total Business System",
-              "Inter-Enterprise - Functional - Intra-enterprise- External - Total Business System",
-              "Total Business System - Inter-Enterprise - Functional - Intra-enterprise- External"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The correct order is: Functional, Intra-enterprise, Inter-Enterprise, External, Total Business System. It moves from internal focus to full network connectivity.",
-            "reference": "Unit 2, Session 1, 1.2 - The Five levels of Supply Chain Evolution"
-          },
-          {
-            "type": "single",
-            "question": "The demand distortion that travels upstream in the supply chain from the retailer through to the wholesaler and manufacturer due to the variance of orders which may be larger than that of sales is called ______",
-            "options": [
-              "Billwhip effect",
-              "Net chain analysis",
-              "Reverse logistics",
-              "Reverse supply chain"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The Bullwhip Effect is when small changes in customer demand cause larger order swings as you move upstream. It causes inefficiency.",
-            "reference": "Unit 1, Session 1, 1.4 - Obstacles That Prevent Implementation of SCM Strategies and Operations"
-          },
-          {
-            "type": "single",
-            "question": "The major decision areas in supply chain management are ______",
-            "options": [
-              "location, production, distribution, inventory",
-              "location, production, distribution, marketing",
-              "location, production, scheduling, inventory",
-              "planning, production, distribution, inventory"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The major strategic decision areas are Location, Production, Distribution, and Inventory. These are the core areas managers decide on.",
-            "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is not a party involved in the strategic planning?",
-            "options": [
-              "Facility location",
-              "Procurement",
-              "Supply chain analyst",
-              "Transportation"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The strategic planning parties are Procurement, Production, Facility Location, Transportation, and Customer Allocation. A 'Supply chain analyst' is not a listed party.",
-            "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
+            "label": "Question 4",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Distinguish between responsiveness and efficiency as used in the context of supply chains.",
+                "marks": 4,
+                "commandWord": "Distinguish",
+                "answer": {
+                  "introduction": "Responsiveness and efficiency are two key objectives in supply chain management that often involve trade-offs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Responsiveness",
+                      "detail": "Responsiveness means reacting quickly to customer needs. It focuses on speed and flexibility."
+                    },
+                    {
+                      "heading": "Efficiency",
+                      "detail": "Efficiency means operating at the lowest possible cost. It focuses on minimising waste and costs."
+                    },
+                    {
+                      "heading": "Trade-off",
+                      "detail": "These are often trade-offs. A highly efficient supply chain may not be very responsive."
+                    }
+                  ],
+                  "conclusion": "Organizations must find the right balance between responsiveness and efficiency based on their market needs.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 2, 2.4 - Why Do Firms Keep Inventory?"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State and explain four reasons why contractual relationship may be terminated in supply chain management.",
+                "marks": 8,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Contractual relationships in supply chains may end for various reasons. Understanding these reasons helps manage relationships better.",
+                  "mainPoints": [
+                    {
+                      "heading": "Inadequate Understanding of Partnership",
+                      "detail": "Partners may not truly understand what partnership requires."
+                    },
+                    {
+                      "heading": "Changes in Business Direction",
+                      "detail": "The partnership may no longer be valuable to either party."
+                    },
+                    {
+                      "heading": "Product Obsolescence",
+                      "detail": "The product or service becomes outdated with no replacement."
+                    },
+                    {
+                      "heading": "Economic Factors",
+                      "detail": "A supplier may become financially unstable and unable to meet objectives."
+                    }
+                  ],
+                  "conclusion": "Regular assessment of partnerships helps identify potential issues before they lead to termination.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 6, 6.1 - Reasons for termination"
+                }
+              },
+              {
+                "label": "C",
+                "question": "In today business setups, the supply chain plays an important role in increasing the value of the entire production process of businesses. State and explain any four components of supply chain management.",
+                "marks": 8,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Supply chain management involves several key components that work together to create value.",
+                  "mainPoints": [
+                    {
+                      "heading": "Production",
+                      "detail": "Making products to meet consumer needs, demand, quality, and volume."
+                    },
+                    {
+                      "heading": "Supply",
+                      "detail": "Obtaining required materials and inputs for production."
+                    },
+                    {
+                      "heading": "Inventory",
+                      "detail": "Determining the appropriate level of inventory to increase competitiveness."
+                    },
+                    {
+                      "heading": "Transportation",
+                      "detail": "Moving products through the supply chain to customers."
+                    }
+                  ],
+                  "conclusion": "Each component is essential for an effective and efficient supply chain.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 1, 1.2 - Components of Supply Chain Management"
+                }
+              }
+            ]
           }
         ]
       }
