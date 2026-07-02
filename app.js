@@ -525,7 +525,11 @@ function finishQuizSession() {
 }
 
 // ─── CONFIRMATION DIALOG ──────────────────────────────────────────────────────
-function showConfirmDialog(message, onConfirm) {
+function showConfirmDialog(message, onConfirm, options = {}) {
+  const cancelLabel  = options.cancelLabel  ?? "Stay";
+  const confirmLabel = options.confirmLabel ?? "Leave";
+  const confirmCls   = options.confirmCls   ?? "btn-danger";
+
   const overlay = document.createElement("div");
   overlay.className = "confirm-overlay";
   overlay.innerHTML = `
@@ -533,20 +537,20 @@ function showConfirmDialog(message, onConfirm) {
          aria-labelledby="confirm-msg">
       <p id="confirm-msg" class="confirm-message">${message}</p>
       <div class="confirm-actions">
-        <button class="btn-secondary confirm-stay" style="flex:1">Stay</button>
-        <button class="btn-danger confirm-leave" style="flex:1">Leave</button>
+        <button class="btn-secondary confirm-cancel" style="flex:1">${cancelLabel}</button>
+        <button class="${confirmCls} confirm-ok" style="flex:1">${confirmLabel}</button>
       </div>
     </div>`;
 
   document.getElementById("app").appendChild(overlay);
 
-  overlay.querySelector(".confirm-stay").addEventListener("click", () => overlay.remove());
-  overlay.querySelector(".confirm-leave").addEventListener("click", () => {
+  overlay.querySelector(".confirm-cancel").addEventListener("click", () => overlay.remove());
+  overlay.querySelector(".confirm-ok").addEventListener("click", () => {
     overlay.remove();
     onConfirm();
   });
   overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
-  overlay.querySelector(".confirm-stay").focus();
+  overlay.querySelector(".confirm-cancel").focus();
 }
 
 function guardMCQLeave(proceed) {
@@ -2871,7 +2875,8 @@ function bindEvents() {
         () => {
           state = saveState({ bookmarks: [] });
           render();
-        }
+        },
+        { cancelLabel: "Cancel", confirmLabel: "Remove All", confirmCls: "btn-danger" }
       );
     });
   }
@@ -2880,11 +2885,12 @@ function bindEvents() {
   if (btnResetStats) {
     btnResetStats.addEventListener("click", () => {
       showConfirmDialog(
-        "Reset all statistics? This cannot be undone.",
+        "Are you sure you want to clear all statistics?<br>This information cannot be retrieved once cleared.",
         () => {
           state = saveState({ stats: emptyStats(), quizStats: emptyStats() });
           render();
-        }
+        },
+        { cancelLabel: "No, Keep", confirmLabel: "Yes, Clear All", confirmCls: "btn-danger" }
       );
     });
   }
@@ -2967,6 +2973,7 @@ function bindEvents() {
 
   app.querySelectorAll("[data-goto]").forEach((el) => {
     if (el.classList.contains("mcq-guard-back")) return;
+    if (el.classList.contains("quiz-guard-back")) return;
     el.addEventListener("click", () => go(el.dataset.goto));
   });
 
