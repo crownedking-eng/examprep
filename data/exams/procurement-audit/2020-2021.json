@@ -1,272 +1,572 @@
 {
   "subject": "Procurement Audit",
+  "subjectCode": "PCM 406D",
   "academicYear": "2020/2021",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The formal decision and approval to establish a contract with a successful supplier based on independent review of the procurement process is best described as ______.",
+          "options": [
+            "A. award",
+            "B. engagement",
+            "C. reward",
+            "D. servicing"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Award means the final approval to give a contract. It marks the conclusion of the procurement process.",
+          "reference": "Unit 5, Session 6, 6.1 - Contract review and award"
+        },
+        {
+          "type": "single",
+          "question": "A selected or contracted suppliers' list for a project or company is called ______.",
+          "options": [
+            "A. Client list",
+            "B. Vendor booths",
+            "C. Vendor cartels",
+            "D. Vendor list"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A vendor list is a list of approved suppliers. It helps with standardization and quick purchasing.",
+          "reference": "Unit 1, Session 4, 4.1 - Documents Used in Procurement Audit Process"
+        },
+        {
+          "type": "single",
+          "question": "Which of these sources of information is weak to assure quality of audit evidence?",
+          "options": [
+            "A. Those obtained from suppliers",
+            "B. Those prepared by clients",
+            "C. Those obtained from invoices",
+            "D. Those prepared by auditor"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Information prepared by the client is less reliable. Evidence prepared by the auditor or from outside is more reliable.",
+          "reference": "Unit 2, Session 4, 4.1 - Audit Evidence"
+        },
+        {
+          "type": "single",
+          "question": "The first official offer and commercial document issued by a buyer to a seller indicating types, quantities, and agreed prices for products or services is referred to as ______.",
+          "options": [
+            "A. Invitation for bid",
+            "B. Purchase draft",
+            "C. Purchase file",
+            "D. Purchase order"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A purchase order is the first official offer from a buyer. It shows types, quantities, and prices.",
+          "reference": "Unit 1, Session 4, 4.1 - Documents Used in Procurement Audit Process"
+        },
+        {
+          "type": "single",
+          "question": "The identification, evaluation, and prioritization of risks followed by coordinated and economical application of resources to minimize, monitor, and control the impact of unfortunate events is called Risk ______.",
+          "options": [
+            "A. aversion",
+            "B. control",
+            "C. management",
+            "D. mitigation"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Risk management is the full process of identifying, evaluating, and controlling risks. It uses resources to reduce negative impacts.",
+          "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "An auditor's ability to apply relevant audit standards and guidance, capacity for inquiry, abstract logical thought and critical analysis can be ascribed to the auditor's ______ skill.",
+          "options": [
+            "A. basic technical",
+            "B. investigative",
+            "C. professional",
+            "D. specialists technical"
+          ],
+          "correctAnswer": "D",
+          "explanation": "These are specialist technical skills. They include applying standards and using critical thinking.",
+          "reference": "Unit 4, Session 1, 1.1 - Procurement audit staff requirements"
+        },
+        {
+          "type": "single",
+          "question": "A good audit working paper should have the following characteristics except ______.",
+          "options": [
+            "A. it should clearly and objectively state the results",
+            "B. it should clearly and subjectively state the results",
+            "C. it should state the full extent of the audit test",
+            "D. the conclusions reached should be consistent with the results"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Good working papers must be objective. Subjective means it is based on personal opinion, which is wrong for audit papers.",
+          "reference": "Unit 4, Session 3, 3.1 - Audit working papers"
+        },
+        {
+          "type": "single",
+          "question": "One or more folders or other storage media, in physical or electronic form, containing the records that comprise the audit documentation is a specific engagement is called Audit ______.",
+          "options": [
+            "A. document",
+            "B. file",
+            "C. folder",
+            "D. media"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Audit files are folders or storage media that hold audit documentation. They can be physical or electronic.",
+          "reference": "Unit 4, Session 3, 3.2 - Audit files"
+        },
+        {
+          "type": "single",
+          "question": "Sustainable procurement has become a serious issue in the public debate. Which of these is not a factor which drives the need for sustainability in procurement?",
+          "options": [
+            "A. Cost reduction",
+            "B. Food security",
+            "C. Revenue growth",
+            "D. Risk reduction"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The drivers are cost reduction, risk reduction, and revenue growth. Food security is not a driver of sustainable procurement.",
+          "reference": "Unit 4, Session 5, 5.2 - Drivers of Sustainable Procurement"
+        },
+        {
+          "type": "single",
+          "question": "An organization created from a formal agreement between a group of producers of a good or service to regulate supply in order to manipulate prices is referred to as ______.",
+          "options": [
+            "A. Cartel",
+            "B. Joint venture",
+            "C. Merger",
+            "D. Partnership"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A cartel is a formal agreement between producers. They work together to control supply and fix prices.",
+          "reference": "Unit 6, Session 5, 5.1 - Cartels"
+        },
+        {
+          "type": "single",
+          "question": "A principle of procurement, which indicates that anyone involved in the procurement process is responsible for his or her actions and decisions with respect to the procurement audit is termed as ______.",
+          "options": [
+            "A. Accountability",
+            "B. Fairness",
+            "C. Openness",
+            "D. Social justice"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Accountability means everyone is responsible for their actions and decisions in procurement.",
+          "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not among the components of fraud triangle?",
+          "options": [
+            "A. Fairness",
+            "B. Opportunity",
+            "C. Pressure",
+            "D. Rationalization"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The fraud triangle has three parts: opportunity, pressure (incentive), and rationalization. Fairness is not part of it.",
+          "reference": "Unit 3, Session 1, 1.3 - The fraud triangle"
+        },
+        {
+          "type": "single",
+          "question": "A form of bid rigging where the competitors to a contract decide on a winner amongst themselves so that all other suppliers, except the winner they have chosen, intentionally quotes an amount which is higher to artificially make the winner's quotation competitive is called ______.",
+          "options": [
+            "A. Bid rotation",
+            "B. Bid suppressing",
+            "C. Cover bid",
+            "D. Non-conforming bids"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Cover bid is when other suppliers quote high prices. This makes the chosen winner's price look competitive.",
+          "reference": "Unit 3, Session 2, 2.2 - Fraud at the Pre-contract award stage"
+        },
+        {
+          "type": "single",
+          "question": "A form of collusion, which involves dividing a large requirement into several smaller lots with the intention of avoiding a mandatory competitive tender requirement is termed as ______.",
+          "options": [
+            "A. Bid tailoring",
+            "B. Excessive requisition",
+            "C. Information leakage",
+            "D. Tender splitting"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Tender splitting is dividing a big contract into smaller ones. This avoids the need for competitive tendering.",
+          "reference": "Unit 3, Session 2, 2.2 - Fraud at the Pre-contract award stage"
+        },
+        {
+          "type": "single",
+          "question": "An ethical principle of procurement that involves an auditor carrying out his/her professional duties carefully and thoroughly whilst avoiding careless practices is termed as ______.",
+          "options": [
+            "A. Due diligence",
+            "B. Fairness",
+            "C. Loyalty",
+            "D. Seriousness"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Due diligence means doing your work carefully and thoroughly. It involves avoiding careless practices.",
+          "reference": "Unit 4, Session 6, 6.2 - Ethical concepts and principles in procurement"
+        },
+        {
+          "type": "single",
+          "question": "Good planning ensures that ______.",
+          "options": [
+            "A. something, which is relevant, is not neglected",
+            "B. progress controlled in achieving the targets is neglected",
+            "C. the quality of output is reduced",
+            "D. forecasting is delayed"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Planning ensures important areas get attention. It prevents relevant matters from being overlooked.",
+          "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not among the considerations for effective audit planning?",
+          "options": [
+            "A. Size and complexity of the company",
+            "B. The assets of employees in the company",
+            "C. The commercial environment in which it operates",
+            "D. The method of pressing transactions"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The considerations are size and complexity, commercial environment, method of processing transactions, and reporting requirements. Employee assets are not relevant.",
+          "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+        },
+        {
+          "type": "single",
+          "question": "Which of these is not a procedure to obtain audit evidence?",
+          "options": [
+            "A. Audit inquiry",
+            "B. Audit inspection",
+            "C. Audit observation",
+            "D. Audit reporting"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The procedures are analytical review, inquiry, observation, inspection, and recalculation. Reporting is the final output, not a procedure to get evidence.",
+          "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+        },
+        {
+          "type": "single",
+          "question": "A person's explanation for committing fraud is described as ______.",
+          "options": [
+            "A. excuse",
+            "B. justification",
+            "C. rationalization",
+            "D. vindication"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Rationalization is how a fraudster justifies their actions. They convince themselves it is okay.",
+          "reference": "Unit 3, Session 1, 1.3 - The fraud triangle"
+        },
+        {
+          "type": "single",
+          "question": "An omission or purposeful failure of which non-disclosure makes other statements misleading to secure unlawful gain is termed as ______.",
+          "options": [
+            "A. Dishonesty",
+            "B. Fraud",
+            "C. Misrepresentation",
+            "D. Non-disclosure"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Fraud can be through false statements or by hiding important information. Purposeful nondisclosure is a form of fraud.",
+          "reference": "Unit 3, Session 1, 1.1 - Procurement fraud"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "Which of the following is not a primary objective of procurement audit?",
-            "options": [
-              "Eliminates fraud",
-              "Reduces errors",
-              "Reduces waste in the supply chain",
-              "Facilitates effective bargain"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Procurement audit helps to eliminate fraud, errors, and waste. A bargain is not a primary goal; the audit is about finding problems, not getting good deals.",
-            "reference": "Unit 1, Session 1, 1.2 - Significance of procurement audit"
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four skills required of a procurement auditor.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Procurement auditors need specific skills. These help them do their work properly and professionally.",
+                  "mainPoints": [
+                    {
+                      "heading": "Basic technical skills",
+                      "detail": "The auditor must have analytical skills. They also need to use audit programs and write working papers and reports."
+                    },
+                    {
+                      "heading": "Professional skills",
+                      "detail": "The auditor must know auditing and procurement processes. They should also know relevant laws and ethics codes."
+                    },
+                    {
+                      "heading": "Specialist technical skills",
+                      "detail": "The auditor needs IT skills. They must apply audit standards and use critical thinking."
+                    },
+                    {
+                      "heading": "Investigatory skills",
+                      "detail": "The auditor must conduct value-for-money audits. They should also be able to investigate fraud and corruption."
+                    },
+                    {
+                      "heading": "Interpersonal and communication skills",
+                      "detail": "The auditor must know how to interview. They should deal with difficult people and persuade management to accept recommendations."
+                    },
+                    {
+                      "heading": "Management and organisational skills",
+                      "detail": "The auditor must plan audits well. They need to lead a team and control the audit process."
+                    }
+                  ],
+                  "conclusion": "These skills make an auditor effective. They ensure audits are thorough and reliable.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1, 1.1 - Procurement audit staff requirements"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four professional values required of a procurement auditor.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Professional values guide an auditor's behaviour. They ensure the auditor is trusted and reliable.",
+                  "mainPoints": [
+                    {
+                      "heading": "Integrity",
+                      "detail": "The auditor must be honest and fair. They should avoid anything that could harm their reputation."
+                    },
+                    {
+                      "heading": "Objectivity",
+                      "detail": "The auditor must be unbiased. They should not let personal feelings influence their work."
+                    },
+                    {
+                      "heading": "Confidentiality",
+                      "detail": "The auditor must keep client information secret. They cannot share it without permission."
+                    },
+                    {
+                      "heading": "Competence",
+                      "detail": "The auditor must have the right skills. They need to understand the business and assess risks."
+                    },
+                    {
+                      "heading": "Professional behaviour",
+                      "detail": "The auditor must follow all laws. They should avoid any action that discredits their work."
+                    }
+                  ],
+                  "conclusion": "These values protect the auditor and the client. They build trust in the audit process.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1, 1.2 - Professional Values, Ethics and Attitudes"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Procurement planning is a process of doing a job in a systematic and methodical manner. Define planning in an orderly manner using:\nI. What to do\nII. When to do\nIII. How to do and\nIV. Who will do",
-            "options": [
-              "I, II, III and IV",
-              "I, II, IV and III",
-              "I, III, II, and IV",
-              "I, I, III, and IV"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Planning defines what to do, how to do it, when to do it, and who will do it. The order given in the options is A.",
-            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+            "label": "Question 2",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss any four features of good audit working papers.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Audit working papers must be well prepared. They need to show exactly what was done and what was found.",
+                  "mainPoints": [
+                    {
+                      "heading": "State the audit objectives clearly",
+                      "detail": "The working paper must show what the auditor was trying to find out. This gives context to the work done."
+                    },
+                    {
+                      "heading": "State the period of the audit",
+                      "detail": "The working paper must show when the audit was conducted. This helps with future reference."
+                    },
+                    {
+                      "heading": "State the full extent of the audit test",
+                      "detail": "The working paper must show how many items were tested. This shows if the evidence is enough."
+                    },
+                    {
+                      "heading": "Clearly and objectively state the results",
+                      "detail": "The results must be stated without bias. They should be based on facts only."
+                    },
+                    {
+                      "heading": "The conclusions reached should be consistent with the results",
+                      "detail": "The conclusion must match the test findings. It should be able to withstand scrutiny."
+                    },
+                    {
+                      "heading": "Be clearly referenced",
+                      "detail": "The working paper must have a clear reference. This helps with filing and finding it later."
+                    },
+                    {
+                      "heading": "Be signed and dated",
+                      "detail": "The person who prepared it must sign and date it. This allows queries to be directed to the right person."
+                    }
+                  ],
+                  "conclusion": "Good working papers support the audit conclusions. They provide evidence that the audit was done properly.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 3, 3.1 - Audit working papers"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain three areas corruption can occur in government.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Corruption in government happens in many areas. It often involves large sums of public money.",
+                  "mainPoints": [
+                    {
+                      "heading": "Investment projects",
+                      "detail": "Government officials control public projects. They can get commissions from contractors. This leads to unproductive projects."
+                    },
+                    {
+                      "heading": "Taxation",
+                      "detail": "Corruption happens when taxpayers meet tax officials. Low wages for tax officials increase the risk of bribery. Discretion over decisions also creates opportunities."
+                    },
+                    {
+                      "heading": "Procurement spending",
+                      "detail": "Governments buy goods and services. Some countries create complex rules to reduce corruption. This can increase the price of goods."
+                    },
+                    {
+                      "heading": "Political corruption",
+                      "detail": "Politicians manipulate policies for personal gain. They use their power to sustain their status and wealth."
+                    }
+                  ],
+                  "conclusion": "Corruption reduces the effectiveness of government. It wastes public money and harms development.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 3, 3.3 - Areas of government corruption"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "A deliberate deception to secure unfair or unlawful gain procurement process is termed as ______",
-            "options": [
-              "Misrepresentation",
-              "Dishonesty",
-              "Fraud",
-              "Nondisclosure"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Fraud is defined as deliberate deception to secure an unfair or unlawful gain.",
-            "reference": "Unit 3, Session 1, 1.1 - Procurement fraud"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss any four forms fraud may manifest in the construction sector.",
+                "marks": 20,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Construction fraud is very common. It happens in many ways throughout a project.",
+                  "mainPoints": [
+                    {
+                      "heading": "Bid-rigging (Collusion)",
+                      "detail": "Contractors agree not to compete fairly. One is chosen to win while others bid high. This inflates prices and is illegal."
+                    },
+                    {
+                      "heading": "Falsifying payment applications",
+                      "detail": "Contractors submit false invoices. They may inflate labour or material costs. This accounts for over half of construction fraud."
+                    },
+                    {
+                      "heading": "Manipulating change orders",
+                      "detail": "Change orders are not properly monitored. A contractor may submit a low bid then use change orders to increase price. This can quickly inflate the total cost."
+                    },
+                    {
+                      "heading": "Substitution or removal of materials",
+                      "detail": "A contractor promises a certain brand. They then substitute it with a cheaper one. They pocket the difference."
+                    },
+                    {
+                      "heading": "False representations",
+                      "detail": "Contractors claim they used skilled workers. They may have used unskilled workers instead. They may also fail to follow regulations."
+                    },
+                    {
+                      "heading": "Inflating labour costs",
+                      "detail": "A sub-contractor charges a high rate for work done by a lower-paid worker. They claim apprentices are journeymen."
+                    },
+                    {
+                      "heading": "Billing for unperformed work",
+                      "detail": "Contractors bill for work they have not done. They overstate units produced or equipment used."
+                    }
+                  ],
+                  "conclusion": "Construction fraud is costly and common. It can destroy a company's reputation and lead to legal action.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 4, 4.2 - Forms of Construction Fraud"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Which of the following procurement principles emphasizes the need for public servants to manage public funds with care and due diligence so that prices paid for goods, services and works are acceptable?",
-            "options": [
-              "Integrity",
-              "Economy",
-              "Transparency",
-              "Openness"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The principle of economy is about managing public funds with care and due diligence to get acceptable prices. It focuses on value for money.",
-            "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
-          },
-          {
-            "type": "single",
-            "question": "Audit risk may manifest in any one of the following except ______",
-            "options": [
-              "not gathering appropriate audit evidence",
-              "being deliberately misled by those providing the evidence",
-              "misinterpreting",
-              "being diligent"
-            ],
-            "correctAnswer": "D",
-            "explanation": "Audit risk arises from not gathering evidence, being misled, or misinterpreting evidence. Being diligent is the opposite of a risk; it prevents those problems.",
-            "reference": "Unit 2, Session 2, 2.1 - What is Audit Risk?"
-          },
-          {
-            "type": "single",
-            "question": "Bid rigging occurs when ______",
-            "options": [
-              "the competitors to a contract decide on a winner amongst themselves so that all other suppliers, except the winner they have chosen, intentionally quotes an amount which is higher to artificially make the winner's quotation competitive",
-              "two or more suppliers agree to not compete genuinely with each other so that one supplier may have an automatic chance of being selected for the contract",
-              "some competitors who ordinarily would submit a successful tender or quotation intentionally agree not to tender so that the one they have agreed on already, wins the contract",
-              "supplier or tenderer intentionally withdraws its successful and winning tender to facilitate the winning of the contract by another competitor"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Bid rigging is a general term for when suppliers agree not to compete. Options A, C, and D are specific types of bid rigging (cover bid, bid suppression, and bid withdrawal).",
-            "reference": "Unit 3, Session 2, 2.2 - Fraud at the Pre-contract award stage"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is the foremost element or component of procurement audit process?",
-            "options": [
-              "Vendor evaluation and selection review",
-              "Internal process review",
-              "Purchaser order review",
-              "Findings and suggestions"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The procurement process starts with a purchase order. The audit first reviews a sample of these orders for accuracy. It is the first component.",
-            "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
-          },
-          {
-            "type": "single",
-            "question": "The regulation of organisational activities so that some targeted elements of performance remain within acceptable limits can be described as?",
-            "options": [
-              "Staffing",
-              "Control",
-              "Directing",
-              "Supervision"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Control is defined as the regulation of organizational activities to keep performance within acceptable limits.",
-            "reference": "Unit 2, Session 3, 3.2 - Controlling"
-          },
-          {
-            "type": "single",
-            "question": "A fraud report is essential for decision making on future occurrences of the phenomenon. Which of the following is not a feature of a fraud report?",
-            "options": [
-              "Simple and factual",
-              "Provide recommendations for corrective action to be taken",
-              "The language used to write the report must be easily understood",
-              "Include indirect quotes where appropriate to highlight the findings."
-            ],
-            "correctAnswer": "D",
-            "explanation": "A good report uses direct quotes, not indirect ones, to highlight findings. The other options are all key features of a good investigation report.",
-            "reference": "Unit 3, Session 3, 3.2 - Techniques and Steps for Fraud Investigation"
-          },
-          {
-            "type": "single",
-            "question": "A commercial document and first official offer issued by a buyer to a seller indicating types, quantities, and agreed prices for products or services is called ______.",
-            "options": [
-              "Vendor list",
-              "Purchase order",
-              "Receiving documents",
-              "Purchase manual"
-            ],
-            "correctAnswer": "B",
-            "explanation": "A purchase order (PO) is the first official offer from a buyer. It shows the types, quantities, and agreed prices for goods.",
-            "reference": "Unit 1, Session 4, 4.1 - Documents Used in Procurement Audit Process"
-          },
-          {
-            "type": "single",
-            "question": "The evidence that provides information sufficient to support the reasonable belief that a particular act or omission has occurred is called ______ evidence.",
-            "options": [
-              "Adequate",
-              "Sufficient",
-              "Focus",
-              "Reliable"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Adequate evidence means you have enough information to reasonably believe an act or omission happened.",
-            "reference": "Unit 3, Session 4, 4.6.2 - Debarment of supplier or contractor"
-          },
-          {
-            "type": "single",
-            "question": "The ratio between an output gained from the business and an input to run a business operation is called ______.",
-            "options": [
-              "Operational efficiency",
-              "Innovation",
-              "Speed and agility",
-              "Operational effectiveness"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Operational efficiency is defined as the ratio between the output gained from the business and the input used to run it.",
-            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
-          },
-          {
-            "type": "single",
-            "question": "Procurement auditing should be carried out professionally with respect to care, diligence and expedition and with proper regard for the technical and professional standards.",
-            "options": [
-              "Skills",
-              "Bias",
-              "Preference",
-              "First come basis"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The professional code emphasizes 'Due Skill, Care and Competence.' Auditing requires respect for technical and professional standards through skill.",
-            "reference": "Unit 2, Session 5, 5.1 - Professional and Legal Requirements for Procurement Auditing"
-          },
-          {
-            "type": "single",
-            "question": "Which kind of behaviour put up by an employee can raise a flag about a possible fraud occurrence?",
-            "options": [
-              "Employee living below his or her means.",
-              "Employee who spends within what he is paid by the organisation.",
-              "Employee has no close association with a contractor or supplier.",
-              "Employee has excessive power and control."
-            ],
-            "correctAnswer": "D",
-            "explanation": "Behavioural red flags include living beyond means, having a close association with a supplier, and having excessive power and control.",
-            "reference": "Unit 3, Session 5, 5.10 - Behaviour red flags"
-          },
-          {
-            "type": "single",
-            "question": "An individual or group that either is harmed by, or benefits from, the company or whose rights can be violated, or have to be respected, by the company is called ______.",
-            "options": [
-              "Transaction expert",
-              "Controller",
-              "Stakeholder",
-              "Seniors"
-            ],
-            "correctAnswer": "C",
-            "explanation": "A stakeholder is an individual or group that can be harmed by or benefit from the company, or whose rights can be affected.",
-            "reference": "Unit 1, Session 6, 6.1 - Definition"
-          },
-          {
-            "type": "single",
-            "question": "A procurement auditor is required to ensure that he/she ______.",
-            "options": [
-              "exercises personal and organizational biases",
-              "applies the varied and unique standards of evaluation to all the suppliers",
-              "resists undue political pressure in decision-making",
-              "exercises absolute discretionary power or authority"
-            ],
-            "correctAnswer": "C",
-            "explanation": "An auditor must demonstrate integrity. This includes resisting undue political pressure in decision-making.",
-            "reference": "Unit 2, Session 6, 6.1 - Rules of Professional Conduct for Procurement Audit"
-          },
-          {
-            "type": "single",
-            "question": "A dedicated hotline through which employees can report all suspicious conducts by others within and outside the organisation is called ______.",
-            "options": [
-              "Emergency contact line",
-              "Whistle blowing",
-              "Public address system",
-              "Suggestion box"
-            ],
-            "correctAnswer": "B",
-            "explanation": "A dedicated hotline for reporting suspicious conduct is a form of whistle-blowing.",
-            "reference": "Unit 3, Session 6, 6.1 - Dealing with Procurement Fraud"
-          },
-          {
-            "type": "single",
-            "question": "The important document that contains all the information for ordering the needed item in an organisation is called ______.",
-            "options": [
-              "Vendor book",
-              "Purchase order",
-              "Crosscheck",
-              "Order letter"
-            ],
-            "correctAnswer": "B",
-            "explanation": "A purchase order is the document that contains all the vital information for ordering an item.",
-            "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
-          },
-          {
-            "type": "single",
-            "question": "An outline of procedures to be followed by auditors to obtain an audit evidence that enables them express their opinion concerning the financial statements can be referred to as ______.",
-            "options": [
-              "Audit report",
-              "Audit program",
-              "Audit scope",
-              "Audit approach"
-            ],
-            "correctAnswer": "B",
-            "explanation": "An audit program is an outline of procedures to be followed to arrive at an opinion on the financial statements.",
-            "reference": "Unit 2, Session 1, 2.2 - Audit Program"
-          },
-          {
-            "type": "single",
-            "question": "When a supplier or tenderer intentionally withdraws its winning tender to facilitate the winning of the contract by another competitor, that supplier is engaging in what we call ______.",
-            "options": [
-              "Cover bid",
-              "Non-conforming bids",
-              "Bid withdrawal",
-              "Bid rotation"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Bid withdrawal is when a supplier intentionally withdraws a winning bid to let another competitor win.",
-            "reference": "Unit 3, Session 2, 2.2 - Fraud at the Pre-contract award stage"
+            "label": "Question 4",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss four essential rules in the conduct of a procurement audit.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "The conduct of a procurement auditor is guided by rules. These rules ensure the audit is done properly and ethically.",
+                  "mainPoints": [
+                    {
+                      "heading": "Code of conduct",
+                      "detail": "The auditor must follow the spirit of the law, not just the words. They must understand what the rule is meant to do."
+                    },
+                    {
+                      "heading": "Respect for rules and regulations",
+                      "detail": "The auditor must know the rules. They must understand why they exist and follow them strictly."
+                    },
+                    {
+                      "heading": "Integrity",
+                      "detail": "The auditor must believe the public trust is important. They must not compromise this trust for personal gain."
+                    },
+                    {
+                      "heading": "Impartiality and fairness",
+                      "detail": "The auditor must be unbiased. They must apply the same standards to all suppliers."
+                    },
+                    {
+                      "heading": "Transparency",
+                      "detail": "The auditor must be open about their work. They should assume their actions can be seen by the public."
+                    }
+                  ],
+                  "conclusion": "These rules build trust in the audit process. They ensure the auditor acts professionally.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.1 - Rules of Professional Conduct for Procurement Audit"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four reasons why people commit procurement fraud.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "People commit fraud for several reasons. These reasons are often linked to pressure and opportunity.",
+                  "mainPoints": [
+                    {
+                      "heading": "Motivation",
+                      "detail": "People are driven by greed or pressure. Financial pressures include high debt. Non-financial pressures include wanting prestige."
+                    },
+                    {
+                      "heading": "Opportunity",
+                      "detail": "Weak internal controls create opportunity. If one person can do everything, they may commit fraud."
+                    },
+                    {
+                      "heading": "Rationalisation",
+                      "detail": "People justify their actions. They may believe everyone else is doing it. They may think they are underpaid."
+                    },
+                    {
+                      "heading": "Capacity",
+                      "detail": "A person's position gives them power. They can use this power to commit fraud. They may be able to detect loopholes."
+                    },
+                    {
+                      "heading": "Absence of a fraud strategy",
+                      "detail": "If there is no strategy to stop fraud, people may take a chance. Enforcement is slow and often fails to catch people."
+                    }
+                  ],
+                  "conclusion": "Fraud happens when pressure meets opportunity. People then find a way to justify their actions.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 4, 4.1 - Causes of Procurement fraud"
+                }
+              }
+            ]
           }
         ]
       }

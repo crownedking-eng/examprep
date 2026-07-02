@@ -1,0 +1,591 @@
+{
+  "subject": "Procurement Audit",
+  "subjectCode": "PCM 406D",
+  "academicYear": "2024/2025",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "Which principle is central to procurement audit?",
+          "options": [
+            "A. Confidentiality",
+            "B. Transparency",
+            "C. Inflation",
+            "D. Secrecy"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Transparency is a fundamental principle. It means making procurement information open to all stakeholders.",
+          "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an instance where bid rigging occurs?",
+          "options": [
+            "A. The competitors to a contract decide on a winner amongst themselves so that all other suppliers, except the winner they have chosen, intentionally quotes an amount which is higher to artificially make the winner's quotation competitive",
+            "B. Two or more suppliers agree to not compete genuinely with each other so that one supplier may have an automatic chance of being selected for the contract",
+            "C. Some competitors who ordinarily would submit a successful tender or quotation intentionally agree not to tender so that the one they have agreed on already wins the contract",
+            "D. Supplier or tenderer unintentionally withdraws its successful and winning tender to facilitate the winning of the contract by another competitor"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Bid withdrawal must be intentional. If it is unintentional, it is not bid rigging.",
+          "reference": "Unit 3, Session 2, 2.2 - Fraud at the Pre-contract award stage"
+        },
+        {
+          "type": "single",
+          "question": "Which kind of behaviour put up by an employee can raise a flag about a possible fraud occurrence? Employee ______",
+          "options": [
+            "A. living below his or her means",
+            "B. who spends within what he is paid by the organization",
+            "C. has no close association with a contractor or supplier",
+            "D. has excessive power and control"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Behavioural red flags include living beyond means and having excessive power and control.",
+          "reference": "Unit 3, Session 5, 5.10 - Behaviour red flags"
+        },
+        {
+          "type": "single",
+          "question": "Procurement audit promotes ______",
+          "options": [
+            "A. monopoly",
+            "B. transparency and accountability",
+            "C. corruption",
+            "D. price fixing"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Procurement audit helps ensure transparency and accountability. It prevents fraud and waste.",
+          "reference": "Unit 1, Session 1, 1.2 - Significance of procurement audit"
+        },
+        {
+          "type": "single",
+          "question": "Which of these is a tool used in procurement audit?",
+          "options": [
+            "A. Procurement audit checklist",
+            "B. Tax calculator",
+            "C. Payroll software",
+            "D. GPS tracker"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Auditors use checklists and audit questionnaires. These help develop specific audit steps.",
+          "reference": "Unit 4, Session 2, 2.1 - Staff involved in Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "In procurement audit, 'compliance' refers to ______",
+          "options": [
+            "A. adhering to procurement laws and regulations",
+            "B. following market trends only",
+            "C. satisfying supplier demands",
+            "D. avoiding procurement completely"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Compliance means following procurement laws and regulations. It is a key reason for carrying out audits.",
+          "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "Audit risk may manifest in any one of the following except ______.",
+          "options": [
+            "A. not gathering appropriate audit evidence",
+            "B. being deliberately misled by those providing the evidence",
+            "C. misinterpreting",
+            "D. being deliberately diligent"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Audit risk arises from not gathering evidence, being misled, or misinterpreting. Being diligent prevents these risks.",
+          "reference": "Unit 2, Session 2, 2.1 - What is Audit Risk?"
+        },
+        {
+          "type": "single",
+          "question": "An organization created from a formal agreement between a group of producers of a good or service to regulate supply in order to manipulate prices is referred to as ______.",
+          "options": [
+            "A. Partnership",
+            "B. Joint venture",
+            "C. Cartel",
+            "D. Merger"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A cartel is a formal agreement between producers. They work together to control supply and fix prices.",
+          "reference": "Unit 6, Session 5, 5.1 - Cartels"
+        },
+        {
+          "type": "single",
+          "question": "The illegal practice in which competing parties in bidding process conspire to choose the winner of a bidding process while others submit uncompetitive bids is called ______.",
+          "options": [
+            "A. Bid rotation",
+            "B. Tender rotation",
+            "C. Vender collusion",
+            "D. Buyback"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Vendor collusion is when suppliers work together to fix the bidding outcome. Bid rotation is one type of collusion.",
+          "reference": "Unit 3, Session 2, 2.2 - Fraud at the Pre-contract award stage"
+        },
+        {
+          "type": "single",
+          "question": "The main purpose of audit reporting is to ______.",
+          "options": [
+            "A. hide weaknesses",
+            "B. present findings and recommendations",
+            "C. terminate suppliers",
+            "D. increase procurement budgets"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The audit report presents findings and recommendations. It helps the organisation improve.",
+          "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "Procurement audits cover ______.",
+          "options": [
+            "A. only government institutions",
+            "B. public and private sector procurement",
+            "C. only donor-funded projects",
+            "D. only emergency purchases"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Procurement audits are done in both public and private sectors. They are not limited to government institutions.",
+          "reference": "Unit 3, Session 1, 1.1 - Procurement fraud"
+        },
+        {
+          "type": "single",
+          "question": "A procurement audit ensures compliance with ______.",
+          "options": [
+            "A. labour laws",
+            "B. procurement regulations",
+            "C. international trade laws only",
+            "D. tax laws"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Procurement audit ensures compliance with procurement laws and regulations. This is a key objective.",
+          "reference": "Unit 1, Session 1, 1.2 - Significance of procurement audit"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a purpose of contract review and award?",
+          "options": [
+            "A. Provides a dependent review of recommendations for contract or purchase orders",
+            "B. Ensures that the procurement process is fairly conducted",
+            "C. Ensures that appropriate policies and procedures are followed",
+            "D. Confirms the necessary budget for the contractual commitment is available"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The review must be independent, not dependent. The other options are all correct purposes.",
+          "reference": "Unit 5, Session 6, 6.2 - Purpose of Contract Review and Award"
+        },
+        {
+          "type": "single",
+          "question": "A procurement audit can help detect ______.",
+          "options": [
+            "A. Tax evasion",
+            "B. Procurement fraud",
+            "C. Product warranties",
+            "D. Employee lateness"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Procurement audit detects and prevents procurement fraud. This is a core purpose of the audit.",
+          "reference": "Unit 1, Session 1, 1.2 - Significance of procurement audit"
+        },
+        {
+          "type": "single",
+          "question": "The final report of a procurement audit should be ______.",
+          "options": [
+            "A. Biased towards management",
+            "B. Objective and evidence-based",
+            "C. Focused only on supplier praise",
+            "D. Kept secret from stakeholders"
+          ],
+          "correctAnswer": "B",
+          "explanation": "An audit report must be objective. It should be based on evidence, not personal opinion.",
+          "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "Which stage comes immediately after the audit fieldwork?",
+          "options": [
+            "A. Planning",
+            "B. Reporting",
+            "C. Contract signing",
+            "D. Contract awarding"
+          ],
+          "correctAnswer": "B",
+          "explanation": "After fieldwork, the auditor reports the findings. Planning comes before fieldwork.",
+          "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "The acts committed at a high level of government that distort policies or the central function of the state, enabling leaders to benefit at the expense of the public good is called ______ corruption.",
+          "options": [
+            "A. Grand",
+            "B. Petty",
+            "C. Social",
+            "D. Construction"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Grand corruption happens at high levels of government. It distorts policies and benefits leaders.",
+          "reference": "Unit 6, Session 1, 1.1 - Corruption"
+        },
+        {
+          "type": "single",
+          "question": "A strategic concept that covers the whole procurement cycle including planning, formation, execution and closed out of a contract is called ______.",
+          "options": [
+            "A. Contract administration",
+            "B. Procurement management",
+            "C. Contract management",
+            "D. Strategic management"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Contract management is a strategic concept. It covers the whole procurement cycle from planning to close out.",
+          "reference": "Unit 5, Session 6, 6.4 - Contract Management"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a benefit of sustainable procurement?",
+          "options": [
+            "A. Enhanced customer perception",
+            "B. Improved risk management",
+            "C. Compliance with regulation",
+            "D. Higher cost"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Sustainable procurement leads to reduced cost, not higher cost. The other options are all benefits.",
+          "reference": "Unit 4, Session 5, 5.5 - Benefits of Sustainable Procurement"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a driver for sustainable procurement?",
+          "options": [
+            "A. Cost reduction",
+            "B. Risk reduction",
+            "C. Revenue growth",
+            "D. Supplier collaboration"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The drivers are cost reduction, risk reduction, and revenue growth. Supplier collaboration is not a driver.",
+          "reference": "Unit 4, Session 5, 5.2 - Drivers of Sustainable Procurement"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Procurement audit planning involves the process of preparing and organising an audit of procurement activities, systems and processes. Discuss the relevant steps involved in such planning.",
+                "marks": 20,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Planning a procurement audit follows clear steps. These steps ensure the audit is thorough and efficient.",
+                  "mainPoints": [
+                    {
+                      "heading": "Basic discussions with the client",
+                      "detail": "Discuss the nature of the engagement. Learn about the client's business and industry."
+                    },
+                    {
+                      "heading": "Review of audit documentation",
+                      "detail": "Review previous audit files. This helps outline the new audit programme."
+                    },
+                    {
+                      "heading": "Ask about recent developments",
+                      "detail": "Ask about mergers or new product lines. These changes affect the audit approach."
+                    },
+                    {
+                      "heading": "Analyse interim procurement records",
+                      "detail": "Check procurement records. Look for transactions that differ from expectations."
+                    },
+                    {
+                      "heading": "Identify non-audit personnel",
+                      "detail": "Consult other staff who have served the client. This provides more information about the client."
+                    },
+                    {
+                      "heading": "Determine staffing",
+                      "detail": "Decide who will work on the audit. Hold a meeting to discuss the engagement."
+                    },
+                    {
+                      "heading": "Determine timing of procedures",
+                      "detail": "Plan when to do each part of the audit. Some testing must be done at specific times."
+                    },
+                    {
+                      "heading": "Determine outside assistance needs",
+                      "detail": "Decide if a specialist is needed. This could be an IT professional or tax expert."
+                    },
+                    {
+                      "heading": "Review pronouncements",
+                      "detail": "Read relevant audit guidelines. This helps develop complete audit programmes."
+                    },
+                    {
+                      "heading": "Schedule with the client",
+                      "detail": "Coordinate activities with the client. This ensures schedules are ready when needed."
+                    }
+                  ],
+                  "conclusion": "These steps set the foundation for the audit. They help the auditor plan effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four professional and legal requirements for procurement auditing.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Procurement auditing must follow professional and legal requirements. These ensure the audit is trustworthy.",
+                  "mainPoints": [
+                    {
+                      "heading": "Professional Code of Due Skill, Care and Competence",
+                      "detail": "The auditor must work with skill and care. They must respect technical and professional standards."
+                    },
+                    {
+                      "heading": "Professional Code of Integrity",
+                      "detail": "The auditor must be honest and fair. They should avoid anything that could harm their reputation."
+                    },
+                    {
+                      "heading": "Professional Code of Objectivity and Independence",
+                      "detail": "The auditor must be unbiased. They must not let personal feelings influence their work."
+                    },
+                    {
+                      "heading": "Professional Duty of Confidence",
+                      "detail": "The auditor must keep client information secret. They cannot share it without permission."
+                    }
+                  ],
+                  "conclusion": "These requirements protect the auditor and the client. They build trust in the audit process.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.1 - Professional and Legal Requirements for Procurement Auditing"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss five malpractices that could be detected by procurement audit professionals.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Procurement auditors look for specific malpractices. These are common ways fraud is committed.",
+                  "mainPoints": [
+                    {
+                      "heading": "Over Invoicing",
+                      "detail": "The supplier and buyer agree to increase the price. The price is higher than the correct one."
+                    },
+                    {
+                      "heading": "Information Disclosure",
+                      "detail": "A buyer gives a supplier confidential tender information. This includes prices quoted by other suppliers."
+                    },
+                    {
+                      "heading": "Purchasing of Non-Delivery",
+                      "detail": "Goods are bought but never delivered. This happens when the seller and buyer work together."
+                    },
+                    {
+                      "heading": "Over-estimate of Demand",
+                      "detail": "A professional overstates the need for an item. This makes the order larger than required."
+                    },
+                    {
+                      "heading": "Teaming up against some suppliers",
+                      "detail": "Unethical suppliers force a buyer to only use them. They team up against other suppliers."
+                    }
+                  ],
+                  "conclusion": "Procurement auditors must be alert to these malpractices. They help prevent fraud and save money.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.2 - Malpractice to Be Detected By Procurement Audit Professional"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss five indicators that show procurement fraud may be occurring.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Red flags are signs that fraud may be happening. They do not prove fraud but warn of problems.",
+                  "mainPoints": [
+                    {
+                      "heading": "Limited competition",
+                      "detail": "Only one or two suppliers always bid. This suggests collusion."
+                    },
+                    {
+                      "heading": "Same set of suppliers always participate",
+                      "detail": "The same suppliers appear in every tender. This is a red flag."
+                    },
+                    {
+                      "heading": "Prices are higher than expected",
+                      "detail": "The winning price is much higher than market price. This suggests manipulation."
+                    },
+                    {
+                      "heading": "Tender winners are rotated",
+                      "detail": "Suppliers take turns winning contracts. This is bid rotation."
+                    },
+                    {
+                      "heading": "Supplier is involved in drafting specifications",
+                      "detail": "The supplier writes the requirements. This gives them an unfair advantage."
+                    },
+                    {
+                      "heading": "Employee lives beyond their means",
+                      "detail": "The employee spends more than their salary. This suggests they have other income."
+                    }
+                  ],
+                  "conclusion": "Identifying these red flags helps prevent fraud. Auditors and managers must be vigilant.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 5, 5.1 - Red flags"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss five ethical concepts and principles that guide procurement practices.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Ethical concepts guide procurement practices. They ensure the procurement process is fair and trustworthy.",
+                  "mainPoints": [
+                    {
+                      "heading": "Loyalty",
+                      "detail": "The officer must act in the organisation's interest. They must respect rules and regulations."
+                    },
+                    {
+                      "heading": "Transparency",
+                      "detail": "Information must be open to all stakeholders. Everyone should understand the process."
+                    },
+                    {
+                      "heading": "Integrity",
+                      "detail": "The officer must be honest and have strong moral principles. They should not act for personal gain."
+                    },
+                    {
+                      "heading": "Confidentiality",
+                      "detail": "The officer must keep sensitive information secret. This includes competitor prices and strategies."
+                    },
+                    {
+                      "heading": "Fairness and impartiality",
+                      "detail": "All suppliers must be treated equally. There should be no discrimination or bias."
+                    },
+                    {
+                      "heading": "Due diligence",
+                      "detail": "The officer must carry out duties carefully. They should avoid careless practices."
+                    }
+                  ],
+                  "conclusion": "These principles build trust in the procurement system. They ensure the process is fair for everyone.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 6, 6.2 - Ethical concepts and principles in procurement"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Examine five key steps in the procurement audit process.",
+                "marks": 10,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "The procurement audit process follows key steps. Each step is important for a thorough audit.",
+                  "mainPoints": [
+                    {
+                      "heading": "Purchase order review",
+                      "detail": "The audit reviews a sample of purchase orders. It checks for accuracy and proper authorisation."
+                    },
+                    {
+                      "heading": "Vendor evaluation and selection review",
+                      "detail": "The audit checks how suppliers are chosen. It ensures the process follows the rules."
+                    },
+                    {
+                      "heading": "Internal process review",
+                      "detail": "The audit checks employee functions. It looks at how staff do their work."
+                    },
+                    {
+                      "heading": "Findings and suggestions",
+                      "detail": "The audit reports problem areas. It offers suggestions for improvement."
+                    },
+                    {
+                      "heading": "Entry conference",
+                      "detail": "The audit team meets management. They explain the audit scope and methodology."
+                    },
+                    {
+                      "heading": "Exit conference",
+                      "detail": "The audit team meets management again. They present findings and recommendations."
+                    }
+                  ],
+                  "conclusion": "These steps ensure the audit is thorough. They help the organisation improve its procurement process.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss five challenges that procurement audit officers may face in executing their duties.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Procurement audit officers face many challenges. These can make their work difficult.",
+                  "mainPoints": [
+                    {
+                      "heading": "Lack of cooperation from staff",
+                      "detail": "Audited staff may be uncooperative. They may hide information or delay access."
+                    },
+                    {
+                      "heading": "Incomplete or poor records",
+                      "detail": "Procurement records may be incomplete. This makes it hard to trace transactions."
+                    },
+                    {
+                      "heading": "Political pressure",
+                      "detail": "Officials may pressure the auditor. They may want to hide problems."
+                    },
+                    {
+                      "heading": "Limited resources",
+                      "detail": "The audit team may lack enough staff or money. This limits how much work they can do."
+                    },
+                    {
+                      "heading": "Fear of reprisal",
+                      "detail": "Staff may fear reporting fraud. They may be afraid of losing their jobs."
+                    },
+                    {
+                      "heading": "Complexity of transactions",
+                      "detail": "Procurement can be very complex. This makes fraud harder to detect."
+                    }
+                  ],
+                  "conclusion": "Despite these challenges, auditors must be professional. They must remain independent and thorough.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.1 - Staffing and Unit 3, Session 5, 5.1 - Red flags"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

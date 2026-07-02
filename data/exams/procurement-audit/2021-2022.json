@@ -1,272 +1,606 @@
 {
   "subject": "Procurement Audit",
+  "subjectCode": "PCM 406D",
   "academicYear": "2021/2022",
   "semesters": [
     {
       "semester": "Semester II",
-      "quiz": {
-        "title": "Mid-Semester Quiz",
-        "description": "20 multiple choice questions covering Units 1-3",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "The principle of procurement audit which guide public procurement practitioners to emphasizes on the need to manage public funds with care and due diligence so that prices paid for goods, services and works are acceptable and represent good value for the public funds expended on them is known as ______.",
+          "options": [
+            "A. Openness",
+            "B. Economy",
+            "C. Accountability",
+            "D. Fairness"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Economy means managing public funds carefully. It ensures prices paid give good value for money.",
+          "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "The professional and legal requirement for procurement auditing which says procurement auditing should be carried out professionally with respect to skill, care, diligence and expedition and with proper regard for the technical and professional standards is called ______.",
+          "options": [
+            "A. Professional Code of Integrity",
+            "B. Professional Code of Due Skill, Care and Competence",
+            "C. Professional Code of Objectivity and Independence",
+            "D. Professional Duty of Confidence"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This code requires auditors to work with skill, care, and diligence. They must respect technical and professional standards.",
+          "reference": "Unit 2, Session 5, 5.1 - Professional and Legal Requirements for Procurement Auditing"
+        },
+        {
+          "type": "single",
+          "question": "All the following are ways or issues to avoid when tendering except",
+          "options": [
+            "A. Overlooking risk",
+            "B. Bidding for too many projects",
+            "C. Submitting a compliant bid",
+            "D. Including unnecessary information"
+          ],
+          "correctAnswer": "C",
+          "explanation": "You should submit a compliant bid. It means your bid meets all the requirements. The other options are mistakes to avoid.",
+          "reference": "Unit 5, Session 3, 3.1 - Issues to avoid when tendering"
+        },
+        {
+          "type": "single",
+          "question": "The fourth step for fraud investigation is ______",
+          "options": [
+            "A. Interview whistle-blower",
+            "B. Choose who to investigate",
+            "C. Assess the extent of fraud",
+            "D. Decide to investigate"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The steps are: decide to investigate, assess the extent, choose who to investigate, and then interview the whistle-blower.",
+          "reference": "Unit 3, Session 3, 3.2 - Techniques and Steps for Fraud Investigation"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not a cause of procurement fraud?",
+          "options": [
+            "A. Motivation",
+            "B. Opportunity",
+            "C. Rationalisation",
+            "D. Economy"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The causes are motivation, opportunity, rationalisation, and capacity. Economy is a principle, not a cause of fraud.",
+          "reference": "Unit 3, Session 4, 4.1 - Causes of Procurement fraud"
+        },
+        {
+          "type": "single",
+          "question": "The procurement audit staff requirement which says that a procurement auditor should have knowledge of auditing and public procurement processes, relevant legislation, and code of ethics of auditors is known as ______",
+          "options": [
+            "A. Professional skills",
+            "B. Basic technical skills",
+            "C. Specialists technical skills",
+            "D. Investigatory skills"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Professional skills include knowledge of auditing, procurement, laws, and ethics.",
+          "reference": "Unit 4, Session 1, 1.1 - Procurement audit staff requirements"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a red flag of leaking bid data?",
+          "options": [
+            "A. The contract is unnecessarily re-bid",
+            "B. Overruns",
+            "C. Competing bid information",
+            "D. Winning bid is just above the next highest bid"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Unnecessarily re-bidding a contract is a red flag. It suggests information may have been shared unfairly.",
+          "reference": "Unit 6, Session 2, 2.3 - Detecting Leaking Bid Data"
+        },
+        {
+          "type": "single",
+          "question": "All the following are ways to identify and combat bid rigging except",
+          "options": [
+            "A. Prequalification",
+            "B. Inflating labour",
+            "C. Improper wage rates",
+            "D. Bid suspension"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Prequalification, inflating labour, and improper wage rates are ways to identify bid rigging. Bid suspension is not a combat method.",
+          "reference": "Unit 6, Session 4, 4.2 - Forms of Construction Fraud"
+        },
+        {
+          "type": "single",
+          "question": "An audit procedure which an auditor can rely on to obtain an understanding and gather audit evidence mainly to the real process that clients have engage in with respect to some specific business process is termed as",
+          "options": [
+            "A. Observation",
+            "B. Inspection",
+            "C. Inquiry",
+            "D. Analytical review"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Observation means watching the client's process. It confirms how work is actually done.",
+          "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+        },
+        {
+          "type": "single",
+          "question": "What occurs when an interest of an officer clashes with the interest of the organisation he or she represents?",
+          "options": [
+            "A. Bribery",
+            "B. Conflict of interest",
+            "C. Nepotism",
+            "D. Embezzlement"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Conflict of interest happens when personal interests clash with official duties. The officer may be influenced by personal gain.",
+          "reference": "Unit 4, Session 4, 4.1 - Conflict of interest defined"
+        },
+        {
+          "type": "single",
+          "question": "Any secret agreement among potential rivals not to compete in one form or another is called ______.",
+          "options": [
+            "A. Cartels",
+            "B. Bidding",
+            "C. Rigging",
+            "D. Vendor collusion"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A cartel is a secret agreement between rivals. They agree not to compete with each other.",
+          "reference": "Unit 6, Session 5, 5.1 - Cartels"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is not an advantage of an audit risk approach?",
+          "options": [
+            "A. Control risk may not include all factors",
+            "B. More efficiency way of conducting an audit",
+            "C. The auditors are able to provide justification for the work carried.",
+            "D. This approach helps the auditors to identify high-risk"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Option A is a disadvantage. It highlights a limitation. The other options are advantages.",
+          "reference": "Unit 2, Session 2, 2.1 - Advantages and Disadvantages of the audit risk approach"
+        },
+        {
+          "type": "single",
+          "question": "Organisations that employ the change agent model view ______.",
+          "options": [
+            "A. Auditors as a secondary part of the organization's resource strategy",
+            "B. Auditors as an integral part of the organization's human resource strategy",
+            "C. Shareholders as an integral part of the organization's resource strategy",
+            "D. Top management as an integral part of the organization's resource strategy"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The change agent model sees auditors as key to the human resource strategy. They are corporate change agents.",
+          "reference": "Unit 2, Session 3, 3.1 - Staffing"
+        },
+        {
+          "type": "single",
+          "question": "Audit procedures is also referred to as audit ______.",
+          "options": [
+            "A. programs",
+            "B. directions",
+            "C. tools",
+            "D. assertions"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Audit procedures are also called audit programs. They are the steps auditors follow.",
+          "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+        },
+        {
+          "type": "single",
+          "question": "Audit partners need to approve an audit plan and audit procedures before ______.",
+          "options": [
+            "A. setting the audit strategy",
+            "B. the audit team could perform their testing",
+            "C. the audit team could develop the procedure",
+            "D. setting the auditing path"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The plan and procedures must be approved first. Then the team can start testing.",
+          "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
+        },
+        {
+          "type": "single",
+          "question": "All the following are professional and legal requirements for procurement auditing except ______.",
+          "options": [
+            "A. Professional Code of Integrity",
+            "B. Professional Code of Objectivity",
+            "C. Professional Code of Independence",
+            "D. Professional Code of Personal Self"
+          ],
+          "correctAnswer": "D",
+          "explanation": "The codes are integrity, objectivity, independence, and confidentiality. 'Personal Self' is not a real code.",
+          "reference": "Unit 2, Session 5, 5.1 - Professional and Legal Requirements for Procurement Auditing"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following principles suggest that information on the Procurement Audit must be made available to all Public Procurement stakeholders?",
+          "options": [
+            "A. Transparency",
+            "B. Fairness",
+            "C. Openness",
+            "D. Integrity"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Transparency means making information available to all stakeholders. It is about being open.",
+          "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+        },
+        {
+          "type": "single",
+          "question": "All the following factors must be considered in order to avoid challenges when evaluating tenders except ______.",
+          "options": [
+            "A. Stage one filter",
+            "B. First pass scoring",
+            "C. Avoiding your team",
+            "D. Tender moderation process"
+          ],
+          "correctAnswer": "C",
+          "explanation": "You must prepare your team properly. Avoiding them is the opposite of what you should do.",
+          "reference": "Unit 5, Session 5, 5.3 - Steps to avoid challenges when evaluating tenders"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a likely consequence for fraud?",
+          "options": [
+            "A. Misuse of resources",
+            "B. Bidding agreement",
+            "C. Progress on project",
+            "D. Tendering agreement"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Fraud leads to misuse of resources. It also leads to legal action and disruption.",
+          "reference": "Unit 5, Session 6, 6.5 - Generic list of procurement risk indicators in contract Management"
+        },
+        {
+          "type": "single",
+          "question": "Corruption typically leads to or results in construction projects that are ______.",
+          "options": [
+            "A. Unnecessary",
+            "B. Unsuitable",
+            "C. Dangerous",
+            "D. Unpredictable"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Corruption leads to projects that are unnecessary, unsuitable, or defective. Unnecessary means the project was not needed.",
+          "reference": "Unit 6, Session 1, 1.4 - Impact of Construction Corruption"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
         "questions": [
           {
-            "type": "single",
-            "question": "Which of the following is not part of the Principles of Public Procurement Audit?",
-            "options": [
-              "Reasonability",
-              "Fairness",
-              "Integrity",
-              "Openness"
-            ],
-            "correctAnswer": "A",
-            "explanation": "The key principles are transparency, integrity, economy, openness, fairness, competition, and accountability. Reasonability is not one of them.",
-            "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss the first five steps in planning procurement audit.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Planning a procurement audit follows clear steps. These steps ensure the audit is thorough and efficient.",
+                  "mainPoints": [
+                    {
+                      "heading": "Basic discussions with the client",
+                      "detail": "The auditor discusses the nature of the engagement. They learn about the client's business and industry."
+                    },
+                    {
+                      "heading": "Review of audit documentation",
+                      "detail": "The auditor reviews previous audit files. This helps outline the new audit program."
+                    },
+                    {
+                      "heading": "Ask about recent developments",
+                      "detail": "The auditor asks about mergers or new product lines. These changes affect the audit approach."
+                    },
+                    {
+                      "heading": "Analyse interim procurement records",
+                      "detail": "The auditor checks procurement records. They look for transactions that differ from expectations."
+                    },
+                    {
+                      "heading": "Identify non-audit personnel",
+                      "detail": "The auditor consults other staff who have served the client. This provides more information about the client."
+                    }
+                  ],
+                  "conclusion": "These steps set the foundation for the audit. They help the auditor plan effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain five significance for procurement audit.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Procurement audit is very important for organisations. It brings many benefits.",
+                  "mainPoints": [
+                    {
+                      "heading": "Protects stakeholders",
+                      "detail": "The audit protects investors and shareholders. It shows how their money is spent."
+                    },
+                    {
+                      "heading": "Helps meet objectives",
+                      "detail": "The audit strengthens internal controls. This helps the company achieve its goals."
+                    },
+                    {
+                      "heading": "Gives credibility",
+                      "detail": "The audit is an independent check. It makes procurement records more reliable."
+                    },
+                    {
+                      "heading": "Ensures directors fulfill their obligations",
+                      "detail": "The audit checks directors are following the law. It prevents fraud by employees."
+                    },
+                    {
+                      "heading": "Detects and prevents fraud",
+                      "detail": "The audit finds weaknesses in the system. This helps stop fraud before it happens."
+                    },
+                    {
+                      "heading": "Provides recommendations",
+                      "detail": "The audit suggests ways to improve systems. This helps the company report better."
+                    },
+                    {
+                      "heading": "Ensures compliance",
+                      "detail": "The audit checks records follow laws. This makes comparisons easier."
+                    }
+                  ],
+                  "conclusion": "Procurement audit is essential for good governance. It protects the organisation and builds trust.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1, 1.2 - Significance of procurement audit"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "Evaluation of employee functions during the purchasing process is known as ______",
-            "options": [
-              "Assessment Review",
-              "Internal process review",
-              "Vendor evaluation",
-              "Selection review"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The audit reviews how employees do their jobs. This includes checking if they follow rules and use proper approvals. That is the internal process review.",
-            "reference": "Unit 1, Session 3, 3.1 - Components of Procurement Audit"
+            "label": "Question 2",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss four rules essential in the conduct of a procurement audit.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Procurement auditors must follow strict rules. These rules guide their professional conduct.",
+                  "mainPoints": [
+                    {
+                      "heading": "Code of conduct",
+                      "detail": "The auditor must follow the spirit of the law. They must understand the purpose behind the rules."
+                    },
+                    {
+                      "heading": "Respect for rules and regulations",
+                      "detail": "The auditor must know and follow all rules. They should explain why rules are important."
+                    },
+                    {
+                      "heading": "Integrity",
+                      "detail": "The auditor must act honestly and fairly. They must not compromise the public trust."
+                    },
+                    {
+                      "heading": "Impartiality and fairness",
+                      "detail": "The auditor must be unbiased. They must apply the same standards to all suppliers."
+                    },
+                    {
+                      "heading": "Transparency",
+                      "detail": "The auditor must be open about their work. They should assume their actions can be seen by the public."
+                    }
+                  ],
+                  "conclusion": "These rules build trust in the audit. They ensure the auditor acts professionally.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 6, 6.1 - Rules of Professional Conduct for Procurement Audit"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Examine five consequences of procurement fraud.",
+                "marks": 10,
+                "commandWord": "Examine",
+                "answer": {
+                  "introduction": "Procurement fraud has serious negative consequences. These affect the organisation and the people involved.",
+                  "mainPoints": [
+                    {
+                      "heading": "Loss of revenue",
+                      "detail": "Fraud costs the organisation money. It can lead to paying too much for goods or services."
+                    },
+                    {
+                      "heading": "Debarment of supplier",
+                      "detail": "The supplier may be banned from future contracts. This can happen for up to 5 years or more."
+                    },
+                    {
+                      "heading": "Reputational damage",
+                      "detail": "The fraudster loses their business reputation. Other organisations will not trust them."
+                    },
+                    {
+                      "heading": "Prosecution",
+                      "detail": "Fraudsters can be taken to court. They may face prison sentences and heavy fines."
+                    },
+                    {
+                      "heading": "Loss of job, income and assets",
+                      "detail": "The employee loses their job. They may also lose property acquired through fraud."
+                    }
+                  ],
+                  "conclusion": "Procurement fraud is not worth the risk. The consequences are severe for everyone involved.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 4, 4.6 - Consequences of Procurement Fraud"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "The ratio between an output gained from the business and an input to run a business operation is known as ______",
-            "options": [
-              "Production",
-              "Margin gains",
-              "Operational efficiency",
-              "Business operational gains"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Operational efficiency is the ratio of output to input. It shows how well a business uses its resources.",
-            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
+            "label": "Question 3",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four professional values required of a procurement auditor.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Professional values guide an auditor's behaviour. They ensure the audit is trustworthy.",
+                  "mainPoints": [
+                    {
+                      "heading": "Integrity",
+                      "detail": "The auditor must be honest and fair. They should avoid anything that could harm their reputation."
+                    },
+                    {
+                      "heading": "Objectivity",
+                      "detail": "The auditor must be unbiased. They should not let personal feelings influence their work."
+                    },
+                    {
+                      "heading": "Confidentiality",
+                      "detail": "The auditor must keep client information secret. They cannot share it without proper authority."
+                    },
+                    {
+                      "heading": "Competence",
+                      "detail": "The auditor must have the right skills. They need to understand the business and assess risks."
+                    },
+                    {
+                      "heading": "Professional behaviour",
+                      "detail": "The auditor must follow all laws. They should avoid any action that discredits their work."
+                    }
+                  ],
+                  "conclusion": "These values are essential for all auditors. They build trust in the audit profession.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 1, 1.2 - Professional Values, Ethics and Attitudes"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss four importance of sustainable procurement.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Sustainable procurement is very important for modern businesses. It brings many long-term benefits.",
+                  "mainPoints": [
+                    {
+                      "heading": "Enhanced customer perception",
+                      "detail": "Customers like sustainable companies. This improves the brand image and brings more customers."
+                    },
+                    {
+                      "heading": "Improved risk management",
+                      "detail": "Sustainable procurement reduces risks. It protects the business from environmental and social problems."
+                    },
+                    {
+                      "heading": "Compliance with regulations",
+                      "detail": "Many laws require sustainability. This helps the business stay compliant."
+                    },
+                    {
+                      "heading": "Reduced cost",
+                      "detail": "Sustainability considers whole-life costs. It can reduce energy and overhead expenses."
+                    },
+                    {
+                      "heading": "Competitive advantage",
+                      "detail": "Sustainable companies are industry leaders. They save money and grow revenue."
+                    }
+                  ],
+                  "conclusion": "Sustainable procurement is a smart business practice. It benefits the company, society, and the environment.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 5, 5.5 - Benefits of Sustainable Procurement"
+                }
+              }
+            ]
           },
           {
-            "type": "single",
-            "question": "In risk management, there are two types of events. Which of the following is one of them?",
-            "options": [
-              "Opportunities",
-              "Programs",
-              "Risk assessment",
-              "Risk planning"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Negative events are risks. Positive events are opportunities. So opportunities is the other type of event.",
-            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
-          },
-          {
-            "type": "single",
-            "question": "Negative events can be classified as",
-            "options": [
-              "Problems",
-              "Losses",
-              "Risks",
-              "Failures"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Negative events are classified as risks. Positive events are classified as opportunities.",
-            "reference": "Unit 1, Session 5, 5.1 - Drivers for Procurement Audit"
-          },
-          {
-            "type": "single",
-            "question": "What is the second issue to be considered after the basic discussions with the client in the planning of procurement audit?",
-            "options": [
-              "Interim procurement records",
-              "Ask about recent developments",
-              "Review of audit documentation",
-              "Acknowledgment from client"
-            ],
-            "correctAnswer": "C",
-            "explanation": "After discussing the engagement, the auditor reviews existing audit documentation. This helps build the audit plan.",
-            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
-          },
-          {
-            "type": "single",
-            "question": "A risk arising from carrying out audit work is known as",
-            "options": [
-              "Exposure risk",
-              "Audit risk",
-              "Physical risk",
-              "Work risk"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Audit risk is the risk that arises directly from performing audit work. It is the risk of giving an inappropriate opinion.",
-            "reference": "Unit 2, Session 2, 2.1 - What is Audit Risk?"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following risk depends on the types of business?",
-            "options": [
-              "Control risk",
-              "Avoidable risk",
-              "Inherent risk",
-              "Detection risk"
-            ],
-            "correctAnswer": "C",
-            "explanation": "Inherent risk is the risk of misstatement due to the type of business. It depends on the industry or environment the company operates in.",
-            "reference": "Unit 2, Session 2, 2.1 - Types of Audit Risk"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is not an advantage of an audit risk approach?",
-            "options": [
-              "Control risk may not include all factors.",
-              "More efficiency way of conducting an audit.",
-              "The auditors are able to provide justification for the work carried.",
-              "This approach helps the auditors to identify high-risk."
-            ],
-            "correctAnswer": "A",
-            "explanation": "Option A is a disadvantage. It points out a limitation of the model. The other options are all advantages of using the audit risk approach.",
-            "reference": "Unit 2, Session 2, 2.1 - Advantages and Disadvantages of the audit risk approach"
-          },
-          {
-            "type": "single",
-            "question": "Organisations that employ the change agent model view ______.",
-            "options": [
-              "Auditors as secondary part of the organization's resource strategy",
-              "Auditors as an integral part of the organization's human resource strategy",
-              "Shareholders as an integral part of the organization's resource strategy",
-              "Top management as an integral part of the organization's resource strategy"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The change agent model sees auditors as a key part of the human resource strategy. They are viewed as corporate change agents.",
-            "reference": "Unit 2, Session 3, 3.1 - Staffing"
-          },
-          {
-            "type": "single",
-            "question": "Audit procedures is also referred to as ______.",
-            "options": [
-              "Audit programs",
-              "Audit directions",
-              "Audit tools",
-              "Audit assertions"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Audit procedures and audit programs mean the same thing. They are the steps auditors follow to get evidence.",
-            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
-          },
-          {
-            "type": "single",
-            "question": "Audit partners need to approve an audit plan and audit procedures before ______.",
-            "options": [
-              "Setting the audit strategy",
-              "The audit team could perform their testing",
-              "The audit team could develop the procedure",
-              "Setting the auditing path"
-            ],
-            "correctAnswer": "B",
-            "explanation": "The audit plan and procedures must be approved first. Then the audit team can perform their testing.",
-            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
-          },
-          {
-            "type": "single",
-            "question": "All the following are professional and legal requirements for procurement auditing except ______.",
-            "options": [
-              "Professional code of integrity",
-              "Professional code of objectivity",
-              "Professional code of independence",
-              "Professional code of personal self"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The professional codes are integrity, objectivity, independence, and confidentiality. 'Personal self' is not a real code.",
-            "reference": "Unit 2, Session 5, 5.1 - Professional and Legal Requirements for Procurement Auditing"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following principles suggest that information on the Procurement Audit must be made available to all Public Procurement stakeholders?",
-            "options": [
-              "Transparency",
-              "Fairness",
-              "Openness",
-              "Integrity"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Transparency means making information available to all stakeholders. It is about openness and visibility.",
-            "reference": "Unit 1, Session 2, 2.1 - Fundamental Principles of Public Procurement Audit"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is part of the elements to be considered when embarking on an audit planning?",
-            "options": [
-              "Letter of engagement",
-              "Ethical clearance",
-              "Audit",
-              "Independence"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The size and complexity of the company is a key consideration in audit planning. It helps the auditor know how much work to do.",
-            "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
-          },
-          {
-            "type": "single",
-            "question": "The risk that auditor's substantive procedures do not detect a misstatement that exist in an account balance that could be material is called",
-            "options": [
-              "Control risk",
-              "Detection risk",
-              "Inherent risk",
-              "Accountable risk"
-            ],
-            "correctAnswer": "B",
-            "explanation": "Detection risk is the chance that audit tests fail to find a material misstatement.",
-            "reference": "Unit 2, Session 2, 2.1 - Types of Audit Risk"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is not part of the audit procedures?",
-            "options": [
-              "Inspection",
-              "Recalculation",
-              "Observation",
-              "Booting"
-            ],
-            "correctAnswer": "D",
-            "explanation": "The five audit procedures are analytical review, inquiry, observation, inspection, and recalculation. Booting is not a standard audit procedure.",
-            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
-          },
-          {
-            "type": "single",
-            "question": "Information or data that is used or collected by auditors as part of their audit works to conclude their opinion on whether or not financial statements are prepared in all material respect and in accordance with the applicable financial framework is called?",
-            "options": [
-              "Audit evidence",
-              "Audit transparency",
-              "Inspection",
-              "Audit inquiry"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Audit evidence is all the information auditors collect. They use it to form their opinion on the financial statements.",
-            "reference": "Unit 2, Session 4, 4.1 - Audit Evidence"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following refers to verification or vouching documents?",
-            "options": [
-              "Inspection",
-              "Recalculation",
-              "Observation",
-              "Reassurance"
-            ],
-            "correctAnswer": "A",
-            "explanation": "Inspection means examining documents. This is also called verification or vouching.",
-            "reference": "Unit 2, Session 4, 4.2 - Audit Procedures"
-          },
-          {
-            "type": "single",
-            "question": "Which of the following is not a component of the fraud triangle?",
-            "options": [
-              "Rationalization",
-              "Pressure",
-              "Philosophy",
-              "Opportunity"
-            ],
-            "correctAnswer": "C",
-            "explanation": "The fraud triangle has three components: incentive (pressure), opportunity, and rationalization. Philosophy is not part of it.",
-            "reference": "Unit 3, Session 1, 1.3 - The fraud triangle"
+            "label": "Question 4",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "N/A",
+              "fullText": "N/A",
+              "keyFacts": []
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Discuss four ways to reduce/prevent procurement fraud.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "Preventing fraud is better than dealing with it later. There are several effective ways to do this.",
+                  "mainPoints": [
+                    {
+                      "heading": "Education and Training",
+                      "detail": "Train staff to identify fraud. They need to know what it is and how to report it."
+                    },
+                    {
+                      "heading": "Whistle blowing",
+                      "detail": "Set up a hotline for reporting suspicious behaviour. This helps catch fraud early."
+                    },
+                    {
+                      "heading": "Surprise Audits",
+                      "detail": "Conduct audits without warning. This keeps staff on their toes."
+                    },
+                    {
+                      "heading": "Screening of prospective employees",
+                      "detail": "Check backgrounds before hiring. Look at criminal history and employment records."
+                    },
+                    {
+                      "heading": "Create effective work culture",
+                      "detail": "Build a culture of integrity. Management must set a good example."
+                    },
+                    {
+                      "heading": "Internal control mechanisms",
+                      "detail": "Segregate duties so one person does not do everything. Have proper authorisation for all transactions."
+                    }
+                  ],
+                  "conclusion": "Prevention is the best way to deal with fraud. It saves money and protects the organisation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 6, 6.1 - Dealing with Procurement Fraud"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain five types of bid rigging.",
+                "marks": 10,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Bid rigging is when suppliers collude to fix the outcome. There are several common types.",
+                  "mainPoints": [
+                    {
+                      "heading": "Cover bid",
+                      "detail": "Competitors decide on a winner. Others quote high prices to make the winner look good."
+                    },
+                    {
+                      "heading": "Bid suppression",
+                      "detail": "Some competitors agree not to bid. This lets the chosen one win."
+                    },
+                    {
+                      "heading": "Non-conforming bids",
+                      "detail": "Suppliers submit bids with unfavourable terms. Their bids are rejected, paving the way for the preferred supplier."
+                    },
+                    {
+                      "heading": "Bid withdrawal",
+                      "detail": "A supplier withdraws a winning bid. This lets another competitor win."
+                    },
+                    {
+                      "heading": "Bid rotation",
+                      "detail": "Competitors take turns winning contracts. They share the business among themselves."
+                    },
+                    {
+                      "heading": "Phantom bidding",
+                      "detail": "Used in auctions, this forces legitimate bidders to pay more."
+                    }
+                  ],
+                  "conclusion": "Bid rigging is illegal and harmful. It destroys competition and costs buyers more money.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 2, 2.2 - Fraud at the Pre-contract award stage"
+                }
+              }
+            ]
           }
         ]
       }
