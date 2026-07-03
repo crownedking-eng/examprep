@@ -252,19 +252,32 @@
           "correctAnswer": "C",
           "explanation": "Reliability relates to consistency of performance. Can the product always perform as expected?",
           "reference": "Unit 6, Session 1, 1.3 - Operations Issues (Quality and Total Quality Management)"
-        }
+        },
+        {
+          "type": "single",
+          "question": "Tracking strategy once it has been implemented, detecting any problem areas, and making any necessary adjustment is ______.",
+          "options": [
+            "A. control",
+            "B. formulation",
+            "C. initiation",
+            "D. execution"
+           ],
+           "correct answer": "A",
+           "explanation": "This is the definition of strategic control. It tracks the strategy after implementation, finds problems, and makes adjustments.",
+           "reference": "Unit 6, Session 5, 5.2 - Strategic Controls"
+           }
       ],
       "sectionB": {
         "format": "grouped",
         "questions": [
           {
             "label": "Question 1",
-            "totalMarks": 18,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "State four ways in which mission statement is important to organizations.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "A mission statement is important for guiding the organisation.",
@@ -293,8 +306,8 @@
               },
               {
                 "label": "B",
-                "question": "Explain each of the following levels of strategy:",
-                "marks": 14,
+                "question": "Explain each of the following levels of strategy: I. Corporate, II. Business, III. Functional",
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Strategies are developed at three different levels in an organisation.",
@@ -321,7 +334,7 @@
           },
           {
             "label": "Question 2",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
@@ -352,7 +365,7 @@
               {
                 "label": "B",
                 "question": "Explain four reasons businesses should act in a socially responsible manner.",
-                "marks": 12,
+                "marks": 16,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Businesses gain many benefits from acting socially responsibly.",
@@ -383,7 +396,7 @@
           },
           {
             "label": "Question 3",
-            "totalMarks": 18,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
@@ -414,7 +427,7 @@
               {
                 "label": "B",
                 "question": "Explain three reasons for the rising international expansion of businesses.",
-                "marks": 9,
+                "marks": 11,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Many companies expand internationally for several key reasons.",
@@ -441,12 +454,12 @@
           },
           {
             "label": "Question 4",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "State four marketing issues which should be given consideration in Strategic Management.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "Marketing issues are important considerations for strategic management.",

@@ -1,6 +1,6 @@
 {
   "subject": "Strategic Management",
-  "subjectCode": "SBU 402",
+  "subjectCode": "SBU 402D1",
   "academicYear": "2020/2021",
   "semesters": [
     {
@@ -8,7 +8,46 @@
       "sectionA": [
         {
           "type": "single",
-          "question": "The roadmap of a company's future especially the direction it is headed is",
+          "question": "The first task of strategic management is ______.",
+          "options": [
+            "A. assessment of the external environment.",
+            "B. formulation of mission statement.",
+            "C. setting of objectives.",
+            "D. setting short term strategies."
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic management begins with formulating the mission. This gives the organisation its purpose and direction.",
+          "reference": "Unit 1, Session 1, 1.2 - The Critical Tasks of Strategic Management"
+        },
+        {
+          "type": "single",
+          "question": "The last stage in strategic management is ______.",
+          "options": [
+            "A. assessment of strategy.",
+            "B. evaluation of strategy.",
+            "C. formulation of strategy.",
+            "D. implementation of strategy."
+          ],
+          "correctAnswer": "B",
+          "explanation": "Evaluation is the final stage of strategic management. Managers review performance and take corrective action.",
+          "reference": "Unit 1, Session 5, 5.1 - Stages of the Strategic Management Process"
+        },
+        {
+          "type": "single",
+          "question": "The strategy formulated by those at the top of organizational hierarchy is ______.",
+          "options": [
+            "A. business.",
+            "B. corporate.",
+            "C. functional.",
+            "D. operational."
+          ],
+          "correctAnswer": "B",
+          "explanation": "Corporate strategy is formulated at the top level. It sets the overall direction for the whole company.",
+          "reference": "Unit 1, Session 4, 4.1 - Corporate Level of Strategy"
+        },
+        {
+          "type": "single",
+          "question": "The roadmap of a company's future especially the direction it is headed is ______.",
           "options": [
             "A. objective",
             "B. mission",
@@ -21,7 +60,7 @@
         },
         {
           "type": "single",
-          "question": "The component of a mission statement that defines where the firm competes is",
+          "question": "The component of a mission statement that defines where the firm competes is ______.",
           "options": [
             "A. customers",
             "B. market",
@@ -34,7 +73,7 @@
         },
         {
           "type": "single",
-          "question": "A business objective stated as \"to increase overall sales to decrease the risk of business failure\" is ______",
+          "question": "A business objective stated as \"to increase overall sales to decrease the risk of business failure\" is ______.",
           "options": [
             "A. corporate image",
             "B. market growth",
@@ -47,7 +86,7 @@
         },
         {
           "type": "single",
-          "question": "A feature of an objective that makes it useful is ______",
+          "question": "A feature of an objective that makes it useful is ______.",
           "options": [
             "A. achievable",
             "B. measurable",
@@ -60,7 +99,7 @@
         },
         {
           "type": "single",
-          "question": "The responsibility of a business to follow the generally held beliefs and how to act in a society is ______",
+          "question": "The responsibility of a business to follow the generally held beliefs and how to act in a society is ______.",
           "options": [
             "A. economic",
             "B. discretionary",
