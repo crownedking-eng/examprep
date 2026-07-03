@@ -272,7 +272,7 @@
         "questions": [
           {
             "label": "Question 1",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
@@ -307,7 +307,7 @@
               {
                 "label": "B",
                 "question": "Identify four areas in which a company can set objectives, giving an example in each case.",
-                "marks": 12,
+                "marks": 16,
                 "commandWord": "Identify",
                 "answer": {
                   "introduction": "Companies set objectives in several key areas to guide performance.",
@@ -400,7 +400,7 @@
           },
           {
             "label": "Question 3",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
@@ -427,7 +427,7 @@
               {
                 "label": "B",
                 "question": "Explain three finance functions which are useful in strategic management.",
-                "marks": 8,
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Finance functions help managers implement and control strategies.",
@@ -454,12 +454,12 @@
           },
           {
             "label": "Question 4",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "State four responsibilities of the Board of Directors.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "The Board of Directors has important responsibilities in the organisation.",
