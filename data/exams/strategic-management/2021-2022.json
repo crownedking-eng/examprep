@@ -272,12 +272,12 @@
         "questions": [
           {
             "label": "Question 1",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "What is strategic management?",
-                "marks": 4,
+                "marks": 3,
                 "commandWord": "Define",
                 "answer": {
                   "introduction": "Strategic management is the process of setting and achieving organisational goals.",
@@ -299,7 +299,7 @@
               {
                 "label": "B",
                 "question": "Outline three features of typical strategic issues in organizations.",
-                "marks": 6,
+                "marks": 9,
                 "commandWord": "Outline",
                 "answer": {
                   "introduction": "Strategic issues are important decisions that affect the organisation's future.",
@@ -325,7 +325,7 @@
               {
                 "label": "C",
                 "question": "State four non-financial benefits of strategic management to organizations.",
-                "marks": 6,
+                "marks": 8,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "Non-financial benefits help the organisation work better and grow stronger.",
@@ -356,7 +356,7 @@
           },
           {
             "label": "Question 2",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
@@ -390,7 +390,7 @@
               },
               {
                 "label": "B",
-                "question": "Write an example of how organizational objectives can be stated for each of the following:",
+                "question": "Write an example of how organizational objectives can be stated for each of the following: i. Markets, ii. Physical facilities , iii. Customer service",
                 "marks": 6,
                 "commandWord": "Write example",
                 "answer": {
@@ -417,7 +417,7 @@
               {
                 "label": "C",
                 "question": "State five concerns businesses should have for their employees.",
-                "marks": 6,
+                "marks": 10,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "Businesses have important responsibilities toward their employees.",
@@ -452,11 +452,11 @@
           },
           {
             "label": "Question 3",
-            "totalMarks": 18,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Explain each of the following internationally oriented strategies:",
+                "question": "Explain each of the following internationally oriented strategies: i. Direct investment, ii. Exporting, iii. Joint venture",
                 "marks": 9,
                 "commandWord": "Explain",
                 "answer": {
@@ -483,7 +483,7 @@
               {
                 "label": "B",
                 "question": "Explain two advantages of global diversification.",
-                "marks": 4,
+                "marks": 6,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Global diversification means spreading business across different countries.",
@@ -532,12 +532,12 @@
           },
           {
             "label": "Question 4",
-            "totalMarks": 14,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "Explain four advantages of organizational policies.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Policies are guidelines that help managers make decisions.",
@@ -567,7 +567,7 @@
               {
                 "label": "B",
                 "question": "With the aid of a diagram, explain functional organization structure.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "The functional structure groups activities by business function.",
@@ -597,7 +597,7 @@
               {
                 "label": "C",
                 "question": "State four problems managers face when implementing strategic management.",
-                "marks": 6,
+                "marks": 4,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "Implementing strategic management can be challenging for managers.",
