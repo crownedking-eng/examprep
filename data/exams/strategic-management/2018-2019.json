@@ -270,12 +270,12 @@
         "questions": [
           {
             "label": "Question 1",
-            "totalMarks": 12,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "State four (4) activities in strategy formulation.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "Strategy formulation is the process of designing and selecting strategies.",
@@ -305,7 +305,7 @@
               {
                 "label": "B",
                 "question": "Explain four (4) dimensions of strategic issues.",
-                "marks": 8,
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Strategic issues are important decisions that affect the organisation's future.",
@@ -336,7 +336,7 @@
           },
           {
             "label": "Question 2",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
@@ -366,8 +366,8 @@
               },
               {
                 "label": "B",
-                "question": "Explain two (2) areas of social responsibility concern of business to each of the following stakeholders.",
-                "marks": 12,
+                "question": "Explain two (2) areas of social responsibility concern of business to each of the following stakeholders: i. Consumers, ii. Employees, iii. Environment iv. Society in general",
+                "marks": 16,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Businesses have social responsibilities toward different stakeholder groups.",
@@ -398,12 +398,12 @@
           },
           {
             "label": "Question 3",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
-                "label": "A",
+                "label": "A. i.",
                 "question": "Explain two (2) generic strategies.",
-                "marks": 4,
+                "marks": 6,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Generic strategies are core ideas for how a firm can compete.",
@@ -423,9 +423,9 @@
                 }
               },
               {
-                "label": "B",
+                "label": "A. ii.",
                 "question": "Explain two (2) concentration strategies.",
-                "marks": 4,
+                "marks": 6,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Concentration strategies focus on growing within the current business.",
@@ -445,7 +445,7 @@
                 }
               },
               {
-                "label": "C",
+                "label": "B",
                 "question": "State four (4) guidelines that help determine what makes a resource valuable.",
                 "marks": 8,
                 "commandWord": "State",
@@ -478,12 +478,12 @@
           },
           {
             "label": "Question 4",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "State four (4) advantages of written policies.",
-                "marks": 8,
+                "marks": 10,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "Policies are guidelines that help managers make decisions.",
@@ -513,7 +513,7 @@
               {
                 "label": "B",
                 "question": "Identify and explain three (3) financial control tools.",
-                "marks": 8,
+                "marks": 10,
                 "commandWord": "Identify and explain",
                 "answer": {
                   "introduction": "Financial control tools help managers monitor and manage company finances.",
