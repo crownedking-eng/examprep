@@ -272,12 +272,12 @@
         "questions": [
           {
             "label": "Question 1",
-            "totalMarks": 12,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "Identify and explain the levels of Strategic Management.",
-                "marks": 6,
+                "marks": 8,
                 "commandWord": "Identify and explain",
                 "answer": {
                   "introduction": "Strategic management happens at three levels in an organisation.",
@@ -303,7 +303,7 @@
               {
                 "label": "B",
                 "question": "Explain four (4) guidelines for effective Strategic Management.",
-                "marks": 6,
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Effective strategic management requires following certain guidelines.",
@@ -334,7 +334,7 @@
           },
           {
             "label": "Question 2",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
@@ -369,7 +369,7 @@
               {
                 "label": "B",
                 "question": "Explain four (4) responsibilities of businesses as expressed by Carroll.",
-                "marks": 8,
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Carroll says businesses have four main responsibilities to society.",
@@ -400,12 +400,12 @@
           },
           {
             "label": "Question 3",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "Explain three (3) reasons to justify industry and competitive analysis.",
-                "marks": 6,
+                "marks": 8,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Industry and competitive analysis helps companies understand their business environment.",
@@ -430,8 +430,8 @@
               },
               {
                 "label": "B",
-                "question": "Explain each of the following strategies:",
-                "marks": 10,
+                "question": "Explain each of the following strategies: i. Market Penetration, ii. Market Development, iii. Product Development, iv. Concentric diversification.",
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Growth strategies help firms expand their operations and market presence.",
@@ -462,7 +462,7 @@
           },
           {
             "label": "Question 4",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
@@ -497,7 +497,7 @@
               {
                 "label": "B",
                 "question": "Explain four (4) human resource functions involved in getting the right people into the right jobs in the right time.",
-                "marks": 8,
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Human resource functions help get the right people in the right jobs.",
