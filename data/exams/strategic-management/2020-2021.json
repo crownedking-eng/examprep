@@ -272,12 +272,12 @@
         "questions": [
           {
             "label": "Question 1",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "State four non-financial benefits organization derive from strategic management.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "Non-financial benefits help the organisation work better and grow stronger.",
@@ -334,12 +334,12 @@
           },
           {
             "label": "Question 2",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "State four reasons to justify the need for written mission statement for an organization.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "A written mission statement is important for guiding the organisation.",
@@ -435,7 +435,7 @@
               {
                 "label": "A",
                 "question": "What is a multinational company?",
-                "marks": 4,
+                "marks": 2,
                 "commandWord": "Define",
                 "answer": {
                   "introduction": "A multinational company operates in more than one country.",
@@ -482,8 +482,8 @@
               },
               {
                 "label": "C",
-                "question": "Explain each of the following strategies:",
-                "marks": 10,
+                "question": "Explain each of the following strategies: i. Market penetration, ii. Market development, iii. Product development, iv. Concentric diversification",
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Growth strategies help firms expand their operations and market presence.",
@@ -514,12 +514,12 @@
           },
           {
             "label": "Question 4",
-            "totalMarks": 12,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "State four ways in which policies aid the implementation of a firm's strategy.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "Policies help guide behaviour during strategy implementation.",
@@ -571,7 +571,7 @@
               {
                 "label": "C",
                 "question": "With the aid of a suitable diagram, explain functional organization structure.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "The functional structure groups activities by business function.",
