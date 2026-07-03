@@ -272,12 +272,12 @@
         "questions": [
           {
             "label": "Question 1",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "Outline four dimensions of strategic decisions.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "Outline",
                 "answer": {
                   "introduction": "Strategic decisions have key characteristics that make them important.",
@@ -306,7 +306,7 @@
               },
               {
                 "label": "B",
-                "question": "State two activities under each of the following stages of the strategic management process:",
+                "question": "State two activities under each of the following stages of the strategic management process: i. Strategic formulation, ii. Strategic implementation, iii. Stategic evaluation",
                 "marks": 12,
                 "commandWord": "State",
                 "answer": {
@@ -334,12 +334,12 @@
           },
           {
             "label": "Question 2",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "What is a mission statement?",
-                "marks": 4,
+                "marks": 2,
                 "commandWord": "Define",
                 "answer": {
                   "introduction": "A mission statement defines the organisation's purpose and direction.",
@@ -399,7 +399,7 @@
               {
                 "label": "C",
                 "question": "Explain four responsibilities of managers of business as outlined by Archie Carroll.",
-                "marks": 6,
+                "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Carroll says businesses have four main responsibilities to society.",
@@ -434,7 +434,7 @@
             "subQuestions": [
               {
                 "label": "A",
-                "question": "Explain each of the following terms as used in strategic management: I. Strength, II. Weakness, III. Opportunity, IV. Threat",
+                "question": "Explain each of the following terms as used in strategic management: i. Strength, ii. Weakness, iii. Opportunity, iv. Threat",
                 "marks": 12,
                 "commandWord": "Explain",
                 "answer": {
@@ -496,12 +496,12 @@
           },
           {
             "label": "Question 4",
-            "totalMarks": 16,
+            "totalMarks": 20,
             "subQuestions": [
               {
                 "label": "A",
                 "question": "State four advantages of policies in a business organisation.",
-                "marks": 4,
+                "marks": 8,
                 "commandWord": "State",
                 "answer": {
                   "introduction": "Policies are guidelines that help managers make decisions.",
