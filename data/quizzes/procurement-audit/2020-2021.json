@@ -28,10 +28,10 @@
               "I, II, III and IV",
               "I, II, IV and III",
               "I, III, II, and IV",
-              "I, I, III, and IV"
+              "II, I, III, and IV"
             ],
-            "correctAnswer": "A",
-            "explanation": "Planning defines what to do, how to do it, when to do it, and who will do it. The order given in the options is A.",
+            "correctAnswer": "C",
+            "explanation": "Planning defines what to do, how to do it, when to do it, and who will do it. The order given in the options is C.",
             "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
           },
           {
