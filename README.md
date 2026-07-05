@@ -1,6 +1,6 @@
 # ExamPrep App
 
-A comprehensive exam preparation app for UCC PSCM Level 400 College of Distance Education (CoDE) students
+A comprehensive exam preparation app for UCC PSCM Level 400 College of Distance Education (CoDE) students.
 
 ## Live Demo
 https://crownedking-eng.github.io/examprep/
