@@ -26,7 +26,7 @@
             "question": "During supplier selection process, what are the characteristics buyers need to look out for to determine the best supplier?\nI. Value for money\nII. Integrity\nIII. Trustworthy\nIV. Monetary guarantee",
             "options": [
               "I and III",
-              "I, II and IV",
+              "I, III and IV",
               "II and IV",
               "I, II and III"
             ],
@@ -151,7 +151,7 @@
           },
           {
             "type": "single",
-            "question": "All the following are factors that trigger need recognition for a new product with the organisation except ______.",
+            "question": "All the following are factors that trigger need recognition for a new product within the organisation except ______.",
             "options": [
               "Enhancing and motivating employees",
               "Change in organization culture",
