@@ -39,7 +39,7 @@
         { "id": "2021-2022", "label": "2021 / 2022", "file": "exams/international-procurement/2021-2022.json", "quizFile": "quizzes/international-procurement/2021-2022.json" },
         { "id": "2022-2023", "label": "2022 / 2023", "file": "exams/international-procurement/2022-2023.json", "quizFile": "quizzes/international-procurement/2022-2023.json" },
         { "id": "2023-2024", "label": "2023 / 2024", "file": "exams/international-procurement/2023-2024.json", "quizFile": "quizzes/international-procurement/2023-2024.json" },
-        { "id": "2024-2025", "label": "2023 / 2024", "file": "exams/international-procurement/2023-2024.json", "quizFile": "quizzes/international-procurement/2023-2024.json" }
+        { "id": "2024-2025", "label": "2024 / 2025", "file": "exams/international-procurement/2024-2025.json", "quizFile": "quizzes/international-procurement/2024-2025.json" }
       ]
     },
     {
