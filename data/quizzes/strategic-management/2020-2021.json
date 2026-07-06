@@ -95,8 +95,8 @@
               "threat",
               "weakness"
             ],
-            "correctAnswer": "A",
-            "explanation": "An opportunity is a favourable factor in the external environment.",
+            "correctAnswer": "B",
+            "explanation": "A strength is a favourable factor in a firm's environment.",
             "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
           },
           {
@@ -114,10 +114,10 @@
           },
           {
             "type": "single",
-            "question": "Primary activities in the value chain begins with ______ inbound logistics.",
+            "question": "Primary activities in the value chain begins with ______.",
             "options": [
+              "inbound logistics",
               "marketing and sales",
-              "operations",
               "operations",
               "outbound logistics"
             ],
