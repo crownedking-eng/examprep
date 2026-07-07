@@ -155,9 +155,9 @@
             "type": "single",
             "question": "When selecting the type of competition, which of the following should be considered by the buying organisation?\nI. Value of the procurement\nII. Market conditions\nIII. Knowledge of the market",
             "options": [
-              "Only",
-              "Only",
-              "Only",
+              "I Only",
+              "II Only",
+              "III Only",
               "I, II and III"
             ],
             "correctAnswer": "D",
@@ -181,9 +181,9 @@
             "type": "single",
             "question": "Based on Kotler and Kelleer's (2012) classification of the buyer-supplier relationship, which of the following forms part of the eight categories\nI. Basic buying and selling\nII. Bare bones\nIII. Customer is king",
             "options": [
-              "Only",
-              "Only",
-              "Only",
+              "I Only",
+              "II Only",
+              "III Only",
               "I, II and III"
             ],
             "correctAnswer": "D",
