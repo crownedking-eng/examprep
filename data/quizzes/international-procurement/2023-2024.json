@@ -92,7 +92,7 @@
             "options": [
               "Exporter",
               "Importer",
-              "Carrier buyer",
+              "Carrier",
               "buyer"
             ],
             "correctAnswer": "D",
