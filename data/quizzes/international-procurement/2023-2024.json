@@ -92,10 +92,11 @@
             "options": [
               "Exporter",
               "Importer",
-              "Carrier buyer"
+              "Carrier buyer",
+              "buyer"
             ],
-            "correctAnswer": "C",
-            "explanation": "The three main parties are exporter, importer, and carrier. The option says 'Carrier buyer' which is not a standard term. The correct party is just 'Carrier'.",
+            "correctAnswer": "D",
+            "explanation": "The three main parties are exporter, importer, and carrier. Buyer is not included.",
             "reference": "Unit 1, Session 3, 3.3 - Parties Involve in International Procurement"
           },
           {
