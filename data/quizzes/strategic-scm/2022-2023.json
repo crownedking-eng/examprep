@@ -104,13 +104,13 @@
             "question": "The contribution of strategic supply chain management to business strategy includes all the following except achieving competitive strategy through",
             "options": [
               "Developing competitive competencies",
-              "Omance's 3Cs model",
+              "Ohmae's 3Cs model",
               "Porter's generic strategies",
               "Strategic planning"
             ],
             "correctAnswer": "B",
-            "explanation": "The name is 'Ohmae's Three Cs,' not 'Omance's.' This is likely a typo, but the model is correctly named in the material.",
-            "reference": "Unit 1, Session 4, 4.3 - The Ohmae's Three Cs"
+            "explanation": "Ohmae's Three Cs are Corporation, Customer and Competition. These forces are balanced by managers to achieve competitive advantage.",
+            "reference": "Unit 1, Session 4, 4.3 - The Ohmae's Three Cs."
           },
           {
             "type": "single",
