@@ -177,13 +177,13 @@
             "type": "single",
             "question": "All the following are characteristics of an effective Chairperson except ______.",
             "options": [
-              "arouse sense of direction",
+              "an obscure sense of direction",
               "good communication skills",
               "business acumen",
               "None of the above"
             ],
-            "correctAnswer": "D",
-            "explanation": "All the options listed are characteristics of an effective Chairperson. They include good communication, clear sense of direction, and business acumen.",
+            "correctAnswer": "A",
+            "explanation": "An effective Chairperson should have a clear sense of direction and not an obscure one. All the other options listed are characteristics of an effective Chairperson.",
             "reference": "Unit 3, Session 2, 2.1 - Characteristics of an Effective Chairperson"
           },
           {
