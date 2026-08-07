@@ -63,7 +63,9 @@
           "question": "Financial ratios which measure the extent to which a firm has been financed by debt are referred to as ______.",
           "options": [
             "A. liquidity",
-            "B. leverage"
+            "B. leverage",
+            "C. activity",
+            "D. profitability"
           ],
           "correctAnswer": "B",
           "explanation": "Leverage ratios measure how much debt the company has. They show the extent of creditor financing.",
