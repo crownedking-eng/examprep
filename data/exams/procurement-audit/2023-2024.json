@@ -166,12 +166,12 @@
           "type": "single",
           "question": "Which are the elements to be considered in preparing a procurement plan?\nI. Size and complexity of the company\nII. The commercial environment in which it operates\nIII. The procedural approach\nIV. The reporting requirements to which it is subject to",
           "options": [
-            "A. I, II and IV only",
+            "A. II, III and IV only",
             "B. I, III and IV only",
             "C. I, II and IV only",
             "D. I, II and III only"
           ],
-          "correctAnswer": "A",
+          "correctAnswer": "C",
           "explanation": "The considerations are size and complexity, commercial environment, method of processing transactions, and reporting requirements. Procedural approach is not listed.",
           "reference": "Unit 2, Session 1, 2.1 - Audit Planning"
         },
