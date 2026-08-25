@@ -704,19 +704,19 @@
                   "mainPoints": [
                     {
                       "heading": "Type 1",
-                      "detail": "Intra sender Conflict - one role sender gives contradictory instructions."
+                      "detail": "Intra sender Conflict - one role sender gives contradictory instructions. E.g. One boss gives conflicting instructions to Finish all reports today but also Attend all four meetings today."
                     },
                     {
                       "heading": "Type 2",
-                      "detail": "Inter sender Conflict - different role senders demand inconsistent behaviours."
+                      "detail": "Inter sender Conflict - different role senders demand inconsistent behaviours. E.g. Manager says work overtime to finish a report, HR boss says no overtime will be allowed this month."
                     },
                     {
                       "heading": "Type 3",
-                      "detail": "Inter role Conflict - two or more roles have inconsistent expectations."
+                      "detail": "Inter role Conflict - two or more roles have inconsistent expectations. E.g. As a manager you are  asked to fire your friend. Two roles clash. Manager vs friend."
                     },
                     {
                       "heading": "Type 4",
-                      "detail": "Intra role (Person-Role) Conflict - role requirements conflict with personal values."
+                      "detail": "Intra role (Person-Role) Conflict - role requirements conflict with personal values. E.g. You are asked to lie to a client but job violates your values ."
                     }
                   ],
                   "conclusion": "These four types show how role conflicts can arise in organisations.",
