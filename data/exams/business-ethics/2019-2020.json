@@ -422,7 +422,7 @@
                 "marks": 4,
                 "commandWord": "State",
                 "answer": {
-                  "introduction": "Board independence has several parts. Each part helps the board act without undue influence.",
+                  "introduction": "Board independence is defined as having no material relationship with the company. Each part of board independence helps the board act without undue influence.",
                   "mainPoints": [
                     {
                       "heading": "Component 1",
@@ -486,28 +486,28 @@
                   "mainPoints": [
                     {
                       "heading": "Criterion 1",
-                      "detail": "Create a skills and experience profile for the potential CEO."
+                      "detail": "How management and the board should interact on an ongoing basis."
                     },
                     {
                       "heading": "Criterion 2",
-                      "detail": "Rank viable candidates against the profile."
+                      "detail": "What each party expects of the other."
                     },
                     {
                       "heading": "Criterion 3",
-                      "detail": "Select the most preferred candidate."
+                      "detail": "The requirements for communication."
                     },
                     {
                       "heading": "Criterion 4",
-                      "detail": "Full board voting to approve the selection."
+                      "detail": "What each party liked or did not like about the previous management."
                     },
                     {
                       "heading": "Criterion 5",
-                      "detail": "Plan the transition with open and honest dialogue. Discuss how management and board will interact. Talk about expectations and communication needs."
+                      "detail": "How the board can support the CEO during both the transition and the tenure."
                     }
                   ],
                   "conclusion": "Good CEO selection uses clear criteria and smooth transition planning.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 5, Session 3, 3.3 and 3.4 - Creating a skill and experience profile, Selection and Approval of the New CEO"
+                  "reference": "Unit 5, Session 3, 3.4 - Selection and Approval of the New CEO"
                 }
               }
             ]
