@@ -328,7 +328,7 @@
                   ],
                   "conclusion": "The Three Cs model helps companies align their strategies with their own capabilities, customer demands, and competitive landscape.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 4, 4.2 - Developing Competitive Competencies"
+                  "reference": "Unit 1, Session 4, 4.3 - The Ohmae's Three Cs"
                 }
               },
               {
@@ -357,7 +357,7 @@
                     }
                   ],
                   "conclusion": "Supply chain management contributes to innovation through collaboration and integration across partners.",
-                  "otherPossibleAnswers": "Customer relationship management helps understand evolving needs. Supply chain integration enables faster response to market changes.",
+                  "otherPossibleAnswers": "Customer relationship management helps understand evolving needs. Supply chain integration enables faster response to market changes. Use of information technology and e-commerce",
                   "reference": "Unit 1, Session 4, 4.2 - Developing Competitive Competencies"
                 }
               }
@@ -386,8 +386,8 @@
                     }
                   ],
                   "conclusion": "Both approaches can be effective depending on the market and the company's capabilities.",
-                  "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 1, Session 4, 4.4 - Porter's Generic Strategy for Competitive Advantage Value and Added Value"
+                  "otherPossibleAnswers": "Focus: Targeting activities to a specific selected segment of the market.",
+                  "reference": "Unit 1, Session 4, 4.4, 4.4.1 - Porter's Generic Strategy for Competitive Advantage Value and Added Value"
                 }
               },
               {
@@ -408,7 +408,7 @@
                     }
                   ],
                   "conclusion": "Both cost leadership and differentiation can be supported by effective supply chain management.",
-                  "otherPossibleAnswers": "N/A",
+                  "otherPossibleAnswers": "Focus Contribution: By matching sourcing, production, inventory, and distribution to the unique needs of the chosen segment.",
                   "reference": "Unit 1, Session 4, 4.4 - Porter's Generic Strategy for Competitive Advantage Value and Added Value"
                 }
               },
@@ -502,25 +502,25 @@
                   "introduction": "Kraljic's matrix categorizes suppliers based on their importance and supply risk. Each category requires a different management approach.",
                   "mainPoints": [
                     {
-                      "heading": "Strategic Suppliers",
+                      "heading": "Strategic Suppliers (Expensive and hard to find items)",
                       "detail": "Build long-term partnerships and collaborate closely."
                     },
                     {
-                      "heading": "Bottleneck Suppliers",
+                      "heading": "Bottleneck Suppliers (Not very expensive, but hard to find item)",
                       "detail": "Ensure supply continuity. Consider alternative sources."
                     },
                     {
-                      "heading": "Leverage Suppliers",
+                      "heading": "Leverage Suppliers (Item is easy to find but costs a lot)",
                       "detail": "Negotiate hard to get the best prices and terms."
                     },
                     {
-                      "heading": "Non-critical Suppliers",
+                      "heading": "Non-critical Suppliers (Easy to find, but of low importance)",
                       "detail": "Keep transactions simple. Use standard procedures."
                     }
                   ],
                   "conclusion": "Different suppliers need different management approaches based on their strategic importance and risk profile.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 2, Session 6, 6.2 - E-Procurement"
+                  "reference": "N/A"
                 }
               }
             ]
