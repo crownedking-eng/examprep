@@ -99,7 +99,7 @@
         },
         {
           "type": "single",
-          "question": "A logistics network that consists of suppliers, manufacturing centres, warehousing, distribution centres, retail outlets, customers as well as raw materials, work-in-progress inventory and finished products that flow between facilities is termed ______.",
+          "question": "A logistics network that consists of suppliers, manufacturing centres, warehousing, distribution centres, retail outlets, customers as well as raw materials, work-in-progress inventory and finished products that flow between facilities is termed ______).",
           "options": [
             "A. Logistics",
             "B. Logistics management",
@@ -430,15 +430,15 @@
                   "mainPoints": [
                     {
                       "heading": "Vertical Relationships",
-                      "detail": "Traditional links between firms in the chain. Examples are retailers, distributors, manufacturers, and suppliers."
+                      "detail": "Traditional links between firms in the chain. Examples are the collaboration between retailers, distributors, manufacturers, and suppliers in the whole sequence or process."
                     },
                     {
                       "heading": "Horizontal Relationships",
-                      "detail": "Business arrangements between firms in parallel positions. They are at the same level of the chain."
+                      "detail": "Business arrangements between firms in parallel positions. They are at the same level of the chain. Example: Cocoa producing countries, Ghana and Côte d'Ivoire form an alliance to control world cocoa prices."
                     },
                     {
                       "heading": "Full Collaboration",
-                      "detail": "Business arrangements that combine both vertical and parallel positions. This is the most integrated type."
+                      "detail": "Business arrangements that combine both vertical and parallel positions. This is the most integrated type. Example: Procus Ghana Ltd. (manufacturers of Kivo Gari) and ShopRite (retailer) share sales forecasts and have pricing agreements."
                     }
                   ],
                   "conclusion": "Understanding these relationship types helps organizations choose the right level of integration.",
@@ -531,7 +531,7 @@
                     },
                     {
                       "heading": "Capital Goods",
-                      "detail": "These are equipment and assets that are not used up quickly. They have long useful lives and depreciate over time."
+                      "detail": "These are equipment and assets that are not used up quickly. They have long useful lives and depreciate over time. Examples are machinery, tools and equipment."
                     }
                   ],
                   "conclusion": "Proper classification of inventory is essential for effective inventory management.",
@@ -569,7 +569,7 @@
                   ],
                   "conclusion": "Organizations must find the right balance between responsiveness and efficiency based on their market needs.",
                   "otherPossibleAnswers": "N/A",
-                  "reference": "Unit 3, Session 2, 2.4 - Why Do Firms Keep Inventory?"
+                  "reference": "N/A"
                 }
               },
               {
