@@ -336,15 +336,15 @@
                   "mainPoints": [
                     {
                       "heading": "Re-examine supplier contracts",
-                      "detail": "Review supply agreements to reduce risk. Consider sharing price risk with suppliers. A good approach is collar pricing which shares risk fairly between both sides."
+                      "detail": "Review supply agreements to share price risk with suppliers using collar pricing. Collar pricing is a price agreement with a floor and a ceiling price range. Payment is made within the range."
                     },
-                    {
+                     {
                       "heading": "Re-evaluate sales contracts",
-                      "detail": "Fixed long-term contracts can cause losses if raw material costs rise. Consider cost indexing so prices rise or fall with material costs. This passes some risk to customers."
+                      "detail": "Fixed long-term contracts can cause losses if raw material costs rise. Consider cost indexing so prices rise or fall with material costs. This is where end-product prices rise and fall based on raw material cost. It passes some of the risk to customers."
                     }
                   ],
                   "conclusion": "These strategies help companies protect themselves from unpredictable price changes. Using a mix of approaches gives the best protection.",
-                  "otherPossibleAnswers": "N/A",
+                  "otherPossibleAnswers": "Make it yourself, Find alternative sources (substitutes), Implement financial hedging (Using futures or traded options)",
                   "reference": "Unit 5, Session 5, 5.2 - Strategies of Managing Price Volatility"
                 }
               }
