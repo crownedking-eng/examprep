@@ -493,7 +493,7 @@
               {
                 "label": "A",
                 "question": "Explain two risks affecting supply chains in international procurement and suggest two ways of mitigating each risk.",
-                "marks": 12,
+                "marks": 8,
                 "commandWord": "Explain",
                 "answer": {
                   "introduction": "Supply chains face many risks when operating internationally. Here are two major risks and how to handle them.",
@@ -531,7 +531,7 @@
               {
                 "label": "B",
                 "question": "Describe the two types of specifications with relevant examples.",
-                "marks": 8,
+                "marks": 6,
                 "commandWord": "Describe",
                 "answer": {
                   "introduction": "Specifications define what you need from a supplier. There are two main types: technical and functional.",
@@ -548,6 +548,28 @@
                   "conclusion": "Technical specifications describe the product itself. Functional specifications describe what the product should do. Both are important for clear communication with suppliers.",
                   "otherPossibleAnswers": "N/A",
                   "reference": "Unit 3, Session 3, 3.1.2 - Types of specifications"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain two types of competitions available in international procurement activity.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "International procurement is a process of acquiring a need from suppliers abroad. There are two types.",
+                  "mainPoints": [
+                    {
+                      "heading": "Open International Competition",
+                      "detail": "This is where all eligible international suppliers are invited to bid. The invitation to bid is publicly advertised to increase transparency and fair access. Mostly used by organisations like the World Bank."
+                    },
+                    {
+                      "heading": "Limited International Competition",
+                      "detail": "This is where only a shortlist of pre-selected international suppliers are invited to bid. Selection is done based on rosters, pre-qualification or market research. Mostly used by UN organisations to save time and focus on capable suppliers."
+                    }
+                  ],
+                  "conclusion": "OIC is open to all suppliers in world whiles LIC is limited to few selected suppliers",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 4, 4.3 - Selecting the Type of Competition"
                 }
               }
             ]
