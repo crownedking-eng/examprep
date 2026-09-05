@@ -1,0 +1,628 @@
+{
+  "subject": "International Procurement",
+  "subjectCode": "PCM 405D",
+  "academicYear": "2025/2026",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "An exporter responds to an importer's enquiry by providing information on price, quality, delivery and conditions of sale. Which document is most appropriate?",
+          "options": [
+            "A. Bill of lading",
+            "B. Quotation",
+            "C. Certificate of origin",
+            "D. Advice note"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A quotation is sent in response to a trade enquiry. It contains details about price, quality, and terms of sale.",
+          "reference": "Unit 4, Session 4, 4.1 - The Import Process and Procedure"
+        },
+        {
+          "type": "single",
+          "question": "Contract administration is the last stage in the international procurement process",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Contract administration is not the last stage. Contract close-out is the final stage. Administration comes before close-out.",
+          "reference": "Unit 3, Session 1, 1.4 - The International Procurement Process"
+        },
+        {
+          "type": "single",
+          "question": "Which document is normally used by an exporter to notify an importer that goods have been dispatched?",
+          "options": [
+            "A. Advice note",
+            "B. Packing list",
+            "C. Proforma invoice",
+            "D. Import licence"
+          ],
+          "correctAnswer": "A",
+          "explanation": "An advice note is sent to inform the buyer that goods have been dispatched. It may also show the expected arrival date.",
+          "reference": "Unit 4, Session 4, 4.1 - The Import Process and Procedure"
+        },
+        {
+          "type": "single",
+          "question": "Which document is generally issued at the initial stage of an international purchasing transaction to indicate the proposed terms of sale?",
+          "options": [
+            "A. Bill of exchange",
+            "B. Bill of lading",
+            "C. Proforma invoice",
+            "D. Certificate of origin"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The proforma invoice is the first document exchanged. It serves as a quote showing proposed terms of sale.",
+          "reference": "Unit 5, Session 1, 1.1 - Types of International Shipping Documents"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is another name for a bank draft commonly used in international trade?",
+          "options": [
+            "A. Bill of exchange",
+            "B. Packing list",
+            "C. Import permit",
+            "D. Certificate of inspection"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A bank draft is also called a bill of exchange. It is a written order to pay money to a specified person.",
+          "reference": "Unit 6, Session 3, 3.2 - Bills of Exchange"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following does not constitute a source or basis of international commercial law?",
+          "options": [
+            "A. International treaties",
+            "B. Lex mercatoria",
+            "C. Domestic customs laws",
+            "D. Demurrage"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Demurrage is a shipping term for delay charges. It is not a source of law. The sources are treaties, lex mercatoria, and domestic customs laws.",
+          "reference": "Unit 5, Session 3, 3.2 - Sources of International Commercial Law"
+        },
+        {
+          "type": "single",
+          "question": "An agreement governing trade between two countries is described as ______ trade agreement.",
+          "options": [
+            "A. Multilateral",
+            "B. Bilateral",
+            "C. Regional",
+            "D. Unilateral"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bilateral trade agreements are between two nations. They give each other favoured trading status.",
+          "reference": "Unit 5, Session 4, 4.1 - Types of Trade Agreements"
+        },
+        {
+          "type": "single",
+          "question": "The international monetary system primarily provides the framework for ______.",
+          "options": [
+            "A. managing domestic taxation",
+            "B. determining exchange rates and facilitating international financial transactions",
+            "C. controlling local retail prices",
+            "D. issuing domestic procurement contracts"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The international monetary system determines exchange rates and accommodates international trade and capital flows.",
+          "reference": "Unit 6, Session 2, 2.3 - International Money Orders"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following represents a relatively secure method of making payment in advance in an international transaction?",
+          "options": [
+            "A. Open account",
+            "B. Wire transfer",
+            "C. Documentary collection",
+            "D. Consignment"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Wire transfer is the most secure and preferred cash-in-advance method. It is almost immediate and safe.",
+          "reference": "Unit 6, Session 3, 3.1 - Wire Transfers"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best describes international procurement?",
+          "options": [
+            "A. Purchasing only from domestic suppliers",
+            "B. Obtaining goods and services from suppliers located outside the buyer's country",
+            "C. Purchasing exclusively from multinational corporations",
+            "D. Restricting sourcing activities to government suppliers"
+          ],
+          "correctAnswer": "B",
+          "explanation": "International procurement means purchasing goods and services from another country. It does not require global integration of suppliers.",
+          "reference": "Unit 1, Session 1, 1.3 - International Procurement"
+        },
+        {
+          "type": "single",
+          "question": "Which activity represents a formal approach to selecting an international supplier?",
+          "options": [
+            "A. Selecting a supplier based only on social media comments",
+            "B. Purchasing from the first supplier identified",
+            "C. Inviting shortlisted suppliers to submit tenders or proposals",
+            "D. Selecting a supplier without established evaluation criteria"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Using tenders or requests for proposals is a formal step. The book stresses having a formal selection process.",
+          "reference": "Unit 1, Session 2, 2.2 - Factors to Consider when Selecting a Supplier from the International Market"
+        },
+        {
+          "type": "single",
+          "question": "A Ghanaian manufacturing company enters a foreign market mainly because one of its major competitors has already established operations there. This represents which sourcing motive?",
+          "options": [
+            "A. Competitive strike",
+            "B. Government incentive",
+            "C. Reciprocity",
+            "D. Economies of scale"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Competitive strike is when a company enters a market because a major competitor has done so. It is a reaction to competitors' moves.",
+          "reference": "Unit 1, Session 3, 3.2 - International Market Sourcing"
+        },
+        {
+          "type": "single",
+          "question": "A Ghanaian university imports advanced laboratory equipment from Europe because the equipment provides students with better features and creates an image of superior quality. Which benefit of international sourcing does this illustrate?",
+          "options": [
+            "A. Perceived value",
+            "B. Increased production capacity",
+            "C. Reduced transportation distance",
+            "D. Lower administrative requirements"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Perceived value means products look high quality but cost less. Customers want products that look expensive but are affordable.",
+          "reference": "Unit 1, Session 5, 5.1 - Benefits of International Sourcing"
+        },
+        {
+          "type": "single",
+          "question": "Why is effective supplier selection particularly important in international procurement? It ______.",
+          "options": [
+            "A. eliminates the need for supplier monitoring",
+            "B. supports long-term cooperation and can improve cost and quality outcomes",
+            "C. guarantees that exchange rates will remain stable",
+            "D. removes the need for procurement planning"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Good supplier selection builds cooperative partnerships. This leads to cost reduction and quality improvement.",
+          "reference": "Unit 1, Session 2, 2.4 - Importance of Supplier Selection"
+        },
+        {
+          "type": "single",
+          "question": "Which group represents the principal parties involved in an international procurement transaction?",
+          "options": [
+            "A. Exporter, importer and carrier",
+            "B. Consumer, retailer and regulator",
+            "C. Wholesaler, retailer and consumer",
+            "D. Manufacturer, retailer and banker"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The book lists the main parties as exporter, importer, and carrier. These are the key players in international procurement.",
+          "reference": "Unit 1, Session 3, 3.3 - Parties Involve in International Procurement"
+        },
+        {
+          "type": "single",
+          "question": "A Ghanaian company importing machinery is affected by a sudden change in government import duties. Which aspect of the business environment should the company primarily monitor?",
+          "options": [
+            "A. Social environment",
+            "B. Economic and government policy environment",
+            "C. Internal organizational environment",
+            "D. Consumer lifestyle environment"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Import duties are part of government economic policy. Understanding economic policy helps businesses anticipate changes.",
+          "reference": "Unit 2, Session 1, 2.2 - Significance of Business Environment"
+        },
+        {
+          "type": "single",
+          "question": "A company planning to market food products in a foreign country must modify its products to comply with local religious practices. Which socio-cultural factor is most relevant?",
+          "options": [
+            "A. Language",
+            "B. Religion",
+            "C. Education",
+            "D. Demographic structure"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Religious practices and dietary laws are based on religion. Religion affects business activity and product requirements.",
+          "reference": "Unit 2, Session 3, 3.2 - Socio-Cultural Elements"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following best explains the importance of procurement planning in international procurement? It ______.",
+          "options": [
+            "A. ensures that all purchases are made at the lowest possible price",
+            "B. enables procurement activities to be coordinated and undertaken at the appropriate time and cost",
+            "C. eliminates all supplier-related risks",
+            "D. removes the need to evaluate international suppliers"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The goal of procurement planning is coordinated action to fulfil needs in a timely manner at reasonable cost.",
+          "reference": "Unit 3, Session 2, 2.1 - Planning in International Procurement"
+        },
+        {
+          "type": "single",
+          "question": "In a request for proposal (RFP), suppliers submit an offer to provide a product or service strictly as described in the solicitation documents, whilst in an invitation to bid (ITB), suppliers may offer alternative approaches to delivering the required product or service.",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "This is the wrong way round. In ITB, suppliers follow the description strictly. In RFP, suppliers can offer alternative approaches.",
+          "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+        },
+        {
+          "type": "single",
+          "question": "Request for quotations (RFQs) are used for high dollar value purchases and well-defined products and services",
+          "options": [
+            "A. True",
+            "B. False"
+          ],
+          "correctAnswer": "B",
+          "explanation": "RFQs are used for low dollar value purchases, not high value. The statement about well-defined products is correct, but the value part is wrong.",
+          "reference": "Unit 3, Session 4, 4.2 - Solicitation Methods"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": {
+              "title": "Ghanaian Manufacturing Company - Chinese Supplier Selection",
+              "fullText": "A Ghanaian manufacturing company intends to purchase packaging materials from a supplier in China. The procurement officer has identified a supplier offering competitive prices. However, the supplier is located in a different regulatory and cultural environment, and the company has concerns about product quality, delivery reliability, payment arrangements, transportation, customs clearance, and possible changes in government import regulations.",
+              "keyFacts": [
+                "Ghanaian manufacturing company needs packaging materials",
+                "Supplier identified in China offering competitive prices",
+                "Concerns about product quality and delivery reliability",
+                "Different regulatory and cultural environment",
+                "Payment arrangements need to be considered",
+                "Transportation and customs clearance challenges",
+                "Possible changes in government import regulations"
+              ]
+            },
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Identify four issues the procurement officer should investigate before selecting the Chinese supplier.",
+                "marks": 8,
+                "commandWord": "Identify",
+                "answer": {
+                  "introduction": "Before choosing a Chinese supplier, the procurement officer must investigate several key issues. Here are four important ones.",
+                  "mainPoints": [
+                    {
+                      "heading": "Product quality",
+                      "detail": "Check if the supplier meets quality standards. Poor quality causes returns and unhappy customers."
+                    },
+                    {
+                      "heading": "Delivery reliability",
+                      "detail": "Investigate if the supplier can deliver on time. Late deliveries disrupt production and cost money."
+                    },
+                    {
+                      "heading": "Payment arrangements",
+                      "detail": "Understand payment terms and methods. Confirm if a letter of credit or other secure method is needed."
+                    },
+                    {
+                      "heading": "Government import regulations",
+                      "detail": "Check Ghana's import duties and regulations. Changes in government policy can increase costs or block shipments."
+                    }
+                  ],
+                  "conclusion": "Investigating these issues helps the company avoid problems and choose the right supplier.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 2, 2.2 - Factors to Consider when Selecting a Supplier from the International Market\nUnit 1, Session 4, 4.1 - Barriers to International Sourcing"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain three risks that the company may face in purchasing from the Chinese supplier and suggest an appropriate mitigation strategy for each.",
+                "marks": 6,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Buying from China comes with several risks. Here are three risks and ways to manage them.",
+                  "mainPoints": [
+                    {
+                      "heading": "Risk 1: Quality problems",
+                      "detail": "What it is: The supplier may cut corners to save costs. Poor quality goods damage your reputation.\nMitigation: Conduct quality inspections before goods leave China. Use a trusted local partner to check quality."
+                    },
+                    {
+                      "heading": "Risk 2: Delivery delays",
+                      "detail": "What it is: Production scheduling issues or shipping problems can cause late deliveries.\nMitigation: Understand lead times for production and shipping. Have backup plans in case of delays."
+                    },
+                    {
+                      "heading": "Risk 3: Changes in government import regulations",
+                      "detail": "What it is: Government policies on import duties or licences can change suddenly.\nMitigation: Monitor government policies regularly. Work with a clearing agent who knows the rules."
+                    }
+                  ],
+                  "conclusion": "Understanding these risks and having mitigation plans helps the company source successfully from China.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.2 - Nature of Risk different in International Trade\nUnit 6, Session 4, 4.1 - Financial Risks, 4.5 - Cargo Risks, 4.6 - Commercial Risks"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Discuss three important stages the company should follow in the international procurement process, from identifying the need to receiving the packaging materials.",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "The international procurement process has several stages. Here are three key stages from start to finish.",
+                  "mainPoints": [
+                    {
+                      "heading": "Stage 1: Procurement Planning",
+                      "detail": "The company identifies a need for packaging materials. It decides what to buy and when. This stage is about recognising a problem that needs a solution."
+                    },
+                    {
+                      "heading": "Stage 2: Solicitation",
+                      "detail": "The company invites qualified suppliers to submit proposals. Methods include RFQ, ITB, or RFP. Shortlisted suppliers are invited to bid."
+                    },
+                    {
+                      "heading": "Stage 3: Contract Administration",
+                      "detail": "Once a supplier is chosen, a contract is signed. The company monitors the supplier's performance. It ensures the supplier delivers on time and meets quality standards."
+                    }
+                  ],
+                  "conclusion": "Following these stages ensures transparency and efficiency. It helps the company get the right materials at the right time.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 1, 1.4 - The International Procurement Process\nUnit 3, Session 4, 4.1 - Solicitation\nUnit 3, Session 6, 6.1 - Contract Administration"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Distinguish between international sourcing and international procurement.",
+                "marks": 4,
+                "commandWord": "Distinguish",
+                "answer": {
+                  "introduction": "International procurement and sourcing are related but different concepts. Here is the key difference.",
+                  "mainPoints": [
+                    {
+                      "heading": "International procurement",
+                      "detail": "International procurement is the complete process of acquiring goods and services from abroad. It covers the whole lifecycle from identifying needs to managing contracts and closing out."
+                    },
+                    {
+                      "heading": "International sourcing",
+                      "detail": "International sourcing is a subsection of procurement. It focuses specifically on finding the best and least expensive suppliers for goods."
+                    }
+                  ],
+                  "conclusion": "Procurement is the big picture process. Sourcing is a specific part about finding suppliers.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1, 1.2 - Sourcing and Procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "State and explain four factors that an organization should consider when selecting an international supplier.",
+                "marks": 8,
+                "commandWord": "State and explain",
+                "answer": {
+                  "introduction": "Choosing the right supplier is very important. Here are four key factors to consider.",
+                  "mainPoints": [
+                    {
+                      "heading": "Recognize the value of good suppliers",
+                      "detail": "Good suppliers are vital for your business. They provide essential goods and services. They can also give market information and help with marketing."
+                    },
+                    {
+                      "heading": "Understand the different supplier types",
+                      "detail": "Businesses deal with different types of suppliers. These include tradespeople, distributors, importers, and manufacturers. Each type needs to be managed differently."
+                    },
+                    {
+                      "heading": "Determine your criteria",
+                      "detail": "You must know your requirements before assessing bids. Common criteria include price, quality, and delivery time. You may also have special requirements like payment methods and guarantees."
+                    },
+                    {
+                      "heading": "Outline your selection process",
+                      "detail": "Use a formal process instead of ad hoc decisions. This ensures you address every criterion. For complex purchases, you might ask for proposals or tenders."
+                    }
+                  ],
+                  "conclusion": "Following these steps helps you find the right supplier. It leads to better products and stronger business relationships.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 2, 2.2 - Factors to Consider when Selecting a Supplier from the International Market"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain two approaches that an organization can adopt to minimize the effects of price fluctuations in international procurement.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Price fluctuations are unpredictable. Companies need strategies to manage this risk. Here are two approaches.",
+                  "mainPoints": [
+                    {
+                      "heading": "Re-examine supplier contracts",
+                      "detail": "Review supply agreements to reduce risk. Consider sharing price risk with suppliers. A good approach is collar pricing which shares risk fairly between both sides."
+                    },
+                    {
+                      "heading": "Re-evaluate sales contracts",
+                      "detail": "Fixed long-term contracts can cause losses if raw material costs rise. Consider cost indexing so prices rise or fall with material costs. This passes some risk to customers."
+                    }
+                  ],
+                  "conclusion": "These strategies help companies protect themselves from unpredictable price changes. Using a mix of approaches gives the best protection.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 5, 5.2 - Strategies of Managing Price Volatility"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Identify and explain the importance of four documents that may be required when clearing imported goods through customs.",
+                "marks": 10,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "Several documents are needed to clear goods at the port. Here are four important documents and why they are needed.",
+                  "mainPoints": [
+                    {
+                      "heading": "Bill of lading",
+                      "detail": "This certifies that goods are in the carrier's charge. It is issued by the shipper and signed by the vessel's master. It is needed to claim the goods."
+                    },
+                    {
+                      "heading": "Certificate of origin",
+                      "detail": "This states where the product was produced. It is obtained from the exporter's country's chamber of commerce. It is needed to verify the product's origin."
+                    },
+                    {
+                      "heading": "Invoice",
+                      "detail": "This is provided by the supplier. It indicates costs, freight, insurance, and other payments due. It is needed to calculate duties and taxes."
+                    },
+                    {
+                      "heading": "Packing list",
+                      "detail": "This describes the contents of each package. It helps customs officials identify goods and verify quantities."
+                    }
+                  ],
+                  "conclusion": "These documents are essential for customs clearance. They prove ownership, value, and origin of the goods.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 5, 5.2 - Port Clearing Documents"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Identify two major risks associated with international sourcing and explain one appropriate mitigation strategy for each.",
+                "marks": 4,
+                "commandWord": "Identify and explain",
+                "answer": {
+                  "introduction": "International sourcing involves several risks. Here are two risks and ways to handle them.",
+                  "mainPoints": [
+                    {
+                      "heading": "Risk 1: Commercial Risks",
+                      "detail": "What it is: This includes lack of market knowledge, product inadaptability, and longer transit time. It is hard to anticipate changes in international markets.\nMitigation: Use avoidance by not selling on credit. Use transference by asking a third party to assume the risk. Use mitigation by doing credit checks. Use acceptance by establishing a contingency fund."
+                    },
+                    {
+                      "heading": "Risk 2: Cargo Risks",
+                      "detail": "What it is: Goods can be damaged, stolen, or lost during transit. Risks include storms, collisions, theft, and fire.\nMitigation: Know minimum security guidelines. Manage the routing carefully. Understand what documentation is required. Ensure contracts are clear."
+                    }
+                  ],
+                  "conclusion": "Understanding these risks and having mitigation plans helps keep supply chains running smoothly.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 4, 4.6 - Commercial Risks and 4.5 - Cargo Risks"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Discuss any two elements of the socio-cultural environment that international procurement managers should consider when sourcing from foreign markets.",
+                "marks": 6,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "The socio-cultural environment includes several factors that affect international business. Here are two key elements.",
+                  "mainPoints": [
+                    {
+                      "heading": "Culture",
+                      "detail": "Culture is the accepted behaviours, customs, and values of a society. Multinational companies are affected by different national cultures. They must adapt their production, marketing, and sales depending on the local culture."
+                    },
+                    {
+                      "heading": "Language",
+                      "detail": "Language diversity creates challenges for companies. Although English is becoming a global business language, it still provokes resistance in many countries. Nonverbal communication like gestures and eye contact also varies. Lack of local language knowledge affects performance."
+                    }
+                  ],
+                  "conclusion": "These socio-cultural elements shape how companies operate internationally. Understanding them helps avoid misunderstandings and build better relationships.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.2 - Socio-Cultural Elements"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four benefits that an organization can derive from international procurement.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "International procurement gives companies many advantages. Here are four key benefits.",
+                  "mainPoints": [
+                    {
+                      "heading": "Perceived value",
+                      "detail": "Products sourced globally can look high quality but cost less. Customers want products that look expensive but are affordable. This helps increase sales."
+                    },
+                    {
+                      "heading": "Greater production capacity",
+                      "detail": "Low-cost countries often have good manufacturing facilities. They can produce large numbers of products quickly. This multiplies your production capacity."
+                    },
+                    {
+                      "heading": "Quality control",
+                      "detail": "A good sourcing partner can handle quality checks for you. They ensure testing and audits are done properly. This gives you peace of mind."
+                    },
+                    {
+                      "heading": "Better value for money",
+                      "detail": "Overseas suppliers often have lower labour and manufacturing costs. This means you can save money compared to domestic sourcing. You can increase your profits."
+                    }
+                  ],
+                  "conclusion": "International sourcing offers clear benefits like cost savings, quality assurance, and better production capacity. It can give companies a competitive edge.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 5, 5.1 - Benefits of International Sourcing"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Discuss the major stages involved in the international procurement process, from identification of requirements to receipt of goods.",
+                "marks": 10,
+                "commandWord": "Discuss",
+                "answer": {
+                  "introduction": "The international procurement process is a series of steps companies follow to buy products from overseas. Here is the step-by-step process.",
+                  "mainPoints": [
+                    {
+                      "heading": "Procurement Planning",
+                      "detail": "This is the first stage. The company identifies a need for a product. It decides what to buy and when. This stage is about recognising a problem that needs a solution."
+                    },
+                    {
+                      "heading": "Solicitation Planning",
+                      "detail": "This stage involves specifying the product requirements. The company documents what it needs. It also identifies potential suppliers who can provide the product."
+                    },
+                    {
+                      "heading": "Solicitation",
+                      "detail": "The company invites qualified suppliers to submit proposals. This is done through methods like RFQ, ITB, or RFP. Shortlisted suppliers are invited to bid."
+                    },
+                    {
+                      "heading": "Source Selection",
+                      "detail": "The company evaluates the offers it receives. It checks which supplier offers the best value for money. The evaluation uses criteria like quality, cost, and delivery."
+                    },
+                    {
+                      "heading": "Contract Administration",
+                      "detail": "Once a supplier is chosen, a contract is signed. The company monitors the supplier's performance. It ensures the supplier meets all requirements."
+                    },
+                    {
+                      "heading": "Contract Close-Out",
+                      "detail": "This is the final stage. The company checks that all obligations have been met. It defines any residual duties like warranties and after-sales service."
+                    }
+                  ],
+                  "conclusion": "This process ensures transparency, fairness, and efficiency. Following these steps helps companies get the right products at the right price.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 1, 1.4 - The International Procurement Process"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Distinguish between customs procedures and customs regulations.",
+                "marks": 2,
+                "commandWord": "Distinguish",
+                "answer": {
+                  "introduction": "Customs procedure and customs regulations are related but different concepts. Here is the difference.",
+                  "mainPoints": [
+                    {
+                      "heading": "Customs regulations",
+                      "detail": "Customs regulations are laws administered and enforced on importation and exportation. They also relate to duties, taxes, and controls on prohibited items."
+                    },
+                    {
+                      "heading": "Customs procedure",
+                      "detail": "Customs procedure are the processes an importer goes through in clearing consignments at ports. These should be predictable and transparent."
+                    }
+                  ],
+                  "conclusion": "Regulations are the laws and rules. Procedures are the steps to follow when clearing goods.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 6, 6.1 - Customs Regulation and Procedures"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
