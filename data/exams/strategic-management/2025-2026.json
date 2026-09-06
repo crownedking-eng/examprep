@@ -1,0 +1,541 @@
+{
+  "subject": "Strategic Management",
+  "subjectCode": "SBU402D",
+  "academicYear": "2025/2026",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "One of the benefits organizations often derive from strategic management is that it ______.",
+          "options": [
+            "A. eliminates the need for future planning",
+            "B. guarantees profits regardless of implementation",
+            "C. removes the role of top management in decision-making",
+            "D. signals that problems may arise before they happen"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Strategic management helps organizations anticipate potential problems before they occur, allowing for proactive rather than reactive management.",
+          "reference": "Unit 1, Session 3, 3.1 - Benefits of Strategic Management"
+        },
+        {
+          "type": "single",
+          "question": "The three main levels of strategic management are ______.",
+          "options": [
+            "A. corporate, business, functional",
+            "B. formulation, implementation, evaluation",
+            "C. national, regional, local",
+            "D. strategic, tactical, operational"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Strategic management operates at three levels: corporate (highest), business (middle), and functional (lowest).",
+          "reference": "Unit 1, Session 4, 4.1, 4.2, 4.3 - Corporate Level, Business Level, Functional Level"
+        },
+        {
+          "type": "single",
+          "question": "At which level of strategic management are managers mainly responsible for translating corporate direction into concrete objectives and strategies for individual strategic business units (SBUs)? ______ level.",
+          "options": [
+            "A. Business",
+            "B. Corporate",
+            "C. Functional",
+            "D. Operational"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Business-level managers translate corporate direction into concrete objectives and strategies for individual SBUs.",
+          "reference": "Unit 1, Session 4, 4.2 - Business Level"
+        },
+        {
+          "type": "single",
+          "question": "An important guideline for effective strategic management is to ______.",
+          "options": [
+            "A. avoid challenging the assumptions underlying current corporate strategy",
+            "B. make the process as complex and formal as possible",
+            "C. keep the strategic management process as simple and non-routine as possible",
+            "D. rely only on numbers and avoid words when explaining strategy"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Strategic management should be kept simple and non-routine to encourage learning, creativity, and flexibility.",
+          "reference": "Unit 1, Session 6, 6.2 - Important Guidelines for Effective Strategic Management"
+        },
+        {
+          "type": "single",
+          "question": "Managers at the functional level of strategic management focus their attention mainly on ______.",
+          "options": [
+            "A. doing the right things (effectiveness)",
+            "B. doing things right (efficiency)",
+            "C. determining which businesses the firm should enter",
+            "D. setting the corporate mission"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Functional managers focus on efficiency—doing things right—by implementing strategies in their specific departments.",
+          "reference": "Unit 1, Session 4, 4.3 - Functional Level"
+        },
+        {
+          "type": "single",
+          "question": "On the Board of Directors Continuum, a board that \"never knows what to do, if anything\" and has no real involvement in strategic management is called a ______ board.",
+          "options": [
+            "A. active participation",
+            "B. catalyst",
+            "C. phantom",
+            "D. rubber stamp"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A phantom board has no real involvement in strategic management and lacks awareness of its role.",
+          "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
+        },
+        {
+          "type": "single",
+          "question": "Archie Carroll's four responsibilities of business, listed in order of priority, are ______.",
+          "options": [
+            "A. economic, legal, ethical, discretionary",
+            "B. ethical, legal, economic, discretionary",
+            "C. discretionary, ethical, legal, economic",
+            "D. legal, economic, discretionary, ethical"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Carroll's pyramid lists responsibilities in order of priority: economic (most basic), legal, ethical, and discretionary (most voluntary).",
+          "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+        },
+        {
+          "type": "single",
+          "question": "Andrew Carnegie's \"Gospel of Wealth\" was based on which two principles?",
+          "options": [
+            "A. profit maximization and shareholder primacy",
+            "B. the charity principle and the stewardship principle",
+            "C. the legal principle and the ethical principle",
+            "D. the competitive principle and the cooperative principle"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Gospel of Wealth was based on the charity principle (voluntary giving) and the stewardship principle (managing resources for the public good).",
+          "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+        },
+        {
+          "type": "single",
+          "question": "Forces in external environment of business can be grouped into ______.",
+          "options": [
+            "A. three",
+            "B. four",
+            "C. five",
+            "D. six"
+          ],
+          "correctAnswer": "C",
+          "explanation": "External environmental forces are typically grouped into five categories: economic, social, political, technological, and legal.",
+          "reference": "Unit 3, Session 1, 1.2 - Key External Forces"
+        },
+        {
+          "type": "single",
+          "question": "SWOT analysis is based on the assumption that a good organizational \"fit\" maximizes strengths and opportunities while minimizing ______.",
+          "options": [
+            "A. customers and suppliers",
+            "B. profits and revenues",
+            "C. weaknesses and threats",
+            "D. market share and growth"
+          ],
+          "correctAnswer": "C",
+          "explanation": "SWOT analysis aims to maximize strengths and opportunities while minimizing weaknesses and threats to achieve organizational fit.",
+          "reference": "Unit 3, Session 4, 4.1 - Meaning of SWOT Analysis"
+        },
+        {
+          "type": "single",
+          "question": "Michael Porter's Value Chain framework divides a firm's activities into two broad categories as ______ activities.",
+          "options": [
+            "A. formulation activities and implementation",
+            "B. financial activities and operational",
+            "C. internal activities and external",
+            "D. primary activities and support"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Porter's Value Chain divides activities into primary activities and support activities that create value for the customer.",
+          "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is one of the five primary activities in Porter's Value Chain?",
+          "options": [
+            "A. human resource management",
+            "B. inbound logistics",
+            "C. procurement",
+            "D. technology development"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Inbound logistics is a primary activity in Porter's Value Chain, involving receiving, storing, and distributing inputs.",
+          "reference": "Unit 3, Session 5, 5.2 - Activities in the Value Chain"
+        },
+        {
+          "type": "single",
+          "question": "The globalization of markets, as described by Hill (2005), refers to ______.",
+          "options": [
+            "A. the merging of historically distinct and separate national markets into one huge global market",
+            "B. the elimination of trade barriers only in developed countries",
+            "C. the standardization of a single world currency",
+            "D. sourcing goods and services from locations around the globe"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Globalization of markets refers to the merging of distinct national markets into one global marketplace.",
+          "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+        },
+        {
+          "type": "single",
+          "question": "Barriers to industry entry that include capital requirements, technological know-how, and access to distribution are classified as ______ barriers.",
+          "options": [
+            "A. exit",
+            "B. intangible",
+            "C. political",
+            "D. tangible"
+          ],
+          "correctAnswer": "D",
+          "explanation": "Capital requirements, technological know-how, and access to distribution are tangible barriers that make entry difficult for new competitors.",
+          "reference": "Unit 3, Session 2, 2.3 - Analyzing the Forces of Competition"
+        },
+        {
+          "type": "single",
+          "question": "According to Michael Porter (1985), how many generic strategies can a firm use to seek competitive advantage?",
+          "options": [
+            "A. three",
+            "B. four",
+            "C. five",
+            "D. six"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Porter identified five generic strategies: low-cost provider, broad differentiation, best-cost provider, focused low-cost, and focused differentiation.",
+          "reference": "Unit 4, Session 1, 1.2 - Generic Strategies"
+        },
+        {
+          "type": "single",
+          "question": "A strategy in which an organization continues pursuing the same or similar objectives, growing at roughly the same rate each year with the same basic products, is called a ______ strategy.",
+          "options": [
+            "A. diversification",
+            "B. growth",
+            "C. retrenchment",
+            "D. stable growth"
+          ],
+          "correctAnswer": "D",
+          "explanation": "A stable growth strategy involves pursuing the same objectives and growing at roughly the same rate with the same basic products.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        },
+        {
+          "type": "single",
+          "question": "Backward vertical integration occurs when a firm ______.",
+          "options": [
+            "A. acquires or gains increased control over distributors",
+            "B. acquires or gains increased control over its suppliers",
+            "C. acquires a direct competitor",
+            "D. sells off part of its business"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Backward vertical integration occurs when a firm acquires or gains increased control over its suppliers.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        },
+        {
+          "type": "single",
+          "question": "Adding new, unrelated products or services (not connected by technology or marketing to existing lines) is called ______.",
+          "options": [
+            "A. concentric diversification",
+            "B. conglomerate diversification",
+            "C. market penetration",
+            "D. horizontal integration"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Conglomerate diversification involves adding new, unrelated products or services not connected to existing lines.",
+          "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+        },
+        {
+          "type": "single",
+          "question": "In the BCG Growth-Share Matrix, an SBU with high relative market share in a low-growth (mature) industry is classified as a ______.",
+          "options": [
+            "A. cash cow",
+            "B. dog",
+            "C. star",
+            "D. question mark"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A cash cow has high market share in a low-growth industry, generating strong cash flow with minimal investment.",
+          "reference": "Unit 4, Session 4, 4.2 - Boston Consulting Group Matrix"
+        },
+        {
+          "type": "single",
+          "question": "The Life Cycle approach to portfolio analysis classifies industries into ______.",
+          "options": [
+            "A. embryonic, growth, mature, ageing",
+            "B. emerging, developing, stable, declining",
+            "C. introduction, growth, maturity, decline",
+            "D. startup, expansion, consolidation, exit"
+          ],
+          "correctAnswer": "C",
+          "explanation": "The product life cycle has four stages: introduction, growth, maturity, and decline.",
+          "reference": "Unit 6, Session 1, 1.2 - Marketing Issues (The Product Life Cycle)"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four importance of objectives in an organization.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Objectives are targets that guide the organisation's activities and provide direction.",
+                  "mainPoints": [
+                    {
+                      "heading": "Provide direction and purpose",
+                      "detail": "Objectives tell the organisation what it wants to achieve, giving meaning to everyone's work and aligning efforts toward common goals."
+                    },
+                    {
+                      "heading": "Drive decision-making and strategy",
+                      "detail": "Objectives help managers choose the right strategies by providing clear criteria for evaluating options and making decisions."
+                    },
+                    {
+                      "heading": "Provide a way to measure performance",
+                      "detail": "Objectives set clear targets to aim for, allowing managers to assess whether the organisation is successful and where improvements are needed."
+                    },
+                    {
+                      "heading": "Motivate employees",
+                      "detail": "Clear objectives give people something to work toward, encouraging better performance, commitment, and teamwork."
+                    }
+                  ],
+                  "conclusion": "Objectives are essential for planning, motivating, and controlling the organisation effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Identify four areas in which a company can set objectives, giving an example in each case.",
+                "marks": 12,
+                "commandWord": "Identify",
+                "answer": {
+                  "introduction": "Companies set objectives in several key areas to guide performance across the organisation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Profitability",
+                      "detail": "Example: \"Increase net profit by 15% in the next fiscal year.\""
+                    },
+                    {
+                      "heading": "Market Share",
+                      "detail": "Example: \"Gain 5% more market share in the domestic market within 12 months.\""
+                    },
+                    {
+                      "heading": "Customer Service",
+                      "detail": "Example: \"Achieve a 95% customer satisfaction rating by the end of the year.\""
+                    },
+                    {
+                      "heading": "Employee Development",
+                      "detail": "Example: \"Train 100% of staff on new software systems within the next quarter.\""
+                    }
+                  ],
+                  "conclusion": "Objectives in these areas help the company achieve its overall mission and strategic goals.",
+                  "otherPossibleAnswers": "Growth, Innovation, Social Responsibility, Operational Efficiency.",
+                  "reference": "Unit 2, Session 3, 3.2 - The Importance of Organisational Objectives"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four responsibilities of the Board of Directors.",
+                "marks": 8,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "The Board of Directors has important governance responsibilities in the organisation.",
+                  "mainPoints": [
+                    {
+                      "heading": "Setting corporate strategy and overall direction",
+                      "detail": "The board helps guide the company's long-term path and approves major strategic decisions."
+                    },
+                    {
+                      "heading": "Hiring and firing the CEO and top management",
+                      "detail": "Succession planning and executive appointment are key board responsibilities."
+                    },
+                    {
+                      "heading": "Controlling, monitoring, and supervising top management",
+                      "detail": "The board checks management's performance and ensures accountability."
+                    },
+                    {
+                      "heading": "Reviewing and approving the use of resources",
+                      "detail": "The board ensures resources are used properly and in the best interests of shareholders."
+                    }
+                  ],
+                  "conclusion": "The board protects shareholder interests and guides the company toward long-term success.",
+                  "otherPossibleAnswers": "Guarding corporate assets, Maintaining the firm's public image.",
+                  "reference": "Unit 2, Session 4, 4.3 - Boards of Directors: Structures, Functions, and Performance"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four human resource functions involved in getting the right people for the right job.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Human resource functions help organisations attract, develop, and retain the right talent.",
+                  "mainPoints": [
+                    {
+                      "heading": "Recruiting and Hiring",
+                      "detail": "This involves finding and selecting qualified employees. Firms must attract people with the right skills, experience, and cultural fit."
+                    },
+                    {
+                      "heading": "Training and Development",
+                      "detail": "This teaches employees new skills and knowledge. Training helps workers add value to the organisation and adapt to changing requirements."
+                    },
+                    {
+                      "heading": "Coaching and Evaluation",
+                      "detail": "This involves day-to-day guidance, feedback, and performance reviews. Managers monitor progress and provide correction to improve performance."
+                    },
+                    {
+                      "heading": "Career Planning",
+                      "detail": "This helps employees develop skills for the future. The company provides opportunities for growth, learning, and advancement."
+                    }
+                  ],
+                  "conclusion": "These functions ensure the organisation has the talent it needs to achieve its strategic objectives.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 3, 3.2 - Human Resource Strategies"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain four responsibilities of business as outlined by Archie Carroll.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Carroll's pyramid outlines four responsibilities of business to society, listed in order of priority.",
+                  "mainPoints": [
+                    {
+                      "heading": "Economic Responsibility",
+                      "detail": "This is the most basic responsibility. Firms must produce goods and services of value and generate profit for owners while contributing to the economy."
+                    },
+                    {
+                      "heading": "Legal Responsibility",
+                      "detail": "Businesses must obey the laws of the land. Laws define what is acceptable behaviour and provide the framework for business operations."
+                    },
+                    {
+                      "heading": "Ethical Responsibility",
+                      "detail": "Firms must follow society's moral beliefs and values. People expect businesses to act ethically, going beyond what the law requires."
+                    },
+                    {
+                      "heading": "Discretionary Responsibility",
+                      "detail": "These are voluntary actions the company chooses to take. Examples include charitable giving, community support, and philanthropic activities."
+                    }
+                  ],
+                  "conclusion": "These four responsibilities show how businesses should contribute to society in a balanced and ethical manner.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 2, Session 5, 5.1 - Social Responsibilities of Strategic Decision Makers"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four modes a company can use to internationalise its operations.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Companies can enter foreign markets through several modes of internationalisation, each with different levels of commitment and risk.",
+                  "mainPoints": [
+                    {
+                      "heading": "Exporting",
+                      "detail": "This is the easiest and cheapest way to enter foreign markets. The company ships products to customers abroad, representing the initial stage of internationalisation."
+                    },
+                    {
+                      "heading": "Licensing and Franchising",
+                      "detail": "The company allows foreign firms to use its patents, trademarks, or business models in exchange for fees or royalties. This requires less investment than direct operations."
+                    },
+                    {
+                      "heading": "Joint Ventures and Strategic Alliances",
+                      "detail": "This involves partnering with foreign firms to create a separate organisation. Partners share ownership, risks, and rewards, combining local knowledge with technology or capital."
+                    },
+                    {
+                      "heading": "Direct Investment (Wholly Owned Operations)",
+                      "detail": "This shows the fullest commitment to a foreign market. The company builds new facilities from scratch or acquires existing firms, giving full control over operations."
+                    }
+                  ],
+                  "conclusion": "Each mode represents a different level of international commitment, from low-risk exporting to high-commitment direct investment.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 3, Session 6, 6.1 - The Nature of Multinational Companies"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "State four advantages of written policies in a business organization.",
+                "marks": 8,
+                "commandWord": "State",
+                "answer": {
+                  "introduction": "Written policies are guidelines that help managers make consistent and effective decisions.",
+                  "mainPoints": [
+                    {
+                      "heading": "Control decisions without direct supervision",
+                      "detail": "Policies limit discretion and guide behaviour clearly, allowing managers to delegate authority while maintaining control."
+                    },
+                    {
+                      "heading": "Promote uniform handling of activities",
+                      "detail": "This reduces favouritism and discrimination by ensuring consistent treatment of similar situations across the organisation."
+                    },
+                    {
+                      "heading": "Ensure quicker decisions",
+                      "detail": "Standard answers to common problems save time and reduce delays in decision-making."
+                    },
+                    {
+                      "heading": "Reduce uncertainty in daily decisions",
+                      "detail": "This provides a foundation for coordinated efforts and helps employees understand what is expected of them."
+                    }
+                  ],
+                  "conclusion": "Policies make organisations run more efficiently and consistently, supporting effective strategy implementation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 1, 1.3 - Developing and Communicating Concise Policies"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Explain four concentration strategies used by companies.",
+                "marks": 12,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Concentration strategies focus on growing within the current business and core markets.",
+                  "mainPoints": [
+                    {
+                      "heading": "Market Penetration",
+                      "detail": "The firm increases market share in existing markets using greater marketing efforts, competitive pricing, or enhanced distribution. This is the least risky growth strategy."
+                    },
+                    {
+                      "heading": "Market Development",
+                      "detail": "The firm introduces existing products to new geographic areas or new customer segments. This can mean entering new regions, countries, or demographic groups."
+                    },
+                    {
+                      "heading": "Product Development",
+                      "detail": "The firm creates new or improved products for its current markets. This keeps the product line fresh and encourages existing customers to buy more."
+                    },
+                    {
+                      "heading": "Horizontal Integration",
+                      "detail": "The firm acquires or merges with competitors in the same industry. This increases market share, reduces competition, and achieves economies of scale."
+                    }
+                  ],
+                  "conclusion": "These strategies help the firm grow without leaving its core business, each offering different levels of risk and opportunity.",
+                  "otherPossibleAnswers": "Vertical Integration (backward or forward).",
+                  "reference": "Unit 4, Session 2, 2.3 - Growth Strategy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
