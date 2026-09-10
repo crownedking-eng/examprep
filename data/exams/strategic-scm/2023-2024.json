@@ -381,7 +381,7 @@
                   "introduction": "IT is vital for modern SCM. It plays key roles in optimizing supply chain operations.",
                   "mainPoints": [
                     {
-                      "heading": "Enables Communication",
+                      "heading": "Enables Ease of Communication",
                       "detail": "IT allows real-time information sharing between partners. This improves coordination and decision-making."
                     },
                     {
@@ -436,7 +436,7 @@
             "caseStudy": null,
             "subQuestions": [
               {
-                "label": "1",
+                "label": "A",
                 "question": "Distinguish between Global sourcing and International Sourcing.",
                 "marks": 4,
                 "commandWord": "Distinguish",
@@ -458,7 +458,7 @@
                 }
               },
               {
-                "label": "2",
+                "label": "B",
                 "question": "In four points each, explain how procurement function can contribute to strategic and operational performance of the organisation?",
                 "marks": 16,
                 "commandWord": "Explain",

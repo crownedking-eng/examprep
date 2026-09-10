@@ -463,12 +463,12 @@
             "label": "Question 4",
             "totalMarks": 20,
             "caseStudy": {
-              "title": "GIDM Outsourcing Decision",
+              "title": "GDM Outsourcing Decision",
               "fullText": "Outsourcing has become a way to increase an organization's flexibility to meet rapidly changing market conditions, focus on core competencies and develop competitive advantage. As a result, the need for procurement and supply management has intensified and positioned supply managers as agents of strategic change critical to supply chain success. GIDM is a multi-national firm with headquarters in Ghana. The company deals in the sale and distribution of mechanized products for agricultural, waste management and other engineering works. Due to its rapid expansion in its logistics activities, the company plans to outsource its transportation and distribution aspects of their supply chain and has already made plans for potential service providers.",
               "keyFacts": [
-                "GIDM is a multi-national firm with headquarters in Ghana.",
+                "GDM is a multi-national firm with headquarters in Ghana.",
                 "The company deals in mechanized products for agricultural, waste management, and engineering works.",
-                "GIDM is experiencing rapid expansion in logistics activities.",
+                "GDM is experiencing rapid expansion in logistics activities.",
                 "The company plans to outsource transportation and distribution functions.",
                 "Potential service providers have already been identified.",
                 "Outsourcing is seen as a way to increase flexibility and focus on core competencies."
@@ -481,11 +481,11 @@
                 "marks": 8,
                 "commandWord": "Advance",
                 "answer": {
-                  "introduction": "Outsourcing means hiring external companies to handle certain activities. GIDM is considering outsourcing its transportation and distribution.",
+                  "introduction": "Outsourcing means hiring external companies to handle certain activities. GDM is considering outsourcing its transportation and distribution.",
                   "mainPoints": [
                     {
                       "heading": "Reasons For Outsourcing",
-                      "detail": "Cost reduction: External providers may be cheaper and more efficient.\nFocus on core business: GIDM can focus on selling and distributing its products.\nAccess to expertise: Transport companies have specialist skills and equipment.\nFlexibility: Outsourcing allows GIDM to scale operations up or down quickly."
+                      "detail": "Cost reduction: External providers may be cheaper and more efficient.\nFocus on core business: GIDM can focus on selling and distributing its products.\nAccess to expertise: Transport companies have specialist skills and equipment.\nFlexibility: Outsourcing allows GDM to scale operations up or down quickly."
                     },
                     {
                       "heading": "Reasons Against Outsourcing",
