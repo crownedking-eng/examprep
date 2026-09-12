@@ -1,0 +1,657 @@
+{
+  "subject": "Strategic Supply Chain Management",
+  "subjectCode": "PCM402",
+  "academicYear": "2025/2026",
+  "semesters": [
+    {
+      "semester": "Semester II",
+      "sectionA": [
+        {
+          "type": "single",
+          "question": "A company competes by promising customers very short delivery times and a wide variety of products. Which supply chain capability should receive the greatest attention?",
+          "options": [
+            "A. Efficiency",
+            "B. Responsiveness",
+            "C. Standardisation",
+            "D. Centralisation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Short delivery times and wide variety mean the company needs to react quickly to customer needs. This is responsiveness. Efficiency is about keeping costs low, not speed.",
+          "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "Strategic fit is achieved when ___________________.",
+          "options": [
+            "A. every supplier is selected on the basis of lowest price",
+            "B. supply chain capabilities support the needs of the competitive strategy",
+            "C. inventory is eliminated throughout the supply chain",
+            "D. procurement decisions are separated from corporate strategy"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic fit means the supply chain does what the business strategy needs it to do. The chain must support the company's competitive plan.",
+          "reference": "Unit 1, Session 2 - Linking Strategy Development to Supply Chains"
+        },
+        {
+          "type": "single",
+          "question": "A retailer establishes several regional distribution centres instead of operating one national warehouse. The most likely result is ___________________.",
+          "options": [
+            "A. increased responsiveness but potentially higher facility cost",
+            "B. lower responsiveness and lower product availability",
+            "C. elimination of inventory costs",
+            "D. reduced customer service levels in all markets"
+          ],
+          "correctAnswer": "A",
+          "explanation": "More distribution centres mean products get to customers faster. But it costs more to build and run many facilities. This is the efficiency vs responsiveness trade-off.",
+          "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "Increasing safety stock is most likely to ___________________.",
+          "options": [
+            "A. increase product availability but raise inventory holding costs",
+            "B. reduce responsiveness and eliminate inventory costs",
+            "C. reduce product availability but improve customer service",
+            "D. eliminate uncertainty in customer demand"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Safety stock means you have extra items in case demand goes up. So products are more available. But holding that extra stock costs money.",
+          "reference": "Unit 3, Session 2, 2.4 - Why Do Firms Keep Inventory?"
+        },
+        {
+          "type": "single",
+          "question": "A procurement manager evaluates suppliers on purchase price, transport, maintenance, quality failures and disposal costs. This approach is based on ___________________.",
+          "options": [
+            "A. market share analysis",
+            "B. total cost of ownership",
+            "C. supplier preferencing",
+            "D. demand aggregation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Total cost of ownership means looking at ALL costs over the life of the item. Not just the purchase price. This manager is doing exactly that.",
+          "reference": "Unit 1, Session 2 - Linking Strategy Development to Supply Chains"
+        },
+        {
+          "type": "single",
+          "question": "Which situation provides the strongest justification for outsourcing an activity?",
+          "options": [
+            "A. The activity is a major source of competitive advantage and internal capability is strong",
+            "B. The activity is non-core and specialist suppliers can perform it more effectively",
+            "C. No external suppliers possess the required capability",
+            "D. The organisation wants complete control over the activity"
+          ],
+          "correctAnswer": "B",
+          "explanation": "You outsource when the activity is not your main business and someone else can do it better. This lets you focus on your core strengths.",
+          "reference": "Unit 5, Session 2, 2.1 - Selecting a Subcontractor"
+        },
+        {
+          "type": "single",
+          "question": "A manufacturer decides to purchase an important component from three qualified suppliers rather than one supplier. The main strategic reason is to ___________________.",
+          "options": [
+            "A. increase dependence on suppliers",
+            "B. reduce supply disruption risk",
+            "C. eliminate supplier competition",
+            "D. increase switching costs"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Using multiple suppliers means if one fails, the others can still supply. This reduces the risk of supply disruption. It is called multi-sourcing.",
+          "reference": "Unit 1, Session 1, 1.4 - Obstacles That Prevent Implementation of SCM Strategies and Operations"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following would be most important when assessing a supplier for a strategically critical item?",
+          "options": [
+            "A. Advertising expenditure",
+            "B. Technical capability and financial stability",
+            "C. Number of sales representatives",
+            "D. Location of the supplier's head office only"
+          ],
+          "correctAnswer": "B",
+          "explanation": "For critical items, you need a supplier who is technically capable and financially stable. They must be reliable for the long term.",
+          "reference": "Unit 4, Session 2 - Models of supplier relationships"
+        },
+        {
+          "type": "single",
+          "question": "A buyer provides technical training and process-improvement assistance to a supplier whose quality performance is poor but whose product is strategically important. This is an example of ___________________.",
+          "options": [
+            "A. supplier development",
+            "B. supplier elimination",
+            "C. competitive tendering",
+            "D. spot purchasing"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Supplier development means helping a supplier improve. You invest time and training because their product is important to you.",
+          "reference": "Unit 4, Session 1 - Planning relationship procurement"
+        },
+        {
+          "type": "single",
+          "question": "Under the Kraljic purchasing portfolio, an item with high profit impact and high supply risk should normally be treated as a ___________________ item.",
+          "options": [
+            "A. routine",
+            "B. leverage",
+            "C. bottleneck",
+            "D. strategic"
+          ],
+          "correctAnswer": "D",
+          "explanation": "High profit impact plus high supply risk equals strategic. These items need close collaboration and long-term partnerships.",
+          "reference": "Unit 4, Session 2 - Models of supplier relationships"
+        },
+        {
+          "type": "single",
+          "question": "Which action is most appropriate for managing a strategic supplier?",
+          "options": [
+            "A. Frequently change the supplier to obtain lower prices",
+            "B. Build a long-term collaborative relationship",
+            "C. Minimise information sharing",
+            "D. Use only short-term spot contracts"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic suppliers are critical to your business. You need a long-term relationship with them. Collaboration and information sharing are key.",
+          "reference": "Unit 4, Session 2 - Models of supplier relationships"
+        },
+        {
+          "type": "single",
+          "question": "A centralised procurement structure is particularly useful when an organisation wants to ___________________.",
+          "options": [
+            "A. maximise independent purchasing by individual departments",
+            "B. combine purchasing volumes and strengthen bargaining power",
+            "C. allow every branch to develop different procurement policies",
+            "D. eliminate coordination between business units"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Centralised procurement means one department buys for the whole company. This gives you bigger order volumes. Bigger volumes mean more bargaining power with suppliers.",
+          "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
+        },
+        {
+          "type": "single",
+          "question": "An organisation allows regional offices to handle routine local purchases while the head office manages strategic and high-value categories. This represents ___________________.",
+          "options": [
+            "A. complete centralisation",
+            "B. complete decentralisation",
+            "C. a hybrid procurement structure",
+            "D. outsourcing"
+          ],
+          "correctAnswer": "C",
+          "explanation": "A hybrid structure mixes centralised and decentralised. Routine items are handled locally. Strategic items are handled at the centre.",
+          "reference": "Unit 1, Session 3, 3.2 - Parties Involved in the Strategic Planning"
+        },
+        {
+          "type": "single",
+          "question": "The main purpose of using a cross-functional team in strategic sourcing is to ___________________.",
+          "options": [
+            "A. make procurement solely responsible for all technical decisions",
+            "B. combine knowledge from different organisational functions",
+            "C. prevent users from participating in supplier selection",
+            "D. reduce communication between departments"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A cross-functional team brings together people from different departments. Each person brings their own knowledge. This leads to better sourcing decisions.",
+          "reference": "Unit 1, Session 2, 2.2.6 - Supplier Relationship Management"
+        },
+        {
+          "type": "single",
+          "question": "A lean supply chain strategy is most appropriate where ___________________.",
+          "options": [
+            "A. demand is highly unpredictable and product life cycles are very short",
+            "B. demand is relatively stable and cost efficiency is important",
+            "C. customers constantly require customised products immediately",
+            "D. supply uncertainty is extremely high"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Lean is about removing waste and keeping costs low. It works best when demand is stable and predictable. You do not need to react to sudden changes.",
+          "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "An agile supply chain is particularly suitable when ___________________.",
+          "options": [
+            "A. demand is predictable and product variety is low",
+            "B. cost reduction is the only competitive priority",
+            "C. demand is volatile and rapid response is important",
+            "D. inventory should always be held at zero"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Agile means being fast and flexible. It is best when demand changes quickly. You need to respond to new market needs fast.",
+          "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management"
+        },
+        {
+          "type": "single",
+          "question": "Early Supplier Involvement is most useful when a buyer wants suppliers to ___________________.",
+          "options": [
+            "A. participate in product or specification development at an early stage",
+            "B. compete only after the product has been fully designed",
+            "C. reduce communication with technical departments",
+            "D. take complete responsibility for customer demand"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Early Supplier Involvement means bringing suppliers in during design. They can suggest better materials or processes before it is too late to change.",
+          "reference": "Unit 1, Session 2, 2.2.7 - Product Development and Commercialization"
+        },
+        {
+          "type": "single",
+          "question": "Which of the following is a major strategic risk associated with global sourcing?",
+          "options": [
+            "A. Exposure to geopolitical and exchange-rate uncertainty",
+            "B. Complete elimination of transportation costs",
+            "C. Guaranteed shorter lead times",
+            "D. Elimination of supplier dependence"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Global sourcing means dealing with different countries. Political problems and currency changes can affect your supply. These are strategic risks.",
+          "reference": "Unit 6, Session 1, 1.5 - Problems with international sourcing"
+        },
+        {
+          "type": "single",
+          "question": "Category management involves ___________________.",
+          "options": [
+            "A. treating every purchase as an independent transaction",
+            "B. grouping related goods and services and developing strategies for managing their total spend",
+            "C. purchasing all goods from one supplier",
+            "D. decentralising all procurement decisions"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Category management means grouping similar items together. Then you create one strategy for that whole group. This helps you manage spending better.",
+          "reference": "Unit 4, Session 2 - Models of supplier relationships"
+        },
+        {
+          "type": "single",
+          "question": "The primary purpose of Supplier Relationship Management is to ___________________.",
+          "options": [
+            "A. manage all suppliers in exactly the same way",
+            "B. obtain long-term value from important supplier relationships",
+            "C. reduce communication with suppliers",
+            "D. replace contracts with informal arrangements"
+          ],
+          "correctAnswer": "B",
+          "explanation": "SRM is about getting the most value from key suppliers. You build strong relationships with them. This gives you better quality, reliability, and innovation.",
+          "reference": "Unit 1, Session 2, 2.2.6 - Supplier Relationship Management"
+        }
+      ],
+      "sectionB": {
+        "format": "grouped",
+        "questions": [
+          {
+            "label": "Question 1",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the meaning of strategic fit in supply chain management.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Strategic fit means the supply chain supports what the business is trying to do.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition",
+                      "detail": "Strategic fit means the supply chain capabilities match the competitive strategy."
+                    },
+                    {
+                      "heading": "Speed Example",
+                      "detail": "If the company competes on speed, the supply chain must be fast."
+                    },
+                    {
+                      "heading": "Cost Example",
+                      "detail": "If the company competes on low cost, the supply chain must be cheap."
+                    },
+                    {
+                      "heading": "Alignment",
+                      "detail": "The chain and the strategy must work together."
+                    }
+                  ],
+                  "conclusion": "Strategic fit ensures the supply chain supports the competitive strategy of the organisation.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management; Unit 1, Session 2 - Linking Strategy Development to Supply Chains"
+                }
+              },
+              {
+                "label": "B",
+                "question": "A Ghanaian retail company has traditionally competed mainly on low prices but now intends to introduce an online service that promises customers same-day delivery of selected products. Explain how any four supply chain drivers should be managed to support the same-day delivery strategy.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The company is moving from low prices to fast delivery. So the supply chain must change to support same-day delivery.",
+                  "mainPoints": [
+                    {
+                      "heading": "Inventory",
+                      "detail": "Hold more stock closer to customers. This helps you deliver fast. But it costs more to hold."
+                    },
+                    {
+                      "heading": "Transportation",
+                      "detail": "Use faster transport modes. Maybe use motorbikes or small vans for city delivery. This is faster but costs more."
+                    },
+                    {
+                      "heading": "Facilities",
+                      "detail": "Put warehouses and distribution centres near customers. This reduces delivery time."
+                    },
+                    {
+                      "heading": "Information",
+                      "detail": "Track orders in real time. Share delivery status with customers. This helps you manage fast deliveries."
+                    }
+                  ],
+                  "conclusion": "Managing these four drivers effectively is essential for supporting the same-day delivery strategy.",
+                  "otherPossibleAnswers": "Sourcing: Use local suppliers to reduce lead time. Pricing: Charge more for same-day delivery to cover the extra cost.",
+                  "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management; Unit 1, Session 2 - Linking Strategy Development to Supply Chains"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain two trade-offs the company is likely to face between supply chain efficiency and responsiveness.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "The company must balance efficiency and responsiveness, which often involve trade-offs.",
+                  "mainPoints": [
+                    {
+                      "heading": "Cost vs Speed",
+                      "detail": "Fast delivery costs more. You need more vehicles, more staff, and more stock. This reduces efficiency."
+                    },
+                    {
+                      "heading": "Inventory vs Availability",
+                      "detail": "Holding more stock means you can deliver fast. But holding stock costs money. This reduces efficiency."
+                    }
+                  ],
+                  "conclusion": "The company must accept higher costs to achieve same-day delivery. Speed and low cost cannot both be maximised at the same time.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 1, Session 1 - Introduction to Supply Chain Management; Unit 1, Session 2 - Linking Strategy Development to Supply Chains"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 2",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain the concept of a make-or-buy decision.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "A make-or-buy decision means choosing whether to do something yourself or pay someone else to do it.",
+                  "mainPoints": [
+                    {
+                      "heading": "Make",
+                      "detail": "Make means producing the item or service internally."
+                    },
+                    {
+                      "heading": "Buy",
+                      "detail": "Buy means purchasing it from an external supplier."
+                    },
+                    {
+                      "heading": "Comparison",
+                      "detail": "The company compares costs, capabilities, and strategic importance."
+                    },
+                    {
+                      "heading": "Goal",
+                      "detail": "The goal is to get the best value."
+                    }
+                  ],
+                  "conclusion": "The make-or-buy decision is a critical strategic choice for organisations.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.1 - Selecting a Subcontractor"
+                }
+              },
+              {
+                "label": "B",
+                "question": "A manufacturing company currently produces its packaging materials internally. Management is considering outsourcing the activity to an external supplier because specialist packaging companies claim they can provide the service at lower cost. Explain four factors management should consider before deciding whether to outsource the packaging activity.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Before outsourcing packaging, management must carefully consider several factors.",
+                  "mainPoints": [
+                    {
+                      "heading": "Cost",
+                      "detail": "Compare internal cost with the supplier's price. Include all costs, not just the unit price."
+                    },
+                    {
+                      "heading": "Quality",
+                      "detail": "Will the supplier maintain the same quality standards? Check their track record."
+                    },
+                    {
+                      "heading": "Control",
+                      "detail": "Will the company lose control over packaging design and timing? This can affect production."
+                    },
+                    {
+                      "heading": "Capability",
+                      "detail": "Does the company have the skills to manage an external supplier? This is a new challenge."
+                    }
+                  ],
+                  "conclusion": "The company should only outsource if the benefits outweigh the risks.",
+                  "otherPossibleAnswers": "Capacity: Can the supplier handle the required volume? Reputation: What do other customers say about them?",
+                  "reference": "Unit 5, Session 2, 2.1 - Selecting a Subcontractor"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Assuming the company decides to outsource, explain four criteria that should be considered when selecting the supplier.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Selecting the right supplier is critical to the success of the outsourcing decision.",
+                  "mainPoints": [
+                    {
+                      "heading": "Technical Capability",
+                      "detail": "Can they produce the packaging to the required specification?"
+                    },
+                    {
+                      "heading": "Financial Stability",
+                      "detail": "Are they financially sound? Will they be around for the long term?"
+                    },
+                    {
+                      "heading": "Quality Control",
+                      "detail": "Do they have good quality procedures in place?"
+                    },
+                    {
+                      "heading": "Delivery Reliability",
+                      "detail": "Can they deliver on time, every time?"
+                    }
+                  ],
+                  "conclusion": "These criteria help ensure the selected supplier can meet the company's needs.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 5, Session 2, 2.1 - Selecting a Subcontractor"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 3",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain why organisations should not manage all suppliers in the same way.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Not all suppliers are the same. Some are critical. Some are simple. Managing them all the same is inefficient.",
+                  "mainPoints": [
+                    {
+                      "heading": "Different Importance",
+                      "detail": "Different suppliers have different levels of importance."
+                    },
+                    {
+                      "heading": "Different Items",
+                      "detail": "Some items are critical; others are routine."
+                    },
+                    {
+                      "heading": "Wasted Resources",
+                      "detail": "Managing all suppliers the same wastes time and money."
+                    },
+                    {
+                      "heading": "Focus Effort",
+                      "detail": "You should focus your effort where it matters most."
+                    }
+                  ],
+                  "conclusion": "Differentiated supplier management ensures resources are used effectively.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2 - Models of supplier relationships; Unit 4, Session 1 - Planning relationship procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "Using the Kraljic Purchasing Portfolio, explain the four categories of purchases and indicate an appropriate management strategy for each.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Kraljic's model helps you treat each supplier the right way based on profit impact and supply risk.",
+                  "mainPoints": [
+                    {
+                      "heading": "Strategic",
+                      "detail": "High profit impact, high supply risk. Critical items with few suppliers. Strategy: Build long-term partnerships. Collaborate closely."
+                    },
+                    {
+                      "heading": "Bottleneck",
+                      "detail": "Low profit impact, high supply risk. Unique items that are hard to replace. Strategy: Ensure supply continuity. Find alternative sources."
+                    },
+                    {
+                      "heading": "Leverage",
+                      "detail": "High profit impact, low supply risk. High-value items with many suppliers. Strategy: Negotiate hard for best prices. Use competitive bidding."
+                    },
+                    {
+                      "heading": "Non-critical",
+                      "detail": "Low profit impact, low supply risk. Standard items with many suppliers. Strategy: Keep it simple. Use standard procedures. Do not waste time."
+                    }
+                  ],
+                  "conclusion": "Kraljic's model helps organisations focus their efforts where they matter most.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 4, Session 2 - Models of supplier relationships; Unit 4, Session 1 - Planning relationship procurement"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain four ways supplier development and effective supplier relationship management can improve supply chain performance.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Supplier development and SRM can significantly improve supply chain performance.",
+                  "mainPoints": [
+                    {
+                      "heading": "Better Quality",
+                      "detail": "Helping suppliers improve means fewer defects."
+                    },
+                    {
+                      "heading": "Lower Costs",
+                      "detail": "Working together reduces waste and duplication."
+                    },
+                    {
+                      "heading": "Innovation",
+                      "detail": "Suppliers bring new ideas and technologies."
+                    },
+                    {
+                      "heading": "Reliability",
+                      "detail": "Strong relationships mean suppliers prioritise you when supply is tight."
+                    }
+                  ],
+                  "conclusion": "SRM and supplier development make the whole chain stronger.",
+                  "otherPossibleAnswers": "Risk reduction: Close relationships help you spot problems early. Faster response: Good communication speeds up problem-solving.",
+                  "reference": "Unit 4, Session 2 - Models of supplier relationships; Unit 4, Session 1 - Planning relationship procurement"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Question 4",
+            "totalMarks": 20,
+            "caseStudy": null,
+            "subQuestions": [
+              {
+                "label": "A",
+                "question": "Explain what is meant by global sourcing.",
+                "marks": 4,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Global sourcing means buying from suppliers in other countries. It can save money but comes with risks.",
+                  "mainPoints": [
+                    {
+                      "heading": "Definition",
+                      "detail": "Global sourcing means buying goods and services from international markets."
+                    },
+                    {
+                      "heading": "Scope",
+                      "detail": "It involves looking at suppliers worldwide, not just locally."
+                    },
+                    {
+                      "heading": "Strategic Nature",
+                      "detail": "It is more strategic than simple international purchasing."
+                    },
+                    {
+                      "heading": "Goal",
+                      "detail": "The goal is to get better value, quality, or availability."
+                    }
+                  ],
+                  "conclusion": "Global sourcing is a strategic approach to procurement that extends beyond national borders.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1 - Global and international procurement"
+                }
+              },
+              {
+                "label": "B",
+                "question": "A Ghanaian company currently purchases most of its raw materials locally. Management has identified overseas suppliers that offer lower prices and wider product choices. Explain four benefits the company may obtain from sourcing internationally.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "International sourcing can provide several benefits to the company.",
+                  "mainPoints": [
+                    {
+                      "heading": "Lower Prices",
+                      "detail": "Overseas suppliers may have lower costs. This saves money."
+                    },
+                    {
+                      "heading": "Wider Choice",
+                      "detail": "You can find products not available locally."
+                    },
+                    {
+                      "heading": "Better Quality",
+                      "detail": "Some countries specialise in certain products. You get better quality."
+                    },
+                    {
+                      "heading": "Strategic Security",
+                      "detail": "Having a second source in another country reduces risk."
+                    }
+                  ],
+                  "conclusion": "International sourcing can provide cost, quality, and strategic advantages.",
+                  "otherPossibleAnswers": "N/A",
+                  "reference": "Unit 6, Session 1 - Global and international procurement"
+                }
+              },
+              {
+                "label": "C",
+                "question": "Explain four risks associated with global sourcing and indicate how the company can manage each risk.",
+                "marks": 8,
+                "commandWord": "Explain",
+                "answer": {
+                  "introduction": "Global sourcing comes with risks that must be managed effectively.",
+                  "mainPoints": [
+                    {
+                      "heading": "Currency Fluctuations",
+                      "detail": "Exchange rates can change. Manage by: Use hedging. Buy forward contracts."
+                    },
+                    {
+                      "heading": "Political Instability",
+                      "detail": "Strikes, wars, or government changes can disrupt supply. Manage by: Diversify suppliers across different countries."
+                    },
+                    {
+                      "heading": "Quality Problems",
+                      "detail": "It is harder to check quality from far away. Manage by: Set clear specifications. Use inspections."
+                    },
+                    {
+                      "heading": "Longer Lead Times",
+                      "detail": "Goods take longer to arrive. Manage by: Hold safety stock. Plan orders earlier."
+                    }
+                  ],
+                  "conclusion": "Good management makes global sourcing work despite the risks.",
+                  "otherPossibleAnswers": "Communication problems: Language and time differences. Cultural differences: Different business practices.",
+                  "reference": "Unit 6, Session 1 - Global and international procurement"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
